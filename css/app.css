@@ -19,7 +19,7 @@ header h1 { margin: 0; font-size: 16px; font-weight: 650; }
 header h1 span { color: var(--acc); font-weight: 500; }
 nav a { margin-left: 12px; color: var(--muted); text-decoration: none; }
 nav a:hover, nav a.active { color: var(--text); }
-.layout { display: grid; grid-template-columns: 320px 1fr 1fr; height: calc(100% - 88px); }
+.layout { display: grid; grid-template-columns: 320px 1fr; height: calc(100% - 88px); }
 .filters, .list { border-right: 1px solid var(--line); overflow: auto; background: var(--panel); }
 .filters { padding: 12px; }
 .filters label { display: block; font-size: 12px; color: var(--muted); margin: 10px 0 4px; }
@@ -40,11 +40,11 @@ nav a:hover, nav a.active { color: var(--text); }
 .meta { color: var(--muted); font-size: 13px; }
 .tag { display: inline-block; margin: 4px 4px 0 0; padding: 1px 6px; border: 1px solid var(--line);
   border-radius: 99px; font-size: 11px; color: var(--muted); }
-#map { height: 100%; min-height: 400px; }
+#map { height: 100%; min-height: 400px; min-width: 0; }
 .about { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
 footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
 @media (max-width: 900px) {
-  .layout { grid-template-columns: 1fr; grid-template-rows: auto 50vh 40vh; }
+  .layout { grid-template-columns: 1fr; grid-template-rows: auto 60vh; height: auto; }
   .filters { max-height: 40vh; }
 }
 .view-toggle button {
@@ -59,7 +59,5 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
   color: var(--acc);
   border-color: #6e5a32;
 }
-#layout[data-view="list"] { grid-template-columns: 320px 1fr; }
 #layout[data-view="list"] #map { display: none; }
-#layout[data-view="map"] { grid-template-columns: 320px 1fr; }
 #layout[data-view="map"] .list { display: none; }

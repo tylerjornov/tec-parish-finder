@@ -19,6 +19,7 @@ function haversine(a, b) {
 
 function fillSelect(id, values) {
   const el = $(id);
+  if (!el) return;
   values.forEach((v) => {
     const o = document.createElement("option");
     o.value = v;
@@ -66,6 +67,7 @@ let map, markers;
 
 function ensureMap() {
   if (map) return;
+  if (typeof L === "undefined") throw new Error("Leaflet did not load");
   map = L.map("map").setView([34.0, -81.0], 8);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
@@ -104,6 +106,7 @@ function render() {
 
 function paintMap(list) {
   ensureMap();
+  map.invalidateSize();
   markers.clearLayers();
   const pts = [];
   list.forEach((p) => {
@@ -116,7 +119,11 @@ function paintMap(list) {
     pts.push([p.lat, p.lon]);
   });
   if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
-  setTimeout(() => { if (map) map.invalidateSize(); }, 100);
+  setTimeout(() => {
+    if (!map) return;
+    map.invalidateSize();
+    if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
+  }, 100);
 }
 
 function select(p) {
@@ -167,43 +174,36 @@ function parseOrigin() {
 }
 
 function setView(mode) {
-  const layout = document.getElementById("layout");
+  const layout = $("layout");
+  if (!layout) return;
   layout.dataset.view = mode;
-  document.getElementById("view-list").classList.toggle("on", mode === "list");
-  document.getElementById("view-map").classList.toggle("on", mode === "map");
+  $("view-list")?.classList.toggle("on", mode === "list");
+  $("view-map")?.classList.toggle("on", mode === "map");
   if (mode === "map") {
-    paintMap(filtered());
+    // #map is visible now; wait for layout before creating/sizing Leaflet.
+    requestAnimationFrame(() => {
+      try {
+        paintMap(filtered());
+      } catch (err) {
+        console.error(err);
+        $("status").textContent = "Map failed to load: " + err.message;
+      }
+    });
   }
 }
 
-Promise.all([
-  fetch("data/parishes.json").then((r) => r.json()),
-  fetch("data/schema.json").then((r) => r.json()),
-]).then(([parishes, schema]) => {
-  state.all = parishes;
-  state.schema = schema;
-  const states = [...new Set(parishes.map((p) => p.state).filter(Boolean))].sort();
-  const dioceses = [...new Set(parishes.map((p) => p.diocese).filter(Boolean))].sort();
-  fillSelect("f-state", states);
-  fillSelect("f-diocese", dioceses);
-  fillSelect("f-churchmanship", schema.list_options.churchmanship);
-  fillSelect("f-wo-serve", schema.list_options.women_serve_priests);
-  fillSelect("f-wo-affirmed", schema.list_options.wo_affirmed);
-  fillSelect("f-lgbt-serve", schema.list_options.lgbt_serve_priests);
-  fillSelect("f-lgbt-affirmed", schema.list_options.lgbt_ordination_affirmed);
-  fillSelect("f-ssm", schema.list_options.ssm);
-  fillSelect("f-spectrum", schema.list_options.spectrum);
+function bindUi() {
   document.querySelectorAll(".filters input, .filters select").forEach((el) => {
     el.addEventListener("change", render);
     el.addEventListener("input", () => {
       if (el.id === "q") render();
     });
   });
-  $("apply-origin").onclick = parseOrigin;
-  $("origin").addEventListener("keydown", (e) => {
+  $("apply-origin")?.addEventListener("click", parseOrigin);
+  $("origin")?.addEventListener("keydown", (e) => {
     if (e.key === "Enter") parseOrigin();
   });
-  $("reset").onclick = () => {
+  $("reset")?.addEventListener("click", () => {
     document.querySelectorAll(".filters input, .filters select").forEach((el) => {
       if (el.tagName === "SELECT") el.selectedIndex = 0;
       else el.value = "";
@@ -211,7 +211,46 @@ Promise.all([
     state.origin = null;
     render();
   });
-  document.getElementById("view-list").onclick = () => setView("list");
-  document.getElementById("view-map").onclick = () => setView("map");
-  render();
-});
+  $("view-list")?.addEventListener("click", () => setView("list"));
+  $("view-map")?.addEventListener("click", () => setView("map"));
+}
+
+function getJson(url) {
+  return fetch(url).then((r) => {
+    if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+    return r.json();
+  });
+}
+
+$("status").textContent = "Loading parishes…";
+
+Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
+  .then(([parishes, schema]) => {
+    state.all = parishes;
+    state.schema = schema;
+    const opts = (schema && schema.list_options) || {};
+    const states = [...new Set(parishes.map((p) => p.state).filter(Boolean))].sort();
+    const dioceses = [...new Set(parishes.map((p) => p.diocese).filter(Boolean))].sort();
+    fillSelect("f-state", states);
+    fillSelect("f-diocese", dioceses);
+    fillSelect("f-churchmanship", opts.churchmanship || []);
+    fillSelect("f-wo-serve", opts.women_serve_priests || []);
+    fillSelect("f-wo-affirmed", opts.wo_affirmed || []);
+    fillSelect("f-lgbt-serve", opts.lgbt_serve_priests || []);
+    fillSelect("f-lgbt-affirmed", opts.lgbt_ordination_affirmed || []);
+    fillSelect("f-ssm", opts.ssm || []);
+    fillSelect("f-spectrum", opts.spectrum || []);
+
+    // Render the list first so a UI-binding error can't leave it empty.
+    render();
+    try {
+      bindUi();
+    } catch (err) {
+      console.error("UI binding failed:", err);
+    }
+  })
+  .catch((err) => {
+    console.error(err);
+    $("status").textContent =
+      "Could not load parish data (" + err.message + "). If opening the file directly, serve it over http.";
+  });
