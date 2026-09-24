@@ -46,3 +46,19 @@ nav a:hover, nav a.active { color: var(--text); }
   .layout { grid-template-columns: 1fr; grid-template-rows: auto 50vh 40vh; }
   .filters { max-height: 40vh; }
 }
+.view-toggle button {
+  margin-left: 6px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+}
+.view-toggle button.on {
+  color: var(--acc);
+  border-color: #6e5a32;
+}
+#layout[data-view="list"] { grid-template-columns: 320px 1fr 0; }
+#layout[data-view="list"] #map { display: none; }
+#layout[data-view="map"] { grid-template-columns: 320px 0 1fr; }
+#layout[data-view="map"] .list { display: none; }

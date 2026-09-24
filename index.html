@@ -14,8 +14,12 @@
       <a class="active" href="index.html">Directory</a>
       <a href="about.html">About</a>
     </nav>
+    <div class="view-toggle">
+      <button type="button" id="view-list" class="on">List</button>
+      <button type="button" id="view-map">Map</button>
+    </div>
   </header>
-  <div class="layout">
+  <div class="layout" id="layout" data-view="list">
     <aside class="filters">
       <label>Search</label>
       <input id="q" placeholder="Name, city, notes">
@@ -53,7 +57,6 @@
     <section class="list" id="list"></section>
     <div id="map"></div>
   </div>
-    </div>
   <footer>
     © 2026 Tyler Jornov. <a href="about.html">Reuse terms</a>
   </footer>

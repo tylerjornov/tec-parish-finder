@@ -195,3 +195,14 @@ Promise.all([
   };
   render();
 });
+function setView(mode) {
+  const layout = document.getElementById("layout");
+  layout.dataset.view = mode;
+  document.getElementById("view-list").classList.toggle("on", mode === "list");
+  document.getElementById("view-map").classList.toggle("on", mode === "map");
+  if (mode === "map" && typeof map !== "undefined" && map) {
+    setTimeout(() => map.invalidateSize(), 50);
+  }
+}
+document.getElementById("view-list").onclick = () => setView("list");
+document.getElementById("view-map").onclick = () => setView("map");
