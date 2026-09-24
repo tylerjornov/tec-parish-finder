@@ -1,0 +1,91 @@
+{
+  "source_columns": [
+    "Church Name",
+    "Website",
+    "Full Address",
+    "State",
+    "Churchmanship",
+    "Women Serve As Priests Here",
+    "Womens Ordination is Affirmed Here",
+    "LGBT People Serve As Priests Here",
+    "LGBT Ordination is Affirmed Here",
+    "Affirming of SSM",
+    "Conservative/Liberal Spectrum",
+    "Contact Info",
+    "Notes",
+    "Verified/Unverified"
+  ],
+  "optional_columns": ["Diocese", "Lat", "Lon", "ASA"],
+  "json_fields": {
+    "name": "Church Name",
+    "website": "Website",
+    "address": "Full Address",
+    "state": "State",
+    "diocese": "Diocese",
+    "churchmanship": "Churchmanship",
+    "women_serve_priests": "Women Serve As Priests Here",
+    "wo_affirmed": "Womens Ordination is Affirmed Here",
+    "lgbt_serve_priests": "LGBT People Serve As Priests Here",
+    "lgbt_ordination_affirmed": "LGBT Ordination is Affirmed Here",
+    "ssm": "Affirming of SSM",
+    "spectrum": "Conservative/Liberal Spectrum",
+    "contact": "Contact Info",
+    "notes": "Notes",
+    "verified": "Verified/Unverified",
+    "lat": "Lat",
+    "lon": "Lon",
+    "asa": "ASA"
+  },
+  "list_options": {
+    "churchmanship": [
+      "Anglo-Papalist",
+      "Anglo-Catholic",
+      "Prayer Book Catholic",
+      "Old High Church",
+      "Broad Church",
+      "Old Low Church",
+      "Evangelical",
+      "Charismatic"
+    ],
+    "women_serve_priests": [
+      "Yes - Diocesan Bishop",
+      "Yes - Rector",
+      "Yes - Other Priest",
+      "Yes - Deacon",
+      "No - Church lacks any priests",
+      "No - All priests are male"
+    ],
+    "wo_affirmed": [
+      "Yes - No Exceptions",
+      "Yes - Priesthood and Diaconate",
+      "Yes - Diaconate Only",
+      "No - Entirely Rejected"
+    ],
+    "lgbt_serve_priests": [
+      "Yes - Diocesan Bishop",
+      "Yes - Rector",
+      "Yes - Other Priest",
+      "Yes - Deacon",
+      "No - Church lacks any priests",
+      "No - None of the priests here are LGBT"
+    ],
+    "lgbt_ordination_affirmed": [
+      "Yes - No Exceptions",
+      "Yes - Priesthood and Diaconate",
+      "Yes - Diaconate Only",
+      "No - Entirely Rejected"
+    ],
+    "ssm": [
+      "Yes - Practiced",
+      "Yes - Affirmed, not practiced",
+      "No - Alternative blessings practiced",
+      "No - Homosexuality seen as sinful"
+    ],
+    "spectrum": [
+      "Inclusive Orthodox - Socially Progressive & Theologically Conservative",
+      "Traditional Orthodox - Both Theologically & Socially Conservative",
+      "Moderate Liberal - Theologically & Socially Progressive, fully affirms the three creeds",
+      "Progressive - Theologically & Socially Progressive, rejects some aspect of Creedal faith"
+    ]
+  }
+}
