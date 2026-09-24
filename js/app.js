@@ -66,7 +66,7 @@ let map, markers;
 
 function ensureMap() {
   if (map) return;
-  map = L.map("map").setView([39.8, -98.6], 4);
+  map = L.map("map").setView([34.0, -81.0], 8);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
     maxZoom: 18,
@@ -96,6 +96,13 @@ function render() {
     wrap.appendChild(div);
   });
 
+  const layout = document.getElementById("layout");
+  if (layout && layout.dataset.view === "map") {
+    paintMap(list);
+  }
+}
+
+function paintMap(list) {
   ensureMap();
   markers.clearLayers();
   const pts = [];
@@ -109,13 +116,14 @@ function render() {
     pts.push([p.lat, p.lon]);
   });
   if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
+  setTimeout(() => { if (map) map.invalidateSize(); }, 100);
 }
 
 function select(p) {
   [...document.querySelectorAll(".card")].forEach((c) => {
     c.classList.toggle("active", c.querySelector("h2")?.textContent === p.name);
   });
-  if (p.lat != null) {
+  if (p.lat != null && document.getElementById("layout").dataset.view === "map") {
     ensureMap();
     map.setView([p.lat, p.lon], 13);
   }
@@ -158,6 +166,16 @@ function parseOrigin() {
     });
 }
 
+function setView(mode) {
+  const layout = document.getElementById("layout");
+  layout.dataset.view = mode;
+  document.getElementById("view-list").classList.toggle("on", mode === "list");
+  document.getElementById("view-map").classList.toggle("on", mode === "map");
+  if (mode === "map") {
+    paintMap(filtered());
+  }
+}
+
 Promise.all([
   fetch("data/parishes.json").then((r) => r.json()),
   fetch("data/schema.json").then((r) => r.json()),
@@ -192,17 +210,8 @@ Promise.all([
     });
     state.origin = null;
     render();
-  };
+  });
+  document.getElementById("view-list").onclick = () => setView("list");
+  document.getElementById("view-map").onclick = () => setView("map");
   render();
 });
-function setView(mode) {
-  const layout = document.getElementById("layout");
-  layout.dataset.view = mode;
-  document.getElementById("view-list").classList.toggle("on", mode === "list");
-  document.getElementById("view-map").classList.toggle("on", mode === "map");
-  if (mode === "map" && typeof map !== "undefined" && map) {
-    setTimeout(() => map.invalidateSize(), 50);
-  }
-}
-document.getElementById("view-list").onclick = () => setView("list");
-document.getElementById("view-map").onclick = () => setView("map");
