@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TEC Parish Directory</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header>
+    <h1>TEC Parish Directory <span>preview</span></h1>
+    <nav>
+      <a class="active" href="index.html">Directory</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <div class="layout">
+    <aside class="filters">
+      <label>Search</label>
+      <input id="q" placeholder="Name, city, notes">
+      <label>Near (address, city ST, or lat,lon)</label>
+      <input id="origin" placeholder="Sumter, SC">
+      <button type="button" id="apply-origin">Sort by closest</button>
+      <label>State</label>
+      <select id="f-state"><option value="">Any</option></select>
+      <label>Diocese</label>
+      <select id="f-diocese"><option value="">Any</option></select>
+      <label>Churchmanship</label>
+      <select id="f-churchmanship"><option value="">Any</option></select>
+      <label>Women serve as priests here</label>
+      <select id="f-wo-serve"><option value="">Any</option></select>
+      <label>Women’s ordination affirmed</label>
+      <select id="f-wo-affirmed"><option value="">Any</option></select>
+      <label>LGBT people serve as priests here</label>
+      <select id="f-lgbt-serve"><option value="">Any</option></select>
+      <label>LGBT ordination affirmed</label>
+      <select id="f-lgbt-affirmed"><option value="">Any</option></select>
+      <label>Same-sex marriage</label>
+      <select id="f-ssm"><option value="">Any</option></select>
+      <label>Spectrum</label>
+      <select id="f-spectrum"><option value="">Any</option></select>
+      <label>Verification</label>
+      <select id="f-verified">
+        <option value="">Any</option>
+        <option>Website Only</option>
+        <option>Unverified</option>
+        <option>Verified</option>
+      </select>
+      <button type="button" id="reset">Clear filters</button>
+      <p id="status"></p>
+    </aside>
+    <section class="list" id="list"></section>
+    <div id="map"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
