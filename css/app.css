@@ -17,6 +17,7 @@ header {
 }
 header h1 { margin: 0; font-size: 16px; font-weight: 650; }
 header h1 span { color: var(--acc); font-weight: 500; }
+header nav { margin-right: auto; }
 nav a { margin-left: 12px; color: var(--muted); text-decoration: none; }
 nav a:hover, nav a.active { color: var(--text); }
 .layout { display: grid; grid-template-columns: 320px 1fr; height: calc(100% - 88px); }
@@ -47,17 +48,18 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
   .layout { grid-template-columns: 1fr; grid-template-rows: auto 60vh; height: auto; }
   .filters { max-height: 40vh; }
 }
-.view-toggle button {
-  margin-left: 6px;
-  padding: 5px 10px;
-  border: 1px solid var(--line);
-  background: var(--panel);
-  color: var(--muted);
-  cursor: pointer;
+.view-toggle { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.view-toggle span { color: var(--muted); cursor: pointer; user-select: none; }
+.view-toggle span.on { color: var(--acc); }
+#view-switch {
+  position: relative; width: 40px; height: 22px; padding: 0; cursor: pointer;
+  border: 1px solid #6e5a32; border-radius: 99px; background: var(--panel);
 }
-.view-toggle button.on {
-  color: var(--acc);
-  border-color: #6e5a32;
+#view-switch::after {
+  content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px;
+  border-radius: 50%; background: var(--acc); transition: transform 0.15s;
 }
+#view-switch[aria-checked="true"]::after { transform: translateX(18px); }
+#view-switch:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 #layout[data-view="list"] #map { display: none; }
 #layout[data-view="map"] .list { display: none; }

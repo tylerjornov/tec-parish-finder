@@ -179,6 +179,7 @@ function setView(mode) {
   layout.dataset.view = mode;
   $("view-list")?.classList.toggle("on", mode === "list");
   $("view-map")?.classList.toggle("on", mode === "map");
+  $("view-switch")?.setAttribute("aria-checked", String(mode === "map"));
   if (mode === "map") {
     // #map is visible now; wait for layout before creating/sizing Leaflet.
     requestAnimationFrame(() => {
@@ -213,6 +214,9 @@ function bindUi() {
   });
   $("view-list")?.addEventListener("click", () => setView("list"));
   $("view-map")?.addEventListener("click", () => setView("map"));
+  $("view-switch")?.addEventListener("click", () =>
+    setView($("layout").dataset.view === "map" ? "list" : "map")
+  );
 }
 
 function getJson(url) {

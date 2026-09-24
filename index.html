@@ -15,8 +15,9 @@
       <a href="about.html">About</a>
     </nav>
     <div class="view-toggle">
-      <button type="button" id="view-list" class="on">List</button>
-      <button type="button" id="view-map">Map</button>
+      <span id="view-list" class="on">List</span>
+      <button type="button" id="view-switch" role="switch" aria-checked="false" aria-label="Show map"></button>
+      <span id="view-map">Map</span>
     </div>
   </header>
   <div class="layout" id="layout" data-view="list">
