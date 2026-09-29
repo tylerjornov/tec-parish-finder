@@ -159,15 +159,20 @@ function escapeHtml(s) {
   );
 }
 
+// Bumped on every new origin request so a slow geocode reply can't
+// overwrite a newer origin (or one the user has since cleared).
+let originSeq = 0;
+
 function parseOrigin() {
+  const seq = ++originSeq;
   const raw = $("origin").value.trim();
   if (!raw) {
     state.origin = null;
     render();
     return;
   }
-  const m = raw.match(/^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$/);
-  if (m) {
+  const m = raw.match(/^(-?\d+(\.\d+)?)\s*,\s*(-?\d+(\.\d+)?)$/);
+  if (m && Math.abs(m[1]) <= 90 && Math.abs(m[3]) <= 180) {
     state.origin = { lat: +m[1], lon: +m[3] };
     render();
     return;
@@ -178,6 +183,7 @@ function parseOrigin() {
   fetch(url, { headers: { Accept: "application/json" } })
     .then((r) => r.json())
     .then((hits) => {
+      if (seq !== originSeq) return;
       if (!hits.length) {
         $("status").textContent = "Could not geocode that location. Try city, ST or lat,lon.";
         return;
@@ -186,6 +192,7 @@ function parseOrigin() {
       render();
     })
     .catch(() => {
+      if (seq !== originSeq) return;
       $("status").textContent = "Geocode failed. Use lat,lon for now.";
     });
 }
@@ -216,6 +223,7 @@ function bindUi() {
       if (el.tagName === "SELECT") el.selectedIndex = 0;
       else el.value = "";
     });
+    originSeq++;
     state.origin = null;
     render();
   });
