@@ -72,7 +72,12 @@ const DEFAULT_ZOOM = 8;
 function ensureMap() {
   if (map) return;
   if (typeof L === "undefined") throw new Error("Leaflet did not load");
-  map = L.map("map").setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+  const animate = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+  map = L.map("map", {
+    zoomAnimation: animate,
+    fadeAnimation: animate,
+    markerZoomAnimation: animate,
+  }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
     maxZoom: 18,

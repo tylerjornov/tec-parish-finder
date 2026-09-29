@@ -1,15 +1,30 @@
 :root {
   --bg: #0f1218;
   --panel: #171c25;
+  --header: #12161d;
+  --field: #10141b;
+  --active: #1d2430;
   --line: #2a3140;
+  --control: #687286;
   --text: #e8edf5;
   --muted: #8b95a8;
   --acc: #c9a45c;
+  --acc-line: #8f7644;
+  --acc-bg: #2a2418;
   --link: #8cb4ff;
+}
+/* High-contrast palette for visitors whose OS asks for more contrast
+   (macOS/iOS "Increase contrast", Android high-contrast text, etc.). */
+@media (prefers-contrast: more) {
+  :root {
+    --bg: #000; --panel: #000; --header: #000; --field: #000; --active: #1f1f1f;
+    --line: #8a8a8a; --control: #fff; --text: #fff; --muted: #d0d6e2;
+    --acc: #ffd24d; --acc-line: #ffd24d; --acc-bg: #000; --link: #9cc3ff;
+  }
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
-  font: 15px/1.4 "Segoe UI", system-ui, sans-serif; }
+  font: 0.9375rem/1.4 "Segoe UI", system-ui, sans-serif; }
 a { color: var(--link); }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 .visually-hidden {
@@ -18,53 +33,55 @@ a { color: var(--link); }
 }
 .skip {
   position: absolute; left: 8px; top: -48px; z-index: 2000; padding: 6px 10px;
-  background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px;
+  background: var(--panel); color: var(--text); border: 1px solid var(--control); border-radius: 6px;
 }
 .skip:focus { top: 8px; }
 header {
   display: flex; gap: 16px; align-items: center; justify-content: space-between;
-  padding: 10px 16px; border-bottom: 1px solid var(--line); background: #12161d;
+  padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--header);
 }
-header h1 { margin: 0; font-size: 16px; font-weight: 650; }
+header h1 { margin: 0; font-size: 1rem; font-weight: 650; }
 header h1 span { color: var(--acc); font-weight: 500; }
 header nav { margin-right: auto; }
 nav a { display: inline-block; padding: 4px 0; margin-left: 12px; color: var(--muted); text-decoration: none; }
 nav a:hover, nav a[aria-current="page"] { color: var(--text); }
-.layout { display: grid; grid-template-columns: 320px 1fr; height: calc(100% - 88px); }
+body.app { display: flex; flex-direction: column; }
+.layout { display: grid; grid-template-columns: 320px 1fr; flex: 1; min-height: 0; }
 .filters, .list { border-right: 1px solid var(--line); overflow: auto; background: var(--panel); }
 .filters { padding: 12px; }
-.filters label { display: block; font-size: 12px; color: var(--muted); margin: 10px 0 4px; }
+.filters label { display: block; font-size: 0.75rem; color: var(--muted); margin: 10px 0 4px; }
 .filters input, .filters select {
-  width: 100%; background: #10141b; color: var(--text); border: 1px solid var(--line);
+  width: 100%; background: var(--field); color: var(--text); border: 1px solid var(--control);
   border-radius: 6px; padding: 7px 8px;
 }
 .filters button {
   margin-top: 12px; width: 100%; padding: 8px; border-radius: 6px;
-  border: 1px solid #6e5a32; background: #2a2418; color: var(--acc); cursor: pointer;
+  border: 1px solid var(--acc-line); background: var(--acc-bg); color: var(--acc); cursor: pointer;
 }
-#status { color: var(--muted); font-size: 12px; margin: 8px 0 0; }
+#status { color: var(--muted); font-size: 0.75rem; margin: 8px 0 0; }
 .card {
   padding: 12px 14px; border-bottom: 1px solid var(--line); cursor: pointer;
 }
-.card:hover, .card.active { background: #1d2430; }
-.card h2 { margin: 0 0 4px; font-size: 15px; }
-.meta { color: var(--muted); font-size: 13px; }
+.card:hover, .card.active { background: var(--active); }
+.card h2 { margin: 0 0 4px; font-size: 0.9375rem; }
+.meta { color: var(--muted); font-size: 0.8125rem; }
 .tag { display: inline-block; margin: 4px 4px 0 0; padding: 1px 6px; border: 1px solid var(--line);
-  border-radius: 99px; font-size: 11px; color: var(--muted); }
+  border-radius: 99px; font-size: 0.6875rem; color: var(--muted); }
 #map { height: 100%; min-height: 400px; min-width: 0; }
 .leaflet-control-attribution a { text-decoration: underline; }
 .about { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
-footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.8125rem; }
 @media (max-width: 900px) {
-  .layout { grid-template-columns: 1fr; grid-template-rows: auto 60vh; height: auto; }
+  body.app { display: block; }
+  .layout { grid-template-columns: 1fr; grid-template-rows: auto 60vh; }
   .filters { max-height: 40vh; }
 }
-.view-toggle { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.view-toggle { display: flex; align-items: center; gap: 8px; font-size: 0.8125rem; }
 .view-toggle span { color: var(--muted); cursor: pointer; user-select: none; }
 .view-toggle span.on { color: var(--acc); }
 #view-switch {
   position: relative; width: 40px; height: 22px; padding: 0; cursor: pointer;
-  border: 1px solid #6e5a32; border-radius: 99px; background: var(--panel);
+  border: 1px solid var(--acc-line); border-radius: 99px; background: var(--panel);
 }
 #view-switch::after {
   content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px;
@@ -73,3 +90,19 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
 #view-switch[aria-checked="true"]::after { transform: translateX(18px); }
 #layout[data-view="list"] #map { display: none; }
 #layout[data-view="map"] .list { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  #view-switch::after { transition: none; }
+}
+@media (prefers-contrast: more) {
+  nav a { text-decoration: underline; }
+  .card.active { outline: 2px solid var(--acc); outline-offset: -2px; }
+  .leaflet-container .leaflet-control-attribution { background: #000; color: #fff; }
+  .leaflet-container .leaflet-control-attribution a { color: var(--link); }
+}
+/* Windows contrast themes replace our colors; keep the switch knob and the
+   selected card visible with system colors. */
+@media (forced-colors: active) {
+  #view-switch::after { forced-color-adjust: none; background: ButtonText; }
+  .card.active { outline: 2px solid Highlight; outline-offset: -2px; }
+  .view-toggle span.on { text-decoration: underline; }
+}
