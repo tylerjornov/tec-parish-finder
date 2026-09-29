@@ -2,7 +2,6 @@ const $ = (id) => document.getElementById(id);
 
 const state = {
   all: [],
-  schema: null,
   origin: null,
 };
 
@@ -118,11 +117,13 @@ function paintMap(list) {
     markers.addLayer(m);
     pts.push([p.lat, p.lon]);
   });
-  if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
-  setTimeout(() => {
-    if (!map) return;
-    map.invalidateSize();
+  const fit = () => {
     if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
+  };
+  fit();
+  setTimeout(() => {
+    map.invalidateSize();
+    fit();
   }, 100);
 }
 
@@ -231,7 +232,6 @@ $("status").textContent = "Loading parishes…";
 Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
   .then(([parishes, schema]) => {
     state.all = parishes;
-    state.schema = schema;
     const opts = (schema && schema.list_options) || {};
     const states = [...new Set(parishes.map((p) => p.state).filter(Boolean))].sort();
     const dioceses = [...new Set(parishes.map((p) => p.diocese).filter(Boolean))].sort();
