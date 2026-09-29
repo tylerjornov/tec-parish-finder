@@ -84,6 +84,7 @@ function render() {
       state.origin && p.lat != null ? `${haversine(state.origin, p).toFixed(1)} mi` : "";
     const div = document.createElement("article");
     div.className = "card";
+    div.dataset.id = p.id;
     div.innerHTML = `
       <h2>${escapeHtml(p.name)}</h2>
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
@@ -138,9 +139,9 @@ function paintMap(list) {
 
 function select(p) {
   document.querySelectorAll(".card").forEach((c) => {
-    c.classList.toggle("active", c.querySelector("h2")?.textContent === p.name);
+    c.classList.toggle("active", c.dataset.id === p.id);
   });
-  if (p.lat != null && $("layout").dataset.view === "map") {
+  if (p.lat != null && p.lon != null && $("layout").dataset.view === "map") {
     ensureMap();
     map.setView([p.lat, p.lon], 13);
   }
