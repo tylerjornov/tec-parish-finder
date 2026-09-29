@@ -21,8 +21,7 @@ MAP = SCHEMA["json_fields"]
 
 def slug(name: str, address: str, i: int) -> str:
     base = re.sub(r"[^a-z0-9]+", "-", f"{name}-{address}".lower()).strip("-")
-    base = base[:80] or f"parish-{i}"
-    return base
+    return base[:80] or f"parish-{i}"
 
 
 def cell(row: dict, header: str):
@@ -65,9 +64,9 @@ def main(xlsx_path: str) -> None:
         item = {"id": ident}
         for field, col in MAP.items():
             if field in ("lat", "lon", "asa"):
-                item[field] = num(cell(rec, col)) if col in rec else None
+                item[field] = num(cell(rec, col))
             else:
-                item[field] = cell(rec, col) if col in rec else ""
+                item[field] = cell(rec, col)
         rows.append(item)
     OUT.write_text(json.dumps(rows, indent=2, ensure_ascii=False) + "\n")
     print(f"Wrote {len(rows)} parishes → {OUT}")
