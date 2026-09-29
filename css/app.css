@@ -51,7 +51,6 @@ header {
   padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--header);
 }
 header h1 { margin: 0; font-size: 1rem; font-weight: 650; }
-header h1 span { color: var(--acc); font-weight: 500; }
 header nav { margin-right: auto; }
 nav a { display: inline-block; padding: 4px 0; margin-left: 12px; color: var(--muted); text-decoration: none; }
 nav a:hover, nav a[aria-current="page"] { color: var(--text); }
