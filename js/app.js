@@ -60,11 +60,13 @@ function filtered() {
 }
 
 let map, markers;
+const DEFAULT_CENTER = [34.0, -81.0];
+const DEFAULT_ZOOM = 8;
 
 function ensureMap() {
   if (map) return;
   if (typeof L === "undefined") throw new Error("Leaflet did not load");
-  map = L.map("map").setView([34.0, -81.0], 8);
+  map = L.map("map").setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
     maxZoom: 18,
@@ -96,7 +98,16 @@ function render() {
 
   const layout = $("layout");
   if (layout && layout.dataset.view === "map") {
+    tryPaintMap(list);
+  }
+}
+
+function tryPaintMap(list) {
+  try {
     paintMap(list);
+  } catch (err) {
+    console.error(err);
+    $("status").textContent = "Map failed to load: " + err.message;
   }
 }
 
@@ -116,6 +127,7 @@ function paintMap(list) {
   });
   const fit = () => {
     if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
+    else map.setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   };
   fit();
   setTimeout(() => {
@@ -180,14 +192,7 @@ function setView(mode) {
   $("view-switch")?.setAttribute("aria-checked", String(mode === "map"));
   if (mode === "map") {
     // #map is visible now; wait for layout before creating/sizing Leaflet.
-    requestAnimationFrame(() => {
-      try {
-        paintMap(filtered());
-      } catch (err) {
-        console.error(err);
-        $("status").textContent = "Map failed to load: " + err.message;
-      }
-    });
+    requestAnimationFrame(() => tryPaintMap(filtered()));
   }
 }
 
