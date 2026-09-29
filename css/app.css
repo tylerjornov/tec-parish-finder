@@ -11,6 +11,16 @@
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
   font: 15px/1.4 "Segoe UI", system-ui, sans-serif; }
 a { color: var(--link); }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip {
+  position: absolute; left: 8px; top: -48px; z-index: 2000; padding: 6px 10px;
+  background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px;
+}
+.skip:focus { top: 8px; }
 header {
   display: flex; gap: 16px; align-items: center; justify-content: space-between;
   padding: 10px 16px; border-bottom: 1px solid var(--line); background: #12161d;
@@ -18,8 +28,8 @@ header {
 header h1 { margin: 0; font-size: 16px; font-weight: 650; }
 header h1 span { color: var(--acc); font-weight: 500; }
 header nav { margin-right: auto; }
-nav a { margin-left: 12px; color: var(--muted); text-decoration: none; }
-nav a:hover, nav a.active { color: var(--text); }
+nav a { display: inline-block; padding: 4px 0; margin-left: 12px; color: var(--muted); text-decoration: none; }
+nav a:hover, nav a[aria-current="page"] { color: var(--text); }
 .layout { display: grid; grid-template-columns: 320px 1fr; height: calc(100% - 88px); }
 .filters, .list { border-right: 1px solid var(--line); overflow: auto; background: var(--panel); }
 .filters { padding: 12px; }
@@ -42,6 +52,7 @@ nav a:hover, nav a.active { color: var(--text); }
 .tag { display: inline-block; margin: 4px 4px 0 0; padding: 1px 6px; border: 1px solid var(--line);
   border-radius: 99px; font-size: 11px; color: var(--muted); }
 #map { height: 100%; min-height: 400px; min-width: 0; }
+.leaflet-control-attribution a { text-decoration: underline; }
 .about { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
 footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
 @media (max-width: 900px) {
@@ -60,6 +71,5 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
   border-radius: 50%; background: var(--acc); transition: transform 0.15s;
 }
 #view-switch[aria-checked="true"]::after { transform: translateX(18px); }
-#view-switch:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 #layout[data-view="list"] #map { display: none; }
 #layout[data-view="map"] .list { display: none; }

@@ -96,7 +96,7 @@ function render() {
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
       ${p.churchmanship ? `<span class="tag">${escapeHtml(p.churchmanship)}</span>` : ""}
       ${p.verified ? `<span class="tag">${escapeHtml(p.verified)}</span>` : ""}
-      ${p.website ? `<div class="meta"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">Website</a></div>` : ""}
+      ${p.website ? `<div class="meta"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">Website<span class="visually-hidden"> for ${escapeHtml(p.name)} (opens in new tab)</span></a></div>` : ""}
     `;
     div.onclick = () => select(p);
     if (i === 0) div.classList.add("active");
@@ -125,7 +125,7 @@ function paintMap(list) {
   const pts = [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
-    const m = L.marker([p.lat, p.lon]).bindPopup(
+    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name }).bindPopup(
       `<strong>${escapeHtml(p.name)}</strong><br>${escapeHtml(p.address)}`
     );
     m.on("click", () => select(p));
@@ -204,6 +204,8 @@ function setView(mode) {
   $("view-list")?.classList.toggle("on", mode === "list");
   $("view-map")?.classList.toggle("on", mode === "map");
   $("view-switch")?.setAttribute("aria-checked", String(mode === "map"));
+  // Point "Skip to results" at whichever view is showing.
+  $("skip")?.setAttribute("href", mode === "map" ? "#map" : "#list");
   if (mode === "map") {
     // #map is visible now; wait for layout before creating/sizing Leaflet.
     requestAnimationFrame(() => tryPaintMap(filtered()));
