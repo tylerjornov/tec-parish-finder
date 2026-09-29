@@ -2,7 +2,6 @@ const $ = (id) => document.getElementById(id);
 
 const state = {
   all: [],
-  schema: null,
   origin: null,
 };
 
@@ -28,47 +27,52 @@ function fillSelect(id, values) {
   });
 }
 
-function matches(p) {
-  const q = $("q").value.trim().toLowerCase();
-  if (q) {
-    const hay = `${p.name} ${p.address} ${p.state} ${p.diocese} ${p.notes}`.toLowerCase();
-    if (!hay.includes(q)) return false;
-  }
-  const fields = [
-    ["f-state", "state"],
-    ["f-diocese", "diocese"],
-    ["f-churchmanship", "churchmanship"],
-    ["f-wo-serve", "women_serve_priests"],
-    ["f-wo-affirmed", "wo_affirmed"],
-    ["f-lgbt-serve", "lgbt_serve_priests"],
-    ["f-lgbt-affirmed", "lgbt_ordination_affirmed"],
-    ["f-ssm", "ssm"],
-    ["f-spectrum", "spectrum"],
-    ["f-verified", "verified"],
-  ];
-  for (const [id, key] of fields) {
-    const v = $(id).value;
-    if (v && p[key] !== v) return false;
-  }
-  return true;
-}
+const FILTERS = [
+  ["f-state", "state"],
+  ["f-diocese", "diocese"],
+  ["f-churchmanship", "churchmanship"],
+  ["f-wo-serve", "women_serve_priests"],
+  ["f-wo-affirmed", "wo_affirmed"],
+  ["f-lgbt-serve", "lgbt_serve_priests"],
+  ["f-lgbt-affirmed", "lgbt_ordination_affirmed"],
+  ["f-ssm", "ssm"],
+  ["f-spectrum", "spectrum"],
+  ["f-verified", "verified"],
+];
 
 function filtered() {
-  const list = state.all.filter(matches);
+  // Read the controls once per render rather than once per parish.
+  const q = $("q").value.trim().toLowerCase();
+  const active = FILTERS.map(([id, key]) => [key, $(id).value]).filter(([, v]) => v);
+  const list = state.all.filter((p) => {
+    if (q) {
+      const hay = [p.name, p.address, p.state, p.diocese, p.notes]
+        .filter((v) => v != null)
+        .join(" ")
+        .toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return active.every(([key, v]) => p[key] === v);
+  });
+  const byName = (a, b) => a.name.localeCompare(b.name);
   if (state.origin) {
-    list.sort((a, b) => haversine(state.origin, a) - haversine(state.origin, b));
+    // Parishes without coordinates are Infinity away; order those (and ties) by name.
+    const dist = new Map(list.map((p) => [p, haversine(state.origin, p)]));
+    list.sort((a, b) => dist.get(a) - dist.get(b) || byName(a, b));
   } else {
-    list.sort((a, b) => a.name.localeCompare(b.name));
+    list.sort(byName);
   }
   return list;
 }
 
 let map, markers;
+const DEFAULT_CENTER = [34.0, -81.0];
+const DEFAULT_ZOOM = 8;
 
 function ensureMap() {
   if (map) return;
   if (typeof L === "undefined") throw new Error("Leaflet did not load");
-  map = L.map("map").setView([34.0, -81.0], 8);
+  map = L.map("map").setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
     maxZoom: 18,
@@ -82,10 +86,11 @@ function render() {
   const wrap = $("list");
   wrap.innerHTML = "";
   list.forEach((p, i) => {
-    const miles =
-      state.origin && p.lat != null ? `${haversine(state.origin, p).toFixed(1)} mi` : "";
+    const d = state.origin ? haversine(state.origin, p) : Infinity;
+    const miles = Number.isFinite(d) ? `${d.toFixed(1)} mi` : "";
     const div = document.createElement("article");
     div.className = "card";
+    div.dataset.id = p.id;
     div.innerHTML = `
       <h2>${escapeHtml(p.name)}</h2>
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
@@ -98,9 +103,18 @@ function render() {
     wrap.appendChild(div);
   });
 
-  const layout = document.getElementById("layout");
+  const layout = $("layout");
   if (layout && layout.dataset.view === "map") {
+    tryPaintMap(list);
+  }
+}
+
+function tryPaintMap(list) {
+  try {
     paintMap(list);
+  } catch (err) {
+    console.error(err);
+    $("status").textContent = "Map failed to load: " + err.message;
   }
 }
 
@@ -118,39 +132,47 @@ function paintMap(list) {
     markers.addLayer(m);
     pts.push([p.lat, p.lon]);
   });
-  if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
-  setTimeout(() => {
-    if (!map) return;
-    map.invalidateSize();
+  const fit = () => {
     if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
+    else map.setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+  };
+  fit();
+  setTimeout(() => {
+    map.invalidateSize();
+    fit();
   }, 100);
 }
 
 function select(p) {
-  [...document.querySelectorAll(".card")].forEach((c) => {
-    c.classList.toggle("active", c.querySelector("h2")?.textContent === p.name);
+  document.querySelectorAll(".card").forEach((c) => {
+    c.classList.toggle("active", c.dataset.id === p.id);
   });
-  if (p.lat != null && document.getElementById("layout").dataset.view === "map") {
+  if (p.lat != null && p.lon != null && $("layout").dataset.view === "map") {
     ensureMap();
     map.setView([p.lat, p.lon], 13);
   }
 }
 
 function escapeHtml(s) {
-  return String(s || "").replace(/[&<>"']/g, (c) =>
+  return String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])
   );
 }
 
+// Bumped on every new origin request so a slow geocode reply can't
+// overwrite a newer origin (or one the user has since cleared).
+let originSeq = 0;
+
 function parseOrigin() {
+  const seq = ++originSeq;
   const raw = $("origin").value.trim();
   if (!raw) {
     state.origin = null;
     render();
     return;
   }
-  const m = raw.match(/^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$/);
-  if (m) {
+  const m = raw.match(/^(-?\d+(\.\d+)?)\s*,\s*(-?\d+(\.\d+)?)$/);
+  if (m && Math.abs(m[1]) <= 90 && Math.abs(m[3]) <= 180) {
     state.origin = { lat: +m[1], lon: +m[3] };
     render();
     return;
@@ -161,6 +183,7 @@ function parseOrigin() {
   fetch(url, { headers: { Accept: "application/json" } })
     .then((r) => r.json())
     .then((hits) => {
+      if (seq !== originSeq) return;
       if (!hits.length) {
         $("status").textContent = "Could not geocode that location. Try city, ST or lat,lon.";
         return;
@@ -169,6 +192,7 @@ function parseOrigin() {
       render();
     })
     .catch(() => {
+      if (seq !== originSeq) return;
       $("status").textContent = "Geocode failed. Use lat,lon for now.";
     });
 }
@@ -182,33 +206,24 @@ function setView(mode) {
   $("view-switch")?.setAttribute("aria-checked", String(mode === "map"));
   if (mode === "map") {
     // #map is visible now; wait for layout before creating/sizing Leaflet.
-    requestAnimationFrame(() => {
-      try {
-        paintMap(filtered());
-      } catch (err) {
-        console.error(err);
-        $("status").textContent = "Map failed to load: " + err.message;
-      }
-    });
+    requestAnimationFrame(() => tryPaintMap(filtered()));
   }
 }
 
 function bindUi() {
-  document.querySelectorAll(".filters input, .filters select").forEach((el) => {
-    el.addEventListener("change", render);
-    el.addEventListener("input", () => {
-      if (el.id === "q") render();
-    });
-  });
+  const controls = document.querySelectorAll(".filters input, .filters select");
+  controls.forEach((el) => el.addEventListener("change", render));
+  $("q").addEventListener("input", render);
   $("apply-origin")?.addEventListener("click", parseOrigin);
   $("origin")?.addEventListener("keydown", (e) => {
     if (e.key === "Enter") parseOrigin();
   });
   $("reset")?.addEventListener("click", () => {
-    document.querySelectorAll(".filters input, .filters select").forEach((el) => {
+    controls.forEach((el) => {
       if (el.tagName === "SELECT") el.selectedIndex = 0;
       else el.value = "";
     });
+    originSeq++;
     state.origin = null;
     render();
   });
@@ -231,7 +246,6 @@ $("status").textContent = "Loading parishes…";
 Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
   .then(([parishes, schema]) => {
     state.all = parishes;
-    state.schema = schema;
     const opts = (schema && schema.list_options) || {};
     const states = [...new Set(parishes.map((p) => p.state).filter(Boolean))].sort();
     const dioceses = [...new Set(parishes.map((p) => p.diocese).filter(Boolean))].sort();
