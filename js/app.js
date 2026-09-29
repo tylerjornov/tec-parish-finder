@@ -27,33 +27,30 @@ function fillSelect(id, values) {
   });
 }
 
-function matches(p) {
-  const q = $("q").value.trim().toLowerCase();
-  if (q) {
-    const hay = `${p.name} ${p.address} ${p.state} ${p.diocese} ${p.notes}`.toLowerCase();
-    if (!hay.includes(q)) return false;
-  }
-  const fields = [
-    ["f-state", "state"],
-    ["f-diocese", "diocese"],
-    ["f-churchmanship", "churchmanship"],
-    ["f-wo-serve", "women_serve_priests"],
-    ["f-wo-affirmed", "wo_affirmed"],
-    ["f-lgbt-serve", "lgbt_serve_priests"],
-    ["f-lgbt-affirmed", "lgbt_ordination_affirmed"],
-    ["f-ssm", "ssm"],
-    ["f-spectrum", "spectrum"],
-    ["f-verified", "verified"],
-  ];
-  for (const [id, key] of fields) {
-    const v = $(id).value;
-    if (v && p[key] !== v) return false;
-  }
-  return true;
-}
+const FILTERS = [
+  ["f-state", "state"],
+  ["f-diocese", "diocese"],
+  ["f-churchmanship", "churchmanship"],
+  ["f-wo-serve", "women_serve_priests"],
+  ["f-wo-affirmed", "wo_affirmed"],
+  ["f-lgbt-serve", "lgbt_serve_priests"],
+  ["f-lgbt-affirmed", "lgbt_ordination_affirmed"],
+  ["f-ssm", "ssm"],
+  ["f-spectrum", "spectrum"],
+  ["f-verified", "verified"],
+];
 
 function filtered() {
-  const list = state.all.filter(matches);
+  // Read the controls once per render rather than once per parish.
+  const q = $("q").value.trim().toLowerCase();
+  const active = FILTERS.map(([id, key]) => [key, $(id).value]).filter(([, v]) => v);
+  const list = state.all.filter((p) => {
+    if (q) {
+      const hay = `${p.name} ${p.address} ${p.state} ${p.diocese} ${p.notes}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return active.every(([key, v]) => p[key] === v);
+  });
   if (state.origin) {
     list.sort((a, b) => haversine(state.origin, a) - haversine(state.origin, b));
   } else {
