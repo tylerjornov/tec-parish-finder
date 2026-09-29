@@ -6,11 +6,20 @@
   <title>Institutions — coming soon</title>
   <link rel="stylesheet" href="css/app.css">
   <script src="js/settings.js"></script>
+  <script src="js/nav.js"></script>
 </head>
 <body>
   <header>
+    <button type="button" id="menu-btn" class="menu-btn" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="5" cy="5" r="2"></circle><circle cx="12" cy="5" r="2"></circle><circle cx="19" cy="5" r="2"></circle>
+        <circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle>
+        <circle cx="5" cy="19" r="2"></circle><circle cx="12" cy="19" r="2"></circle><circle cx="19" cy="19" r="2"></circle>
+      </svg>
+    </button>
     <h1>TEC Parish Directory</h1>
-    <nav aria-label="Site">
+    <nav id="site-nav" aria-label="Site">
+      <div class="nav-title" aria-hidden="true">TEC Parish Directory</div>
       <a href="index.html">Directory</a>
       <a href="about.html">About</a>
     </nav>
