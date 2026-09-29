@@ -51,10 +51,13 @@ function filtered() {
     }
     return active.every(([key, v]) => p[key] === v);
   });
+  const byName = (a, b) => a.name.localeCompare(b.name);
   if (state.origin) {
-    list.sort((a, b) => haversine(state.origin, a) - haversine(state.origin, b));
+    // Parishes without coordinates are Infinity away; order those (and ties) by name.
+    const dist = new Map(list.map((p) => [p, haversine(state.origin, p)]));
+    list.sort((a, b) => dist.get(a) - dist.get(b) || byName(a, b));
   } else {
-    list.sort((a, b) => a.name.localeCompare(b.name));
+    list.sort(byName);
   }
   return list;
 }
@@ -80,8 +83,8 @@ function render() {
   const wrap = $("list");
   wrap.innerHTML = "";
   list.forEach((p, i) => {
-    const miles =
-      state.origin && p.lat != null ? `${haversine(state.origin, p).toFixed(1)} mi` : "";
+    const d = state.origin ? haversine(state.origin, p) : Infinity;
+    const miles = Number.isFinite(d) ? `${d.toFixed(1)} mi` : "";
     const div = document.createElement("article");
     div.className = "card";
     div.dataset.id = p.id;
