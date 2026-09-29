@@ -29,7 +29,7 @@ def cell(row: dict, header: str):
     if v is None:
         return ""
     if isinstance(v, float) and v == int(v):
-        return int(v)
+        return str(int(v))
     return str(v).strip()
 
 
