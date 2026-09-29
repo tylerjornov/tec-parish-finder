@@ -6,46 +6,48 @@
   <title>TEC Parish Directory</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="css/app.css">
+  <script src="js/settings.js"></script>
 </head>
-<body>
+<body class="app">
+  <a class="skip" id="skip" href="#list">Skip to results</a>
   <header>
-    <h1>TEC Parish Directory <span>preview</span></h1>
-    <nav>
-      <a class="active" href="index.html">Directory</a>
+    <h1>TEC Parish Directory</h1>
+    <nav aria-label="Site">
+      <a aria-current="page" href="index.html">Directory</a>
       <a href="about.html">About</a>
     </nav>
     <div class="view-toggle">
-      <span id="view-list" class="on">List</span>
-      <button type="button" id="view-switch" role="switch" aria-checked="false" aria-label="Show map"></button>
-      <span id="view-map">Map</span>
+      <span id="view-list" class="on" aria-hidden="true">List</span>
+      <button type="button" id="view-switch" role="switch" aria-checked="false" aria-label="Map view"></button>
+      <span id="view-map" aria-hidden="true">Map</span>
     </div>
   </header>
-  <div class="layout" id="layout" data-view="list">
-    <aside class="filters">
-      <label>Search</label>
+  <main class="layout" id="layout" data-view="list">
+    <aside class="filters" aria-label="Filters">
+      <label for="q">Search</label>
       <input id="q" placeholder="Name, city, notes">
-      <label>Near (address, city ST, or lat,lon)</label>
+      <label for="origin">Near (address, city ST, or lat,lon)</label>
       <input id="origin" placeholder="Sumter, SC">
       <button type="button" id="apply-origin">Sort by closest</button>
-      <label>State</label>
+      <label for="f-state">State</label>
       <select id="f-state"><option value="">Any</option></select>
-      <label>Diocese</label>
+      <label for="f-diocese">Diocese</label>
       <select id="f-diocese"><option value="">Any</option></select>
-      <label>Churchmanship</label>
+      <label for="f-churchmanship">Churchmanship</label>
       <select id="f-churchmanship"><option value="">Any</option></select>
-      <label>Women serve as priests here</label>
+      <label for="f-wo-serve">Women serve as priests here</label>
       <select id="f-wo-serve"><option value="">Any</option></select>
-      <label>Women’s ordination affirmed</label>
+      <label for="f-wo-affirmed">Women’s ordination affirmed</label>
       <select id="f-wo-affirmed"><option value="">Any</option></select>
-      <label>LGBT people serve as priests here</label>
+      <label for="f-lgbt-serve">LGBT people serve as priests here</label>
       <select id="f-lgbt-serve"><option value="">Any</option></select>
-      <label>LGBT ordination affirmed</label>
+      <label for="f-lgbt-affirmed">LGBT ordination affirmed</label>
       <select id="f-lgbt-affirmed"><option value="">Any</option></select>
-      <label>Same-sex marriage</label>
+      <label for="f-ssm">Same-sex marriage</label>
       <select id="f-ssm"><option value="">Any</option></select>
-      <label>Spectrum</label>
+      <label for="f-spectrum">Spectrum</label>
       <select id="f-spectrum"><option value="">Any</option></select>
-      <label>Verification</label>
+      <label for="f-verified">Verification</label>
       <select id="f-verified">
         <option value="">Any</option>
         <option>Website Only</option>
@@ -53,13 +55,13 @@
         <option>Verified</option>
       </select>
       <button type="button" id="reset">Clear filters</button>
-      <p id="status"></p>
+      <p id="status" role="status"></p>
     </aside>
-    <section class="list" id="list"></section>
-    <div id="map"></div>
-  </div>
+    <section class="list" id="list" aria-label="Results" tabindex="-1"></section>
+    <div id="map" role="region" aria-label="Map of parishes"></div>
+  </main>
   <footer>
-    © 2026 Tyler Jornov. <a href="about.html">Reuse terms</a>
+    © 2026 Tyler Jornov. <a href="about.html#terms">Terms and Conditions</a>
   </footer>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/app.js"></script>

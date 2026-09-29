@@ -69,10 +69,20 @@ let map, markers;
 const DEFAULT_CENTER = [34.0, -81.0];
 const DEFAULT_ZOOM = 8;
 
+// data-motion is set on <html> by settings.js from the "Reduce motion" choice.
+const reduceMotion = () => document.documentElement.dataset.motion === "reduce";
+// Leaflet treats animate: true differently from leaving it unset, so only pass false.
+const still = () => (reduceMotion() ? { animate: false } : {});
+
 function ensureMap() {
   if (map) return;
   if (typeof L === "undefined") throw new Error("Leaflet did not load");
-  map = L.map("map").setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+  const anim = !reduceMotion();
+  map = L.map("map", {
+    zoomAnimation: anim,
+    fadeAnimation: anim,
+    markerZoomAnimation: anim,
+  }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
     maxZoom: 18,
@@ -96,7 +106,7 @@ function render() {
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
       ${p.churchmanship ? `<span class="tag">${escapeHtml(p.churchmanship)}</span>` : ""}
       ${p.verified ? `<span class="tag">${escapeHtml(p.verified)}</span>` : ""}
-      ${p.website ? `<div class="meta"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">Website</a></div>` : ""}
+      ${p.website ? `<div class="meta"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">Website<span class="visually-hidden"> for ${escapeHtml(p.name)} (opens in new tab)</span></a></div>` : ""}
     `;
     div.onclick = () => select(p);
     if (i === 0) div.classList.add("active");
@@ -125,7 +135,7 @@ function paintMap(list) {
   const pts = [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
-    const m = L.marker([p.lat, p.lon]).bindPopup(
+    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name }).bindPopup(
       `<strong>${escapeHtml(p.name)}</strong><br>${escapeHtml(p.address)}`
     );
     m.on("click", () => select(p));
@@ -133,8 +143,8 @@ function paintMap(list) {
     pts.push([p.lat, p.lon]);
   });
   const fit = () => {
-    if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
-    else map.setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+    if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12, ...still() });
+    else map.setView(DEFAULT_CENTER, DEFAULT_ZOOM, still());
   };
   fit();
   setTimeout(() => {
@@ -149,7 +159,7 @@ function select(p) {
   });
   if (p.lat != null && p.lon != null && $("layout").dataset.view === "map") {
     ensureMap();
-    map.setView([p.lat, p.lon], 13);
+    map.setView([p.lat, p.lon], 13, still());
   }
 }
 
@@ -204,6 +214,8 @@ function setView(mode) {
   $("view-list")?.classList.toggle("on", mode === "list");
   $("view-map")?.classList.toggle("on", mode === "map");
   $("view-switch")?.setAttribute("aria-checked", String(mode === "map"));
+  // Point "Skip to results" at whichever view is showing.
+  $("skip")?.setAttribute("href", mode === "map" ? "#map" : "#list");
   if (mode === "map") {
     // #map is visible now; wait for layout before creating/sizing Leaflet.
     requestAnimationFrame(() => tryPaintMap(filtered()));
