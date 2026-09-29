@@ -46,7 +46,10 @@ function filtered() {
   const active = FILTERS.map(([id, key]) => [key, $(id).value]).filter(([, v]) => v);
   const list = state.all.filter((p) => {
     if (q) {
-      const hay = `${p.name} ${p.address} ${p.state} ${p.diocese} ${p.notes}`.toLowerCase();
+      const hay = [p.name, p.address, p.state, p.diocese, p.notes]
+        .filter((v) => v != null)
+        .join(" ")
+        .toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return active.every(([key, v]) => p[key] === v);
@@ -151,7 +154,7 @@ function select(p) {
 }
 
 function escapeHtml(s) {
-  return String(s || "").replace(/[&<>"']/g, (c) =>
+  return String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])
   );
 }
