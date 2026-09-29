@@ -1,4 +1,7 @@
+/* Palettes. js/settings.js sets data-theme / data-contrast / data-motion on
+   <html> from the visitor's choice or, on "Automatic", their device settings. */
 :root {
+  color-scheme: dark;
   --bg: #0f1218;
   --panel: #171c25;
   --header: #12161d;
@@ -13,14 +16,21 @@
   --acc-bg: #2a2418;
   --link: #8cb4ff;
 }
-/* High-contrast palette for visitors whose OS asks for more contrast
-   (macOS/iOS "Increase contrast", Android high-contrast text, etc.). */
-@media (prefers-contrast: more) {
-  :root {
-    --bg: #000; --panel: #000; --header: #000; --field: #000; --active: #1f1f1f;
-    --line: #8a8a8a; --control: #fff; --text: #fff; --muted: #d0d6e2;
-    --acc: #ffd24d; --acc-line: #ffd24d; --acc-bg: #000; --link: #9cc3ff;
-  }
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f4f5f8; --panel: #fff; --header: #eceef3; --field: #fff; --active: #e7edf8;
+  --line: #d5d9e0; --control: #7a8394; --text: #1a1f29; --muted: #545e70;
+  --acc: #7a5516; --acc-line: #9a7a3e; --acc-bg: #fbf4e4; --link: #1d4fb8;
+}
+:root[data-contrast="more"] {
+  --bg: #000; --panel: #000; --header: #000; --field: #000; --active: #1f1f1f;
+  --line: #8a8a8a; --control: #fff; --text: #fff; --muted: #d0d6e2;
+  --acc: #ffd24d; --acc-line: #ffd24d; --acc-bg: #000; --link: #9cc3ff;
+}
+:root[data-contrast="more"][data-theme="light"] {
+  --bg: #fff; --panel: #fff; --header: #fff; --field: #fff; --active: #e0e0e0;
+  --line: #555; --control: #000; --text: #000; --muted: #303030;
+  --acc: #5c3d00; --acc-line: #000; --acc-bg: #fff; --link: #0033aa;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
@@ -90,19 +100,34 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
 #view-switch[aria-checked="true"]::after { transform: translateX(18px); }
 #layout[data-view="list"] #map { display: none; }
 #layout[data-view="map"] .list { display: none; }
-@media (prefers-reduced-motion: reduce) {
-  #view-switch::after { transition: none; }
+[data-motion="reduce"] #view-switch::after { transition: none; }
+[data-contrast="more"] nav a { text-decoration: underline; }
+[data-contrast="more"] .card.active { outline: 2px solid var(--acc); outline-offset: -2px; }
+[data-contrast="more"] .leaflet-container .leaflet-control-attribution { background: var(--panel); color: var(--text); }
+[data-contrast="more"] .leaflet-container .leaflet-control-attribution a { color: var(--link); }
+.settings { position: relative; }
+#settings-btn {
+  display: grid; place-items: center; width: 32px; height: 32px; padding: 0; cursor: pointer;
+  color: var(--muted); background: transparent; border: 1px solid var(--control); border-radius: 6px;
 }
-@media (prefers-contrast: more) {
-  nav a { text-decoration: underline; }
-  .card.active { outline: 2px solid var(--acc); outline-offset: -2px; }
-  .leaflet-container .leaflet-control-attribution { background: #000; color: #fff; }
-  .leaflet-container .leaflet-control-attribution a { color: var(--link); }
+#settings-btn:hover, #settings-btn[aria-expanded="true"] { color: var(--text); }
+.settings-panel {
+  position: absolute; right: 0; top: calc(100% + 6px); z-index: 1500; width: 220px; padding: 4px 12px 10px;
+  background: var(--panel); color: var(--text); border: 1px solid var(--control); border-radius: 8px;
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.35);
 }
+.settings-panel[hidden] { display: none; }
+.settings-panel fieldset { border: 0; margin: 8px 0 0; padding: 0; }
+.settings-panel legend { padding: 0; margin-bottom: 4px; font-size: 0.8125rem; font-weight: 600; }
+.settings-panel label { display: flex; align-items: center; gap: 6px; min-height: 24px; font-size: 0.8125rem; cursor: pointer; }
+.settings-panel input { accent-color: var(--acc); margin: 0; }
+.settings-hint { margin: 10px 0 0; font-size: 0.75rem; color: var(--muted); }
 /* Windows contrast themes replace our colors; keep the switch knob and the
    selected card visible with system colors. */
 @media (forced-colors: active) {
   #view-switch::after { forced-color-adjust: none; background: ButtonText; }
   .card.active { outline: 2px solid Highlight; outline-offset: -2px; }
   .view-toggle span.on { text-decoration: underline; }
+  .leaflet-container .leaflet-control-attribution { background: Canvas; color: CanvasText; }
+  .leaflet-container .leaflet-control-attribution a { color: LinkText; }
 }

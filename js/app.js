@@ -69,14 +69,19 @@ let map, markers;
 const DEFAULT_CENTER = [34.0, -81.0];
 const DEFAULT_ZOOM = 8;
 
+// data-motion is set on <html> by settings.js from the "Reduce motion" choice.
+const reduceMotion = () => document.documentElement.dataset.motion === "reduce";
+// Leaflet treats animate: true differently from leaving it unset, so only pass false.
+const still = () => (reduceMotion() ? { animate: false } : {});
+
 function ensureMap() {
   if (map) return;
   if (typeof L === "undefined") throw new Error("Leaflet did not load");
-  const animate = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const anim = !reduceMotion();
   map = L.map("map", {
-    zoomAnimation: animate,
-    fadeAnimation: animate,
-    markerZoomAnimation: animate,
+    zoomAnimation: anim,
+    fadeAnimation: anim,
+    markerZoomAnimation: anim,
   }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
@@ -138,8 +143,8 @@ function paintMap(list) {
     pts.push([p.lat, p.lon]);
   });
   const fit = () => {
-    if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12 });
-    else map.setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+    if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12, ...still() });
+    else map.setView(DEFAULT_CENTER, DEFAULT_ZOOM, still());
   };
   fit();
   setTimeout(() => {
@@ -154,7 +159,7 @@ function select(p) {
   });
   if (p.lat != null && p.lon != null && $("layout").dataset.view === "map") {
     ensureMap();
-    map.setView([p.lat, p.lon], 13);
+    map.setView([p.lat, p.lon], 13, still());
   }
 }
 
