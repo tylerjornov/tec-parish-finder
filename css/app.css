@@ -52,6 +52,7 @@ header {
 }
 header h1 { margin: 0; font-size: 1rem; font-weight: 650; }
 header nav { margin-right: auto; }
+.menu-btn, .nav-title { display: none; }
 nav a { display: inline-block; padding: 4px 0; margin-left: 12px; color: var(--muted); text-decoration: none; }
 nav a:hover, nav a[aria-current="page"] { color: var(--text); }
 body.app { display: flex; flex-direction: column; }
@@ -129,4 +130,23 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
   .view-toggle span.on { text-decoration: underline; }
   .leaflet-container .leaflet-control-attribution { background: Canvas; color: CanvasText; }
   .leaflet-container .leaflet-control-attribution a { color: LinkText; }
+}
+/* Phone: site links live behind a waffle button at the top left. */
+@media (max-width: 600px) {
+  header { position: relative; }
+  .menu-btn {
+    display: grid; place-items: center; width: 32px; height: 32px; padding: 0; flex: none; cursor: pointer;
+    color: var(--muted); background: transparent; border: 1px solid var(--control); border-radius: 6px;
+  }
+  .menu-btn:hover, .menu-btn[aria-expanded="true"] { color: var(--text); }
+  header h1 { margin-right: auto; }
+  .nav-js header nav { display: none; }
+  .nav-js header nav.open { display: block; }
+  header nav {
+    position: absolute; left: 0; top: 100%; z-index: 1500; width: min(280px, 100%);
+    padding: 12px 16px 8px; margin: 0; background: var(--panel); border: 1px solid var(--control);
+    border-top: 0; border-radius: 0 0 8px 0; box-shadow: 0 6px 24px rgb(0 0 0 / 0.35);
+  }
+  .nav-title { display: block; margin-bottom: 4px; font-weight: 650; }
+  header nav a { display: block; margin: 0; padding: 12px 0; border-top: 1px solid var(--line); }
 }
