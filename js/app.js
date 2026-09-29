@@ -97,7 +97,7 @@ function render() {
     wrap.appendChild(div);
   });
 
-  const layout = document.getElementById("layout");
+  const layout = $("layout");
   if (layout && layout.dataset.view === "map") {
     paintMap(list);
   }
@@ -128,10 +128,10 @@ function paintMap(list) {
 }
 
 function select(p) {
-  [...document.querySelectorAll(".card")].forEach((c) => {
+  document.querySelectorAll(".card").forEach((c) => {
     c.classList.toggle("active", c.querySelector("h2")?.textContent === p.name);
   });
-  if (p.lat != null && document.getElementById("layout").dataset.view === "map") {
+  if (p.lat != null && $("layout").dataset.view === "map") {
     ensureMap();
     map.setView([p.lat, p.lon], 13);
   }
@@ -195,18 +195,15 @@ function setView(mode) {
 }
 
 function bindUi() {
-  document.querySelectorAll(".filters input, .filters select").forEach((el) => {
-    el.addEventListener("change", render);
-    el.addEventListener("input", () => {
-      if (el.id === "q") render();
-    });
-  });
+  const controls = document.querySelectorAll(".filters input, .filters select");
+  controls.forEach((el) => el.addEventListener("change", render));
+  $("q").addEventListener("input", render);
   $("apply-origin")?.addEventListener("click", parseOrigin);
   $("origin")?.addEventListener("keydown", (e) => {
     if (e.key === "Enter") parseOrigin();
   });
   $("reset")?.addEventListener("click", () => {
-    document.querySelectorAll(".filters input, .filters select").forEach((el) => {
+    controls.forEach((el) => {
       if (el.tagName === "SELECT") el.selectedIndex = 0;
       else el.value = "";
     });
