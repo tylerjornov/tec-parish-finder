@@ -274,9 +274,40 @@ function escapeHtml(s) {
 // overwrite a newer origin (or one the user has since cleared).
 let originSeq = 0;
 
+// Shown in the Near box while sorting by the device's position.
+const HERE = "My location";
+let deviceOrigin = null;
+
+function useDeviceLocation() {
+  const seq = ++originSeq;
+  $("status").textContent = "Finding your location…";
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      if (seq !== originSeq) return;
+      deviceOrigin = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+      state.origin = deviceOrigin;
+      $("origin").value = HERE;
+      render();
+    },
+    (err) => {
+      if (seq !== originSeq) return;
+      $("status").textContent =
+        err.code === err.PERMISSION_DENIED
+          ? "Location access is off for this site. Allow it in your browser settings, or type a ZIP or city."
+          : "Could not get your location. Type a ZIP or city instead.";
+    },
+    { timeout: 15000, maximumAge: 300000 }
+  );
+}
+
 function parseOrigin() {
   const seq = ++originSeq;
   const raw = $("origin").value.trim();
+  if (raw === HERE && deviceOrigin) {
+    state.origin = deviceOrigin;
+    render();
+    return;
+  }
   if (!raw) {
     state.origin = null;
     render();
@@ -333,6 +364,11 @@ function bindUi() {
   document.querySelectorAll(".filters select").forEach((el) => el.addEventListener("change", render));
   $("q").addEventListener("input", render);
   $("apply-origin")?.addEventListener("click", parseOrigin);
+  // Browsers only allow location on https (and localhost).
+  if (navigator.geolocation && window.isSecureContext) {
+    $("use-location").hidden = false;
+    $("use-location").addEventListener("click", useDeviceLocation);
+  }
   $("origin")?.addEventListener("keydown", (e) => {
     if (e.key === "Enter") parseOrigin();
   });

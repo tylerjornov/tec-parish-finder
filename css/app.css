@@ -68,6 +68,7 @@ body.app { display: flex; flex-direction: column; }
   margin-top: 12px; width: 100%; padding: 8px; border-radius: 6px;
   border: 1px solid var(--acc-line); background: var(--acc-bg); color: var(--acc); cursor: pointer;
 }
+.filters #use-location { margin-top: 6px; }
 #status { color: var(--muted); font-size: 0.75rem; margin: 8px 0 0; }
 .card {
   padding: 12px 14px; border-bottom: 1px solid var(--line); cursor: pointer;
