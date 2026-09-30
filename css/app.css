@@ -74,6 +74,10 @@ body.app { display: flex; flex-direction: column; }
 }
 .card:hover, .card.active { background: var(--active); }
 .card h2 { margin: 0 0 4px; font-size: 0.9375rem; }
+.card-open {
+  padding: 0; font: inherit; color: inherit; text-align: left; cursor: pointer;
+  background: none; border: 0;
+}
 .meta { color: var(--muted); font-size: 0.8125rem; }
 .tag { display: inline-block; margin: 4px 4px 0 0; padding: 1px 6px; border: 1px solid var(--line);
   border-radius: 99px; font-size: 0.6875rem; color: var(--muted); }
@@ -130,6 +134,43 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
   .view-toggle span.on { text-decoration: underline; }
   .leaflet-container .leaflet-control-attribution { background: Canvas; color: CanvasText; }
   .leaflet-container .leaflet-control-attribution a { color: LinkText; }
+}
+/* Parish detail: a panel over the dimmed page; full screen on phones. */
+.detail {
+  width: min(760px, 100% - 48px); max-width: none; max-height: calc(100% - 48px); padding: 0;
+  color: var(--text); background: var(--panel); border: 1px solid var(--control); border-radius: 10px;
+  box-shadow: 0 12px 48px rgb(0 0 0 / 0.5); overscroll-behavior: contain;
+}
+.detail[open] { display: flex; flex-direction: column; }
+.detail::backdrop { background: rgb(0 0 0 / 0.6); }
+html:has(.detail[open]) { overflow: hidden; }
+.detail-head {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
+  padding: 16px 20px 12px; border-bottom: 1px solid var(--line);
+}
+.detail-head h2 { margin: 0 0 4px; font-size: 1.25rem; }
+.detail-close {
+  display: grid; place-items: center; flex: none; width: 36px; height: 36px; padding: 0; cursor: pointer;
+  color: var(--muted); background: transparent; border: 1px solid var(--control); border-radius: 6px;
+}
+.detail-close:hover { color: var(--text); }
+.detail-body { flex: 1; min-height: 0; overflow: auto; padding: 0 20px 20px; overflow-wrap: anywhere; }
+.detail-body h3 {
+  margin: 18px 0 6px; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--acc);
+}
+.detail-body dl { margin: 0; }
+.detail-body dl > div {
+  display: grid; grid-template-columns: 200px 1fr; gap: 12px; padding: 7px 0; border-top: 1px solid var(--line);
+}
+.detail-body dt { color: var(--muted); }
+.detail-body dd { margin: 0; }
+.detail-body ul { margin: 0; padding-left: 1.1em; }
+@media (max-width: 600px) {
+  .detail { width: 100%; height: 100%; max-height: none; margin: 0; border: 0; border-radius: 0; }
+  .detail-head { padding: 12px 16px; }
+  .detail-body { padding: 0 16px 24px; }
+  .detail-body dl > div { grid-template-columns: 1fr; gap: 2px; }
+  .detail-close { width: 44px; height: 44px; }
 }
 /* Phone: site links live behind a waffle button at the top left. */
 @media (max-width: 600px) {
