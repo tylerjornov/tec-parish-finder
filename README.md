@@ -1,17 +1,12 @@
-# TEC Parish Directory (static)
-
-GitHub Pages site. No server, no database.
+# TEC Parish Directory
 
 ## What this is
 
-- `index.html` — list + map + filters
-- `about.html` — value-neutral disclosure
-- `data/parishes.json` — generated from your spreadsheet
-- `data/schema.json` — field names and allowed values
-- `scripts/xlsx_to_json.py` — pipeline: Excel → JSON
+- `index.html` — main page, shows map and list
+- `about.html` — more information on the website and creator
+- `data/parishes.json` — parish info
+- `data/schema.json` — schema used for parishes.json
 
 ## Reuse
 
-This is not an MIT/GPL project. Public-source parish facts may be reused. Verified notes, the classification write-ups, and the site code have limits.
-
-See [COPYRIGHT.md](COPYRIGHT.md) and the [About page](about.html) for more info.
+Some parts of this repo may be freely used with attribution, others require permission. Unless otherwise noted, this means that the code that makes the website function is free to reuse, while the parish data is not. See [COPYRIGHT.md](COPYRIGHT.md) and the [About page](about.html) for more info.

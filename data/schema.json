@@ -3,7 +3,18 @@
     "Church Name",
     "Website",
     "Full Address",
+    "City",
     "State",
+    "Diocese",
+    "Mass time(s) and other regular services",
+    "Rector/Priest name",
+    "Diocesan bishop",
+    "Notes",
+    "Verified/Unverified",
+    "Lat",
+    "Lon"
+  ],
+  "optional_columns": [
     "Churchmanship",
     "Women Serve As Priests Here",
     "Womens Ordination is Affirmed Here",
@@ -11,11 +22,22 @@
     "LGBT Ordination is Affirmed Here",
     "Affirming of SSM",
     "Conservative/Liberal Spectrum",
+    "Church Phone",
+    "Church Email",
+    "Rector Phone",
+    "Rector Email",
+    "Date Last Verified",
     "Contact Info",
-    "Notes",
-    "Verified/Unverified"
+    "Rite",
+    "Service language(s)",
+    "Livestream URL",
+    "Music style",
+    "Average Sunday attendance",
+    "Accessibility",
+    "Parking",
+    "Childcare details",
+    "Formation / community"
   ],
-  "optional_columns": ["Diocese", "Lat", "Lon", "ASA"],
   "json_fields": {
     "name": "Church Name",
     "website": "Website",
@@ -34,7 +56,24 @@
     "verified": "Verified/Unverified",
     "lat": "Lat",
     "lon": "Lon",
-    "asa": "ASA"
+    "asa": "Average Sunday attendance",
+    "city": "City",
+    "church_phone": "Church Phone",
+    "church_email": "Church Email",
+    "rector_phone": "Rector Phone",
+    "rector_email": "Rector Email",
+    "service_times": "Mass time(s) and other regular services",
+    "diocesan_bishop": "Diocesan bishop",
+    "rector_name": "Rector/Priest name",
+    "rite": "Rite",
+    "service_languages": "Service language(s)",
+    "livestream_url": "Livestream URL",
+    "music_style": "Music style",
+    "accessibility": "Accessibility",
+    "parking": "Parking",
+    "childcare": "Childcare details",
+    "formation": "Formation / community",
+    "date_last_verified": "Date Last Verified"
   },
   "list_options": {
     "churchmanship": [
@@ -45,7 +84,8 @@
       "Broad Church",
       "Old Low Church",
       "Evangelical",
-      "Charismatic"
+      "Charismatic",
+      "N/A - Data Not Available or Answer not given"
     ],
     "women_serve_priests": [
       "Yes - Diocesan Bishop",
@@ -53,13 +93,15 @@
       "Yes - Other Priest",
       "Yes - Deacon",
       "No - Church lacks any priests",
-      "No - All priests are male"
+      "No - All priests are male",
+      "N/A - Data Not Available or Answer not given"
     ],
     "wo_affirmed": [
       "Yes - No Exceptions",
       "Yes - Priesthood and Diaconate",
       "Yes - Diaconate Only",
-      "No - Entirely Rejected"
+      "No - Entirely Rejected",
+      "N/A - Data Not Available or Answer not given"
     ],
     "lgbt_serve_priests": [
       "Yes - Diocesan Bishop",
@@ -67,25 +109,34 @@
       "Yes - Other Priest",
       "Yes - Deacon",
       "No - Church lacks any priests",
-      "No - None of the priests here are LGBT"
+      "No - None of the priests here are LGBT",
+      "N/A - Data Not Available or Answer not given"
     ],
     "lgbt_ordination_affirmed": [
       "Yes - No Exceptions",
       "Yes - Priesthood and Diaconate",
       "Yes - Diaconate Only",
-      "No - Entirely Rejected"
+      "No - Entirely Rejected",
+      "N/A - Data Not Available or Answer not given"
     ],
     "ssm": [
       "Yes - Practiced",
       "Yes - Affirmed, not practiced",
       "No - Alternative blessings practiced",
-      "No - Homosexuality seen as sinful"
+      "No - Homosexuality seen as sinful",
+      "N/A - Data Not Available or Answer not given"
     ],
     "spectrum": [
       "Inclusive Orthodox - Socially Progressive & Theologically Conservative",
       "Traditional Orthodox - Both Theologically & Socially Conservative",
       "Moderate Liberal - Theologically & Socially Progressive, fully affirms the three creeds",
-      "Progressive - Theologically & Socially Progressive, rejects some aspect of Creedal faith"
+      "Progressive - Theologically & Socially Progressive, rejects some aspect of Creedal faith",
+      "N/A - Data Not Available or Answer not given"
+    ],
+    "rite": [
+      "I",
+      "II",
+      "Mixed (Details in Notes)"
     ]
   }
 }
