@@ -96,19 +96,22 @@ function render() {
   const wrap = $("list");
   wrap.innerHTML = "";
   list.forEach((p, i) => {
-    const d = state.origin ? haversine(state.origin, p) : Infinity;
-    const miles = Number.isFinite(d) ? `${d.toFixed(1)} mi` : "";
+    const miles = milesTo(p);
     const div = document.createElement("article");
     div.className = "card";
     div.dataset.id = p.id;
     div.innerHTML = `
-      <h2>${escapeHtml(p.name)}</h2>
+      <h2><button type="button" class="card-open" aria-haspopup="dialog">${escapeHtml(p.name)}</button></h2>
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
       ${p.churchmanship ? `<span class="tag">${escapeHtml(p.churchmanship)}</span>` : ""}
       ${p.verified ? `<span class="tag">${escapeHtml(p.verified)}</span>` : ""}
       ${p.website ? `<div class="meta"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">Website<span class="visually-hidden"> for ${escapeHtml(p.name)} (opens in new tab)</span></a></div>` : ""}
     `;
-    div.onclick = () => select(p);
+    div.onclick = (e) => {
+      if (e.target.closest("a")) return;
+      select(p);
+      openDetail(p, div.querySelector(".card-open"));
+    };
     if (i === 0) div.classList.add("active");
     wrap.appendChild(div);
   });
@@ -135,10 +138,11 @@ function paintMap(list) {
   const pts = [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
-    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name }).bindPopup(
-      `<strong>${escapeHtml(p.name)}</strong><br>${escapeHtml(p.address)}`
-    );
-    m.on("click", () => select(p));
+    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name });
+    m.on("click", () => {
+      select(p);
+      openDetail(p, m.getElement());
+    });
     markers.addLayer(m);
     pts.push([p.lat, p.lon]);
   });
@@ -161,6 +165,101 @@ function select(p) {
     ensureMap();
     map.setView([p.lat, p.lon], 13, still());
   }
+}
+
+function milesTo(p) {
+  const d = state.origin ? haversine(state.origin, p) : Infinity;
+  return Number.isFinite(d) ? `${d.toFixed(1)} mi` : "";
+}
+
+// Everything the detail dialog shows, grouped. Blank and "N/A" values are
+// skipped, and so is any section left with nothing in it.
+const DETAIL_SECTIONS = [
+  ["Contact", [
+    ["website", "Website", "url"],
+    ["livestream_url", "Livestream", "url"],
+    ["church_phone", "Church phone", "tel"],
+    ["church_email", "Church email", "email"],
+    ["rector_name", "Rector / priest"],
+    ["rector_phone", "Rector phone", "tel"],
+    ["rector_email", "Rector email", "email"],
+    ["contact", "Other contact"],
+  ]],
+  ["Worship", [
+    ["service_times", "Services", "list"],
+    ["rite", "Rite"],
+    ["churchmanship", "Churchmanship"],
+    ["music_style", "Music"],
+    ["service_languages", "Service languages"],
+  ]],
+  ["Parish life", [
+    ["formation", "Formation / community"],
+    ["childcare", "Childcare"],
+    ["asa", "Average Sunday attendance"],
+    ["accessibility", "Accessibility"],
+    ["parking", "Parking"],
+  ]],
+  ["Ordination & marriage", [
+    ["women_serve_priests", "Women serve as priests here"],
+    ["wo_affirmed", "Women’s ordination affirmed"],
+    ["lgbt_serve_priests", "LGBT people serve as priests here"],
+    ["lgbt_ordination_affirmed", "LGBT ordination affirmed"],
+    ["ssm", "Same-sex marriage"],
+    ["spectrum", "Spectrum"],
+  ]],
+  ["Diocese", [
+    ["diocese", "Diocese"],
+    ["diocesan_bishop", "Diocesan bishop"],
+  ]],
+  ["Notes & verification", [
+    ["notes", "Notes"],
+    ["verified", "Verification"],
+    ["date_last_verified", "Last verified"],
+    ["coords", "Coordinates"],
+  ]],
+];
+
+const hasValue = (v) => v != null && v !== "" && v !== "N/A";
+
+function detailValue(v, kind) {
+  const s = escapeHtml(v);
+  if (kind === "url" && /^https?:\/\//i.test(v)) {
+    return `<a href="${s}" target="_blank" rel="noopener">${s}<span class="visually-hidden"> (opens in new tab)</span></a>`;
+  }
+  if (kind === "tel") return `<a href="tel:${escapeHtml(v.replace(/[^\d+]/g, ""))}">${s}</a>`;
+  if (kind === "email") return `<a href="mailto:${s}">${s}</a>`;
+  if (kind === "list") {
+    const items = v.split(/;\s*/).filter(Boolean);
+    if (items.length > 1) return `<ul>${items.map((i) => `<li>${escapeHtml(i)}</li>`).join("")}</ul>`;
+  }
+  return s;
+}
+
+// Focused again when the dialog closes: the card's button or the map pin.
+let detailReturn = null;
+
+function openDetail(p, returnTo) {
+  const miles = milesTo(p);
+  // "contact" is normally just church phone | email; show it only if it adds something.
+  const joined = [p.church_phone, p.church_email].filter(hasValue).join(" | ");
+  const v = {
+    ...p,
+    contact: p.contact === joined ? "" : p.contact,
+    coords: p.lat != null && p.lon != null ? `${p.lat}, ${p.lon}` : "",
+  };
+  $("detail-title").textContent = p.name;
+  $("detail-meta").textContent = [p.address, miles && `${miles} away`].filter(Boolean).join(" · ");
+  const body = $("detail-body");
+  body.innerHTML = DETAIL_SECTIONS.map(([title, fields]) => {
+    const rows = fields
+      .filter(([key]) => hasValue(v[key]))
+      .map(([key, label, kind]) => `<div><dt>${label}</dt><dd>${detailValue(String(v[key]), kind)}</dd></div>`);
+    return rows.length ? `<section><h3>${title}</h3><dl>${rows.join("")}</dl></section>` : "";
+  }).join("");
+  detailReturn = returnTo;
+  const dlg = $("detail");
+  if (!dlg.open) dlg.showModal();
+  body.scrollTop = 0;
 }
 
 function escapeHtml(s) {
@@ -224,7 +323,9 @@ function setView(mode) {
 
 function bindUi() {
   const controls = document.querySelectorAll(".filters input, .filters select");
-  controls.forEach((el) => el.addEventListener("change", render));
+  // Text boxes don't re-render on "change": it fires on blur, so rebuilding the
+  // list then would swallow the click on a card that caused the blur.
+  document.querySelectorAll(".filters select").forEach((el) => el.addEventListener("change", render));
   $("q").addEventListener("input", render);
   $("apply-origin")?.addEventListener("click", parseOrigin);
   $("origin")?.addEventListener("keydown", (e) => {
@@ -238,6 +339,21 @@ function bindUi() {
     originSeq++;
     state.origin = null;
     render();
+  });
+  const dlg = $("detail");
+  $("detail-close").addEventListener("click", () => dlg.close());
+  // Close on a click on the dimmed backdrop, but not when a text selection
+  // started inside the panel and was released outside it.
+  let downOnBackdrop = false;
+  dlg.addEventListener("pointerdown", (e) => {
+    downOnBackdrop = e.target === dlg;
+  });
+  dlg.addEventListener("click", (e) => {
+    if (downOnBackdrop && e.target === dlg) dlg.close();
+  });
+  dlg.addEventListener("close", () => {
+    if (detailReturn?.isConnected) detailReturn.focus({ preventScroll: true });
+    detailReturn = null;
   });
   $("view-list")?.addEventListener("click", () => setView("list"));
   $("view-map")?.addEventListener("click", () => setView("map"));
