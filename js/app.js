@@ -104,8 +104,7 @@ function render() {
       <h2><button type="button" class="card-open" aria-haspopup="dialog">${escapeHtml(p.name)}</button></h2>
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
       ${p.churchmanship ? `<span class="tag">${escapeHtml(p.churchmanship)}</span>` : ""}
-      ${p.verified ? `<span class="tag">${escapeHtml(p.verified)}</span>` : ""}
-      ${p.website ? `<div class="meta"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">Website<span class="visually-hidden"> for ${escapeHtml(p.name)} (opens in new tab)</span></a></div>` : ""}
+      ${p.website ? `<div class="meta card-site"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">${escapeHtml(shortUrl(p.website))}<span class="visually-hidden"> for ${escapeHtml(p.name)} (opens in new tab)</span></a></div>` : ""}
     `;
     div.onclick = (e) => {
       if (e.target.closest("a")) return;
@@ -166,6 +165,9 @@ function select(p) {
     map.setView([p.lat, p.lon], 13, still());
   }
 }
+
+// "https://www.example.org/" -> "example.org"
+const shortUrl = (url) => url.replace(/^https?:\/\/(www\.)?/i, "").replace(/\/$/, "");
 
 function milesTo(p) {
   const d = state.origin ? haversine(state.origin, p) : Infinity;
@@ -286,15 +288,18 @@ function parseOrigin() {
     render();
     return;
   }
+  // A bare ZIP (or ZIP+4) as free text matches same-numbered postcodes abroad
+  // (29150 is also in Brittany), so look it up as a US or territory postcode.
+  const zip = raw.match(/^(\d{5})(-\d{4})?$/);
   const url =
-    "https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" +
-    encodeURIComponent(raw);
+    "https://nominatim.openstreetmap.org/search?format=json&limit=1&" +
+    (zip ? `postalcode=${zip[1]}&countrycodes=us,pr,vi,gu,as,mp` : "q=" + encodeURIComponent(raw));
   fetch(url, { headers: { Accept: "application/json" } })
     .then((r) => r.json())
     .then((hits) => {
       if (seq !== originSeq) return;
       if (!hits.length) {
-        $("status").textContent = "Could not geocode that location. Try city, ST or lat,lon.";
+        $("status").textContent = "Could not geocode that location. Try a ZIP, city, ST, or lat,lon.";
         return;
       }
       state.origin = { lat: +hits[0].lat, lon: +hits[0].lon };

@@ -79,6 +79,7 @@ body.app { display: flex; flex-direction: column; }
   background: none; border: 0;
 }
 .meta { color: var(--muted); font-size: 0.8125rem; }
+.card-site { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .tag { display: inline-block; margin: 4px 4px 0 0; padding: 1px 6px; border: 1px solid var(--line);
   border-radius: 99px; font-size: 0.6875rem; color: var(--muted); }
 #map { height: 100%; min-height: 400px; min-width: 0; }
