@@ -199,8 +199,10 @@ const DETAIL_SECTIONS = [
     ["contact", "Other contact"],
   ]],
   ["Worship", [
-    ["service_times", "Services", "list"],
+    ["sunday_services", "Sunday services", "list"],
+    ["weekday_services", "Weekday services", "list"],
     ["rite", "Rite"],
+    ["rite_details", "Rite details"],
     ["churchmanship", "Churchmanship"],
     ["music_style", "Music"],
     ["service_languages", "Service languages"],
