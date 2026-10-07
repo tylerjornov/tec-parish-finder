@@ -93,6 +93,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
   .filters { max-height: 40vh; }
 }
 .view-toggle { display: flex; align-items: center; gap: 8px; font-size: 0.8125rem; }
+.view-toggle[hidden] { display: none; }
 .view-toggle span { color: var(--muted); cursor: pointer; user-select: none; }
 .view-toggle span.on { color: var(--acc); }
 #view-switch {

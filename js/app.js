@@ -66,8 +66,10 @@ function filtered() {
 }
 
 let map, markers;
-const DEFAULT_CENTER = [34.0, -81.0];
-const DEFAULT_ZOOM = 8;
+// The contiguous US, shown until a location or filter narrows things down.
+const US_BOUNDS = [[24.5, -125.0], [49.5, -66.9]];
+// With a location set, the map frames it and this many of the closest parishes.
+const NEAREST_SHOWN = 5;
 
 // data-motion is set on <html> by settings.js from the "Reduce motion" choice.
 const reduceMotion = () => document.documentElement.dataset.motion === "reduce";
@@ -82,7 +84,7 @@ function ensureMap() {
     zoomAnimation: anim,
     fadeAnimation: anim,
     markerZoomAnimation: anim,
-  }).setView(DEFAULT_CENTER, DEFAULT_ZOOM);
+  }).fitBounds(US_BOUNDS);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap",
     maxZoom: 18,
@@ -92,6 +94,9 @@ function ensureMap() {
 
 function render() {
   const list = filtered();
+  // The list only makes sense sorted by distance, so its toggle waits for a location.
+  $("view-toggle").hidden = !state.origin;
+  if (!state.origin) applyView("map");
   $("status").textContent = `${list.length} of ${state.all.length} parishes`;
   const wrap = $("list");
   wrap.innerHTML = "";
@@ -135,6 +140,7 @@ function paintMap(list) {
   map.invalidateSize();
   markers.clearLayers();
   const pts = [];
+  const near = state.origin ? [[state.origin.lat, state.origin.lon]] : [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
     const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name });
@@ -144,10 +150,15 @@ function paintMap(list) {
     });
     markers.addLayer(m);
     pts.push([p.lat, p.lon]);
+    // list is sorted by distance when there's an origin.
+    if (state.origin && near.length <= NEAREST_SHOWN) near.push([p.lat, p.lon]);
   });
+  const narrowed = $("q").value.trim() || FILTERS.some(([id]) => $(id).value);
   const fit = () => {
-    if (pts.length) map.fitBounds(pts, { padding: [24, 24], maxZoom: 12, ...still() });
-    else map.setView(DEFAULT_CENTER, DEFAULT_ZOOM, still());
+    const opts = { padding: [24, 24], maxZoom: 12, ...still() };
+    if (state.origin) map.fitBounds(near, opts);
+    else if (narrowed && pts.length) map.fitBounds(pts, opts);
+    else map.fitBounds(US_BOUNDS, still());
   };
   fit();
   setTimeout(() => {
@@ -342,15 +353,18 @@ function parseOrigin() {
     });
 }
 
-function setView(mode) {
-  const layout = $("layout");
-  if (!layout) return;
-  layout.dataset.view = mode;
+// Updates the layout and toggle without painting the map.
+function applyView(mode) {
+  $("layout").dataset.view = mode;
   $("view-list")?.classList.toggle("on", mode === "list");
   $("view-map")?.classList.toggle("on", mode === "map");
   $("view-switch")?.setAttribute("aria-checked", String(mode === "map"));
   // Point "Skip to results" at whichever view is showing.
   $("skip")?.setAttribute("href", mode === "map" ? "#map" : "#list");
+}
+
+function setView(mode) {
+  applyView(mode);
   if (mode === "map") {
     // #map is visible now; wait for layout before creating/sizing Leaflet.
     requestAnimationFrame(() => tryPaintMap(filtered()));

@@ -10,7 +10,7 @@
   <script src="js/nav.js"></script>
 </head>
 <body class="app">
-  <a class="skip" id="skip" href="#list">Skip to results</a>
+  <a class="skip" id="skip" href="#map">Skip to results</a>
   <header>
     <button type="button" id="menu-btn" class="menu-btn" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
       <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -25,13 +25,13 @@
       <a aria-current="page" href="index.html">Directory</a>
       <a href="about.html">About</a>
     </nav>
-    <div class="view-toggle">
-      <span id="view-list" class="on" aria-hidden="true">List</span>
-      <button type="button" id="view-switch" role="switch" aria-checked="false" aria-label="Map view"></button>
-      <span id="view-map" aria-hidden="true">Map</span>
+    <div class="view-toggle" id="view-toggle" hidden>
+      <span id="view-list" aria-hidden="true">List</span>
+      <button type="button" id="view-switch" role="switch" aria-checked="true" aria-label="Map view"></button>
+      <span id="view-map" class="on" aria-hidden="true">Map</span>
     </div>
   </header>
-  <main class="layout" id="layout" data-view="list">
+  <main class="layout" id="layout" data-view="map">
     <aside class="filters" aria-label="Filters">
       <label for="q">Search</label>
       <input id="q" placeholder="Name, city, notes">
