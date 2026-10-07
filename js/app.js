@@ -31,14 +31,19 @@ const FILTERS = [
   ["f-state", "state"],
   ["f-diocese", "diocese"],
   ["f-churchmanship", "churchmanship"],
-  ["f-wo-serve", "women_serve_priests"],
-  ["f-wo-affirmed", "wo_affirmed"],
-  ["f-lgbt-serve", "lgbt_serve_priests"],
+  ["f-wo-serve", "female_clergy"],
+  ["f-wo-affirmed", "womens_ordination_affirmed"],
+  ["f-lgbt-serve", "lgbt_clergy"],
   ["f-lgbt-affirmed", "lgbt_ordination_affirmed"],
   ["f-ssm", "ssm"],
-  ["f-spectrum", "spectrum"],
-  ["f-verified", "verified"],
+  ["f-spectrum", "theological_cultural_alignment"],
+  ["f-verified", "verification_status"],
 ];
+
+// These fields can hold several answers, separated by "; ".
+const MULTI = new Set(["female_clergy", "lgbt_clergy"]);
+const hasAnswer = (key, value, want) =>
+  MULTI.has(key) ? String(value ?? "").split(/;\s*/).includes(want) : value === want;
 
 function filtered() {
   // Read the controls once per render rather than once per parish.
@@ -52,7 +57,7 @@ function filtered() {
         .toLowerCase();
       if (!hay.includes(q)) return false;
     }
-    return active.every(([key, v]) => p[key] === v);
+    return active.every(([key, v]) => hasAnswer(key, p[key], v));
   });
   const byName = (a, b) => a.name.localeCompare(b.name);
   if (state.origin) {
@@ -196,7 +201,7 @@ const DETAIL_SECTIONS = [
     ["rector_name", "Rector"],
     ["rector_phone", "Rector Phone", "tel"],
     ["rector_email", "Rector Email", "email"],
-    ["contact", "Other Contact"],
+    ["other_contact", "Other Contact"],
   ]],
   ["Worship", [
     ["sunday_services", "Sunday Services", "list"],
@@ -215,12 +220,12 @@ const DETAIL_SECTIONS = [
     ["parking", "Parking"],
   ]],
   ["Doctrine & Social Issues", [
-    ["women_serve_priests", "Female Clergy"],
-    ["wo_affirmed", "Affirmation of Women’s Ordination"],
-    ["lgbt_serve_priests", "LGBT Clergy"],
+    ["female_clergy", "Female Clergy", "list"],
+    ["womens_ordination_affirmed", "Affirmation of Women’s Ordination"],
+    ["lgbt_clergy", "LGBT Clergy", "list"],
     ["lgbt_ordination_affirmed", "Affirmation of LGBT Ordination"],
     ["ssm", "Same-Sex Marriage"],
-    ["spectrum", "Theological & Cultural Alignment"],
+    ["theological_cultural_alignment", "Theological & Cultural Alignment"],
   ]],
   ["Diocese", [
     ["diocese", "Diocese"],
@@ -228,8 +233,8 @@ const DETAIL_SECTIONS = [
   ]],
   ["Notes & verification", [
     ["notes", "Notes"],
-    ["verified", "Verification Status"],
-    ["date_last_verified", "Last Updated"],
+    ["verification_status", "Verification Status"],
+    ["date_last_updated", "Last Updated"],
     ["coords", "Coordinates"],
   ]],
 ];
@@ -255,11 +260,11 @@ let detailReturn = null;
 
 function openDetail(p, returnTo) {
   const miles = milesTo(p);
-  // "contact" is normally just church phone | email; show it only if it adds something.
+  // "other_contact" is normally just church phone | email; show it only if it adds something.
   const joined = [p.church_phone, p.church_email].filter(hasValue).join(" | ");
   const v = {
     ...p,
-    contact: p.contact === joined ? "" : p.contact,
+    other_contact: p.other_contact === joined ? "" : p.other_contact,
     coords: p.lat != null && p.lon != null ? `${p.lat}, ${p.lon}` : "",
   };
   $("detail-title").textContent = p.name;
@@ -437,12 +442,12 @@ Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
     fillSelect("f-state", states);
     fillSelect("f-diocese", dioceses);
     fillSelect("f-churchmanship", opts.churchmanship || []);
-    fillSelect("f-wo-serve", opts.women_serve_priests || []);
-    fillSelect("f-wo-affirmed", opts.wo_affirmed || []);
-    fillSelect("f-lgbt-serve", opts.lgbt_serve_priests || []);
+    fillSelect("f-wo-serve", opts.female_clergy || []);
+    fillSelect("f-wo-affirmed", opts.womens_ordination_affirmed || []);
+    fillSelect("f-lgbt-serve", opts.lgbt_clergy || []);
     fillSelect("f-lgbt-affirmed", opts.lgbt_ordination_affirmed || []);
     fillSelect("f-ssm", opts.ssm || []);
-    fillSelect("f-spectrum", opts.spectrum || []);
+    fillSelect("f-spectrum", opts.theological_cultural_alignment || []);
 
     // Render the list first so a UI-binding error can't leave it empty.
     render();

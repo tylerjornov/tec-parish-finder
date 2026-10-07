@@ -47,15 +47,15 @@
     "state": "State",
     "diocese": "Diocese",
     "churchmanship": "Churchmanship",
-    "women_serve_priests": "Women Serve As Priests Here",
-    "wo_affirmed": "Womens Ordination is Affirmed Here",
-    "lgbt_serve_priests": "LGBT People Serve As Priests Here",
+    "female_clergy": "Women Serve As Priests Here",
+    "womens_ordination_affirmed": "Womens Ordination is Affirmed Here",
+    "lgbt_clergy": "LGBT People Serve As Priests Here",
     "lgbt_ordination_affirmed": "LGBT Ordination is Affirmed Here",
     "ssm": "Affirming of SSM",
-    "spectrum": "Conservative/Liberal Spectrum",
-    "contact": "Contact Info",
+    "theological_cultural_alignment": "Conservative/Liberal Spectrum",
+    "other_contact": "Contact Info",
     "notes": "Notes",
-    "verified": "Verified/Unverified",
+    "verification_status": "Verified/Unverified",
     "lat": "Lat",
     "lon": "Lon",
     "asa": "Average Sunday attendance",
@@ -77,7 +77,7 @@
     "parking": "Parking",
     "childcare": "Childcare details",
     "formation": "Formation / community",
-    "date_last_verified": "Date Last Verified"
+    "date_last_updated": "Date Last Verified"
   },
   "list_options": {
     "churchmanship": [
@@ -91,7 +91,7 @@
       "Charismatic",
       "N/A - Data Not Available or Answer not given"
     ],
-    "women_serve_priests": [
+    "female_clergy": [
       "Yes - Diocesan Bishop",
       "Yes - Rector",
       "Yes - Other Priest",
@@ -99,14 +99,14 @@
       "No - None of the Clergy Here Are Female",
       "N/A - Data Not Available or Answer not given"
     ],
-    "wo_affirmed": [
+    "womens_ordination_affirmed": [
       "Yes - Episcopacy, Priesthood, & Diaconate",
       "Yes - Priesthood & Diaconate",
       "Yes - Diaconate Only",
       "No - Female Clergy Not Accepted",
       "N/A - Data Not Available or Answer not given"
     ],
-    "lgbt_serve_priests": [
+    "lgbt_clergy": [
       "Yes - Diocesan Bishop",
       "Yes - Rector",
       "Yes - Other Priest",
@@ -128,7 +128,7 @@
       "No - Homosexuality Seen as Sinful",
       "N/A - Data Not Available or Answer not given"
     ],
-    "spectrum": [
+    "theological_cultural_alignment": [
       "Inclusive Orthodox - Socially Progressive & Theologically Conservative",
       "Traditional Orthodox - Both Theologically & Socially Conservative",
       "Moderate Liberal - Theologically & Socially Progressive, fully affirms the three creeds",
