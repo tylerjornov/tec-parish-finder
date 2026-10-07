@@ -60,7 +60,7 @@ body.app { display: flex; flex-direction: column; }
 .filters, .list { border-right: 1px solid var(--line); overflow: auto; background: var(--panel); }
 .filters { padding: 12px; }
 .filters label { display: block; font-size: 0.75rem; color: var(--muted); margin: 10px 0 4px; }
-.filters input, .filters select {
+.filters input {
   width: 100%; background: var(--field); color: var(--text); border: 1px solid var(--control);
   border-radius: 6px; padding: 7px 8px;
 }
@@ -69,6 +69,20 @@ body.app { display: flex; flex-direction: column; }
   border: 1px solid var(--acc-line); background: var(--acc-bg); color: var(--acc); cursor: pointer;
 }
 .filters #use-location { margin-top: 6px; }
+/* Filter dropdowns: a button that opens a checklist, so several values can be chosen. */
+.filters .ms-btn {
+  position: relative; display: block; margin: 0; padding: 7px 28px 7px 8px; text-align: left;
+  color: var(--text); background: var(--field); border: 1px solid var(--control); border-radius: 6px;
+  overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+.filters .ms-btn::after {
+  content: ""; position: absolute; right: 11px; top: 50%; width: 6px; height: 6px;
+  border: solid var(--muted); border-width: 0 2px 2px 0; transform: translateY(-70%) rotate(45deg);
+}
+.filters .ms-btn[aria-expanded="true"]::after { transform: translateY(-30%) rotate(-135deg); }
+.ms-panel { margin-top: 4px; padding: 4px 6px; background: var(--field); border: 1px solid var(--line); border-radius: 6px; }
+.filters .ms-opt { display: flex; align-items: flex-start; gap: 8px; margin: 0; padding: 5px 2px; font-size: 0.8125rem; color: var(--text); cursor: pointer; }
+.filters .ms-opt input { width: auto; flex: none; margin: 2px 0 0; padding: 0; accent-color: var(--acc); }
 #status { color: var(--muted); font-size: 0.75rem; margin: 8px 0 0; }
 .card {
   padding: 12px 14px; border-bottom: 1px solid var(--line); cursor: pointer;

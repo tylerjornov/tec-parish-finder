@@ -16,16 +16,87 @@ function haversine(a, b) {
   return 2 * R * Math.asin(Math.sqrt(s));
 }
 
-function fillSelect(id, values) {
-  const el = $(id);
-  if (!el) return;
-  values.forEach((v) => {
-    const o = document.createElement("option");
-    o.value = v;
-    o.textContent = v;
-    el.appendChild(o);
+// Each filter keeps the set of values currently ticked. A parish passes when it
+// matches any ticked value in every filter that has one (OR within, AND across).
+const chosen = new Map();
+const filterSyncs = [];
+const filterClosers = [];
+
+// Turns the empty .ms placeholder for `id` into a button that opens a checklist.
+function fillFilter(id, values) {
+  const host = document.querySelector(`.ms[data-id="${id}"]`);
+  if (!host) return;
+  const set = new Set();
+  chosen.set(id, set);
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.id = id;
+  btn.className = "ms-btn";
+  btn.setAttribute("aria-expanded", "false");
+  btn.setAttribute("aria-controls", `${id}-panel`);
+  const panel = document.createElement("div");
+  panel.id = `${id}-panel`;
+  panel.className = "ms-panel";
+  panel.setAttribute("role", "group");
+  panel.hidden = true;
+  const label = document.querySelector(`label[for="${id}"]`);
+  if (label) {
+    label.id ||= `${id}-label`;
+    // Name = the label plus the current choice, which the button's own text carries.
+    btn.setAttribute("aria-labelledby", `${label.id} ${id}`);
+    panel.setAttribute("aria-labelledby", label.id);
+  }
+  const boxes = values.map((v) => {
+    const row = document.createElement("label");
+    row.className = "ms-opt";
+    const box = document.createElement("input");
+    box.type = "checkbox";
+    box.value = v;
+    box.addEventListener("change", () => {
+      if (box.checked) set.add(v);
+      else set.delete(v);
+      sync();
+      render();
+    });
+    const text = document.createElement("span");
+    text.textContent = v;
+    row.append(box, text);
+    panel.appendChild(row);
+    return box;
   });
+  const sync = () => {
+    btn.textContent = set.size === 0 ? "Any" : set.size === 1 ? [...set][0] : `${set.size} selected`;
+    btn.title = [...set].join("; ");
+    boxes.forEach((b) => (b.checked = set.has(b.value)));
+  };
+  const setOpen = (open) => {
+    panel.hidden = !open;
+    btn.setAttribute("aria-expanded", String(open));
+  };
+  btn.addEventListener("click", () => {
+    const open = panel.hidden;
+    filterClosers.forEach((close) => close());
+    setOpen(open);
+  });
+  panel.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      setOpen(false);
+      btn.focus();
+    }
+  });
+  filterSyncs.push(sync);
+  filterClosers.push(() => setOpen(false));
+  host.append(btn, panel);
+  sync();
 }
+
+function clearFilters() {
+  chosen.forEach((set) => set.clear());
+  filterSyncs.forEach((sync) => sync());
+  filterClosers.forEach((close) => close());
+}
+
+const filtersActive = () => [...chosen.values()].some((set) => set.size);
 
 const FILTERS = [
   ["f-state", "state"],
@@ -42,13 +113,13 @@ const FILTERS = [
 
 // These fields can hold several answers, separated by "; ".
 const MULTI = new Set(["female_clergy", "lgbt_clergy"]);
-const hasAnswer = (key, value, want) =>
-  MULTI.has(key) ? String(value ?? "").split(/;\s*/).includes(want) : value === want;
+const matchesAny = (key, value, wanted) =>
+  MULTI.has(key) ? String(value ?? "").split(/;\s*/).some((a) => wanted.has(a)) : wanted.has(value);
 
 function filtered() {
   // Read the controls once per render rather than once per parish.
   const q = $("q").value.trim().toLowerCase();
-  const active = FILTERS.map(([id, key]) => [key, $(id).value]).filter(([, v]) => v);
+  const active = FILTERS.map(([id, key]) => [key, chosen.get(id)]).filter(([, set]) => set && set.size);
   const list = state.all.filter((p) => {
     if (q) {
       const hay = [p.name, p.address, p.state, p.diocese, p.notes]
@@ -57,7 +128,7 @@ function filtered() {
         .toLowerCase();
       if (!hay.includes(q)) return false;
     }
-    return active.every(([key, v]) => hasAnswer(key, p[key], v));
+    return active.every(([key, set]) => matchesAny(key, p[key], set));
   });
   const byName = (a, b) => a.name.localeCompare(b.name);
   if (state.origin) {
@@ -158,7 +229,7 @@ function paintMap(list) {
     // list is sorted by distance when there's an origin.
     if (state.origin && near.length <= NEAREST_SHOWN) near.push([p.lat, p.lon]);
   });
-  const narrowed = $("q").value.trim() || FILTERS.some(([id]) => $(id).value);
+  const narrowed = $("q").value.trim() || filtersActive();
   const fit = () => {
     const opts = { padding: [24, 24], maxZoom: 12, ...still() };
     if (state.origin) map.fitBounds(near, opts);
@@ -379,10 +450,8 @@ function setView(mode) {
 }
 
 function bindUi() {
-  const controls = document.querySelectorAll(".filters input, .filters select");
   // Text boxes don't re-render on "change": it fires on blur, so rebuilding the
   // list then would swallow the click on a card that caused the blur.
-  document.querySelectorAll(".filters select").forEach((el) => el.addEventListener("change", render));
   $("q").addEventListener("input", render);
   $("apply-origin")?.addEventListener("click", parseOrigin);
   // Browsers only allow location on https (and localhost).
@@ -394,10 +463,10 @@ function bindUi() {
     if (e.key === "Enter") parseOrigin();
   });
   $("reset")?.addEventListener("click", () => {
-    controls.forEach((el) => {
-      if (el.tagName === "SELECT") el.selectedIndex = 0;
-      else el.value = "";
+    [$("q"), $("origin")].forEach((el) => {
+      if (el) el.value = "";
     });
+    clearFilters();
     originSeq++;
     state.origin = null;
     render();
@@ -439,15 +508,16 @@ Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
     const opts = (schema && schema.list_options) || {};
     const states = [...new Set(parishes.map((p) => p.state).filter(Boolean))].sort();
     const dioceses = [...new Set(parishes.map((p) => p.diocese).filter(Boolean))].sort();
-    fillSelect("f-state", states);
-    fillSelect("f-diocese", dioceses);
-    fillSelect("f-churchmanship", opts.churchmanship || []);
-    fillSelect("f-wo-serve", opts.female_clergy || []);
-    fillSelect("f-wo-affirmed", opts.womens_ordination_affirmed || []);
-    fillSelect("f-lgbt-serve", opts.lgbt_clergy || []);
-    fillSelect("f-lgbt-affirmed", opts.lgbt_ordination_affirmed || []);
-    fillSelect("f-ssm", opts.ssm || []);
-    fillSelect("f-spectrum", opts.theological_cultural_alignment || []);
+    fillFilter("f-state", states);
+    fillFilter("f-diocese", dioceses);
+    fillFilter("f-churchmanship", opts.churchmanship || []);
+    fillFilter("f-wo-serve", opts.female_clergy || []);
+    fillFilter("f-wo-affirmed", opts.womens_ordination_affirmed || []);
+    fillFilter("f-lgbt-serve", opts.lgbt_clergy || []);
+    fillFilter("f-lgbt-affirmed", opts.lgbt_ordination_affirmed || []);
+    fillFilter("f-ssm", opts.ssm || []);
+    fillFilter("f-spectrum", opts.theological_cultural_alignment || []);
+    fillFilter("f-verified", ["Website Only", "Unverified", "Verified"]);
 
     // Render the list first so a UI-binding error can't leave it empty.
     render();
