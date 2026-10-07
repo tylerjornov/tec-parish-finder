@@ -517,7 +517,7 @@ Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
     fillFilter("f-lgbt-affirmed", opts.lgbt_ordination_affirmed || []);
     fillFilter("f-ssm", opts.ssm || []);
     fillFilter("f-spectrum", opts.theological_cultural_alignment || []);
-    fillFilter("f-verified", ["Website Only", "Unverified", "Verified"]);
+    fillFilter("f-verified", ["Verified", "Unverified"]);
 
     // Render the list first so a UI-binding error can't leave it empty.
     render();

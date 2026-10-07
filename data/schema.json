@@ -89,7 +89,7 @@
       "Old Low Church",
       "Evangelical",
       "Charismatic",
-      "N/A - Data Not Available or Answer not given"
+      "N/A - Data Not Available"
     ],
     "female_clergy": [
       "Yes - Diocesan Bishop",
@@ -97,14 +97,14 @@
       "Yes - Other Priest",
       "Yes - Deacon",
       "No - None of the Clergy Here Are Female",
-      "N/A - Data Not Available or Answer not given"
+      "N/A - Data Not Available"
     ],
     "womens_ordination_affirmed": [
       "Yes - Episcopacy, Priesthood, & Diaconate",
       "Yes - Priesthood & Diaconate",
       "Yes - Diaconate Only",
       "No - Female Clergy Not Accepted",
-      "N/A - Data Not Available or Answer not given"
+      "N/A - Data Not Available"
     ],
     "lgbt_clergy": [
       "Yes - Diocesan Bishop",
@@ -112,28 +112,28 @@
       "Yes - Other Priest",
       "Yes - Deacon",
       "No - None of the Clergy Here Are LGBT",
-      "N/A - Data Not Available or Answer not given"
+      "N/A - Data Not Available"
     ],
     "lgbt_ordination_affirmed": [
       "Yes - Episcopacy, Priesthood, & Diaconate",
       "Yes - Priesthood & Diaconate",
       "Yes - Diaconate Only",
       "No - LGBT Clergy Not Accepted",
-      "N/A - Data Not Available or Answer not given"
+      "N/A - Data Not Available"
     ],
     "ssm": [
       "Yes - Practiced",
       "Yes - Affirmed but not Practiced",
       "No - Alternative Blessings Practiced",
       "No - Homosexuality Seen as Sinful",
-      "N/A - Data Not Available or Answer not given"
+      "N/A - Data Not Available"
     ],
     "theological_cultural_alignment": [
       "Inclusive Orthodox - Socially Progressive & Theologically Conservative",
       "Traditional Orthodox - Both Theologically & Socially Conservative",
       "Moderate Liberal - Theologically & Socially Progressive, fully affirms the three creeds",
       "Progressive - Theologically & Socially Progressive, rejects some aspect of three creeds",
-      "N/A - Data Not Available or Answer not given"
+      "N/A - Data Not Available"
     ],
     "rite": [
       "I",
