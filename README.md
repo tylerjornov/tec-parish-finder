@@ -2,10 +2,28 @@
 
 ## What this is
 
+**Pages**
 - `index.html` — main page, shows map and list
 - `about.html` — more information on the website and creator
+- `institutions.html` — institutions page (coming soon)
+- `terms.html` — terms and conditions
+
+**Scripts** (`js/`)
+- `js/settings.js` — display settings (theme, contrast, motion)
+- `js/nav.js` — site navigation menu
+- `js/app.js` — directory logic: filters, search, distance sorting, map, and parish detail dialog
+
+**Styles**
+- `css/app.css` — styles for all pages
+
+**Data** (`data/`)
 - `data/parishes.json` — parish info
 - `data/schema.json` — schema used for parishes.json
+
+**Other**
+- `CNAME` — custom domain for GitHub Pages
+- `COPYRIGHT.md` — licensing and reuse terms
+- `notes-archive/` — archived planning notes
 
 ## Reuse
 
