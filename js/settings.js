@@ -1,5 +1,5 @@
 // Display settings: theme, contrast, and motion. Each is "auto" (follow the
-// device) or a manual override. Loaded in <head> so the resolved values are on
+// device) or a manual override. Pin size scales the map markers. Loaded in <head> so the resolved values are on
 // <html> before the page paints; the menu itself is built once the DOM exists.
 (() => {
   const KEY = "tec-display-settings";
@@ -25,6 +25,9 @@
     },
   };
 
+  // Pin size is a multiple of Leaflet's default 25×41 marker.
+  const PIN = { min: 0.6, max: 2, step: 0.2 };
+
   let saved = {};
   try {
     saved = JSON.parse(localStorage.getItem(KEY)) || {};
@@ -37,7 +40,15 @@
     return OPTIONS[name].choices.some(([value]) => value === v) ? v : "auto";
   }
 
+  function pinSize() {
+    const v = Number(saved.pinSize);
+    return v >= PIN.min && v <= PIN.max ? v : 1;
+  }
+
+  const pct = (v) => `${Math.round(v * 100)}%`;
+
   function apply() {
+    document.documentElement.dataset.pinSize = String(pinSize());
     for (const [name, opt] of Object.entries(OPTIONS)) {
       const v = chosen(name);
       document.documentElement.dataset[name] =
@@ -81,6 +92,14 @@
         </fieldset>`
           )
           .join("")}
+        <fieldset>
+          <legend id="pin-size-legend">Pin size</legend>
+          <div class="settings-range">
+            <input type="range" id="pin-size" min="${PIN.min}" max="${PIN.max}" step="${PIN.step}"
+              value="${pinSize()}" aria-labelledby="pin-size-legend" aria-valuetext="${pct(pinSize())}">
+            <output for="pin-size" id="pin-size-out">${pct(pinSize())}</output>
+          </div>
+        </fieldset>
         <p class="settings-hint">Automatic follows your device settings.</p>
       </div>`;
     header.appendChild(wrap);
@@ -96,14 +115,26 @@
       setOpen(panel.hidden);
       if (!panel.hidden) panel.querySelector("input:checked").focus();
     });
-    panel.addEventListener("change", (e) => {
-      saved[e.target.name] = e.target.value;
+    const save = () => {
       try {
         localStorage.setItem(KEY, JSON.stringify(saved));
       } catch {
         // Not persisted; the choice still applies for this page view.
       }
       apply();
+    };
+    panel.addEventListener("change", (e) => {
+      if (e.target.type !== "radio") return;
+      saved[e.target.name] = e.target.value;
+      save();
+    });
+    // "input" fires while dragging, so the pins resize live.
+    const range = panel.querySelector("#pin-size");
+    range.addEventListener("input", () => {
+      saved.pinSize = Number(range.value);
+      range.setAttribute("aria-valuetext", pct(saved.pinSize));
+      panel.querySelector("#pin-size-out").textContent = pct(saved.pinSize);
+      save();
     });
     wrap.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && !panel.hidden) {

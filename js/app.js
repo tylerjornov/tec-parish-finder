@@ -180,6 +180,23 @@ function ensureMap() {
     attributeFilter: ["data-theme"],
   });
   markers = L.layerGroup().addTo(map);
+  // settings.js changes data-pin-size when the visitor moves the Pin size slider.
+  new MutationObserver(() => {
+    const icon = pinIcon();
+    markers.eachLayer((m) => m.setIcon(icon));
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-pin-size"] });
+}
+
+// Leaflet's default pin (25×41, tip at 12,41), scaled by the Pin size setting.
+function pinIcon() {
+  const s = Number(document.documentElement.dataset.pinSize) || 1;
+  const px = (n) => Math.round(n * s);
+  return new L.Icon.Default({
+    iconSize: [px(25), px(41)],
+    iconAnchor: [px(12), px(41)],
+    shadowSize: [px(41), px(41)],
+    shadowAnchor: [px(12), px(41)],
+  });
 }
 
 function render() {
@@ -233,7 +250,7 @@ function paintMap(list) {
   const near = state.origin ? [[state.origin.lat, state.origin.lon]] : [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
-    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name });
+    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name, icon: pinIcon() });
     m.on("click", () => {
       select(p);
       openDetail(p, m.getElement());
@@ -257,14 +274,12 @@ function paintMap(list) {
   }, 100);
 }
 
+// Highlights the parish's card. The map stays put so closing the detail
+// dialog returns to the same view.
 function select(p) {
   document.querySelectorAll(".card").forEach((c) => {
     c.classList.toggle("active", c.dataset.id === p.id);
   });
-  if (p.lat != null && p.lon != null && $("layout").dataset.view === "map") {
-    ensureMap();
-    map.setView([p.lat, p.lon], 13, still());
-  }
 }
 
 // "https://www.example.org/" -> "example.org"

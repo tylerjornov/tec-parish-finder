@@ -150,6 +150,9 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
 .settings-panel legend { padding: 0; margin-bottom: 4px; font-size: 0.8125rem; font-weight: 600; }
 .settings-panel label { display: flex; align-items: center; gap: 6px; min-height: 24px; font-size: 0.8125rem; cursor: pointer; }
 .settings-panel input { accent-color: var(--acc); margin: 0; }
+.settings-range { display: flex; align-items: center; gap: 8px; min-height: 24px; }
+.settings-range input { flex: 1; min-width: 0; }
+.settings-range output { width: 3.5em; text-align: right; font-size: 0.8125rem; color: var(--muted); }
 .settings-hint { margin: 10px 0 0; font-size: 0.75rem; color: var(--muted); }
 /* Windows contrast themes replace our colors; keep the switch knob and the
    selected card visible with system colors. */
