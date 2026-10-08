@@ -1,6 +1,6 @@
-# TEC Parish Directory
+# Episcopal Compass
 
-## What this is
+## Code Directory
 
 **Pages**
 - `index.html` — main page, shows map and list
