@@ -22,3 +22,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!nav.contains(e.target) && !btn.contains(e.target)) setOpen(false);
   });
 });
+
+// "Daily Office Readings" becomes "Sunday Service Liturgy" on Sundays,
+// by the viewer's local clock.
+document.addEventListener("DOMContentLoaded", () => {
+  const link = document.getElementById("office-link");
+  if (!link) return;
+  const update = () => {
+    link.textContent = new Date().getDay() === 0 ? "Sunday Service Liturgy" : "Daily Office Readings";
+  };
+  update();
+  setInterval(update, 60000);
+});
