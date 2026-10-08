@@ -4,3 +4,9 @@ exclude:
   - notes-archive
   - README.md
   - COPYRIGHT.md
+  - parish-webcrawler
+  - img
+  - css
+  - js
+  - CNAME
+  - _config.yml

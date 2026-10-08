@@ -22,6 +22,9 @@ const chosen = new Map();
 const filterSyncs = [];
 const filterClosers = [];
 
+// "Yes - Rector" -> "Rector": the dropdowns show only the detail of a yes answer.
+const optionLabel = (v) => v.replace(/^Yes - /, "");
+
 // Turns the empty .ms placeholder for `id` into a button that opens a checklist.
 function fillFilter(id, values) {
   const host = document.querySelector(`.ms[data-id="${id}"]`);
@@ -59,14 +62,14 @@ function fillFilter(id, values) {
       render();
     });
     const text = document.createElement("span");
-    text.textContent = v;
+    text.textContent = optionLabel(v);
     row.append(box, text);
     panel.appendChild(row);
     return box;
   });
   const sync = () => {
-    btn.textContent = set.size === 0 ? "Any" : set.size === 1 ? [...set][0] : `${set.size} selected`;
-    btn.title = [...set].join("; ");
+    btn.textContent = set.size === 0 ? "Any" : set.size === 1 ? optionLabel([...set][0]) : `${set.size} selected`;
+    btn.title = [...set].map(optionLabel).join("; ");
     boxes.forEach((b) => (b.checked = set.has(b.value)));
   };
   const setOpen = (open) => {
@@ -113,8 +116,8 @@ const FILTERS = [
 
 // These fields can hold several answers, separated by "; ".
 const MULTI = new Set(["female_clergy", "lgbt_clergy"]);
-const matchesAny = (key, value, wanted) =>
-  MULTI.has(key) ? String(value ?? "").split(/;\s*/).some((a) => wanted.has(a)) : wanted.has(value);
+const answers = (key, value) => (MULTI.has(key) ? String(value ?? "").split(/;\s*/) : [value]);
+const matchesAny = (key, value, wanted) => answers(key, value).some((a) => wanted.has(a));
 
 function filtered() {
   // Read the controls once per render rather than once per parish.
@@ -524,19 +527,13 @@ $("status").textContent = "Loading parishes…";
 Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
   .then(([parishes, schema]) => {
     state.all = parishes;
-    const opts = (schema && schema.list_options) || {};
-    const states = [...new Set(parishes.map((p) => p.state).filter(Boolean))].sort();
-    const dioceses = [...new Set(parishes.map((p) => p.diocese).filter(Boolean))].sort();
-    fillFilter("f-state", states);
-    fillFilter("f-diocese", dioceses);
-    fillFilter("f-churchmanship", opts.churchmanship || []);
-    fillFilter("f-wo-serve", opts.female_clergy || []);
-    fillFilter("f-wo-affirmed", opts.womens_ordination_affirmed || []);
-    fillFilter("f-lgbt-serve", opts.lgbt_clergy || []);
-    fillFilter("f-lgbt-affirmed", opts.lgbt_ordination_affirmed || []);
-    fillFilter("f-ssm", opts.ssm || []);
-    fillFilter("f-spectrum", opts.theological_cultural_alignment || []);
-    fillFilter("f-verified", ["Verified", "Unverified"]);
+    // Each dropdown offers only answers some parish actually has, in the
+    // schema's order. State and Diocese have no set list, so they're A–Z.
+    FILTERS.forEach(([id, key]) => {
+      const used = new Set(parishes.flatMap((p) => answers(key, p[key])));
+      const listed = schema.list_options[key] || schema.fields[key].choices;
+      fillFilter(id, listed ? listed.filter((v) => used.has(v)) : [...used].filter(Boolean).sort());
+    });
 
     // Render the list first so a UI-binding error can't leave it empty.
     render();
