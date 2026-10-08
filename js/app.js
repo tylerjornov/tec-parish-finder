@@ -152,6 +152,12 @@ const reduceMotion = () => document.documentElement.dataset.motion === "reduce";
 // Leaflet treats animate: true differently from leaving it unset, so only pass false.
 const still = () => (reduceMotion() ? { animate: false } : {});
 
+const CARTO_KEY = "cb1_4dnh_1_b452b4eaaac650e934348ac6";
+const cartoUrl = () => {
+  const style = document.documentElement.dataset.theme === "light" ? "rastertiles/voyager" : "dark_all";
+  return `https://{s}.basemaps.cartocdn.com/${style}/{z}/{x}/{y}${L.Browser.retina ? "@2x" : ""}.png?key=${CARTO_KEY}`;
+};
+
 function ensureMap() {
   if (map) return;
   if (typeof L === "undefined") throw new Error("Leaflet did not load");
@@ -161,10 +167,18 @@ function ensureMap() {
     fadeAnimation: anim,
     markerZoomAnimation: anim,
   }).fitBounds(US_BOUNDS);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "&copy; OpenStreetMap",
-    maxZoom: 18,
+  // CARTO basemaps (free non-commercial key): Voyager for light, Dark Matter for dark.
+  const tiles = L.tileLayer(cartoUrl(), {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: "abcd",
+    maxZoom: 20,
   }).addTo(map);
+  // settings.js changes data-theme on <html> when the visitor switches themes.
+  new MutationObserver(() => tiles.setUrl(cartoUrl())).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"],
+  });
   markers = L.layerGroup().addTo(map);
 }
 

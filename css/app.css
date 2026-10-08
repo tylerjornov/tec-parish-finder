@@ -99,6 +99,14 @@ body.app { display: flex; flex-direction: column; }
   border-radius: 99px; font-size: 0.6875rem; color: var(--muted); }
 #map { height: 100%; min-height: 400px; min-width: 0; }
 .leaflet-control-attribution a { text-decoration: underline; }
+/* Light and dark tiles come from CARTO (see ensureMap in app.js); high
+   contrast adds a filter on top. Markers sit in other panes and are unaffected. */
+.leaflet-container { background: var(--bg); }
+:root[data-contrast="more"] .leaflet-tile-pane { filter: grayscale(1) brightness(0.75) contrast(2.5); }
+/* Dark Matter is mostly near-black with dim labels, so brighten instead of adding contrast. */
+:root[data-contrast="more"][data-theme="dark"] .leaflet-tile-pane { filter: grayscale(1) brightness(3); }
+.leaflet-bar a, .leaflet-bar a:hover { background-color: var(--panel); color: var(--text); border-bottom-color: var(--line); }
+.leaflet-bar { border: 1px solid var(--line); }
 .about { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
 footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.8125rem; }
 @media (max-width: 900px) {
