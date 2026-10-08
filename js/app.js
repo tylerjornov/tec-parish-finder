@@ -207,16 +207,21 @@ function render() {
   $("status").textContent = `${list.length} of ${state.all.length} parishes`;
   const wrap = $("list");
   wrap.innerHTML = "";
-  list.forEach((p, i) => {
+  // The list stays empty until there's a place to sort by distance from.
+  if (!state.origin) {
+    wrap.innerHTML = `<p class="list-empty">Enter a location${canLocate ? " or use your current location" : ""} to show the list.</p>`;
+  }
+  (state.origin ? list : []).forEach((p, i) => {
     const miles = milesTo(p);
+    const tags = cardTags(p);
     const div = document.createElement("article");
     div.className = "card";
     div.dataset.id = p.id;
     div.innerHTML = `
       <h2><button type="button" class="card-open" aria-haspopup="dialog">${escapeHtml(p.name)}</button></h2>
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
-      ${p.churchmanship ? `<span class="tag">${escapeHtml(p.churchmanship)}</span>` : ""}
       ${p.website ? `<div class="meta card-site"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">${escapeHtml(shortUrl(p.website))}<span class="visually-hidden"> for ${escapeHtml(p.name)} (opens in new tab)</span></a></div>` : ""}
+      ${tags.length ? `<ul class="tags">${tags.map((t) => `<li class="tag">${escapeHtml(t)}</li>`).join("")}</ul>` : ""}
     `;
     div.onclick = (e) => {
       if (e.target.closest("a")) return;
@@ -336,6 +341,19 @@ const DETAIL_SECTIONS = [
   ]],
 ];
 
+// Card tags, from schema.list_tags: one per field, in its order, using the
+// short label of the first listed answer the parish has.
+let listTags = {};
+function cardTags(p) {
+  return Object.entries(listTags)
+    .filter(([key]) => key !== "about")
+    .map(([key, labels]) => {
+      const have = new Set(answers(key, p[key]));
+      return Object.entries(labels).find(([answer]) => have.has(answer))?.[1];
+    })
+    .filter(Boolean);
+}
+
 const hasValue = (v) => v != null && v !== "" && v !== "N/A";
 
 function detailValue(v, kind) {
@@ -388,6 +406,9 @@ function escapeHtml(s) {
 // Bumped on every new origin request so a slow geocode reply can't
 // overwrite a newer origin (or one the user has since cleared).
 let originSeq = 0;
+
+// Browsers only allow location on https (and localhost).
+const canLocate = !!navigator.geolocation && window.isSecureContext;
 
 // Shown in the Near box while sorting by the device's position.
 const HERE = "My location";
@@ -475,8 +496,7 @@ function bindUi() {
   // list then would swallow the click on a card that caused the blur.
   $("q").addEventListener("input", render);
   $("apply-origin").addEventListener("click", parseOrigin);
-  // Browsers only allow location on https (and localhost).
-  if (navigator.geolocation && window.isSecureContext) {
+  if (canLocate) {
     $("use-location").hidden = false;
     $("use-location").addEventListener("click", useDeviceLocation);
   }
@@ -527,6 +547,7 @@ $("status").textContent = "Loading parishes…";
 Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
   .then(([parishes, schema]) => {
     state.all = parishes;
+    listTags = schema.list_tags || {};
     // Each dropdown offers only answers some parish actually has, in the
     // schema's order. State and Diocese have no set list, so they're A–Z.
     FILTERS.forEach(([id, key]) => {

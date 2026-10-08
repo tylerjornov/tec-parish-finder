@@ -1,0 +1,69 @@
+---
+# This empty block tells GitHub Pages to fill in {{ site.time }} below. Each
+# deploy then gets new ?v= links, so visitors load fresh files at once.
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Definitions — Episcopal Compass</title>
+  <link rel="icon" href="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css?v={{ site.time | date: '%s' }}">
+  <script src="js/settings.js?v={{ site.time | date: '%s' }}"></script>
+  <script src="js/nav.js?v={{ site.time | date: '%s' }}"></script>
+</head>
+<body>
+  <header>
+    <button type="button" id="menu-btn" class="menu-btn" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="5" cy="5" r="2"></circle><circle cx="12" cy="5" r="2"></circle><circle cx="19" cy="5" r="2"></circle>
+        <circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle>
+        <circle cx="5" cy="19" r="2"></circle><circle cx="12" cy="19" r="2"></circle><circle cx="19" cy="19" r="2"></circle>
+      </svg>
+    </button>
+    <a class="brand" href="index.html">
+      <img class="logo" src="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" alt="" width="28" height="28">
+      <h1>Episcopal Compass</h1>
+    </a>
+    <nav id="site-nav" aria-label="Site">
+      <div class="nav-title" aria-hidden="true">Episcopal Compass</div>
+      <a id="office-link" href="https://prayer.forwardmovement.org/pray" target="_blank" rel="noopener">Daily Office Readings</a>
+      <a aria-current="page" href="definitions.html">Definitions</a>
+      <a href="about.html">About</a>
+      <a href="acknowledgements.html">Acknowledgements</a>
+    </nav>
+  </header>
+  <main class="about">
+    <h2>Definitions</h2>
+    <p>Short explanations of the terms used in the directory’s filters and parish listings.</p>
+
+    <h3>Churchmanship</h3>
+    <p>Churchmanship describes a parish’s style of worship and some areas of theological belief, drawn from a particular strand of the Anglican tradition. The labels below run roughly from most Catholic to most Protestant. Many parishes do not fall neatly into any one category, and some may have multiple services with different churchmanship, or teach doctrine from one strand of tradition while liturgically following another.</p>
+
+    <h4 id="anglo-papalist">Anglo-Papalist</h4>
+    <p>The most Roman-leaning form of Anglo-Catholicism. Anglo-Papalist parishes often use the Roman Missal or the Anglican Missal alongside or in place of the Book of Common Prayer, keep Roman devotions such as Benediction and the Rosary, and regard the Pope as the rightful head of a reunited Church. On a Sunday, the worship can be hard to tell apart from a traditional Roman Catholic Mass.</p>
+
+    <h4 id="anglo-catholic">Anglo-Catholic</h4>
+    <p>A tradition rooted in the 19th-century Oxford Movement that stresses Anglicanism’s Catholic inheritance: the real presence of Christ in the Eucharist, the apostolic succession of bishops, and the seven sacraments, including private confession. Worship is usually a sung Mass with full vestments, incense, bells, and devotion to Mary and the saints, and the Sacrament is often reserved in a tabernacle.</p>
+
+    <h4 id="prayer-book-catholic">Prayer Book Catholic</h4>
+    <p>Catholic in belief and often in ceremony, but committed to the Book of Common Prayer as the full and sufficient expression of that faith. Rather than borrowing texts from Roman missals, these parishes celebrate the Prayer Book rites with Catholic dignity and ritual.</p>
+
+    <h4 id="old-high-church">Old High Church</h4>
+    <p>The high church tradition that predates the Oxford Movement, reaching back to the Caroline Divines of the 17th century and, in America, to Bishops Samuel Seabury and John Henry Hobart. It values the authority of the Church, the episcopate, the sacraments, and the Prayer Book, with reverent and orderly worship but more restrained ceremony than Anglo-Catholicism (often no incense, and choir dress at Morning Prayer).</p>
+
+    <h4 id="broad-church">Broad Church</h4>
+    <p>The middle way, and the most common style in the Episcopal Church today. Broad Church parishes favor wide latitude in belief and practice over precise doctrinal definitions, and their worship sits between high and low: typically a Sunday Eucharist with vestments and a robed choir, but little of the fuller Catholic ceremonial. They are often theologically liberal.</p>
+
+    <h4 id="old-low-church">Old Low Church</h4>
+    <p>The older Protestant strand of Anglicanism, which stresses the Reformation heritage of the Church of England, the authority of Scripture, preaching, and the Thirty-Nine Articles. Worship follows the Prayer Book closely but plainly, with simple vesture and little ritual. It differs from modern evangelicalism mainly in its formal, traditional liturgical style.</p>
+
+    <h4 id="evangelical">Evangelical</h4>
+    <p>Parishes in the wider evangelical movement, which emphasizes the authority of the Bible, personal conversion, the saving death of Christ on the cross, and active witness. Preaching is central, and worship is often less formal, with contemporary music and a looser use of the Prayer Book.</p>
+
+    <h4 id="charismatic">Charismatic</h4>
+    <p>An emphasis on the present work and gifts of the Holy Spirit, such as healing prayer, prophecy, and speaking in tongues, with expressive, contemporary worship. Charismatic renewal entered the Episcopal Church around 1960 through Dennis Bennett, rector of St. Mark’s in Van Nuys, California. It can be found alongside any of the other styles, though it is most often paired with evangelical theology.</p>
+  </main>
+</body>
+</html>

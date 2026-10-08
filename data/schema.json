@@ -96,5 +96,31 @@
       "Progressive - Theologically & Socially Progressive, rejects some aspect of three creeds",
       "N/A - Data Not Available"
     ]
+  },
+  "list_tags": {
+    "about": "Tags on each parish card in list view, in this order. Each answer maps to a label of five words or fewer; an answer missing here (such as N/A) gets no tag. When a parish has several answers, the first one listed here is shown.",
+    "churchmanship": {
+      "Anglo-Papalist": "Anglo-Papalist",
+      "Anglo-Catholic": "Anglo-Catholic",
+      "Prayer Book Catholic": "Prayer Book Catholic",
+      "Old High Church": "Old High Church",
+      "Broad Church": "Broad Church",
+      "Old Low Church": "Old Low Church",
+      "Evangelical": "Evangelical",
+      "Charismatic": "Charismatic"
+    },
+    "female_clergy": {
+      "Yes - Rector": "Rector is a Woman",
+      "Yes - Other Priest": "Priest (other than the Rector) is a Woman",
+      "Yes - Deacon": "Deacon is a Woman",
+      "Yes - Diocesan Bishop": "Diocesan Bishop is a Woman",
+      "No - None of the Clergy Here Are Female": "No Female Clergy"
+    },
+    "ssm": {
+      "Yes - Practiced": "Performs Same-Sex Marriages",
+      "Yes - Affirmed but not Practiced": "Affirms but Doesn't Perform Same-Sex Marriages",
+      "No - Alternative Blessings Practiced": "Performs Same-Sex Blessings, Not Marriages",
+      "No - Homosexuality Seen as Sinful": "Opposes Homosexuality"
+    }
   }
 }

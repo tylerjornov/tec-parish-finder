@@ -16,6 +16,7 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 
 **Pages**
 - `index.html` — main page, shows map and list
+- `definitions.html` — definitions of terms used in the directory
 - `about.html` — more information on the website and creator
 - `institutions.html` — institutions page (coming soon)
 - `terms.html` — terms and conditions
@@ -31,7 +32,7 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 
 **Data**
 - `data/parishes.json` — parish info
-- `data/schema.json` — what each field in parishes.json holds, and the choices offered in the filter dropdowns
+- `data/schema.json` — what each field in parishes.json holds, and the choices offered in the filter dropdowns, and the short labels for list-view tags
 
 **Images**
 - `img/compass-rose-tec.svg` — site logo and favicon
