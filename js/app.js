@@ -201,9 +201,6 @@ function pinIcon() {
 
 function render() {
   const list = filtered();
-  // The list only makes sense sorted by distance, so its toggle waits for a location.
-  $("view-toggle").hidden = !state.origin;
-  if (!state.origin) applyView("map");
   $("status").textContent = `${list.length} of ${state.all.length} parishes`;
   const wrap = $("list");
   wrap.innerHTML = "";

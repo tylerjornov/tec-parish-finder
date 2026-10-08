@@ -2,19 +2,9 @@
    <html> from the visitor's choice or, on "Automatic", their device settings. */
 :root {
   color-scheme: dark;
-  --bg: #0f1218;
-  --panel: #171c25;
-  --header: #12161d;
-  --field: #10141b;
-  --active: #1d2430;
-  --line: #2a3140;
-  --control: #687286;
-  --text: #e8edf5;
-  --muted: #8b95a8;
-  --acc: #c9a45c;
-  --acc-line: #8f7644;
-  --acc-bg: #2a2418;
-  --link: #8cb4ff;
+  --bg: #0f1218; --panel: #171c25; --header: #12161d; --field: #10141b; --active: #1d2430;
+  --line: #2a3140; --control: #687286; --text: #e8edf5; --muted: #8b95a8;
+  --acc: #c9a45c; --acc-line: #8f7644; --acc-bg: #2a2418; --link: #8cb4ff;
 }
 :root[data-theme="light"] {
   color-scheme: light;
@@ -85,7 +75,7 @@ body.app { display: flex; flex-direction: column; }
 .ms-panel { margin-top: 4px; padding: 4px 6px; background: var(--field); border: 1px solid var(--line); border-radius: 6px; }
 .filters .ms-opt { display: flex; align-items: flex-start; gap: 8px; margin: 0; padding: 5px 2px; font-size: 0.8125rem; color: var(--text); cursor: pointer; }
 .filters .ms-opt input { width: auto; flex: none; margin: 2px 0 0; padding: 0; accent-color: var(--acc); }
-#status { color: var(--muted); font-size: 0.75rem; margin: 8px 0 0; }
+#status, .copyright { color: var(--muted); font-size: 0.75rem; margin: 8px 0 0; }
 .card {
   padding: 12px 14px; border-bottom: 1px solid var(--line); cursor: pointer;
 }
@@ -110,14 +100,12 @@ body.app { display: flex; flex-direction: column; }
 .leaflet-bar a, .leaflet-bar a:hover { background-color: var(--panel); color: var(--text); border-bottom-color: var(--line); }
 .leaflet-bar { border: 1px solid var(--line); }
 .about { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
-footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.8125rem; }
 @media (max-width: 900px) {
   body.app { display: block; }
   .layout { grid-template-columns: 1fr; grid-template-rows: auto 60vh; }
   .filters { max-height: 40vh; }
 }
 .view-toggle { display: flex; align-items: center; gap: 8px; font-size: 0.8125rem; }
-.view-toggle[hidden] { display: none; }
 .view-toggle span { color: var(--muted); cursor: pointer; user-select: none; }
 .view-toggle span.on { color: var(--acc); }
 #view-switch {
@@ -156,6 +144,7 @@ footer { padding: 8px 16px; border-top: 1px solid var(--line); color: var(--mute
 .settings-range input { flex: 1; min-width: 0; }
 .settings-range output { width: 3.5em; text-align: right; font-size: 0.8125rem; color: var(--muted); }
 .settings-hint { margin: 10px 0 0; font-size: 0.75rem; color: var(--muted); }
+.settings-panel .copyright { display: none; }
 /* Windows contrast themes replace our colors; keep the switch knob and the
    selected card visible with system colors. */
 @media (forced-colors: active) {
@@ -220,4 +209,7 @@ html:has(.detail[open]) { overflow: hidden; }
   }
   .nav-title { display: block; margin-bottom: 4px; font-weight: 650; }
   header nav a { display: block; margin: 0; padding: 12px 0; border-top: 1px solid var(--line); }
+  /* The copyright moves from the bottom of the filters to the settings menu. */
+  .filters .copyright { display: none; }
+  .settings-panel .copyright { display: block; }
 }

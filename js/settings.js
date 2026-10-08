@@ -103,6 +103,9 @@
         <p class="settings-hint">Automatic follows your device settings.</p>
       </div>`;
     header.appendChild(wrap);
+    // Phones show the page's copyright line here instead (see app.css).
+    const copyright = document.querySelector(".copyright");
+    if (copyright) wrap.querySelector("#settings-panel").append(copyright.cloneNode(true));
 
     const btn = wrap.querySelector("#settings-btn");
     const panel = wrap.querySelector("#settings-panel");
