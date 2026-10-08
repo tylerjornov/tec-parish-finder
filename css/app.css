@@ -51,6 +51,8 @@ header {
   padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--header);
 }
 header h1 { margin: 0; font-size: 1rem; font-weight: 650; }
+.brand { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.logo { width: 28px; height: 28px; flex: none; }
 header nav { margin-right: auto; }
 .menu-btn, .nav-title { display: none; }
 nav a { display: inline-block; padding: 4px 0; margin-left: 12px; color: var(--muted); text-decoration: none; }
@@ -208,7 +210,7 @@ html:has(.detail[open]) { overflow: hidden; }
     color: var(--muted); background: transparent; border: 1px solid var(--control); border-radius: 6px;
   }
   .menu-btn:hover, .menu-btn[aria-expanded="true"] { color: var(--text); }
-  header h1 { margin-right: auto; }
+  header .brand { margin-right: auto; }
   .nav-js header nav { display: none; }
   .nav-js header nav.open { display: block; }
   header nav {
