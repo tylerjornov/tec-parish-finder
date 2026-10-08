@@ -345,6 +345,16 @@ def test_placeholder_sites_and_json_ld():
     check("JSON-LD PostalAddress is used", any(c.field == "@address" and c.value == "1002 S Main St., Greenville, SC" for c in cands2), str([c.value for c in cands2]))
 
 
+def test_json_ld_wrappers():
+    from parishcheck.cleaner import _jsonld_blocks, _parse
+    body = '{"@type": "Church", "name": "X"}'
+    want = [{"@type": "Church", "name": "X"}]
+    for label, raw in [("<!-- -->", f"<!-- {body} -->"), ("<!-- --!>", f"<!-- {body} --!>"),
+                       ("CDATA", f"//<![CDATA[ {body} //]]>"), ("plain", body)]:
+        got = _jsonld_blocks(_parse(f'<html><head><script type="application/ld+json">{raw}</script></head></html>'))
+        check(f"JSON-LD wrapped in {label} parses", got == want, str(got))
+
+
 def test_cleaner_rules_merge():
     html = """<html><head><title>Contact</title></head><body><main><h1>Contact us</h1>
     <p>The Rev. Jane Doe, Rector<br>Phone: (864) 235-5890<br><a href="mailto:rector@church.org">rector@church.org</a></p>

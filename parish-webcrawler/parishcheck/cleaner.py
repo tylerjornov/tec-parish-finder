@@ -61,7 +61,7 @@ def _jsonld_blocks(soup: BeautifulSoup) -> list[dict]:
         raw = (tag.string or tag.get_text() or "").strip()
         if not raw:
             continue
-        raw = re.sub(r"^\s*<!--|-->\s*$|^\s*//<!\[CDATA\[|//\]\]>\s*$", "", raw).strip()
+        raw = re.sub(r"^\s*<!--|--\s*!?>\s*$|^\s*//<!\[CDATA\[|//\]\]>\s*$", "", raw).strip()
         for attempt in (raw, re.sub(r"[\x00-\x1f]+", " ", raw)):
             try:
                 data = json.loads(attempt)
