@@ -67,6 +67,10 @@ body.app { display: flex; flex-direction: column; }
   border: 1px solid var(--acc-line); background: var(--acc-bg); color: var(--acc); cursor: pointer;
 }
 .filters #use-location { margin-top: 6px; }
+/* Opens the search dialog; an accent button like the others in this panel. */
+.filters .search-btn { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 6px; }
+.filters .search-btn svg { flex: none; }
+.filters .search-btn span { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 /* Filter dropdowns: a button that opens a checklist, so several values can be chosen. */
 .filters .ms-btn {
   position: relative; display: block; margin: 0; padding: 7px 28px 7px 8px; text-align: left;
@@ -93,7 +97,7 @@ body.app { display: flex; flex-direction: column; }
 }
 .meta { color: var(--muted); font-size: 0.8125rem; }
 .card-site { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.list-empty { margin: 0; padding: 16px 14px; color: var(--muted); }
+.list-empty { display: grid; place-items: center; min-height: 100%; margin: 0; padding: 16px 14px; text-align: center; color: var(--muted); }
 /* Card tags shaped like a clothes tag: a pointed left end with a punched hole.
    The outline is the tag's own background, the fill a ::before 1px inside it,
    and the hole is cut through both with a mask so the card shows through. */
@@ -179,6 +183,26 @@ body.app { display: flex; flex-direction: column; }
   .tag { forced-color-adjust: none; color: CanvasText; background: CanvasText; }
   .tag::before { background: Canvas; }
   .tag::after { border-color: CanvasText; }
+}
+/* Parish search: a panel in the middle of the screen; at the top on phones. */
+.search-dlg {
+  width: min(520px, 100% - 32px); padding: 0; color: var(--text); background: var(--panel);
+  border: 1px solid var(--control); border-radius: 10px; box-shadow: 0 12px 48px rgb(0 0 0 / 0.5);
+}
+.search-dlg::backdrop { background: rgb(0 0 0 / 0.6); }
+.search-dlg form { padding: 16px; }
+.search-dlg label { display: block; margin-bottom: 8px; font-weight: 600; }
+.search-row { display: flex; gap: 8px; }
+.search-row input {
+  flex: 1; min-width: 0; padding: 9px 10px; font: inherit; color: var(--text);
+  background: var(--field); border: 1px solid var(--control); border-radius: 6px;
+}
+.search-row button {
+  flex: none; padding: 9px 14px; font: inherit; cursor: pointer; color: var(--acc);
+  background: var(--acc-bg); border: 1px solid var(--acc-line); border-radius: 6px;
+}
+@media (max-width: 600px) {
+  .search-dlg { margin-top: 16px; }
 }
 /* Parish detail: a panel over the dimmed page; full screen on phones. */
 .detail {

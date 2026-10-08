@@ -43,12 +43,17 @@
   </header>
   <main class="layout" id="layout" data-view="map">
     <aside class="filters" aria-label="Filters">
-      <label for="q">Search</label>
-      <input id="q" placeholder="Search for a specific parish">
       <label for="origin">ZIP Code or City, State</label>
       <input id="origin">
       <button type="button" id="apply-origin">Sort by Distance</button>
       <button type="button" id="use-location" hidden>Use my Location</button>
+      <button type="button" id="search-btn" class="search-btn" aria-haspopup="dialog">
+        <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path>
+        </svg>
+        <span id="search-btn-text">Keyword Search</span>
+      </button>
       <label for="f-state">State</label>
       <div class="ms" data-id="f-state"></div>
       <label for="f-diocese">Diocese</label>
@@ -76,6 +81,15 @@
     <section class="list" id="list" aria-label="Results" tabindex="-1"></section>
     <div id="map" role="region" aria-label="Map of parishes"></div>
   </main>
+  <dialog id="search" class="search-dlg" aria-labelledby="search-title">
+    <form method="dialog">
+      <label id="search-title" for="q">Keyword Search</label>
+      <div class="search-row">
+        <input id="q" type="text" enterkeyhint="search" placeholder="Parish name, city, or diocese" autocomplete="off" autofocus>
+        <button type="submit" value="apply">Search</button>
+      </div>
+    </form>
+  </dialog>
   <dialog id="detail" class="detail" aria-labelledby="detail-title">
     <div class="detail-head">
       <div>

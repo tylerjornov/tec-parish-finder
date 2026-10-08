@@ -207,11 +207,12 @@ function render() {
   $("status").textContent = `${list.length} of ${state.all.length} parishes`;
   const wrap = $("list");
   wrap.innerHTML = "";
-  // The list stays empty until there's a place to sort by distance from.
-  if (!state.origin) {
-    wrap.innerHTML = `<p class="list-empty">Enter a location${canLocate ? " or use your current location" : ""} to show the list.</p>`;
+  // The list stays empty until there's a place to sort by distance from or a name search.
+  const showList = state.origin || $("q").value.trim();
+  if (!showList) {
+    wrap.innerHTML = `<p class="list-empty">Begin searching${canLocate ? " or use your current location" : ""} to show parishes</p>`;
   }
-  (state.origin ? list : []).forEach((p, i) => {
+  (showList ? list : []).forEach((p, i) => {
     const miles = milesTo(p);
     const tags = cardTags(p);
     const div = document.createElement("article");
@@ -491,10 +492,53 @@ function setView(mode) {
   }
 }
 
+// Closes `dlg` on a click on its dimmed backdrop, but not when a text selection
+// started inside the panel and was released outside it.
+function closeOnBackdrop(dlg) {
+  let downOnBackdrop = false;
+  dlg.addEventListener("pointerdown", (e) => {
+    downOnBackdrop = e.target === dlg;
+  });
+  dlg.addEventListener("click", (e) => {
+    if (downOnBackdrop && e.target === dlg) dlg.close();
+  });
+}
+
+const SEARCH_LABEL = "Search for a specific parish";
+
+// The search button shows the applied search, or its prompt when there's none.
+function syncSearchBtn() {
+  const q = $("q").value.trim();
+  $("search-btn-text").textContent = q ? `Search: ${q}` : SEARCH_LABEL;
+  $("search-btn").classList.toggle("on", !!q);
+}
+
+// The search box lives in a dialog. Submitting applies it; Esc or a click
+// outside puts back the search that was there before.
+function bindSearch() {
+  const dlg = $("search");
+  const q = $("q");
+  let before = "";
+  $("search-btn").addEventListener("click", () => {
+    before = q.value;
+    dlg.returnValue = "";
+    dlg.showModal();
+    q.select();
+  });
+  closeOnBackdrop(dlg);
+  dlg.addEventListener("close", () => {
+    if (dlg.returnValue === "apply") {
+      syncSearchBtn();
+      render();
+    } else {
+      q.value = before;
+    }
+    $("search-btn").focus({ preventScroll: true });
+  });
+}
+
 function bindUi() {
-  // Text boxes don't re-render on "change": it fires on blur, so rebuilding the
-  // list then would swallow the click on a card that caused the blur.
-  $("q").addEventListener("input", render);
+  bindSearch();
   $("apply-origin").addEventListener("click", parseOrigin);
   if (canLocate) {
     $("use-location").hidden = false;
@@ -505,6 +549,7 @@ function bindUi() {
   });
   $("reset").addEventListener("click", () => {
     $("q").value = "";
+    syncSearchBtn();
     $("origin").value = "";
     clearFilters();
     originSeq++;
@@ -513,15 +558,7 @@ function bindUi() {
   });
   const dlg = $("detail");
   $("detail-close").addEventListener("click", () => dlg.close());
-  // Close on a click on the dimmed backdrop, but not when a text selection
-  // started inside the panel and was released outside it.
-  let downOnBackdrop = false;
-  dlg.addEventListener("pointerdown", (e) => {
-    downOnBackdrop = e.target === dlg;
-  });
-  dlg.addEventListener("click", (e) => {
-    if (downOnBackdrop && e.target === dlg) dlg.close();
-  });
+  closeOnBackdrop(dlg);
   dlg.addEventListener("close", () => {
     if (detailReturn?.isConnected) detailReturn.focus({ preventScroll: true });
     detailReturn = null;
