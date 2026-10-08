@@ -7,6 +7,7 @@
 - `about.html` — more information on the website and creator
 - `institutions.html` — institutions page (coming soon)
 - `terms.html` — terms and conditions
+- `acknowledgements.html` — data sources and icon artwork credits
 
 **Scripts** (`js/`)
 - `js/settings.js` — display settings (theme, contrast, motion)
