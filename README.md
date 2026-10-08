@@ -29,7 +29,7 @@ Parish data lives in [parishes.json](data/parishes.json), with the rest of the i
 
 **Data**
 - `data/parishes.json` — parish info
-- `data/schema.json` — schema used for parishes.json
+- `data/schema.json` — the choices offered in each filter dropdown
 
 **Other**
 - `CNAME` — custom domain for GitHub Pages

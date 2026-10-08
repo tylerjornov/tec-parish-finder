@@ -224,10 +224,7 @@ function render() {
     wrap.appendChild(div);
   });
 
-  const layout = $("layout");
-  if (layout && layout.dataset.view === "map") {
-    tryPaintMap(list);
-  }
+  if ($("layout").dataset.view === "map") tryPaintMap(list);
 }
 
 function tryPaintMap(list) {
@@ -457,18 +454,13 @@ function parseOrigin() {
     });
 }
 
-// Updates the layout and toggle without painting the map.
-function applyView(mode) {
-  $("layout").dataset.view = mode;
-  $("view-list")?.classList.toggle("on", mode === "list");
-  $("view-map")?.classList.toggle("on", mode === "map");
-  $("view-switch")?.setAttribute("aria-checked", String(mode === "map"));
-  // Point "Skip to results" at whichever view is showing.
-  $("skip")?.setAttribute("href", mode === "map" ? "#map" : "#list");
-}
-
 function setView(mode) {
-  applyView(mode);
+  $("layout").dataset.view = mode;
+  $("view-list").classList.toggle("on", mode === "list");
+  $("view-map").classList.toggle("on", mode === "map");
+  $("view-switch").setAttribute("aria-checked", String(mode === "map"));
+  // Point "Skip to results" at whichever view is showing.
+  $("skip").setAttribute("href", mode === "map" ? "#map" : "#list");
   if (mode === "map") {
     // #map is visible now; wait for layout before creating/sizing Leaflet.
     requestAnimationFrame(() => tryPaintMap(filtered()));
@@ -479,19 +471,18 @@ function bindUi() {
   // Text boxes don't re-render on "change": it fires on blur, so rebuilding the
   // list then would swallow the click on a card that caused the blur.
   $("q").addEventListener("input", render);
-  $("apply-origin")?.addEventListener("click", parseOrigin);
+  $("apply-origin").addEventListener("click", parseOrigin);
   // Browsers only allow location on https (and localhost).
   if (navigator.geolocation && window.isSecureContext) {
     $("use-location").hidden = false;
     $("use-location").addEventListener("click", useDeviceLocation);
   }
-  $("origin")?.addEventListener("keydown", (e) => {
+  $("origin").addEventListener("keydown", (e) => {
     if (e.key === "Enter") parseOrigin();
   });
-  $("reset")?.addEventListener("click", () => {
-    [$("q"), $("origin")].forEach((el) => {
-      if (el) el.value = "";
-    });
+  $("reset").addEventListener("click", () => {
+    $("q").value = "";
+    $("origin").value = "";
     clearFilters();
     originSeq++;
     state.origin = null;
@@ -512,15 +503,17 @@ function bindUi() {
     if (detailReturn?.isConnected) detailReturn.focus({ preventScroll: true });
     detailReturn = null;
   });
-  $("view-list")?.addEventListener("click", () => setView("list"));
-  $("view-map")?.addEventListener("click", () => setView("map"));
-  $("view-switch")?.addEventListener("click", () =>
+  $("view-list").addEventListener("click", () => setView("list"));
+  $("view-map").addEventListener("click", () => setView("map"));
+  $("view-switch").addEventListener("click", () =>
     setView($("layout").dataset.view === "map" ? "list" : "map")
   );
 }
 
+// "no-cache" makes the browser check for a newer copy on every load instead of
+// reusing a saved one, so data changes show up as soon as they're deployed.
 function getJson(url) {
-  return fetch(url).then((r) => {
+  return fetch(url, { cache: "no-cache" }).then((r) => {
     if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
     return r.json();
   });

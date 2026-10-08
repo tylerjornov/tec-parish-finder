@@ -1,13 +1,17 @@
+---
+# This empty block tells GitHub Pages to fill in {{ site.time }} below. Each
+# deploy then gets new ?v= links, so visitors load fresh files at once.
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About — Episcopal Compass</title>
-  <link rel="icon" href="img/compass-rose-tec.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/app.css">
-  <script src="js/settings.js"></script>
-  <script src="js/nav.js"></script>
+  <link rel="icon" href="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css?v={{ site.time | date: '%s' }}">
+  <script src="js/settings.js?v={{ site.time | date: '%s' }}"></script>
+  <script src="js/nav.js?v={{ site.time | date: '%s' }}"></script>
 </head>
 <body>
   <header>
@@ -19,7 +23,7 @@
       </svg>
     </button>
     <div class="brand">
-      <img class="logo" src="img/compass-rose-tec.svg" alt="" width="28" height="28">
+      <img class="logo" src="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" alt="" width="28" height="28">
       <h1>Episcopal Compass</h1>
     </div>
     <nav id="site-nav" aria-label="Site">

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 1600 1600"
    height="1600"
@@ -18,24 +14,14 @@
   </mask>
 </defs>
 <g mask="url(#cutstub)">
-<metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+<defs
      id="defs6"><clipPath
-       id="clipPath18"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path16"
-         d="M 0,1200 H 1200 V 0 H 0 Z" /></clipPath><clipPath
        id="clipPath52"
        clipPathUnits="userSpaceOnUse"><path
          id="path50"
          d="M 0,1200 H 1200 V 0 H 0 Z" /></clipPath></defs><g
      transform="matrix(1.3333333,0,0,-1.3333333,0,1600)"
      id="g10"><g
-       id="g12"><g
-         clip-path="url(#clipPath18)"
-         id="g14"></g></g><g
        id="g46"><g
          clip-path="url(#clipPath52)"
          id="g48"><path
@@ -46,14 +32,14 @@
 <polygon points="758,430 842,430 800,32" fill="#cca32e"/>
 <svg x="663.93" y="629.65" width="272.14" height="340.70" viewBox="0 0 247.54 309.91">
 
-<g xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 247.54 309.91">
+<g>
   <defs>
     <style>
       .cls-1 {
         fill: #c5203f;
       }
 
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+      .cls-1, .cls-2, .cls-3, .cls-5 {
         stroke-width: 0px;
       }
 
@@ -65,18 +51,11 @@
         fill: #fff;
       }
 
-      .cls-4 {
-        fill: #467cbf;
-      }
-
       .cls-5 {
         fill: #666766;
       }
     </style>
   </defs>
-  <g id="Layer_1" data-name="Layer 1">
-    <path class="cls-4" d="M-158.46,303.36l.28-.25-.28.25Z"/>
-  </g>
   <g id="Layer_2" data-name="Layer 2">
     <g>
       <g>

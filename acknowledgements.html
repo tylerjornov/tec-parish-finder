@@ -1,13 +1,17 @@
+---
+# This empty block tells GitHub Pages to fill in {{ site.time }} below. Each
+# deploy then gets new ?v= links, so visitors load fresh files at once.
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Acknowledgements — Episcopal Compass</title>
-  <link rel="icon" href="img/compass-rose-tec.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/app.css">
-  <script src="js/settings.js"></script>
-  <script src="js/nav.js"></script>
+  <link rel="icon" href="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css?v={{ site.time | date: '%s' }}">
+  <script src="js/settings.js?v={{ site.time | date: '%s' }}"></script>
+  <script src="js/nav.js?v={{ site.time | date: '%s' }}"></script>
 </head>
 <body>
   <header>
@@ -19,22 +23,22 @@
       </svg>
     </button>
     <div class="brand">
-      <img class="logo" src="img/compass-rose-tec.svg" alt="" width="28" height="28">
+      <img class="logo" src="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" alt="" width="28" height="28">
       <h1>Episcopal Compass</h1>
     </div>
     <nav id="site-nav" aria-label="Site">
       <div class="nav-title" aria-hidden="true">Episcopal Compass</div>
       <a href="index.html">Directory</a>
       <a id="office-link" href="https://prayer.forwardmovement.org/pray" target="_blank" rel="noopener">Daily Office Readings</a>
-      <a href="acknowledgements.html">Acknowledgements</a>
       <a href="about.html">About</a>
+      <a aria-current="page" href="acknowledgements.html">Acknowledgements</a>
     </nav>
   </header>
   <main class="about">
     <h2>Acknowledgements</h2>
 
     <h3>Data sources</h3>
-    <p>Parish names, addresses, websites, and other basic facts in this directory come from the <a href="https://www.episcopalassetmap.org/" target="_blank" rel="noopener">Episcopal Asset Map</a><span class="visually-hidden"> (opens in new tab)</span>, a  map of Episcopal Church congregations, schools, and ministries of The Episcopal Church. Some details also come from parish and diocesan websites. Thank you to the parish and diocesan staff who keep those listings current.</p>
+    <p>Parish names, addresses, websites, and other basic facts in this directory come from the <a href="https://www.episcopalassetmap.org/" target="_blank" rel="noopener">Episcopal Asset Map</a><span class="visually-hidden"> (opens in new tab)</span>, a map of Episcopal Church congregations, schools, and ministries of The Episcopal Church. Some details also come from parish and diocesan websites. Thank you to the parish and diocesan staff who keep those listings current.</p>
     <p>Entries marked as <strong>"Verified"</strong> were confirmed through personal contact with or visits to parishes. See the <a href="terms.html">Terms and Conditions</a> for more on how data from this site may be reused.</p>
 
     <h3>Icon artwork</h3>

@@ -1,0 +1,6 @@
+# GitHub Pages settings. Files listed here stay in the repo but aren't
+# published as pages on the site.
+exclude:
+  - notes-archive
+  - README.md
+  - COPYRIGHT.md

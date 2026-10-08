@@ -17,10 +17,10 @@ You may not use this design or code for another Episcopal parish directory unles
 You may not present this project, or its Verified data, as your own. Any use beyond what is explicitly allowed by this statement requires both written permission from and credit to Tyler Jornov.
 
 ## 5. Unofficial status
-This site is not an official publication of The Episcopal Church. If an official representative of The Episcopal Church would like anything on this site modified or removed, please contact admin@[website].
+This site is not an official publication of The Episcopal Church. If an official representative of The Episcopal Church would like anything on this site modified or removed, please contact ██████████████████████<!-- admin@episcopalcompass.org -->.
 
 ## 6. No warranty
 This site and its data are provided as-is, without warranty of any kind. Parish details may change; be sure to verify information directly with a parish prior to drawing conclusions.
 
 ## 7. Contact
-To collaborate, request permission to use protected content, or ask questions, please contact admin@[website].
+To collaborate, request permission to use protected content, or ask questions, please contact ██████████████████████<!-- admin@episcopalcompass.org -->.

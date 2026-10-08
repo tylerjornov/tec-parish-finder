@@ -1,4 +1,4 @@
-// Phone-width menu: the site links (Directory / About) collapse behind a
+// Phone-width menu: the site links collapse behind a
 // waffle button. Loaded in <head> so the "nav-js" class is set before paint;
 // without JavaScript the links simply stay visible.
 document.documentElement.classList.add("nav-js");

@@ -31,6 +31,12 @@ a { color: var(--link); }
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
+/* Text that stays in the page source but shows as a solid bar that can't be
+   read, selected, or copied. Screen readers skip it (aria-hidden in the HTML). */
+.redacted {
+  color: transparent; background: var(--text); border-radius: 2px;
+  -webkit-user-select: none; user-select: none; forced-color-adjust: none;
+}
 .skip {
   position: absolute; left: 8px; top: -48px; z-index: 2000; padding: 6px 10px;
   background: var(--panel); color: var(--text); border: 1px solid var(--control); border-radius: 6px;

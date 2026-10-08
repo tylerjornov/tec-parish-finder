@@ -1,13 +1,17 @@
+---
+# This empty block tells GitHub Pages to fill in {{ site.time }} below. Each
+# deploy then gets new ?v= links, so visitors load fresh files at once.
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Terms and Conditions — Episcopal Compass</title>
-  <link rel="icon" href="img/compass-rose-tec.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/app.css">
-  <script src="js/settings.js"></script>
-  <script src="js/nav.js"></script>
+  <link rel="icon" href="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css?v={{ site.time | date: '%s' }}">
+  <script src="js/settings.js?v={{ site.time | date: '%s' }}"></script>
+  <script src="js/nav.js?v={{ site.time | date: '%s' }}"></script>
 </head>
 <body>
   <header>
@@ -19,11 +23,11 @@
       </svg>
     </button>
     <div class="brand">
-      <img class="logo" src="img/compass-rose-tec.svg" alt="" width="28" height="28">
-      <h1>TEC Parish Directory</h1>
+      <img class="logo" src="img/compass-rose-tec.svg?v={{ site.time | date: '%s' }}" alt="" width="28" height="28">
+      <h1>Episcopal Compass</h1>
     </div>
     <nav id="site-nav" aria-label="Site">
-      <div class="nav-title" aria-hidden="true">TEC Parish Directory</div>
+      <div class="nav-title" aria-hidden="true">Episcopal Compass</div>
       <a href="index.html">Directory</a>
       <a id="office-link" href="https://prayer.forwardmovement.org/pray" target="_blank" rel="noopener">Daily Office Readings</a>
       <a href="about.html">About</a>
@@ -49,13 +53,13 @@
     <p>You may not present this project, or its Verified data, as your own. Any use beyond what is explicitly allowed by this statement requires both written permission from and credit to Tyler Jornov.</p>
 
     <h3>5. Unofficial status</h3>
-    <p>This site is not an official publication of The Episcopal Church. If an official representative of The Episcopal Church would like anything on this site modified or removed, please contact admin@episcopalcompass.org.</p>
+    <p>This site is not an official publication of The Episcopal Church. If an official representative of The Episcopal Church would like anything on this site modified or removed, please contact <span class="redacted" aria-hidden="true">admin@episcopalcompass.org</span><span class="visually-hidden">(email address withheld)</span>.</p>
 
     <h3>6. No warranty</h3>
     <p>This site and its data are provided as-is, without warranty of any kind. Parish details may change; be sure to verify information directly with a parish prior to drawing conclusions.</p>
 
     <h3>7. Contact</h3>
-    <p>To collaborate, request permission to use protected content, or ask questions, please contact admin@episcopalcompass.org.</p>
+    <p>To collaborate, request permission to use protected content, or ask questions, please contact <span class="redacted" aria-hidden="true">admin@episcopalcompass.org</span><span class="visually-hidden">(email address withheld)</span>.</p>
   </main>
 </body>
 </html>
