@@ -9,6 +9,10 @@
     const layer = L.layerGroup();
     let loading = null;
     const labels = [];
+    // Names get their own pane above the boundary shapes but below the parish pins
+    // (markerPane is 600, tooltipPane 650), so the pins sit over the names.
+    const labelPane = map.createPane("diocese-labels");
+    labelPane.style.zIndex = 550;
     // Touch devices have no hover, so every name stays on the map there.
     const touch = matchMedia("(hover: none)");
     const syncLabels = () => {
@@ -77,6 +81,7 @@
                 permanent: true,
                 direction: "center",
                 className: "diocese-label",
+                pane: "diocese-labels",
                 interactive: false,
               }).setContent(f.properties.name.replace(/^Episcopal /, ""));
               labels.push({ label, l });
