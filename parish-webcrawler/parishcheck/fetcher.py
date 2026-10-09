@@ -51,6 +51,7 @@ class FetchResult:
     robots_blocked: bool = False
     truncated: bool = False
     body_text: str = ""            # visible text from the browser (Facebook)
+    last_modified: str = ""        # the Last-Modified header, when the server sends one
 
     @property
     def ok(self) -> bool:
@@ -268,7 +269,7 @@ class Fetcher:
             url=meta.get("url", ""), final_url=meta.get("final_url", ""), status=int(meta.get("status", 0)),
             content_type=meta.get("content_type", ""), error=meta.get("error", ""), from_cache=True,
             via_browser=bool(meta.get("via_browser")), truncated=bool(meta.get("truncated")),
-            body_text=meta.get("body_text", ""),
+            body_text=meta.get("body_text", ""), last_modified=meta.get("last_modified", ""),
         )
         if meta.get("is_text"):
             res.text = data.decode("utf-8", errors="replace")
@@ -285,6 +286,7 @@ class Fetcher:
                 "url": res.url, "final_url": res.final_url, "status": res.status, "content_type": res.content_type,
                 "error": res.error, "via_browser": res.via_browser, "truncated": res.truncated,
                 "is_text": is_text, "body_text": res.body_text[:200000], "fetched_at": time.time(),
+                "last_modified": res.last_modified,
             }
             raw = res.text.encode("utf-8") if is_text else res.data
             body_p.write_bytes(gzip.compress(raw, compresslevel=4) if raw else b"")
@@ -372,6 +374,7 @@ class Fetcher:
                     res.status = resp.status_code
                     res.final_url = str(resp.url)
                     res.content_type = resp.headers.get("content-type", "").split(";")[0].strip().lower()
+                    res.last_modified = resp.headers.get("last-modified", "")
                     if resp.status_code in (429, 500, 502, 503, 504) and attempt < 3:
                         wait = 1.5 * attempt
                         ra = resp.headers.get("retry-after", "")

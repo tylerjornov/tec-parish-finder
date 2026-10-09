@@ -10,7 +10,7 @@ import time
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 from dataclasses import dataclass, field
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 from . import models as M
@@ -24,12 +24,12 @@ from .facebook import FB_NOTICE, crawl_facebook
 from .fetcher import Fetcher, StopRequested
 from .llm import OllamaClient, OllamaUnavailable
 from .merge import RecordView, build_view
-from .normalizers import host_of, normalize_url
-from .report import Row, compare_record, summarize_record, write_excel
+from .normalizers import host_of, name_hint_words, normalize_url
+from .report import Row, compare_record, summarize_record, write_excel, write_results_files
 from .state import State
 from .urls import (
     KIND_ASSET_MAP, KIND_FACEBOOK, KIND_INVALID, KIND_MISSING, KIND_OWN, KIND_UNSUPPORTED, classify_url,
-    facebook_page_key,
+    facebook_page_key, site_key,
 )
 
 log = logging.getLogger("parishcheck")
@@ -187,13 +187,25 @@ class Plan:
     am_pages: dict = field(default_factory=dict)                 # key -> (AssetMapListing|None, error)
 
 
-def select_indices(records: list[dict], cfg: Config, only: str | None) -> list[int]:
+def select_indices(records: list[dict], cfg: Config, only: str | None, ids: set | None = None) -> list[int]:
     idxs = list(range(len(records)))
     if only:
         needle = only.casefold()
         idxs = [i for i in idxs if needle in record_id(cfg, records[i], i).casefold()
                 or needle in record_name(cfg, records[i]).casefold()]
+    if ids is not None:
+        idxs = [i for i in idxs if record_id(cfg, records[i], i) in ids]
     return idxs
+
+
+def read_ids_file(path: str) -> list[str]:
+    """--ids-file: one parish id per line; blank lines and lines starting with # are ignored."""
+    p = Path(path).expanduser()
+    try:
+        lines = p.read_text(encoding="utf-8-sig").splitlines()
+    except OSError as exc:
+        raise ConfigError(f"I can't read the ids file {p} ({exc.strerror or exc}).")
+    return [ln.strip() for ln in lines if ln.strip() and not ln.strip().startswith("#")]
 
 
 def _preclassify(cfg: Config, rec: dict) -> tuple[str, str]:
@@ -203,7 +215,7 @@ def _preclassify(cfg: Config, rec: dict) -> tuple[str, str]:
     kind = classify_url(raw, cfg.skip_domains)
     n = normalize_url(raw)
     if kind == KIND_OWN:
-        return kind, "site:" + host_of(n)
+        return kind, site_key(n, cfg.shared_host_domains)
     if kind == KIND_FACEBOOK:
         pk = facebook_page_key(n)
         return (kind, "fb:" + pk) if pk else (KIND_UNSUPPORTED, "")
@@ -265,7 +277,7 @@ def build_plan(records: list[dict], idxs: list[int], cfg: Config, fetcher: Fetch
         if listing is not None and listing.ok and listing.website:
             kind = classify_url(listing.website, cfg.skip_domains)
             if kind == KIND_OWN:
-                skey = "site:" + host_of(listing.website)
+                skey = site_key(listing.website, cfg.shared_host_domains)
                 site = plan.sources.setdefault(skey, Source(skey, M.OWN_SITE, listing.website,
                                                             discovered_from=src.url))
                 for ri in src.record_idx:
@@ -331,11 +343,23 @@ def run(cfg: Config, args) -> int:
     _tidy_old_outputs(cfg)
     setup_logging(cfg.work_dir)
     started = time.monotonic()
+    run_started = datetime.now().astimezone()
     today = date.today()
-    idxs = select_indices(records, cfg, args.only)
+    wanted_ids = read_ids_file(args.ids_file) if getattr(args, "ids_file", None) else None
+    idxs = select_indices(records, cfg, args.only, set(wanted_ids) if wanted_ids is not None else None)
+    if wanted_ids is not None:
+        known = {record_id(cfg, r, i) for i, r in enumerate(records)}
+        missing = [i for i in wanted_ids if i not in known]
+        if missing:
+            tell(f"{len(missing)} id(s) in {Path(args.ids_file).name} are not in {cfg.input_json.name}: {', '.join(missing[:5])}"
+                 + (" ..." if len(missing) > 5 else ""))
     if not idxs:
-        tell(f"No parish id or name contains '{args.only}', so there is nothing to do.")
+        tell("No parish matches " + " and ".join(x for x in (f"'{args.only}'" if args.only else "",
+                                                            f"the ids in {Path(args.ids_file).name}" if wanted_ids is not None else "") if x)
+             + ", so there is nothing to do.")
         return 1
+    if cfg.only_fields:
+        tell(f"Checking only these fields: {', '.join(f.key for f in cfg.fields if f.key in cfg.only_fields)}.")
     tell(f"Checking {len(idxs)} parish(es) from {cfg.input_json.name}. You can press Control+C at any time; progress is saved.")
     stop = threading.Event()
     state = State(cfg.work_dir / "progress.sqlite", fresh=args.fresh)
@@ -353,6 +377,13 @@ def run(cfg: Config, args) -> int:
         ctx = ExtractContext(cfg=cfg, client=client, state=state, today=today, stop=stop)
         plan = build_plan(records, idxs, cfg, fetcher, stop)
         fp = config_fingerprint(cfg)
+
+        def fp_of(key: str) -> str:
+            src = plan.sources.get(key)
+            return source_fingerprint(fp, cfg, [records[i] for i in (src.record_idx if src else [])])
+
+        def only_record(src: Source):
+            return records[src.record_idx[0]] if len(set(src.record_idx)) == 1 else None
         say(f"{len(plan.sources)} source(s) to check ({sum(1 for s in plan.sources.values() if s.kind == M.OWN_SITE)} websites, "
             f"{sum(1 for s in plan.sources.values() if s.kind == M.FACEBOOK)} Facebook, "
             f"{sum(1 for s in plan.sources.values() if s.kind == M.ASSET_MAP)} Asset Map).")
@@ -363,20 +394,20 @@ def run(cfg: Config, args) -> int:
         for src in list(plan.sources.values()):
             if src.kind != M.ASSET_MAP:
                 continue
-            if state.get_source(src.key, fp) is not None:
+            if state.get_source(src.key, fp_of(src.key)) is not None:
                 progress.step(worked=False)
                 continue
             progress.draw(_short(src.url))
             listing, err = plan.am_pages.get(src.key, (None, "page was not fetched"))
             try:
-                r = extract_asset_map(src.key, src.url, listing, err, ctx)
+                r = extract_asset_map(src.key, src.url, listing, err, ctx, record=only_record(src))
             except (OllamaUnavailable, KeyboardInterrupt):
                 raise
             except Exception as exc:
                 log.exception("Asset Map step crashed for %s", src.key)
                 r = new_result(M.ASSET_MAP, src.key, src.url)
                 r["status"], r["reason"] = "failed", f"unexpected problem ({type(exc).__name__}: {str(exc)[:100]})"
-            state.put_source(src.key, fp, r)
+            state.put_source(src.key, fp_of(src.key), r)
             _log_source_result(src.key, r)
             progress.step()
 
@@ -384,17 +415,17 @@ def run(cfg: Config, args) -> int:
         for src in list(plan.sources.values()):
             if src.kind != M.FACEBOOK:
                 continue
-            r = state.get_source(src.key, fp)
+            r = state.get_source(src.key, fp_of(src.key))
             worked = r is None and not src.disabled_reason
             if r is None and src.disabled_reason:
                 r = new_result(M.FACEBOOK, src.key, src.url)
                 r["status"], r["reason"] = "failed", src.disabled_reason
-                state.put_source(src.key, fp, r)
+                state.put_source(src.key, fp_of(src.key), r)
             elif r is None:
                 progress.draw(f"Facebook: {src.page_key}")
                 try:
                     crawl = crawl_facebook(src.page_key, cfg, fetcher, stop)
-                    r = extract_facebook(src.key, src.url, crawl, ctx)
+                    r = extract_facebook(src.key, src.url, crawl, ctx, record=only_record(src))
                 except StopRequested:
                     raise KeyboardInterrupt()
                 except (OllamaUnavailable, KeyboardInterrupt):
@@ -403,7 +434,7 @@ def run(cfg: Config, args) -> int:
                     log.exception("Facebook step crashed for %s", src.key)
                     r = new_result(M.FACEBOOK, src.key, src.url)
                     r["status"], r["reason"] = "failed", f"unexpected problem ({type(exc).__name__}: {str(exc)[:100]})"
-                state.put_source(src.key, fp, r)
+                state.put_source(src.key, fp_of(src.key), r)
                 _log_source_result(src.key, r)
             if _adopt_discovered_site(plan, cfg, src, r):
                 progress.set_total(len(plan.sources))
@@ -414,7 +445,7 @@ def run(cfg: Config, args) -> int:
         for src in plan.sources.values():
             if src.kind != M.OWN_SITE:
                 continue
-            saved = state.get_source(src.key, fp)
+            saved = state.get_source(src.key, fp_of(src.key))
             if saved is not None and not str(saved.get("reason", "")).startswith("unexpected problem"):
                 progress.step(worked=False)
                 continue
@@ -428,7 +459,8 @@ def run(cfg: Config, args) -> int:
                 while pending and len(inflight) < cfg.fetch_concurrency + 1:
                     s = pending.popleft()
                     say(f"starting {s.key} ...")
-                    inflight[pool.submit(_crawl_job, s, cfg, fetcher, stop)] = s
+                    hints = sorted({w for i in s.record_idx for w in name_hint_words(record_name(cfg, records[i]))})
+                    inflight[pool.submit(_crawl_job, s, cfg, fetcher, stop, hints)] = s
                     if progress.current == "" or len(inflight) == 1:
                         progress.draw(_short(s.url))
 
@@ -446,18 +478,19 @@ def run(cfg: Config, args) -> int:
                         log.exception("Crawl crashed for %s", src.key)
                         r = new_result(src.kind, src.key, src.url)
                         r["status"], r["reason"] = "failed", f"unexpected problem while reading it ({type(exc).__name__}: {str(exc)[:100]})"
-                        state.put_source(src.key, fp, r)
+                        state.put_source(src.key, fp_of(src.key), r)
                         progress.step()
                         continue
                     try:
-                        r = extract_own_site(src.key, src.url, crawl, ctx)
+                        r = extract_own_site(src.key, src.url, crawl, ctx, record=only_record(src))
                     except (OllamaUnavailable, KeyboardInterrupt):
                         raise
                     except Exception as exc:
                         log.exception("Extraction crashed for %s", src.key)
                         r = new_result(src.kind, src.key, src.url)
                         r["status"], r["reason"] = "failed", f"unexpected problem while extracting ({type(exc).__name__}: {str(exc)[:100]})"
-                    state.put_source(src.key, fp, r)
+                    r["crawl_seconds"] = round(getattr(crawl, "seconds", 0.0), 1)
+                    state.put_source(src.key, fp_of(src.key), r)
                     _log_source_result(src.key, r)
                     del crawl
                     progress.step()
@@ -481,7 +514,7 @@ def run(cfg: Config, args) -> int:
         summary: list[dict] = []
         for rp in plan.records:
             rec = records[rp.idx]
-            results = [state.get_source(k, fp) for k in rp.source_keys]
+            results = [state.get_source(k, fp_of(k)) for k in rp.source_keys]
             results = [r for r in results if r is not None] + list(rp.pre_failures)
             is_shared = any(k in shared for k in rp.source_keys)
             try:
@@ -498,12 +531,16 @@ def run(cfg: Config, args) -> int:
             s["pdfs"] = [u for r in results for u in (r.get("pdfs") or [])]
             summary.append(s)
 
-        path = write_excel(cfg, all_rows, summary)
+        meta = run_meta(cfg, args, run_started, len(plan.records))
+        path = write_excel(cfg, all_rows, summary, meta)
+        write_results_files(cfg, all_rows, meta)
         n_review = sum(1 for r in all_rows if r.status in M.REVIEW_STATUSES)
         n_parishes = len({r.id for r in all_rows if r.status in M.REVIEW_STATUSES})
+        saved = {k: state.get_source(k, fp_of(k)) for k in plan.sources}
+        _log_timings(saved)
         tell("")
         tell(f"Done in {_hms(time.monotonic() - started)}. {n_review} item(s) to review across {n_parishes} parish(es).")
-        tell(f"Results: {path}")
+        tell(f"Results: {path}  (also results.json, results.csv and suggested_patch.json in the same folder)")
         return 0
     except KeyboardInterrupt:
         stop.set()
@@ -528,8 +565,29 @@ def run(cfg: Config, args) -> int:
         state.close()
 
 
-def _crawl_job(src: Source, cfg: Config, fetcher: Fetcher, stop: threading.Event):
-    return crawl_site(src.url, cfg, fetcher, stop)
+def source_fingerprint(fp: str, cfg: Config, recs: list[dict]) -> str:
+    """The settings fingerprint plus the JSON values of the parish(es) using a source: a group confirmed by rule
+    from the JSON's values must be redone when those values change."""
+    import hashlib
+    vals = [[r.get(f.key) for f in cfg.fields if f.checkable] for r in recs]
+    return fp + ":" + hashlib.sha1(json.dumps(vals, sort_keys=True, default=str).encode("utf-8")).hexdigest()[:16]
+
+
+def run_meta(cfg: Config, args, started: datetime, n_parishes: int) -> dict:
+    """What tells one run's results apart from another's (Summary sheet and results.json)."""
+    return {
+        "run_at": started.isoformat(timespec="seconds"),
+        "input_file": cfg.input_json.name if cfg.input_json else "",
+        "model": cfg.model,
+        "parishes": n_parishes,
+        "fields": sorted(cfg.only_fields) if cfg.only_fields else [],
+        "ids_file": Path(args.ids_file).name if getattr(args, "ids_file", None) else "",
+        "only": getattr(args, "only", None) or "",
+    }
+
+
+def _crawl_job(src: Source, cfg: Config, fetcher: Fetcher, stop: threading.Event, hints: list):
+    return crawl_site(src.url, cfg, fetcher, stop, hint_words=hints)
 
 
 def _adopt_discovered_site(plan: Plan, cfg: Config, src: Source, result: dict | None) -> bool:
@@ -541,7 +599,7 @@ def _adopt_discovered_site(plan: Plan, cfg: Config, src: Source, result: dict | 
             continue
         if classify_url(d["value"], cfg.skip_domains) != KIND_OWN:
             continue
-        skey = "site:" + host_of(d["value"])
+        skey = site_key(d["value"], cfg.shared_host_domains)
         site = plan.sources.get(skey)
         if site is None:
             site = plan.sources[skey] = Source(skey, M.OWN_SITE, d["value"], discovered_from=src.url)
@@ -561,14 +619,34 @@ def _short(url: str) -> str:
     return host_of(url) or url
 
 
+def _seconds(r: dict) -> float:
+    return float(r.get("crawl_seconds") or 0) + float(r.get("elapsed") or 0)
+
+
 def _log_source_result(key: str, r: dict) -> None:
+    took = f" [{_hms(_seconds(r))}: reading {_hms(r.get('crawl_seconds') or 0)}, extracting {_hms(r.get('elapsed') or 0)}]"
     if r["status"] == "ok":
         extra = " (hit the page limit)" if r.get("cap_hit") else ""
         say(f"{key}: read {r['pages_crawled']} page(s){extra}; {len(r['candidates'])} item(s) found; "
-            f"{r['llm_calls']} model call(s), {r['llm_cache_hits']} reused"
-            + (f"; {sum(1 for i in r['issues'] if i[1] == 'rejected_unverified')} answer(s) rejected as unverifiable" if r["issues"] else ""))
+            f"{r['llm_calls']} model call(s), {r['llm_cache_hits']} reused, {r.get('llm_skipped', 0)} not needed"
+            + (f"; {sum(1 for i in r['issues'] if i[1] == 'rejected_unverified')} answer(s) rejected as unverifiable" if r["issues"] else "")
+            + took)
     else:
-        say(f"{key}: could not use it: {r['reason']}")
+        say(f"{key}: could not use it: {r['reason']}" + took)
+
+
+def _log_timings(saved: dict) -> None:
+    """End of run.log: model calls skipped, and the 10 slowest sites (to see where the time goes)."""
+    done = {k: r for k, r in saved.items() if r}
+    say(f"Model calls not needed (your data's values were already on the page): "
+        f"{sum(int(r.get('llm_skipped') or 0) for r in done.values())}; "
+        f"model calls made: {sum(int(r.get('llm_calls') or 0) for r in done.values())}; "
+        f"answers reused from earlier runs: {sum(int(r.get('llm_cache_hits') or 0) for r in done.values())}.")
+    slow = sorted(done.items(), key=lambda kv: -_seconds(kv[1]))[:10]
+    if slow:
+        say("Slowest sites (reading + extracting):")
+        for k, r in slow:
+            say(f"  {_hms(_seconds(r)):>12}  {k}  ({r.get('pages_crawled', 0)} page(s), {r.get('llm_calls', 0)} model call(s))")
 
 
 def _tidy_old_outputs(cfg: Config) -> None:

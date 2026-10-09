@@ -8,7 +8,11 @@ It tests: phone / email / address / person / URL normalizers, service-time sets 
 list comparison, status assignment (including UNCLEAR), missing markers, Asset Map contact
 filtering, Rite derivation, the evidence "post-check" that keeps the AI honest, robots.txt wildcards,
 Facebook wall detection, merging (rector vs church numbers, shared websites), and that the JSON round-trip
-keeps unknown keys and key order.
+keeps unknown keys and key order. Also: the Id columns and results.json / results.csv / suggested_patch.json,
+"N/A" and "None - No Rector", keeping the good part of a model answer, the "English" default, rite details and the
+bishop table, church-name checks, addresses and cities, rector names without roles, shared diocese/college websites,
+expired or taken-over websites, out-of-date pages, livestream links, skipping the model when the data is already on
+the page, --fields / --ids-file, and the slowest-sites list in run.log.
 """
 
 from __future__ import annotations
@@ -34,7 +38,7 @@ from parishcheck.comparators import compare_typed, decide_status                
 from parishcheck.config import load_config                          # noqa: E402
 from parishcheck.facebook import WALL_REASON, assess_recency, detect_wall, unwrap_fb_link  # noqa: E402
 from parishcheck.llm import (                                                    # noqa: E402
-    FieldAnswer, build_group_schema, evidence_in_text, is_unclear, verify_value, _keyword_regex,
+    FieldAnswer, build_group_schema, clean_value, evidence_in_text, is_unclear, verify_value, _keyword_regex,
 )
 from parishcheck.merge import build_view, merge_field                            # noqa: E402
 from parishcheck.models import Candidate                                         # noqa: E402
@@ -181,7 +185,7 @@ def test_lists_person_rite():
     check("list discrepancy", compare_typed("list", "Latin", ["English"]).status == M.DISCREPANCY)
     check("text fuzzy match", compare_typed("text", "Parking lot on site", ["On-site parking lot"]).status == M.CORRECT)
     check("person ignores honorifics", persons_match("The Reverend J. Gary Eichelberger, Rector", "Fr. Gary Eichelberger")[0])
-    check("person different role", not persons_match("The Rev. John Bishop, Vicar", "Rev. John Bishop, Rector")[0])
+    check("person: a different role is still the same person", persons_match("The Rev. John Bishop, Vicar", "Rev. John Bishop, Rector")[0])
     check("person different surname", not persons_match("The Rev. Jane Smith, Rector", "The Rev. Jane Jones, Rector")[0])
     check("person same surname, different first name", not persons_match("The Rev. Jane Smith, Rector", "The Rev. John Smith, Rector")[0])
     p = parse_person("The Reverend J. Gary Eichelberger, Rector")
@@ -272,6 +276,14 @@ def test_postcheck():
     check("phone invented is rejected", not verify_value(FieldSpec("p", "text"), "Call (864) 555-1111", page, pn)[0])
     check("unclear words", all(is_unclear(x) for x in ["unclear", "", "N/A", "Unknown", "not stated"]))
     check("real answer is not unclear", not is_unclear("Parking lot on site"))
+    cfg = tiny_config()
+    rector = FieldSpec("rector_name", "person", group="clergy")
+    check("rector in house style", clean_value(rector, "Reverend Jane Doe, Rector", cfg) == "The Rev. Jane Doe",
+          clean_value(rector, "Reverend Jane Doe, Rector", cfg))
+    check("dean keeps Very Rev. and Dr.", clean_value(rector, "The Very Reverend Dr. Jane Doe, Dean", cfg) == "The Very Rev. Dr. Jane Doe")
+    clergy = FieldSpec("other_clergy", "list", group="clergy")
+    got = clean_value(clergy, "The Reverend Ann Lee, Associate Rector; Father Bob Ray (Curate)", cfg)
+    check("other clergy keep roles in parentheses", got == "The Rev. Ann Lee (Associate Rector); Fr. Bob Ray (Curate)", got)
     ans = FieldAnswer.model_validate({"lines": [3, 4], "value": "y", "confidence": "high"})
     check("pydantic answer", ans.confidence == "high" and ans.lines == [3, 4])
     schema = build_group_schema([FieldSpec("music_style", "text"), FieldSpec("parking", "text")])
@@ -399,6 +411,10 @@ id_key: id
 name_key: name
 website_key: website
 uncheckable_fields: [id, lat, notes, date_last_updated]
+missing_markers: ["", "N/A - Data Not Available", "N/A"]
+confirmed_none_markers: ["None - No Rector"]
+diocese_lookup:
+  Upper South Carolina: The Rt. Rev. Daniel P. Richards
 fields:
   - {key: name, type: text, group: identity, description: "name"}
   - {key: website, type: url, group: contact, url_kind: website, description: "site"}
@@ -411,15 +427,17 @@ fields:
   - {key: rector_phone, type: phone, group: contact, role: rector, description: "rector phone"}
   - {key: rector_name, type: person, group: clergy, role: rector, description: "rector"}
   - {key: sunday_services, type: services, group: services, default_day: sun, description: "sunday"}
-  - {key: weekday_services, type: services, group: services, description: "weekday"}
-  - {key: rite_details, type: text, group: services, description: "rite details"}
+  - {key: weekday_services, type: services, group: services, description: "weekday", confirmed_none: ["N/A"]}
+  - {key: rite_details, type: rite, group: services, description: "rite details"}
   - {key: rite, type: rite, group: services, description: "rite"}
-  - {key: service_languages, type: list, group: services, description: "languages"}
+  - {key: service_languages, type: list, group: services, description: "languages", default_value: English, default_unless: [spanish, español, bilingual, korean]}
+  - {key: diocesan_bishop, type: person, group: lookup, lookup: diocese, description: "bishop"}
   - {key: music_style, type: text, group: community, description: "music"}
   - {key: other_contact, type: list, group: derived, description: "other"}
 derived_fields:
   other_contact: {from: [church_phone, church_email], separator: " | "}
-  rite: {from_services: [sunday_services, weekday_services, rite_details]}
+  rite_details: {details_from_services: [sunday_services, weekday_services]}
+  rite: {from_services: [sunday_services, weekday_services]}
 """
     d = Path(tempfile.mkdtemp(prefix="parish_selftest_"))
     (d / "config.yaml").write_text(yaml_text, encoding="utf-8")
@@ -440,7 +458,7 @@ def result(kind, cands, status="ok", reason="", url="https://church.org/", **kw)
 
 def test_merge_and_rows():
     cfg = tiny_config()
-    rec = {"id": "a1", "name": "St. A", "website": "https://church.org", "address": "12 Elm St, Greenville, SC",
+    rec = {"id": "a1", "name": "St. A", "website": "https://church.org", "address": "12 Elm St, Greenville, SC", "city": "Greenville",
            "church_phone": "864-235-5884", "church_email": "N/A - Data Not Available", "rector_email": "rector@church.org",
            "sunday_services": "8:00 AM Eucharist", "music_style": "Choir and organ", "notes": "keep me"}
     cands = [
@@ -454,20 +472,21 @@ def test_merge_and_rows():
     check("phone CORRECT", rows["church_phone"].status == M.CORRECT)
     check("email SITE_ONLY", rows["church_email"].status == M.SITE_ONLY and rows["church_email"].site_value == "office@church.org")
     check("address CORRECT", rows["address"].status == M.CORRECT)
-    check("city derived from address, BOTH_MISSING", rows["city"].status == M.SITE_ONLY, rows["city"].status)
+    check("city taken from the address", rows["city"].status == M.CORRECT, rows["city"].status)
     check("services PARTIAL", rows["sunday_services"].status == M.PARTIAL and "10:30" in rows["sunday_services"].detail, rows["sunday_services"].detail)
     check("low-confidence difference is UNCLEAR", rows["music_style"].status == M.UNCLEAR and rows["music_style"].reason)
-    check("uncheckable passes through", rows["id"].status == M.NOT_CHECKABLE and rows["notes"].status == M.NOT_CHECKABLE)
+    check("uncheckable fields get no row", "id" not in rows and "notes" not in rows and "lat" not in rows, str(sorted(rows)))
+    check("rows carry the JSON city", rows["church_phone"].city == "Greenville", rows["church_phone"].city)
     check("rector_phone not on site and not in JSON", rows["rector_phone"].status == M.BOTH_MISSING)
     check("rite derived from services text", rows["rite"].status == M.SITE_ONLY and rows["rite"].site_value == "Mixed", rows["rite"].site_value)
-    check("other_contact derived", rows["other_contact"].status == M.SITE_ONLY and "(864) 235-5884 | office@church.org" == rows["other_contact"].site_value, rows["other_contact"].site_value)
+    check("other_contact is never 'missing from your data'", rows["other_contact"].status == M.BOTH_MISSING, rows["other_contact"].status)
     check("row carries method/source", rows["church_phone"].method == "rule" and rows["church_phone"].source_type == "own site")
 
     # failed source -> everything UNCLEAR with a reason
     bad = build_view(rec, cfg, [result(M.FACEBOOK, [], status="blocked", reason="blocked by Facebook login wall")])
     brows = compare_record(rec, cfg, bad, "a1", "St. A")
     check("blocked Facebook -> all checkable fields UNCLEAR", all(r.status == M.UNCLEAR and "login wall" in r.reason
-          for r in brows if r.status != M.NOT_CHECKABLE), str([(r.field, r.status) for r in brows if r.status not in (M.UNCLEAR, M.NOT_CHECKABLE)]))
+          for r in brows if r.field not in ("other_contact", "diocesan_bishop")), str([(r.field, r.status) for r in brows if r.status != M.UNCLEAR]))
 
     # source priority: own site beats Facebook; disagreement is mentioned in detail
     own = result(M.OWN_SITE, [cand("@phone", "(864) 235-5884", "church")])
@@ -651,25 +670,63 @@ def test_files_and_encoding():
         check("missing file gives a friendly error", False)
     except ConfigError as exc:
         check("missing file gives a friendly error", "can't find" in str(exc))
-    from parishcheck.report import write_excel, Row
+    from parishcheck.report import write_excel, write_results_files, Row
     from openpyxl import load_workbook
     cfg.output_dir = d / "out"
-    rows = [Row("1", "Iglesia San José", "name", M.DISCREPANCY, "a", "b", source_url="https://sanjose.org/about"),
-            Row("1", "Iglesia San José", "city", M.SITE_ONLY, "", "=Greenville\x01"),
-            Row("2", "A Church", "name", M.CORRECT, "a", "a")]
+    rows = [Row("1", "Iglesia San José", "name", M.DISCREPANCY, "a", "b", source_url="https://sanjose.org/about",
+                method="llm", confidence="high", evidence="Iglesia b", city="Greenville", verified=True),
+            Row("1", "Iglesia San José", "city", M.SITE_ONLY, "", "=Greenville\x01", method="rule (from address)",
+                confidence="high", evidence="x" * 5000, city="Greenville"),
+            Row("2", "A Church", "name", M.CORRECT, "a", "a", city="Aiken"),
+            Row("0", "A Church", "rector_name", M.SITE_ONLY, "", "The Rev. Ann Lee", method="llm", confidence="high", city="Camden"),
+            Row("0", "A Church", "parking", M.SITE_ONLY, "", "Lot", method="llm", confidence="low", city="Camden")]
     summary = [{"id": "1", "name": "Iglesia San José", "website": "https://sanjose.org", "pages_crawled": 3, "cap_hit": False,
-                "counts": {M.DISCREPANCY: 1, M.SITE_ONLY: 1}, "notes": "", "pdfs": ["https://sanjose.org/bulletin.pdf"]}]
-    path = write_excel(cfg, rows, summary)
-    check("only one file in the output folder", [p.name for p in cfg.output_dir.iterdir() if not p.name.startswith(".")] == [path.name])
+                "counts": {M.DISCREPANCY: 1, M.SITE_ONLY: 1}, "notes": "", "pdfs": ["https://sanjose.org/bulletin.pdf"],
+                "site_problem": ""}]
+    meta = {"run_at": "2026-10-09T10:00:00-04:00", "input_file": "p.json", "model": "qwen2.5:3b", "parishes": 3,
+            "fields": [], "ids_file": "", "only": ""}
+    path = write_excel(cfg, rows, summary, meta)
+    check("only the workbook in the output folder", [p.name for p in cfg.output_dir.iterdir() if not p.name.startswith(".")] == [path.name])
     wb = load_workbook(path)
     check("workbook sheets", wb.sheetnames == ["To review", "Summary", "All checks", "Key"], str(wb.sheetnames))
     rv = wb["To review"]
-    check("To review has only review rows, accents intact", rv.max_row == 3 and rv["A2"].value == "Iglesia San José", str(rv.max_row))
-    check("plain-English problem label", rv["C2"].value == "Different on website", str(rv["C2"].value))
-    check("source is a clickable link", rv["G2"].hyperlink is not None and rv["G2"].hyperlink.target == "https://sanjose.org/about")
-    check("site text starting with = is not a formula", rv["E3"].value == "=Greenville" and rv["E3"].data_type == "s", repr(rv["E3"].value))
-    check("All checks has every row", wb["All checks"].max_row == 4)
-    check("summary lists PDFs", "bulletin.pdf" in (wb["Summary"]["G2"].value or ""))
+    check("To review has only review rows, accents intact", rv.max_row == 5 and rv["A2"].value == "A Church", str(rv.max_row))
+    check("To review: Id next to Parish, sorted by name then id",
+          [c.value for c in rv[1]][:4] == ["Parish", "Id", "Field", "Problem"] and [rv["B2"].value, rv["B4"].value] == ["0", "1"],
+          str([[c.value for c in r][:2] for r in rv.iter_rows()]))
+    check("To review has Confidence and Evidence", [c.value for c in rv[1]][8:10] == ["Confidence", "Evidence (words on the page)"]
+          and rv["I4"].value == "high" and rv["J4"].value == "Iglesia b", str([c.value for c in rv[1]]))
+    check("plain-English problem label", rv["D4"].value == "Different on website", str(rv["D4"].value))
+    check("source is a clickable link", rv["H4"].hyperlink is not None and rv["H4"].hyperlink.target == "https://sanjose.org/about")
+    check("site text starting with = is not a formula", rv["F5"].value == "=Greenville" and rv["F5"].data_type == "s", repr(rv["F5"].value))
+    check("All checks has every row and an Id column", wb["All checks"].max_row == 6 and wb["All checks"]["B1"].value == "Id")
+    sm = wb["Summary"]
+    check("summary starts with the run, file and model", "qwen2.5:3b" in sm["A1"].value and "p.json" in sm["A1"].value, sm["A1"].value)
+    check("summary has Id and Site problem columns", [c.value for c in sm[2]][:4] == ["Parish", "Id", "Website", "Site problem"])
+    check("summary lists PDFs", "bulletin.pdf" in (sm["I3"].value or ""))
+
+    paths = write_results_files(cfg, rows, meta)
+    check("results.json, results.csv and suggested_patch.json are written",
+          sorted(p.name for p in paths) == ["results.csv", "results.json", "suggested_patch.json"])
+    res = json.loads((cfg.output_dir / "results.json").read_text(encoding="utf-8"))
+    check("results.json has meta (run, file, model)", res["meta"]["model"] == "qwen2.5:3b" and res["meta"]["input_file"] == "p.json"
+          and res["meta"]["run_at"].startswith("2026"), str(res["meta"]))
+    first = res["results"][0]
+    check("results.json keys", list(first) == ["id", "name", "city", "field", "status", "label", "json_value", "site_value",
+                                               "notes", "source_url", "method", "confidence", "evidence"], str(list(first)))
+    check("results.json sorted by name then id", [(r["name"], r["id"]) for r in res["results"]][:3] ==
+          [("A Church", "0"), ("A Church", "0"), ("A Church", "2")], str([(r["name"], r["id"]) for r in res["results"]]))
+    check("results.json keeps accents and is not cut short", any(r["name"] == "Iglesia San José" and len(r["evidence"]) == 5000
+          for r in res["results"]))
+    import csv as _csv
+    with open(cfg.output_dir / "results.csv", encoding="utf-8", newline="") as fh:
+        csv_rows = list(_csv.DictReader(fh))
+    check("results.csv has the same rows", len(csv_rows) == 5 and csv_rows[0]["status"] == "SITE_ONLY" and csv_rows[0]["label"] == "Missing from your data")
+    patch = json.loads((cfg.output_dir / "suggested_patch.json").read_text(encoding="utf-8"))
+    got = sorted((p["id"], p["field"]) for p in patch)
+    check("patch: only high-confidence SITE_ONLY/DISCREPANCY found by a rule or verified",
+          got == [("1", "city"), ("1", "name")], str(got))
+    check("patch format", set(patch[0]) == {"id", "field", "old", "new", "source_url", "evidence"}, str(patch[0]))
 
 
 def test_record_selection():
@@ -681,6 +738,525 @@ def test_record_selection():
             {"id": "ch-3", "name": "Christ", "website": "https://www.facebook.com/christchurch"}]
     check("--only matches id or name substring (any case)", select_indices(recs, cfg, "ANDREWS") == [0] and select_indices(recs, cfg, "grace") == [1, 2])
     check("no --only selects everything", select_indices(recs, cfg, None) == [0, 1, 2, 3])
+
+
+# --------------------------------------------------------------------------------------------------
+# Fewer false alarms (P2)
+# --------------------------------------------------------------------------------------------------
+def _rows_for(rec, cands, cfg=None, **kw):
+    cfg = cfg or tiny_config()
+    view = build_view(rec, cfg, [result(M.OWN_SITE, cands, **kw)])
+    return {r.field: r for r in compare_record(rec, cfg, view, rec.get("id", "a1"), rec.get("name", "St. A"))}
+
+
+BASE = {"id": "a1", "name": "St. A", "website": "https://church.org", "address": "12 Elm St, Greenville, SC", "city": "Greenville"}
+
+
+def test_other_contact_is_never_missing():
+    real = load_config(HERE / "config.yaml")
+    check("other_contact is not checked in config.yaml", real.get_field("other_contact") is None)
+    cands = [cand("@phone", "(864) 235-5884", "church"), cand("@email", "office@church.org", "church")]
+    rec = dict(BASE, church_phone="864-235-5884", church_email="office@church.org")
+    r = _rows_for(rec, cands)["other_contact"]
+    check("other_contact empty -> not 'missing from your data'", r.status == M.BOTH_MISSING, r.status)
+    r = _rows_for(dict(rec, other_contact="(864) 235-5884 | office@church.org"), cands)["other_contact"]
+    check("other_contact compared with the JSON's own phone and email", r.status == M.CORRECT and r.method.startswith("rule"), r.status)
+    r = _rows_for(dict(rec, other_contact="(803) 000-0000"), cands)["other_contact"]
+    check("other_contact that disagrees with the JSON's own phone", r.status == M.DISCREPANCY, r.status)
+
+
+def test_na_and_confirmed_none():
+    cfg = tiny_config()
+    check("'N/A' counts as missing (any case)", is_missing("N/A", cfg.missing_markers) and is_missing(" n/a ", cfg.missing_markers))
+    nobody = dict(BASE, rector_name="None - No Rector")
+    r = _rows_for(nobody, [])["rector_name"]
+    check("'None - No Rector' and no rector on the site -> Matches", r.status == M.CORRECT, f"{r.status} {r.detail}")
+    r = _rows_for(nobody, [cand("rector_name", "The Rev. Ann Lee", method="llm")])["rector_name"]
+    check("'None - No Rector' but the site names one -> Different, with a note", r.status == M.DISCREPANCY
+          and "JSON says confirmed none" in r.detail, f"{r.status} {r.detail}")
+    sunday_only = dict(BASE, weekday_services="N/A")
+    r = _rows_for(sunday_only, [cand("sunday_services", "10:00 AM Holy Eucharist", method="llm")])["weekday_services"]
+    check("weekday 'N/A' and no weekday services on the site -> Matches", r.status == M.CORRECT, f"{r.status} {r.detail}")
+    r = _rows_for(sunday_only, [cand("weekday_services", "Wed 12:00 noon Holy Eucharist", method="llm")])["weekday_services"]
+    check("weekday 'N/A' but the site lists one -> Different", r.status == M.DISCREPANCY and "confirmed none" in r.detail, r.status)
+    r = _rows_for(dict(BASE, parking="N/A"), [])
+    check("'N/A' elsewhere is just missing", "parking" not in r or r["parking"].status == M.BOTH_MISSING)
+
+
+def test_verifier_keeps_the_good_part():
+    from parishcheck.llm import drop_rites, salvage
+    page = "Sunday worship: 8:00 AM Holy Eucharist Rite I. Our choir sings hymns each week with the organ."
+    pn = norm_for_quote_check(page)
+    from parishcheck.config import FieldSpec
+    svc = FieldSpec("sunday_services", "services")
+    chk = lambda t: verify_value(svc, t, page, pn)
+    check("a failing (parenthetical) is dropped, the rest kept",
+          salvage("8:00 AM Holy Eucharist (livestream at 9:30 AM)", chk, with_commas=False)[0] == "8:00 AM Holy Eucharist")
+    check("a failing core still fails", salvage("9:30 AM Choral Eucharist (spoken)", chk, with_commas=False)[0] == "")
+    check("services never shrink to a bare day", salvage("Mon, Wed 9:30 AM Eucharist", chk, with_commas=False)[0] == "")
+    check("unsupported Rite is dropped", drop_rites("8:30 AM Low Mass, Rite II", {"II"}) == "8:30 AM Low Mass")
+    check("supported Rite is kept", drop_rites("8:30 AM Low Mass, Rite I", {"II"}) == "8:30 AM Low Mass, Rite I")
+    cfg = tiny_config()
+    sv = {"sunday_services": ans("Sunday worship: 8:00 AM Holy Eucharist Rite I", "8:00 AM Holy Eucharist, Rite II (with incense)"),
+          "weekday_services": ans("", "unclear", "low"), "service_languages": ans("", "unclear", "low")}
+    out = ask(FakeModel(sv), ["sunday_services", "weekday_services", "service_languages"], page, cfg=cfg)
+    got = {c.field: c.value for c in out.candidates}
+    check("model answer: wrong Rite and invented detail dropped, service kept", got.get("sunday_services") == "8:00 AM Holy Eucharist",
+          str(got) + str(out.issues))
+    good = {"music_style": ans("Our choir sings hymns each week with the organ", "Choir sings hymns, with harpsichord and trumpets"),
+            "accessibility": ans("", "unclear", "low")}
+    cfg.fields.append(__import__("parishcheck.config", fromlist=["FieldSpec"]).FieldSpec("accessibility", "text", group="community"))
+    out = ask(FakeModel(good), ["music_style", "accessibility"], page, cfg=cfg)
+    check("list/text: an invented extra after a comma is dropped", [c.value for c in out.candidates] == ["Choir sings hymns"],
+          str([c.value for c in out.candidates]) + str(out.issues))
+    check("verified answers are marked for the patch", out.candidates and out.candidates[0].extra.get("verified") is True)
+    copied = {"music_style": ans("Our choir sings hymns each week with the organ", "Traditional Anglican choral music, with a professional organist"),
+              "accessibility": ans("", "unclear", "low")}
+    out = ask(FakeModel(copied), ["music_style", "accessibility"], page, cfg=cfg)
+    check("a long style example is never accepted as an answer", all("Traditional" not in c.value for c in out.candidates),
+          str([c.value for c in out.candidates]))
+
+
+class _NoState:
+    def llm_get(self, key):
+        return None
+
+    def llm_put(self, key, value):
+        pass
+
+
+def _run_groups(cfg, model, text):
+    from parishcheck.extract import ExtractContext, new_result, run_llm_groups
+    ctx = ExtractContext(cfg=cfg, client=model, state=_NoState(), today=date(2026, 10, 8), stop=__import__("threading").Event())
+    doc = PageDoc("https://church.org/worship", title="Worship", text=text, main_text=text)
+    res = new_result(M.OWN_SITE, "k", "https://church.org/")
+    return run_llm_groups([doc], M.OWN_SITE, ctx, ["services"], res), res
+
+
+class PromptModel(FakeModel):
+    def chat_json(self, system, user, schema, num_predict=700):
+        self.prompts = getattr(self, "prompts", []) + [user]
+        return super().chat_json(system, user, schema, num_predict)
+
+
+def test_languages_default_and_rite_details():
+    cfg = tiny_config()
+    cfg.groups = {"services": {"keywords": ["sunday", "eucharist", "service", "spanish"]}}
+    model = PromptModel({"sunday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                         "weekday_services": {"lines": [], "value": "unclear", "confidence": "low"}})
+    cands, res = _run_groups(cfg, model, "Sunday service\n10:00 AM Holy Eucharist\nAll are welcome")
+    eng = [c for c in cands if c.field == "service_languages"]
+    check("no other language on the site -> 'English' by rule, low confidence",
+          len(eng) == 1 and eng[0].value == "English" and eng[0].method == "rule (default)" and eng[0].confidence == "low", str(eng))
+    check("... and the model is not asked about languages", model.calls == 1 and "service_languages" not in model.prompts[0])
+    model = PromptModel({"sunday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                         "weekday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                         "service_languages": {"lines": [2], "value": "English; Spanish", "confidence": "high"}})
+    cands, _ = _run_groups(cfg, model, "Sunday service\n1:00 PM Holy Eucharist in Spanish\nAll are welcome")
+    check("another language on the site -> the model is asked", "service_languages" in model.prompts[0])
+    check("'English' needs not be on the page", [c.value for c in cands if c.field == "service_languages"] == ["English; Spanish"],
+          str([(c.field, c.value) for c in cands]))
+    default = cand("service_languages", "English", method="rule (default)", conf="low")
+    r = _rows_for(dict(BASE), [default])["service_languages"]
+    check("assumed 'English' and blank JSON -> not a review row", r.status == M.BOTH_MISSING and r.site_value == "English", r.status)
+    r = _rows_for(dict(BASE, service_languages="English"), [default])["service_languages"]
+    check("assumed 'English' agrees with JSON 'English'", r.status == M.CORRECT, r.status)
+    svc = cand("sunday_services", "8:00 AM Holy Eucharist, Rite I; 10:30 AM Choral Eucharist, Rite II", method="llm")
+    rows = _rows_for(dict(BASE, rite_details="Rite I and Rite II both offered"), [svc])
+    check("rite_details worked out from the services text", rows["rite_details"].site_value == "Rite I (8:00 AM); Rite II (10:30 AM)"
+          and rows["rite_details"].method.startswith("rule"), rows["rite_details"].site_value)
+    check("rite_details compared by which rites are used", rows["rite_details"].status == M.CORRECT, rows["rite_details"].status)
+    check("rite_details is never asked of the model", "rite_details" not in [f.key for g in
+          __import__("parishcheck.extract", fromlist=["x"]).llm_specs_by_group(cfg).values() for f in g])
+
+
+def test_diocese_lookup():
+    rec = dict(BASE, diocese="Upper South Carolina", diocesan_bishop="The Rt. Rev. Daniel P. Richards")
+    r = _rows_for(rec, [])["diocesan_bishop"]
+    check("bishop matches the lookup table", r.status == M.CORRECT and r.method == "rule (diocese lookup)", r.status)
+    r = _rows_for(dict(rec, diocesan_bishop="The Rt. Rev. Andrew Waldo"), [])["diocesan_bishop"]
+    check("old bishop -> Different on website", r.status == M.DISCREPANCY and r.site_value == "The Rt. Rev. Daniel P. Richards")
+    r = _rows_for(dict(rec, diocese="Atlantis"), [])["diocesan_bishop"]
+    check("unknown diocese -> Couldn't tell, saying why", r.status == M.UNCLEAR and "diocese_lookup" in r.reason)
+    r = _rows_for(rec, [], status="failed", reason="the website could not be opened")["diocesan_bishop"]
+    check("the lookup works even when the website fails", r.status == M.CORRECT, r.status)
+    check("the bishop is never asked of the model", "diocesan_bishop" not in [f.key for g in
+          __import__("parishcheck.extract", fromlist=["x"]).llm_specs_by_group(tiny_config()).values() for f in g])
+
+
+def test_church_names():
+    from parishcheck.normalizers import looks_like_church_name
+    check("web designer credit is not a name", not looks_like_church_name("Digital Pros"))
+    check("a code is not a name", not looks_like_church_name("PG168K"))
+    check("'The Episcopal Church' / a diocese is not a parish name", not looks_like_church_name("The Episcopal Church")
+          and not looks_like_church_name("The Episcopal Diocese of South Carolina"))
+    check("real names pass", all(looks_like_church_name(n) for n in ["St. Anne's Conway", "Christ Church", "Grace Church Anderson",
+          "Church of the Holy Communion", "Trinity Cathedral"]))
+    v = merge_field(tiny_config().get_field("name"), [cand("name", "Digital Pros", method="llm"), cand("@jsonld_name", "PG168K")], tiny_config())
+    check("junk names are dropped before merging", v is None, str(v))
+    rec = dict(BASE, name="Grace Episcopal Church")
+    check("name: dropping 'Episcopal' only is a match", compare_typed("name", "St. Anne's Episcopal Church", ["St. Anne's Church"]).status == M.CORRECT)
+    check("name: word order only is a match", compare_typed("name", "Episcopal Church of the Epiphany", ["Church of the Epiphany, Episcopal"]).status == M.CORRECT)
+    r = _rows_for(rec, [cand("name", "Grace Church Anderson", method="llm")])["name"]
+    check("name: same name worded differently -> Partly matches", r.status == M.PARTIAL, r.status)
+    check("name: a different saint is Different", compare_typed("name", "St. Anne's Church", ["St. Mark's Church"]).status == M.DISCREPANCY)
+    check("name: Saint = St., apostrophes ignored", compare_typed("name", "Saint Philips Church", ["St. Philip's Episcopal Church"]).status == M.CORRECT)
+
+
+def test_addresses_and_cities():
+    check("Twelfth = 12th", addresses_match("1001 12th St, Cayce, SC", "1001 Twelfth Street, Cayce, SC"))
+    check("Twenty-First = 21st", addresses_match("100 21st Ave", "100 Twenty-First Avenue"))
+    check("Street = St", addresses_match("3001 Meeting Street", "3001 Meeting St."))
+    check("Hilton Head = Hilton Head Island", addresses_match("3001 Meeting St, Hilton Head, SC", "3001 Meeting Street, Hilton Head Island, SC"))
+    check("a different town is still different", not addresses_match("10 Main St, Columbia, SC", "10 Main St, Cayce, SC"))
+    glued = find_addresses("Office: (843) 681-8333 3001 Meeting St, Hilton Head Island, SC 29926")
+    check("a phone number is not glued onto the street number", [a for a, _ in glued] == ["3001 Meeting St, Hilton Head Island, SC"], str(glued))
+    glued2 = find_addresses("Call 843 681 8333 3001 Meeting St., Hilton Head Island, SC")
+    check("... also with spaces in the phone number", [a for a, _ in glued2] == ["3001 Meeting St., Hilton Head Island, SC"], str(glued2))
+    rec = dict(BASE, city="Greenville")
+    cands = [cand("@address", "1 Office Rd, Columbia, SC", page="https://church.org/a"), cand("@address", "1 Office Rd, Columbia, SC", page="https://church.org/b"),
+             cand("@address", "12 Elm Street, Greenville, SC", page="https://church.org/c")]
+    r = _rows_for(rec, cands)["city"]
+    check("city: the JSON city among the site's addresses -> Matches", r.status == M.CORRECT, f"{r.status} {r.detail}")
+    r = _rows_for(dict(rec, city="Hilton Head"), [cand("@address", "3001 Meeting St, Hilton Head Island, SC")])["city"]
+    check("city: Hilton Head = Hilton Head Island", r.status == M.CORRECT, r.status)
+    r = _rows_for(dict(rec, city="Aiken"), cands)["city"]
+    check("city: not among the site's addresses -> Different", r.status == M.DISCREPANCY, r.status)
+
+
+def test_more_false_alarms():
+    cfg = tiny_config()
+    page = "Music at St. A. Traditional Anglican choral music is our heritage; a professional organist plays each week."
+    copied = {"music_style": ans("Traditional Anglican choral music is our heritage", "Traditional Anglican choral music, with a professional organist"),
+              "accessibility": ans("", "unclear", "low")}
+    cfg.fields.append(__import__("parishcheck.config", fromlist=["FieldSpec"]).FieldSpec("accessibility", "text", group="community"))
+    out = ask(FakeModel(copied), ["music_style", "accessibility"], page, cfg=cfg)
+    check("the style example is rejected even when its words are on the page", not out.candidates, str([c.value for c in out.candidates]))
+    mixed = {"music_style": ans("Traditional Anglican choral music is our heritage",
+                                "Traditional Anglican choral music, with a professional organist; congregational singing of hymns and service music; Adult Choir"),
+             "accessibility": ans("", "unclear", "low")}
+    out = ask(FakeModel(mixed), ["music_style", "accessibility"], page + " The Adult Choir sings at 10.", cfg=cfg)
+    check("copied example items are dropped, the parish's own items kept", [c.value for c in out.candidates] == ["Adult Choir"],
+          str([c.value for c in out.candidates]))
+    model = PromptModel({"sunday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                         "weekday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                         "service_languages": {"lines": [2], "value": "English", "confidence": "high"}})
+    cfg2 = tiny_config()
+    cfg2.groups = {"services": {"keywords": ["sunday", "eucharist", "service", "spanish"]}}
+    cands, _ = _run_groups(cfg2, model, "Sunday service\n10:00 AM Holy Eucharist\nSpanish lessons on Tuesday")
+    eng = [c for c in cands if c.field == "service_languages"]
+    check("a model answer of just 'English' counts as the default", len(eng) == 1 and eng[0].method == "rule (default)", str(eng))
+    check("doubled clergy title is cleaned", clean_value(cfg.get_field("rector_name"), "The Rev. The Very Reverend Scott Fleischer", cfg)
+          == "The Very Rev. Scott Fleischer", clean_value(cfg.get_field("rector_name"), "The Rev. The Very Reverend Scott Fleischer", cfg))
+    guess = cand("@email", "hewjr781@me.com", "rector", evidence="contact Fr. Harry Walton in Florida, email: hewjr781@me.com")
+    rows = _rows_for(dict(BASE, rector_name="The Rev. Ann Lee"), [guess])
+    check("a rector email labelled only by nearby words is low confidence", rows["rector_email"].status == M.UNCLEAR
+          and rows["rector_email"].confidence == "low", f"{rows['rector_email'].status} {rows['rector_email'].confidence}")
+    named = cand("@email", "alee@church.org", "rector", evidence="The Rev. Ann Lee, Rector: alee@church.org")
+    rows = _rows_for(dict(BASE, rector_name="The Rev. Ann Lee"), [named])
+    check("... but next to the rector's name it stays high", rows["rector_email"].status == M.SITE_ONLY and rows["rector_email"].confidence == "high",
+          f"{rows['rector_email'].status} {rows['rector_email'].confidence}")
+    initial = cand("@email", "sfleischer@church.org", "rector", evidence="Email link: sfleischer@church.org")
+    rows = _rows_for(dict(BASE), [initial, cand("rector_name", "The Very Rev. Scott Fleischer", method="llm")])
+    check("... or when the address holds the rector's surname", rows["rector_email"].confidence == "high", rows["rector_email"].confidence)
+
+
+def test_rector_house_style():
+    real = load_config(HERE / "config.yaml")
+    fmt = real.get_field("rector_name").format
+    check("rector format hint asks for no role", "no role" in fmt and ", Rector" not in fmt, fmt)
+    gold = real.style_examples["rector_name"][0]
+    check("style example rector has no role", "," not in gold and "Rector" not in gold, gold)
+    sv = merge_field(real.get_field("rector_name"), [cand("@clergy", "The Rev. Marie-Carmel Chery, Dean of the Chapel & Spiritual Engagement")], real)
+    check("role dropped from the website value", sv.best == "The Rev. Marie-Carmel Chery", sv.best)
+    check("honorifics differ -> same person", persons_match("The Rev. Gary Eichelberger", "Fr. J. Gary Eichelberger")[0]
+          and persons_match("The Reverend Jane Doe", "Mtr. Jane Doe")[0])
+    check("first name vs initial -> same person", persons_match("The Rev. Jane Smith", "The Rev. J. Smith")[0])
+    check("two different initials -> different people", not persons_match("The Rev. J. Smith", "The Rev. M. Smith")[0])
+    r = _rows_for(dict(BASE, rector_name="The Rev. Jane Doe"), [cand("rector_name", "The Reverend Jane Doe, Interim Rector", method="llm")])["rector_name"]
+    check("rector: only the role differs -> Matches", r.status == M.CORRECT and r.site_value == "The Reverend Jane Doe", f"{r.status} {r.site_value}")
+
+
+# --------------------------------------------------------------------------------------------------
+# Reading the right pages, spotting bad sites (P3)
+# --------------------------------------------------------------------------------------------------
+class FakeWeb:
+    """Stands in for the internet: {url: html}. Any other address is a 404."""
+
+    def __init__(self, pages: dict, redirects: dict | None = None):
+        self.pages, self.redirects, self.asked = pages, redirects or {}, []
+
+    def get(self, url, use_cache=True):
+        from parishcheck.fetcher import FetchResult
+        n = normalize_url(url)
+        self.asked.append(n)
+        final = self.redirects.get(n, n)
+        if final not in self.pages:
+            return FetchResult(url=n, final_url=final, status=404, error="HTTP 404")
+        return FetchResult(url=n, final_url=final, status=200, content_type="text/html", text=self.pages[final])
+
+    def get_rendered(self, url, **kw):
+        from parishcheck.fetcher import FetchResult
+        return FetchResult(url=url, error="no browser in the self-test")
+
+    def robots_for(self, url):
+        return RobotsRules("")
+
+    def get_sitemap_bytes(self, url):
+        return None
+
+
+def _page(title, body, links=()):
+    a = "".join(f'<a href="{h}">{t}</a> ' for h, t in links)
+    return f"<html><head><title>{title}</title></head><body><main><h1>{title}</h1><p>{body}</p><nav>{a}</nav></main></body></html>"
+
+
+FILLER = " Plenty of words about parish life so the page has enough text to read. " * 6
+
+
+def test_shared_host_crawl():
+    from parishcheck.crawler import crawl_site
+    from parishcheck.urls import site_key, site_scope
+    cfg = tiny_config()
+    cfg.use_browser_fallback, cfg.delay_seconds = False, 0
+    cfg.shared_host_domains = ["diocese.org", "college.edu"]
+    check("parish page on a diocese site gets its own key", site_key("https://diocese.org/st-davids", cfg.shared_host_domains) == "site:diocese.org/st-davids"
+          and site_key("https://diocese.org/grace.html", cfg.shared_host_domains) == "site:diocese.org/grace")
+    check("ordinary church site: read the whole site", site_scope("https://stjohns.org/", cfg.shared_host_domains) == ("stjohns.org", "")
+          and site_scope("https://stjohns.org/home", cfg.shared_host_domains) == ("stjohns.org", ""))
+    start = "https://diocese.org/st-davids"
+    links = [("/st-davids/worship", "Worship"), ("/staff", "Diocesan staff"), ("/fiscal-affairs", "Finance"), ("/about", "About"),
+             ("/news", "News"), ("/st-davids-cheraw-history", "St. David's history"), ("/contact", "Contact")]
+    pages = {start: _page("St. David's Episcopal Church", "Sunday worship 10 AM." + FILLER, links),
+             "https://diocese.org/st-davids/worship": _page("Worship", "Holy Eucharist 10 AM." + FILLER,
+                                                            [("/st-davids/worship/music", "Music"), ("/bishop", "Bishop")]),
+             "https://diocese.org/st-davids/worship/music": _page("Music", "Choir." + FILLER)}
+    for path in ("/staff", "/fiscal-affairs", "/about", "/news", "/st-davids-cheraw-history", "/contact", "/bishop"):
+        pages["https://diocese.org" + path] = _page(path, "Diocesan page." + FILLER, [("/more" + path, "more")])
+    web = FakeWeb(pages)
+    out = crawl_site(start, cfg, web, __import__("threading").Event(), hint_words=["cheraw", "david"])
+    read = sorted(urlsplit_path(d.final_url) for d in out.pages)
+    inside = [p for p in read if p.startswith("/st-davids/") or p == "/st-davids"]
+    outside = [p for p in read if p not in inside]
+    check("shared site: the parish page and the pages below it are read", inside == ["/st-davids", "/st-davids/worship", "/st-davids/worship/music"], str(read))
+    check("shared site: at most 3 other pages, only ones the parish page links to", len(outside) <= 3 and "/bishop" not in outside
+          and not any(p.startswith("/more") for p in outside), str(outside))
+    check("shared site: the page about this parish is among them", "/st-davids-cheraw-history" in outside, str(outside))
+    college = {"https://college.edu/": _page("Voorhees University", "St. Philip's Chapel worship." + FILLER,
+                                             [(f"/dept{i}", f"Department {i}") for i in range(8)] + [("/chapel", "Chapel")])}
+    for i in range(8):
+        college[f"https://college.edu/dept{i}"] = _page(f"Dept {i}", "Department." + FILLER, [("/deeper", "x")])
+    college["https://college.edu/chapel"] = _page("Chapel", "Sunday worship." + FILLER)
+    out = crawl_site("https://college.edu/", cfg, FakeWeb(college), __import__("threading").Event(), hint_words=["philip", "chapel"])
+    check("listed shared host: home page plus 3 linked pages", len(out.pages) == 4 and any(d.final_url.endswith("/chapel") for d in out.pages),
+          str([d.final_url for d in out.pages]))
+    gone = FakeWeb(dict(pages, **{"https://diocese.org/": _page("The Diocese", "Diocesan news." + FILLER)}),
+                   redirects={"https://diocese.org/old-parish-page": "https://diocese.org/"})
+    out = crawl_site("https://diocese.org/old-parish-page", cfg, gone, __import__("threading").Event(), hint_words=["david"])
+    check("shared site: a parish page that now leads to the diocese home is not read as the parish's",
+          out.status == "failed" and "is gone" in out.reason and not out.pages, f"{out.status} {out.reason}")
+
+
+def urlsplit_path(u):
+    from urllib.parse import urlsplit
+    return urlsplit(u).path or "/"
+
+
+def test_expired_or_taken_over_sites():
+    from parishcheck.crawler import SUSPECT_REASON, crawl_site, suspect_site_reason
+    page = lambda html: clean_html(html, "https://x.org/")
+    check("parked domain page", suspect_site_reason(page(_page("x.org", "This domain is for sale! Buy this domain today." + FILLER))) == SUSPECT_REASON)
+    check("casino spam page", suspect_site_reason(page(_page("Best online casino", "Play poker, roulette and the jackpot at our casino. " * 10))) == SUSPECT_REASON)
+    check("spam injected into an old church page", suspect_site_reason(page(_page("St. Andrew's", "Slot gacor and togel. Sportsbook odds." + FILLER)), ["andrew"]) == SUSPECT_REASON)
+    check("no church words and no name words", suspect_site_reason(page(_page("Digital marketing", "We grow your brand with SEO and ads. " * 12)), ["andrew"]) == SUSPECT_REASON)
+    check("a real church page is fine", suspect_site_reason(page(_page("St. Andrew's", "Join us for worship on Sunday." + FILLER)), ["andrew"]) == "")
+    check("a church page mentioning a casino-night fundraiser is fine",
+          suspect_site_reason(page(_page("St. Andrew's Episcopal Church", "Casino night fundraiser in the parish hall: poker, blackjack, roulette and a jackpot raffle." + FILLER)), ["andrew"]) == "")
+    check("too little text to judge is not flagged", suspect_site_reason(page("<html><body><div id='app'></div></body></html>"), ["andrew"]) == "")
+    cfg = tiny_config()
+    cfg.use_browser_fallback, cfg.delay_seconds = False, 0
+    web = FakeWeb({"https://oldchurch.org/": _page("Lucky Spin Casino", "Online casino, slot gacor and togel. Best betting odds." + FILLER)})
+    crawl = crawl_site("https://oldchurch.org/", cfg, web, __import__("threading").Event(), hint_words=["andrew"])
+    check("crawl stops at a taken-over home page", crawl.status == "failed" and crawl.site_problem == "suspect" and len(web.asked) == 1,
+          f"{crawl.status} {crawl.reason} {web.asked}")
+    from parishcheck.extract import ExtractContext, extract_own_site
+    model = FakeModel({})
+    ctx = ExtractContext(cfg=cfg, client=model, state=_NoState(), today=date(2026, 10, 8), stop=__import__("threading").Event())
+    res = extract_own_site("site:oldchurch.org", "https://oldchurch.org/", crawl, ctx)
+    check("no model calls for a taken-over site", model.calls == 0 and res["site_problem"] == "suspect")
+    rec = dict(BASE, website="https://oldchurch.org/", church_phone="864-235-5884")
+    view = build_view(rec, cfg, [res])
+    rows = compare_record(rec, cfg, view, "a1", "St. A")
+    check("taken-over site: the whole record is Couldn't tell, saying why",
+          all(r.status == M.UNCLEAR and r.reason == SUSPECT_REASON for r in rows if r.field not in ("other_contact", "diocesan_bishop")),
+          str({r.field: r.status for r in rows}))
+    from parishcheck.report import summarize_record
+    check("Summary 'Site problem' says so", summarize_record("a1", "St. A", view, rows)["site_problem"] == SUSPECT_REASON)
+    # A redirect to another domain: the website field is Different, showing where it goes now.
+    web = FakeWeb({"https://newchurch.org/": _page("St. Andrew's Episcopal Church", "Worship Sunday 10 AM." + FILLER)},
+                  redirects={"https://oldchurch.org/": "https://newchurch.org/"})
+    crawl = crawl_site("https://oldchurch.org/", cfg, web, __import__("threading").Event(), hint_words=["andrew"])
+    res = extract_own_site("site:oldchurch.org", "https://oldchurch.org/", crawl, ExtractContext(cfg=cfg, client=None, state=_NoState(),
+                           today=date(2026, 10, 8), stop=__import__("threading").Event()))
+    view = build_view(rec, cfg, [res])
+    r = {x.field: x for x in compare_record(rec, cfg, view, "a1", "St. A")}["website"]
+    check("redirect to another domain -> website Different, showing the final address",
+          r.status == M.DISCREPANCY and r.site_value == "https://newchurch.org/" and "redirects" in r.evidence, f"{r.status} {r.site_value} {r.evidence}")
+    check("... and Summary 'Site problem' names it", "newchurch.org" in view.site_problem, view.site_problem)
+    web = FakeWeb({"https://www.church.org/": _page("St. Andrew's", "Worship." + FILLER)}, redirects={"https://church.org/": "https://www.church.org/"})
+    crawl = crawl_site("https://church.org/", cfg, web, __import__("threading").Event(), hint_words=["andrew"])
+    check("www. redirect is not a different website", crawl.redirected_to == "" and crawl.status == "ok")
+
+
+def test_out_of_date_pages():
+    from parishcheck.llm import stale_hint
+    today = date(2026, 10, 9)
+    check("a past year next to a date word", stale_hint("Easter 2024: services at 8 and 10", today) == "page may be out of date (mentions 2024)")
+    check("summer schedule in October", "summer schedule" in stale_hint("Summer schedule: one service at 9 AM", today))
+    check("'through August' in October", "through august" in stale_hint("Through August, one service at 9:00", today).lower())
+    check("'beginning June 5' in October", "Beginning June 5" in stale_hint("Beginning June 5 we worship at 9", today))
+    check("copyright and history years do not count", stale_hint("© 2019 St. Andrew's. Founded in 1856, rebuilt in 2001.", today) == "")
+    check("a school-year schedule does not count", stale_hint("Sunday School, September through May", today) == "")
+    check("this year does not count", stale_hint("Christmas 2026 services", today) == "")
+    cfg = tiny_config()
+    page = "Summer schedule. Sunday worship: 9:00 AM Holy Eucharist. Our choir sings hymns."
+    sv = {"sunday_services": ans("Sunday worship: 9:00 AM Holy Eucharist", "9:00 AM Holy Eucharist"),
+          "weekday_services": ans("", "unclear", "low"), "service_languages": ans("", "unclear", "low")}
+    out = ask(FakeModel(sv), ["sunday_services", "weekday_services", "service_languages"], page, cfg=cfg)
+    c = [c for c in out.candidates if c.field == "sunday_services"]
+    check("an answer from an out-of-date page is low confidence, with a note", c and c[0].confidence == "low"
+          and c[0].extra.get("notes") == ["page may be out of date (mentions a summer schedule)"], str([(x.confidence, x.extra) for x in c]))
+    r = _rows_for(dict(BASE, sunday_services="8:00 AM Holy Eucharist"), c)["sunday_services"]
+    check("... so a difference is Couldn't tell and the note is shown", r.status == M.UNCLEAR and "out of date" in r.detail, f"{r.status} {r.detail}")
+    from parishcheck.extract import _age_bucket
+    import time as _t
+    fresh, old, unknown = PageDoc("a"), PageDoc("b"), PageDoc("c")
+    fresh.modified, old.modified = _t.time() - 30 * 86400, _t.time() - 900 * 86400
+    check("recently changed pages are preferred", _age_bucket(fresh, date.today()) == 0 == _age_bucket(unknown, date.today())
+          and _age_bucket(old, date.today()) == 2)
+    from parishcheck.crawler import _parse_sitemap
+    lm = {}
+    _parse_sitemap(b"<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'><url><loc>https://x.org/worship</loc><lastmod>2026-09-01</lastmod></url></urlset>", lm)
+    check("sitemap lastmod is read", list(lm) == ["https://x.org/worship"] and lm["https://x.org/worship"] > 0, str(lm))
+
+
+def test_livestream_prefers_stable_links():
+    cfg = tiny_config()
+    cfg.fields.append(__import__("parishcheck.config", fromlist=["FieldSpec"]).FieldSpec("livestream_url", "url", group="contact", url_kind="livestream"))
+    spec = cfg.get_field("livestream_url")
+    video = cand("@livestream", "https://www.youtube.com/watch?v=abc123XYZ", page="https://church.org/a")
+    video2 = cand("@livestream", "https://youtu.be/abc123XYZ", page="https://church.org/b")
+    channel = cand("@livestream", "https://www.youtube.com/@stjohns/live", page="https://church.org/c")
+    sv = merge_field(spec, [video, video2, channel], cfg)
+    check("channel /live beats a single video seen on more pages", sv.best == "https://www.youtube.com/@stjohns/live" and not sv.notes, str(sv.values))
+    fb = cand("@livestream", "https://www.facebook.com/stjohns/videos", page="https://church.org/d")
+    vid = cand("@livestream", "https://www.youtube.com/live/abcdefgh123", page="https://church.org/e")
+    check("Facebook /videos page beats youtube.com/live/<id>", merge_field(spec, [vid, fb], cfg).best == "https://www.facebook.com/stjohns/videos")
+    sv = merge_field(spec, [video], cfg)
+    check("only a single video -> reported with a note", sv.best.startswith("https://www.youtube.com/watch") and
+          sv.notes == ["single video link — may go stale; look for the channel URL"], str(sv.notes))
+    from parishcheck.normalizers import is_single_video
+    check("single-video links recognised", all(is_single_video(u) for u in ["https://youtu.be/abc", "https://www.youtube.com/watch?v=x1",
+          "https://www.youtube.com/live/abcdefgh"]) and not any(is_single_video(u) for u in
+          ["https://www.youtube.com/@x", "https://www.youtube.com/@x/live", "https://www.youtube.com/channel/UC123", "https://www.facebook.com/x/videos"]))
+
+
+# --------------------------------------------------------------------------------------------------
+# Speed (P4)
+# --------------------------------------------------------------------------------------------------
+def _run_record_groups(cfg, model, text, record, groups=("services",)):
+    from parishcheck.extract import ExtractContext, new_result, run_llm_groups
+    ctx = ExtractContext(cfg=cfg, client=model, state=_NoState(), today=date(2026, 10, 8), stop=__import__("threading").Event())
+    doc = PageDoc("https://church.org/worship", title="Worship", text=text, main_text=text)
+    res = new_result(M.OWN_SITE, "k", "https://church.org/")
+    return run_llm_groups([doc], M.OWN_SITE, ctx, list(groups), res, record=record), res
+
+
+def test_model_skipped_when_data_is_on_the_page():
+    cfg = tiny_config()
+    cfg.groups = {"services": {"keywords": ["sunday", "eucharist", "service", "wednesday", "a.m.", "noon"]}}
+    page = "Sunday services\n8:00 AM Holy Eucharist, Rite I\n10:30 AM Choral Eucharist\nWednesday 12:00 noon Holy Eucharist"
+    rec = dict(BASE, sunday_services="8:00 AM Holy Eucharist, Rite I; 10:30 AM Choral Eucharist",
+               weekday_services="Wed 12:00 noon Holy Eucharist", service_languages="English")
+    model = FakeModel({})
+    cands, res = _run_record_groups(cfg, model, page, rec)
+    got = {c.field: (c.value, c.method) for c in cands}
+    check("JSON filled and its times are on the page -> no model call", model.calls == 0 and res["llm_skipped"] == 1, f"{model.calls} {res}")
+    check("... the JSON values come back as rule finds", got.get("sunday_services") == (rec["sunday_services"], "rule")
+          and got.get("weekday_services") == (rec["weekday_services"], "rule"), str(got))
+    rows = _rows_for(rec, cands)
+    check("... and are reported as Matches, method rule", rows["sunday_services"].status == M.CORRECT and rows["sunday_services"].method == "rule"
+          and rows["weekday_services"].status == M.CORRECT, f"{rows['sunday_services'].status} {rows['weekday_services'].status}")
+    check("... with the line that shows it as evidence", "8:00 AM Holy Eucharist" in rows["sunday_services"].evidence, rows["sunday_services"].evidence)
+    blank = PromptModel({"sunday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                         "weekday_services": {"lines": [], "value": "unclear", "confidence": "low"}})
+    _run_record_groups(cfg, blank, page, dict(rec, weekday_services=""))
+    check("a blank JSON field in the group -> the model is asked", blank.calls == 1)
+    moved = FakeModel({"sunday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                       "weekday_services": {"lines": [], "value": "unclear", "confidence": "low"}})
+    _run_record_groups(cfg, moved, page, dict(rec, sunday_services="9:00 AM Holy Eucharist"))
+    check("a JSON time that is not on the page -> the model is asked", moved.calls == 1)
+    shared = FakeModel({"sunday_services": {"lines": [], "value": "unclear", "confidence": "low"},
+                        "weekday_services": {"lines": [], "value": "unclear", "confidence": "low"}})
+    _run_record_groups(cfg, shared, page, None)
+    check("a website shared by several parishes -> the model is asked", shared.calls == 1)
+    from parishcheck.pipeline import source_fingerprint
+    check("saved results are redone when the JSON values change",
+          source_fingerprint("x", cfg, [rec]) != source_fingerprint("x", cfg, [dict(rec, sunday_services="9:00 AM Mass")]))
+
+
+def test_fields_and_ids_options():
+    from parishcheck.config import ConfigError, limit_fields
+    from parishcheck.pipeline import read_ids_file, select_indices
+    from scraper import build_parser
+    args = build_parser().parse_args(["--input", "x.json", "--fields", "rector_name,sunday_services", "--ids-file", "ids.txt"])
+    check("--fields and --ids-file are accepted", args.fields == "rector_name,sunday_services" and args.ids_file == "ids.txt")
+    cfg = tiny_config()
+    limit_fields(cfg, "rector_name, sunday_services")
+    rows = _rows_for(dict(BASE, rector_name="The Rev. Ann Lee"), [cand("rector_name", "The Rev. Ann Lee", method="llm")], cfg=cfg)
+    check("--fields: only those fields are reported", sorted(rows) == ["rector_name", "sunday_services"], str(sorted(rows)))
+    from parishcheck.extract import llm_specs_by_group
+    asked = sorted(f.key for g in llm_specs_by_group(cfg).values() for f in g)
+    check("--fields: only those fields are asked of the model", asked == ["rector_name", "sunday_services"], str(asked))
+    cfg2 = tiny_config()
+    limit_fields(cfg2, "rite")
+    asked = sorted(f.key for g in llm_specs_by_group(cfg2).values() for f in g)
+    check("--fields rite: still reads the services it is built from", asked == ["sunday_services", "weekday_services"], str(asked))
+    try:
+        limit_fields(tiny_config(), "rector_nmae")
+        check("--fields with a typo gives a friendly error", False)
+    except ConfigError as exc:
+        check("--fields with a typo gives a friendly error", "rector_nmae" in str(exc) and "rector_name" in str(exc), str(exc))
+    d = Path(tempfile.mkdtemp(prefix="parish_selftest_ids_"))
+    (d / "ids.txt").write_text("# re-check these\ngrace-1\n\n  ch-3  \n", encoding="utf-8")
+    ids = read_ids_file(str(d / "ids.txt"))
+    check("ids file: one id per line, comments and blanks ignored", ids == ["grace-1", "ch-3"], str(ids))
+    recs = [{"id": "st-a", "name": "St. A"}, {"id": "grace-1", "name": "Grace"}, {"id": "grace-2", "name": "Grace Two"}, {"id": "ch-3", "name": "Christ"}]
+    check("--ids-file selects exactly those parishes", select_indices(recs, tiny_config(), None, set(ids)) == [1, 3])
+    check("--only and --ids-file together", select_indices(recs, tiny_config(), "grace", set(ids)) == [1])
+
+
+def test_timings_in_run_log():
+    import logging as _logging
+    from parishcheck.pipeline import _log_timings
+    seen = []
+
+    class Grab(_logging.Handler):
+        def emit(self, record):
+            seen.append(record.getMessage())
+    h = Grab()
+    lg = _logging.getLogger("parishcheck")
+    lg.addHandler(h)
+    lg.setLevel(_logging.INFO)
+    try:
+        saved = {f"site:s{i}.org": {"crawl_seconds": i, "elapsed": i, "llm_calls": 1, "llm_skipped": 1, "pages_crawled": 2} for i in range(15)}
+        _log_timings(saved)
+    finally:
+        lg.removeHandler(h)
+    listed = [m for m in seen if m.strip().endswith("model call(s))")]
+    check("run.log lists the 10 slowest sites, slowest first", len(listed) == 10 and "site:s14.org" in listed[0], str(listed[:2]))
+    check("run.log counts model calls not needed", any("not needed" in m and ": 15;" in m for m in seen), str(seen[:1]))
+    check("INSTRUCTIONS.md explains the Excel lock file", "~$Parish Check Results.xlsx" in (HERE / "INSTRUCTIONS.md").read_text(encoding="utf-8"))
 
 
 # --------------------------------------------------------------------------------------------------

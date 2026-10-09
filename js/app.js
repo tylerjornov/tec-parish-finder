@@ -317,6 +317,7 @@ const DETAIL_SECTIONS = [
     ["rector_name", "Rector"],
     ["rector_phone", "Rector Phone", "tel"],
     ["rector_email", "Rector Email", "email"],
+    ["other_clergy", "Other Clergy", "list"],
     ["other_contact", "Other Contact"],
   ]],
   ["Worship", [
@@ -372,7 +373,7 @@ const hasValue = (v) => v != null && String(v).trim() !== "" && !/^N\/A\b/i.test
 
 // Every US phone number in a string as (XXX) XXX-XXXX, whatever separators the
 // data uses ("863.665.1916", "8636651916", "+1-863-665-1916"...). Extensions
-// are kept ("ext. 18") and any other text is left alone. tools/format_phones.py
+// are kept ("ext. 18") and any other text is left alone. tools/normalize_data.py
 // applies the same rule to the data files.
 const PHONE_RE = /(^|[^\w])(?:\+?1[\s.\-=/]*)?\(?(\d{3})\)?[\s.\-=/]*(\d{3})[\s.\-=/]*(\d{4})(?!\d)(?:\s*,?\s*(?:ext\.?|extension|x)\s*(\d{1,6}))?\.?/gi;
 function formatPhones(v) {

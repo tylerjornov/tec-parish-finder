@@ -16,8 +16,8 @@ from rapidfuzz import fuzz
 
 from . import models as M
 from .normalizers import (
-    addresses_match, derive_rite, emails_in_json_value, host_of, is_missing, livestream_key, norm_email,
-    norm_rite, norm_state, norm_text, persons_match, phones_in_json_value, split_items, url_key,
+    addresses_match, cities_match, emails_in_json_value, is_missing, livestream_key, names_reworded, names_same, norm_email,
+    norm_rite, norm_state, norm_text, persons_match, phones_in_json_value, registered_domain, split_items, url_key,
 )
 from .times import Slot, day_time_pairs, describe_slot, parse_service_slots, slot_sort_key
 
@@ -103,8 +103,9 @@ def compare_typed(
         if url_kind == "livestream":
             jk, sk = livestream_key(json_value), [livestream_key(v) for v in site_values]
         elif url_kind == "website":
-            # For the website itself only the host matters: /home vs / is not a difference.
-            jk, sk = host_of(json_value), [host_of(v) for v in site_values]
+            # For the website itself only the registered domain matters: /home vs / or www. vs live. is not a
+            # difference, but a redirect to another domain is.
+            jk, sk = registered_domain(json_value), [registered_domain(v) for v in site_values]
         else:
             jk, sk = url_key(json_value), [url_key(v) for v in site_values]
         if jk and jk in sk:
@@ -159,6 +160,19 @@ def compare_typed(
             return CompareResult(M.PARTIAL, j_only_t, s_only_t, "same day and time, but how often differs")
         return CompareResult(M.DISCREPANCY, j_only_t, s_only_t, "no service times in common")
 
+    if ftype == "city":
+        # Any of the site's addresses may be this church's: other locations or a diocesan office are no mismatch.
+        if any(cities_match(json_value, v) for v in site_values):
+            return CompareResult(M.CORRECT)
+        return CompareResult(M.DISCREPANCY, detail="different city")
+
+    if ftype == "name":
+        if any(names_same(json_value, v) for v in site_values):
+            return CompareResult(M.CORRECT)
+        if any(names_reworded(json_value, v) for v in site_values):
+            return CompareResult(M.PARTIAL, detail="the same name, worded differently")
+        return CompareResult(M.DISCREPANCY, detail="different name")
+
     if ftype == "state":
         j = norm_state(json_value) or norm_text(json_value)
         if any(j == (norm_state(v) or norm_text(v)) for v in site_values):
@@ -211,15 +225,19 @@ def decide_status(
     url_kind: Optional[str] = None,
     time_format: str = "12h",
     list_sep: str = ";",
+    json_confirmed_none: bool = False,
+    site_is_default: bool = False,
 ) -> StatusResult:
     """The one place where a field's final status is chosen.
 
     Order of rules:
       1. The source was blocked / failed / ambiguous / its evidence was rejected -> UNCLEAR (with reason)
-      2. Both sides empty                -> BOTH_MISSING
-      3. JSON empty, site has a value    -> SITE_ONLY   (but UNCLEAR if the site value is low confidence)
-      4. JSON has a value, site doesn't  -> JSON_ONLY   (with a note about page cap / limited source)
-      5. Both have values                -> compare; anything but CORRECT with low confidence -> UNCLEAR
+      2. JSON says "there is none" (confirmed_none_markers) -> CORRECT if the site has none either, else DISCREPANCY
+      3. Both sides empty                -> BOTH_MISSING
+      4. JSON empty, site has a value    -> SITE_ONLY   (but UNCLEAR if the site value is low confidence;
+                                            BOTH_MISSING if the site value is only a default the site does not state)
+      5. JSON has a value, site doesn't  -> JSON_ONLY   (with a note about page cap / limited source)
+      6. Both have values                -> compare; anything but CORRECT with low confidence -> UNCLEAR
     """
     markers = list(missing_markers)
     json_missing = is_missing(json_value, markers)
@@ -228,7 +246,20 @@ def decide_status(
     if unclear_reason and not site_values:
         return StatusResult(M.UNCLEAR, reason=unclear_reason)
 
+    if json_confirmed_none:
+        note = "JSON says confirmed none"
+        if not site_values or site_is_default:
+            return StatusResult(M.CORRECT, detail=note + "; the website names none either")
+        if site_confidence == "low" or unclear_reason:
+            return StatusResult(M.UNCLEAR, detail=note, reason=unclear_reason or
+                                "the website value is low confidence, so I did not trust the difference")
+        return StatusResult(M.DISCREPANCY, detail=note)
+
     if json_missing and not site_values:
+        return StatusResult(M.BOTH_MISSING)
+
+    if json_missing and (site_is_default or ftype == "contactlist"):
+        # A default the site never states ("English"), or a value built from other fields: nothing to add.
         return StatusResult(M.BOTH_MISSING)
 
     if json_missing:

@@ -72,6 +72,8 @@ class SiteValue:
     conflict: bool = False                                   # the site itself gives different answers
     unlocated: bool = False                                  # shared website: value is not from this record's own location page
     derived_from: list[str] = field(default_factory=list)
+    verified: bool = False                                   # rule-found, or a model answer whose cited lines hold every fact in it
+    is_default: bool = False                                 # an assumption the site does not state ("English")
 
     @property
     def present(self) -> bool:

@@ -25,6 +25,13 @@ website_key: website           # which key holds the web address to check (churc
 missing_markers:
   - ""
   - "N/A - Data Not Available"
+  - "N/A"
+
+# A value that means "we checked: there is none" (capitals don't matter). It is not missing: it matches a website
+# that names none either, and is reported "Different on website" (note: JSON says confirmed none) if the site
+# names one. A single field can add its own words with  confirmed_none:  in the fields table below.
+confirmed_none_markers:
+  - "None - No Rector"
 
 # Keys listed here are never checked. They are copied to the reports as NOT_CHECKABLE and left untouched.
 uncheckable_fields:
@@ -85,6 +92,14 @@ skip_domains:
   - maps.google.com
   - goo.gl
   - pinterest.com
+
+# Websites shared by many parishes (a diocese's, a college's). A parish whose address is on one of these - or any
+# address with a path after the domain, like diocese.org/st-davids - is read narrowly: its own page, the pages
+# below it, and at most 3 pages it links to. Otherwise the page limit gets used up on staff and finance pages.
+shared_host_domains:
+  - episcopalchurchsc.org      # The Episcopal Church in South Carolina
+  - edusc.org                  # The Diocese of Upper South Carolina
+  - voorhees.edu               # Voorhees University (St. Philip's)
 
 # Links to these sites on a church page are treated as possible livestream links.
 livestream_hosts:
@@ -200,7 +215,10 @@ special_sources:
 #   description  one plain sentence (keep it inside the quotes; a colon inside quotes is fine). For model-read fields this is what the model is told to look for.
 #   group        which batch of fields is asked together (see "Groups" below). "contact" = found by rules, no AI.
 #   Optional:  format (style hint for the model), role (church|rector, phones/emails), address_part (city|state),
-#              default_day (services: the day to assume when none is written), url_kind (website|livestream)
+#              default_day (services: the day to assume when none is written), url_kind (website|livestream),
+#              confirmed_none (values meaning "there is none" for this field), lookup (compare with a table in this
+#              file instead of the websites), default_value + default_unless (assume this value unless a page has one
+#              of these words; the model is then not asked)
 #
 # Keys not listed here (and not in uncheckable_fields) are NOT checked. They are copied through untouched.
 # That is why churchmanship, female_clergy, ssm and the other opinion-type columns are absent: this tool only
@@ -213,11 +231,6 @@ fields:
     group: identity
     description: "The full official name of this parish or church, as it names itself."
     format: The name as printed on the page (for example "St. Name's Episcopal Church"). No slogans.
-  - key: diocese
-    type: text
-    group: identity
-    description: "The Episcopal (or Anglican) diocese this parish belongs to."
-    format: The diocese name as the page writes it. Short fragment.
 
   # ---- contact (found by rules: phone/email/link/address patterns, no AI) ----
   - key: website
@@ -271,12 +284,17 @@ fields:
     group: clergy
     role: rector
     description: "The parish's lead priest (Rector, Vicar, Priest-in-Charge, Interim Rector or Dean)."
-    format: 'The Reverend Full Name, Title  (Title is one of Rector, Vicar, Priest-in-Charge, Interim Rector, Dean). Keep the honorific exactly as printed (Fr., The Rev., Mother ...).'
+    format: 'Title and full name only, with no role after it (for example "The Rev. Full Name"). Use the title the page uses, written as The Rev., The Very Rev., Fr. or Mtr.; keep Dr. and Canon when printed.'
+  - key: other_clergy
+    type: list
+    group: clergy
+    description: "Clergy serving at this parish other than the rector: associate and assistant priests, curates, deacons, priests associate."
+    format: 'People separated by "; ". Each = title and full name, then the role in parentheses (for example "The Rev. Full Name (Associate Rector)"). Titles are written The Rev., The Very Rev., Fr. or Mtr.; keep Dr. and Canon when printed. Never include the rector, the bishop, or lay staff.'
   - key: diocesan_bishop
     type: person
-    group: clergy
+    group: lookup
+    lookup: diocese              # not read from websites: compared with diocese_lookup (below) for the record's diocese
     description: "The bishop of this parish's diocese."
-    format: 'Honorific and full name as printed, then ", Bishop" (for example "The Rt. Rev. Full Name, Bishop").'
 
   # ---- services (asked of the model) ----
   - key: sunday_services
@@ -288,6 +306,7 @@ fields:
   - key: weekday_services
     type: services
     group: services
+    confirmed_none: ["N/A"]      # "N/A" here means Sunday services only: it matches a site that lists no weekday services
     description: "Regular services Monday through Saturday that are in effect now."
     format: 'Items separated by "; ". Each item starts with an abbreviated day (Mon, Tue, Wed, Thu, Fri, Sat) or an ordinal plus day (3rd Wed), then the time, then the service name, then ", Rite I/II" if stated, then extras in parentheses. Use ranges like Mon–Fri when days share a time. Never include Sunday services.'
   - key: service_languages
@@ -295,11 +314,14 @@ fields:
     group: services
     description: "The languages in which services are held."
     format: 'Languages separated by "; ". Add details in parentheses only when stated.'
+    default_value: English       # when no page names another language, "English" is assumed and the model is not asked
+    default_unless: [spanish, español, espanol, "en español", misa, bilingual, latino, hispanic, korean, chinese, mandarin,
+                     cantonese, vietnamese, french, français, haitian, creole, kreyòl, portuguese, german, tagalog, filipino,
+                     japanese, swahili, arabic, sudanese, dinka, burmese, hmong, russian, ukrainian, "sign language"]
   - key: rite_details
-    type: text
+    type: rite
     group: services
-    description: "Which Prayer Book rites (Rite I, Rite II) are used and when."
-    format: 'A short fragment, for example "Rite I and Rite II both offered". No full sentences.'
+    description: "Which Prayer Book rites are used and when, e.g. Rite I (8:00 AM); Rite II (10:30 AM). Worked out by the program from the services text (not asked of the model)."
   - key: rite
     type: rite
     group: services
@@ -334,20 +356,21 @@ fields:
     description: "Accessibility for people with disabilities (ramps, elevators, hearing loops, accessible restrooms)."
     format: 'A short fragment such as "Handicapped-accessible facilities".'
 
-  # ---- built by the program from other fields ----
-  - key: other_contact
-    type: list
-    group: derived
-    description: "Church phone and church email joined with \" | \" (built by the program, not asked of the model)."
+# other_contact is not checked: it is built from church_phone and church_email, which are checked themselves.
 
 
 # Which fields are built in code from other fields.
 derived_fields:
-  other_contact:               # church_phone and church_email joined by " | " (missing parts left out)
-    from: [church_phone, church_email]
-    separator: " | "
+  rite_details:                # "Rite I (8:00 AM); Rite II (10:30 AM)" from the services text
+    details_from_services: [sunday_services, weekday_services]
   rite:                        # Rite I -> "I", Rite II -> "II", both -> "Mixed", neither -> nothing
-    from_services: [sunday_services, weekday_services, rite_details]
+    from_services: [sunday_services, weekday_services]
+
+# The current bishop of each diocese. diocesan_bishop is compared with this table (using the record's diocese), not
+# read from websites. Keep it up to date when a new bishop is consecrated. Names are compared by surname and first name.
+diocese_lookup:
+  Upper South Carolina: The Rt. Rev. Daniel P. Richards
+  South Carolina: The Rt. Rev. Ruth Woodliff-Stanley
 
 # -----------------------------------------------------------------------------------------------------
 # 6. GROUPS  (fields asked together, and the words that make a page worth asking about)
@@ -363,11 +386,11 @@ derived_fields:
 groups:
   clergy:
     max_pages: 3
-    keywords: [rector, vicar, priest, rev., reverend, "the rev", father, fr., dean, canon, bishop, pastor, clergy, deacon, mother, "our staff", leadership]
+    keywords: [rector, vicar, priest, rev., reverend, "the rev", father, fr., dean, canon, pastor, clergy, deacon, mother, "our staff", leadership]
     url_hints: [staff, clergy, leadership, who-we-are, ministers, our-team, about, contact, rector]
     instructions: >
-      Find the parish's lead priest (Rector, Vicar, Priest-in-Charge, Interim Rector or Dean) and the bishop of its
-      diocese. Do not report assistants, curates, deacons, wardens or office staff as the rector.
+      Find the parish's lead priest (Rector, Vicar, Priest-in-Charge, Interim Rector or Dean). Do not report
+      assistants, curates, deacons, wardens, office staff or the diocese's bishop as the rector.
   services:
     keywords: [sunday, eucharist, mass, communion, service, worship, evensong, "morning prayer", "evening prayer", compline, rite, "a.m.", "p.m.", noon, spanish, español, bilingual, language, livestream, 're:\d{1,2}(?::\d{2})?\s?[ap]\.?m\b']
     url_hints: [worship, services, service, sunday, visit, new, welcome, schedule, liturgy, plan]
@@ -388,11 +411,11 @@ groups:
       Report only facts about THIS church's building and grounds.
   identity:
     max_pages: 2
-    check_evidence_keywords: false     # "Bishop of X" is good evidence for a diocese, so don't insist on the keywords
-    keywords: [episcopal, diocese, anglican, parish, church, "welcome to", "about us"]
+    keywords: [episcopal, anglican, parish, church, chapel, cathedral, "welcome to", "about us"]
     url_hints: [about, who-we-are, welcome, history, beliefs]
     instructions: >
-      Report the church's own name and the diocese it belongs to. If the name is not stated plainly, answer unclear.
+      Report the church's own name. Not the diocese, not the national church, not a web designer. If the name is
+      not stated plainly, answer unclear.
 
 
 # The example answers for the model (FORMAT ONLY) live in this file:

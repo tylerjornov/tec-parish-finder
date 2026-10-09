@@ -25,8 +25,8 @@ from .comparators import compare_typed
 from .config import Config, FieldSpec
 from .models import Candidate, SiteValue
 from .normalizers import (
-    addresses_match, collapse_ws, derive_rite, format_phone, host_of, livestream_key, norm_state, norm_text,
-    parse_person, phones_in_json_value, split_city_state, split_items, url_key,
+    addresses_match, derive_rite, derive_rite_details, format_phone, is_single_video, livestream_key,
+    looks_like_church_name, norm_text, parse_person, phones_in_json_value, split_city_state, split_items, strip_role,
 )
 from .times import DAY_ORDER, parse_service_slots
 
@@ -48,6 +48,7 @@ class RecordView:
     issues: dict = field(default_factory=dict)             # field key -> [reason, ...]
     primary_type: str = ""                                 # source type shown when a field has no value of its own
     primary_url: str = ""
+    site_problem: str = ""                                 # the church website itself looks wrong (Summary sheet)
 
 
 # --------------------------------------------------------------------------------------
@@ -83,9 +84,14 @@ def _prefer_good(cands: list[Candidate]) -> tuple[list[Candidate], str]:
     return fresh, "low"
 
 
+def _verified(c: Candidate) -> bool:
+    return c.method != "llm" or bool(c.extra.get("verified"))
+
+
 def _sv_from(c: Candidate, values: list[str], conf: str = "") -> SiteValue:
     return SiteValue(values=values, best=values[0] if values else "", confidence=conf or c.confidence,
-                     source_type=c.source_type, source_url=c.source_url, method=c.method, evidence=c.evidence)
+                     source_type=c.source_type, source_url=c.source_url, method=c.method, evidence=c.evidence,
+                     verified=_verified(c), is_default=c.method == "rule (default)")
 
 
 # --------------------------------------------------------------------------------------
@@ -154,7 +160,7 @@ def _address_part(spec: FieldSpec, addr: Optional[SiteValue]) -> Optional[SiteVa
     if addr is None or not addr.values:
         return None
     outs = []
-    for a in addr.values[:3]:
+    for a in addr.values:
         city, state = split_city_state(a)
         v = city if spec.address_part == "city" else state
         if v and v not in outs:
@@ -217,6 +223,8 @@ def _merge_services(spec: FieldSpec, cands: list[Candidate], fmt: str) -> Option
     sv = _sv_from(kept[0], [value], conf)
     sv.source_url = items[0]["c"].source_url if items else sv.source_url
     sv.evidence = " | ".join(dict.fromkeys(i["c"].evidence for i in items))[:300]
+    sv.verified = all(_verified(i["c"]) for i in items)
+    _carry_notes(sv, [i["c"] for i in items])
     return sv
 
 
@@ -237,20 +245,38 @@ def _merge_list(spec: FieldSpec, cands: list[Candidate]) -> Optional[SiteValue]:
     value = "; ".join(i for i, _ in items)
     sv = _sv_from(kept[0], [value], conf)
     sv.evidence = " | ".join(dict.fromkeys(c.evidence for _, c in items))[:300]
+    sv.verified = all(_verified(c) for _, c in items)
+    _carry_notes(sv, [c for _, c in items])
     return sv
 
 
+def _carry_notes(sv: SiteValue, cs: list[Candidate]) -> None:
+    """Notes written on the candidates themselves ("page may be out of date ...") travel to the report."""
+    for c in cs:
+        for n in c.extra.get("notes", []):
+            if n not in sv.notes:
+                sv.notes.append(n)
+
+
+SINGLE_VIDEO_NOTE = "single video link — may go stale; look for the channel URL"
+
+
 def _merge_livestream(cands: list[Candidate]) -> Optional[SiteValue]:
+    """Prefer a link that keeps working (a channel, /@handle, /live, a Facebook /videos page) over a link to one
+    recording; then confident links over guesses, then links seen on more pages."""
     groups: dict[str, list[Candidate]] = defaultdict(list)
     for c in cands:
         groups[livestream_key(c.value)].append(c)
-    ranked = sorted(groups.values(), key=lambda cs: (all(c.confidence != "high" for c in cs), -_pages(cs)))
+    ranked = sorted(groups.values(), key=lambda cs: (is_single_video(cs[0].value),
+                                                     all(c.confidence != "high" for c in cs), -_pages(cs)))
     values = [_best_of(cs).value for cs in ranked]
     if not values:
         return None
     best_group = ranked[0]
-    conf = "high" if any(c.confidence == "high" for cs in ranked for c in cs) else "low"
+    conf = "high" if any(c.confidence == "high" for c in best_group) else "low"
     sv = _sv_from(_best_of(best_group), values, conf)
+    if is_single_video(values[0]):
+        sv.notes.append(SINGLE_VIDEO_NOTE)
     return sv
 
 
@@ -275,27 +301,51 @@ def merge_field(spec: FieldSpec, cands: list[Candidate], cfg: Config) -> Optiona
     own = [c for c in cands if c.field == spec.key]
     if t == "person":
         extra = [c for c in cands if c.field == "@clergy"] if spec.role == "rector" else []
-        return _merge_scalar(spec, own + extra, _person_same)
+        # House style: a name without the role after it ("The Rev. Ann Lee", not "The Rev. Ann Lee, Rector").
+        people = [Candidate.from_dict(dict(c.to_dict(), value=strip_role(c.value))) for c in own + extra]
+        sv = _merge_scalar(spec, [c for c in people if c.value], _person_same)
+        if sv is not None:
+            _carry_notes(sv, [c for c in people if c.value == sv.best])
+        return sv
     if t == "services":
         return _merge_services(spec, own, cfg.time_format)
     if t == "list":
         return _merge_list(spec, own)
     if t == "text" and spec.key == cfg.name_key:
-        own = own + [c for c in cands if c.field == "@jsonld_name"]
-    return _merge_scalar(spec, own, lambda a, b: fuzz.token_set_ratio(norm_text(a), norm_text(b)) >= 90)
+        # Only values that look like a parish's name: not a web designer's credit, a code or "The Episcopal Church".
+        own = [c for c in own + [c for c in cands if c.field == "@jsonld_name"] if looks_like_church_name(c.value)]
+    sv = _merge_scalar(spec, own, lambda a, b: fuzz.token_set_ratio(norm_text(a), norm_text(b)) >= 90)
+    if sv is not None:
+        _carry_notes(sv, [c for c in own if c.value == sv.best])
+    return sv
 
 
 # --------------------------------------------------------------------------------------
 # the whole record
 # --------------------------------------------------------------------------------------
 def _derive(cfg: Config, values: dict) -> None:
-    """other_contact and rite are built from other fields, in code."""
+    """rite and rite_details are built from the services text, in code ("from" fields such as other_contact are
+    built from the JSON's own values in report.py instead)."""
     for key, how in (cfg.derived_fields or {}).items():
         spec = cfg.get_field(key)
         if spec is None:
             continue
         how = how or {}
-        if "from_services" in how or spec.type == "rite":
+        if "details_from_services" in how:
+            srcs = [k for k in how["details_from_services"] if k in values and values[k].best]
+            sunday = "; ".join(values[k].best for k in srcs if (cfg.get_field(k) and cfg.get_field(k).default_day == "sun"))
+            weekday = "; ".join(values[k].best for k in srcs if not (cfg.get_field(k) and cfg.get_field(k).default_day == "sun"))
+            details = derive_rite_details(sunday, weekday, cfg.time_format)
+            if details:
+                first = values[srcs[0]]
+                low = any(values[k].confidence == "low" for k in srcs)
+                sv = SiteValue(values=[details], best=details, confidence="low" if low else "high",
+                               source_type=first.source_type, source_url=first.source_url,
+                               method="rule (derived from services text)", evidence="; ".join(values[k].best for k in srcs)[:300],
+                               verified=all(values[k].verified for k in srcs))
+                sv.derived_from = list(srcs)
+                values[key] = sv
+        elif "from_services" in how or spec.type == "rite":
             srcs = how.get("from_services") or []
             texts = [values[k].best for k in srcs if k in values and values[k].best]
             r = derive_rite(*texts)
@@ -303,18 +353,9 @@ def _derive(cfg: Config, values: dict) -> None:
                 first = next((values[k] for k in srcs if k in values and values[k].best), None)
                 sv = SiteValue(values=[r], best=r, confidence=first.confidence if first else "high",
                                source_type=first.source_type if first else "", source_url=first.source_url if first else "",
-                               method="rule (derived from services text)", evidence="; ".join(texts)[:300])
+                               method="rule (derived from services text)", evidence="; ".join(texts)[:300],
+                               verified=bool(first and first.verified))
                 sv.derived_from = list(srcs)
-                values[key] = sv
-        elif "from" in how:
-            sep = how.get("separator", " | ")
-            parts = [values[k].best for k in how["from"] if k in values and values[k].best]
-            if parts:
-                first = values[[k for k in how["from"] if k in values and values[k].best][0]]
-                sv = SiteValue(values=[sep.join(parts)], best=sep.join(parts), confidence=first.confidence,
-                               source_type=first.source_type, source_url=first.source_url,
-                               method="rule (derived)", evidence="built from " + " and ".join(how["from"]))
-                sv.derived_from = list(how["from"])
                 values[key] = sv
 
 
@@ -348,6 +389,17 @@ def _locate(cands_by_result: list[tuple[dict, list[Candidate]]], record: dict, c
     return out, located
 
 
+def _site_problem(r: dict) -> str:
+    """What is wrong with a church website as a whole, in a few words ('' when nothing is)."""
+    if r.get("kind") != M.OWN_SITE:
+        return ""
+    if r.get("status") != "ok":
+        return r.get("reason", "")
+    if r.get("redirected_to"):
+        return f"the address now leads to a different website: {r['redirected_to']}"
+    return ""
+
+
 def build_view(record: dict, cfg: Config, results: list[dict], shared: bool = False) -> RecordView:
     view = RecordView()
     results = sorted(results, key=lambda r: cfg.priority_rank(SOURCE_KEY.get(r["kind"], "")))
@@ -365,6 +417,14 @@ def build_view(record: dict, cfg: Config, results: list[dict], shared: bool = Fa
         else:
             view.notes.append(f"{label} could not be used: {r['reason']}")
         view.notes.extend(r.get("notes", []))
+
+    view.site_problem = " ; ".join(dict.fromkeys(_site_problem(r) for r in results if _site_problem(r)))
+    hijacked = [r for r in results if r.get("site_problem") == "suspect"]
+    if hijacked:
+        # The website may now belong to someone else: nothing found anywhere can be matched to this parish safely.
+        view.primary_type, view.primary_url = hijacked[0]["kind"], hijacked[0]["url"]
+        view.all_failed_reason = hijacked[0]["reason"]
+        return view
 
     if bad and bad[0]["kind"] != "none":
         view.primary_type, view.primary_url = bad[0]["kind"], bad[0]["url"]
@@ -394,7 +454,7 @@ def build_view(record: dict, cfg: Config, results: list[dict], shared: bool = Fa
     # ---- fields ----
     addr_sv_by_source: dict[int, Optional[SiteValue]] = {}
     for spec in cfg.fields:
-        if not spec.checkable or spec.derived:
+        if not spec.checkable or spec.derived or spec.lookup or not cfg.needed(spec):
             continue
         found = []   # [(result, SiteValue)] in priority order
         for idx, (res, cands, all_cands) in enumerate(per_source):
@@ -427,11 +487,34 @@ def build_view(record: dict, cfg: Config, results: list[dict], shared: bool = Fa
         for res, sv in found:
             if sv is winner or not sv.best:
                 continue
-            same = compare_typed(("state" if spec.address_part == "state" else spec.type), winner.best, [sv.best],
+            same = compare_typed((spec.address_part or spec.type), winner.best, [sv.best],
                                  default_day=spec.default_day,
                                  url_kind=spec.url_kind, time_format=cfg.time_format)
             if winner.best and same.status != M.CORRECT:
                 winner.notes.append(f"{KIND_LABEL.get(res['kind'], res['kind'])} says: {sv.best}")
         view.values[spec.key] = winner
+    _check_rector_contacts(cfg, record, view.values)
     _derive(cfg, view.values)
     return view
+
+
+def _check_rector_contacts(cfg: Config, record: dict, values: dict) -> None:
+    """A phone or email is labelled the rector's because words like "Fr." or "Rector" are near it. Unless the
+    rector's surname is next to it too (or in the email address), that label is a guess: lower its confidence."""
+    person = next((f for f in cfg.fields if f.type == "person" and f.role == "rector" and not f.lookup), None)
+    if person is None:
+        return
+    names = [values[person.key].best] if person.key in values else []
+    if not cfg.is_missing(record.get(person.key)) and not cfg.is_confirmed_none(person, record.get(person.key)):
+        names.append(str(record.get(person.key)))
+    surnames = {parse_person(n).surname for n in names} - {""}
+    for f in cfg.fields:
+        sv = values.get(f.key)
+        if f.role != "rector" or f.type not in ("phone", "email") or sv is None or not sv.values:
+            continue
+        if sv.method != "rule" or sv.confidence != "high":
+            continue
+        evidence, address = norm_text(sv.evidence), sv.best.lower()
+        if not any(s in address or re.search(r"(?<![a-z])" + re.escape(s) + r"(?![a-z])", evidence) for s in surnames):
+            sv.confidence = "low"
+            sv.notes.append("labelled the rector's only because of nearby words; the rector's name is not next to it")

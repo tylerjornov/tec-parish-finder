@@ -29,6 +29,7 @@
     "weekday_services": { "type": "list", "description": "Weekday services" },
     "diocesan_bishop": { "type": "text", "description": "Diocesan bishop" },
     "rector_name": { "type": "text", "description": "Rector or priest" },
+    "other_clergy": { "type": "list", "description": "Other clergy serving here, each with an optional role in parentheses, e.g. \"The Rev. Ann Lee (Associate Rector); The Rev. Bob Ray (Deacon)\"" },
     "rite": { "type": "choice", "choices": ["I", "II", "Mixed"], "description": "Prayer book rite used" },
     "rite_details": { "type": "text", "description": "Rite details" },
     "service_languages": { "type": "list", "description": "Service languages" },

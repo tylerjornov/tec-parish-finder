@@ -6,6 +6,10 @@ Plan for each site:
   3. Rank every candidate address by how many `priority_keywords` it contains, and download the best ones
      until `max_pages_per_site` is reached.  If there is no (useful) sitemap, follow links from the pages
      instead, best-looking first.
+
+A parish page on a shared website (a diocese's or a college's) is read differently: only that page, the pages
+below it, and at most 3 pages it links to (see urls.site_scope).  A home page that no longer looks like a church's
+(parked, for sale, casino spam, or no church words at all) stops the crawl: the address may have expired.
 """
 
 from __future__ import annotations
@@ -13,20 +17,22 @@ from __future__ import annotations
 import heapq
 import itertools
 import logging
+import re
 import threading
+import time
 from dataclasses import dataclass, field
+from datetime import datetime
+from email.utils import parsedate_to_datetime
 from typing import Optional
 from urllib.parse import urlsplit
-
-import re
 
 from lxml import etree
 
 from .cleaner import PageDoc, clean_html
 from .config import Config
 from .fetcher import FetchResult, Fetcher, StopRequested
-from .normalizers import host_of, normalize_url
-from .urls import is_excluded, is_non_html, is_pdf, same_site, score_url
+from .normalizers import host_of, norm_text, normalize_url, registered_domain
+from .urls import in_scope, is_excluded, is_non_html, is_pdf, same_site, score_url, site_scope
 
 log = logging.getLogger("parishcheck")
 
@@ -46,6 +52,10 @@ class CrawlResult:
     allowed_hosts: set = field(default_factory=set)
     robots_blocked: int = 0
     used_browser_pages: int = 0
+    site_problem: str = ""             # 'suspect' when the address may have expired or been taken over
+    redirected_to: str = ""            # the home page now lives on another domain
+    scope: str = ""                    # shared website: the part of it this parish owns (urls.site_scope)
+    seconds: float = 0.0
 
 
 # --------------------------------------------------------------------------------------
@@ -55,8 +65,8 @@ _SKIP_SITEMAP_WORDS = ("taxonom", "users", "author", "tag", "category", "attachm
                        "image", "video", "news", "location")
 
 
-def _parse_sitemap(data: bytes) -> tuple[str, list[str]]:
-    """Returns ('index' | 'urls', [locs])."""
+def _parse_sitemap(data: bytes, lastmods: Optional[dict] = None) -> tuple[str, list[str]]:
+    """Returns ('index' | 'urls', [locs]). Page dates (<lastmod>) go into `lastmods` {url: unix time}."""
     try:
         parser = etree.XMLParser(recover=True, resolve_entities=False, no_network=True, huge_tree=False)
         root = etree.fromstring(data, parser=parser)
@@ -69,10 +79,32 @@ def _parse_sitemap(data: bytes) -> tuple[str, list[str]]:
     for el in root.iter("{*}loc"):
         if el.text and el.text.strip():
             locs.append(el.text.strip())
+            if lastmods is not None and kind == "urls":
+                lm = el.getparent().find("{*}lastmod") if el.getparent() is not None else None
+                when = _iso_time(lm.text) if lm is not None and lm.text else 0.0
+                if when:
+                    lastmods[normalize_url(el.text.strip())] = when
     return kind, locs
 
 
-def collect_sitemap_urls(home_url: str, fetcher: Fetcher, stop: threading.Event, max_urls: int = 4000) -> list[str]:
+def _iso_time(text: str) -> float:
+    """'2025-03-01' or '2025-03-01T10:00:00+00:00' -> unix time (0.0 if unreadable)."""
+    try:
+        return datetime.fromisoformat(text.strip().replace("Z", "+00:00")).timestamp()
+    except (ValueError, OverflowError):
+        return 0.0
+
+
+def _http_time(text: str) -> float:
+    """A Last-Modified header -> unix time (0.0 if absent or unreadable)."""
+    try:
+        return parsedate_to_datetime(text).timestamp() if text else 0.0
+    except (TypeError, ValueError, OverflowError):
+        return 0.0
+
+
+def collect_sitemap_urls(home_url: str, fetcher: Fetcher, stop: threading.Event, max_urls: int = 4000,
+                         lastmods: Optional[dict] = None) -> list[str]:
     parts = urlsplit(home_url)
     origin = f"{parts.scheme}://{parts.netloc}"
     seeds: list[str] = []
@@ -100,7 +132,7 @@ def collect_sitemap_urls(home_url: str, fetcher: Fetcher, stop: threading.Event,
         data = fetcher.get_sitemap_bytes(sm)
         fetched += 1
         if data:
-            kind, locs = _parse_sitemap(data)
+            kind, locs = _parse_sitemap(data, lastmods)
             if kind == "index":
                 kids = [l for l in locs if host_of(l) == site_host and not any(w in l.lower() for w in _SKIP_SITEMAP_WORDS)]
                 kids.sort(key=lambda l: (0 if "page" in l.lower() else 1))
@@ -144,6 +176,7 @@ def _fetch_doc(url: str, cfg: Config, fetcher: Fetcher) -> tuple[Optional[PageDo
         return None, res
     final = res.final_url or url
     doc = clean_html(res.text, url, cfg.livestream_hosts, final_url=final, status=res.status)
+    doc.modified = _http_time(res.last_modified)
     if cfg.use_browser_fallback and doc.main_len < cfg.min_text_chars_before_browser:
         try:
             rr = fetcher.get_rendered(url)
@@ -152,6 +185,7 @@ def _fetch_doc(url: str, cfg: Config, fetcher: Fetcher) -> tuple[Optional[PageDo
         if rr.ok and rr.text:
             doc2 = clean_html(rr.text, url, cfg.livestream_hosts, via_browser=True, final_url=rr.final_url or final)
             if len(doc2.text) > len(doc.text):
+                doc2.modified = doc.modified
                 doc = doc2
     return doc, res
 
@@ -176,10 +210,53 @@ def dead_site_reason(doc: PageDoc, final_url: str) -> str:
     return ""
 
 
+SUSPECT_REASON = "website may be expired or taken over — check it by hand"
+_PARKED = re.compile(
+    r"buy this domain|this domain (?:name )?(?:is|may be) for sale|domain (?:name )?(?:is )?for sale|domain parking|"
+    r"parked (?:free|domain|by)|hugedomains|sedo\.com|dan\.com|afternic|related searches|sponsored listings|"
+    r"this domain has expired|domain (?:has )?expired|renew (?:this|your) domain", re.I)
+# Words that never belong on a church's home page, and words a fundraiser might use ("Casino night: poker!").
+_SPAM_STRONG = re.compile(
+    r"(?<![a-z])(?:togel|judi|gacor|slot online|online slots?|slot gacor|online casino|casino online|sportsbook|"
+    r"bet365|1xbet|viagra|cialis|payday loans?|escort services?|porn|xxx)(?![a-z])", re.I)
+_SPAM_WEAK = re.compile(
+    r"(?<![a-z])(?:casino|poker|blackjack|roulette|betting|gambling|jackpot|slot machines?)(?![a-z])", re.I)
+_CHURCH_WORDS = re.compile(r"(?<![a-z])(?:episcopal|church|parish|worship)", re.I)
+
+
+def suspect_site_reason(doc: PageDoc, hint_words: Optional[list] = None) -> str:
+    """SUSPECT_REASON when a home page no longer looks like a church's: a parked / for-sale page, gambling or
+    other spam, or (with enough text to judge) none of 'episcopal', 'church', 'parish', 'worship' and no word of
+    the parish's name. '' otherwise."""
+    text = f"{doc.title}\n{doc.text}"
+    if _PARKED.search(text[:6000]):
+        return SUSPECT_REASON
+    strong = {m.group(0).lower() for m in _SPAM_STRONG.finditer(text)}
+    weak = {m.group(0).lower() for m in _SPAM_WEAK.finditer(text)}
+    churchy = bool(_CHURCH_WORDS.search(text))
+    words = set(norm_text(text).split())
+    named = any(w in words for w in (hint_words or []))
+    if len(strong) >= 2 or ((strong or weak) and not churchy):
+        return SUSPECT_REASON
+    if len(doc.main_text) >= 200 and not churchy and not named:
+        return SUSPECT_REASON
+    return ""
+
+
 def crawl_site(start_url: str, cfg: Config, fetcher: Fetcher, stop: threading.Event, max_pages: Optional[int] = None,
-               plan_only: bool = False) -> CrawlResult:
+               plan_only: bool = False, hint_words: Optional[list] = None) -> CrawlResult:
     """Download up to `max_pages` pages of one website.  With plan_only=True only the home page and the
-    sitemaps are fetched and `candidates_found` says how many more pages could be downloaded."""
+    sitemaps are fetched and `candidates_found` says how many more pages could be downloaded.
+    `hint_words` are distinctive words of the parish name(s), used to judge the home page and, on a shared
+    website, to pick the pages it links to."""
+    started = time.monotonic()
+    out = _crawl(start_url, cfg, fetcher, stop, max_pages, plan_only, hint_words or [])
+    out.seconds = time.monotonic() - started
+    return out
+
+
+def _crawl(start_url: str, cfg: Config, fetcher: Fetcher, stop: threading.Event, max_pages: Optional[int],
+           plan_only: bool, hint_words: list) -> CrawlResult:
     max_pages = max_pages or cfg.max_pages_per_site
     out = CrawlResult(start_url=start_url)
     start = normalize_url(start_url)
@@ -212,12 +289,28 @@ def crawl_site(start_url: str, cfg: Config, fetcher: Fetcher, stop: threading.Ev
 
     home_final = home_doc.final_url or start
     out.home_final_url = home_final
+    if registered_domain(home_final) != registered_domain(start):
+        out.redirected_to = home_final
     dead = dead_site_reason(home_doc, home_final)
     if dead:
         out.status, out.reason = "failed", dead
         return out
+    if suspect_site_reason(home_doc, hint_words):
+        out.status, out.reason, out.site_problem = "failed", SUSPECT_REASON, "suspect"
+        return out
     allowed = {host_of(start), host_of(home_final)}
     out.allowed_hosts = allowed
+    host, scope = site_scope(start, cfg.shared_host_domains)
+    if host_of(home_final) != host:              # moved to another host: the scope goes with it
+        host, scope = site_scope(home_final, cfg.shared_host_domains)
+    elif scope not in ("", "/") and not in_scope(home_final, host, scope):
+        # The parish's page on a shared website now sends visitors elsewhere (often the diocese's home page):
+        # reading on would report the diocese's details as the parish's.
+        out.status = "failed"
+        out.reason = f"the parish's page on this shared website is gone (it now leads to {home_final})"
+        return out
+    out.scope = scope
+    outside: list[tuple[float, str]] = []       # shared website: links from the start page to the rest of the site
     out.pages.append(home_doc)
     if home_doc.via_browser:
         out.used_browser_pages += 1
@@ -229,14 +322,20 @@ def crawl_site(start_url: str, cfg: Config, fetcher: Fetcher, stop: threading.Ev
     query_paths: dict[str, int] = {}
     pdfs: set[str] = set()
 
-    def consider(link: str, anchor: str, depth: int, bonus: float = 0.0) -> None:
+    def consider(link: str, anchor: str, depth: int, bonus: float = 0.0, from_start: bool = False) -> None:
         n = normalize_url(link)
         if not n or n in visited:
             return
         if is_pdf(n):
-            pdfs.add(n)
+            if not scope or in_scope(n, host, scope):
+                pdfs.add(n)
             return
         if not same_site(n, allowed) or is_non_html(n) or is_excluded(n, cfg.exclude_regexes):
+            return
+        if scope and not in_scope(n, host, scope):
+            if from_start:               # the rest of a shared website: only a few pages the parish page links to
+                named = sum(2.0 for w in hint_words if w in norm_text(anchor + " " + urlsplit(n).path))
+                outside.append((score_url(n, anchor, cfg.priority_keywords, depth) + named, n))
             return
         sp = urlsplit(n)
         if sp.query:
@@ -251,15 +350,27 @@ def crawl_site(start_url: str, cfg: Config, fetcher: Fetcher, stop: threading.Ev
         heapq.heappush(heap, (-score, next(counter), n, depth))
 
     # ---- 2. sitemap + links on the home page ----
-    sitemap_urls = [] if stop.is_set() else collect_sitemap_urls(home_final, fetcher, stop)
+    lastmods: dict[str, float] = {}
+    sitemap_urls = [] if stop.is_set() or scope == "/" else collect_sitemap_urls(home_final, fetcher, stop, lastmods=lastmods)
+    if scope:
+        sitemap_urls = [u for u in sitemap_urls if in_scope(u, host, scope)]
     out.sitemap_used = len(sitemap_urls) > 0
+    home_doc.modified = home_doc.modified or lastmods.get(normalize_url(home_final), 0.0)
     for u in sitemap_urls:
         consider(u, "", 1)
     for href, text in home_doc.links:
-        consider(href, text, 1, bonus=2.0)       # being in the home page navigation is a good sign
+        consider(href, text, 1, bonus=2.0, from_start=True)   # being in the home page navigation is a good sign
     for href, _ in home_doc.links:
-        if is_pdf(href):
+        if is_pdf(href) and (not scope or in_scope(normalize_url(href), host, scope)):
             pdfs.add(normalize_url(href))
+    taken = set()
+    for score, n in sorted(outside, key=lambda x: -x[0]):
+        if len(taken) >= 3:
+            break
+        if n not in taken and n not in visited:
+            taken.add(n)
+            queued[n] = score
+            heapq.heappush(heap, (-score, next(counter), n, cfg.max_crawl_depth))   # read, but never followed further
     follow_links = len(sitemap_urls) < 8        # a thin or missing sitemap: keep following links
     out.candidates_found = len(queued)
 
@@ -298,13 +409,14 @@ def crawl_site(start_url: str, cfg: Config, fetcher: Fetcher, stop: threading.Ev
             visited.add(final_n)
         if len(doc.text) < 30:
             continue
+        doc.modified = doc.modified or lastmods.get(url, 0.0)
         out.pages.append(doc)
         if doc.via_browser:
             out.used_browser_pages += 1
         for href, _ in doc.links:
             if is_pdf(href):
                 pdfs.add(normalize_url(href))
-        if follow_links and depth < cfg.max_crawl_depth:
+        if follow_links and depth < cfg.max_crawl_depth and (not scope or in_scope(url, host, scope)):
             for href, text in doc.links:
                 consider(href, text, depth + 1)
     out.cap_hit = len(out.pages) >= max_pages and any(e[2] not in visited for e in heap)

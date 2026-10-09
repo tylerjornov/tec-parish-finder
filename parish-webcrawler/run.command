@@ -1,7 +1,7 @@
 #!/bin/bash
 # =====================================================================================================
 #  run.command  -  double-click me. Choose the parish JSON file; the results open in Excel when done.
-#  (First run sets everything up. From Terminal you can also add:  --only NAME   or   --fresh)
+#  (First run sets everything up. From Terminal you can also add:  --only NAME  --ids-file FILE  --fields a,b  --fresh)
 # =====================================================================================================
 
 cd "$(dirname "$0")" || { echo "Could not open the project folder."; read -n 1 -s -r -p "Press any key to close."; exit 1; }

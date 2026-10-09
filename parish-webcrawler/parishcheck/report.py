@@ -1,15 +1,19 @@
-"""Comparing each record to what was found, and writing the results workbook.
+"""Comparing each record to what was found, and writing the results.
 
-compare_record()   -> one row per field with a status (CORRECT, DISCREPANCY, ...)
-write_excel()      -> output/Parish Check Results.xlsx  (the only output file)
+compare_record()        -> one row per field with a status (CORRECT, DISCREPANCY, ...)
+write_excel()           -> output/Parish Check Results.xlsx  (for people)
+write_results_files()   -> output/results.json, results.csv, suggested_patch.json  (for scripts)
 """
 
 from __future__ import annotations
 
+import csv
+import json
 import logging
 from collections import Counter
 from dataclasses import asdict, dataclass
 from pathlib import Path
+from typing import Optional
 
 from openpyxl import Workbook
 from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
@@ -20,12 +24,15 @@ from . import models as M
 from .comparators import StatusResult, compare_typed, decide_status
 from .config import Config, FieldSpec
 from .merge import RecordView
-from .normalizers import is_missing
+from .normalizers import is_missing, norm_text
 
 log = logging.getLogger("parishcheck")
 
-REPORT_COLUMNS = ["id", "name", "field", "status", "json_value", "site_value", "detail", "reason", "method",
+REPORT_COLUMNS = ["id", "name", "city", "field", "status", "json_value", "site_value", "detail", "reason", "method",
                   "source_type", "source_url", "confidence", "evidence"]
+# Keys of each object in results.json / columns of results.csv.
+RESULT_KEYS = ["id", "name", "city", "field", "status", "label", "json_value", "site_value", "notes", "source_url",
+               "method", "confidence", "evidence"]
 
 
 @dataclass
@@ -43,6 +50,8 @@ class Row:
     source_url: str = ""
     confidence: str = ""
     evidence: str = ""
+    city: str = ""
+    verified: bool = False         # rule-found, or a model answer whose cited lines hold every fact in it
 
     def as_list(self) -> list:
         d = asdict(self)
@@ -58,42 +67,65 @@ def _fmt(v) -> str:
 
 
 def _ftype(spec: FieldSpec, cfg: Config) -> str:
-    if spec.address_part == "state":
-        return "state"
+    if spec.address_part in ("city", "state"):
+        return spec.address_part
+    if spec.key == cfg.name_key and spec.type == "text":
+        return "name"
     d = (cfg.derived_fields or {}).get(spec.key) or {}
     if "from" in d:
         return "contactlist"
     return spec.type
 
 
+def record_city(cfg: Config, record: dict) -> str:
+    """The city the JSON gives for this record (it tells apart parishes with the same name)."""
+    key = next((f.key for f in cfg.fields if f.address_part == "city"), "city")
+    v = record.get(key)
+    return "" if cfg.is_missing(v) else _fmt(v)
+
+
 def compare_record(record: dict, cfg: Config, view: RecordView, rid: str, name: str) -> list[Row]:
-    """One row per field. A problem inside one field becomes an UNCLEAR row; it never stops the run."""
+    """One row per checked field. A problem inside one field becomes an UNCLEAR row; it never stops the run.
+    Fields that are never checked (uncheckable_fields, or left out with --fields) get no row."""
     rows: list[Row] = []
+    city = record_city(cfg, record)
     for spec in cfg.fields:
+        if not spec.checkable or not cfg.reported(spec):
+            continue
         try:
-            rows.append(_compare_field(record, cfg, view, rid, name, spec))
+            row = (_compare_lookup(record, cfg, rid, name, spec) if spec.lookup
+                   else _compare_field(record, cfg, view, rid, name, spec))
         except Exception as exc:                # pragma: no cover - safety net
             log.exception("Could not compare %s for %s", spec.key, rid)
-            rows.append(Row(rid, name, spec.key, M.UNCLEAR, _fmt(record.get(spec.key)), "", "",
-                            f"internal problem while comparing this field ({type(exc).__name__}: {str(exc)[:100]}); see run.log"))
-    # keys in uncheckable_fields that are not in the fields table still get a row
-    listed = {s.key for s in cfg.fields}
-    for key in cfg.uncheckable_fields:
-        if key not in listed and key in record:
-            rows.append(Row(rid, name, key, M.NOT_CHECKABLE, _fmt(record.get(key)), "", "listed under uncheckable_fields; passed through"))
+            row = Row(rid, name, spec.key, M.UNCLEAR, _fmt(record.get(spec.key)), "", "",
+                      f"internal problem while comparing this field ({type(exc).__name__}: {str(exc)[:100]}); see run.log")
+        if row is not None:
+            row.city = city
+            rows.append(row)
     return rows
+
+
+def _built_from_json(record: dict, cfg: Config, spec: FieldSpec) -> list[str]:
+    """other_contact-style fields: the value the JSON's own parts make ("(864) 235-5884 | office@church.org")."""
+    how = (cfg.derived_fields or {}).get(spec.key) or {}
+    parts = [_fmt(record.get(k)) for k in how.get("from", []) if not cfg.is_missing(record.get(k))]
+    return [how.get("separator", " | ").join(parts)] if parts else []
 
 
 def _compare_field(record: dict, cfg: Config, view: RecordView, rid: str, name: str, spec: FieldSpec) -> Row:
     key = spec.key
     json_value = record.get(key)
-    if not spec.checkable:
-        return Row(rid, name, key, M.NOT_CHECKABLE, _fmt(json_value), "", "listed under uncheckable_fields; passed through")
     sv = view.values.get(key)
     ftype = _ftype(spec, cfg)
     sep = ((cfg.derived_fields or {}).get(key) or {}).get("separator", ";")
+    if ftype == "contactlist":
+        # Built from church_phone and church_email, so compare it with what the JSON's own parts make.
+        built = _built_from_json(record, cfg, spec)
+        sv = M.SiteValue(values=built, best=built[0] if built else "", method="rule (built from your data)",
+                         evidence="built from " + " and ".join(((cfg.derived_fields or {}).get(key) or {}).get("from", [])),
+                         verified=True) if built else None
     unclear = ""
-    if view.all_failed_reason:
+    if view.all_failed_reason and ftype != "contactlist":
         unclear = view.all_failed_reason
     elif (sv is None or not sv.values) and spec.type == "url" and not spec.url_kind:
         unclear = "this kind of web-address field is not collected automatically"
@@ -105,6 +137,7 @@ def _compare_field(record: dict, cfg: Config, view: RecordView, rid: str, name: 
         site_confidence=(sv.confidence if sv else "high"), unclear_reason=unclear,
         json_only_note="; ".join(n for n in (view.limited_note, view.cap_note) if n), default_day=spec.default_day, url_kind=spec.url_kind,
         time_format=cfg.time_format, list_sep=sep,
+        json_confirmed_none=cfg.is_confirmed_none(spec, json_value), site_is_default=bool(sv and sv.is_default),
     )
     status, reason, detail_bits = st.status, st.reason, []
     if st.detail:
@@ -137,12 +170,39 @@ def _compare_field(record: dict, cfg: Config, view: RecordView, rid: str, name: 
     site_display = sv.best if sv else ""
     return Row(
         rid, name, key, status, _fmt(json_value), site_display,
-        "; ".join(b for b in detail_bits if b), reason if status == M.UNCLEAR else "",
+        "; ".join(dict.fromkeys(b for b in detail_bits if b)), reason if status == M.UNCLEAR else "",
         (sv.method if sv else ""),
         _source_label(sv.source_type if sv and sv.source_type else view.primary_type),
         (sv.source_url if sv and sv.source_url else view.primary_url),
         (sv.confidence if sv else ""), (sv.evidence if sv else ""),
+        verified=bool(sv and sv.verified),
     )
+
+
+def _lookup_key(text: str) -> str:
+    """'The Episcopal Diocese of Upper South Carolina' -> 'upper south carolina'."""
+    return " ".join(w for w in norm_text(text).split() if w not in {"the", "episcopal", "diocese", "of", "church", "in"})
+
+
+def _compare_lookup(record: dict, cfg: Config, rid: str, name: str, spec: FieldSpec) -> Optional[Row]:
+    """diocesan_bishop: checked against diocese_lookup in config.yaml (diocese -> current bishop), not crawled."""
+    table = cfg.diocese_lookup
+    if not table:
+        return None
+    json_value = record.get(spec.key)
+    diocese = record.get(spec.lookup)
+    if cfg.is_missing(diocese):
+        return Row(rid, name, spec.key, M.UNCLEAR, _fmt(json_value), "",
+                   reason=f"the record has no {spec.lookup}, so its bishop cannot be looked up")
+    bishop = next((b for d, b in table.items() if _lookup_key(d) == _lookup_key(str(diocese))), None)
+    if bishop is None:
+        return Row(rid, name, spec.key, M.UNCLEAR, _fmt(json_value), "",
+                   reason=f"the {spec.lookup} '{diocese}' is not in diocese_lookup in config.yaml")
+    st = decide_status(spec.type, json_value, [bishop], missing_markers=cfg.missing_markers,
+                       json_confirmed_none=cfg.is_confirmed_none(spec, json_value))
+    detail = "; ".join(x for x in (st.detail, f"current bishop of {diocese} according to diocese_lookup in config.yaml") if x)
+    return Row(rid, name, spec.key, st.status, _fmt(json_value), bishop, detail, st.reason,
+               "rule (diocese lookup)", "config.yaml", "", "high", f"diocese_lookup: {diocese} -> {bishop}", verified=True)
 
 
 def _source_label(kind: str) -> str:
@@ -168,7 +228,7 @@ def summarize_record(rid: str, name: str, view: RecordView, rows: list[Row]) -> 
     return {
         "id": rid, "name": name, "sources_used": " | ".join(view.sources_used) or "(none)",
         "pages_crawled": view.pages_crawled, "cap_hit": view.cap_hit, "counts": dict(counts),
-        "notes": " ; ".join(notes)[:900],
+        "notes": " ; ".join(notes)[:900], "site_problem": view.site_problem,
     }
 
 
@@ -202,6 +262,10 @@ def _label(field_key: str) -> str:
     return field_key.replace("_", " ").strip().capitalize()
 
 
+def status_label(status: str) -> str:
+    return STATUS_STYLE.get(status, (status,))[0]
+
+
 def _clean(v) -> str:
     v = ILLEGAL_CHARACTERS_RE.sub("", _fmt(v))
     return v[:32000]
@@ -229,15 +293,15 @@ def _link(ws, row: int, col: int, url: str, fill=None):
     return c
 
 
-def _sheet(wb, title: str, headers: list[str], widths: list[int]):
+def _sheet(wb, title: str, headers: list[str], widths: list[int], header_row: int = 1):
     ws = wb.create_sheet(title)
     for i, (h, w) in enumerate(zip(headers, widths), start=1):
-        c = ws.cell(row=1, column=i, value=h)
+        c = ws.cell(row=header_row, column=i, value=h)
         c.fill, c.font = _HEADER_FILL, _HEADER_FONT
         c.alignment = Alignment(vertical="center")
         ws.column_dimensions[get_column_letter(i)].width = w
-    ws.freeze_panes = "B2"
-    ws.row_dimensions[1].height = 22
+    ws.freeze_panes = f"B{header_row + 1}"
+    ws.row_dimensions[header_row].height = 22
     return ws
 
 
@@ -254,13 +318,14 @@ def _check_rows(ws, rows: list[Row], extra) -> None:
         first = (r.id != prev)
         prev = r.id
         _set(ws, n, 1, r.name or r.id, font=_BOLD if first else _GREY)
-        _set(ws, n, 2, _label(r.field))
-        _set(ws, n, 3, label, fill=fill, font=_BOLD)
-        _set(ws, n, 4, r.json_value)
-        _set(ws, n, 5, r.site_value)
-        _set(ws, n, 6, _notes(r))
-        _link(ws, n, 7, r.source_url)
-        for i, v in enumerate(extra(r), start=8):
+        _set(ws, n, 2, r.id, font=None if first else _GREY)
+        _set(ws, n, 3, _label(r.field))
+        _set(ws, n, 4, label, fill=fill, font=_BOLD)
+        _set(ws, n, 5, r.json_value)
+        _set(ws, n, 6, r.site_value)
+        _set(ws, n, 7, _notes(r))
+        _link(ws, n, 8, r.source_url)
+        for i, v in enumerate(extra(r), start=9):
             _set(ws, n, i, v)
         if first and n > 2:
             for col in range(1, ws.max_column + 1):
@@ -274,50 +339,74 @@ def _by_parish(rows: list[Row]) -> list[Row]:
     return sorted(rows, key=lambda r: ((r.name or "").casefold(), str(r.id), order.get(r.status, 99)))
 
 
-def write_excel(cfg: Config, rows: list[Row], summary: list[dict]) -> Path:
+def meta_line(meta: Optional[dict]) -> str:
+    if not meta:
+        return ""
+    bits = [f"Run {meta.get('run_at', '')}", f"file {meta.get('input_file', '')}", f"model {meta.get('model', '')}"]
+    if meta.get("fields"):
+        bits.append("fields " + ", ".join(meta["fields"]))
+    if meta.get("ids_file"):
+        bits.append(f"ids from {meta['ids_file']}")
+    if meta.get("only"):
+        bits.append(f"only '{meta['only']}'")
+    return " · ".join(b for b in bits if b)
+
+
+def write_excel(cfg: Config, rows: list[Row], summary: list[dict], meta: Optional[dict] = None) -> Path:
     """Write output/Parish Check Results.xlsx and return its path."""
     wb = Workbook()
     wb.remove(wb.active)
-    cols = ["Parish", "Field", "Problem", "Your data", "Website says", "Notes", "Source page"]
-    widths = [30, 18, 22, 40, 40, 45, 35]
+    cols = ["Parish", "Id", "Field", "Problem", "Your data", "Website says", "Notes", "Source page"]
+    widths = [30, 22, 18, 22, 40, 40, 45, 35]
 
     review = _by_parish([r for r in rows if r.status in M.REVIEW_STATUSES])
-    ws = _sheet(wb, "To review", cols, widths)
-    _check_rows(ws, review, lambda r: [])
+    ws = _sheet(wb, "To review", cols + ["Confidence", "Evidence (words on the page)"], widths + [12, 60])
+    _check_rows(ws, review, lambda r: [r.confidence, r.evidence])
 
-    ws = _sheet(wb, "Summary", ["Parish", "Website", "To review", "Matches", "Couldn't tell", "Pages read", "Notes"],
-                [34, 35, 11, 10, 13, 11, 70])
+    head = 2 if meta else 1
+    ws = _sheet(wb, "Summary", ["Parish", "Id", "Website", "Site problem", "To review", "Matches", "Couldn't tell",
+                                "Pages read", "Notes"], [34, 22, 35, 30, 11, 10, 13, 11, 70], header_row=head)
+    if meta:
+        _set(ws, 1, 1, meta_line(meta), font=_BOLD)
+        ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=9)
     review_fill = PatternFill("solid", fgColor=STATUS_STYLE[M.DISCREPANCY][1])
     ok_fill = PatternFill("solid", fgColor=STATUS_STYLE[M.CORRECT][1])
-    for n, s in enumerate(sorted(summary, key=lambda s: (s["name"] or "").casefold()), start=2):
+    problem_fill = PatternFill("solid", fgColor=STATUS_STYLE[M.UNCLEAR][1])
+    ordered = sorted(summary, key=lambda s: ((s["name"] or "").casefold(), str(s["id"])))
+    for n, s in enumerate(ordered, start=head + 1):
         c = s["counts"]
         to_review = sum(c.get(st, 0) for st in M.REVIEW_STATUSES)
         notes = s["notes"]
         if s.get("pdfs"):
             notes = (notes + " ; " if notes else "") + "PDFs found (not read): " + ", ".join(s["pdfs"][:10])
         _set(ws, n, 1, s["name"] or s["id"], font=_BOLD)
-        _link(ws, n, 2, s.get("website", ""))
-        ws.cell(row=n, column=3, value=to_review).fill = review_fill if to_review else ok_fill
-        ws.cell(row=n, column=4, value=c.get(M.CORRECT, 0))
-        ws.cell(row=n, column=5, value=c.get(M.UNCLEAR, 0))
-        ws.cell(row=n, column=6, value=s["pages_crawled"])
-        _set(ws, n, 7, notes)
+        _set(ws, n, 2, s["id"])
+        _link(ws, n, 3, s.get("website", ""))
+        _set(ws, n, 4, s.get("site_problem", ""), fill=problem_fill if s.get("site_problem") else None)
+        ws.cell(row=n, column=5, value=to_review).fill = review_fill if to_review else ok_fill
+        ws.cell(row=n, column=6, value=c.get(M.CORRECT, 0))
+        ws.cell(row=n, column=7, value=c.get(M.UNCLEAR, 0))
+        ws.cell(row=n, column=8, value=s["pages_crawled"])
+        _set(ws, n, 9, notes)
     if summary:
-        ws.auto_filter.ref = f"A1:G{len(summary) + 1}"
+        ws.auto_filter.ref = f"A{head}:I{len(summary) + head}"
 
-    ws = _sheet(wb, "All checks", cols[:2] + ["Result"] + cols[3:] + ["Found by", "Confidence", "Evidence (words on the page)"],
+    ws = _sheet(wb, "All checks", cols[:3] + ["Result"] + cols[4:] + ["Found by", "Confidence", "Evidence (words on the page)"],
                 widths + [10, 12, 60])
     _check_rows(ws, _by_parish(rows), lambda r: [r.method, r.confidence, r.evidence])
 
     ws = _sheet(wb, "Key", ["Label", "What it means"], [26, 90])
     ws.freeze_panes = "A2"
-    for n, (label, colour, meaning) in enumerate(STATUS_STYLE.values(), start=2):
+    shown = [v for k, v in STATUS_STYLE.items() if k != M.NOT_CHECKABLE]
+    for n, (label, colour, meaning) in enumerate(shown, start=2):
         _set(ws, n, 1, label, font=_BOLD, fill=PatternFill("solid", fgColor=colour))
         _set(ws, n, 2, meaning)
-    n = len(STATUS_STYLE) + 3
-    for line in ("'To review' lists only the rows that need a look. 'All checks' has every field of every parish.",
+    n = len(shown) + 3
+    for line in ("'To review' lists only the rows that need a look. 'All checks' has every checked field of every parish.",
                  "Your JSON file was not changed. Edit it yourself using 'Website says' and the source page link.",
-                 "The AI makes mistakes: treat this as a to-do list, and check the source page before changing anything."):
+                 "The AI makes mistakes: treat this as a to-do list, and check the source page before changing anything.",
+                 "The same results are in results.json and results.csv (for scripts). suggested_patch.json holds only "
+                 "the most certain changes."):
         _set(ws, n, 1, line)
         ws.merge_cells(start_row=n, start_column=1, end_row=n, end_column=2)
         n += 1
@@ -330,3 +419,45 @@ def write_excel(cfg: Config, rows: list[Row], summary: list[dict]) -> Path:
         path = cfg.output_dir / f"{RESULTS_NAME} (new).xlsx"
         wb.save(path)
     return path
+
+
+# --------------------------------------------------------------------------------------
+# Files for scripts: results.json, results.csv, suggested_patch.json
+# --------------------------------------------------------------------------------------
+def result_dict(r: Row) -> dict:
+    return {"id": r.id, "name": r.name, "city": r.city, "field": r.field, "status": r.status,
+            "label": status_label(r.status), "json_value": r.json_value, "site_value": r.site_value,
+            "notes": _notes(r), "source_url": r.source_url, "method": r.method, "confidence": r.confidence,
+            "evidence": r.evidence}
+
+
+def is_patch_candidate(r: Row) -> bool:
+    """High-signal changes only: a value missing from the data or different on the site, found with high
+    confidence by a rule or by the model with every fact in its cited lines."""
+    return (r.status in (M.SITE_ONLY, M.DISCREPANCY) and r.confidence == "high"
+            and (r.method.startswith("rule") or r.verified))
+
+
+def _in_field_order(cfg: Config, rows: list[Row]) -> list[Row]:
+    pos = {f.key: i for i, f in enumerate(cfg.fields)}
+    return sorted(rows, key=lambda r: ((r.name or "").casefold(), str(r.id), pos.get(r.field, 999)))
+
+
+def write_results_files(cfg: Config, rows: list[Row], meta: dict) -> list[Path]:
+    """results.json ({"meta": ..., "results": [one object per field check]}), the same rows as results.csv, and
+    suggested_patch.json ([{id, field, old, new, source_url, evidence}]). UTF-8, nothing cut short."""
+    cfg.output_dir.mkdir(parents=True, exist_ok=True)
+    ordered = _in_field_order(cfg, [r for r in rows if r.status != M.NOT_CHECKABLE])
+    results = [result_dict(r) for r in ordered]
+    meta = dict(meta, counts=dict(Counter(r["status"] for r in results)))
+
+    paths = [cfg.output_dir / "results.json", cfg.output_dir / "results.csv", cfg.output_dir / "suggested_patch.json"]
+    paths[0].write_text(json.dumps({"meta": meta, "results": results}, ensure_ascii=False, indent=2), encoding="utf-8")
+    with open(paths[1], "w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=RESULT_KEYS)
+        w.writeheader()
+        w.writerows(results)
+    patch = [{"id": r.id, "field": r.field, "old": r.json_value, "new": r.site_value, "source_url": r.source_url,
+              "evidence": r.evidence} for r in ordered if is_patch_candidate(r)]
+    paths[2].write_text(json.dumps(patch, ensure_ascii=False, indent=2), encoding="utf-8")
+    return paths

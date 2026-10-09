@@ -47,6 +47,9 @@ DEFAULTS: dict[str, Any] = {
     "cache_max_age_days": 14,
     "user_agent": "Mozilla/5.0 (compatible; ParishInfoVerifier/1.0; personal low-volume parish data check; respects robots.txt)",
     "missing_markers": list(DEFAULT_MISSING_MARKERS),
+    "confirmed_none_markers": [],
+    "shared_host_domains": [],
+    "diocese_lookup": {},
     "exclude_patterns": [],
     "priority_keywords": [],
     "skip_domains": ["instagram.com", "twitter.com", "x.com", "linkedin.com", "tiktok.com", "youtube.com",
@@ -87,6 +90,10 @@ class FieldSpec:
     address_part: Optional[str] = None  # 'city' or 'state': copy that part of the address instead of asking the model
     default_day: Optional[str] = None   # services: day to assume when none is written ('sun' for sunday_services)
     url_kind: Optional[str] = None      # type url: 'website' or 'livestream'
+    confirmed_none: list = field(default_factory=list)   # JSON values meaning "there is none" for this field
+    lookup: Optional[str] = None        # checked against a table in config.yaml by this JSON key (no crawling)
+    default_value: str = ""             # what to assume when none of `default_unless` is on the site ("English")
+    default_unless: list = field(default_factory=list)
     derived: bool = False
     checkable: bool = True
 
@@ -130,6 +137,10 @@ class Config:
     style_examples: dict = field(default_factory=dict)
     facebook_enabled: bool = True
     input_json: Optional[Path] = None     # set from --input (the file chosen in run.command)
+    confirmed_none_markers: list = field(default_factory=list)
+    shared_host_domains: list = field(default_factory=list)
+    diocese_lookup: dict = field(default_factory=dict)
+    only_fields: Optional[set] = None     # set from --fields: report only these fields
 
     # ---- convenience --------------------------------------------------------------------
     def get_field(self, key: str) -> Optional[FieldSpec]:
@@ -141,9 +152,32 @@ class Config:
     def fields_by_group(self) -> dict[str, list[FieldSpec]]:
         out: dict[str, list[FieldSpec]] = {}
         for f in self.fields:
-            if f.checkable and not f.derived:
+            if f.checkable and not f.derived and not f.lookup:
                 out.setdefault(f.group, []).append(f)
         return out
+
+    def reported(self, spec: FieldSpec) -> bool:
+        """False for fields left out with --fields."""
+        return self.only_fields is None or spec.key in self.only_fields
+
+    def needed(self, spec: FieldSpec) -> bool:
+        """Fields to look for on the websites: the reported ones, plus what a reported field is built from."""
+        if self.only_fields is None:
+            return True
+        if spec.key in self.only_fields:
+            return True
+        for key in self.only_fields:
+            how = self.derived_fields.get(key) or {}
+            if spec.key in (how.get("from") or []) or spec.key in (how.get("from_services") or []):
+                return True
+        return False
+
+    def is_confirmed_none(self, spec: FieldSpec, value) -> bool:
+        """True when the JSON value says the thing does not exist ("None - No Rector"; "N/A" for weekday services)."""
+        if not isinstance(value, str) or not value.strip():
+            return False
+        v = value.strip().casefold()
+        return any(v == str(m).strip().casefold() for m in list(self.confirmed_none_markers) + list(spec.confirmed_none))
 
     @property
     def work_dir(self) -> Path:
@@ -235,6 +269,10 @@ def load_config(path: str | Path) -> Config:
             address_part=row.get("address_part"),
             default_day=row.get("default_day"),
             url_kind=row.get("url_kind"),
+            confirmed_none=[str(m) for m in (row.get("confirmed_none") or [])],
+            lookup=row.get("lookup"),
+            default_value=collapse_ws(str(row.get("default_value") or "")),
+            default_unless=[str(k).lower() for k in (row.get("default_unless") or [])],
             derived=key in (raw.get("derived_fields") or {}),
             checkable=key not in uncheck,
         )
@@ -272,6 +310,10 @@ def load_config(path: str | Path) -> Config:
     raw["delay_seconds"] = float(raw["delay_seconds"])
     raw["fetch_concurrency"] = max(1, raw["fetch_concurrency"])
     raw["max_pages_per_site"] = max(1, raw["max_pages_per_site"])
+
+    lookup = raw.get("diocese_lookup") or {}
+    if not isinstance(lookup, dict):
+        raise ConfigError("In config.yaml, diocese_lookup must be a table of  diocese name: bishop  lines.")
 
     # Facebook can be switched off from config (mode: skip).
     fb_mode = str((special.get("facebook.com") or {}).get("mode", "best_effort")).lower()
@@ -312,9 +354,24 @@ def load_config(path: str | Path) -> Config:
         derived_fields=raw.get("derived_fields") or {},
         groups=raw.get("groups") or {},
         facebook_enabled=(fb_mode != "skip"),
+        confirmed_none_markers=[str(m) for m in (raw.get("confirmed_none_markers") or [])],
+        shared_host_domains=[str(d).lower().strip() for d in (raw.get("shared_host_domains") or [])],
+        diocese_lookup={str(k): str(v) for k, v in lookup.items() if k and v},
     )
     cfg.style_examples = load_style_examples(_resolve(base_dir, raw["style_example_file"]))
     return cfg
+
+
+def limit_fields(cfg: Config, keys: str) -> None:
+    """--fields rector_name,sunday_services: check only these fields."""
+    wanted = [k.strip() for k in re.split(r"[,\s]+", keys or "") if k.strip()]
+    known = [f.key for f in cfg.fields if f.checkable]
+    unknown = [k for k in wanted if k not in known]
+    if unknown:
+        raise ConfigError(f"--fields: I don't know {', '.join(unknown)}. Fields you can check: {', '.join(known)}.")
+    if not wanted:
+        raise ConfigError("--fields needs at least one field name, for example  --fields rector_name,sunday_services")
+    cfg.only_fields = set(wanted)
 
 
 def _resolve(base: Path, p: str) -> Path:

@@ -17,7 +17,7 @@ from .times import split_top_level
 # --------------------------------------------------------------------------------------
 # Missing values
 # --------------------------------------------------------------------------------------
-DEFAULT_MISSING_MARKERS = ["", "N/A - Data Not Available"]
+DEFAULT_MISSING_MARKERS = ["", "N/A - Data Not Available", "N/A"]
 
 
 def is_missing(value, markers: Iterable[str] = DEFAULT_MISSING_MARKERS) -> bool:
@@ -172,6 +172,21 @@ def host_of(url: str) -> str:
     return host[4:] if host.startswith("www.") else host
 
 
+# Two-part endings under which each name is a separate owner ("x.co.uk" belongs to someone else than "y.co.uk").
+_TWO_PART_SUFFIXES = {"co.uk", "org.uk", "ac.uk", "gov.uk", "com.au", "org.au", "net.au", "co.nz", "org.nz",
+                      "co.za", "org.za", "com.br", "co.jp", "or.jp", "co.in", "org.in", "k12.sc.us"}
+
+
+def registered_domain(url_or_host: str) -> str:
+    """The part of a host that someone registers: 'live.stjohns.org' -> 'stjohns.org'."""
+    host = host_of(url_or_host)
+    parts = host.split(".")
+    if len(parts) <= 2:
+        return host
+    keep = 3 if ".".join(parts[-2:]) in _TWO_PART_SUFFIXES else 2
+    return ".".join(parts[-keep:])
+
+
 def ensure_scheme(url: str) -> str:
     url = (url or "").strip()
     if not url:
@@ -256,6 +271,26 @@ def livestream_key(url: str) -> str:
     return (host + path).lower()
 
 
+def is_single_video(url: str) -> bool:
+    """True for a link to ONE recording (youtube.com/watch?v=..., youtu.be/..., youtube.com/live/<id>,
+    a Facebook /videos/<id>), which stops working as a livestream link after that service."""
+    n = normalize_url(url)
+    if not n:
+        return False
+    p = urlsplit(n)
+    host = host_of(n)
+    path = p.path.rstrip("/").lower()
+    if host == "youtu.be":
+        return bool(path)
+    if host in ("youtube.com", "m.youtube.com"):
+        return path == "/watch" or bool(re.match(r"^/(?:live|shorts|embed)/[\w-]{6,}$", path))
+    if host in ("vimeo.com", "player.vimeo.com"):
+        return bool(re.search(r"/\d{5,}$", path))
+    if host.endswith("facebook.com"):
+        return bool(re.search(r"/videos/(?:[^/]+/)?\d{6,}$", path)) or path == "/watch" and "v=" in p.query
+    return host == "fb.watch" and bool(path)
+
+
 # --------------------------------------------------------------------------------------
 # Street addresses
 # --------------------------------------------------------------------------------------
@@ -287,11 +322,32 @@ _DIRECTION = {
     "se": "southeast", "sw": "southwest",
 }
 _DIRECTION_WORDS = set(_DIRECTION.values())
-_ORDINAL_WORDS = {
-    "first": "1st", "second": "2nd", "third": "3rd", "fourth": "4th", "fifth": "5th", "sixth": "6th",
-    "seventh": "7th", "eighth": "8th", "ninth": "9th", "tenth": "10th",
-}
 _UNIT_RE = re.compile(r"\b(?:suite|ste|unit|apt|apartment|room|rm|floor|fl|bldg|building)\b.*$|#.*$", re.I)
+
+# Written ordinals in street names: "Twelfth Street" = "12th St", "Twenty-First Ave" = "21st Ave".
+_ORD_UNITS = {"first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5, "sixth": 6, "seventh": 7, "eighth": 8,
+              "ninth": 9}
+_ORD_SMALL = dict(_ORD_UNITS, tenth=10, eleventh=11, twelfth=12, thirteenth=13, fourteenth=14, fifteenth=15,
+                  sixteenth=16, seventeenth=17, eighteenth=18, nineteenth=19, twentieth=20, thirtieth=30,
+                  fortieth=40, fiftieth=50, sixtieth=60, seventieth=70, eightieth=80, ninetieth=90)
+_TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90}
+_WRITTEN_ORDINAL_RE = re.compile(
+    r"\b(?:(?P<tens>" + "|".join(_TENS) + r")[\s-]+(?P<unit>" + "|".join(_ORD_UNITS) + r")|(?P<one>"
+    + "|".join(sorted(_ORD_SMALL, key=len, reverse=True)) + r"))\b", re.I)
+
+
+def _ordinal(n: int) -> str:
+    suffix = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suffix}"
+
+
+def written_ordinals_to_numbers(text: str) -> str:
+    """'Twelfth Street' -> '12th Street'; 'Twenty-First Ave' -> '21st Ave'."""
+    def one(m: re.Match) -> str:
+        if m.group("one"):
+            return _ordinal(_ORD_SMALL[m.group("one").lower()])
+        return _ordinal(_TENS[m.group("tens").lower()] + _ORD_UNITS[m.group("unit").lower()])
+    return _WRITTEN_ORDINAL_RE.sub(one, text or "")
 
 
 @dataclass
@@ -322,7 +378,7 @@ def norm_state(s: str) -> str:
 
 
 def _normalize_street_words(street: str) -> list[str]:
-    street = _UNIT_RE.sub("", street)
+    street = written_ordinals_to_numbers(_UNIT_RE.sub("", street))
     words = [w for w in norm_text(street).split() if w]
     out: list[str] = []
     for i, w in enumerate(words):
@@ -337,11 +393,32 @@ def _normalize_street_words(street: str) -> list[str]:
             out.append("mount")
         elif w == "ft":
             out.append("fort")
-        elif w in _ORDINAL_WORDS:
-            out.append(_ORDINAL_WORDS[w])
         else:
             out.append(w)
     return out
+
+
+_CITY_WORDS = {"st": "saint", "ste": "sainte", "mt": "mount", "ft": "fort", "pt": "point"}
+
+
+def norm_city(city: str) -> str:
+    """'St. Stephen' -> 'saint stephen', 'Mt Pleasant' -> 'mount pleasant'."""
+    return " ".join(_CITY_WORDS.get(w, w) for w in norm_text(city).split())
+
+
+def cities_match(a: str, b: str) -> bool:
+    """Same city, allowing a shorter form of the name: 'Hilton Head' = 'Hilton Head Island'."""
+    ca, cb = norm_city(a), norm_city(b)
+    if not ca or not cb:
+        return False
+    if ca == cb:
+        return True
+    wa, wb = ca.split(), cb.split()
+    short, long_ = (wa, wb) if len(wa) <= len(wb) else (wb, wa)
+    if long_[:len(short)] == short:
+        return True
+    from rapidfuzz import fuzz
+    return fuzz.ratio(ca, cb) >= 88
 
 
 _STREET_END_RE = re.compile(
@@ -406,10 +483,8 @@ def addresses_match(a: str, b: str) -> bool:
             return False
         if A.state and B.state and A.state != B.state:
             return False
-        if A.city and B.city and A.city != B.city:
-            from rapidfuzz import fuzz
-            if fuzz.ratio(A.city, B.city) < 88:
-                return False
+        if A.city and B.city and not cities_match(A.city, B.city):
+            return False
         return True
     # No street number on one side (or a P.O. box): fall back to fuzzy text
     from rapidfuzz import fuzz
@@ -529,22 +604,24 @@ def _surnames_equal(a: str, b: str) -> bool:
 
 
 def _given_conflict(a: Person, b: Person) -> bool:
-    """True when both give a full first name and they clearly differ (Jane vs John)."""
+    """True when both sides give first names or initials and none of them fit together (Jane vs John,
+    J. vs M.). An initial fits a name with the same first letter, so "J. Gary" and "Gary" are the same person."""
     from rapidfuzz import fuzz
-    fa = [t for t in a.given if len(t) > 1]
-    fb = [t for t in b.given if len(t) > 1]
-    if not fa or not fb:
+    if not a.given or not b.given:
         return False
-    for x in fa:
-        for y in fb:
-            if x == y or x.startswith(y) or y.startswith(x) or fuzz.ratio(x, y) >= 80:
+    for x in a.given:
+        for y in b.given:
+            if len(x) == 1 or len(y) == 1:
+                if x[0] == y[0]:
+                    return False
+            elif x == y or x.startswith(y) or y.startswith(x) or fuzz.ratio(x, y) >= 80:
                 return False
     return True
 
 
 def persons_match(a: str, b: str) -> tuple[bool, str]:
-    """Compare two people: surname + role. Honorifics ("The Rev.", "Fr.") are ignored.
-    Returns (matches, explanation)."""
+    """Compare two people by surname, plus first name or initial when both give one. Honorifics ("The Rev.",
+    "The Reverend", "Fr.") and roles (", Rector", ", Vicar") are ignored. Returns (matches, explanation)."""
     A, B = parse_person(a), parse_person(b)
     if not A.surname or not B.surname:
         return False, "could not read a surname"
@@ -552,9 +629,81 @@ def persons_match(a: str, b: str) -> tuple[bool, str]:
         return False, f"different surname ({A.surname} vs {B.surname})"
     if _given_conflict(A, B):
         return False, f"same surname but different first name ({' '.join(A.given)} vs {' '.join(B.given)})"
-    if A.roles and B.roles and not (A.roles & B.roles):
-        return False, f"different role ({', '.join(sorted(A.roles))} vs {', '.join(sorted(B.roles))})"
-    return True, "same person" + ("" if (A.roles and B.roles) else " (one side gives no role)")
+    return True, "same person"
+
+
+_GENERATION_RE = re.compile(r"(?:jr|sr)\.?|i{2,3}|iv|v|vi|ph\.?\s?d\.?|d\.?\s?min\.?|m\.?div\.?", re.I)
+_ROLE_DASH_RE = re.compile(r"\s+[-–—]\s+(?=[^-–—]*\b(?:rector|vicar|priest|dean|deacon|curate|chaplain|bishop|canon|"
+                           r"pastor|interim|associate|assistant)\b).*$", re.I)
+
+
+def strip_role(person: str) -> str:
+    """Drop the role written after a name: "The Rev. Ann Lee, Rector" / "Ann Lee (Vicar)" / "Ann Lee - Dean of the
+    Chapel" -> "The Rev. Ann Lee". Generational suffixes and degrees (", Jr.", ", III", ", PhD") are kept."""
+    text = collapse_ws(person)
+    m = re.fullmatch(r"(.*?\S)\s*\(([^()]*)\)", text)
+    if m and find_roles(m.group(2)):
+        return m.group(1)
+    text = _ROLE_DASH_RE.sub("", text)
+    head, *rest = [p.strip() for p in text.split(",")]
+    kept = []
+    while rest and _GENERATION_RE.fullmatch(rest[0]):
+        kept.append(rest.pop(0))
+    return ", ".join([head, *kept]) if head else text
+
+
+# --------------------------------------------------------------------------------------
+# Church names
+# --------------------------------------------------------------------------------------
+_CHURCH_NAME_WORD = re.compile(
+    r"(?<![a-z])(?:church|episcopal|chapel|cathedral|parish|saint|holy|trinity|christ|grace|redeemer|advent|"
+    r"ascension|epiphany)|(?<![a-z])st\.?(?![a-z])", re.I)
+# Words that do not tell one parish from another: "The Episcopal Church" names no parish at all.
+_GENERIC_NAME_WORDS = {"the", "episcopal", "church", "of", "in", "and", "parish", "anglican", "united", "states",
+                       "america", "usa", "communion"}
+
+
+def _name_tokens(name: str) -> list[str]:
+    return ["st" if w == "saint" else w for w in norm_text(name).split() if w != "s"]
+
+
+def looks_like_church_name(value: str) -> bool:
+    """True for "St. Anne's Episcopal Church", "Grace Church Anderson"; False for a web designer's credit
+    ("Digital Pros"), a code ("PG168K"), a diocese ("Episcopal Diocese of South Carolina") or just
+    "The Episcopal Church"."""
+    if not _CHURCH_NAME_WORD.search(value or "") or re.search(r"\bdiocese\b", value or "", re.I):
+        return False
+    return any(t not in _GENERIC_NAME_WORDS for t in _name_tokens(value))
+
+
+def _name_core(name: str) -> set[str]:
+    return {t for t in _name_tokens(name) if t not in _GENERIC_NAME_WORDS}
+
+
+def name_hint_words(name: str) -> list[str]:
+    """Distinctive words of a parish name, for spotting it on a page: "St. Philip Episcopal Church (Voorhees College)"
+    -> ['college', 'philip', 'voorhees']."""
+    return sorted(t for t in _name_core(name) if len(t) >= 4)
+
+
+def names_same(a: str, b: str) -> bool:
+    """The same parish name: the same distinctive words in any order, with or without "Episcopal", "Church" or
+    "The" ("St. Anne's Church" = "Episcopal Church of St. Anne"), allowing small spelling differences. Generic words
+    never make two names the same: "St. Anne's Church" is not "St. Mark's Church"."""
+    ca, cb = _name_core(a), _name_core(b)
+    if not ca or not cb:
+        return norm_text(a) == norm_text(b)
+    if ca == cb:
+        return True
+    from rapidfuzz import fuzz
+    return len(ca) == len(cb) and fuzz.ratio(" ".join(sorted(ca)), " ".join(sorted(cb))) >= 88
+
+
+def names_reworded(a: str, b: str) -> bool:
+    """Same parish name, worded differently: words in another order, "Episcopal" or "Church" dropped, or the
+    town added ("St. Anne's Episcopal Church" / "St. Anne's Church" / "Episcopal Church of St. Anne")."""
+    ca, cb = _name_core(a), _name_core(b)
+    return bool(ca and cb) and (ca <= cb or cb <= ca)
 
 
 def role_is_parish_clergy(title: str) -> bool:
@@ -597,6 +746,36 @@ def derive_rite(*texts: str) -> Optional[str]:
 
 
 def norm_rite(value: str) -> str:
+    """'I' / 'II' / 'mixed' for a rite or rite-details value ("Rite I (8:00 AM); Rite II (10:30 AM)" -> 'mixed')."""
     v = norm_text(value)
-    return {"1": "i", "one": "i", "rite i": "i", "rite one": "i", "2": "ii", "two": "ii", "rite ii": "ii",
-            "rite two": "ii", "both": "mixed", "rite i and rite ii": "mixed"}.get(v, v)
+    known = {"i": "i", "ii": "ii", "mixed": "mixed", "1": "i", "one": "i", "rite i": "i", "rite one": "i", "2": "ii",
+             "two": "ii", "rite ii": "ii", "rite two": "ii", "both": "mixed", "rite i and rite ii": "mixed"}
+    if v in known:
+        return known[v]
+    derived = derive_rite(value)
+    return derived.lower() if derived else v
+
+
+def derive_rite_details(sunday_text: str = "", weekday_text: str = "", fmt: str = "12h") -> Optional[str]:
+    """Which rite is used when, from the services text:
+    "8:00 AM Holy Eucharist, Rite I; 10:30 AM Choral Eucharist, Rite II" -> "Rite I (8:00 AM); Rite II (10:30 AM)".
+    Weekday times keep their day ("Rite II (Wed 12:00 noon)"). None when no rite is named."""
+    from .times import find_times, format_time, parse_service_slots, describe_slot, slot_sort_key
+    when: dict[str, list[str]] = {"I": [], "II": []}
+    named: set[str] = set()
+    for text, day in ((sunday_text, "sun"), (weekday_text, None)):
+        for item in split_items(text):
+            rites = {"I", "II"} if derive_rite(item) == "Mixed" else {derive_rite(item)} - {None}
+            if not rites:
+                continue
+            named |= rites
+            if day == "sun":
+                labels = [format_time(t.minutes, fmt) for t in find_times(item) if not t.range_end][:1]
+            else:
+                labels = [describe_slot(s, fmt) for s in sorted(parse_service_slots(item), key=slot_sort_key)][:2]
+            for r in rites:
+                when[r].extend(x for x in labels if x not in when[r])
+    if not named:
+        return None
+    parts = [f"Rite {r}" + (f" ({', '.join(when[r])})" if when[r] else "") for r in ("I", "II") if r in named]
+    return "; ".join(parts)

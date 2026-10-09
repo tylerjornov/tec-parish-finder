@@ -4,7 +4,7 @@
     "address": "1002 S Main St., Greenville, SC",
     "church_phone": "(864) 235-5884",
     "church_email": "office@standrewsgreenville.org",
-    "rector_name": "The Reverend J. Gary Eichelberger, Rector",
+    "rector_name": "The Very Rev. J. Gary Eichelberger",
     "rector_email": "rector@standrewsgreenville.org",
     "sunday_services": "8:30 AM Low Mass, Rite II; 10:30 AM Sung High Mass with Incense, Rite I (livestreamed)",
     "weekday_services": "Wed 5:30 PM Healing Mass (Benediction of the Blessed Sacrament following, every 4th Wednesday); 3rd Wed 5:00 PM Rosary",
@@ -17,6 +17,8 @@
     "formation": "Catechesis of the Good Shepherd (ages 3–9); Tuesday 4:00 PM clergy-led Bible Study; Rosary (3rd Wednesdays)"
   },
   "supplemental": {
+    "diocesan_bishop": ["The Rt. Rev. Daniel P. Richards"],
+    "other_clergy": ["The Rev. Dr. Full Name (Associate Rector); The Rev. Full Name (Deacon)"],
     "parking": ["Parking lot on site"],
     "accessibility": ["Handicapped-accessible facilities"],
     "service_languages": ["English; Spanish (Español Rito II, Sun 1:00 PM)"],

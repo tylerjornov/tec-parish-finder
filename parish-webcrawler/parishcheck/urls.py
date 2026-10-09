@@ -138,3 +138,45 @@ def facebook_base_url(page_key: str) -> str:
     if page_key.startswith("id:"):
         return f"https://www.facebook.com/profile.php?id={page_key[3:]}"
     return f"https://www.facebook.com/{page_key}"
+
+
+# --------------------------------------------------------------------------------------
+# Websites shared by many parishes (a diocese's site, a college's site)
+# --------------------------------------------------------------------------------------
+# Paths that are just another way to write the home page, so they do not mark a shared site.
+_HOME_PATHS = {"/home", "/index", "/welcome", "/main", "/default", "/en", "/en-us"}
+
+
+def site_scope(url: str, shared_host_domains: Optional[list] = None) -> tuple[str, str]:
+    """(host, scope). scope is '' for an ordinary church website (read the whole site). For a parish page on a
+    shared site it is the page's path ('/st-davids-church': read that page, pages below it, and at most 3 pages
+    it links to); for the home page of a listed shared host (a college) it is '/' (that page and 3 links)."""
+    n = normalize_url(url)
+    host = host_of(n)
+    path = urlsplit(n).path if n else ""
+    path = re.sub(r"\.(?:html?|php|aspx?)$", "", path, flags=re.I).rstrip("/")
+    if path.lower() in _HOME_PATHS:
+        path = ""
+    if path:
+        return host, path
+    if any(domain_matches(host, d) for d in shared_host_domains or []):
+        return host, "/"
+    return host, ""
+
+
+def in_scope(url: str, host: str, scope: str) -> bool:
+    """Is `url` inside the part of the site this parish owns?  ('/' = only the start page itself.)"""
+    if host_of(url) != host:
+        return False
+    if not scope:
+        return True
+    path = re.sub(r"\.(?:html?|php|aspx?)$", "", urlsplit(normalize_url(url)).path, flags=re.I).rstrip("/")
+    if scope == "/":
+        return path in ("",) or path.lower() in _HOME_PATHS
+    return path == scope or path.startswith(scope + "/")
+
+
+def site_key(url: str, shared_host_domains: Optional[list] = None) -> str:
+    """The progress-database key for a church website. Parishes on one shared host get one key each."""
+    host, scope = site_scope(url, shared_host_domains)
+    return "site:" + host + (scope if scope not in ("", "/") else "")

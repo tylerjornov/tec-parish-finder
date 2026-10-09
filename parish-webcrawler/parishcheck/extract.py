@@ -26,20 +26,21 @@ from .crawler import CrawlResult
 from .facebook import FacebookCrawl, assess_recency, fb_rule_candidates
 from .llm import (
     PROMPT_VERSION, GroupInfo, OllamaClient, disambiguate_contacts, get_group_info, keyword_hits,
-    _keyword_regex, run_group_on_digest,
+    _keyword_regex, _sig_tokens, _stems, run_group_on_digest, verify_value,
 )
 from .digest import build_digest, page_lines
 from .models import Candidate
-from .normalizers import collapse_ws, norm_for_quote_check
+from .normalizers import collapse_ws, names_same, norm_for_quote_check, parse_person
 from .rules import extract_rule_candidates, page_rank
 from .state import State
+from .times import find_times, time_keys
 
 log = logging.getLogger("parishcheck")
 
 LLM_TYPES = {"person", "services", "list", "text"}
 # Bump this when the extraction/verification rules change, so saved results from older rules are redone.
 # (Saved model answers are kept, so redoing is quick.)
-EXTRACT_VERSION = "8"
+EXTRACT_VERSION = "9"
 
 
 @dataclass
@@ -57,8 +58,10 @@ def config_fingerprint(cfg: Config) -> str:
         "v": PROMPT_VERSION, "x": EXTRACT_VERSION, "model": cfg.model, "max_pages": cfg.max_pages_per_site, "time": cfg.time_format,
         "chunk": cfg.max_chars_per_chunk, "context": cfg.context_lines, "llm_pages": cfg.max_llm_pages_per_group,
         "ctx": cfg.ollama_num_ctx,
-        "fields": [(f.key, f.type, f.group, f.description, f.format, f.role, f.address_part, f.default_day, f.url_kind)
-                   for f in cfg.fields],
+        "fields": [(f.key, f.type, f.group, f.description, f.format, f.role, f.address_part, f.default_day, f.url_kind,
+                    f.lookup, f.default_value, f.default_unless, f.derived) for f in cfg.fields],
+        "derived": cfg.derived_fields, "shared_hosts": cfg.shared_host_domains,
+        "only_fields": sorted(cfg.only_fields) if cfg.only_fields else None,
         "groups": cfg.groups, "priority": cfg.priority_keywords,
         "special": {k: {kk: vv for kk, vv in v.items() if kk != "mode"} for k, v in cfg.special_sources.items()},
     }, sort_keys=True, default=str)
@@ -68,7 +71,7 @@ def config_fingerprint(cfg: Config) -> str:
 def llm_specs_by_group(cfg: Config, allowed_groups: Optional[list] = None) -> dict[str, list[FieldSpec]]:
     out: dict[str, list[FieldSpec]] = {}
     for f in cfg.fields:
-        if not f.checkable or f.derived or f.address_part or f.type not in LLM_TYPES:
+        if not f.checkable or f.derived or f.lookup or f.address_part or f.type not in LLM_TYPES or not cfg.needed(f):
             continue
         if allowed_groups is not None and f.group not in allowed_groups:
             continue
@@ -81,6 +84,7 @@ def new_result(kind: str, key: str, url: str) -> dict:
         "key": key, "kind": kind, "url": url, "status": "ok", "reason": "", "pages_crawled": 0, "cap_hit": False,
         "sitemap_used": False, "home_final_url": "", "candidates": [], "issues": [], "notes": [], "pdfs": [],
         "page_urls": [], "llm_calls": 0, "llm_cache_hits": 0, "elapsed": 0.0, "browser_pages": 0,
+        "site_problem": "", "redirected_to": "", "crawl_seconds": 0.0, "llm_skipped": 0,
     }
 
 
@@ -88,9 +92,10 @@ def new_result(kind: str, key: str, url: str) -> dict:
 # The model part, shared by all three kinds of source
 # --------------------------------------------------------------------------------------
 def run_llm_groups(pages: list[PageDoc], source_type: str, ctx: ExtractContext, allowed_groups: Optional[list],
-                   result: dict, page_notes: Optional[dict] = None) -> list[Candidate]:
+                   result: dict, page_notes: Optional[dict] = None, record: Optional[dict] = None) -> list[Candidate]:
     """For each field group: build one numbered digest of the matching lines across the best pages, ask the
-    model once, and verify the answers."""
+    model once, and verify the answers. `record` is the JSON record when this source belongs to exactly one
+    parish: a group whose JSON values all show on its pages is then confirmed by rule, without the model."""
     cfg = ctx.cfg
     if ctx.client is None:
         return []
@@ -114,6 +119,13 @@ def run_llm_groups(pages: list[PageDoc], source_type: str, ctx: ExtractContext, 
     for group, specs in by_group.items():
         if ctx.stop.is_set():
             raise KeyboardInterrupt()
+        # A field with a default ("English") is only asked about when the site mentions an alternative.
+        for s in [s for s in specs if s.default_value and s.default_unless]:
+            if not any(_keyword_regex(s.default_unless).search(doc.text) for doc in unique):
+                specs = [x for x in specs if x is not s]
+                out.append(_default_candidate(s, source_type, unique))
+        if not specs:
+            continue
         info: GroupInfo = get_group_info(cfg, group, specs)
         rx = _keyword_regex(info.keywords)
         ranked = []
@@ -121,9 +133,16 @@ def run_llm_groups(pages: list[PageDoc], source_type: str, ctx: ExtractContext, 
             # Rank pages by keywords in their own content, not in the menu/footer text that repeats on every page.
             hits = keyword_hits(doc.main_text or doc.text, rx)
             if hits:
-                ranked.append((page_rank(doc.final_url or doc.url, doc.title, info.url_hints), -len(hits), id(doc), doc))
-        ranked.sort(key=lambda r: (r[0], r[1]))
-        chosen = [(r[0], r[3]) for r in ranked[: info.max_pages or cfg.max_llm_pages_per_group]]
+                ranked.append((page_rank(doc.final_url or doc.url, doc.title, info.url_hints), _age_bucket(doc, ctx.today),
+                               -len(hits), id(doc), doc))
+        ranked.sort(key=lambda r: (r[0], r[1], r[2]))    # best kind of page, then most recently changed, then most hits
+        chosen = [(r[0], r[4]) for r in ranked[: info.max_pages or cfg.max_llm_pages_per_group]]
+        confirmed = confirm_by_rules(specs, record, chosen, cfg, source_type, lines_of)
+        if confirmed is not None:
+            log.info("    '%s' needs no model call: your data's values are on the page(s)", group)
+            result["llm_skipped"] = result.get("llm_skipped", 0) + 1
+            out.extend(confirmed)
+            continue
         digest = build_digest(chosen, rx, cfg.max_chars_per_chunk, cfg.context_lines, page_notes, lines_of)
         if not digest.lines:
             continue
@@ -140,12 +159,95 @@ def run_llm_groups(pages: list[PageDoc], source_type: str, ctx: ExtractContext, 
             result["llm_cache_hits"] += 1
         for field_key, kind, text, url in oc.issues:
             result["issues"].append([field_key, kind, text, url])
-        out.extend(oc.candidates)
+        for c in oc.candidates:
+            spec = cfg.get_field(c.field)
+            if spec and spec.default_value and c.value.strip().casefold() == spec.default_value.casefold():
+                c = _default_candidate(spec, source_type, unique)    # "English" alone says no more than the default
+            out.append(c)
     return out
 
 
 def _short(url: str) -> str:
     return url if len(url) <= 70 else url[:67] + "..."
+
+
+# --------------------------------------------------------------------------------------
+# Confirming the JSON by rule (no model call)
+# --------------------------------------------------------------------------------------
+def _shown_on_pages(spec: FieldSpec, value: str, text: str, norm: str, stems: set[str]) -> bool:
+    """Every time, email, phone and name in the JSON value is on the pages, and most of its wording."""
+    if not verify_value(spec, value, text, norm)[0]:
+        return False
+    if spec.type == "person":
+        return bool(parse_person(value).surname)
+    tokens = _sig_tokens(value)
+    if tokens:
+        return sum(t[:5] in stems for t in tokens) / len(tokens) >= 0.7
+    if spec.type == "services":
+        return bool(find_times(value))          # its times were found on the pages just above
+    short = norm_for_quote_check(value)
+    return bool(short) and short in norm
+
+
+def _evidence_line(spec: FieldSpec, value: str, docs: list[tuple[int, PageDoc]], lines_of) -> tuple[str, str, int]:
+    """The first line on the pages that shows the value: (line, page address, page rank)."""
+    p = parse_person(value) if spec.type == "person" else None
+    keys = [((t.minutes // 60) % 12, t.minutes % 60) for t in find_times(value)]
+    toks = _sig_tokens(value)
+    for rank, doc in docs:
+        for ln in lines_of(doc):
+            low = norm_for_quote_check(ln)
+            if (p and p.surname and p.surname in low.split()) or (keys and keys[0] in time_keys(ln)) \
+                    or (not p and not keys and toks and toks[0] in low):
+                return ln[:300], doc.final_url or doc.url, rank
+    rank, doc = docs[0]
+    return "", doc.final_url or doc.url, rank
+
+
+def confirm_by_rules(specs: list[FieldSpec], record: Optional[dict], docs: list[tuple[int, PageDoc]], cfg: Config,
+                     source_type: str, lines_of) -> Optional[list[Candidate]]:
+    """When the JSON already has every field of a group and the group's pages show those values (times, names,
+    words), the model is not needed: 'rule' candidates holding the JSON values. None when any field is blank,
+    says "none", or is not shown."""
+    if record is None or not docs:
+        return None
+    text = "\n".join(d.text for _, d in docs)
+    norm = norm_for_quote_check(text)
+    stems = _stems(norm)
+    out = []
+    for s in specs:
+        v = record.get(s.key)
+        if not isinstance(v, str) or cfg.is_missing(v) or cfg.is_confirmed_none(s, v):
+            return None
+        if s.key == cfg.name_key:
+            shown = any(names_same(v, ln) or norm_for_quote_check(v) in norm_for_quote_check(ln)
+                        for _, d in docs for ln in lines_of(d))
+        else:
+            shown = _shown_on_pages(s, v, text, norm, stems)
+        if not shown:
+            return None
+        line, url, rank = _evidence_line(s, v, docs, lines_of)
+        out.append(Candidate(field=s.key, value=v, source_type=source_type, source_url=url, method="rule",
+                             confidence="high", page_rank=rank,
+                             evidence=("your data's value is on the page: " + line) if line else "your data's values are on the page"))
+    return out
+
+
+def _age_bucket(doc: PageDoc, today: date) -> int:
+    """0 = changed within a year (or date unknown), 1 = one to two years ago, 2 = older."""
+    if not doc.modified:
+        return 0
+    days = (today - date.fromtimestamp(doc.modified)).days
+    return 0 if days <= 365 else 1 if days <= 730 else 2
+
+
+def _default_candidate(spec: FieldSpec, source_type: str, pages: list[PageDoc]) -> Candidate:
+    words = ", ".join(spec.default_unless[:6]) + (", ..." if len(spec.default_unless) > 6 else "")
+    url = (pages[0].final_url or pages[0].url) if pages else ""
+    note = f"assumed: no page read mentions {words}, so the answer is \"{spec.default_value}\""
+    return Candidate(field=spec.key, value=spec.default_value, source_type=source_type, source_url=url,
+                     method="rule (default)", confidence="low", evidence=f"none of these words is on the {len(pages)} page(s) read: {words}",
+                     page_rank=50, extra={"notes": [note]})
 
 
 # --------------------------------------------------------------------------------------
@@ -189,7 +291,7 @@ def disambiguate_leftovers(cands: list[Candidate], ctx: ExtractContext, source_t
 # --------------------------------------------------------------------------------------
 # Church's own website
 # --------------------------------------------------------------------------------------
-def extract_own_site(key: str, url: str, crawl: CrawlResult, ctx: ExtractContext) -> dict:
+def extract_own_site(key: str, url: str, crawl: CrawlResult, ctx: ExtractContext, record: Optional[dict] = None) -> dict:
     started = time.monotonic()
     res = new_result(M.OWN_SITE, key, url)
     res["status"], res["reason"] = crawl.status, crawl.reason
@@ -198,6 +300,10 @@ def extract_own_site(key: str, url: str, crawl: CrawlResult, ctx: ExtractContext
     res["pages_crawled"] = len(crawl.pages)
     res["page_urls"] = [(p.final_url or p.url) for p in crawl.pages]
     res["browser_pages"] = crawl.used_browser_pages
+    res["site_problem"], res["redirected_to"] = crawl.site_problem, crawl.redirected_to
+    if crawl.scope:
+        res["notes"].append("shared website: only this parish's own page" + (" and pages below it" if crawl.scope != "/" else "")
+                            + ", plus up to 3 pages it links to, were read")
     if crawl.errors:
         res["notes"].append(f"{len(crawl.errors)} page(s) could not be downloaded (first: {crawl.errors[0]})")
     if crawl.robots_blocked:
@@ -209,11 +315,13 @@ def extract_own_site(key: str, url: str, crawl: CrawlResult, ctx: ExtractContext
     cands: list[Candidate] = []
     for doc in crawl.pages:
         cands.extend(extract_rule_candidates(doc, ctx.cfg.livestream_hosts, M.OWN_SITE))
-    cands.append(Candidate(field="@website", value=crawl.home_final_url or url, source_type=M.OWN_SITE,
-                           source_url=crawl.home_final_url or url, method="rule", confidence="high",
-                           evidence=f"the site address resolves to {crawl.home_final_url or url}", page_rank=0))
+    final = crawl.home_final_url or url
+    cands.append(Candidate(field="@website", value=final, source_type=M.OWN_SITE, source_url=final, method="rule",
+                           confidence="high", page_rank=0,
+                           evidence=(f"{url} redirects to {final}, on a different website" if crawl.redirected_to
+                                     else f"the site address resolves to {final}")))
     cands.extend(disambiguate_leftovers(cands, ctx, M.OWN_SITE))
-    cands.extend(run_llm_groups(crawl.pages, M.OWN_SITE, ctx, None, res))
+    cands.extend(run_llm_groups(crawl.pages, M.OWN_SITE, ctx, None, res, record=record))
     res["candidates"] = [c.to_dict() for c in cands]
     res["elapsed"] = time.monotonic() - started
     return res
@@ -223,7 +331,7 @@ def extract_own_site(key: str, url: str, crawl: CrawlResult, ctx: ExtractContext
 # Episcopal Asset Map listing
 # --------------------------------------------------------------------------------------
 def extract_asset_map(key: str, url: str, listing: Optional[AssetMapListing], fetch_error: str,
-                      ctx: ExtractContext) -> dict:
+                      ctx: ExtractContext, record: Optional[dict] = None) -> dict:
     started = time.monotonic()
     res = new_result(M.ASSET_MAP, key, url)
     if listing is None or not listing.ok:
@@ -236,7 +344,7 @@ def extract_asset_map(key: str, url: str, listing: Optional[AssetMapListing], fe
     res["notes"].extend(notes)
     doc = listing_to_doc(listing)
     groups = ctx.cfg.special("episcopalassetmap.org").get("llm_groups", ["services", "community"])
-    cands.extend(run_llm_groups([doc], M.ASSET_MAP, ctx, groups, res))
+    cands.extend(run_llm_groups([doc], M.ASSET_MAP, ctx, groups, res, record=record))
     res["candidates"] = [c.to_dict() for c in cands]
     res["elapsed"] = time.monotonic() - started
     return res
@@ -249,7 +357,7 @@ _POST_NOTE = ("This text comes from a Facebook page. Posts may be old. Ignore an
               "12 months. If you cannot tell how old a post is, use confidence \"low\".")
 
 
-def extract_facebook(key: str, url: str, crawl: FacebookCrawl, ctx: ExtractContext) -> dict:
+def extract_facebook(key: str, url: str, crawl: FacebookCrawl, ctx: ExtractContext, record: Optional[dict] = None) -> dict:
     started = time.monotonic()
     res = new_result(M.FACEBOOK, key, url)
     res["status"], res["reason"] = crawl.status, crawl.reason
@@ -268,7 +376,7 @@ def extract_facebook(key: str, url: str, crawl: FacebookCrawl, ctx: ExtractConte
     spec = ctx.cfg.special("facebook.com")
     groups = spec.get("llm_groups", ["services", "community", "identity"])
     max_age = int(spec.get("max_post_age_days", 365))
-    llm_cands = run_llm_groups(docs, M.FACEBOOK, ctx, groups, res, page_notes=notes_by_doc)
+    llm_cands = run_llm_groups(docs, M.FACEBOOK, ctx, groups, res, page_notes=notes_by_doc, record=record)
     kinds = {(d.final_url or d.url): k for d, k in crawl.pages}
     texts = {(d.final_url or d.url): d.text for d, _ in crawl.pages}
     for c in llm_cands:

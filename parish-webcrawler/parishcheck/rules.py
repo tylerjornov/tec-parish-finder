@@ -102,7 +102,7 @@ _SUFFIX = (r"(?i:street|st|avenue|ave|av|road|rd|drive|dr|boulevard|blvd|lane|ln
            r"place|pl|circle|cir|parkway|pkwy|square|sq|terrace|ter|trail|trl|pike|route|rte|plaza|row|loop|alley)")
 _STATE_NAMES = "|".join(sorted((n.title() for n in STATE_ABBR), key=len, reverse=True))
 ADDRESS_RE = re.compile(
-    r"(?<![\w/#])(?P<num>\d{1,6}[A-Za-z]?)\s+"
+    r"(?<![\w/#.\-–])(?P<num>\d{1,6}[A-Za-z]?)\s+(?!\d+\s)"
     r"(?P<street>(?:(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West)\.?\s+)?"
     r"(?:[A-Z0-9][\w'’.\-]*\s+){0,4}?" + _SUFFIX + r"\b\.?(?:\s+(?:NE|NW|SE|SW|N|S|E|W)\b\.?)?)"
     r"(?:\s*,?\s*(?i:suite|ste|unit|apt|room|rm|floor|fl|bldg)\.?\s*[\w-]+)?"
@@ -117,7 +117,9 @@ def find_addresses(text: str) -> list[tuple[str, str]]:
     """[(address in house style 'street, City, ST', matched text)]"""
     out = []
     seen = set()
-    for m in ADDRESS_RE.finditer(text or ""):
+    # Blank out phone numbers first, so "Call 843-681-8333 3001 Meeting St" does not glue "8333" onto the street.
+    text = PHONE_TEXT_RE.sub(lambda m: "\n" + " " * (len(m.group(0)) - 1), text or "")
+    for m in ADDRESS_RE.finditer(text):
         state = norm_state(m.group("state"))
         if not state:
             continue

@@ -39,6 +39,7 @@ class PageDoc:
     via_browser: bool = False
     status: int = 200
     canonical: str = ""
+    modified: float = 0.0                # when the page last changed (sitemap <lastmod> or Last-Modified), 0 = unknown
 
     @property
     def main_len(self) -> int:

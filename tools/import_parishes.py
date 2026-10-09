@@ -17,6 +17,9 @@ parishes.json is a duplicate, handled by --on-duplicate:
     python3 tools/import_parishes.py data/wip-dioceses/florida/*.json --dry-run
     python3 tools/import_parishes.py data/wip-dioceses/florida/diocese-of-florida.json
     python3 tools/import_parishes.py --sort-only          # just re-sort parishes.json
+
+Every run also rewrites the existing records in schema key order, so a field newly added to schema.json
+appears (blank) in every record.
 """
 
 from __future__ import annotations
@@ -82,7 +85,11 @@ def main() -> None:
     keys = list(json.loads(SCHEMA.read_text(encoding="utf-8"))["fields"])
     raw = args.target.read_text(encoding="utf-8")
     records = json.loads(raw)
-    by_id = {r["id"]: r for r in records}
+    # Existing records are rewritten in schema key order too, so a field added to the schema reaches them.
+    extra = sorted({k for r in records for k in r if k not in keys})
+    if extra:
+        sys.exit(f"target has field(s) not in schema.json: {', '.join(extra)}")
+    by_id = {r["id"]: {k: r.get(k, None if k == "asa" else "") for k in keys} for r in records}
     if len(by_id) != len(records):
         sys.exit("target already contains duplicate ids; fix those first")
 

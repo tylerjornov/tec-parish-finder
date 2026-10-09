@@ -8,8 +8,9 @@ Rules of the road (all enforced here, not left to the model):
     cites line NUMBERS as evidence instead of copying quotes: shorter answers, and no invented quotes.
   * "unclear" is always an allowed answer, and a low-confidence answer counts as unclear.
   * POST-CHECK in code: the cited lines must exist and be about the group's topic, and every time, phone
-    number, email and person name in the value must appear on the cited pages.  Otherwise the answer is thrown
-    away (logged as rejected_unverified).
+    number, email and person name in the value must appear on the cited pages.  When only a detail fails (a
+    "(parenthetical)", a ", Rite II", an extra ", with organ"), that detail is dropped and the rest kept;
+    otherwise the answer is thrown away (logged as rejected_unverified).
 """
 
 from __future__ import annotations
@@ -17,11 +18,13 @@ from __future__ import annotations
 import hashlib
 import json
 import logging
+import importlib.util
 import re
 import threading
 import time
 from dataclasses import dataclass, field
 from datetime import date
+from pathlib import Path
 from typing import Literal, Optional
 
 import httpx
@@ -33,7 +36,7 @@ from .models import Candidate
 from rapidfuzz import fuzz
 
 from .normalizers import (
-    collapse_ws, emails_in_json_value, norm_for_quote_check, norm_text, parse_person, phone_digits, extract_phones,
+    collapse_ws, emails_in_json_value, looks_like_church_name, norm_for_quote_check, norm_text, parse_person,
 )
 from .rules import page_rank
 from .times import find_times, restyle_times, split_top_level, time_keys
@@ -383,12 +386,17 @@ def _stems(page_norm: str) -> set[str]:
 
 
 def value_supported(spec: FieldSpec, value: str, evidence: str, page_norm: str, page_stems: set[str],
-                    examples: list[str]) -> tuple[bool, str]:
+                    examples: list[str], always_ok: frozenset = frozenset()) -> tuple[bool, str]:
     """Is the WORDING of the answer backed by the page?  Stops a small model from copying the style example
-    (or inventing details) and then quoting some unrelated sentence as 'evidence'."""
+    (or inventing details) and then quoting some unrelated sentence as 'evidence'.  Words in `always_ok`
+    (a field's default, such as "English") need not be on the page."""
     if spec.type == "person":
         return True, ""
-    tokens = _sig_tokens(value)
+    copied = [ex for ex in (it for e in examples for it in split_top_level(e))
+              if len(ex.split()) > 4 and fuzz.ratio(norm_text(value), norm_text(ex)) >= 85]
+    if copied and norm_for_quote_check(value) not in page_norm:
+        return False, "the answer copies the style example"
+    tokens = [t for t in _sig_tokens(value) if t not in always_ok]
     if not tokens:
         return True, ""
     supported = [t for t in tokens if t[:5] in page_stems]
@@ -400,9 +408,11 @@ def value_supported(spec: FieldSpec, value: str, evidence: str, page_norm: str, 
         return False, f"the wording '{', '.join(missing[:3])}' is not on the page"
     if ratio >= 0.7:
         return True, ""
-    # The style guide has its own wording (e.g. "Handicapped-accessible facilities"); allow it only when the
-    # evidence quote clearly talks about the same thing.
-    canonical = any(fuzz.token_set_ratio(norm_text(value), norm_text(ex)) >= 80 for ex in examples)
+    # The style guide has its own short stock wording (e.g. "Handicapped-accessible facilities"); allow it only
+    # when the evidence quote clearly talks about the same thing. A long example ("Traditional Anglican choral
+    # music, with a professional organist") describes one particular parish, so copying it is never allowed.
+    canonical = any(len(ex.split()) <= 4 and fuzz.token_set_ratio(norm_text(value), norm_text(ex)) >= 80
+                    for ex in examples)
     ev_tokens = {t[:5] for t in _sig_tokens(evidence)}
     if canonical and any(t[:5] in ev_tokens for t in tokens):
         return True, ""
@@ -420,7 +430,30 @@ def clean_value(spec: FieldSpec, value: str, cfg: Config) -> str:
         v = restyle_times(v, cfg.time_format, only_explicit=False)
     elif spec.type in ("list", "text"):
         v = restyle_times(v, cfg.time_format, only_explicit=True)
+    if spec.group == "clergy":
+        v = _format_clergy_list(v) if spec.type == "list" else _format_title(v)
+        v = _DOUBLE_TITLE.sub(r"\1", v)      # "The Rev. The Very Rev. Ann Lee" -> "The Very Rev. Ann Lee"
     return v
+
+
+_DOUBLE_TITLE = re.compile(r"\bThe Rev\.\s+(The (?:Very|Rt\.|Most) Rev\.)")
+
+
+def _house_style():
+    """Clergy-name formatters from the site's tools/normalize_data.py, so the crawler's answers already match
+    the data's house style ("The Rev. Ann Lee"). Names pass through unchanged if that file is not there."""
+    path = Path(__file__).resolve().parents[2] / "tools" / "normalize_data.py"
+    try:
+        spec = importlib.util.spec_from_file_location("normalize_data", path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod.format_title, mod.format_clergy_list
+    except (OSError, ImportError, AttributeError):
+        log.debug("house-style clergy formatting unavailable: %s not found", path)
+        return (lambda v: v), (lambda v: v)
+
+
+_format_title, _format_clergy_list = _house_style()
 
 
 _RITE_RX = re.compile(r"\brite\s*(ii|2|i|1)\b", re.I)
@@ -430,6 +463,114 @@ def _rites_in(text: str) -> set[str]:
     """{'I', 'II'}: which Prayer Book rites a piece of text names. Catches a copied style example such as
     "Rite I and Rite II both offered" on a page that only mentions Rite II."""
     return {"II" if m.group(1).lower() in ("ii", "2") else "I" for m in _RITE_RX.finditer(text)}
+
+
+# --------------------------------------------------------------------------------------
+# Keeping the good part of an answer
+# --------------------------------------------------------------------------------------
+_PAREN_RX = re.compile(r"\s*\([^()]*\)")
+_RITE_PART_RX = re.compile(r",?\s*\brites?\s*(?:ii|i|1|2|one|two)(?:\s*(?:/|&|and|or)\s*(?:rite\s*)?(?:ii|i|1|2|one|two))?\b"
+                           r"(?:\s+(?:only|both offered|offered))?", re.I)
+
+
+def _tidy(value: str) -> str:
+    v = re.sub(r"\(\s*\)", "", value)
+    v = re.sub(r"\s+([,;)])", r"\1", v)
+    v = re.sub(r"([,;])\s*(?=[,;])", "", v)
+    return collapse_ws(v).strip(" ,;")
+
+
+def _subparts(value: str, with_commas: bool) -> list[str]:
+    """Details that can be dropped without changing what the answer is about: parentheticals, and for lists and
+    text the extras after the first comma ("Choir, with organ")."""
+    parts = [m.group(0) for m in _PAREN_RX.finditer(value)]
+    if with_commas:
+        core = _PAREN_RX.sub("", value)
+        parts += ["," + seg for seg in core.split(",")[1:] if seg.strip()]
+    return parts
+
+
+def salvage(value: str, check, with_commas: bool = True) -> tuple[str, str]:
+    """(value, '') when `check` accepts it; else the value without the details that fail on their own, if what
+    is left passes; else ('', why). `check(text)` returns (ok, why)."""
+    ok, why = check(value)
+    if ok:
+        return value, ""
+    reduced = value
+    for part in _subparts(value, with_commas):
+        if part in reduced and not check(part.strip(" ,()"))[0]:
+            reduced = reduced.replace(part, "", 1)
+    reduced = _tidy(reduced)
+    had_times = bool(find_times(value))
+    if reduced and reduced != value and (not had_times or find_times(reduced)) and check(reduced)[0]:
+        return reduced, ""
+    return "", why
+
+
+def drop_rites(value: str, rites: set[str]) -> str:
+    """Remove mentions of these rites: "8:30 AM Low Mass, Rite II" -> "8:30 AM Low Mass"."""
+    return _tidy(_RITE_PART_RX.sub(lambda m: "" if _rites_in(m.group(0)) & rites else m.group(0), value))
+
+
+# --------------------------------------------------------------------------------------
+# Out-of-date pages
+# --------------------------------------------------------------------------------------
+_MONTH_NAMES = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october",
+                "november", "december"]
+_MONTH_RX = r"(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sept?(?:ember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)"
+_DATEY = re.compile(r"(?<![a-z])(?:" + _MONTH_RX + r"|summer|fall|autumn|winter|spring|lent|advent|easter|christmas|"
+                    r"holy week|schedule|through|thru|until|beginning|starting|effective|as of|updated|\d{1,2}/\d{1,2}/)"
+                    r"(?![a-z])", re.I)
+_NOT_A_SCHEDULE = re.compile(r"©|\(c\)|copyright|founded|established|since|built|est\.|consecrated|organi[sz]ed|chartered|"
+                             r"anniversary|ordained|born|died|history", re.I)
+_SUMMER = re.compile(r"summer (?:schedule|hours|worship|services?)", re.I)
+_UNTIL_MONTH = re.compile(r"(?<![a-z])(?:through|thru|until)\s+(" + _MONTH_RX + r")\b\.?(?!\s*,?\s*20\d\d)", re.I)
+_FROM_DATE = re.compile(r"(?<![a-z])(?:beginning|starting|effective)\s+(?:on\s+)?(?:\w+day,?\s+)?(" + _MONTH_RX
+                        + r")\.?\s+(\d{1,2})(?!\d)", re.I)
+
+
+def _month_no(word: str) -> int:
+    w = word.lower()[:3]
+    return next(i for i, m in enumerate(_MONTH_NAMES, start=1) if m.startswith(w))
+
+
+def stale_hint(text: str, today: date) -> str:
+    """'' or a note such as "page may be out of date (mentions 2024)" when the text dates itself to the past:
+    a past year next to a date or schedule word, a summer schedule outside summer, "through August" a few
+    months ago, or "beginning June 5" earlier this year. Copyright lines and history ("founded in 1856") do not count."""
+    for m in re.finditer(r"(?<!\d)(20\d\d)(?!\d)", text):
+        year = int(m.group(1))
+        if year >= today.year:
+            continue
+        window = text[max(0, m.start() - 40): m.end() + 40]
+        if _DATEY.search(window) and not _NOT_A_SCHEDULE.search(window):
+            return f"page may be out of date (mentions {year})"
+    if _SUMMER.search(text) and today.month not in (5, 6, 7, 8, 9):
+        return "page may be out of date (mentions a summer schedule)"
+    for m in _UNTIL_MONTH.finditer(text):
+        if 1 <= (today.month - _month_no(m.group(1))) % 12 <= 4:
+            return f"page may be out of date (mentions '{collapse_ws(m.group(0))}')"
+    for m in _FROM_DATE.finditer(text):
+        ago = (today.month - _month_no(m.group(1))) % 12
+        if 1 <= ago <= 4 or (ago == 0 and int(m.group(2)) < today.day - 14):
+            return f"page may be out of date (mentions '{collapse_ws(m.group(0))}')"
+    return ""
+
+
+def backed_by_evidence(spec: FieldSpec, value: str, evidence: str) -> bool:
+    """Stricter than the page check: every time, email, phone and name in the value is in the cited lines
+    themselves, and most of its wording too. Only such answers go into suggested_patch.json."""
+    ev_norm = norm_for_quote_check(evidence)
+    ok, _ = verify_value(spec, value, evidence, ev_norm)
+    if not ok:
+        return False
+    if spec.type == "person":
+        return True
+    tokens = _sig_tokens(value)
+    if not tokens:
+        return True
+    stems = _stems(ev_norm)
+    return sum(t[:5] in stems for t in tokens) / len(tokens) >= 0.7
 
 
 @dataclass
@@ -522,38 +663,50 @@ def run_group_on_digest(
         page_norm = " ".join(norm_of(i) for i in pidx)
         page_stems = _stems(page_norm)
         examples = cfg.style_examples.get(s.key, [])
-        if s.type in ("services", "list"):
-            # Check item by item: one invented item must not throw away the good ones.
-            kept, first_why = [], ""
-            for item in split_top_level(value):
-                ok, why = verify_value(s, item, page_text, page_norm)
-                if ok:
-                    ok, why = value_supported(s, item, evidence, page_norm, page_stems, examples)
-                if ok:
-                    kept.append(item)
-                else:
-                    first_why = first_why or why
-                    log.debug("rejected_unverified item: %s on %s (%s): %s", s.key, url, why, item)
-            if not kept:
-                reject(first_why or "none of the items could be verified")
-                continue
-            value = "; ".join(kept)
-        else:
-            ok, why = verify_value(s, value, page_text, page_norm)
-            if ok:
-                ok, why = value_supported(s, value, evidence, page_norm, page_stems, examples)
-            if not ok:
-                reject(why)
-                continue
+        always_ok = frozenset(_sig_tokens(s.default_value)) if s.default_value else frozenset()
+
+        def check(text: str, _s=s, _pt=page_text, _pn=page_norm, _ps=page_stems, _ex=examples, _ev=evidence,
+                  _ok=always_ok) -> tuple[bool, str]:
+            ok, why = verify_value(_s, text, _pt, _pn)
+            return value_supported(_s, text, _ev, _pn, _ps, _ex, _ok) if ok else (ok, why)
+
+        # Check item by item (one invented item must not throw away the good ones), and inside each item keep
+        # what is backed by the page when only a detail is not.
+        items = [value] if s.type == "person" else split_top_level(value)
+        kept, first_why = [], ""
+        for item in items:
+            good, why = salvage(item, check, with_commas=s.type != "services")
+            if good:
+                kept.append(good)
+                if good != item:
+                    log.debug("kept part of an answer: %s on %s: %r -> %r", s.key, url, item, good)
+            else:
+                first_why = first_why or why
+                log.debug("rejected_unverified item: %s on %s (%s): %s", s.key, url, why, item)
+        if not kept:
+            reject(first_why or "none of the items could be verified")
+            continue
+        value = "; ".join(kept)
         missing_rite = _rites_in(value) - _rites_in(evidence)
         if missing_rite:
-            reject(f"Rite {'/'.join(sorted(missing_rite))} is not in the cited lines")
-            continue
+            value = drop_rites(value, missing_rite)
+            log.debug("dropped Rite %s (not in the cited lines) from %s on %s", "/".join(sorted(missing_rite)), s.key, url)
+            if not value:
+                reject(f"Rite {'/'.join(sorted(missing_rite))} is not in the cited lines")
+                continue
         value = clean_value(s, value, cfg)
+        if s.key == cfg.name_key and not looks_like_church_name(value):
+            log.debug("not a parish name, ignored: %s on %s: %r", s.key, url, value)
+            continue
+        context = " ".join(nb.text for ln in cited for nb in digest.neighbours(ln.n))
+        extra = {"verified": backed_by_evidence(s, value, context)}
+        stale = stale_hint(context + "\n" + "\n".join(digest.pages[i].title for i in pidx), today)
+        if stale:
+            extra["notes"] = [stale]
         out.candidates.append(Candidate(
             field=s.key, value=value, source_type=source_type, source_url=url, method="llm",
-            confidence=ans.confidence, evidence=evidence[:300],
-            page_rank=digest.ranks[cited[0].page],
+            confidence="low" if stale else ans.confidence, evidence=evidence[:300],
+            page_rank=digest.ranks[cited[0].page], extra=extra,
         ))
     return out
 
