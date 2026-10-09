@@ -28,6 +28,7 @@ import hashlib
 import heapq
 import json
 import re
+import shutil
 import sys
 import threading
 import time
@@ -84,6 +85,53 @@ PROBLEMS = {
 # ==================================================================================================
 # Small text helpers
 # ==================================================================================================
+class Progress:
+    """One-line progress bar with time left. The line is rebuilt for the CURRENT terminal width on every update
+    (cut to width-1, so it never wraps) and the whole line is erased first, so resizing the window can't garble it."""
+
+    def __init__(self, label: str, total: int):
+        self.label, self.total, self.done, self.start = label, max(total, 1), 0, time.monotonic()
+        self.tty, self.last = sys.stdout.isatty(), 0.0
+        self.lock = threading.Lock()
+        self.draw(force=True)
+
+    @staticmethod
+    def clock(sec: float) -> str:
+        sec = int(sec + 0.5)
+        return f"{sec // 3600}:{sec % 3600 // 60:02d}:{sec % 60:02d}" if sec >= 3600 else f"{sec // 60}:{sec % 60:02d}"
+
+    def tick(self, n: int = 1) -> None:
+        with self.lock:
+            self.done += n
+            self.draw(force=self.done >= self.total)
+
+    def draw(self, force: bool = False) -> None:
+        now = time.monotonic()
+        if now - self.last < (0.1 if self.tty else 10) and not force:
+            return
+        self.last = now
+        elapsed = now - self.start
+        eta = f"{self.clock(elapsed / self.done * (self.total - self.done))} left" if self.done else "estimating"
+        stats = f" {self.done}/{self.total} {100 * self.done // self.total}%  {eta}  ({self.clock(elapsed)} elapsed)"
+        if not self.tty:                    # a log file or pipe: a plain line now and then
+            print(f"{self.label}{stats}", flush=True)
+            return
+        cols = shutil.get_terminal_size((80, 24)).columns - 1
+        if len(self.label) + len(stats) > cols:          # narrow window: drop the elapsed time, then the label
+            stats = stats.split("  (")[0]
+        label = self.label if len(self.label) + len(stats) <= cols else self.label.split()[0][:1] + ":"
+        bar = max(0, min(30, cols - len(label) - len(stats) - 4))
+        filled = bar * self.done // self.total
+        line = f"{label} [{'█' * filled}{'░' * (bar - filled)}]{stats}" if bar >= 10 else f"{label}{stats}"
+        sys.stdout.write("\r\033[2K" + line[:cols])
+        sys.stdout.flush()
+
+    def finish(self) -> None:
+        with self.lock:
+            self.draw(force=True)
+            print() if self.tty else None
+
+
 def ws(s) -> str:
     return re.sub(r"\s+", " ", str(s or "")).strip()
 
@@ -856,7 +904,9 @@ def run(path: Path) -> int:
     listings: dict[int, list[Fact]] = {}
     sites_for: dict[int, str] = {}
     problem: dict[int, tuple[str, str, str]] = {}            # record -> (label, details, website)
+    bar = Progress("Reading Asset Map listings", len(records))
     for i, rec in enumerate(records):
+        bar.tick()
         kind, url = target_url(rec)
         if kind == "own":
             sites_for[i] = url
@@ -871,15 +921,19 @@ def run(path: Path) -> int:
                 sites_for[i] = link
         else:
             problem[i] = (kind, "Facebook pages cannot be read without logging in" if url else "", url)
+    bar.finish()
 
     # 2. Every website once, several at a time
     urls = sorted(set(sites_for.values()))
     sites: dict[str, Site] = {}
+    bar = Progress("Reading websites", len(urls))
+
+    def read(u: str) -> None:
+        sites[u] = crawl(web, u)
+        bar.tick()
     with ThreadPoolExecutor(WORKERS) as pool:
-        for n, (u, s) in enumerate(zip(urls, pool.map(lambda u: crawl(web, u), urls)), start=1):
-            sites[u] = s
-            print(f"\rReading websites {n}/{len(urls)}", end="", flush=True)
-    print()
+        list(pool.map(read, urls))
+    bar.finish()
 
     # 3. Compare
     users = Counter(sites_for.values())
