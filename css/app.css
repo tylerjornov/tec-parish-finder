@@ -222,6 +222,7 @@ html:has(.detail[open]) { overflow: hidden; }
   color: var(--muted); background: transparent; border: 1px solid var(--control); border-radius: 6px;
 }
 .detail-close:hover { color: var(--text); }
+.detail-actions { display: flex; gap: 8px; flex: none; }
 .detail-body { flex: 1; min-height: 0; overflow: auto; padding: 0 20px 20px; overflow-wrap: anywhere; }
 .detail-body h3 {
   margin: 18px 0 6px; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--acc);
