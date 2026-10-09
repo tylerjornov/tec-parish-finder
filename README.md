@@ -33,6 +33,10 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 **Data**
 - `data/parishes.json` — parish info
 - `data/schema.json` — what each field in parishes.json holds, and the choices offered in the filter dropdowns, and the short labels for list-view tags
+- `data/wip-dioceses/` — dioceses still being worked on, one folder per state
+
+**Tools**
+- `tools/format_phones.py` — rewrites every phone number in the data files as (XXX) XXX-XXXX (`--check` to preview). The site applies the same rule when it shows a number.
 
 **Images**
 - `img/compass-rose-tec.svg` — site logo and favicon
@@ -58,7 +62,8 @@ Checks the facts in `parishes.json` against each parish's website, Facebook page
   - `assetmap.py` — reads Episcopal Asset Map listings
   - `cleaner.py` — turns web pages into plain text
   - `rules.py` — finds phones, emails, addresses, and livestream links without the AI
-  - `llm.py` — asks the local AI model for the rest and checks its answers
+  - `digest.py` — boils a site down to short numbered lines for each group of fields, so the AI reads less
+  - `llm.py` — asks the local AI model for the rest (one question per group per site) and checks its answers
   - `extract.py` — collects everything found on one source
   - `merge.py` — combines all sources into one answer per field
   - `normalizers.py` — puts phones, emails, addresses, names, and lists in a comparable form
@@ -71,7 +76,7 @@ Checks the facts in `parishes.json` against each parish's website, Facebook page
 
 **Other**
 - `CNAME` — custom domain for GitHub Pages
-- `_config.yml` — GitHub Pages settings; keeps the notes, README, and COPYRIGHT off the live site
+- `_config.yml` — GitHub Pages settings; keeps the notes, README, COPYRIGHT, parish checker and tools off the live site
 - `COPYRIGHT.md` — licensing and reuse terms
 - `notes-archive/` — archived planning notes
 

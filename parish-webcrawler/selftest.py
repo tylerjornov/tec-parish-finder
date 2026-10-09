@@ -34,7 +34,7 @@ from parishcheck.comparators import compare_typed, decide_status                
 from parishcheck.config import load_config                          # noqa: E402
 from parishcheck.facebook import WALL_REASON, assess_recency, detect_wall, unwrap_fb_link  # noqa: E402
 from parishcheck.llm import (                                                    # noqa: E402
-    FieldAnswer, build_chunk, build_group_schema, evidence_in_text, is_unclear, verify_value, _keyword_regex,
+    FieldAnswer, build_group_schema, evidence_in_text, is_unclear, verify_value, _keyword_regex,
 )
 from parishcheck.merge import build_view, merge_field                            # noqa: E402
 from parishcheck.models import Candidate                                         # noqa: E402
@@ -272,18 +272,27 @@ def test_postcheck():
     check("phone invented is rejected", not verify_value(FieldSpec("p", "text"), "Call (864) 555-1111", page, pn)[0])
     check("unclear words", all(is_unclear(x) for x in ["unclear", "", "N/A", "Unknown", "not stated"]))
     check("real answer is not unclear", not is_unclear("Parking lot on site"))
-    ans = FieldAnswer.model_validate({"evidence": "x", "value": "y", "confidence": "high"})
-    check("pydantic answer", ans.confidence == "high")
+    ans = FieldAnswer.model_validate({"lines": [3, 4], "value": "y", "confidence": "high"})
+    check("pydantic answer", ans.confidence == "high" and ans.lines == [3, 4])
     schema = build_group_schema([FieldSpec("music_style", "text"), FieldSpec("parking", "text")])
-    check("schema asks for evidence, value and confidence for every field",
+    check("schema asks for lines, value and confidence for every field",
           schema["required"] == ["music_style", "parking"] and
-          list(schema["properties"]["parking"]["properties"]) == ["evidence", "value", "confidence"], str(schema))
+          list(schema["properties"]["parking"]["properties"]) == ["lines", "value", "confidence"], str(schema))
+
+    from parishcheck.digest import build_digest, page_lines
     rx = _keyword_regex(["parking", "re:\\d{1,2}\\s?[ap]\\.?m\\b"])
-    text = "x" * 3000 + " free parking here " + "y" * 3000 + " service at 10 am " + "z" * 100
-    hits = [m.start() for m in rx.finditer(text)]
-    chunk = build_chunk(text, hits, 1500, 6000)
-    check("chunk is limited", len(chunk) <= 6000 and "parking" in chunk)
-    check("no hits -> no chunk", build_chunk("hello", [], 1500, 6000) == "")
+    menu = "Home\nAbout\nFree parking behind the church"
+    a = PageDoc("https://church.org/visit", title="Visit", text="Welcome\nWe are glad you came\nService at 10 am\nCoffee after\n" + "x\n" * 20 + menu)
+    b = PageDoc("https://church.org/about", title="About", text="Our history\nFounded long ago\n" + menu)
+    dg = build_digest([(0, a), (5, b)], rx, 3500, 1)
+    texts = [ln.text for ln in dg.lines]
+    check("digest keeps keyword lines with one line of context", texts[:3] == ["We are glad you came", "Service at 10 am", "Coffee after"], str(texts))
+    check("digest shows a repeated menu/footer line only once", texts.count("Free parking behind the church") == 1 and len(dg.pages) == 1, str(texts))
+    check("digest numbers lines and labels pages", dg.text.startswith("=== Page P1: church.org/visit") and "2: Service at 10 am" in dg.text, dg.text)
+    check("digest neighbours stay on the cited page", [ln.n for ln in dg.neighbours(2)] == [1, 2, 3])
+    check("digest respects the budget", sum(len(t) for t in [ln.text for ln in build_digest([(0, a)], rx, 30, 1).lines]) <= 30)
+    check("digest: no keyword -> nothing", not build_digest([(0, b)], _keyword_regex(["choir"]), 3500, 1).lines)
+    check("long paragraphs are cut into short lines", all(len(x) <= 281 for x in page_lines(PageDoc("u", text="Word. " * 200))))
 
 
 def test_robots_and_facebook():
@@ -522,16 +531,32 @@ class FakeModel:
 
 
 def ask(model, group_fields, page_text, group="community", cfg=None):
-    from parishcheck.llm import get_group_info, run_group_on_chunk
+    """Runs the post-check on one page. The test answers quote their evidence; here each quote is turned into
+    the number of the digest line that contains it (or a line number that does not exist)."""
+    import re as _re
+    from parishcheck.digest import build_digest
+    from parishcheck.llm import get_group_info, run_group_on_digest
     cfg = cfg or tiny_config()
     cfg.style_examples = {"music_style": ["Traditional Anglican choral music, with a professional organist"],
                           "accessibility": ["Handicapped-accessible facilities"]}
     cfg.groups = {"community": {"keywords": ["music", "choir", "organ", "accessib", "wheelchair", "service", "worship"]}}
     specs = [f for f in cfg.fields if f.key in group_fields]
     info = get_group_info(cfg, group, specs)
-    return run_group_on_chunk(model, cfg, info, specs, url="https://church.org/x", title="T", chunk=page_text,
-                              page_text=page_text, page_norm=norm_for_quote_check(page_text), source_type=M.OWN_SITE,
-                              page_rank_value=0, today=date(2026, 10, 8))
+    lined = _re.sub(r"(?<=\.) ", "\n", page_text)
+    doc = PageDoc("https://church.org/x", title="T", text=lined, main_text=lined)
+    dg = build_digest([(0, doc)], _re.compile("."), 3500, 1)
+
+    def to_lines(a):
+        if not isinstance(a, dict):
+            return a
+        out = {}
+        for k, v in a.items():
+            ev = norm_for_quote_check(v.get("evidence", ""))
+            nums = [ln.n for ln in dg.lines if ev and ev in norm_for_quote_check(ln.text)] or ([99] if ev else [])
+            out[k] = {"lines": nums, "value": v["value"], "confidence": v["confidence"]}
+        return out
+    model.answers = [to_lines(a) for a in model.answers]
+    return run_group_on_digest(model, cfg, info, specs, dg, source_type=M.OWN_SITE, today=date(2026, 10, 8))
 
 
 def ans(evidence, value, conf="high"):

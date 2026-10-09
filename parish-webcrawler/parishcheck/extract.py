@@ -25,9 +25,10 @@ from .config import Config, FieldSpec
 from .crawler import CrawlResult
 from .facebook import FacebookCrawl, assess_recency, fb_rule_candidates
 from .llm import (
-    PROMPT_VERSION, GroupInfo, OllamaClient, build_chunk, disambiguate_contacts, get_group_info, keyword_hits,
-    _keyword_regex, run_group_on_chunk,
+    PROMPT_VERSION, GroupInfo, OllamaClient, disambiguate_contacts, get_group_info, keyword_hits,
+    _keyword_regex, run_group_on_digest,
 )
+from .digest import build_digest, page_lines
 from .models import Candidate
 from .normalizers import collapse_ws, norm_for_quote_check
 from .rules import extract_rule_candidates, page_rank
@@ -38,7 +39,7 @@ log = logging.getLogger("parishcheck")
 LLM_TYPES = {"person", "services", "list", "text"}
 # Bump this when the extraction/verification rules change, so saved results from older rules are redone.
 # (Saved model answers are kept, so redoing is quick.)
-EXTRACT_VERSION = "7"
+EXTRACT_VERSION = "8"
 
 
 @dataclass
@@ -54,7 +55,7 @@ def config_fingerprint(cfg: Config) -> str:
     """Changes whenever a setting that affects extraction changes, so stale results are redone."""
     blob = json.dumps({
         "v": PROMPT_VERSION, "x": EXTRACT_VERSION, "model": cfg.model, "max_pages": cfg.max_pages_per_site, "time": cfg.time_format,
-        "chunk": cfg.max_chars_per_chunk, "window": cfg.window_chars, "llm_pages": cfg.max_llm_pages_per_group,
+        "chunk": cfg.max_chars_per_chunk, "context": cfg.context_lines, "llm_pages": cfg.max_llm_pages_per_group,
         "ctx": cfg.ollama_num_ctx,
         "fields": [(f.key, f.type, f.group, f.description, f.format, f.role, f.address_part, f.default_day, f.url_kind)
                    for f in cfg.fields],
@@ -88,7 +89,8 @@ def new_result(kind: str, key: str, url: str) -> dict:
 # --------------------------------------------------------------------------------------
 def run_llm_groups(pages: list[PageDoc], source_type: str, ctx: ExtractContext, allowed_groups: Optional[list],
                    result: dict, page_notes: Optional[dict] = None) -> list[Candidate]:
-    """For each field group: pick the most promising pages, send small text windows, verify the answers."""
+    """For each field group: build one numbered digest of the matching lines across the best pages, ask the
+    model once, and verify the answers."""
     cfg = ctx.cfg
     if ctx.client is None:
         return []
@@ -102,59 +104,43 @@ def run_llm_groups(pages: list[PageDoc], source_type: str, ctx: ExtractContext, 
             continue
         seen_hash.add(h)
         unique.append(doc)
-    norms: dict[int, str] = {}
+    split_cache: dict[int, list[str]] = {}
 
-    def norm_of(doc: PageDoc) -> str:
-        k = id(doc)
-        if k not in norms:
-            norms[k] = norm_for_quote_check(doc.text)
-        return norms[k]
+    def lines_of(doc: PageDoc) -> list[str]:
+        if id(doc) not in split_cache:
+            split_cache[id(doc)] = page_lines(doc)
+        return split_cache[id(doc)]
 
     for group, specs in by_group.items():
+        if ctx.stop.is_set():
+            raise KeyboardInterrupt()
         info: GroupInfo = get_group_info(cfg, group, specs)
         rx = _keyword_regex(info.keywords)
         ranked = []
         for doc in unique:
-            # Look for keywords in the page's own content, not in the menu/footer text that repeats on every page.
+            # Rank pages by keywords in their own content, not in the menu/footer text that repeats on every page.
             hits = keyword_hits(doc.main_text or doc.text, rx)
             if hits:
-                ranked.append((page_rank(doc.final_url or doc.url, doc.title, info.url_hints), -len(hits), id(doc), doc, hits))
+                ranked.append((page_rank(doc.final_url or doc.url, doc.title, info.url_hints), -len(hits), id(doc), doc))
         ranked.sort(key=lambda r: (r[0], r[1]))
-        chosen = ranked[: info.max_pages or cfg.max_llm_pages_per_group]
-        if not chosen:
+        chosen = [(r[0], r[3]) for r in ranked[: info.max_pages or cfg.max_llm_pages_per_group]]
+        digest = build_digest(chosen, rx, cfg.max_chars_per_chunk, cfg.context_lines, page_notes, lines_of)
+        if not digest.lines:
             continue
-        group_found: dict[str, bool] = {}
-        seen_chunks: set[str] = set()
-        for rank_value, _, _, doc, hits in chosen:
-            if ctx.stop.is_set():
-                raise KeyboardInterrupt()
-            chunk = build_chunk(doc.text, hits, cfg.window_chars, cfg.max_chars_per_chunk)
-            if not chunk:
-                continue
-            chunk_hash = hashlib.sha1(norm_for_quote_check(chunk).encode()).hexdigest()
-            if chunk_hash in seen_chunks:        # exactly the same text as an earlier page: no need to ask again
-                continue
-            seen_chunks.add(chunk_hash)
-            url = doc.final_url or doc.url
-            log.info("    asking the model about '%s' on %s", group, _short(url))
-            oc = run_group_on_chunk(
-                ctx.client, cfg, info, specs, url=url, title=doc.title, chunk=chunk,
-                page_text=doc.text, page_norm=norm_of(doc), source_type=source_type, page_rank_value=rank_value,
-                today=ctx.today, cache_get=ctx.state.llm_get, cache_put=ctx.state.llm_put,
-                extra_note=(page_notes or {}).get(id(doc), ""),
-            )
-            if oc.called_model:
-                result["llm_calls"] += 1
-            if oc.from_cache:
-                result["llm_cache_hits"] += 1
-            for field_key, kind, text in oc.issues:
-                result["issues"].append([field_key, kind, text, url])
-            for c in oc.candidates:
-                out.append(c)
-                if c.confidence == "high":
-                    group_found[c.field] = True
-            if info.early_stop and all(group_found.get(s.key) for s in specs):
-                break
+        notes = list(dict.fromkeys(n for d in digest.pages if (n := (page_notes or {}).get(id(d)))))
+        log.info("    asking the model about '%s' (%d lines from %d page(s)) on %s", group, len(digest.lines),
+                 len(digest.pages), _short(digest.pages[0].final_url or digest.pages[0].url))
+        oc = run_group_on_digest(
+            ctx.client, cfg, info, specs, digest, source_type=source_type, today=ctx.today,
+            cache_get=ctx.state.llm_get, cache_put=ctx.state.llm_put, extra_note=" ".join(notes),
+        )
+        if oc.called_model:
+            result["llm_calls"] += 1
+        if oc.from_cache:
+            result["llm_cache_hits"] += 1
+        for field_key, kind, text, url in oc.issues:
+            result["issues"].append([field_key, kind, text, url])
+        out.extend(oc.candidates)
     return out
 
 

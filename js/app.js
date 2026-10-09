@@ -293,8 +293,9 @@ function milesTo(p) {
   return Number.isFinite(d) ? `${d.toFixed(1)} mi` : "";
 }
 
-// Everything the detail dialog shows, grouped. Blank and "N/A" values are
-// skipped, and so is any section left with nothing in it.
+// Everything the detail dialog shows, grouped. Blank and "N/A…" values (such
+// as "N/A - Data Not Available") are skipped, and so is any section left with
+// nothing in it.
 const DETAIL_SECTIONS = [
   ["Contact", [
     ["website", "Website", "url"],
@@ -337,7 +338,7 @@ const DETAIL_SECTIONS = [
   ["Notes & verification", [
     ["notes", "Notes"],
     ["verification_status", "Verification Status"],
-    ["date_last_updated", "Last Updated"],
+    ["date_last_updated", "Last Updated", "date"],
     ["coords", "Coordinates"],
   ]],
 ];
@@ -355,14 +356,39 @@ function cardTags(p) {
     .filter(Boolean);
 }
 
-const hasValue = (v) => v != null && v !== "" && v !== "N/A";
+const hasValue = (v) => v != null && String(v).trim() !== "" && !/^N\/A\b/i.test(String(v).trim());
+
+// Every US phone number in a string as (XXX) XXX-XXXX, whatever separators the
+// data uses ("863.665.1916", "8636651916", "+1-863-665-1916"...). Extensions
+// are kept ("ext. 18") and any other text is left alone. tools/format_phones.py
+// applies the same rule to the data files.
+const PHONE_RE = /(^|[^\w])(?:\+?1[\s.\-=/]*)?\(?(\d{3})\)?[\s.\-=/]*(\d{3})[\s.\-=/]*(\d{4})(?!\d)(?:\s*,?\s*(?:ext\.?|extension|x)\s*(\d{1,6}))?\.?/gi;
+function formatPhones(v) {
+  return String(v)
+    .replace(/[\u200b-\u200f\u202a-\u202e\u2060\ufeff]/g, "")
+    .replace(PHONE_RE, (_, pre, a, b, c, ext) => `${pre}(${a}) ${b}-${c}${ext ? ` ext. ${ext}` : ""}`)
+    .replace(/(\d{4}(?: ext\. \d+)?)\s*\/?\s*(?=\(\d{3}\) \d{3}-\d{4})/g, "$1 / ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// "2026-09-29" -> "29 Sep 2026" (read as a calendar date, so no time-zone shift).
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function formatDate(v) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(v).trim());
+  return m && +m[2] >= 1 && +m[2] <= 12 ? `${m[3]} ${MONTHS[+m[2] - 1]} ${m[1]}` : String(v);
+}
 
 function detailValue(v, kind) {
   const s = escapeHtml(v);
   if (kind === "url" && /^https?:\/\//i.test(v)) {
     return `<a href="${s}" target="_blank" rel="noopener">${s}<span class="visually-hidden"> (opens in new tab)</span></a>`;
   }
-  if (kind === "tel") return `<a href="tel:${escapeHtml(v.replace(/[^\d+]/g, ""))}">${s}</a>`;
+  // Each number gets its own link, so "(…) … or (…) …" still dials the right one.
+  if (kind === "tel") {
+    return escapeHtml(formatPhones(v)).replace(/\((\d{3})\) (\d{3})-(\d{4})/g, '<a href="tel:+1$1$2$3">$&</a>');
+  }
+  if (kind === "date") return escapeHtml(formatDate(v));
   if (kind === "email") return `<a href="mailto:${s}">${s}</a>`;
   if (kind === "list") {
     const items = v.split(/;\s*/).filter(Boolean);
@@ -377,10 +403,11 @@ let detailReturn = null;
 function openDetail(p, returnTo) {
   const miles = milesTo(p);
   // "other_contact" is normally just church phone | email; show it only if it adds something.
-  const joined = [p.church_phone, p.church_email].filter(hasValue).join(" | ");
+  const joined = [p.church_phone, p.church_email].filter(hasValue).map(formatPhones).join(" | ");
+  const other = hasValue(p.other_contact) ? formatPhones(p.other_contact) : "";
   const v = {
     ...p,
-    other_contact: p.other_contact === joined ? "" : p.other_contact,
+    other_contact: other === joined ? "" : other,
     coords: p.lat != null && p.lon != null ? `${p.lat}, ${p.lon}` : "",
   };
   $("detail-title").textContent = p.name;

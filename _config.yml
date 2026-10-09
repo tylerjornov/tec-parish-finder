@@ -5,3 +5,4 @@ exclude:
   - README.md
   - COPYRIGHT.md
   - parish-webcrawler
+  - tools

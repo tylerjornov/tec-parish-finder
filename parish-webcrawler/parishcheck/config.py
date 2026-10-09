@@ -41,9 +41,9 @@ DEFAULTS: dict[str, Any] = {
     "use_browser_fallback": True,
     "min_text_chars_before_browser": 250,
     "time_format": "12h",
-    "max_chars_per_chunk": 6000,
-    "window_chars": 1500,
-    "max_llm_pages_per_group": 4,
+    "max_chars_per_chunk": 3500,
+    "context_lines": 1,
+    "max_llm_pages_per_group": 6,
     "cache_max_age_days": 14,
     "user_agent": "Mozilla/5.0 (compatible; ParishInfoVerifier/1.0; personal low-volume parish data check; respects robots.txt)",
     "missing_markers": list(DEFAULT_MISSING_MARKERS),
@@ -112,7 +112,7 @@ class Config:
     min_text_chars_before_browser: int
     time_format: str
     max_chars_per_chunk: int
-    window_chars: int
+    context_lines: int
     max_llm_pages_per_group: int
     cache_max_age_days: int
     user_agent: str
@@ -263,8 +263,8 @@ def load_config(path: str | Path) -> Config:
     if tf not in ("12h", "24h"):
         raise ConfigError("In config.yaml, time_format must be 12h or 24h.")
 
-    for key in ("max_pages_per_site", "fetch_concurrency", "max_chars_per_chunk", "window_chars",
-                "max_llm_pages_per_group", "ollama_num_ctx", "max_crawl_depth"):
+    for key in ("max_pages_per_site", "fetch_concurrency", "max_chars_per_chunk",
+                "max_llm_pages_per_group", "context_lines", "ollama_num_ctx", "max_crawl_depth"):
         try:
             raw[key] = int(raw[key])
         except (TypeError, ValueError):
@@ -296,7 +296,7 @@ def load_config(path: str | Path) -> Config:
         min_text_chars_before_browser=int(raw["min_text_chars_before_browser"]),
         time_format=tf,
         max_chars_per_chunk=raw["max_chars_per_chunk"],
-        window_chars=raw["window_chars"],
+        context_lines=raw["context_lines"],
         max_llm_pages_per_group=raw["max_llm_pages_per_group"],
         cache_max_age_days=int(raw["cache_max_age_days"]),
         user_agent=str(raw["user_agent"]),

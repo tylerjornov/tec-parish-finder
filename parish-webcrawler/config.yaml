@@ -40,15 +40,17 @@ uncheckable_fields:
 # -----------------------------------------------------------------------------------------------------
 # 2. THE AI MODEL  (runs on your Mac through Ollama - free, private, no internet needed for the AI)
 # -----------------------------------------------------------------------------------------------------
-model: qwen2.5:3b              # small enough for an 8 GB Mac. Other choices you already have installed:
-                               #   llama3.2:3b   granite4.2:3b   phi4-mini   (change the name, save, run again)
+model: qwen2.5:3b              # small enough for an 8 GB Mac, and the most accurate small model tested (Oct 2026).
+                               # Also installed: qwen3.5:2b-q4_K_M (about 10% faster, slightly sloppier),
+                               # qwen2.5:1.5b and qwen3.5:0.8b (faster, but they mix up clergy and invent services),
+                               # llama3.2:3b  granite4.2:3b  phi4-mini   (change the name, save, run again)
 ollama_url: http://localhost:11434
 ollama_num_ctx: 6144           # how much text the model reads at once. Lower (4096) = less memory.
 ollama_timeout_seconds: 300    # give up on one model answer after this many seconds
 
-max_chars_per_chunk: 6000      # most text ever sent to the model at once
-window_chars: 1500             # the model sees about this many characters on each side of a keyword hit
-max_llm_pages_per_group: 4     # for each group of fields, ask the model about at most this many pages per site.
+max_chars_per_chunk: 3500      # most page text sent to the model in one question (one question per group of fields per site)
+context_lines: 1               # with each line that has a keyword, also show this many lines before and after it
+max_llm_pages_per_group: 6     # for each group of fields, take lines from at most this many of the site's best pages.
                                # Lower = faster but may miss things. Higher = slower but more thorough.
 
 
@@ -351,16 +353,15 @@ derived_fields:
 # 6. GROUPS  (fields asked together, and the words that make a page worth asking about)
 # -----------------------------------------------------------------------------------------------------
 # For each group the program first looks for these keywords on each page. A page with none of them is
-# skipped (no model call = faster). The model only sees ~1500 characters around the hits, never whole pages.
+# skipped. The model sees only the lines with these words (numbered, repeats removed), never whole pages,
+# and is asked once per group per site.
 #   keywords   words/prefixes (lower case). "re:..." is a regular expression.
 #   url_hints  words in a page's address/title that make it a better page for this group (first = best)
 #   instructions  extra guidance added to the model's prompt for this group
-#   early_stop    stop looking at more pages once every field in the group has a confident answer
-#   max_pages     ask the model about at most this many pages for this group (default: max_llm_pages_per_group)
-#   check_evidence_keywords  (default true) the quote the model gives must contain one of the group's keywords
+#   max_pages     take lines from at most this many pages for this group (default: max_llm_pages_per_group)
+#   check_evidence_keywords  (default true) the lines the model cites must contain one of the group's keywords
 groups:
   clergy:
-    early_stop: true
     max_pages: 3
     keywords: [rector, vicar, priest, rev., reverend, "the rev", father, fr., dean, canon, bishop, pastor, clergy, deacon, mother, "our staff", leadership]
     url_hints: [staff, clergy, leadership, who-we-are, ministers, our-team, about, contact, rector]
@@ -386,7 +387,6 @@ groups:
     instructions: >
       Report only facts about THIS church's building and grounds.
   identity:
-    early_stop: true
     max_pages: 2
     check_evidence_keywords: false     # "Bishop of X" is good evidence for a diocese, so don't insist on the keywords
     keywords: [episcopal, diocese, anglican, parish, church, "welcome to", "about us"]
