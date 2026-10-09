@@ -47,7 +47,7 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 
 **Parish checker**
 
-Checks `parishes.json` against each parish's own website with fixed rules (no AI): phones, emails, address, rector, livestream link and diocesan bishop. It never changes `parishes.json`. Double-click `run.command`; results land in `parish-webcrawler/output/`:
+Checks a parish JSON file against each parish's own website with fixed rules (no AI): phones, emails, address, rector, livestream link and diocesan bishop. It never changes the file it checks. Double-click `run.command` and pick the file (the live `parishes.json`, or a file of candidate additions); results land in `parish-webcrawler/output/`:
 
 - `corrections.json` — only the changes the websites make certain (fill a blank, or replace a value the site no longer shows), written so a script or an AI can apply them exactly
 - `Corrections.xlsx` — the same changes, for people

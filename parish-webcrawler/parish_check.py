@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """parish_check.py - checks data/parishes.json against each parish's own website, with fixed rules (no AI).
 
-Run:        double-click run.command      (or  .venv/bin/python parish_check.py [path/to/parishes.json])
+Run:        double-click run.command (asks which JSON file)   or   .venv/bin/python parish_check.py path/to/file.json
 Self-test:  .venv/bin/python parish_check.py --selftest      (offline, a few seconds)
 
 How it works
@@ -48,7 +48,6 @@ from openpyxl.styles import Alignment, Font, PatternFill
 # Settings
 # ==================================================================================================
 HERE = Path(__file__).resolve().parent
-DEFAULT_INPUT = HERE.parent / "data" / "parishes.json"
 OUT = HERE / "output"
 CACHE = OUT / ".cache"
 
@@ -1040,9 +1039,11 @@ def selftest() -> int:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Check parishes.json against parish websites (no AI).")
-    ap.add_argument("input", nargs="?", default=str(DEFAULT_INPUT), help="the parish JSON file (default: ../data/parishes.json)")
+    ap.add_argument("input", nargs="?", help="the parish JSON file to check (required; the live ../data/parishes.json is never assumed)")
     ap.add_argument("--selftest", action="store_true", help="test the rules offline and stop")
     a = ap.parse_args()
+    if not a.selftest and not a.input:
+        ap.error("name the JSON file to check, e.g.  .venv/bin/python parish_check.py path/to/file.json")
     try:
         sys.exit(selftest() if a.selftest else run(Path(a.input).expanduser()))
     except KeyboardInterrupt:

@@ -1,6 +1,6 @@
 #!/bin/bash
-# Double-click me. Checks ../data/parishes.json against the parish websites and opens the results.
-# (From Terminal you can name another file:  ./run.command path/to/file.json)
+# Double-click me. Asks which parish JSON file to check, checks it against the parish websites, opens the results.
+# (From Terminal you can name the file instead:  ./run.command path/to/file.json)
 cd "$(dirname "$0")" || exit 1
 PY=".venv/bin/python"
 LIBS="httpx>=0.27 beautifulsoup4>=4.12 openpyxl>=3.1"
@@ -13,7 +13,15 @@ if [ "$(cat .venv/.libs 2>/dev/null)" != "$LIBS" ]; then
     || { echo "Installing libraries failed. Check your internet connection."; finish 1; }
 fi
 
-"$PY" parish_check.py "${1:-../data/parishes.json}"
+# Which file to check: one named on the command line, else a file picker (never assumes the live parishes.json).
+FILE="$1"
+if [ -z "$FILE" ]; then
+  FILE=$(osascript -e 'POSIX path of (choose file with prompt "Choose the parish JSON file to check" of type {"json", "public.json"} default location (POSIX file "'"$(cd .. && pwd)"'"))' 2>/dev/null)
+  [ -n "$FILE" ] || { echo "No file chosen. Nothing was checked."; finish 0; }
+fi
+echo "Checking: $FILE"
+
+"$PY" parish_check.py "$FILE"
 RC=$?
 [ $RC -eq 0 ] && open "output/Corrections.xlsx" "output/Website Problems.xlsx"
 finish $RC
