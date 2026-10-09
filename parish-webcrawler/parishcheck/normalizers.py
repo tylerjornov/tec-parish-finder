@@ -200,7 +200,11 @@ def normalize_url(url: str, base: Optional[str] = None) -> str:
     if parts.scheme not in ("http", "https") or not parts.hostname:
         return ""
     host = parts.hostname.lower().rstrip(".")
-    port = parts.port if parts.port not in (None, 80, 443) else None
+    try:
+        port = parts.port
+    except ValueError:      # e.g. a phone link written as "http://tel:803-345-1550"
+        return ""
+    port = port if port not in (None, 80, 443) else None
     netloc = host + (f":{port}" if port else "")
     path = re.sub(r"/{2,}", "/", parts.path or "/")
     path = _INDEX_FILES.sub("/", path)

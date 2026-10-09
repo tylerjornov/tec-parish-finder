@@ -414,10 +414,11 @@ def run(cfg: Config, args) -> int:
         for src in plan.sources.values():
             if src.kind != M.OWN_SITE:
                 continue
-            if state.get_source(src.key, fp) is not None:
+            saved = state.get_source(src.key, fp)
+            if saved is not None and not str(saved.get("reason", "")).startswith("unexpected problem"):
                 progress.step(worked=False)
                 continue
-            threaded.append(src)
+            threaded.append(src)            # not done yet, or it crashed last time (a bug, so try again)
 
         pending = deque(threaded)
         inflight: dict = {}
