@@ -39,7 +39,7 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 
 **Tools**
 - `tools/format_phones.py` — rewrites every phone number in the data files as (XXX) XXX-XXXX (`--check` to preview). The site applies the same rule when it shows a number.
-- `tools/diocese-boundaries/` — builds `data/diocesan-boundaries.geojson`. Each diocese's counties are listed in `dioceses.json`; edit that, then run `npm install && npm run build` in that folder. Navajoland uses the Navajo Nation reservation outline (`navajo-nation.geojson`) instead of counties.
+- `tools/diocese-boundaries/` — builds `data/diocesan-boundaries.geojson`. Each diocese's counties are listed in `dioceses.json`; edit that, then run `npm install && npm run build` in that folder. Navajoland uses the Navajo Nation reservation outline (`navajo-nation.geojson`) instead of counties. `npm run check` then looks for overlapping dioceses, blank land between them, unexplained enclaves/exclaves, and parish pins that sit in a different diocese than the one they're listed under; known, legitimate cases are listed in `check.js` (land parts) and `parish-exceptions.json` (parishes).
 
 **Images**
 - `img/compass-rose-tec.svg` — site logo and favicon
