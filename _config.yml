@@ -4,5 +4,6 @@ exclude:
   - notes-archive
   - README.md
   - COPYRIGHT.md
+  - ACKNOWLEDGMENTS.md
   - parish-webcrawler
   - tools
