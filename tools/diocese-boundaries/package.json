@@ -1,0 +1,14 @@
+{
+  "name": "diocese-boundaries",
+  "private": true,
+  "description": "Builds data/diocesan-boundaries.geojson",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "mapshaper": "0.6.102",
+    "polylabel": "1.1.0",
+    "topojson-client": "3.1.0",
+    "us-atlas": "3.0.1"
+  }
+}

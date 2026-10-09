@@ -23,7 +23,8 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 - `acknowledgements.html` — data sources and icon artwork credits
 
 **Scripts**
-- `js/settings.js` — display settings menu (theme, contrast, motion, pin size)
+- `js/settings.js` — display settings menu (theme, contrast, motion, pin size, diocesan boundaries)
+- `js/diocesan-boundary-overlay.js` — draws the diocesan boundaries and names on the map
 - `js/nav.js` — site navigation menu
 - `js/app.js` — directory logic: filters, search, distance sorting, map, and parish detail dialog
 
@@ -33,10 +34,12 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 **Data**
 - `data/parishes.json` — parish info
 - `data/schema.json` — what each field in parishes.json holds, and the choices offered in the filter dropdowns, and the short labels for list-view tags
+- `data/diocesan-boundaries.geojson` — diocesan boundary shapes for the map overlay; built by `tools/diocese-boundaries/`, don't edit by hand
 - `data/wip-dioceses/` — dioceses still being worked on, one folder per state
 
 **Tools**
 - `tools/format_phones.py` — rewrites every phone number in the data files as (XXX) XXX-XXXX (`--check` to preview). The site applies the same rule when it shows a number.
+- `tools/diocese-boundaries/` — builds `data/diocesan-boundaries.geojson`. Each diocese's counties are listed in `dioceses.json`; edit that, then run `npm install && npm run build` in that folder. Navajoland uses the Navajo Nation reservation outline (`navajo-nation.geojson`) instead of counties.
 
 **Images**
 - `img/compass-rose-tec.svg` — site logo and favicon
