@@ -24,35 +24,20 @@
     touch.addEventListener("change", syncLabels);
 
     // Colors come from css/app.css (.diocese-shape) so they follow the theme.
-    // Boundaries not yet checked against diocesan sources are drawn dashed.
-    const style = (f) => ({
-      className: "diocese-shape",
-      weight: 1.5,
-      dashArray: f.properties.boundary_verified === false ? "5 4" : null,
-    });
+    const style = { className: "diocese-shape", weight: 1.5 };
 
-    // Label anchor: center of the largest part, so Alaska and Hawaii don't
-    // get a label out in the ocean.
-    // Dioceses whose largest part is a poor spot for the name. Hawaii's biggest piece
-    // is the Big Island, but the name belongs over the main island chain; Alaska's
-    // bounds center falls off to one side of the interior.
+    // Label anchor: the "label" point the build script stores for each diocese (a spot
+    // well inside its largest part). Hawaii's largest part is the Big Island, but the
+    // name belongs over the main island chain.
     const LABEL_AT = {
       "diocese-of-hawaii": L.latLng(20.75, -157.0),
-      "diocese-of-alaska": L.latLng(64.5, -152.0),
     };
 
     function labelPoint(l) {
-      const fixed = LABEL_AT[l.feature?.properties.diocese_id];
-      if (fixed) return fixed;
-      const parts = l.getLayers ? l.getLayers() : [l];
-      let best = null;
-      let bestArea = -1;
-      for (const p of parts) {
-        const b = p.getBounds();
-        const area = (b.getNorth() - b.getSouth()) * (b.getEast() - b.getWest());
-        if (area > bestArea) [best, bestArea] = [b, area];
-      }
-      return best.getCenter();
+      const { diocese_id: id, label } = l.feature.properties;
+      if (LABEL_AT[id]) return LABEL_AT[id];
+      if (label) return L.latLng(label[1], label[0]);
+      return l.getBounds().getCenter();
     }
 
     function load() {
@@ -65,9 +50,11 @@
           L.geoJSON(data, {
             style,
             onEachFeature: (f, l) => {
-              // Hover only: the name shows centered on the diocese, nothing on click.
+              // On hover devices the name shows while the pointer is over the diocese;
+              // on touch devices every name stays up. permanent: true either way, since
+              // Leaflet closes a non-permanent tooltip on any tap or click on the map.
               const label = L.tooltip({
-                permanent: false,
+                permanent: true,
                 direction: "center",
                 className: "diocese-label",
                 interactive: false,
