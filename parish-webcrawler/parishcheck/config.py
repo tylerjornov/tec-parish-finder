@@ -25,7 +25,6 @@ class ConfigError(Exception):
 
 # Built-in defaults: anything you leave out of config.yaml falls back to these.
 DEFAULTS: dict[str, Any] = {
-    "input_json": "parishes.json",
     "output_dir": "output",
     "id_key": "id",
     "name_key": "name",
@@ -58,7 +57,6 @@ DEFAULTS: dict[str, Any] = {
     "special_sources": {},
     "source_priority": ["own_site", "facebook", "asset_map"],
     "uncheckable_fields": ["id", "lat", "lon", "asa", "notes", "verification_status", "date_last_updated"],
-    "date_updated_key": "date_last_updated",
     "fields": [],
     "derived_fields": {},
     "groups": {},
@@ -97,7 +95,6 @@ class FieldSpec:
 class Config:
     raw: dict
     base_dir: Path
-    input_json: Path
     output_dir: Path
     id_key: str
     name_key: str
@@ -127,12 +124,12 @@ class Config:
     special_sources: dict
     source_priority: list
     uncheckable_fields: list
-    date_updated_key: str
     fields: list
     derived_fields: dict
     groups: dict
     style_examples: dict = field(default_factory=dict)
     facebook_enabled: bool = True
+    input_json: Optional[Path] = None     # set from --input (the file chosen in run.command)
 
     # ---- convenience --------------------------------------------------------------------
     def get_field(self, key: str) -> Optional[FieldSpec]:
@@ -149,8 +146,13 @@ class Config:
         return out
 
     @property
+    def work_dir(self) -> Path:
+        """Hidden folder for the log, saved progress and page cache, so output/ shows only the Excel file."""
+        return self.output_dir / ".work"
+
+    @property
     def cache_dir(self) -> Path:
-        return self.output_dir / "cache"
+        return self.work_dir / "cache"
 
     def special(self, domain_key: str) -> dict:
         return self.special_sources.get(domain_key, {})
@@ -180,7 +182,7 @@ def _default_role(key: str) -> str:
     return "rector" if re.search(r"rector|vicar|priest|clergy|pastor|dean", key, re.I) else "church"
 
 
-def load_config(path: str | Path, overrides: Optional[dict] = None) -> Config:
+def load_config(path: str | Path) -> Config:
     path = Path(path).expanduser()
     if not path.exists():
         raise ConfigError(f"I can't find the settings file: {path}\nMake sure config.yaml is in the same folder as scraper.py.")
@@ -197,8 +199,6 @@ def load_config(path: str | Path, overrides: Optional[dict] = None) -> Config:
     raw = dict(DEFAULTS)
     for k, v in user.items():
         raw[k] = v
-    if overrides:
-        raw.update({k: v for k, v in overrides.items() if v is not None})
     base_dir = path.resolve().parent
 
     # ---- special sources: merge user settings over built-in defaults ----
@@ -273,13 +273,12 @@ def load_config(path: str | Path, overrides: Optional[dict] = None) -> Config:
     raw["fetch_concurrency"] = max(1, raw["fetch_concurrency"])
     raw["max_pages_per_site"] = max(1, raw["max_pages_per_site"])
 
-    # Facebook can be switched off from config (mode: skip) or with --no-facebook.
+    # Facebook can be switched off from config (mode: skip).
     fb_mode = str((special.get("facebook.com") or {}).get("mode", "best_effort")).lower()
 
     cfg = Config(
         raw=raw,
         base_dir=base_dir,
-        input_json=_resolve(base_dir, raw["input_json"]),
         output_dir=_resolve(base_dir, raw["output_dir"]),
         id_key=raw["id_key"],
         name_key=raw["name_key"],
@@ -309,7 +308,6 @@ def load_config(path: str | Path, overrides: Optional[dict] = None) -> Config:
         special_sources=special,
         source_priority=[str(s) for s in raw["source_priority"]],
         uncheckable_fields=list(raw.get("uncheckable_fields") or []),
-        date_updated_key=str(raw.get("date_updated_key") or ""),
         fields=fields,
         derived_fields=raw.get("derived_fields") or {},
         groups=raw.get("groups") or {},

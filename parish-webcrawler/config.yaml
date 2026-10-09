@@ -1,5 +1,5 @@
 # =====================================================================================================
-#  config.yaml  -  the ONLY file you need to edit.
+#  config.yaml  -  advanced settings. You normally never need to edit this file.
 # =====================================================================================================
 #  * Lines that start with # are notes for you; the tool ignores them.
 #  * Settings look like   name: value   . Keep the colon and the space after it.
@@ -7,18 +7,17 @@
 #    keep them lined up exactly as they are now.
 #  * If you break something, the tool tells you in plain words which line to fix.
 #
-#  To use a differently-named JSON file, change the first block ("Your data") and the `fields:` table.
+#  The parish JSON file is chosen each time you run run.command. If its columns are named differently,
+#  change the first block ("Your data") and the `fields:` table.
 # =====================================================================================================
 
 
 # -----------------------------------------------------------------------------------------------------
 # 1. YOUR DATA
 # -----------------------------------------------------------------------------------------------------
-input_json: ../data/parishes.json   # your parish file. This folder sits inside tec-parish-finder, so ../data/ is the repo's data folder.
-                                     # It is only read, never changed. If you move this folder, change this line (a full path also works).
-output_dir: output             # where every result file goes (created for you)
+output_dir: output             # where the results file goes (created for you)
 
-id_key: id                     # which JSON key uniquely names a parish (used in the reports and by --only)
+id_key: id                     # which JSON key uniquely names a parish (used in the results)
 name_key: name                 # which key holds the parish name
 website_key: website           # which key holds the web address to check (church site, Facebook, or Asset Map)
 
@@ -36,10 +35,6 @@ uncheckable_fields:
   - notes
   - verification_status
   - date_last_updated
-
-# When proposed_updates.json changes a record, this key gets today's date (ISO, like 2026-10-08).
-# Leave it empty ("") if you don't want any date written.
-date_updated_key: date_last_updated
 
 
 # -----------------------------------------------------------------------------------------------------
@@ -167,7 +162,6 @@ source_priority:               # when two sources disagree, the one listed FIRST
 special_sources:
   facebook.com:
     # best_effort = look at public pages while logged out, very gently.  skip = never touch Facebook.
-    # (You can also turn it off for one run with --no-facebook.)
     # The tool NEVER logs in, NEVER solves CAPTCHAs and stops at any login wall.
     mode: best_effort
     max_pages: 5               # at most this many Facebook pages per parish

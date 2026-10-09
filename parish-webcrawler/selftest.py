@@ -13,7 +13,6 @@ keeps unknown keys and key order.
 
 from __future__ import annotations
 
-import copy
 import json
 import sys
 import tempfile
@@ -44,7 +43,7 @@ from parishcheck.normalizers import (                                           
     norm_for_quote_check, normalize_url, parse_person, persons_match, phone_digits, role_is_parish_clergy,
     split_city_state, url_key,
 )
-from parishcheck.report import build_proposed, compare_record                    # noqa: E402
+from parishcheck.report import compare_record                                    # noqa: E402
 from parishcheck.robots import RobotsRules                                       # noqa: E402
 from parishcheck.rules import extract_rule_candidates, find_addresses, label_role  # noqa: E402
 from parishcheck.times import (                                                  # noqa: E402
@@ -386,13 +385,11 @@ def test_cleaner_rules_merge():
 
 def tiny_config():
     yaml_text = """
-input_json: parishes.json
 output_dir: out_test
 id_key: id
 name_key: name
 website_key: website
 uncheckable_fields: [id, lat, notes, date_last_updated]
-date_updated_key: date_last_updated
 fields:
   - {key: name, type: text, group: identity, description: "name"}
   - {key: website, type: url, group: contact, url_kind: website, description: "site"}
@@ -502,44 +499,6 @@ def test_merge_and_rows():
     rj = result(M.OWN_SITE, [], issues=[["parking", "rejected_unverified", "quote not found", "https://church.org/x"]])
     v4 = build_view(rec, cfg, [rj])
     check("issues recorded", "parking" in v4.issues)
-
-
-def test_json_round_trip_and_proposals():
-    cfg = tiny_config()
-    original = [
-        {"id": "a1", "zeta_extra": [1, 2], "name": "St. A", "website": "https://church.org", "church_phone": "N/A - Data Not Available",
-         "church_email": "", "unknown_key": {"keep": True}, "date_last_updated": "2020-01-01", "verification_status": "verified",
-         "sunday_services": "8:00 AM Eucharist", "other_contact": "N/A - Data Not Available", "rite": "N/A - Data Not Available"},
-        {"id": "b2", "name": "St. B", "website": "", "church_phone": "N/A - Data Not Available"},
-    ]
-    snapshot = copy.deepcopy(original)
-    rows_a = [
-        _row("church_phone", M.SITE_ONLY, "(864) 235-5884", "high"),
-        _row("church_email", M.SITE_ONLY, "office@church.org", "high"),
-        _row("sunday_services", M.DISCREPANCY, "9:00 AM Eucharist", "high"),
-        _row("music_style", M.UNCLEAR, "Gospel band", "low"),
-    ]
-    out, changed = build_proposed(original, {0: rows_a, 1: []}, cfg, date(2026, 10, 8))
-    check("input list untouched", original == snapshot)
-    check("key order preserved", list(out[0].keys())[:6] == ["id", "zeta_extra", "name", "website", "church_phone", "church_email"], str(list(out[0].keys())))
-    check("unknown keys preserved", out[0]["zeta_extra"] == [1, 2] and out[0]["unknown_key"] == {"keep": True})
-    check("SITE_ONLY filled", out[0]["church_phone"] == "(864) 235-5884" and out[0]["church_email"] == "office@church.org")
-    check("DISCREPANCY not applied by default", out[0]["sunday_services"] == "8:00 AM Eucharist")
-    check("UNCLEAR rows are never written to the proposal", "music_style" not in out[0])
-    check("verification_status untouched", out[0]["verification_status"] == "verified")
-    check("date set on changed record only", out[0]["date_last_updated"] == "2026-10-08" and "date_last_updated" not in out[1])
-    check("other_contact recomputed", out[0]["other_contact"] == "(864) 235-5884 | office@church.org", out[0]["other_contact"])
-    check("changed count", changed == 1)
-    out2, _ = build_proposed(original, {0: rows_a}, cfg, date(2026, 10, 8), apply_discrepancies=True)
-    check("--apply-discrepancies overwrites", out2[0]["sunday_services"] == "9:00 AM Eucharist")
-    rec_r = [{"id": "r1", "name": "R", "website": "x", "sunday_services": "N/A - Data Not Available", "rite": "N/A - Data Not Available",
-              "church_phone": "N/A - Data Not Available", "church_email": "N/A - Data Not Available", "other_contact": "N/A - Data Not Available"}]
-    out3, _ = build_proposed(rec_r, {0: [_row("sunday_services", M.SITE_ONLY, "8:00 AM Holy Eucharist, Rite I", "high")]}, cfg, date(2026, 10, 8))
-    check("rite recomputed when the services text changes", out3[0]["rite"] == "I", str(out3[0]))
-    check("other_contact untouched when its inputs did not change", out3[0]["other_contact"] == "N/A - Data Not Available")
-    # full JSON round trip (what gets written to disk)
-    text = json.dumps(out, ensure_ascii=False, indent=2)
-    check("JSON round trip", json.loads(text) == out and list(json.loads(text)[0].keys()) == list(out[0].keys()))
 
 
 def _row(field, status, site_value, conf):
@@ -667,12 +626,25 @@ def test_files_and_encoding():
         check("missing file gives a friendly error", False)
     except ConfigError as exc:
         check("missing file gives a friendly error", "can't find" in str(exc))
-    from parishcheck.report import write_report_csvs, Row
+    from parishcheck.report import write_excel, Row
+    from openpyxl import load_workbook
     cfg.output_dir = d / "out"
-    p1, p2 = write_report_csvs(cfg, [Row("1", "Iglesia San José", "name", M.DISCREPANCY, "a", "b"), Row("2", "A Church", "name", M.CORRECT, "a", "a")])
-    import csv
-    rows = list(csv.DictReader(open(p2, encoding="utf-8-sig")))
-    check("needs_review has only review statuses, accents intact", len(rows) == 1 and rows[0]["name"] == "Iglesia San José")
+    rows = [Row("1", "Iglesia San José", "name", M.DISCREPANCY, "a", "b", source_url="https://sanjose.org/about"),
+            Row("1", "Iglesia San José", "city", M.SITE_ONLY, "", "=Greenville\x01"),
+            Row("2", "A Church", "name", M.CORRECT, "a", "a")]
+    summary = [{"id": "1", "name": "Iglesia San José", "website": "https://sanjose.org", "pages_crawled": 3, "cap_hit": False,
+                "counts": {M.DISCREPANCY: 1, M.SITE_ONLY: 1}, "notes": "", "pdfs": ["https://sanjose.org/bulletin.pdf"]}]
+    path = write_excel(cfg, rows, summary)
+    check("only one file in the output folder", [p.name for p in cfg.output_dir.iterdir() if not p.name.startswith(".")] == [path.name])
+    wb = load_workbook(path)
+    check("workbook sheets", wb.sheetnames == ["To review", "Summary", "All checks", "Key"], str(wb.sheetnames))
+    rv = wb["To review"]
+    check("To review has only review rows, accents intact", rv.max_row == 3 and rv["A2"].value == "Iglesia San José", str(rv.max_row))
+    check("plain-English problem label", rv["C2"].value == "Different on website", str(rv["C2"].value))
+    check("source is a clickable link", rv["G2"].hyperlink is not None and rv["G2"].hyperlink.target == "https://sanjose.org/about")
+    check("site text starting with = is not a formula", rv["E3"].value == "=Greenville" and rv["E3"].data_type == "s", repr(rv["E3"].value))
+    check("All checks has every row", wb["All checks"].max_row == 4)
+    check("summary lists PDFs", "bulletin.pdf" in (wb["Summary"]["G2"].value or ""))
 
 
 def test_record_selection():
@@ -682,8 +654,8 @@ def test_record_selection():
             {"id": "grace-1", "name": "Grace Church", "website": "https://b.org"},
             {"id": "grace-2", "name": "Grace Two", "website": "https://b.org/x"},
             {"id": "ch-3", "name": "Christ", "website": "https://www.facebook.com/christchurch"}]
-    check("--only matches id or name substring (any case)", select_indices(recs, cfg, "ANDREWS", None) == [0] and select_indices(recs, cfg, "grace", None) == [1, 2])
-    check("--limit-sites counts distinct websites", select_indices(recs, cfg, None, 2) == [0, 1, 2], str(select_indices(recs, cfg, None, 2)))
+    check("--only matches id or name substring (any case)", select_indices(recs, cfg, "ANDREWS") == [0] and select_indices(recs, cfg, "grace") == [1, 2])
+    check("no --only selects everything", select_indices(recs, cfg, None) == [0, 1, 2, 3])
 
 
 # --------------------------------------------------------------------------------------------------

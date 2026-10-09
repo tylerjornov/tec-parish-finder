@@ -98,23 +98,11 @@ body.app { display: flex; flex-direction: column; }
 .meta { color: var(--muted); font-size: 0.8125rem; }
 .card-site { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .list-empty { display: grid; place-items: center; min-height: 100%; margin: 0; padding: 16px 14px; text-align: center; color: var(--muted); }
-/* Card tags shaped like a clothes tag: a pointed left end with a punched hole.
-   The outline is the tag's own background, the fill a ::before 1px inside it,
-   and the hole is cut through both with a mask so the card shows through. */
+/* Card tags: rounded bubbles in the accent colours. */
 .tags { display: flex; flex-wrap: wrap; gap: 4px 6px; margin: 6px 0 0; padding: 0; list-style: none; }
 .tag {
-  position: relative; isolation: isolate; padding: 1px 8px 1px 17px; font-size: 0.8125rem; color: var(--acc);
-  background: var(--acc-line); clip-path: polygon(9px 0, 100% 0, 100% 100%, 9px 100%, 0 50%);
-  -webkit-mask: radial-gradient(circle at 8px 50%, transparent 2px, #000 2.5px);
-  mask: radial-gradient(circle at 8px 50%, transparent 2px, #000 2.5px);
-}
-.tag::before {
-  content: ""; position: absolute; inset: 1px; z-index: -1; background: var(--acc-bg);
-  clip-path: polygon(8.5px 0, 100% 0, 100% 100%, 8.5px 100%, 0 50%);
-}
-.tag::after {
-  content: ""; position: absolute; left: 4.5px; top: 50%; width: 7px; height: 7px; transform: translateY(-50%);
-  border: 1px solid var(--acc-line); border-radius: 50%;
+  padding: 1px 8px; border: 1px solid var(--acc-line); border-radius: 99px;
+  font-size: 0.8125rem; color: var(--acc); background: var(--acc-bg);
 }
 #map { height: 100%; min-height: 400px; min-width: 0; }
 .leaflet-control-attribution a { text-decoration: underline; }
@@ -180,9 +168,7 @@ body.app { display: flex; flex-direction: column; }
   .view-toggle span.on { text-decoration: underline; }
   .leaflet-container .leaflet-control-attribution { background: Canvas; color: CanvasText; }
   .leaflet-container .leaflet-control-attribution a { color: LinkText; }
-  .tag { forced-color-adjust: none; color: CanvasText; background: CanvasText; }
-  .tag::before { background: Canvas; }
-  .tag::after { border-color: CanvasText; }
+  .tag { border-color: CanvasText; }
 }
 /* Parish search: a panel in the middle of the screen; at the top on phones. */
 .search-dlg {

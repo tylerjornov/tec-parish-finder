@@ -7,3 +7,4 @@ lxml>=5.0
 rapidfuzz>=3.6
 pydantic>=2.5
 playwright>=1.45
+openpyxl>=3.1

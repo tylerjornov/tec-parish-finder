@@ -35,8 +35,8 @@ FB_NOTICE = (
     "NOTE ABOUT FACEBOOK: Facebook's terms of use restrict automated collection of its pages. For parishes whose\n"
     "website is a Facebook page, this tool looks only at public pages while logged out, in very low volume (at\n"
     "most 5 pages per Facebook page, 5 seconds apart), and in a best-effort way. It never logs in, never solves\n"
-    "CAPTCHAs, and stops the moment it meets a login wall or block. To switch this off, run with --no-facebook\n"
-    "or set mode: skip under facebook.com in config.yaml."
+    "CAPTCHAs, and stops the moment it meets a login wall or block. To switch this off, set mode: skip under\n"
+    "facebook.com in config.yaml."
 )
 
 _STRONG_WALL = (

@@ -1,27 +1,26 @@
-"""Comparing each record to what was found, and writing the output files.
+"""Comparing each record to what was found, and writing the results workbook.
 
 compare_record()   -> one row per field with a status (CORRECT, DISCREPANCY, ...)
-write_*()          -> verification_report.csv, needs_review.csv, verification_summary.csv,
-                      proposed_updates.json, results_raw.json, pdfs_found.txt
+write_excel()      -> output/Parish Check Results.xlsx  (the only output file)
 """
 
 from __future__ import annotations
 
-import copy
-import csv
-import json
 import logging
 from collections import Counter
 from dataclasses import asdict, dataclass
-from datetime import date
 from pathlib import Path
-from typing import Optional
+
+from openpyxl import Workbook
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
+from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from openpyxl.utils import get_column_letter
 
 from . import models as M
 from .comparators import StatusResult, compare_typed, decide_status
 from .config import Config, FieldSpec
-from .merge import KIND_LABEL, RecordView
-from .normalizers import collapse_ws, derive_rite, is_missing
+from .merge import RecordView
+from .normalizers import is_missing
 
 log = logging.getLogger("parishcheck")
 
@@ -158,107 +157,6 @@ def _issue_reason(issues: list[str]) -> str:
     return "the model could not give a readable answer for this field"
 
 
-# --------------------------------------------------------------------------------------
-# Writing files
-# --------------------------------------------------------------------------------------
-def _write_csv(path: Path, header: list[str], rows: list[list]) -> None:
-    with open(path, "w", newline="", encoding="utf-8-sig") as fh:   # utf-8-sig so Excel/Numbers show accents correctly
-        w = csv.writer(fh)
-        w.writerow(header)
-        w.writerows(rows)
-
-
-def write_report_csvs(cfg: Config, rows: list[Row]) -> tuple[Path, Path]:
-    out = cfg.output_dir
-    out.mkdir(parents=True, exist_ok=True)
-    p1 = out / "verification_report.csv"
-    _write_csv(p1, REPORT_COLUMNS, [r.as_list() for r in rows])
-    review = [r for r in rows if r.status in M.REVIEW_STATUSES]
-    review.sort(key=lambda r: ((r.name or "").casefold(), str(r.id)))
-    p2 = out / "needs_review.csv"
-    _write_csv(p2, REPORT_COLUMNS, [r.as_list() for r in review])
-    return p1, p2
-
-
-def write_summary_csv(cfg: Config, summary: list[dict]) -> Path:
-    header = ["id", "name", "sources_used", "pages_crawled", "page_cap_hit"] + M.ALL_STATUSES + ["notes"]
-    body = []
-    for s in summary:
-        counts = s["counts"]
-        body.append([s["id"], s["name"], s["sources_used"], s["pages_crawled"], "yes" if s["cap_hit"] else "no"]
-                    + [counts.get(st, 0) for st in M.ALL_STATUSES] + [s["notes"]])
-    p = cfg.output_dir / "verification_summary.csv"
-    _write_csv(p, header, body)
-    return p
-
-
-def write_pdfs(cfg: Config, pdfs: dict[str, list[str]]) -> Path:
-    p = cfg.output_dir / "pdfs_found.txt"
-    lines = []
-    for site, urls in pdfs.items():
-        for u in urls:
-            lines.append(f"{site}\t{u}")
-    p.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
-    return p
-
-
-def write_raw(cfg: Config, payload: dict) -> Path:
-    p = cfg.output_dir / "results_raw.json"
-    p.write_text(json.dumps(payload, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
-    return p
-
-
-# --------------------------------------------------------------------------------------
-# proposed_updates.json  (same structure and key order as the input)
-# --------------------------------------------------------------------------------------
-def build_proposed(records: list[dict], rows_by_index: dict[int, list[Row]], cfg: Config, today: date,
-                   apply_discrepancies: bool = False) -> tuple[list[dict], int]:
-    """A copy of the input in which only SITE_ONLY fields are filled (and DISCREPANCY fields too, if asked).
-    Returns (new records, number of changed records).  The input list is never modified."""
-    out = copy.deepcopy(records)
-    changed_records = 0
-    allowed = {M.SITE_ONLY} | ({M.DISCREPANCY} if apply_discrepancies else set())
-    derived = cfg.derived_fields or {}
-    for idx, rec in enumerate(out):
-        rows = rows_by_index.get(idx)
-        if not rows:
-            continue
-        changed: set[str] = set()
-        for r in rows:
-            spec = cfg.get_field(r.field)
-            if spec is None or r.status not in allowed or not r.site_value or r.reason:
-                continue
-            if rec.get(r.field) != r.site_value:
-                rec[r.field] = r.site_value           # existing key keeps its position; a new key goes at the end
-                changed.add(r.field)
-        if not changed:
-            continue
-        # Recompute the derived fields when their inputs changed.
-        for key, how in derived.items():
-            how = how or {}
-            if "from" in how and changed & set(how["from"]) and key not in changed:
-                sep = how.get("separator", " | ")
-                parts = [str(rec.get(k)) for k in how["from"] if not is_missing(rec.get(k), cfg.missing_markers)]
-                new = sep.join(parts)
-                if new and rec.get(key) != new:
-                    rec[key] = new
-            if "from_services" in how and changed & set(how["from_services"]) and key not in changed:
-                r_ = derive_rite(*[str(rec.get(k) or "") for k in how["from_services"]
-                                   if not is_missing(rec.get(k), cfg.missing_markers)])
-                if r_ and rec.get(key) != r_:
-                    rec[key] = r_
-        if cfg.date_updated_key:
-            rec[cfg.date_updated_key] = today.isoformat()
-        changed_records += 1
-    return out, changed_records
-
-
-def write_proposed(cfg: Config, proposed: list[dict]) -> Path:
-    p = cfg.output_dir / "proposed_updates.json"
-    p.write_text(json.dumps(proposed, ensure_ascii=False, indent=2), encoding="utf-8")
-    return p
-
-
 def summarize_record(rid: str, name: str, view: RecordView, rows: list[Row]) -> dict:
     counts = Counter(r.status for r in rows)
     notes = list(dict.fromkeys(n for n in view.notes if n))
@@ -272,3 +170,163 @@ def summarize_record(rid: str, name: str, view: RecordView, rows: list[Row]) -> 
         "pages_crawled": view.pages_crawled, "cap_hit": view.cap_hit, "counts": dict(counts),
         "notes": " ; ".join(notes)[:900],
     }
+
+
+# --------------------------------------------------------------------------------------
+# The results workbook
+# --------------------------------------------------------------------------------------
+RESULTS_NAME = "Parish Check Results"
+
+# status -> (plain-English label, fill colour, what it means)
+STATUS_STYLE = {
+    M.DISCREPANCY:   ("Different on website", "F8D7D5", "Your data and the website both have a value, and they differ."),
+    M.PARTIAL:       ("Partly matches", "FCE8C3", "Some items match and some don't. The notes list which."),
+    M.SITE_ONLY:     ("Missing from your data", "D6E6FA", "The website has it, but your data is blank. 'Website says' is the value to add."),
+    M.JSON_ONLY:     ("Not found on website", "E8DEF5", "Your data has it, but the website doesn't mention it. It may be out of date."),
+    M.UNCLEAR:       ("Couldn't tell", "E7E7E7", "The tool could not decide. The notes say why."),
+    M.CORRECT:       ("Matches", "DCEFD9", "Your data matches the website."),
+    M.BOTH_MISSING:  ("Missing in both", "FFFFFF", "Neither your data nor the website has it."),
+    M.NOT_CHECKABLE: ("Not checked", "FFFFFF", "A field this tool skips (id, lat, lon, notes...)."),
+}
+
+_HEADER_FILL = PatternFill("solid", fgColor="2F3E4E")
+_HEADER_FONT = Font(bold=True, color="FFFFFF")
+_WRAP = Alignment(wrap_text=True, vertical="top")
+_GROUP_TOP = Border(top=Side(style="medium", color="7F8C99"))
+_GREY = Font(color="9AA3AD")
+_BOLD = Font(bold=True)
+_LINK = Font(color="1F5FBF", underline="single")
+
+
+def _label(field_key: str) -> str:
+    return field_key.replace("_", " ").strip().capitalize()
+
+
+def _clean(v) -> str:
+    v = ILLEGAL_CHARACTERS_RE.sub("", _fmt(v))
+    return v[:32000]
+
+
+def _set(ws, row: int, col: int, value, font=None, fill=None):
+    c = ws.cell(row=row, column=col)
+    text = _clean(value)
+    c.value = text
+    if text.startswith("="):
+        c.data_type = "s"           # never let Excel treat site text as a formula
+    c.alignment = _WRAP
+    if font is not None:
+        c.font = font
+    if fill is not None:
+        c.fill = fill
+    return c
+
+
+def _link(ws, row: int, col: int, url: str, fill=None):
+    c = _set(ws, row, col, url, fill=fill)
+    if url.startswith(("http://", "https://")):
+        c.hyperlink = url
+        c.font = _LINK
+    return c
+
+
+def _sheet(wb, title: str, headers: list[str], widths: list[int]):
+    ws = wb.create_sheet(title)
+    for i, (h, w) in enumerate(zip(headers, widths), start=1):
+        c = ws.cell(row=1, column=i, value=h)
+        c.fill, c.font = _HEADER_FILL, _HEADER_FONT
+        c.alignment = Alignment(vertical="center")
+        ws.column_dimensions[get_column_letter(i)].width = w
+    ws.freeze_panes = "B2"
+    ws.row_dimensions[1].height = 22
+    return ws
+
+
+def _notes(r: Row) -> str:
+    return "; ".join(x for x in (r.reason, r.detail) if x)
+
+
+def _check_rows(ws, rows: list[Row], extra) -> None:
+    """Rows grouped by parish: the first row of each parish is bold with a line above it."""
+    prev = None
+    for n, r in enumerate(rows, start=2):
+        label, colour, _ = STATUS_STYLE.get(r.status, (r.status, "FFFFFF", ""))
+        fill = PatternFill("solid", fgColor=colour)
+        first = (r.id != prev)
+        prev = r.id
+        _set(ws, n, 1, r.name or r.id, font=_BOLD if first else _GREY)
+        _set(ws, n, 2, _label(r.field))
+        _set(ws, n, 3, label, fill=fill, font=_BOLD)
+        _set(ws, n, 4, r.json_value)
+        _set(ws, n, 5, r.site_value)
+        _set(ws, n, 6, _notes(r))
+        _link(ws, n, 7, r.source_url)
+        for i, v in enumerate(extra(r), start=8):
+            _set(ws, n, i, v)
+        if first and n > 2:
+            for col in range(1, ws.max_column + 1):
+                ws.cell(row=n, column=col).border = _GROUP_TOP
+    if rows:
+        ws.auto_filter.ref = f"A1:{get_column_letter(ws.max_column)}{len(rows) + 1}"
+
+
+def _by_parish(rows: list[Row]) -> list[Row]:
+    order = {st: i for i, st in enumerate(STATUS_STYLE)}
+    return sorted(rows, key=lambda r: ((r.name or "").casefold(), str(r.id), order.get(r.status, 99)))
+
+
+def write_excel(cfg: Config, rows: list[Row], summary: list[dict]) -> Path:
+    """Write output/Parish Check Results.xlsx and return its path."""
+    wb = Workbook()
+    wb.remove(wb.active)
+    cols = ["Parish", "Field", "Problem", "Your data", "Website says", "Notes", "Source page"]
+    widths = [30, 18, 22, 40, 40, 45, 35]
+
+    review = _by_parish([r for r in rows if r.status in M.REVIEW_STATUSES])
+    ws = _sheet(wb, "To review", cols, widths)
+    _check_rows(ws, review, lambda r: [])
+
+    ws = _sheet(wb, "Summary", ["Parish", "Website", "To review", "Matches", "Couldn't tell", "Pages read", "Notes"],
+                [34, 35, 11, 10, 13, 11, 70])
+    review_fill = PatternFill("solid", fgColor=STATUS_STYLE[M.DISCREPANCY][1])
+    ok_fill = PatternFill("solid", fgColor=STATUS_STYLE[M.CORRECT][1])
+    for n, s in enumerate(sorted(summary, key=lambda s: (s["name"] or "").casefold()), start=2):
+        c = s["counts"]
+        to_review = sum(c.get(st, 0) for st in M.REVIEW_STATUSES)
+        notes = s["notes"]
+        if s.get("pdfs"):
+            notes = (notes + " ; " if notes else "") + "PDFs found (not read): " + ", ".join(s["pdfs"][:10])
+        _set(ws, n, 1, s["name"] or s["id"], font=_BOLD)
+        _link(ws, n, 2, s.get("website", ""))
+        ws.cell(row=n, column=3, value=to_review).fill = review_fill if to_review else ok_fill
+        ws.cell(row=n, column=4, value=c.get(M.CORRECT, 0))
+        ws.cell(row=n, column=5, value=c.get(M.UNCLEAR, 0))
+        ws.cell(row=n, column=6, value=s["pages_crawled"])
+        _set(ws, n, 7, notes)
+    if summary:
+        ws.auto_filter.ref = f"A1:G{len(summary) + 1}"
+
+    ws = _sheet(wb, "All checks", cols[:2] + ["Result"] + cols[3:] + ["Found by", "Confidence", "Evidence (words on the page)"],
+                widths + [10, 12, 60])
+    _check_rows(ws, _by_parish(rows), lambda r: [r.method, r.confidence, r.evidence])
+
+    ws = _sheet(wb, "Key", ["Label", "What it means"], [26, 90])
+    ws.freeze_panes = "A2"
+    for n, (label, colour, meaning) in enumerate(STATUS_STYLE.values(), start=2):
+        _set(ws, n, 1, label, font=_BOLD, fill=PatternFill("solid", fgColor=colour))
+        _set(ws, n, 2, meaning)
+    n = len(STATUS_STYLE) + 3
+    for line in ("'To review' lists only the rows that need a look. 'All checks' has every field of every parish.",
+                 "Your JSON file was not changed. Edit it yourself using 'Website says' and the source page link.",
+                 "The AI makes mistakes: treat this as a to-do list, and check the source page before changing anything."):
+        _set(ws, n, 1, line)
+        ws.merge_cells(start_row=n, start_column=1, end_row=n, end_column=2)
+        n += 1
+
+    cfg.output_dir.mkdir(parents=True, exist_ok=True)
+    path = cfg.output_dir / f"{RESULTS_NAME}.xlsx"
+    try:
+        wb.save(path)
+    except PermissionError:             # the old results are open in Excel
+        path = cfg.output_dir / f"{RESULTS_NAME} (new).xlsx"
+        wb.save(path)
+    return path

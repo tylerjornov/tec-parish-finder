@@ -1,4 +1,4 @@
-"""The whole run, start to finish: load -> plan -> (dry run | crawl + extract) -> compare -> write files."""
+"""The whole run, start to finish: load -> plan -> crawl + extract -> compare -> write the Excel file."""
 
 from __future__ import annotations
 
@@ -7,37 +7,29 @@ import logging
 import sys
 import threading
 import time
-from collections import Counter, deque
+from collections import deque
 from concurrent.futures import ThreadPoolExecutor, wait, FIRST_COMPLETED
 from dataclasses import dataclass, field
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
-from typing import Optional
 
 from . import models as M
-from .assetmap import AssetMapListing, parse_listing
+from .assetmap import parse_listing
 from .config import Config, ConfigError
-from .crawler import CrawlResult, crawl_site
+from .crawler import crawl_site
 from .extract import (
-    ExtractContext, config_fingerprint, extract_asset_map, extract_facebook, extract_own_site, llm_specs_by_group,
-    new_result,
+    ExtractContext, config_fingerprint, extract_asset_map, extract_facebook, extract_own_site, new_result,
 )
-from .facebook import FB_NOTICE, WALL_REASON, crawl_facebook
+from .facebook import FB_NOTICE, crawl_facebook
 from .fetcher import Fetcher, StopRequested
-from .llm import (
-    GroupInfo, OllamaClient, OllamaUnavailable, build_chunk, get_group_info, run_group_on_chunk, _keyword_regex,
-    keyword_hits,
-)
+from .llm import OllamaClient, OllamaUnavailable
 from .merge import RecordView, build_view
-from .normalizers import collapse_ws, host_of, normalize_url
-from .report import (
-    Row, build_proposed, compare_record, summarize_record, write_pdfs, write_proposed, write_raw,
-    write_report_csvs, write_summary_csv,
-)
+from .normalizers import host_of, normalize_url
+from .report import Row, compare_record, summarize_record, write_excel
 from .state import State
 from .urls import (
     KIND_ASSET_MAP, KIND_FACEBOOK, KIND_INVALID, KIND_MISSING, KIND_OWN, KIND_UNSUPPORTED, classify_url,
-    facebook_base_url, facebook_page_key,
+    facebook_page_key,
 )
 
 log = logging.getLogger("parishcheck")
@@ -46,17 +38,18 @@ log = logging.getLogger("parishcheck")
 # --------------------------------------------------------------------------------------
 # Logging
 # --------------------------------------------------------------------------------------
-def setup_logging(output_dir: Path) -> None:
-    output_dir.mkdir(parents=True, exist_ok=True)
+def setup_logging(work_dir: Path) -> None:
+    """Everything goes to run.log; only warnings reach the screen (the progress bar does the talking)."""
+    work_dir.mkdir(parents=True, exist_ok=True)
     root = logging.getLogger("parishcheck")
     root.setLevel(logging.DEBUG)
     for h in list(root.handlers):
         root.removeHandler(h)
-    fh = logging.FileHandler(output_dir / "run.log", encoding="utf-8")
+    fh = logging.FileHandler(work_dir / "run.log", encoding="utf-8")
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
     ch = logging.StreamHandler(sys.stdout)
-    ch.setLevel(logging.INFO)
+    ch.setLevel(logging.WARNING)
     ch.setFormatter(logging.Formatter("%(message)s"))
     root.addHandler(fh)
     root.addHandler(ch)
@@ -68,7 +61,66 @@ def setup_logging(output_dir: Path) -> None:
 
 
 def say(msg: str = "") -> None:
+    """A line for run.log only."""
     log.info(msg)
+
+
+def tell(msg: str = "") -> None:
+    """A line for the screen (and run.log)."""
+    log.info(msg)
+    print(msg, flush=True)
+
+
+class Progress:
+    """One line that redraws itself:  Checking websites [#####.....] 32/81 · about 1 h 5 min left · now: x.org"""
+
+    WIDTH = 28
+
+    def __init__(self, total: int):
+        self.total = max(1, total)
+        self.done = 0
+        self.timed = 0                 # sources actually worked on (not resumed), for the time estimate
+        self.started = time.monotonic()
+        self.current = ""
+        self.tty = sys.stdout.isatty()
+        self._last_plain = -1
+
+    def step(self, name: str = "", worked: bool = True) -> None:
+        self.done = min(self.total, self.done + 1)
+        if worked:
+            self.timed += 1
+        self.draw(name)
+
+    def set_total(self, total: int) -> None:
+        self.total = max(self.done, total, 1)
+
+    def draw(self, name: str = "") -> None:
+        if name:
+            self.current = name
+        left = self.total - self.done
+        if self.done >= self.total:
+            eta = "finishing up"
+        elif self.timed >= 2:
+            secs = (time.monotonic() - self.started) / self.timed * left
+            eta = f"about {_hms(secs) if secs < 120 else _hms(round(secs / 60) * 60).replace(' 0 s', '')} left"
+        else:
+            eta = "estimating time left..."
+        filled = int(self.WIDTH * self.done / self.total)
+        bar = "█" * filled + "░" * (self.WIDTH - filled)
+        line = f"Checking websites [{bar}] {self.done}/{self.total} · {eta}"
+        if self.current and self.done < self.total:
+            line += f" · now: {self.current[:30]}"
+        if self.tty:
+            sys.stdout.write("\r\033[K" + line)
+            sys.stdout.flush()
+        elif self.done != self._last_plain:      # not a terminal: plain lines, one per step
+            self._last_plain = self.done
+            print(line, flush=True)
+
+    def finish(self) -> None:
+        if self.tty:
+            sys.stdout.write("\n")
+            sys.stdout.flush()
 
 
 # --------------------------------------------------------------------------------------
@@ -79,7 +131,7 @@ def load_records(cfg: Config) -> list[dict]:
     if not path.exists():
         raise ConfigError(
             f"I can't find your parish file: {path}\n"
-            "Check the 'input_json' line in config.yaml: it must point to your parishes.json file.")
+            "Run it again and choose the parish JSON file.")
     try:
         data = json.loads(path.read_text(encoding="utf-8-sig"))
     except json.JSONDecodeError as exc:
@@ -135,22 +187,12 @@ class Plan:
     am_pages: dict = field(default_factory=dict)                 # key -> (AssetMapListing|None, error)
 
 
-def select_indices(records: list[dict], cfg: Config, only: Optional[str], limit_sites: Optional[int]) -> list[int]:
+def select_indices(records: list[dict], cfg: Config, only: str | None) -> list[int]:
     idxs = list(range(len(records)))
     if only:
         needle = only.casefold()
         idxs = [i for i in idxs if needle in record_id(cfg, records[i], i).casefold()
                 or needle in record_name(cfg, records[i]).casefold()]
-    if limit_sites:
-        chosen, seen = [], set()
-        for i in idxs:
-            kind, key = _preclassify(cfg, records[i])
-            tag = key or f"row-{i}"
-            if tag not in seen and len(seen) >= limit_sites:
-                continue
-            seen.add(tag)
-            chosen.append(i)
-        idxs = chosen
     return idxs
 
 
@@ -170,8 +212,7 @@ def _preclassify(cfg: Config, rec: dict) -> tuple[str, str]:
     return kind, ""
 
 
-def build_plan(records: list[dict], idxs: list[int], cfg: Config, fetcher: Fetcher, stop: threading.Event,
-               no_facebook: bool) -> Plan:
+def build_plan(records: list[dict], idxs: list[int], cfg: Config, fetcher: Fetcher, stop: threading.Event) -> Plan:
     plan = Plan()
     am_to_fetch: list[Source] = []
     for i in idxs:
@@ -194,8 +235,8 @@ def build_plan(records: list[dict], idxs: list[int], cfg: Config, fetcher: Fetch
             rp.source_keys.append(key)
         elif kind == KIND_FACEBOOK:
             src = plan.sources.setdefault(key, Source(key, M.FACEBOOK, url, page_key=key[3:]))
-            if no_facebook or not cfg.facebook_enabled:
-                src.disabled_reason = "Facebook is switched off (--no-facebook or mode: skip in config.yaml)"
+            if not cfg.facebook_enabled:
+                src.disabled_reason = "Facebook is switched off (mode: skip in config.yaml)"
             src.record_idx.append(i)
             rp.source_keys.append(key)
         elif kind == KIND_ASSET_MAP:
@@ -208,7 +249,7 @@ def build_plan(records: list[dict], idxs: list[int], cfg: Config, fetcher: Fetch
 
     # ---- Asset Map pages: fetch now to find each church's own website ("discovered site") ----
     if am_to_fetch:
-        say(f"Reading {len(am_to_fetch)} Episcopal Asset Map page(s) to find each church's own website...")
+        tell(f"Reading {len(am_to_fetch)} Episcopal Asset Map page(s) to find each church's own website...")
     for src in am_to_fetch:
         if stop.is_set():
             raise StopRequested()
@@ -271,157 +312,6 @@ def check_ollama(cfg: Config, client: OllamaClient) -> None:
             f"Models on this Mac right now: {', '.join(client.installed_models()) or '(none)'}")
 
 
-# --------------------------------------------------------------------------------------
-# Dry run
-# --------------------------------------------------------------------------------------
-_SAMPLE_PAGE = """Welcome to St. Example's Episcopal Church. Sunday Worship: 8:00 AM Holy Eucharist, Rite I (spoken).
-10:30 AM Holy Eucharist, Rite II with choir and organ (livestreamed on YouTube). Wednesday: 12:00 noon Holy Eucharist
-and 6:00 PM Evening Prayer. Childcare is offered during the 10:30 service. All are welcome. The Rev. Pat Sample, Rector.
-Our parking lot is behind the church and the building is wheelchair accessible. Sunday School for ages 4-12 meets at 9:15 AM.
-Adult Forum meets Sundays at 9:15 AM in the parish hall. Contact the parish office at (555) 010-0100."""
-
-
-def time_sample_call(cfg: Config, client: OllamaClient, today: date) -> Optional[float]:
-    """Run ONE small model call on a made-up sample page and report how many seconds it took."""
-    groups = llm_specs_by_group(cfg)
-    gname = "services" if "services" in groups else next(iter(groups), None)
-    if gname is None:
-        return None
-    specs = groups[gname]
-    info = get_group_info(cfg, gname, specs)
-    from .normalizers import norm_for_quote_check
-    try:
-        client.warm_up()
-    except OllamaUnavailable:
-        return None
-    started = time.monotonic()
-    try:
-        run_group_on_chunk(client, cfg, info, specs, url="sample", title="Sample", chunk=_SAMPLE_PAGE,
-                           page_text=_SAMPLE_PAGE, page_norm=norm_for_quote_check(_SAMPLE_PAGE),
-                           source_type=M.OWN_SITE, page_rank_value=0, today=today)
-    except OllamaUnavailable:
-        return None
-    return time.monotonic() - started
-
-
-def dry_run(cfg: Config, args) -> int:
-    records = load_records(cfg)
-    setup_logging(cfg.output_dir)
-    idxs = select_indices(records, cfg, args.only, args.limit_sites)
-    if not idxs:
-        say("No records match your --only / --limit-sites choice, so there is nothing to do.")
-        return 1
-    today = date.today()
-    stop = threading.Event()
-    fetcher = Fetcher(cfg, stop)
-    client = OllamaClient(cfg, stop)
-    try:
-        ollama_ok, _ = client.ping()
-        say("")
-        say("=== DRY RUN: nothing will be extracted; I only look at what a real run would do ===")
-        say(f"Records in file: {len(records)}   selected: {len(idxs)}   model: {cfg.model}")
-        if not (args.no_facebook or not cfg.facebook_enabled) and any(_preclassify(cfg, records[i])[0] == KIND_FACEBOOK for i in idxs):
-            say("")
-            say(FB_NOTICE)
-        plan = build_plan(records, idxs, cfg, fetcher, stop, args.no_facebook)
-        counts = Counter(rp.url_kind for rp in plan.records)
-        say("")
-        say("Website types: " + ", ".join(f"{k}: {v}" for k, v in sorted(counts.items())))
-        say("")
-        # ---- per-site plans ----
-        site_pages: dict[str, int] = {}
-        site_notes: dict[str, str] = {}
-        max_pages = cfg.max_pages_per_site
-        own = [s for s in plan.sources.values() if s.kind == M.OWN_SITE]
-        def _plan_one(src):
-            try:
-                return crawl_site(src.url, cfg, fetcher, stop, max_pages=max_pages, plan_only=True)
-            except StopRequested:
-                return None
-            except Exception as exc:
-                bad = CrawlResult(start_url=src.url, status="failed", reason=f"unexpected problem ({type(exc).__name__}: {str(exc)[:80]})")
-                return bad
-
-        if own:
-            say(f"Checking {len(own)} website(s): home page and sitemap only ({cfg.fetch_concurrency} at a time)...")
-        pool = ThreadPoolExecutor(max_workers=cfg.fetch_concurrency, thread_name_prefix="plan")
-        try:
-            plans = list(pool.map(_plan_one, own))
-        except KeyboardInterrupt:
-            stop.set()
-            raise
-        finally:
-            pool.shutdown(wait=True, cancel_futures=True)
-        for n, (src, cr) in enumerate(zip(own, plans), start=1):
-            if cr is None:
-                raise KeyboardInterrupt()
-            if cr.status != "ok":
-                site_pages[src.key] = 0
-                site_notes[src.key] = f"CANNOT OPEN: {cr.reason}"
-            else:
-                site_pages[src.key] = min(max_pages, cr.candidates_found + 1)
-                site_notes[src.key] = (f"sitemap found, {cr.candidates_found + 1} pages available" if cr.sitemap_used
-                                       else f"no sitemap; will follow links (home page shows {cr.candidates_found} links)")
-        say("")
-        say(f"{'#':>3}  {'id':<28} {'name':<34} {'source':<10} plan")
-        for rp in plan.records:
-            lines = []
-            for k in rp.source_keys:
-                s = plan.sources[k]
-                if s.kind == M.OWN_SITE:
-                    shared = " [shared website]" if k in shared_site_keys(plan) else ""
-                    lines.append(f"own site {s.url} -> {site_pages.get(k, 0)} page(s) to crawl; {site_notes.get(k, '')}{shared}"
-                                 + (" [discovered site]" if s.discovered_from else ""))
-                elif s.kind == M.FACEBOOK:
-                    lines.append("Facebook page (best effort, <=%s pages, %ss apart; a website listed on it is crawled too)%s" % (
-                        cfg.special("facebook.com").get("max_pages", 5), cfg.special("facebook.com").get("delay_seconds", 5),
-                        f"  SKIPPED: {s.disabled_reason}" if s.disabled_reason else ""))
-                else:
-                    listing, err = plan.am_pages.get(k, (None, ""))
-                    lines.append("Asset Map page: " + (f"read OK; church website = {listing.website or 'not listed'}" if listing and listing.ok else f"could not read ({err})"))
-            for pf in rp.pre_failures:
-                lines.append("NO SOURCE: " + pf["reason"])
-            say(f"{rp.idx + 1:>3}  {rp.rid[:28]:<28} {rp.name[:34]:<34} {rp.url_kind:<10} " + (lines[0] if lines else ""))
-            for extra in lines[1:]:
-                say(" " * 80 + extra)
-        # ---- time estimate ----
-        say("")
-        groups = llm_specs_by_group(cfg)
-        total_pages = sum(site_pages.values())
-        calls = 0
-        for k, pages in site_pages.items():
-            calls += sum(min(cfg.max_llm_pages_per_group, max(1, round(pages * 0.6))) for _ in groups) if pages else 0
-        n_fb = sum(1 for s in plan.sources.values() if s.kind == M.FACEBOOK and not s.disabled_reason)
-        n_am = sum(1 for s in plan.sources.values() if s.kind == M.ASSET_MAP)
-        calls += n_am * min(2, len(groups)) + n_fb * min(3, len(groups)) * 2
-        fetch_seconds = (total_pages * (cfg.delay_seconds + 0.6)) / max(1, min(cfg.fetch_concurrency, max(1, len(own)))) + n_fb * 4 * 7
-        t_call: Optional[float] = None
-        if calls and ollama_ok and client.has_model():
-            say("Timing the model on one sample page (this takes a few seconds)...")
-            t_call = time_sample_call(cfg, client, today)
-        elif calls and ollama_ok:
-            say(f"(The model '{cfg.model}' is not downloaded yet, so I can't time it. Run:  ollama pull {cfg.model})")
-        elif calls:
-            say("(Ollama is not running, so I can't time the model. Start the Ollama app first.)")
-        say("")
-        say(f"Sites to crawl: {len(own)}    pages to download: about {total_pages}    Facebook pages: {n_fb}    Asset Map pages: {n_am}")
-        say(f"Model calls (rough guess): about {calls}")
-        if t_call:
-            total = fetch_seconds * 0.5 + calls * t_call
-            say(f"One model call took {t_call:.1f} s here.  ESTIMATED TOTAL RUN TIME: about {_hms(total)} "
-                f"(a rough guess; downloading overlaps with the model's work).")
-        elif calls:
-            say(f"Downloading alone should take about {_hms(fetch_seconds * 0.5)}; the model time could not be estimated.")
-        else:
-            say("There is nothing to download or ask the model about.")
-        say("")
-        say(f"Dry-run details are also in {cfg.output_dir / 'run.log'}")
-        return 0
-    finally:
-        fetcher.close()
-        client.close()
-
-
 def _hms(seconds: float) -> str:
     seconds = int(seconds)
     h, rem = divmod(seconds, 3600)
@@ -434,52 +324,49 @@ def _hms(seconds: float) -> str:
 
 
 # --------------------------------------------------------------------------------------
-# The real run
+# The run
 # --------------------------------------------------------------------------------------
 def run(cfg: Config, args) -> int:
     records = load_records(cfg)
-    setup_logging(cfg.output_dir)
+    _tidy_old_outputs(cfg)
+    setup_logging(cfg.work_dir)
     started = time.monotonic()
     today = date.today()
-    idxs = select_indices(records, cfg, args.only, args.limit_sites)
+    idxs = select_indices(records, cfg, args.only)
     if not idxs:
-        say("No records match your --only / --limit-sites choice, so there is nothing to do.")
+        tell(f"No parish id or name contains '{args.only}', so there is nothing to do.")
         return 1
-    say(f"Loaded {len(records)} parish record(s); checking {len(idxs)} of them. Model: {cfg.model}")
+    tell(f"Checking {len(idxs)} parish(es) from {cfg.input_json.name}. You can press Control+C at any time; progress is saved.")
     stop = threading.Event()
-    state = State(cfg.output_dir / "progress.sqlite", fresh=args.fresh)
+    state = State(cfg.work_dir / "progress.sqlite", fresh=args.fresh)
     if args.fresh:
         _clear_cache(cfg)
-        say("--fresh: old progress and cached pages were cleared; starting from scratch.")
+        tell("Starting fresh: old progress and saved pages were cleared.")
     fetcher = Fetcher(cfg, stop)
     client = OllamaClient(cfg, stop)
     interrupted = False
+    progress = None
     try:
         check_ollama(cfg, client)
-        if not (args.no_facebook or not cfg.facebook_enabled) and any(_preclassify(cfg, records[i])[0] == KIND_FACEBOOK for i in idxs):
-            say("")
+        if cfg.facebook_enabled and any(_preclassify(cfg, records[i])[0] == KIND_FACEBOOK for i in idxs):
             say(FB_NOTICE)
-            say("")
         ctx = ExtractContext(cfg=cfg, client=client, state=state, today=today, stop=stop)
-        plan = build_plan(records, idxs, cfg, fetcher, stop, args.no_facebook)
+        plan = build_plan(records, idxs, cfg, fetcher, stop)
         fp = config_fingerprint(cfg)
-
-        todo_total = len(plan.sources)
-        say(f"{todo_total} source(s) to check ({sum(1 for s in plan.sources.values() if s.kind == M.OWN_SITE)} websites, "
+        say(f"{len(plan.sources)} source(s) to check ({sum(1 for s in plan.sources.values() if s.kind == M.OWN_SITE)} websites, "
             f"{sum(1 for s in plan.sources.values() if s.kind == M.FACEBOOK)} Facebook, "
-            f"{sum(1 for s in plan.sources.values() if s.kind == M.ASSET_MAP)} Asset Map). Press Ctrl+C any time; progress is saved.")
-        done_count = 0
-        pdfs: dict[str, list[str]] = {}
+            f"{sum(1 for s in plan.sources.values() if s.kind == M.ASSET_MAP)} Asset Map).")
+        progress = Progress(len(plan.sources))
+        progress.draw()
 
         # ---- Asset Map listings (already downloaded while planning) ----
         for src in list(plan.sources.values()):
             if src.kind != M.ASSET_MAP:
                 continue
-            done_count += 1
             if state.get_source(src.key, fp) is not None:
-                say(f"[{done_count}/{todo_total}] {src.key}: already done earlier (resuming)")
+                progress.step(worked=False)
                 continue
-            say(f"[{done_count}/{todo_total}] Asset Map: {src.url}")
+            progress.draw(_short(src.url))
             listing, err = plan.am_pages.get(src.key, (None, "page was not fetched"))
             try:
                 r = extract_asset_map(src.key, src.url, listing, err, ctx)
@@ -490,22 +377,21 @@ def run(cfg: Config, args) -> int:
                 r = new_result(M.ASSET_MAP, src.key, src.url)
                 r["status"], r["reason"] = "failed", f"unexpected problem ({type(exc).__name__}: {str(exc)[:100]})"
             state.put_source(src.key, fp, r)
-            _report_source_line(r)
+            _log_source_result(src.key, r)
+            progress.step()
 
         # ---- Facebook pages next, one at a time: their About page may name the church's own website ----
         for src in list(plan.sources.values()):
             if src.kind != M.FACEBOOK:
                 continue
-            done_count += 1
             r = state.get_source(src.key, fp)
-            if r is not None:
-                say(f"[{done_count}/{todo_total}] {src.key}: already done earlier (resuming)")
-            elif src.disabled_reason:
+            worked = r is None and not src.disabled_reason
+            if r is None and src.disabled_reason:
                 r = new_result(M.FACEBOOK, src.key, src.url)
                 r["status"], r["reason"] = "failed", src.disabled_reason
                 state.put_source(src.key, fp, r)
-            else:
-                say(f"[{done_count}/{todo_total}] Facebook page {src.page_key} (slow on purpose: {cfg.special('facebook.com').get('delay_seconds', 5)} s between pages)")
+            elif r is None:
+                progress.draw(f"Facebook: {src.page_key}")
                 try:
                     crawl = crawl_facebook(src.page_key, cfg, fetcher, stop)
                     r = extract_facebook(src.key, src.url, crawl, ctx)
@@ -518,9 +404,10 @@ def run(cfg: Config, args) -> int:
                     r = new_result(M.FACEBOOK, src.key, src.url)
                     r["status"], r["reason"] = "failed", f"unexpected problem ({type(exc).__name__}: {str(exc)[:100]})"
                 state.put_source(src.key, fp, r)
-                _report_source_line(r)
+                _log_source_result(src.key, r)
             if _adopt_discovered_site(plan, cfg, src, r):
-                todo_total = len(plan.sources)
+                progress.set_total(len(plan.sources))
+            progress.step(worked=worked)
 
         # ---- the websites: crawl in threads, extract here one at a time ----
         threaded: list[Source] = []
@@ -528,12 +415,10 @@ def run(cfg: Config, args) -> int:
             if src.kind != M.OWN_SITE:
                 continue
             if state.get_source(src.key, fp) is not None:
-                done_count += 1
-                say(f"[{done_count}/{todo_total}] {src.key}: already done earlier (resuming)")
+                progress.step(worked=False)
                 continue
             threaded.append(src)
 
-        # ---- websites and Facebook pages: crawl in threads, extract here one at a time ----
         pending = deque(threaded)
         inflight: dict = {}
         pool = ThreadPoolExecutor(max_workers=cfg.fetch_concurrency, thread_name_prefix="crawl")
@@ -541,17 +426,17 @@ def run(cfg: Config, args) -> int:
             def submit_more() -> None:
                 while pending and len(inflight) < cfg.fetch_concurrency + 1:
                     s = pending.popleft()
-                    say(f"      starting {s.key} ...")
+                    say(f"starting {s.key} ...")
                     inflight[pool.submit(_crawl_job, s, cfg, fetcher, stop)] = s
+                    if progress.current == "" or len(inflight) == 1:
+                        progress.draw(_short(s.url))
 
             submit_more()
             while inflight:
                 done, _ = wait(list(inflight), timeout=0.5, return_when=FIRST_COMPLETED)
                 for fut in done:
                     src = inflight.pop(fut)
-                    done_count += 1
-                    nrec = len(set(src.record_idx))
-                    say(f"[{done_count}/{todo_total}] {src.key}  ({nrec} record(s) use it)")
+                    progress.draw(_short(src.url))
                     try:
                         crawl = fut.result()
                     except StopRequested:
@@ -561,20 +446,20 @@ def run(cfg: Config, args) -> int:
                         r = new_result(src.kind, src.key, src.url)
                         r["status"], r["reason"] = "failed", f"unexpected problem while reading it ({type(exc).__name__}: {str(exc)[:100]})"
                         state.put_source(src.key, fp, r)
+                        progress.step()
                         continue
                     try:
                         r = extract_own_site(src.key, src.url, crawl, ctx)
-                    except OllamaUnavailable:
-                        raise
-                    except KeyboardInterrupt:
+                    except (OllamaUnavailable, KeyboardInterrupt):
                         raise
                     except Exception as exc:
                         log.exception("Extraction crashed for %s", src.key)
                         r = new_result(src.kind, src.key, src.url)
                         r["status"], r["reason"] = "failed", f"unexpected problem while extracting ({type(exc).__name__}: {str(exc)[:100]})"
                     state.put_source(src.key, fp, r)
-                    _report_source_line(r)
+                    _log_source_result(src.key, r)
                     del crawl
+                    progress.step()
                 submit_more()
         except KeyboardInterrupt:
             interrupted = True
@@ -585,15 +470,14 @@ def run(cfg: Config, args) -> int:
             pool.shutdown(wait=True, cancel_futures=True)
         if interrupted:
             raise KeyboardInterrupt()
+        progress.finish()
+        progress = None
 
         # ---- compare every record to what was found ----
-        say("")
-        say("All sources are read. Comparing your JSON with what I found...")
+        say("All sources are read. Comparing the JSON with what was found...")
         shared = shared_site_keys(plan)
         all_rows: list[Row] = []
-        rows_by_index: dict[int, list[Row]] = {}
         summary: list[dict] = []
-        raw_records = []
         for rp in plan.records:
             rec = records[rp.idx]
             results = [state.get_source(k, fp) for k in rp.source_keys]
@@ -607,49 +491,30 @@ def run(cfg: Config, args) -> int:
             if rp.discovered_site:
                 view.notes.append(f"discovered site: {rp.discovered_site}")
             rows = compare_record(rec, cfg, view, rp.rid, rp.name)
-            rows_by_index[rp.idx] = rows
             all_rows.extend(rows)
-            summary.append(summarize_record(rp.rid, rp.name, view, rows))
-            raw_records.append({"id": rp.rid, "name": rp.name, "website": rp.url, "website_kind": rp.url_kind,
-                                "sources": rp.source_keys, "notes": view.notes, "rows": [r.__dict__ for r in rows]})
-        for k, s in plan.sources.items():
-            r = state.get_source(k, fp)
-            if r and r.get("pdfs"):
-                pdfs[k.split(":", 1)[-1]] = r["pdfs"]
+            s = summarize_record(rp.rid, rp.name, view, rows)
+            s["website"] = rp.url
+            s["pdfs"] = [u for r in results for u in (r.get("pdfs") or [])]
+            summary.append(s)
 
-        p_report, p_review = write_report_csvs(cfg, all_rows)
-        p_summary = write_summary_csv(cfg, summary)
-        proposed, n_changed = build_proposed(records, rows_by_index, cfg, today, args.apply_discrepancies)
-        p_prop = write_proposed(cfg, proposed)
-        p_pdf = write_pdfs(cfg, pdfs)
-        p_raw = write_raw(cfg, {
-            "generated": datetime.now().isoformat(timespec="seconds"), "model": cfg.model,
-            "records": raw_records,
-            "sources": {k: state.get_source(k, fp) for k in plan.sources},
-        })
-        counts = Counter(r.status for r in all_rows)
-        say("")
-        say("==================== DONE ====================")
-        say(f"Checked {len(plan.records)} record(s) in {_hms(time.monotonic() - started)}.")
-        for st in M.ALL_STATUSES:
-            if counts.get(st):
-                say(f"  {st:<14} {counts[st]}")
-        say(f"{n_changed} record(s) have proposed changes ({'including' if args.apply_discrepancies else 'filling only'} "
-            f"{'discrepancies and ' if args.apply_discrepancies else ''}blank fields).")
-        say(f"Files are in: {cfg.output_dir}")
-        for p in (p_review, p_report, p_summary, p_prop, p_raw, p_pdf, cfg.output_dir / "run.log"):
-            say(f"   - {p.name}")
-        say("Start with needs_review.csv.")
+        path = write_excel(cfg, all_rows, summary)
+        n_review = sum(1 for r in all_rows if r.status in M.REVIEW_STATUSES)
+        n_parishes = len({r.id for r in all_rows if r.status in M.REVIEW_STATUSES})
+        tell("")
+        tell(f"Done in {_hms(time.monotonic() - started)}. {n_review} item(s) to review across {n_parishes} parish(es).")
+        tell(f"Results: {path}")
         return 0
     except KeyboardInterrupt:
         stop.set()
-        say("")
-        say("Stopped by you (Ctrl+C). Your progress is saved. Run the same command again to pick up where it left off.")
+        if progress:
+            progress.finish()
+        tell("Stopped. Your progress is saved; run it again to pick up where it left off.")
         return 130
     except OllamaUnavailable as exc:
-        say("")
-        say(f"The AI model stopped responding: {exc}")
-        say("Your progress is saved. Start the Ollama app (or run: open -a Ollama), then run this tool again to resume.")
+        if progress:
+            progress.finish()
+        tell(f"The AI model stopped responding: {exc}")
+        tell("Your progress is saved. Open the Ollama app, then run this again to continue.")
         return 3
     finally:
         stop.set()
@@ -666,7 +531,7 @@ def _crawl_job(src: Source, cfg: Config, fetcher: Fetcher, stop: threading.Event
     return crawl_site(src.url, cfg, fetcher, stop)
 
 
-def _adopt_discovered_site(plan: Plan, cfg: Config, src: Source, result: Optional[dict]) -> bool:
+def _adopt_discovered_site(plan: Plan, cfg: Config, src: Source, result: dict | None) -> bool:
     """If a Facebook page lists the church's own website, crawl that website too ("discovered site")."""
     if not result or result.get("status") != "ok":
         return False
@@ -691,14 +556,40 @@ def _adopt_discovered_site(plan: Plan, cfg: Config, src: Source, result: Optiona
     return False
 
 
-def _report_source_line(r: dict) -> None:
+def _short(url: str) -> str:
+    return host_of(url) or url
+
+
+def _log_source_result(key: str, r: dict) -> None:
     if r["status"] == "ok":
         extra = " (hit the page limit)" if r.get("cap_hit") else ""
-        say(f"      read {r['pages_crawled']} page(s){extra}; {len(r['candidates'])} item(s) found; "
+        say(f"{key}: read {r['pages_crawled']} page(s){extra}; {len(r['candidates'])} item(s) found; "
             f"{r['llm_calls']} model call(s), {r['llm_cache_hits']} reused"
             + (f"; {sum(1 for i in r['issues'] if i[1] == 'rejected_unverified')} answer(s) rejected as unverifiable" if r["issues"] else ""))
     else:
-        say(f"      could not use it: {r['reason']}")
+        say(f"{key}: could not use it: {r['reason']}")
+
+
+def _tidy_old_outputs(cfg: Config) -> None:
+    """Older versions wrote several files straight into output/. Move what is still useful into output/.work/
+    (so saved progress survives) and delete the rest, leaving output/ with just the Excel file."""
+    import shutil
+    out, work = cfg.output_dir, cfg.work_dir
+    work.mkdir(parents=True, exist_ok=True)
+    for name in ("cache", "progress.sqlite"):
+        old, new = out / name, work / name
+        if old.exists() and not new.exists():
+            try:
+                shutil.move(str(old), str(new))
+            except OSError:
+                pass
+    for name in ("cache", "progress.sqlite", "run.log", "verification_report.csv", "needs_review.csv",
+                 "verification_summary.csv", "proposed_updates.json", "results_raw.json", "pdfs_found.txt"):
+        p = out / name
+        try:
+            shutil.rmtree(p) if p.is_dir() else p.unlink()
+        except OSError:
+            pass
 
 
 def _clear_cache(cfg: Config) -> None:

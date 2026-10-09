@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import asdict, dataclass, field
 from typing import Optional
 
-# ---- statuses (these exact words appear in the CSV files) --------------------------------
+# ---- statuses (report.STATUS_STYLE turns them into plain-English labels) --------------------------------
 CORRECT = "CORRECT"
 DISCREPANCY = "DISCREPANCY"
 PARTIAL = "PARTIAL"

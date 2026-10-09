@@ -39,11 +39,11 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 
 **Parish checker**
 
-Checks the facts in `parishes.json` against each parish's website, Facebook page, and Episcopal Asset Map listing, using a local AI model (Ollama). It writes reports to its own `output/` folder and never changes `parishes.json`. See [INSTRUCTIONS.md](parish-webcrawler/INSTRUCTIONS.md) for how to run it.
+Checks the facts in `parishes.json` against each parish's website, Facebook page, and Episcopal Asset Map listing, using a local AI model (Ollama). It writes one Excel file, `output/Parish Check Results.xlsx`, and never changes `parishes.json`. See [INSTRUCTIONS.md](parish-webcrawler/INSTRUCTIONS.md) for how to run it.
 
-- `run.command` — double-click launcher; installs what's needed on first run, then runs the check
-- `scraper.py` — command-line entry point, for running with options
-- `config.yaml` — all settings: where the data is, which fields to check, AI model, page limits
+- `run.command` — double-click launcher; installs what's needed on first run, asks for the JSON file, runs the check, opens the results
+- `scraper.py` — command-line entry point (`--input FILE`, optional `--only TEXT`, `--fresh`)
+- `config.yaml` — advanced settings: which fields to check, AI model, page limits
 - `style_example.json` — formatting examples (time style, punctuation) for the AI to follow
 - `requirements.txt` — Python libraries the tool needs
 - `selftest.py` — tests the tool's own logic offline
@@ -64,7 +64,7 @@ Checks the facts in `parishes.json` against each parish's website, Facebook page
   - `normalizers.py` — puts phones, emails, addresses, names, and lists in a comparable form
   - `times.py` — reads and formats service times and schedules
   - `comparators.py` — decides whether the data and the website agree
-  - `report.py` — writes the result files (`needs_review.csv` and others)
+  - `report.py` — compares each field and writes the Excel results file
   - `state.py` — saves progress so a stopped run can resume
   - `urls.py` — sorts and ranks web addresses
   - `models.py` — shared building blocks
