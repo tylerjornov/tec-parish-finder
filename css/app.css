@@ -115,6 +115,7 @@ body.app { display: flex; flex-direction: column; }
 .leaflet-bar a, .leaflet-bar a:hover { background-color: var(--panel); color: var(--text); border-bottom-color: var(--line); }
 .leaflet-bar { border: 1px solid var(--line); }
 .about { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
+.about .compass-rose { display: block; width: 50%; height: auto; margin: 24px auto 0; }
 @media (max-width: 900px) {
   body.app { display: block; }
   .layout { grid-template-columns: 1fr; grid-template-rows: auto 60vh; }

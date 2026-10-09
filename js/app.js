@@ -233,7 +233,7 @@ function render() {
     div.innerHTML = `
       <h2><button type="button" class="card-open" aria-haspopup="dialog">${escapeHtml(p.name)}</button></h2>
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
-      ${p.website ? `<div class="meta card-site"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">${escapeHtml(shortUrl(p.website))}<span class="visually-hidden"> for ${escapeHtml(p.name)} (opens in new tab)</span></a></div>` : ""}
+      ${p.website ? `<div class="meta card-site"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">${escapeHtml(shortUrl(p.website))}<span class="visually-hidden"> for ${escapeHtml(p.name)}</span></a></div>` : ""}
       ${tags.length ? `<ul class="tags">${tags.map((t) => `<li class="tag">${escapeHtml(t)}</li>`).join("")}</ul>` : ""}
     `;
     div.onclick = (e) => {
@@ -395,7 +395,7 @@ function formatDate(v) {
 function detailValue(v, kind) {
   const s = escapeHtml(v);
   if (kind === "url" && /^https?:\/\//i.test(v)) {
-    return `<a href="${s}" target="_blank" rel="noopener">${s}<span class="visually-hidden"> (opens in new tab)</span></a>`;
+    return `<a href="${s}" target="_blank" rel="noopener">${s}</a>`;
   }
   // Each number gets its own link, so "(…) … or (…) …" still dials the right one.
   if (kind === "tel") {
