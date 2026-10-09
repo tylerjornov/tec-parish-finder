@@ -1,5 +1,5 @@
 // Display settings: theme, contrast, and motion. Each is "auto" (follow the
-// device) or a manual override. Pin size scales the map markers. Loaded in <head> so the resolved values are on
+// device) or a manual override. Pin size scales the map markers; Diocesan boundaries toggles the boundary overlay. Loaded in <head> so the resolved values are on
 // <html> before the page paints; the menu itself is built once the DOM exists.
 (() => {
   const KEY = "tec-display-settings";
@@ -25,8 +25,10 @@
     },
   };
 
-  // Pin size is a multiple of Leaflet's default 25×41 marker.
-  const PIN = { min: 0.6, max: 2, step: 0.2 };
+  // The slider shows 50%–250%, where 100% is PIN_BASE times Leaflet's default 25×41
+  // marker. data-pin-size on <html> holds that real multiple for app.js.
+  const PIN = { min: 0.5, max: 2.5, step: 0.1 };
+  const PIN_BASE = 0.6;
 
   let saved = {};
   try {
@@ -41,14 +43,15 @@
   }
 
   function pinSize() {
-    const v = Number(saved.pinSize);
+    const v = Number(saved.pinScale);
     return v >= PIN.min && v <= PIN.max ? v : 1;
   }
 
   const pct = (v) => `${Math.round(v * 100)}%`;
 
   function apply() {
-    document.documentElement.dataset.pinSize = String(pinSize());
+    document.documentElement.dataset.pinSize = String(+(pinSize() * PIN_BASE).toFixed(3));
+    document.documentElement.dataset.boundaries = saved.boundaries === true ? "on" : "off";
     for (const [name, opt] of Object.entries(OPTIONS)) {
       const v = chosen(name);
       document.documentElement.dataset[name] =
@@ -93,6 +96,15 @@
           )
           .join("")}
         <fieldset>
+          <div class="settings-switch">
+            <span id="boundaries-label">Diocesan boundaries</span>
+            <label class="switch">
+              <input type="checkbox" role="switch" id="boundaries" aria-labelledby="boundaries-label"${saved.boundaries === true ? " checked" : ""}>
+              <span class="switch-track" aria-hidden="true"></span>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
           <legend id="pin-size-legend">Pin size</legend>
           <div class="settings-range">
             <input type="range" id="pin-size" min="${PIN.min}" max="${PIN.max}" step="${PIN.step}"
@@ -127,6 +139,11 @@
       apply();
     };
     panel.addEventListener("change", (e) => {
+      if (e.target.type === "checkbox") {
+        saved[e.target.id] = e.target.checked;
+        save();
+        return;
+      }
       if (e.target.type !== "radio") return;
       saved[e.target.name] = e.target.value;
       save();
@@ -134,9 +151,9 @@
     // "input" fires while dragging, so the pins resize live.
     const range = panel.querySelector("#pin-size");
     range.addEventListener("input", () => {
-      saved.pinSize = Number(range.value);
-      range.setAttribute("aria-valuetext", pct(saved.pinSize));
-      panel.querySelector("#pin-size-out").textContent = pct(saved.pinSize);
+      saved.pinScale = Number(range.value);
+      range.setAttribute("aria-valuetext", pct(saved.pinScale));
+      panel.querySelector("#pin-size-out").textContent = pct(saved.pinScale);
       save();
     });
     wrap.addEventListener("keydown", (e) => {

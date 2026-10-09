@@ -249,3 +249,30 @@ html:has(.detail[open]) { overflow: hidden; }
   .filters .copyright { display: none; }
   .settings-panel .copyright { display: block; }
 }
+
+/* Diocesan boundary overlay */
+path.diocese-shape { stroke: var(--acc); stroke-opacity: 0.9; fill: var(--acc); fill-opacity: 0.06; }
+path.diocese-shape:hover { fill-opacity: 0.16; }
+.leaflet-tooltip.diocese-label {
+  padding: 0; background: transparent; border: 0; box-shadow: none; pointer-events: none;
+  font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.02em; color: var(--acc);
+  white-space: normal; width: max-content; max-width: 9em; text-align: center; line-height: 1.2;
+  text-shadow: 0 0 3px var(--bg), 0 0 3px var(--bg), 0 0 6px var(--bg);
+}
+.leaflet-tooltip.diocese-label::before { display: none; }
+.settings-switch { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 24px; }
+.settings-switch > span { font-size: 0.8125rem; font-weight: 700; }
+.settings-panel label.switch { position: relative; flex: none; width: 36px; min-height: 20px; gap: 0; }
+.switch input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.switch-track {
+  flex: none; position: relative; width: 36px; height: 20px; border-radius: 10px;
+  background: var(--field); border: 1px solid var(--control); transition: background 0.15s;
+}
+.switch-track::after {
+  content: ""; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%;
+  background: var(--control); transition: transform 0.15s, background 0.15s;
+}
+.switch input:checked + .switch-track { background: var(--acc-bg); border-color: var(--acc-line); }
+.switch input:checked + .switch-track::after { transform: translateX(16px); background: var(--acc); }
+.switch input:focus-visible + .switch-track { outline: 2px solid var(--link); outline-offset: 2px; }
+[data-motion="reduce"] .switch-track, [data-motion="reduce"] .switch-track::after { transition: none; }

@@ -182,6 +182,7 @@ function ensureMap() {
     attributes: true,
     attributeFilter: ["data-theme"],
   });
+  if (window.DioceseBoundaries) DioceseBoundaries.attach(map);
   markers = L.layerGroup().addTo(map);
   // settings.js changes data-pin-size when the visitor moves the Pin size slider.
   new MutationObserver(() => {
