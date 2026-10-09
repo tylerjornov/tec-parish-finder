@@ -47,36 +47,15 @@ As can be seen in [COPYRIGHT.md](COPYRIGHT.md), while the [data](data/parishes.j
 
 **Parish checker**
 
-Checks the facts in `parishes.json` against each parish's website, Facebook page, and Episcopal Asset Map listing, using a local AI model (Ollama). It writes one Excel file, `output/Parish Check Results.xlsx`, and never changes `parishes.json`. See [INSTRUCTIONS.md](parish-webcrawler/INSTRUCTIONS.md) for how to run it.
+Checks `parishes.json` against each parish's own website with fixed rules (no AI): phones, emails, address, rector, livestream link and diocesan bishop. It never changes `parishes.json`. Double-click `run.command`; results land in `parish-webcrawler/output/`:
 
-- `run.command` — double-click launcher; installs what's needed on first run, asks for the JSON file, runs the check, opens the results
-- `scraper.py` — command-line entry point (`--input FILE`, optional `--only TEXT`, `--fresh`)
-- `config.yaml` — advanced settings: which fields to check, AI model, page limits
-- `style_example.json` — formatting examples (time style, punctuation) for the AI to follow
-- `requirements.txt` — Python libraries the tool needs
-- `selftest.py` — tests the tool's own logic offline
-- `INSTRUCTIONS.md` — plain-language setup and usage guide
-- `parishcheck/` — the tool's code:
-  - `pipeline.py` — runs the whole check, start to finish
-  - `config.py` — reads `config.yaml` and `style_example.json`
-  - `crawler.py` — finds and downloads the pages of a parish website
-  - `fetcher.py` — downloads pages politely (delays, retries, caching, optional headless browser)
-  - `robots.py` — reads each site's robots.txt rules
-  - `facebook.py` — reads public Facebook pages, logged out, best effort
-  - `assetmap.py` — reads Episcopal Asset Map listings
-  - `cleaner.py` — turns web pages into plain text
-  - `rules.py` — finds phones, emails, addresses, and livestream links without the AI
-  - `digest.py` — boils a site down to short numbered lines for each group of fields, so the AI reads less
-  - `llm.py` — asks the local AI model for the rest (one question per group per site) and checks its answers
-  - `extract.py` — collects everything found on one source
-  - `merge.py` — combines all sources into one answer per field
-  - `normalizers.py` — puts phones, emails, addresses, names, and lists in a comparable form
-  - `times.py` — reads and formats service times and schedules
-  - `comparators.py` — decides whether the data and the website agree
-  - `report.py` — compares each field and writes the Excel results file
-  - `state.py` — saves progress so a stopped run can resume
-  - `urls.py` — sorts and ranks web addresses
-  - `models.py` — shared building blocks
+- `corrections.json` — only the changes the websites make certain (fill a blank, or replace a value the site no longer shows), written so a script or an AI can apply them exactly
+- `Corrections.xlsx` — the same changes, for people
+- `Website Problems.xlsx` — parishes whose website is blocked, gone, expired or unreadable, colour-coded
+
+Files:
+- `run.command` — double-click launcher; installs what's needed on first run, runs the check, opens both Excel files
+- `parish_check.py` — the whole tool (settings at the top; `--selftest` checks its rules offline)
 
 **Other**
 - `CNAME` — custom domain for GitHub Pages
