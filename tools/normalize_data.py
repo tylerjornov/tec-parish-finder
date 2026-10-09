@@ -15,6 +15,11 @@ that starts with Rev., Rt. Rev. or Very Rev. always starts with "The" ("Rev. Ann
 Fr. and Mtr. do not get one. "Father" / "Mother" are only changed when a capitalised name follows.
   - rector_name and diocesan_bishop: a role after the name is dropped (", Rector", ", Priest-in-Charge",
     ", Bishop Provisional"); generational suffixes (", Jr.", ", IV") are kept.
+  - clergy_title: a lead-priest role after the name in rector_name ("The Rev. Ann Lee, Vicar") is moved here
+    ("Vicar"), which is what the site shows in place of "Rector". Recognised: Vicar, Priest-in-Charge, Dean
+    and Interim versions of each ("Priest in charge" is respelled "Priest-in-Charge"). A plain Rector, or a
+    Dean at a cathedral, is the site's default so clergy_title is cleared. A name with no role leaves an
+    existing clergy_title alone.
   - other_clergy: a "; "-separated list. Each person may keep a role, written in parentheses at the end:
     "The Rev. Ann Lee, Associate Rector" -> "The Rev. Ann Lee (Associate Rector)".
 Values such as "N/A", "None - No Rector" and "Sede vacante (...)" are left as they are, apart from the
@@ -73,6 +78,8 @@ _TITLES = [
 _SKIP = ("N/A", "None", "Sede vacante")
 _GENERATION = re.compile(r"(?:Jr|Sr)\.?|II|III|IV|V|VI", re.I)
 _THE_TITLE = re.compile(r"(?:Rt\. Rev\.|Very Rev\.|Rev\.)")
+
+_LEAD_ROLE = re.compile(r"(?:(interim)\s+)?(rector|vicar|dean|priest[\s-]+in[\s-]+charge)", re.I)
 
 _QUOTES = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"'})
 _EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
@@ -157,6 +164,21 @@ def format_clergy_list(value: str) -> str:
     return "; ".join(people)
 
 
+def lead_title(record: dict) -> str | None:
+    """The clergy_title a role in rector_name implies: "Vicar", "Interim Rector"...; "" for the site's
+    default (Rector, or Dean at a cathedral); None when there is no recognised role to go by."""
+    value = record.get("rector_name")
+    if not isinstance(value, str) or not value or _respell(value).startswith(_SKIP):
+        return None
+    m = _LEAD_ROLE.fullmatch(_split_role(_respell(value))[1])
+    if not m:
+        return None
+    base = re.sub(r"[\s-]+", "-", m.group(2).title()).replace("In-Charge", "in-Charge") if "charge" in m.group(2).lower() else m.group(2).title()
+    title = f"Interim {base}" if m.group(1) else base
+    default = "Dean" if re.search(r"\bCathedral\b", record.get("name", ""), re.I) else "Rector"
+    return "" if title == default else title
+
+
 def format_email(value: str) -> str:
     return _EMAIL.sub(lambda m: m.group(0).lower(), value) if isinstance(value, str) else value
 
@@ -195,6 +217,10 @@ def normalize_record(r: dict, path: Path, unreadable: list[str]) -> list[tuple[s
             unreadable.append(f"{path.relative_to(ROOT)}  {r.get('id', r.get('name', '?'))}  {k}: {v!r}")
             continue
         put(k, format_phones(v))
+    title = lead_title(r)  # before rector_name loses its role
+    if title is not None and (title or "clergy_title" in r):
+        r.setdefault("clergy_title", "")
+        put("clergy_title", title)
     rules = [
         (TITLE_FIELDS, format_title),
         (CLERGY_LIST_FIELDS, format_clergy_list),

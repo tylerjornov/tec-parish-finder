@@ -426,10 +426,13 @@ function openDetail(p, returnTo) {
   $("detail-title").textContent = p.name;
   $("detail-meta").textContent = [p.address, miles && `${miles} away`].filter(Boolean).join(" · ");
   const body = $("detail-body");
+  // The lead priest's title: "clergy_title" (Vicar, Priest-in-Charge...) if set,
+  // else Dean for a cathedral, else Rector.
+  const leadTitle = hasValue(p.clergy_title) ? String(p.clergy_title).trim() : /\bCathedral\b/i.test(p.name) ? "Dean" : "Rector";
   body.innerHTML = DETAIL_SECTIONS.map(([title, fields]) => {
     const rows = fields
       .filter(([key]) => hasValue(v[key]))
-      .map(([key, label, kind]) => `<div><dt>${label}</dt><dd>${detailValue(String(v[key]), kind)}</dd></div>`);
+      .map(([key, label, kind]) => `<div><dt>${label.replace(/^Rector/, leadTitle)}</dt><dd>${detailValue(String(v[key]), kind)}</dd></div>`);
     return rows.length ? `<section><h3>${title}</h3><dl>${rows.join("")}</dl></section>` : "";
   }).join("");
   detailReturn = returnTo;
