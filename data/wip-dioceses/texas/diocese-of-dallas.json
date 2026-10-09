@@ -2,7 +2,7 @@
   {
     "id": "episcopal-church-of-the-savior-110-s-alma-dr-allen-tx",
     "name": "Episcopal Church of the Savior",
-    "website": "http://allenepiscopal.com",
+    "website": "http://allenepiscopal.com/",
     "address": "110 S. Alma Dr, Allen, TX 75013",
     "state": "TX",
     "diocese": "Dallas",
@@ -43,7 +43,7 @@
   {
     "id": "church-of-st-matthias-205-willowbrook-dr-athens-tx",
     "name": "Church of St. Matthias",
-    "website": "http://www.stmatthiasathens.com",
+    "website": "http://www.stmatthiasathens.com/",
     "address": "205 Willowbrook Dr, Athens, TX 75751-3537",
     "state": "TX",
     "diocese": "Dallas",
@@ -166,7 +166,7 @@
   {
     "id": "st-justins-977-w-highway-243-canton-tx",
     "name": "St. Justin's",
-    "website": "http://www.stjustinscanton.org",
+    "website": "http://www.stjustinscanton.org/",
     "address": "977 W. Highway 243, Canton, TX 75103",
     "state": "TX",
     "diocese": "Dallas",
@@ -207,7 +207,7 @@
   {
     "id": "church-of-the-good-shepherd-915-old-straus-rd-cedar-hill-tx",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdcedarhill.com",
+    "website": "http://www.goodshepherdcedarhill.com/",
     "address": "915 Old Straus Rd, Cedar Hill, TX 75104-5317",
     "state": "TX",
     "diocese": "Dallas",
@@ -248,7 +248,7 @@
   {
     "id": "church-of-the-apostles-322-s-macarthur-blvd-coppell-tx",
     "name": "Church of the Apostles",
-    "website": "http://www.churchoftheapostles.net",
+    "website": "http://www.churchoftheapostles.net/",
     "address": "322 S MacArthur Blvd, Coppell, TX 75019-3605",
     "state": "TX",
     "diocese": "Dallas",
@@ -289,7 +289,7 @@
   {
     "id": "st-johns-episcopal-church-101-n-14th-st-corsicana-tx",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnscorsicana.com",
+    "website": "http://www.stjohnscorsicana.com/",
     "address": "101 N 14th St, Corsicana, TX 75110-5110",
     "state": "TX",
     "diocese": "Dallas",
@@ -330,7 +330,7 @@
   {
     "id": "christ-episcopal-church-534-w-10th-st-dallas-tx",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christchurchdallas.org",
+    "website": "http://www.christchurchdallas.org/",
     "address": "534 W 10th St, Dallas, TX 75208-4720",
     "state": "TX",
     "diocese": "Dallas",
@@ -412,7 +412,7 @@
   {
     "id": "church-of-the-good-shepherd-11122-midway-rd-dallas-tx",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherddallas.org",
+    "website": "http://www.goodshepherddallas.org/",
     "address": "11122 Midway Rd, Dallas, TX 75229-4199",
     "state": "TX",
     "diocese": "Dallas",
@@ -453,7 +453,7 @@
   {
     "id": "church-of-the-incarnation-3966-mckinney-ave-dallas-tx",
     "name": "Church of the Incarnation",
-    "website": "http://www.incarnation.org",
+    "website": "http://www.incarnation.org/",
     "address": "3966 McKinney Ave, Dallas, TX 75204-2099",
     "state": "TX",
     "diocese": "Dallas",
@@ -494,7 +494,7 @@
   {
     "id": "church-of-the-incarnation-north-campus-12727-hillcrest-rd-dallas-tx",
     "name": "Church of the Incarnation North Campus",
-    "website": "http://incarnation.org",
+    "website": "http://incarnation.org/",
     "address": "12727 Hillcrest Rd, Dallas, TX 75230-2007",
     "state": "TX",
     "diocese": "Dallas",
@@ -699,7 +699,7 @@
   {
     "id": "episcopal-church-of-the-holy-cross-4052-herschel-ave-dallas-tx",
     "name": "Episcopal Church of the Holy Cross",
-    "website": "https://holycrossdallas.org",
+    "website": "https://holycrossdallas.org/",
     "address": "4052 Herschel Ave, Dallas, TX 75219-2930",
     "state": "TX",
     "diocese": "Dallas",
@@ -740,7 +740,7 @@
   {
     "id": "good-samaritan-episcopal-church-1522-highland-rd-dallas-tx",
     "name": "Good Samaritan Episcopal Church",
-    "website": "https://www.goodsamdallas.org",
+    "website": "https://www.goodsamdallas.org/",
     "address": "1522 Highland Rd, Dallas, TX 75218-4420",
     "state": "TX",
     "diocese": "Dallas",
@@ -822,7 +822,7 @@
   {
     "id": "jubilee-park-and-community-center-corp-po-box-710759-dallas-tx",
     "name": "Jubilee Park and Community Center Corp",
-    "website": "http://www.jubileecenter.org",
+    "website": "http://www.jubileecenter.org/",
     "address": "PO Box 710759, Dallas, TX 75371",
     "state": "TX",
     "diocese": "Dallas",
@@ -904,7 +904,7 @@
   {
     "id": "san-francisco-de-asis-11540-ferguson-rd-dallas-tx",
     "name": "San Francisco de Asis",
-    "website": "https://en.sfadallas.org",
+    "website": "https://en.sfadallas.org/",
     "address": "11540 Ferguson Rd, Dallas, TX 75228",
     "state": "TX",
     "diocese": "Dallas",
@@ -986,7 +986,7 @@
   {
     "id": "st-christophers-episcopal-church-7900-lovers-ln-dallas-tx",
     "name": "St. Christopher's Episcopal Church",
-    "website": "http://www.stchristophersdallas.com",
+    "website": "http://www.stchristophersdallas.com/",
     "address": "7900 Lovers Ln, Dallas, TX 75225-8200",
     "state": "TX",
     "diocese": "Dallas",
@@ -1027,7 +1027,7 @@
   {
     "id": "st-james-episcopal-church-9845-mccree-rd-dallas-tx",
     "name": "St. James Episcopal Church",
-    "website": "http://www.stjamesdallas.org",
+    "website": "http://www.stjamesdallas.org/",
     "address": "9845 McCree Rd, Dallas, TX 75238-3444",
     "state": "TX",
     "diocese": "Dallas",
@@ -1109,7 +1109,7 @@
   {
     "id": "st-lukes-5923-royal-lane-dallas-tx",
     "name": "St. Luke's",
-    "website": "http://stlukesdallas.org",
+    "website": "http://stlukesdallas.org/",
     "address": "5923 Royal Lane, Dallas, TX 75020",
     "state": "TX",
     "diocese": "Dallas",
@@ -1150,7 +1150,7 @@
   {
     "id": "st-matthews-cathedral-5100-ross-ave-dallas-tx",
     "name": "St. Matthew's Cathedral",
-    "website": "http://www.episcopalcathedral.org",
+    "website": "http://www.episcopalcathedral.org/",
     "address": "5100 Ross Ave., Dallas, TX 75206",
     "state": "TX",
     "diocese": "Dallas",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-thomas-the-apostle-church-6525-inwood-rd-dallas-tx",
     "name": "St. Thomas the Apostle Church",
-    "website": "http://thedoubter.org",
+    "website": "http://thedoubter.org/",
     "address": "6525 Inwood Rd, Dallas, TX 75209-5314",
     "state": "TX",
     "diocese": "Dallas",
@@ -1232,7 +1232,7 @@
   {
     "id": "the-gathering-at-thanks-giving-square-1627-pacific-ave-dallas-tx",
     "name": "The Gathering At Thanks-Giving Square",
-    "website": "http://www.gatheringdallas.org",
+    "website": "http://www.gatheringdallas.org/",
     "address": "1627 Pacific Ave., Dallas, TX 75201",
     "state": "TX",
     "diocese": "Dallas",
@@ -1355,7 +1355,7 @@
   {
     "id": "st-barnabas-episcopal-church-1200-n-elm-st-denton-tx",
     "name": "St. Barnabas Episcopal Church",
-    "website": "http://stbarnabasdenton.org",
+    "website": "http://stbarnabasdenton.org/",
     "address": "1200 N Elm St, Denton, TX 76201-2941",
     "state": "TX",
     "diocese": "Dallas",
@@ -1437,7 +1437,7 @@
   {
     "id": "university-of-north-texas-canterbury-episcopal-ministry-623-ector-street-denton-tx",
     "name": "University of North Texas Canterbury Episcopal Ministry",
-    "website": "http://www.stdavidsdenton.org",
+    "website": "http://www.stdavidsdenton.org/",
     "address": "623 Ector Street, Denton, TX 76201",
     "state": "TX",
     "diocese": "Dallas",
@@ -1478,7 +1478,7 @@
   {
     "id": "st-anne-episcopal-church-1700-n-westmoreland-rd-desoto-tx",
     "name": "St. Anne Episcopal Church",
-    "website": "http://www.saintannedesoto.org",
+    "website": "http://www.saintannedesoto.org/",
     "address": "1700 N Westmoreland Rd, Desoto, TX 75115-2272",
     "state": "TX",
     "diocese": "Dallas",
@@ -1560,7 +1560,7 @@
   {
     "id": "st-andrews-episcopal-church-2783-valwood-pkwy-farmers-branch-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://www.standys.org",
+    "website": "http://www.standys.org/",
     "address": "2783 Valwood Pkwy, Farmers Branch, TX 75234-3529",
     "state": "TX",
     "diocese": "Dallas",
@@ -1601,7 +1601,7 @@
   {
     "id": "st-nicholas-church-4800-wichita-trl-flower-mound-tx",
     "name": "St. Nicholas Church",
-    "website": "http://www.stnicksonline.org",
+    "website": "http://www.stnicksonline.org/",
     "address": "4800 Wichita Trl, Flower Mound, TX 75022-5121",
     "state": "TX",
     "diocese": "Dallas",
@@ -1642,7 +1642,7 @@
   {
     "id": "st-philips-church-6400-stonebrook-pkwy-frisco-tx",
     "name": "St. Philip's Church",
-    "website": "http://stphilipsfrisco.org",
+    "website": "http://stphilipsfrisco.org/",
     "address": "6400 Stonebrook Pkwy, Frisco, TX 75034-5711",
     "state": "TX",
     "diocese": "Dallas",
@@ -1724,7 +1724,7 @@
   {
     "id": "holy-trinity-episcopal-church-3217-guthrie-rd-garland-tx",
     "name": "Holy Trinity Episcopal Church",
-    "website": "http://www.holytrinitygarland.org",
+    "website": "http://www.holytrinitygarland.org/",
     "address": "3217 Guthrie Rd, Garland, TX 75043-6121",
     "state": "TX",
     "diocese": "Dallas",
@@ -1765,7 +1765,7 @@
   {
     "id": "st-barnabas-episcopal-church-1200-n-shiloh-rd-garland-tx",
     "name": "St. Barnabas Episcopal Church",
-    "website": "http://www.sbecg.org",
+    "website": "http://www.sbecg.org/",
     "address": "1200 N Shiloh Rd, Garland, TX 75042-5769",
     "state": "TX",
     "diocese": "Dallas",
@@ -1806,7 +1806,7 @@
   {
     "id": "st-davids-church-2022-saturn-rd-garland-tx",
     "name": "St. David's Church",
-    "website": "http://www.stdavidsdenton.org",
+    "website": "http://www.stdavidsdenton.org/",
     "address": "2022 Saturn Rd, Garland, TX 75041-1640",
     "state": "TX",
     "diocese": "Dallas",
@@ -1847,7 +1847,7 @@
   {
     "id": "st-pauls-episcopal-church-8320-jack-finney-blvd-greenville-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulstx.org",
+    "website": "http://www.stpaulstx.org/",
     "address": "8320 Jack Finney Blvd, Greenville, TX 75402-3004",
     "state": "TX",
     "diocese": "Dallas",
@@ -1929,7 +1929,7 @@
   {
     "id": "episcopal-church-of-the-redeemer-2700-warren-cir-irving-tx",
     "name": "Episcopal Church of the Redeemer",
-    "website": "http://www.redeemer-irving.org",
+    "website": "http://www.redeemer-irving.org/",
     "address": "2700 Warren Cir, Irving, TX 75062-9242",
     "state": "TX",
     "diocese": "Dallas",
@@ -1970,7 +1970,7 @@
   {
     "id": "redeemer-montessori-school-2700-warren-circle-irving-tx",
     "name": "Redeemer Montessori School",
-    "website": "http://www.redeemermontessori.org",
+    "website": "http://www.redeemermontessori.org/",
     "address": "2700 Warren Circle, Irving, TX 75062",
     "state": "TX",
     "diocese": "Dallas",
@@ -2011,7 +2011,7 @@
   {
     "id": "st-marks-episcopal-church-516-s-oconnor-rd-irving-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://www.stmarksirving.org",
+    "website": "http://www.stmarksirving.org/",
     "address": "516 S O'Connor Rd, Irving, TX 75060-4088",
     "state": "TX",
     "diocese": "Dallas",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-marys-episcopal-church-635-n-story-rd-irving-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://www.stmarysirvingtx.org",
+    "website": "http://www.stmarysirvingtx.org/",
     "address": "635 N Story Rd, Irving, TX 75061-6728",
     "state": "TX",
     "diocese": "Dallas",
@@ -2093,7 +2093,7 @@
   {
     "id": "church-of-our-merciful-saviour-500-s-jackson-st-kaufman-tx",
     "name": "Church of Our Merciful Saviour",
-    "website": "http://www.omschurch.orgæ",
+    "website": "http://www.omschurch.orgæ/",
     "address": "500 S Jackson St, Kaufman, TX 75142-2330",
     "state": "TX",
     "diocese": "Dallas",
@@ -2134,7 +2134,7 @@
   {
     "id": "st-james-episcopal-church-10707-county-road-4022-kemp-tx",
     "name": "St. James Episcopal Church",
-    "website": "http://www.stjamesonthelake.org",
+    "website": "http://www.stjamesonthelake.org/",
     "address": "10707 County Road 4022, Kemp, TX 75143-4217",
     "state": "TX",
     "diocese": "Dallas",
@@ -2298,7 +2298,7 @@
   {
     "id": "holy-family-school-500-throckmorton-mckinney-tx",
     "name": "Holy Family School",
-    "website": "http://hfsmckinney.org",
+    "website": "http://hfsmckinney.org/",
     "address": "500 Throckmorton, McKinney, TX 75069",
     "state": "TX",
     "diocese": "Dallas",
@@ -2339,7 +2339,7 @@
   {
     "id": "st-andrews-episcopal-church-6400-mckinney-ranch-pkwy-mckinney-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://www.standrewsmckinney.org",
+    "website": "http://www.standrewsmckinney.org/",
     "address": "6400 McKinney Ranch Pkwy, McKinney, TX 75070-2350",
     "state": "TX",
     "diocese": "Dallas",
@@ -2380,7 +2380,7 @@
   {
     "id": "st-peters-episcopal-church-511-foote-street-mckinney-tx",
     "name": "St. Peter's Episcopal Church",
-    "website": "http://www.stpetersmckinney.com",
+    "website": "http://www.stpetersmckinney.com/",
     "address": "511 Foote Street, McKinney, TX 75069",
     "state": "TX",
     "diocese": "Dallas",
@@ -2421,7 +2421,7 @@
   {
     "id": "grace-episcopal-church-124-gross-rd-mesquite-tx",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracefellowship.net",
+    "website": "https://www.gracefellowship.net/",
     "address": "124 Gross Rd, Mesquite, TX 75149",
     "state": "TX",
     "diocese": "Dallas",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-dunstan-episcopal-church-800-n-johnson-st-mineola-tx",
     "name": "St. Dunstan Episcopal Church",
-    "website": "http://churchofstdunstan.org",
+    "website": "http://churchofstdunstan.org/",
     "address": "800 N Johnson St, Mineola, TX 75773-1816",
     "state": "TX",
     "diocese": "Dallas",
@@ -2503,7 +2503,7 @@
   {
     "id": "st-marks-205-e-pecan-street-mount-pleasant-tx",
     "name": "St. Mark's",
-    "website": "http://stmarksmtpleasant.com",
+    "website": "http://stmarksmtpleasant.com/",
     "address": "205 E. Pecan Street, Mount Pleasant, TX 75455",
     "state": "TX",
     "diocese": "Dallas",
@@ -2585,7 +2585,7 @@
   {
     "id": "church-of-the-holy-cross-400-s-church-st-paris-tx",
     "name": "Church of the Holy Cross",
-    "website": "https://www.goodshepherdterrell.org",
+    "website": "https://www.goodshepherdterrell.org/",
     "address": "400 S Church St, Paris, TX 75460-5844",
     "state": "TX",
     "diocese": "Dallas",
@@ -2626,7 +2626,7 @@
   {
     "id": "st-william-laud-episcopal-church-601-lafayette-st-pittsburg-tx",
     "name": "St. William Laud Episcopal Church",
-    "website": "http://www.swlec.org",
+    "website": "http://www.swlec.org/",
     "address": "601 Lafayette St, Pittsburg, TX 75686",
     "state": "TX",
     "diocese": "Dallas",
@@ -2667,7 +2667,7 @@
   {
     "id": "church-of-the-holy-nativity-2200-18th-street-plano-tx",
     "name": "Church of the Holy Nativity",
-    "website": "http://www.holynativity.org",
+    "website": "http://www.holynativity.org/",
     "address": "2200 18th Street, Plano, TX 75086",
     "state": "TX",
     "diocese": "Dallas",
@@ -2708,7 +2708,7 @@
   {
     "id": "st-johns-760-w-fm-120-pottsboro-tx",
     "name": "St. John's",
-    "website": "http://www.stjohnstexoma.com",
+    "website": "http://www.stjohnstexoma.com/",
     "address": "760 W. FM 120, Pottsboro, TX 75076",
     "state": "TX",
     "diocese": "Dallas",
@@ -2749,7 +2749,7 @@
   {
     "id": "st-pauls-episcopal-church-800-sommerville-dr-prosper-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsprosper.org",
+    "website": "http://www.stpaulsprosper.org/",
     "address": "800 Sommerville Dr, Prosper, TX 75078-8435",
     "state": "TX",
     "diocese": "Dallas",
@@ -2790,7 +2790,7 @@
   {
     "id": "church-of-the-epiphany-421-custer-rd-richardson-tx",
     "name": "Church of the Epiphany",
-    "website": "http://www.epiphany-richardson.org",
+    "website": "http://www.epiphany-richardson.org/",
     "address": "421 Custer Rd, Richardson, TX 75080-5628",
     "state": "TX",
     "diocese": "Dallas",
@@ -2913,7 +2913,7 @@
   {
     "id": "st-philips-church-1206-college-st-sulphur-springs-tx",
     "name": "St. Philip's Church",
-    "website": "https://www.stphilipssulphursprings.com",
+    "website": "https://www.stphilipssulphursprings.com/",
     "address": "1206 College St, Sulphur Springs, TX 75482-3018",
     "state": "TX",
     "diocese": "Dallas",
@@ -2954,7 +2954,7 @@
   {
     "id": "church-of-the-good-shepherd-200-w-college-st-terrell-tx",
     "name": "Church of the Good Shepherd",
-    "website": "https://www.goodshepherdterrell.org",
+    "website": "https://www.goodshepherdterrell.org/",
     "address": "200 W College St, Terrell, TX 75160-2625",
     "state": "TX",
     "diocese": "Dallas",
@@ -2995,7 +2995,7 @@
   {
     "id": "randy-sams-outreach-shelter-402-oak-street-texarkana-tx",
     "name": "Randy Sams' Outreach Shelter",
-    "website": "https://randysams.org",
+    "website": "https://randysams.org/",
     "address": "402 Oak Street, Texarkana, TX 75501",
     "state": "TX",
     "diocese": "Dallas",
@@ -3036,7 +3036,7 @@
   {
     "id": "st-james-episcopal-church-417-olive-st-texarkana-tx",
     "name": "St. James Episcopal Church",
-    "website": "http://www.saintjamestxk.org",
+    "website": "http://www.saintjamestxk.org/",
     "address": "417 Olive St, Texarkana, TX 75501-5510",
     "state": "TX",
     "diocese": "Dallas",
@@ -3077,7 +3077,7 @@
   {
     "id": "st-pauls-episcopal-church-624-ovilla-rd-waxahachie-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.spcwax.org",
+    "website": "http://www.spcwax.org/",
     "address": "624 Ovilla Rd, Waxahachie, TX 75167-4801",
     "state": "TX",
     "diocese": "Dallas",

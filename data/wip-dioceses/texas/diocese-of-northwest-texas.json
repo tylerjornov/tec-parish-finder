@@ -2,7 +2,7 @@
   {
     "id": "church-of-the-heavenly-rest-602-meander-st-abilene-tx",
     "name": "Church of the Heavenly Rest",
-    "website": "http://www.heavenlyrestabilene.org",
+    "website": "http://www.heavenlyrestabilene.org/",
     "address": "602 Meander St, Abilene, TX 79602-1099",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -125,7 +125,7 @@
   {
     "id": "st-andrews-episcopal-church-1601-georgia-st-s-amarillo-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://www.standrewsamarillo.org",
+    "website": "http://www.standrewsamarillo.org/",
     "address": "1601 Georgia St S, Amarillo, TX 79102-2315",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -207,7 +207,7 @@
   {
     "id": "st-mary-the-virgin-episcopal-church-1001-s-goliad-st-big-spring-tx",
     "name": "St. Mary the Virgin Episcopal Church",
-    "website": "http://www.stmarystexas.org",
+    "website": "http://www.stmarystexas.org/",
     "address": "1001 S Goliad St, Big Spring, TX 79720-2848",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -412,7 +412,7 @@
   {
     "id": "all-saints-school-3222-103rd-st-lubbock-tx",
     "name": "All Saints School",
-    "website": "http://www.allsaintsschool.org",
+    "website": "http://www.allsaintsschool.org/",
     "address": "3222-103rd St, Lubbock, TX 79423",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -453,7 +453,7 @@
   {
     "id": "canterbury-episcopal-campus-ministries-at-texas-tech-2407-16th-street-lubbock-tx",
     "name": "Canterbury Episcopal Campus Ministries at Texas Tech",
-    "website": "http://www.texastechcanterbury.org",
+    "website": "http://www.texastechcanterbury.org/",
     "address": "2407 16th Street, Lubbock, TX 79401",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -535,7 +535,7 @@
   {
     "id": "st-pauls-on-the-plains-episcopal-church-1510-avenue-x-lubbock-tx",
     "name": "St. Paul's on the Plains Episcopal Church",
-    "website": "http://www.stpaulslubbock.org",
+    "website": "http://www.stpaulslubbock.org/",
     "address": "1510 Avenue X, Lubbock, TX 79401-4423",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -576,7 +576,7 @@
   {
     "id": "st-stephens-episcopal-church-1101-slide-rd-lubbock-tx",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://www.ststephens-lubbock.org",
+    "website": "http://www.ststephens-lubbock.org/",
     "address": "1101 Slide Rd, Lubbock, TX 79416-5419",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -781,7 +781,7 @@
   {
     "id": "st-matthews-episcopal-church-727-w-browning-ave-pampa-tx",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://www.stmatthewspampa.org",
+    "website": "http://www.stmatthewspampa.org/",
     "address": "727 W Browning Ave, Pampa, TX 79065-6204",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -863,7 +863,7 @@
   {
     "id": "emmanuel-episcopal-church-emmanuel-episcopal-church-san-angelo-tx",
     "name": "Emmanuel Episcopal Church",
-    "website": "http://www.emmanuel-sa.org",
+    "website": "http://www.emmanuel-sa.org/",
     "address": "Emmanuel Episcopal Church, San Angelo, TX 76903",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -945,7 +945,7 @@
   {
     "id": "united-campus-ministries-serving-angelo-state-university-and-howard-college-2453-dena-drive-san-angelo-tx",
     "name": "United Campus Ministries Serving Angelo State University and Howard College",
-    "website": "https://asucm.org",
+    "website": "https://asucm.org/",
     "address": "2453 Dena Drive, San Angelo, TX 76904",
     "state": "TX",
     "diocese": "Northwest Texas",
@@ -964,7 +964,7 @@
     "asa": null,
     "city": "San Angelo",
     "church_phone": "(325) 263-2463",
-    "church_email": "UCM4ASU.info@gmail.com",
+    "church_email": "ucm4asu.info@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",

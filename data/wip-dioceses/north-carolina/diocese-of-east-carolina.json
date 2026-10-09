@@ -84,7 +84,7 @@
   {
     "id": "st-pauls-episcopal-church-215-ann-st-beaufort-nc",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulsbeaufort.org",
+    "website": "http://stpaulsbeaufort.org/",
     "address": "215 Ann St, Beaufort, NC 28516-2103",
     "state": "NC",
     "diocese": "East Carolina",
@@ -207,7 +207,7 @@
   {
     "id": "trinity-episcopal-church-182-nc-hwy-33-w-chocowinity-nc",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinitychocowinity.org",
+    "website": "http://www.trinitychocowinity.org/",
     "address": "182 NC Hwy 33 W, Chocowinity, NC 27817",
     "state": "NC",
     "diocese": "East Carolina",
@@ -412,7 +412,7 @@
   {
     "id": "st-lukes-episcopal-mission-2864-caratoke-hwy-currituck-nc",
     "name": "St. Luke's Episcopal Mission",
-    "website": "http://www.stlukescurritck.com",
+    "website": "http://www.stlukescurritck.com/",
     "address": "2864 Caratoke Hwy, Currituck, NC 27929",
     "state": "NC",
     "diocese": "East Carolina",
@@ -740,7 +740,7 @@
   {
     "id": "st-johns-episcopal-church-302-green-st-fayetteville-nc",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnsnc.org",
+    "website": "https://www.stjohnsnc.org/",
     "address": "302 Green St, Fayetteville, NC 28301-5028",
     "state": "NC",
     "diocese": "East Carolina",
@@ -822,7 +822,7 @@
   {
     "id": "st-pauls-in-the-pines-episcopal-church-1800-saint-paul-ave-fayetteville-nc",
     "name": "St. Paul's in the Pines Episcopal Church",
-    "website": "http://www.stpaulsinthepines.com",
+    "website": "http://www.stpaulsinthepines.com/",
     "address": "1800 Saint Paul Ave, Fayetteville, NC 28304-5238",
     "state": "NC",
     "diocese": "East Carolina",
@@ -945,7 +945,7 @@
   {
     "id": "st-francis-episcopal-church-503-forest-hill-drive-goldsboro-nc",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.stfrancisgoldsboro.org",
+    "website": "https://www.stfrancisgoldsboro.org/",
     "address": "503 Forest Hill Drive, Goldsboro, NC 27534-1824",
     "state": "NC",
     "diocese": "East Carolina",
@@ -986,7 +986,7 @@
   {
     "id": "st-stephens-episcopal-church-200-north-james-street-goldsboro-nc",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://ststephenschurch.com",
+    "website": "http://ststephenschurch.com/",
     "address": "200 North James Street, Goldsboro, NC 27530-3631",
     "state": "NC",
     "diocese": "East Carolina",
@@ -1087,7 +1087,7 @@
     "asa": null,
     "city": "Greenville",
     "church_phone": "(252) 355-2125",
-    "church_email": "Office@st-tim.org",
+    "church_email": "office@st-tim.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:15 AM",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-christophers-episcopal-church-1100-e-main-st-havelock-nc",
     "name": "St. Christopher's Episcopal Church",
-    "website": "https://www.stchristophershavelock.net",
+    "website": "https://www.stchristophershavelock.net/",
     "address": "1100 E Main St, Havelock, NC 28532-2300",
     "state": "NC",
     "diocese": "East Carolina",
@@ -1210,7 +1210,7 @@
     "asa": null,
     "city": "Havelock",
     "church_phone": "(252) 447-3912",
-    "church_email": "StChristophersHavelock@gmail.com",
+    "church_email": "stchristophershavelock@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -1251,7 +1251,7 @@
     "asa": null,
     "city": "Hertford",
     "church_phone": "(252) 426-5542",
-    "church_email": "HolyTrinityHertford@gmail.com",
+    "church_email": "holytrinityhertford@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM",
@@ -1437,7 +1437,7 @@
   {
     "id": "all-souls-episcopal-church-5087-blue-banks-loop-rd-ne-leland-nc",
     "name": "All Souls Episcopal Church",
-    "website": "https://www.all-souls-leland.org",
+    "website": "https://www.all-souls-leland.org/",
     "address": "5087 Blue Banks Loop Rd NE, Leland, NC 28451-4009",
     "state": "NC",
     "diocese": "East Carolina",
@@ -1642,7 +1642,7 @@
   {
     "id": "christ-episcopal-church-320-pollock-st-new-bern-nc",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christchurchnewbern.com",
+    "website": "http://www.christchurchnewbern.com/",
     "address": "320 Pollock St, New Bern, NC 28560-4945",
     "state": "NC",
     "diocese": "East Carolina",
@@ -1765,7 +1765,7 @@
   {
     "id": "wade-chestnut-memorial-chapel-topsail-island-2649-island-dr-north-topsail-beach-nc",
     "name": "Wade Chestnut Memorial Chapel, Topsail Island",
-    "website": "http://wadechestnutchapel.org",
+    "website": "http://wadechestnutchapel.org/",
     "address": "2649 Island Dr, North Topsail Beach, NC 28460",
     "state": "NC",
     "diocese": "East Carolina",
@@ -1970,7 +1970,7 @@
   {
     "id": "st-francis-by-the-sea-920-salter-path-rd-salter-path-nc",
     "name": "St. Francis by the Sea",
-    "website": "https://www.stfrancisbythesea.org",
+    "website": "https://www.stfrancisbythesea.org/",
     "address": "920 Salter Path Rd, Salter Path, NC 28575",
     "state": "NC",
     "diocese": "East Carolina",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-james-the-fisherman-church-4941-main-st-shallotte-nc",
     "name": "St. James' the Fisherman Church",
-    "website": "https://stjamesthefisherman.net",
+    "website": "https://stjamesthefisherman.net/",
     "address": "4941 Main St, Shallotte, NC 28470",
     "state": "NC",
     "diocese": "East Carolina",
@@ -2298,7 +2298,7 @@
   {
     "id": "st-peters-by-the-sea-church-503-w-broad-st-swansboro-nc",
     "name": "St. Peter's by the Sea Church",
-    "website": "https://www.saintpetersbythesea.org",
+    "website": "https://www.saintpetersbythesea.org/",
     "address": "503 W Broad St, Swansboro, NC 28584",
     "state": "NC",
     "diocese": "East Carolina",
@@ -2462,7 +2462,7 @@
   {
     "id": "grace-episcopal-church-105-s-madison-st-whiteville-nc",
     "name": "Grace Episcopal Church",
-    "website": "http://www.gracechrist.com",
+    "website": "http://www.gracechrist.com/",
     "address": "105 S Madison St, Whiteville, NC 28472-4119",
     "state": "NC",
     "diocese": "East Carolina",
@@ -2667,7 +2667,7 @@
   {
     "id": "st-pauls-episcopal-church-16-n-16th-st-wilmington-nc",
     "name": "St Paul's Episcopal Church",
-    "website": "https://spechurch.com",
+    "website": "https://spechurch.com/",
     "address": "16 N 16th St, Wilmington, NC 28401-4905",
     "state": "NC",
     "diocese": "East Carolina",
@@ -2708,7 +2708,7 @@
   {
     "id": "st-andrews-on-the-sound-episcopal-church-101-airlie-rd-wilmington-nc",
     "name": "St. Andrew's On-the-Sound Episcopal Church",
-    "website": "https://saots.org",
+    "website": "https://saots.org/",
     "address": "101 Airlie Rd, Wilmington, NC 28403-3701",
     "state": "NC",
     "diocese": "East Carolina",
@@ -2831,7 +2831,7 @@
   {
     "id": "st-marks-episcopal-church-600-grace-st-wilmington-nc",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://stmarksepiscopalwilmington.org",
+    "website": "http://stmarksepiscopalwilmington.org/",
     "address": "600 Grace St, Wilmington, NC 28401-4127",
     "state": "NC",
     "diocese": "East Carolina",

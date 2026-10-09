@@ -43,7 +43,7 @@
   {
     "id": "st-anns-episcopal-church-125-main-st-afton-ny",
     "name": "St. Ann's Episcopal Church",
-    "website": "http://www.stannsaftonny.org",
+    "website": "http://www.stannsaftonny.org/",
     "address": "125 Main St., Afton, NY 13730",
     "state": "NY",
     "diocese": "Central New York",
@@ -84,7 +84,7 @@
   {
     "id": "rev-lisa-busby-7-fuller-st-alexandria-bay-ny",
     "name": "Rev. Lisa Busby",
-    "website": "https://www.episcopalriverparishes.org",
+    "website": "https://www.episcopalriverparishes.org/",
     "address": "7 Fuller St., Alexandria Bay, NY 13607",
     "state": "NY",
     "diocese": "Central New York",
@@ -513,7 +513,7 @@
     "asa": null,
     "city": "Black River",
     "church_phone": "",
-    "church_email": "StJohn13612@gmail.com",
+    "church_email": "stjohn13612@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:45 AM",
@@ -576,7 +576,7 @@
   {
     "id": "st-thomas-episcopal-church-2720-slaterville-rd-route-79-brooktondale-ny",
     "name": "St. Thomas' Episcopal Church",
-    "website": "http://www.stthomasslaterville.org",
+    "website": "http://www.stthomasslaterville.org/",
     "address": "2720 Slaterville Rd (Route 79), Brooktondale, NY 14817",
     "state": "NY",
     "diocese": "Central New York",
@@ -781,7 +781,7 @@
   {
     "id": "st-johns-episcopal-church-352-south-market-street-cape-vincent-ny",
     "name": "St. John's Episcopal Church",
-    "website": "https://episcopalriverparishes.org",
+    "website": "https://episcopalriverparishes.org/",
     "address": "352 South Market Street, Cape Vincent, NY 13618",
     "state": "NY",
     "diocese": "Central New York",
@@ -841,7 +841,7 @@
     "asa": null,
     "city": "Carthage",
     "church_phone": "(315) 493-1094",
-    "church_email": "Carthagegrace@gmail.com",
+    "church_email": "carthagegrace@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM",
@@ -945,7 +945,7 @@
   {
     "id": "christ-episcopal-church-235-john-street-clayton-ny",
     "name": "Christ Episcopal Church",
-    "website": "https://www.episcopalriverparishes.org",
+    "website": "https://www.episcopalriverparishes.org/",
     "address": "235 John Street, Clayton, NY 13624-1014",
     "state": "NY",
     "diocese": "Central New York",
@@ -1396,7 +1396,7 @@
   {
     "id": "st-pauls-episcopal-church-200-jefferson-ave-endicott-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulsendicott.org",
+    "website": "http://stpaulsendicott.org/",
     "address": "200 Jefferson Ave, Endicott, NY 13760-5295",
     "state": "NY",
     "diocese": "Central New York",
@@ -1601,7 +1601,7 @@
   {
     "id": "grace-episcopal-church-3874-east-lake-road-geneva-ny",
     "name": "Grace Episcopal Church",
-    "website": "http://gracewillowdaleepiscopal.org",
+    "website": "http://gracewillowdaleepiscopal.org/",
     "address": "3874 East Lake Road, Geneva, NY 14456-9256",
     "state": "NY",
     "diocese": "Central New York",
@@ -1642,7 +1642,7 @@
   {
     "id": "zion-episcopal-church-10-north-chenango-street-greene-ny",
     "name": "Zion Episcopal Church",
-    "website": "http://www.ziongreene.org",
+    "website": "http://www.ziongreene.org/",
     "address": "10 North Chenango Street, Greene, NY 13778-1102",
     "state": "NY",
     "diocese": "Central New York",
@@ -1683,7 +1683,7 @@
   {
     "id": "st-thomas-episcopal-church-12-1-2-madison-street-hamilton-ny",
     "name": "St. Thomas' Episcopal church",
-    "website": "http://StThomasHamilton.org",
+    "website": "http://StThomasHamilton.org/",
     "address": "12 1/2 Madison Street, Hamilton, NY 13346-1106",
     "state": "NY",
     "diocese": "Central New York",
@@ -1806,7 +1806,7 @@
   {
     "id": "st-johns-episcopal-church-210-north-cayuga-street-ithaca-ny",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsithaca.org",
+    "website": "http://www.stjohnsithaca.org/",
     "address": "210 North Cayuga Street, Ithaca, NY 14850-4385",
     "state": "NY",
     "diocese": "Central New York",
@@ -1888,7 +1888,7 @@
   {
     "id": "all-saints-episcopal-church-475-main-street-johnson-city-ny",
     "name": "All Saints' Episcopal Church",
-    "website": "https://www.allsaintsjcny.org",
+    "website": "https://www.allsaintsjcny.org/",
     "address": "475 Main Street, Johnson City, NY 13790-1999",
     "state": "NY",
     "diocese": "Central New York",
@@ -1929,7 +1929,7 @@
   {
     "id": "christ-episcopal-church-25-north-main-street-jordan-ny",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christchurchjordan.org",
+    "website": "http://www.christchurchjordan.org/",
     "address": "25 North Main Street, Jordan, NY 13080-0571",
     "state": "NY",
     "diocese": "Central New York",
@@ -2011,7 +2011,7 @@
   {
     "id": "st-matthews-episcopal-church-900-vine-street-liverpool-ny",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://www.stmatthewsliverpool.org",
+    "website": "http://www.stmatthewsliverpool.org/",
     "address": "900 Vine Street, Liverpool, NY 13088-4591",
     "state": "NY",
     "diocese": "Central New York",
@@ -2093,7 +2093,7 @@
   {
     "id": "christ-episcopal-church-407-east-seneca-street-manlius-ny",
     "name": "Christ Episcopal Church",
-    "website": "https://christchurchmanlius.org",
+    "website": "https://christchurchmanlius.org/",
     "address": "407 East Seneca Street, Manlius, NY 13104-1910",
     "state": "NY",
     "diocese": "Central New York",
@@ -2298,7 +2298,7 @@
   {
     "id": "st-andrews-episcopal-church-40-south-main-street-po-box-370-new-berlin-ny",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://bigreddoor.org",
+    "website": "http://bigreddoor.org/",
     "address": "40 South Main Street (PO Box 370), New Berlin, NY 13411",
     "state": "NY",
     "diocese": "Central New York",
@@ -2421,7 +2421,7 @@
   {
     "id": "emmanuel-episcopal-church-37-west-main-street-po-box-203-norwich-ny",
     "name": "Emmanuel Episcopal Church",
-    "website": "http://bigreddoor.org",
+    "website": "http://bigreddoor.org/",
     "address": "37 West Main Street (PO Box 203), Norwich, NY 13815",
     "state": "NY",
     "diocese": "Central New York",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-johns-episcopal-church-341-main-street-oneida-ny",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnsoneida.org",
+    "website": "https://www.stjohnsoneida.org/",
     "address": "341 Main Street, Oneida, NY 13421-2144",
     "state": "NY",
     "diocese": "Central New York",
@@ -2503,7 +2503,7 @@
   {
     "id": "church-of-the-resurrection-120-west-5th-street-oswego-ny",
     "name": "Church of the Resurrection",
-    "website": "http://www.resoswego.org",
+    "website": "http://www.resoswego.org/",
     "address": "120 West 5th Street, Oswego, NY 13126-2096",
     "state": "NY",
     "diocese": "Central New York",
@@ -2544,7 +2544,7 @@
   {
     "id": "st-pauls-episcopal-church-117-main-street-owego-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsowego.com",
+    "website": "https://www.stpaulsowego.com/",
     "address": "117 Main Street, Owego, NY 13827-1587",
     "state": "NY",
     "diocese": "Central New York",
@@ -2585,7 +2585,7 @@
   {
     "id": "st-pauls-episcopal-church-36-main-street-po-box-72-oxford-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulsoxford.org",
+    "website": "http://stpaulsoxford.org/",
     "address": "36 Main Street (PO Box 72), Oxford, NY 13830-3439",
     "state": "NY",
     "diocese": "Central New York",
@@ -2708,7 +2708,7 @@
   {
     "id": "st-james-episcopal-church-24-lake-street-pulaski-ny",
     "name": "St. James' Episcopal Church",
-    "website": "https://www.stjameschurchpulaski.org",
+    "website": "https://www.stjameschurchpulaski.org/",
     "address": "24 Lake Street, Pulaski, NY 13142-3244",
     "state": "NY",
     "diocese": "Central New York",
@@ -2749,7 +2749,7 @@
   {
     "id": "zion-episcopal-church-140-west-liberty-street-rome-ny",
     "name": "Zion Episcopal Church",
-    "website": "http://www.zionrome.org",
+    "website": "http://www.zionrome.org/",
     "address": "140 West Liberty Street, Rome, NY 13440-5780",
     "state": "NY",
     "diocese": "Central New York",
@@ -2790,7 +2790,7 @@
   {
     "id": "trinity-episcopal-church-27-fall-street-seneca-falls-ny",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinitychurchsenecafallsny.com",
+    "website": "https://trinitychurchsenecafallsny.com/",
     "address": "27 Fall Street, Seneca Falls, NY 13148-1428",
     "state": "NY",
     "diocese": "Central New York",
@@ -2954,7 +2954,7 @@
   {
     "id": "st-matthews-episcopal-church-3324-state-highway-8-north-main-street-south-new-berlin-ny",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://bigreddoor.org",
+    "website": "http://bigreddoor.org/",
     "address": "3324 State Highway 8 (North Main Street), South New Berlin, NY 13843",
     "state": "NY",
     "diocese": "Central New York",
@@ -2995,7 +2995,7 @@
   {
     "id": "church-of-st-mark-the-evangelist-1612-west-genesee-street-syracuse-ny",
     "name": "Church of St. Mark the Evangelist",
-    "website": "https://www.stmarkssyracuse.com",
+    "website": "https://www.stmarkssyracuse.com/",
     "address": "1612 West Genesee Street, Syracuse, NY 13204-1950",
     "state": "NY",
     "diocese": "Central New York",
@@ -3036,7 +3036,7 @@
   {
     "id": "church-of-the-saviour-437-james-street-syracuse-ny",
     "name": "Church of the Saviour",
-    "website": "https://www.savioursyracuse.com",
+    "website": "https://www.savioursyracuse.com/",
     "address": "437 James Street, Syracuse, NY 13203",
     "state": "NY",
     "diocese": "Central New York",
@@ -3282,7 +3282,7 @@
   {
     "id": "st-pauls-episcopal-church-101-east-williams-street-waterloo-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulswaterloony.org",
+    "website": "http://stpaulswaterloony.org/",
     "address": "101 East Williams Street, Waterloo, NY 13165-1458",
     "state": "NY",
     "diocese": "Central New York",
@@ -3323,7 +3323,7 @@
   {
     "id": "trinity-episcopal-church-227-sherman-street-watertown-ny",
     "name": "Trinity Episcopal Church",
-    "website": "http://trinitywatertown.org",
+    "website": "http://trinitywatertown.org/",
     "address": "227 Sherman Street, Watertown, NY 13601-3691",
     "state": "NY",
     "diocese": "Central New York",
@@ -3405,7 +3405,7 @@
   {
     "id": "christ-episcopal-church-1395-country-road-132-willard-ny",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christchurchwillardny.com",
+    "website": "http://www.christchurchwillardny.com/",
     "address": "1395 Country Road 132, Willard, NY 14521",
     "state": "NY",
     "diocese": "Central New York",
@@ -3446,7 +3446,7 @@
   {
     "id": "zion-episcopal-church-50-chapel-street-windsor-ny",
     "name": "Zion Episcopal Church",
-    "website": "http://www.zionchurchwindsor.org",
+    "website": "http://www.zionchurchwindsor.org/",
     "address": "50 Chapel Street, Windsor, NY 13865",
     "state": "NY",
     "diocese": "Central New York",

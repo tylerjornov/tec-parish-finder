@@ -43,7 +43,7 @@
   {
     "id": "trinity-episcopal-church-907-washington-st-anahuac-tx",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityanahuac.org",
+    "website": "http://www.trinityanahuac.org/",
     "address": "907 Washington St, Anahuac, TX 77514",
     "state": "TX",
     "diocese": "Texas",
@@ -125,7 +125,7 @@
   {
     "id": "all-souls-episcopal-church-wellspring-on-main-arlington-tx",
     "name": "All Souls Episcopal Church",
-    "website": "http://allsoulsepiscopal.org",
+    "website": "http://allsoulsepiscopal.org/",
     "address": "Wellspring on Main, Arlington, TX 76010",
     "state": "TX",
     "diocese": "Texas",
@@ -289,7 +289,7 @@
   {
     "id": "episcopal-student-center-in-austin-209-w-27th-street-austin-tx",
     "name": "Episcopal Student Center in Austin",
-    "website": "https://www.utepiscopal.org",
+    "website": "https://www.utepiscopal.org/",
     "address": "209 W. 27th Street, Austin, TX 78705",
     "state": "TX",
     "diocese": "Texas",
@@ -576,7 +576,7 @@
   {
     "id": "st-davids-episcopal-church-301-e-8th-st-austin-tx",
     "name": "St. David's Episcopal Church",
-    "website": "http://www.stdave.org",
+    "website": "http://www.stdave.org/",
     "address": "301 E 8th St, Austin, TX 78701-3280",
     "state": "TX",
     "diocese": "Texas",
@@ -677,7 +677,7 @@
     "asa": null,
     "city": "Austin",
     "church_phone": "",
-    "church_email": "Sthildecommaustin@gmail.com",
+    "church_email": "sthildecommaustin@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -740,7 +740,7 @@
   {
     "id": "st-johns-episcopal-church-11201-parkfield-dr-austin-tx",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.austinstjohns.org",
+    "website": "http://www.austinstjohns.org/",
     "address": "11201 Parkfield Dr, Austin, TX 78758-4264",
     "state": "TX",
     "diocese": "Texas",
@@ -1068,7 +1068,7 @@
   {
     "id": "st-marks-episcopal-church-2200-avenue-e-bay-city-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://www.mehop.org",
+    "website": "http://www.mehop.org/",
     "address": "2200 Avenue E, Bay City, TX 77414-5009",
     "state": "TX",
     "diocese": "Texas",
@@ -1109,7 +1109,7 @@
   {
     "id": "trinity-episcopal-church-5010-n-main-st-baytown-tx",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinitychurchbaytown.net",
+    "website": "http://www.trinitychurchbaytown.net/",
     "address": "5010 N Main St, Baytown, TX 77521-9606",
     "state": "TX",
     "diocese": "Texas",
@@ -1273,7 +1273,7 @@
   {
     "id": "ubi-caritas-4400-highland-avenue-beaumont-tx",
     "name": "Ubi Caritas",
-    "website": "http://www.ubicaritas.org",
+    "website": "http://www.ubicaritas.org/",
     "address": "4400 Highland Avenue, Beaumont, TX 77705",
     "state": "TX",
     "diocese": "Texas",
@@ -1396,7 +1396,7 @@
   {
     "id": "st-marys-episcopal-church-24-n-masonic-st-bellville-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://www.saintmarysec.org",
+    "website": "http://www.saintmarysec.org/",
     "address": "24 N Masonic St, Bellville, TX 77418-1444",
     "state": "TX",
     "diocese": "Texas",
@@ -1437,7 +1437,7 @@
   {
     "id": "st-peters-episcopal-church-2310-airline-dr-brenham-tx",
     "name": "St. Peter's Episcopal Church",
-    "website": "http://www.stpetersbrenham.org",
+    "website": "http://www.stpetersbrenham.org/",
     "address": "2310 Airline Dr, Brenham, TX 77833",
     "state": "TX",
     "diocese": "Texas",
@@ -1501,7 +1501,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "7:30 AM; 9:00 AM; 11:15 AM",
-    "weekday_services": "Mon - Fri 8:00 AM",
+    "weekday_services": "Mon–Fri 8:00 AM",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "rector_name": "",
     "other_clergy": "",
@@ -1601,7 +1601,7 @@
   {
     "id": "all-saints-episcopal-church-200-n-travis-ave-cameron-tx",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaintscameron.org",
+    "website": "http://www.allsaintscameron.org/",
     "address": "200 N Travis Ave, Cameron, TX 76520",
     "state": "TX",
     "diocese": "Texas",
@@ -1806,7 +1806,7 @@
   {
     "id": "canterbury-episcopal-student-center-texas-a-and-m-and-blinn-college-902-george-bush-drive-college-station-tx",
     "name": "Canterbury Episcopal Student Center, Texas A&M and Blinn College",
-    "website": "http://www.canterbury.center",
+    "website": "http://www.canterbury.center/",
     "address": "902 George Bush Drive, College Station, TX 77840",
     "state": "TX",
     "diocese": "Texas",
@@ -1847,7 +1847,7 @@
   {
     "id": "st-francis-episcopal-church-1101-rock-prairie-rd-college-station-tx",
     "name": "St. Francis Episcopal Church",
-    "website": "http://www.stfrancisbcs.org",
+    "website": "http://www.stfrancisbcs.org/",
     "address": "1101 Rock Prairie Rd, College Station, TX 77845-8344",
     "state": "TX",
     "diocese": "Texas",
@@ -1888,7 +1888,7 @@
   {
     "id": "st-thomas-episcopal-church-906-george-bush-dr-college-station-tx",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://brazosimmigration.com",
+    "website": "http://brazosimmigration.com/",
     "address": "906 George Bush Dr, College Station, TX 77840-3056",
     "state": "TX",
     "diocese": "Texas",
@@ -1929,7 +1929,7 @@
   {
     "id": "st-johns-episcopal-church-915-travis-st-columbus-tx",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnscolumbustx.org",
+    "website": "http://www.stjohnscolumbustx.org/",
     "address": "915 Travis St, Columbus, TX 78934-2436",
     "state": "TX",
     "diocese": "Texas",
@@ -1970,7 +1970,7 @@
   {
     "id": "st-james-the-apostle-episcopal-church-1803-highland-hollow-dr-conroe-tx",
     "name": "St. James the Apostle Episcopal Church",
-    "website": "http://www.stjames-conroe.org",
+    "website": "http://www.stjames-conroe.org/",
     "address": "1803 Highland Hollow Dr, Conroe, TX 77304-4092",
     "state": "TX",
     "diocese": "Texas",
@@ -2011,7 +2011,7 @@
   {
     "id": "st-james-episcopal-church-1803-highland-hollow-dr-conroe-tx",
     "name": "St. James' Episcopal Church",
-    "website": "http://www.stjames-conroe.org",
+    "website": "http://www.stjames-conroe.org/",
     "address": "1803 Highland Hollow Dr., Conroe, TX 77304-4092",
     "state": "TX",
     "diocese": "Texas",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-martins-episcopal-church-1602-s-fm-116-copperas-cove-tx",
     "name": "St. Martin's Episcopal Church",
-    "website": "https://www.stmartinscove.org",
+    "website": "https://www.stmartinscove.org/",
     "address": "1602 S FM 116, Copperas Cove, TX 76522-4204",
     "state": "TX",
     "diocese": "Texas",
@@ -2134,7 +2134,7 @@
   {
     "id": "all-saints-episcopal-church-1301-east-houston-ave-crockett-tx",
     "name": "All Saints' Episcopal Church",
-    "website": "http://www.epicenter.org",
+    "website": "http://www.epicenter.org/",
     "address": "1301 East Houston Ave., Crockett, TX 75835",
     "state": "TX",
     "diocese": "Texas",
@@ -2175,7 +2175,7 @@
   {
     "id": "the-jordan-school-1303-east-houston-ave-crockett-tx",
     "name": "The Jordan School",
-    "website": "http://www.thejordanschool.com",
+    "website": "http://www.thejordanschool.com/",
     "address": "1303 East Houston Ave., Crockett, TX 75835",
     "state": "TX",
     "diocese": "Texas",
@@ -2257,7 +2257,7 @@
   {
     "id": "st-marys-episcopal-church-15415-n-eldridge-pkwy-cypress-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://www.stmaryscypress.org",
+    "website": "http://www.stmaryscypress.org/",
     "address": "15415 N Eldridge Pkwy, Cypress, TX 77429-2005",
     "state": "TX",
     "diocese": "Texas",
@@ -2298,7 +2298,7 @@
   {
     "id": "episcopal-church-of-the-resurrection-905-south-church-street-decatur-tx",
     "name": "Episcopal Church of the Resurrection",
-    "website": "http://www.wisecountychurch.org",
+    "website": "http://www.wisecountychurch.org/",
     "address": "905 South Church Street, Decatur, TX 76234",
     "state": "TX",
     "diocese": "Texas",
@@ -2380,7 +2380,7 @@
   {
     "id": "christ-church-304-e-stockbridge-st-eagle-lake-tx",
     "name": "Christ Church",
-    "website": "http://www.christchurchel.org",
+    "website": "http://www.christchurchel.org/",
     "address": "304 E Stockbridge St, Eagle Lake, TX 77434-1839",
     "state": "TX",
     "diocese": "Texas",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-christophers-church-5709-wedgewood-drive-fort-worth-tx",
     "name": "St. Christopher's Church",
-    "website": "http://www.stchrisfw.org",
+    "website": "http://www.stchrisfw.org/",
     "address": "5709 Wedgewood Drive, Fort Worth, TX 76133",
     "state": "TX",
     "diocese": "Texas",
@@ -2503,7 +2503,7 @@
   {
     "id": "st-lukes-in-the-meadow-episcopal-church-2529-mt-view-avenue-fort-worth-tx",
     "name": "St. Luke's in the Meadow Episcopal Church",
-    "website": "http://www.stlukesfw.org",
+    "website": "http://www.stlukesfw.org/",
     "address": "2529 Mt. View Avenue, Fort Worth, TX 76103",
     "state": "TX",
     "diocese": "Texas",
@@ -3159,7 +3159,7 @@
   {
     "id": "st-bartholomews-church-811-14th-st-hempstead-tx",
     "name": "St. Bartholomew's Church",
-    "website": "http://www.stbartshempstead.org",
+    "website": "http://www.stbartshempstead.org/",
     "address": "811 14th St, Hempstead, TX 77445",
     "state": "TX",
     "diocese": "Texas",
@@ -3301,7 +3301,7 @@
     "asa": null,
     "city": "Hitchcock",
     "church_phone": "(409) 925-2544",
-    "church_email": "Allsaints77563@aol.com",
+    "church_email": "allsaints77563@aol.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -3364,7 +3364,7 @@
   {
     "id": "cathedral-house-1112-prairie-st-houston-tx",
     "name": "Cathedral House",
-    "website": "https://www.discoverches.org",
+    "website": "https://www.discoverches.org/",
     "address": "1112 Prairie St., Houston, TX 77002-3119",
     "state": "TX",
     "diocese": "Texas",
@@ -3446,7 +3446,7 @@
   {
     "id": "christ-the-king-episcopal-church-15325-bellaire-blvd-houston-tx",
     "name": "Christ the King Episcopal Church",
-    "website": "http://www.ckec.us",
+    "website": "http://www.ckec.us/",
     "address": "15325 Bellaire Blvd, Houston, TX 77083-3110",
     "state": "TX",
     "diocese": "Texas",
@@ -3569,7 +3569,7 @@
   {
     "id": "church-of-the-redeemer-5700-lawndale-houston-tx",
     "name": "Church of the Redeemer",
-    "website": "http://www.epicenter.org",
+    "website": "http://www.epicenter.org/",
     "address": "5700 Lawndale, Houston, TX 77023-1898",
     "state": "TX",
     "diocese": "Texas",
@@ -3651,7 +3651,7 @@
   {
     "id": "first-steps-montessorri-school-2450-river-oaks-blvd-houston-tx",
     "name": "First Steps Montessorri School",
-    "website": "http://www.firststepsmontessori.org",
+    "website": "http://www.firststepsmontessori.org/",
     "address": "2450 River Oaks Blvd., Houston, TX 77019",
     "state": "TX",
     "diocese": "Texas",
@@ -3834,7 +3834,7 @@
     "asa": null,
     "city": "Houston",
     "church_phone": "(713) 681-6422",
-    "church_email": "HEChouston.office@gmail.com",
+    "church_email": "hechouston.office@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 9:00 AM; 10:30 AM; 5:00 PM",
@@ -3856,7 +3856,7 @@
   {
     "id": "houston-canterbury-3800-cullen-blvd-houston-tx",
     "name": "Houston Canterbury",
-    "website": "http://uhcanterbury.org",
+    "website": "http://uhcanterbury.org/",
     "address": "3800 Cullen Blvd., Houston, TX 77004",
     "state": "TX",
     "diocese": "Texas",
@@ -3897,7 +3897,7 @@
   {
     "id": "iglesia-episcopal-san-mateo-6635-alder-dr-houston-tx",
     "name": "Iglesia Episcopal San Mateo",
-    "website": "http://www.iglesiasanmateo.org",
+    "website": "http://www.iglesiasanmateo.org/",
     "address": "6635 Alder Dr, Houston, TX 77081-5201",
     "state": "TX",
     "diocese": "Texas",
@@ -4020,7 +4020,7 @@
   {
     "id": "san-pablo-st-pauls-episcopal-7843-park-place-blvd-houston-tx",
     "name": "San Pablo/St. Paul's Episcopal",
-    "website": "http://www.stpaulsanpablo.com",
+    "website": "http://www.stpaulsanpablo.com/",
     "address": "7843 Park Place Blvd, Houston, TX 77087-4698",
     "state": "TX",
     "diocese": "Texas",
@@ -4102,7 +4102,7 @@
   {
     "id": "st-albans-episcopal-church-420-woodard-st-houston-tx",
     "name": "St. Alban's Episcopal Church",
-    "website": "http://www.stalbanshouston.org",
+    "website": "http://www.stalbanshouston.org/",
     "address": "420 Woodard St, Houston, TX 77009-1824",
     "state": "TX",
     "diocese": "Texas",
@@ -4184,7 +4184,7 @@
   {
     "id": "st-barnabas-episcopal-church-107-e-edgebrook-dr-houston-tx",
     "name": "St. Barnabas Episcopal Church",
-    "website": "http://www.stbec.com",
+    "website": "http://www.stbec.com/",
     "address": "107 E Edgebrook Dr, Houston, TX 77034-1401",
     "state": "TX",
     "diocese": "Texas",
@@ -4389,7 +4389,7 @@
   {
     "id": "st-james-episcopal-church-3129-southmore-boulevard-houston-tx",
     "name": "St. James' Episcopal Church",
-    "website": "http://www.stjameshouston.org",
+    "website": "http://www.stjameshouston.org/",
     "address": "3129 Southmore Boulevard, Houston, TX 77004-6298",
     "state": "TX",
     "diocese": "Texas",
@@ -4430,7 +4430,7 @@
   {
     "id": "st-luke-the-evangelist-episcopal-church-3530-wheeler-st-houston-tx",
     "name": "St. Luke the Evangelist Episcopal Church",
-    "website": "http://www.stlukehouston.org",
+    "website": "http://www.stlukehouston.org/",
     "address": "3530 Wheeler St, Houston, TX 77004-5527",
     "state": "TX",
     "diocese": "Texas",
@@ -4471,7 +4471,7 @@
   {
     "id": "st-marks-episcopal-church-3816-bellaire-blvd-houston-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://ccschouston.org",
+    "website": "http://ccschouston.org/",
     "address": "3816 Bellaire Blvd., Houston, TX 77025-1296",
     "state": "TX",
     "diocese": "Texas",
@@ -4553,7 +4553,7 @@
   {
     "id": "st-philip-the-evangelist-2525-seagler-rd-houston-tx",
     "name": "St. Philip the Evangelist",
-    "website": "http://www.stphilipstheevangelist.org",
+    "website": "http://www.stphilipstheevangelist.org/",
     "address": "2525 Seagler Rd., Houston, TX 77042",
     "state": "TX",
     "diocese": "Texas",
@@ -4635,7 +4635,7 @@
   {
     "id": "st-thomas-episcopal-church-4900-jackwood-st-houston-tx",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://www.epicenter.org",
+    "website": "http://www.epicenter.org/",
     "address": "4900 Jackwood St, Houston, TX 77096-1599",
     "state": "TX",
     "diocese": "Texas",
@@ -4676,7 +4676,7 @@
   {
     "id": "st-thomas-the-apostle-episcopal-church-18300-upper-bay-rd-houston-tx",
     "name": "St. Thomas the Apostle Episcopal Church",
-    "website": "http://www.sttaec.org",
+    "website": "http://www.sttaec.org/",
     "address": "18300 Upper Bay Rd, Houston, TX 77058-4199",
     "state": "TX",
     "diocese": "Texas",
@@ -4717,7 +4717,7 @@
   {
     "id": "st-timothys-episcopal-church-13125-indianapolis-st-houston-tx",
     "name": "St. Timothy's Episcopal Church",
-    "website": "http://sttimsinhouston.com",
+    "website": "http://sttimsinhouston.com/",
     "address": "13125 Indianapolis St, Houston, TX 77015-3600",
     "state": "TX",
     "diocese": "Texas",
@@ -4859,7 +4859,7 @@
     "asa": null,
     "city": "Houston",
     "church_phone": "(713) 797-0600",
-    "church_email": "Gena@graceinhouston.org",
+    "church_email": "gena@graceinhouston.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -4963,7 +4963,7 @@
   {
     "id": "st-stephens-episcopal-church-5019-sam-houston-ave-huntsville-tx",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://ststephens1.org",
+    "website": "http://ststephens1.org/",
     "address": "5019 Sam Houston Ave, Huntsville, TX 77340-6653",
     "state": "TX",
     "diocese": "Texas",
@@ -5045,7 +5045,7 @@
   {
     "id": "trinity-episcopal-church-1000-s-jackson-st-jacksonville-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityepiscopaljacksonville.org",
+    "website": "https://www.trinityepiscopaljacksonville.org/",
     "address": "1000 S Jackson St, Jacksonville, TX 75766-3016",
     "state": "TX",
     "diocese": "Texas",
@@ -5209,7 +5209,7 @@
   {
     "id": "st-pauls-episcopal-church-5373-franz-rd-katy-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulskaty.org",
+    "website": "http://www.stpaulskaty.org/",
     "address": "5373 Franz Rd, Katy, TX 77493",
     "state": "TX",
     "diocese": "Texas",
@@ -5250,7 +5250,7 @@
   {
     "id": "st-martin-in-the-fields-episcopal-church-223-s-pearson-ln-keller-tx",
     "name": "St. Martin-in-the-Fields Episcopal Church",
-    "website": "http://www.stmartininthefields.org",
+    "website": "http://www.stmartininthefields.org/",
     "address": "223 S Pearson Ln, Keller, TX 76248-5348",
     "state": "TX",
     "diocese": "Texas",
@@ -5332,7 +5332,7 @@
   {
     "id": "st-christophers-episcopal-church-2800-trimmier-rd-killeen-tx",
     "name": "St. Christopher's Episcopal Church",
-    "website": "http://www.stchriskilleen.com",
+    "website": "http://www.stchriskilleen.com/",
     "address": "2800 Trimmier Rd, Killeen, TX 76542-6003",
     "state": "TX",
     "diocese": "Texas",
@@ -5392,7 +5392,7 @@
     "asa": null,
     "city": "Kingwood",
     "church_phone": "(281) 358-3154",
-    "church_email": "HedyG@aol.com",
+    "church_email": "hedyg@aol.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 9:15 AM; 10:15 AM",
@@ -5414,7 +5414,7 @@
   {
     "id": "st-james-episcopal-church-156-n-monroe-st-lagrange-tx",
     "name": "St. James Episcopal Church",
-    "website": "http://www.stjameslagrange.org",
+    "website": "http://www.stjameslagrange.org/",
     "address": "156 N Monroe St, LaGrange, TX 78945-2651",
     "state": "TX",
     "diocese": "Texas",
@@ -5455,7 +5455,7 @@
   {
     "id": "st-timothys-episcopal-church-200-oyster-creek-dr-lake-jackson-tx",
     "name": "St. Timothy's Episcopal Church",
-    "website": "http://www.stimothy.org",
+    "website": "http://www.stimothy.org/",
     "address": "200 Oyster Creek Dr, Lake Jackson, TX 77566-4402",
     "state": "TX",
     "diocese": "Texas",
@@ -5496,7 +5496,7 @@
   {
     "id": "st-michaels-episcopal-church-1601-lake-rd-lamarque-tx",
     "name": "St. Michael's Episcopal Church",
-    "website": "http://www.stmichaelsepiscopallmtx.com",
+    "website": "http://www.stmichaelsepiscopallmtx.com/",
     "address": "1601 Lake Rd, LaMarque, TX 77568-5242",
     "state": "TX",
     "diocese": "Texas",
@@ -5578,7 +5578,7 @@
   {
     "id": "st-johns-episcopal-church-815-s-broadway-st-laporte-tx",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohns-laporte.org",
+    "website": "http://www.stjohns-laporte.org/",
     "address": "815 S Broadway St, LaPorte, TX 77571",
     "state": "TX",
     "diocese": "Texas",
@@ -5660,7 +5660,7 @@
   {
     "id": "st-pauls-church-fm-134-leigh-tx",
     "name": "St. Paul's Church",
-    "website": "http://stpaulsorangetx.org",
+    "website": "http://stpaulsorangetx.org/",
     "address": "FM 134, Leigh, TX 75661",
     "state": "TX",
     "diocese": "Texas",
@@ -5701,7 +5701,7 @@
   {
     "id": "saint-stephens-episcopal-church-2041-trinity-st-liberty-tx",
     "name": "Saint Stephen's Episcopal Church",
-    "website": "http://www.saintstephensliberty.org",
+    "website": "http://www.saintstephensliberty.org/",
     "address": "2041 Trinity St, Liberty, TX 77575-4831",
     "state": "TX",
     "diocese": "Texas",
@@ -5783,7 +5783,7 @@
   {
     "id": "st-lukes-episcopal-church-836-w-jones-st-livingston-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://www.stlukeslivingston.org",
+    "website": "http://www.stlukeslivingston.org/",
     "address": "836 W Jones St, Livingston, TX 77351-2721",
     "state": "TX",
     "diocese": "Texas",
@@ -5865,7 +5865,7 @@
   {
     "id": "trinity-episcopal-church-906-padon-st-longview-tx",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityparish.org",
+    "website": "http://www.trinityparish.org/",
     "address": "906 Padon St, Longview, TX 75601-6797",
     "state": "TX",
     "diocese": "Texas",
@@ -5906,7 +5906,7 @@
   {
     "id": "trinity-school-of-texas-215-teague-street-longview-tx",
     "name": "Trinity School of Texas",
-    "website": "http://www.trinityschooloftexas.com",
+    "website": "http://www.trinityschooloftexas.com/",
     "address": "215 Teague Street, Longview, TX 75601",
     "state": "TX",
     "diocese": "Texas",
@@ -6070,7 +6070,7 @@
   {
     "id": "trinity-episcopal-church-909-ave-d-marble-falls-tx",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinitymarblefalls.org",
+    "website": "http://www.trinitymarblefalls.org/",
     "address": "909 Ave D, Marble Falls, TX 78654",
     "state": "TX",
     "diocese": "Texas",
@@ -6089,7 +6089,7 @@
     "asa": null,
     "city": "Marble Falls",
     "church_phone": "(830) 693-2822",
-    "church_email": "David@trinitymarblefalls.org",
+    "church_email": "david@trinitymarblefalls.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -6111,7 +6111,7 @@
   {
     "id": "st-johns-episcopal-church-514-carter-st-marlin-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnsmarlin.com",
+    "website": "https://stjohnsmarlin.com/",
     "address": "514 Carter St, Marlin, TX 76661-2326",
     "state": "TX",
     "diocese": "Texas",
@@ -6152,7 +6152,7 @@
   {
     "id": "trinity-episcopal-church-106-n-grove-st-marshall-tx",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityepiscopalmarshall.org",
+    "website": "http://www.trinityepiscopalmarshall.org/",
     "address": "106 N Grove St, Marshall, TX 75670-3237",
     "state": "TX",
     "diocese": "Texas",
@@ -6234,7 +6234,7 @@
   {
     "id": "christ-episcopal-church-505-e-commerce-st-mexia-tx",
     "name": "Christ Episcopal Church",
-    "website": "http://christchurchmexia.org",
+    "website": "http://christchurchmexia.org/",
     "address": "505 E Commerce St, Mexia, TX 76667-2862",
     "state": "TX",
     "diocese": "Texas",
@@ -6275,7 +6275,7 @@
   {
     "id": "st-catherine-of-sienna-episcopal-church-4747-sienna-pkwy-missouri-city-tx",
     "name": "St. Catherine of Sienna Episcopal Church",
-    "website": "http://www.siennachurch.org",
+    "website": "http://www.siennachurch.org/",
     "address": "4747 Sienna Pkwy, Missouri City, TX 77459-6052",
     "state": "TX",
     "diocese": "Texas",
@@ -6316,7 +6316,7 @@
   {
     "id": "christ-church-episcopal-school-1428-n-mound-street-nacogdoches-tx",
     "name": "Christ Church Episcopal School",
-    "website": "http://www.ces-nac.org",
+    "website": "http://www.ces-nac.org/",
     "address": "1428 N. Mound Street, Nacogdoches, TX 75961",
     "state": "TX",
     "diocese": "Texas",
@@ -6398,7 +6398,7 @@
   {
     "id": "camp-allen-conference-and-retreat-center-18800-fm-362-navasota-tx",
     "name": "Camp Allen Conference and Retreat Center",
-    "website": "http://www.campallen.org",
+    "website": "http://www.campallen.org/",
     "address": "18800 FM 362, Navasota, TX 77868",
     "state": "TX",
     "diocese": "Texas",
@@ -6439,7 +6439,7 @@
   {
     "id": "st-pauls-episcopal-church-414-e-mcalpine-st-navasota-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsnavasota.org",
+    "website": "http://www.stpaulsnavasota.org/",
     "address": "414 E McAlpine St, Navasota, TX 77868-3645",
     "state": "TX",
     "diocese": "Texas",
@@ -6562,7 +6562,7 @@
   {
     "id": "st-philips-episcopal-church-106-east-crawford-st-palestine-tx",
     "name": "St. Philip's Episcopal Church",
-    "website": "http://www.stphilipspalestine.com",
+    "website": "http://www.stphilipspalestine.com/",
     "address": "106 East Crawford St, Palestine, TX 75801-2805",
     "state": "TX",
     "diocese": "Texas",
@@ -6644,7 +6644,7 @@
   {
     "id": "st-andrews-academy-2535-broadway-st-pearland-tx",
     "name": "St. Andrew's Academy",
-    "website": "http://www.standrewsacademypearland.com",
+    "website": "http://www.standrewsacademypearland.com/",
     "address": "2535 Broadway St., Pearland, TX 77581-4901",
     "state": "TX",
     "diocese": "Texas",
@@ -6685,7 +6685,7 @@
   {
     "id": "st-andrews-episcopal-church-2535-broadway-st-pearland-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://www.pumpkinchurch.com",
+    "website": "http://www.pumpkinchurch.com/",
     "address": "2535 Broadway St, Pearland, TX 77581-4901",
     "state": "TX",
     "diocese": "Texas",
@@ -6767,7 +6767,7 @@
   {
     "id": "st-joan-of-arc-1225-town-center-pflugerville-tx",
     "name": "St. Joan of Arc",
-    "website": "https://www.saintjoans.org",
+    "website": "https://www.saintjoans.org/",
     "address": "1225 Town Center, Pflugerville, TX 78660",
     "state": "TX",
     "diocese": "Texas",
@@ -6808,7 +6808,7 @@
   {
     "id": "st-pauls-episcopal-church-po-box-28-pflugerville-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulspflugerville.org",
+    "website": "http://www.stpaulspflugerville.org/",
     "address": "PO Box 28, Pflugerville, TX 78691",
     "state": "TX",
     "diocese": "Texas",
@@ -7054,7 +7054,7 @@
   {
     "id": "st-thomas-episcopal-church-302-e-davilla-ave-rockdale-tx",
     "name": "St. Thomas' Episcopal Church",
-    "website": "http://www.stthomasrockdale.org",
+    "website": "http://www.stthomasrockdale.org/",
     "address": "302 E. Davilla Ave., Rockdale, TX 76567-2986",
     "state": "TX",
     "diocese": "Texas",
@@ -7114,7 +7114,7 @@
     "asa": null,
     "city": "Salado",
     "church_phone": "(254) 947-3160",
-    "church_email": "StJoseph@stjosephsalado.org",
+    "church_email": "stjoseph@stjosephsalado.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
@@ -7278,7 +7278,7 @@
     "asa": null,
     "city": "Spring",
     "church_phone": "(781) 474-3673 (781-ISIDORE)",
-    "church_email": "Team@HarvestKitchen.org",
+    "church_email": "team@harvestkitchen.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -7300,7 +7300,7 @@
   {
     "id": "holy-comforter-episcopal-church-2322-spring-cypress-rd-spring-tx",
     "name": "Holy Comforter Episcopal Church",
-    "website": "http://www.holycomforterspring.org",
+    "website": "http://www.holycomforterspring.org/",
     "address": "2322 Spring Cypress Rd, Spring, TX 77388-4717",
     "state": "TX",
     "diocese": "Texas",
@@ -7382,7 +7382,7 @@
   {
     "id": "all-saints-episcopal-church-605-dulles-ave-stafford-tx",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaintsstafford.org",
+    "website": "http://www.allsaintsstafford.org/",
     "address": "605 Dulles Ave, Stafford, TX 77477-5222",
     "state": "TX",
     "diocese": "Texas",
@@ -7423,7 +7423,7 @@
   {
     "id": "good-shepherd-episcopal-indian-church-605-dulles-ave-stafford-tx",
     "name": "Good Shepherd Episcopal Indian Church",
-    "website": "https://www.goodshepherdindian.org",
+    "website": "https://www.goodshepherdindian.org/",
     "address": "605 Dulles Ave., Stafford, TX 77477",
     "state": "TX",
     "diocese": "Texas",
@@ -7464,7 +7464,7 @@
   {
     "id": "good-shepherd-indian-episcopal-church-605-dulles-avenue-stafford-tx",
     "name": "Good Shepherd Indian Episcopal Church",
-    "website": "https://www.goodshepherdindian.org",
+    "website": "https://www.goodshepherdindian.org/",
     "address": "605 Dulles Avenue, Stafford, TX 77477",
     "state": "TX",
     "diocese": "Texas",
@@ -7505,7 +7505,7 @@
   {
     "id": "st-lukes-episcopal-church-595-n-mcilhaney-st-stephenville-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://www.stlukesstephenville.org",
+    "website": "http://www.stlukesstephenville.org/",
     "address": "595 N McIlhaney St, Stephenville, TX 76401",
     "state": "TX",
     "diocese": "Texas",
@@ -7546,7 +7546,7 @@
   {
     "id": "holy-cross-episcopal-church-5653-w-river-park-dr-sugar-land-tx",
     "name": "Holy Cross Episcopal Church",
-    "website": "http://www.holycrosschurch.com",
+    "website": "http://www.holycrosschurch.com/",
     "address": "5653 W River Park Dr, Sugar Land, TX 77479-7900",
     "state": "TX",
     "diocese": "Texas",
@@ -7587,7 +7587,7 @@
   {
     "id": "st-james-episcopal-church-612-davis-street-taylor-tx",
     "name": "St. James Episcopal Church",
-    "website": "http://www.stjamestaylor.org",
+    "website": "http://www.stjamestaylor.org/",
     "address": "612 Davis Street, Taylor, TX 76574",
     "state": "TX",
     "diocese": "Texas",
@@ -7628,7 +7628,7 @@
   {
     "id": "christ-church-episcopal-school-317-n-first-st-temple-tx",
     "name": "Christ Church Episcopal School",
-    "website": "http://www.christchurchschooltemple.com",
+    "website": "http://www.christchurchschooltemple.com/",
     "address": "317 N. First St., Temple, TX 76501-3244",
     "state": "TX",
     "diocese": "Texas",
@@ -7915,7 +7915,7 @@
   {
     "id": "st-francis-episcopal-church-3232-jan-ave-tyler-tx",
     "name": "St. Francis Episcopal Church",
-    "website": "http://www.stfrancistyler.org",
+    "website": "http://www.stfrancistyler.org/",
     "address": "3232 Jan Ave, Tyler, TX 75701-9115",
     "state": "TX",
     "diocese": "Texas",
@@ -8102,7 +8102,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "7:30 AM; 9:00 AM; 11:15 AM; 5:30 PM",
-    "weekday_services": "Mon - Fri 7:30 AM; Wed 12:00 PM",
+    "weekday_services": "Mon–Fri 7:30 AM; Wed 12:00 PM",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "rector_name": "",
     "other_clergy": "",
@@ -8202,7 +8202,7 @@
   {
     "id": "st-marys-episcopal-church-201-east-clay-west-columbia-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://www.stmaryswestcolumbia.org",
+    "website": "http://www.stmaryswestcolumbia.org/",
     "address": "201 East Clay, West Columbia, TX 77486-0786",
     "state": "TX",
     "diocese": "Texas",
@@ -8243,7 +8243,7 @@
   {
     "id": "st-thomas-episcopal-church-207-bob-o-link-lane-wharton-tx",
     "name": "St. Thomas' Episcopal Church",
-    "website": "http://stthomas-wharton.org",
+    "website": "http://stthomas-wharton.org/",
     "address": "207 Bob O Link Lane, Wharton, TX 77488-3205",
     "state": "TX",
     "diocese": "Texas",
@@ -8325,7 +8325,7 @@
   {
     "id": "st-pauls-episcopal-church-1703-w-bluff-st-woodville-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulswoodville.org",
+    "website": "http://www.stpaulswoodville.org/",
     "address": "1703 W Bluff St, Woodville, TX 75979-4632",
     "state": "TX",
     "diocese": "Texas",

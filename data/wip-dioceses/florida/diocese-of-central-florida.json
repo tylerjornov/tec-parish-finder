@@ -2,7 +2,7 @@
   {
     "id": "church-of-the-holy-spirit-601-s-highland-ave-apopka-fl",
     "name": "Church of the Holy Spirit",
-    "website": "http://www.holyspiritapopka.com",
+    "website": "http://www.holyspiritapopka.com/",
     "address": "601 S Highland Ave, Apopka, FL 32703-5343",
     "state": "FL",
     "diocese": "Central Florida",
@@ -21,7 +21,7 @@
     "asa": null,
     "city": "Apopka",
     "church_phone": "(407) 886-1740",
-    "church_email": "CHSSecretary@HolySpiritApopka.com",
+    "church_email": "chssecretary@holyspiritapopka.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -43,7 +43,7 @@
   {
     "id": "anchor-house-3000-k-ville-ave-auburndale-auburndale-fl",
     "name": "Anchor House",
-    "website": "https://www.anchor-house.org",
+    "website": "https://www.anchor-house.org/",
     "address": "3000 K-Ville Ave, Auburndale, Auburndale, FL 33823",
     "state": "FL",
     "diocese": "Central Florida",
@@ -84,7 +84,7 @@
   {
     "id": "st-albans-episcopal-church-202-pontotoc-plaza-auburndale-fl",
     "name": "St. Alban's Episcopal Church",
-    "website": "http://www.stalbansauburndale.com",
+    "website": "http://www.stalbansauburndale.com/",
     "address": "202 Pontotoc Plaza, Auburndale, FL 33823-3408",
     "state": "FL",
     "diocese": "Central Florida",
@@ -125,7 +125,7 @@
   {
     "id": "camp-wingmann-3404-wingmann-rd-avon-park-fl",
     "name": "Camp Wingmann",
-    "website": "http://www.campwingmann.org",
+    "website": "http://www.campwingmann.org/",
     "address": "3404 Wingmann Rd, Avon Park, FL 33825",
     "state": "FL",
     "diocese": "Central Florida",
@@ -207,7 +207,7 @@
   {
     "id": "holy-trinity-church-500-w-stuart-st-bartow-fl",
     "name": "Holy Trinity Church",
-    "website": "https://www.holytrinitybartow.com",
+    "website": "https://www.holytrinitybartow.com/",
     "address": "500 W Stuart St, Bartow, FL 33830-6200",
     "state": "FL",
     "diocese": "Central Florida",
@@ -248,7 +248,7 @@
   {
     "id": "st-marys-episcopal-church-5750-se-115th-st-belleview-fl",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmarysbelleview.org",
+    "website": "https://www.stmarysbelleview.org/",
     "address": "5750 SE 115th St, Belleview, FL 34420-4336",
     "state": "FL",
     "diocese": "Central Florida",
@@ -330,7 +330,7 @@
   {
     "id": "st-matthias-episcopal-church-574-west-montrose-st-clermont-fl",
     "name": "St. Matthias Episcopal Church",
-    "website": "http://www.stmatthiasfl.com",
+    "website": "http://www.stmatthiasfl.com/",
     "address": "574 West Montrose St, Clermont, FL 34711",
     "state": "FL",
     "diocese": "Central Florida",
@@ -371,7 +371,7 @@
   {
     "id": "st-marks-4-church-st-cocoa-fl",
     "name": "St. Mark's",
-    "website": "https://www.stmarkscocoa.org",
+    "website": "https://www.stmarkscocoa.org/",
     "address": "4 Church St, Cocoa, FL 32922",
     "state": "FL",
     "diocese": "Central Florida",
@@ -412,7 +412,7 @@
   {
     "id": "st-marks-episcopal-academy-2-church-street-cocoa-fl",
     "name": "St. Mark's Episcopal Academy",
-    "website": "http://www.stmarksacademy.org",
+    "website": "http://www.stmarksacademy.org/",
     "address": "2 Church Street, Cocoa, FL 32922",
     "state": "FL",
     "diocese": "Central Florida",
@@ -494,7 +494,7 @@
   {
     "id": "st-annes-episcopal-church-9870-w-fort-island-trl-crystal-river-fl",
     "name": "St. Anne's Episcopal Church",
-    "website": "http://stanneschurchcr.org",
+    "website": "http://stanneschurchcr.org/",
     "address": "9870 W Fort Island Trl, Crystal River, FL 34429-5383",
     "state": "FL",
     "diocese": "Central Florida",
@@ -535,7 +535,7 @@
   {
     "id": "st-marys-episcopal-church-216-orange-ave-daytona-beach-fl",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://stmarysdaytona.org",
+    "website": "http://stmarysdaytona.org/",
     "address": "216 Orange Ave, Daytona Beach, FL 32114",
     "state": "FL",
     "diocese": "Central Florida",
@@ -617,7 +617,7 @@
   {
     "id": "church-of-the-holy-presence-355-n-kepler-rd-deland-fl",
     "name": "Church of the Holy Presence",
-    "website": "http://holypresencedeland.com",
+    "website": "http://holypresencedeland.com/",
     "address": "355 N Kepler Rd, DeLand, FL 32724-4713",
     "state": "FL",
     "diocese": "Central Florida",
@@ -699,7 +699,7 @@
   {
     "id": "church-of-the-advent-11251-sw-hwy-484-dunnellon-fl",
     "name": "Church of the Advent",
-    "website": "https://www.adventepiscopal.net",
+    "website": "https://www.adventepiscopal.net/",
     "address": "11251 SW Hwy 484, Dunnellon, FL 34432-6415",
     "state": "FL",
     "diocese": "Central Florida",
@@ -781,7 +781,7 @@
   {
     "id": "all-saints-episcopal-church-155-clark-st-enterprise-fl",
     "name": "All Saints' Episcopal Church",
-    "website": "http://ascenterprise.org",
+    "website": "http://ascenterprise.org/",
     "address": "155 Clark St, Enterprise, FL 32725-8188",
     "state": "FL",
     "diocese": "Central Florida",
@@ -822,7 +822,7 @@
   {
     "id": "church-of-st-thomas-317-s-mary-st-eustis-fl",
     "name": "Church of St. Thomas",
-    "website": "https://www.stthomaseustis.com",
+    "website": "https://www.stthomaseustis.com/",
     "address": "317 S Mary St, Eustis, FL 32726-4201",
     "state": "FL",
     "diocese": "Central Florida",
@@ -945,7 +945,7 @@
   {
     "id": "st-andrews-episcopal-academy-210-s-indian-river-drive-fort-pierce-fl",
     "name": "St. Andrew's Episcopal Academy",
-    "website": "http://www.staacademy.org",
+    "website": "http://www.staacademy.org/",
     "address": "210 S. Indian River Drive, Fort Pierce, FL 34950-4337",
     "state": "FL",
     "diocese": "Central Florida",
@@ -986,7 +986,7 @@
   {
     "id": "st-andrews-episcopal-church-210-s-indian-river-dr-fort-pierce-fl",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://mystandrews.org",
+    "website": "https://mystandrews.org/",
     "address": "210 S Indian River Dr, Fort Pierce, FL 34950-4337",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1027,7 +1027,7 @@
   {
     "id": "holy-trinity-episcopal-church-2201-spring-lake-rd-fruitland-park-fl",
     "name": "Holy Trinity Episcopal Church",
-    "website": "https://www.holytrinityfp.com",
+    "website": "https://www.holytrinityfp.com/",
     "address": "2201 Spring Lake Rd, Fruitland Park, FL 34731-5256",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1109,7 +1109,7 @@
   {
     "id": "st-margarets-episcopal-church-114-n-osceola-ave-inverness-fl",
     "name": "St. Margaret's Episcopal Church",
-    "website": "https://stmaggie.org",
+    "website": "https://stmaggie.org/",
     "address": "114 N Osceola Ave, Inverness, FL 34450-4121",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1150,7 +1150,7 @@
   {
     "id": "st-johns-episcopal-church-1709-n-john-young-pkwy-kissimmee-fl",
     "name": "St. John's Episcopal Church",
-    "website": "http://stjohns-ec.com",
+    "website": "http://stjohns-ec.com/",
     "address": "1709 N John Young Pkwy, Kissimmee, FL 34741-3200",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-george-episcopal-church-1250-paige-place-lady-lake-fl",
     "name": "St. George Episcopal Church",
-    "website": "https://stgeorge-episcopal.net",
+    "website": "https://stgeorge-episcopal.net/",
     "address": "1250 Paige Place, Lady Lake, FL 32159-9315",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1232,7 +1232,7 @@
   {
     "id": "st-peters-episcopal-church-700-rinehart-rd-lake-mary-fl",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://stpeterslakemary.org",
+    "website": "https://stpeterslakemary.org/",
     "address": "700 Rinehart Rd, Lake Mary, FL 32746-4875",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1273,7 +1273,7 @@
   {
     "id": "st-francis-of-assisi-episcopal-church-43-lake-june-rd-lake-placid-fl",
     "name": "St. Francis of Assisi Episcopal Church",
-    "website": "http://www.stfrancislpfl.com",
+    "website": "http://www.stfrancislpfl.com/",
     "address": "43 Lake June Rd, Lake Placid, FL 33852",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1314,7 +1314,7 @@
   {
     "id": "the-church-of-the-good-shepherd-221-s-4th-st-lake-wales-fl",
     "name": "The Church of the Good Shepherd",
-    "website": "https://www.goodshepherdnews.com",
+    "website": "https://www.goodshepherdnews.com/",
     "address": "221 S 4th St, Lake Wales, FL 33853-3856",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1355,7 +1355,7 @@
   {
     "id": "all-saints-episcopal-church-202-s-massachusetts-ave-lakeland-fl",
     "name": "All Saints' Episcopal Church",
-    "website": "https://www.allsaintsweb.org",
+    "website": "https://www.allsaintsweb.org/",
     "address": "202 S Massachusetts Ave, Lakeland, FL 33801-5012",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1396,7 +1396,7 @@
   {
     "id": "christ-the-king-episcopal-church-6400-n-socrum-loop-rd-lakeland-fl",
     "name": "Christ the King Episcopal Church",
-    "website": "https://www.christthekinglakeland.com",
+    "website": "https://www.christthekinglakeland.com/",
     "address": "6400 N Socrum Loop Rd, Lakeland, FL 33809-4141",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1519,7 +1519,7 @@
   {
     "id": "shepherd-of-the-hills-episcopal-church-2540-w-norvell-bryant-hwy-lecanto-fl",
     "name": "Shepherd of the Hills Episcopal Church",
-    "website": "http://sothec.org",
+    "website": "http://sothec.org/",
     "address": "2540 W Norvell Bryant Hwy, Lecanto, FL 34461-9422",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1560,7 +1560,7 @@
   {
     "id": "st-james-episcopal-church-204-lee-st-leesburg-fl",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjames-leesburg.org",
+    "website": "https://www.stjames-leesburg.org/",
     "address": "204 Lee St, Leesburg, FL 34748-4915",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1601,7 +1601,7 @@
   {
     "id": "christ-episcopal-church-151-w-church-ave-longwood-fl",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchlongwood.com",
+    "website": "https://www.christchurchlongwood.com/",
     "address": "151 W Church Ave, Longwood, FL 32750-4105",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1620,7 +1620,7 @@
     "asa": null,
     "city": "Longwood",
     "church_phone": "(407) 339-6812",
-    "church_email": "LONGWOODCHRISTCHURCH@GMAIL.COM",
+    "church_email": "longwoodchristchurch@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
@@ -1642,7 +1642,7 @@
   {
     "id": "church-of-the-resurrection-251-e-lake-brantley-dr-longwood-fl",
     "name": "Church of the Resurrection",
-    "website": "http://www.resurrectionlongwood.org",
+    "website": "http://www.resurrectionlongwood.org/",
     "address": "251 E Lake Brantley Dr, Longwood, FL 32779",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1724,7 +1724,7 @@
   {
     "id": "sweetwater-episcopal-academy-251-e-lake-brantley-drive-longwood-fl",
     "name": "Sweetwater Episcopal Academy",
-    "website": "https://www.sweetwaterepiscopal.org",
+    "website": "https://www.sweetwaterepiscopal.org/",
     "address": "251 E. Lake Brantley Drive, Longwood, FL 32779",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1765,7 +1765,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-331-lake-ave-maitland-fl",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "https://goodshepherdmaitland.com",
+    "website": "https://goodshepherdmaitland.com/",
     "address": "331 Lake Ave, Maitland, FL 32751-6331",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1806,7 +1806,7 @@
   {
     "id": "holy-trinity-episcopal-academy-5625-holy-trinity-drive-melbourne-fl",
     "name": "Holy Trinity Episcopal Academy",
-    "website": "http://www.htacademy.org",
+    "website": "http://www.htacademy.org/",
     "address": "5625 Holy Trinity Drive, Melbourne, FL 32940",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1847,7 +1847,7 @@
   {
     "id": "holy-trinity-episcopal-church-50-w-strawbridge-ave-melbourne-fl",
     "name": "Holy Trinity Episcopal Church",
-    "website": "http://holytrinitymelbourne.org",
+    "website": "http://holytrinitymelbourne.org/",
     "address": "50 W. Strawbridge Ave, Melbourne, FL 32901-4491",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1929,7 +1929,7 @@
   {
     "id": "st-johns-episcopal-church-610-young-st-melbourne-fl",
     "name": "St. John's Episcopal Church",
-    "website": "http://stjohnsmlb.org",
+    "website": "http://stjohnsmlb.org/",
     "address": "610 Young St, Melbourne, FL 32935-7059",
     "state": "FL",
     "diocese": "Central Florida",
@@ -1970,7 +1970,7 @@
   {
     "id": "st-sebastians-by-the-sea-2010-s-oak-st-melbourne-beach-fl",
     "name": "St. Sebastian's by the Sea",
-    "website": "https://saintsebastians.com",
+    "website": "https://saintsebastians.com/",
     "address": "2010 S Oak St, Melbourne Beach, FL 32951-2713",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2011,7 +2011,7 @@
   {
     "id": "st-lukes-episcopal-church-5555-n-tropical-trl-merritt-island-fl",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukesmi.org",
+    "website": "https://www.stlukesmi.org/",
     "address": "5555 N Tropical Trl, Merritt Island, FL 32953-7202",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-edward-the-confessor-460-n-grandview-st-mount-dora-fl",
     "name": "St. Edward the Confessor",
-    "website": "https://www.stedwardsepiscopal.com",
+    "website": "https://www.stedwardsepiscopal.com/",
     "address": "460 N Grandview St, Mount Dora, FL 32757-5676",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2134,7 +2134,7 @@
   {
     "id": "st-pauls-episcopal-church-1650-live-oak-st-new-smyrna-beach-fl",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsnsb.org",
+    "website": "http://www.stpaulsnsb.org/",
     "address": "1650 Live Oak St, New Smyrna Beach, FL 32168-7771",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2175,7 +2175,7 @@
   {
     "id": "st-pauls-pre-school-1650-live-oak-street-new-smyrna-beach-fl",
     "name": "St. Paul's Pre-School",
-    "website": "http://www.stpaulsnsb.org",
+    "website": "http://www.stpaulsnsb.org/",
     "address": "1650 Live Oak Street, New Smyrna Beach, FL 32168",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2380,7 +2380,7 @@
   {
     "id": "st-stephens-episcopal-church-55-palm-rd-ocala-fl",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://www.ststephen-episcopal.com",
+    "website": "http://www.ststephen-episcopal.com/",
     "address": "55 Palm Rd, Ocala, FL 34472-2418",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2421,7 +2421,7 @@
   {
     "id": "corpus-christi-episcopal-church-3430-county-rd-470-okahumpka-fl",
     "name": "Corpus Christi Episcopal Church",
-    "website": "http://www.corpuschristiepiscopal.org",
+    "website": "http://www.corpuschristiepiscopal.org/",
     "address": "3430 County Rd 470, Okahumpka, FL 34762",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2462,7 +2462,7 @@
   {
     "id": "church-of-our-saviour-200-nw-3rd-st-okeechobee-fl",
     "name": "Church of Our Saviour",
-    "website": "http://churchofoursaviourokeechobee.org",
+    "website": "http://churchofoursaviourokeechobee.org/",
     "address": "200 NW 3rd St, Okeechobee, FL 34972-4125",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2481,7 +2481,7 @@
     "asa": null,
     "city": "Okeechobee",
     "church_phone": "(863) 763-4843",
-    "church_email": "ChurchOfOurSaviour1@gmail.com",
+    "church_email": "churchofoursaviour1@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -2503,7 +2503,7 @@
   {
     "id": "st-judes-episcopal-church-815-e-graves-ave-orange-city-fl",
     "name": "St. Jude's Episcopal Church",
-    "website": "http://www.stjudescentralflorida.org",
+    "website": "http://www.stjudescentralflorida.org/",
     "address": "815 E Graves Ave, Orange City, FL 32763-5307",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2544,7 +2544,7 @@
   {
     "id": "cathedral-church-of-st-luke-130-n-magnolia-ave-orlando-fl",
     "name": "Cathedral Church of St. Luke",
-    "website": "https://www.ccslorlando.org",
+    "website": "https://www.ccslorlando.org/",
     "address": "130 N Magnolia Ave, Orlando, FL 32801-2300",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2563,7 +2563,7 @@
     "asa": null,
     "city": "Orlando",
     "church_phone": "(407) 849-0680",
-    "church_email": "CCSLWELCOME@GMAIL.COM",
+    "church_email": "ccslwelcome@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:15 AM; 6:00 PM",
@@ -2585,7 +2585,7 @@
   {
     "id": "christ-the-king-episcopal-church-26-willow-dr-orlando-fl",
     "name": "Christ the King Episcopal Church",
-    "website": "https://www.christthekingepiscopalorlando.com",
+    "website": "https://www.christthekingepiscopalorlando.com/",
     "address": "26 Willow Dr, Orlando, FL 32807-3298",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2667,7 +2667,7 @@
   {
     "id": "emmanuel-episcopal-church-1603-e-winter-park-rd-orlando-fl",
     "name": "Emmanuel Episcopal Church",
-    "website": "https://emmanuelepiscopal.net",
+    "website": "https://emmanuelepiscopal.net/",
     "address": "1603 E Winter Park Rd, Orlando, FL 32803-2296",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2708,7 +2708,7 @@
   {
     "id": "holy-family-episcopal-church-1010-n-hiawassee-rd-orlando-fl",
     "name": "Holy Family Episcopal Church",
-    "website": "http://www.holyfamilychurch.info",
+    "website": "http://www.holyfamilychurch.info/",
     "address": "1010 N Hiawassee Rd, Orlando, FL 32818-6711",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2727,7 +2727,7 @@
     "asa": null,
     "city": "Orlando",
     "church_phone": "(407) 293-2236",
-    "church_email": "Holyfamfl@gmail.com",
+    "church_email": "holyfamfl@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "7:30 PM; 10:30 AM",
@@ -2831,7 +2831,7 @@
   {
     "id": "st-mary-of-the-angels-episcopal-church-6316-matchett-rd-orlando-fl",
     "name": "St Mary of the Angels Episcopal Church",
-    "website": "https://stmaryangels.org",
+    "website": "https://stmaryangels.org/",
     "address": "6316 Matchett Rd, Orlando, FL 32809-5196",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2872,7 +2872,7 @@
   {
     "id": "st-john-the-baptist-church-1000-bethune-dr-orlando-fl",
     "name": "St. John the Baptist Church",
-    "website": "http://www.stjohneps.org",
+    "website": "http://www.stjohneps.org/",
     "address": "1000 Bethune Dr, Orlando, FL 32805-3404",
     "state": "FL",
     "diocese": "Central Florida",
@@ -2913,7 +2913,7 @@
   {
     "id": "st-matthews-episcopal-church-5873-n-dean-rd-orlando-fl",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://www.stmattjewsorlando.org",
+    "website": "http://www.stmattjewsorlando.org/",
     "address": "5873 N Dean Rd, Orlando, FL 32817-3201",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3055,7 +3055,7 @@
     "asa": null,
     "city": "Ormond Beach",
     "church_phone": "Call (386) 672-4470 or Text (386) 217-3147",
-    "church_email": "info@HolyChild.us",
+    "church_email": "info@holychild.us",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:00 AM",
@@ -3077,7 +3077,7 @@
   {
     "id": "st-james-episcopal-church-44-s-halifax-dr-ormond-beach-fl",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesobfl.org",
+    "website": "https://www.stjamesobfl.org/",
     "address": "44 S Halifax Dr, Ormond Beach, FL 32176-6597",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3241,7 +3241,7 @@
   {
     "id": "grace-episcopal-church-4110-s-ridgewood-avenue-port-orange-fl",
     "name": "Grace Episcopal Church",
-    "website": "https://www.graceepiscopalportorange.org",
+    "website": "https://www.graceepiscopalportorange.org/",
     "address": "4110 S Ridgewood Avenue, Port Orange, FL 32127-4519",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3282,7 +3282,7 @@
   {
     "id": "church-of-the-nativity-1151-sw-del-rio-blvd-port-saint-lucie-fl",
     "name": "Church of the Nativity",
-    "website": "https://www.churchofthenativitypsl.com",
+    "website": "https://www.churchofthenativitypsl.com/",
     "address": "1151 SW Del Rio Blvd, Port Saint Lucie, FL 34953-1520",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3323,7 +3323,7 @@
   {
     "id": "holy-faith-episcopal-church-6990-s-us-highway-1-port-saint-lucie-fl",
     "name": "Holy Faith Episcopal Church",
-    "website": "http://holyfaithpsl.org",
+    "website": "http://holyfaithpsl.org/",
     "address": "6990 S US Highway 1, Port Saint Lucie, FL 34952-1499",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3465,7 +3465,7 @@
     "asa": null,
     "city": "Sanford",
     "church_phone": "(407) 260-9155",
-    "church_email": "Inquiry@TheSharingCenter.org",
+    "church_email": "inquiry@thesharingcenter.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -3487,7 +3487,7 @@
   {
     "id": "church-of-the-holy-apostles-505-grant-ave-satellite-beach-fl",
     "name": "Church of the Holy Apostles",
-    "website": "https://www.holyapostles-sbfl.org",
+    "website": "https://www.holyapostles-sbfl.org/",
     "address": "505 Grant Ave, Satellite Beach, FL 32937-2921",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3528,7 +3528,7 @@
   {
     "id": "st-elizabeths-episcopal-church-901-clearmont-st-sebastian-fl",
     "name": "St. Elizabeth's Episcopal Church",
-    "website": "https://www.stelizabethssebastian.org",
+    "website": "https://www.stelizabethssebastian.org/",
     "address": "901 Clearmont St, Sebastian, FL 32958-4978",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3569,7 +3569,7 @@
   {
     "id": "st-agnes-episcopal-church-3840-lakeview-dr-sebring-fl",
     "name": "St. Agnes Episcopal Church",
-    "website": "http://stagnessebring.org",
+    "website": "http://stagnessebring.org/",
     "address": "3840 Lakeview Dr, Sebring, FL 33870-2066",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3629,7 +3629,7 @@
     "asa": null,
     "city": "Titusville",
     "church_phone": "(321) 267-2545",
-    "church_email": "Office@StGabriels.church",
+    "church_email": "office@stgabriels.church",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "7:30 AM; 10:15 AM",
@@ -3692,7 +3692,7 @@
   {
     "id": "st-augustine-of-canterbury-475-43rd-ave-vero-beach-fl",
     "name": "St. Augustine of Canterbury",
-    "website": "https://staugustinevero.com",
+    "website": "https://staugustinevero.com/",
     "address": "475 43rd Ave, Vero Beach, FL 32968-1836",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3733,7 +3733,7 @@
   {
     "id": "trinity-episcopal-church-2365-pine-ave-vero-beach-fl",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityvero.org",
+    "website": "https://www.trinityvero.org/",
     "address": "2365 Pine Ave, Vero Beach, FL 32960",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3856,7 +3856,7 @@
   {
     "id": "all-saints-academy-5001-state-road-540-west-winter-haven-fl",
     "name": "All Saints' Academy",
-    "website": "http://www.allsaintsacademy.com",
+    "website": "http://www.allsaintsacademy.com/",
     "address": "5001 State Road 540 West, Winter Haven, FL 33880",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3916,7 +3916,7 @@
     "asa": null,
     "city": "Winter Haven",
     "church_phone": "(863) 324-4021",
-    "church_email": "HolyCrossEpiscopalWHFL@gmail.com",
+    "church_email": "holycrossepiscopalwhfl@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:00 AM",
@@ -3938,7 +3938,7 @@
   {
     "id": "st-pauls-church-656-avenue-l-nw-winter-haven-fl",
     "name": "St. Paul's Church",
-    "website": "https://www.spwhfl.com",
+    "website": "https://www.spwhfl.com/",
     "address": "656 Avenue L NW, Winter Haven, FL 33881-4030",
     "state": "FL",
     "diocese": "Central Florida",
@@ -3979,7 +3979,7 @@
   {
     "id": "all-saints-episcopal-church-338-e-lyman-ave-winter-park-fl",
     "name": "All Saints Episcopal Church",
-    "website": "https://www.allsaintswinterpark.org",
+    "website": "https://www.allsaintswinterpark.org/",
     "address": "338 E Lyman Ave, Winter Park, FL 32789-4494",
     "state": "FL",
     "diocese": "Central Florida",
@@ -4020,7 +4020,7 @@
   {
     "id": "st-richards-episcopal-church-5151-lake-howell-rd-winter-park-fl",
     "name": "St. Richard's Episcopal Church",
-    "website": "http://www.strichards.org",
+    "website": "http://www.strichards.org/",
     "address": "5151 Lake Howell Rd, Winter Park, FL 32792-1095",
     "state": "FL",
     "diocese": "Central Florida",
@@ -4061,7 +4061,7 @@
   {
     "id": "trinity-preparatory-school-of-florida-5700-trinity-prep-lane-winter-park-fl",
     "name": "Trinity Preparatory School of Florida",
-    "website": "http://www.trinityprep.org",
+    "website": "http://www.trinityprep.org/",
     "address": "5700 Trinity Prep Lane, Winter Park, FL 32792",
     "state": "FL",
     "diocese": "Central Florida",

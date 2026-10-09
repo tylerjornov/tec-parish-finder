@@ -84,7 +84,7 @@
   {
     "id": "zion-church-10-park-pl-avon-ny",
     "name": "Zion Church",
-    "website": "http://www.zionchurchavon.org",
+    "website": "http://www.zionchurchavon.org/",
     "address": "10 Park Pl, Avon, NY 14414-1055",
     "state": "NY",
     "diocese": "Rochester",
@@ -289,7 +289,7 @@
   {
     "id": "st-lukes-church-187-west-lake-rd-branchport-ny",
     "name": "St. Luke's Church",
-    "website": "http://stlukesbranchport.org",
+    "website": "http://stlukesbranchport.org/",
     "address": "187 West Lake Rd, Branchport, NY 14418-9754",
     "state": "NY",
     "diocese": "Rochester",
@@ -330,7 +330,7 @@
   {
     "id": "st-lukes-church-14-state-st-brockport-ny",
     "name": "St. Luke's Church",
-    "website": "http://www.stlukesbrockport.orgh",
+    "website": "http://www.stlukesbrockport.orgh/",
     "address": "14 State St, Brockport, NY 14420-1922",
     "state": "NY",
     "diocese": "Rochester",
@@ -535,7 +535,7 @@
   {
     "id": "st-johns-church-32-east-main-street-clifton-springs-ny",
     "name": "St. John's Church",
-    "website": "https://www.stjohnsepiscopalcliftonsprings.com",
+    "website": "https://www.stjohnsepiscopalcliftonsprings.com/",
     "address": "32 East Main Street, Clifton Springs, NY 14432-1120",
     "state": "NY",
     "diocese": "Rochester",
@@ -658,7 +658,7 @@
   {
     "id": "st-peters-memorial-25-clara-barton-street-dansville-ny",
     "name": "St. Peter's Memorial",
-    "website": "http://www.stpetesdansville.org",
+    "website": "http://www.stpetesdansville.org/",
     "address": "25 Clara Barton Street, Dansville, NY 14437",
     "state": "NY",
     "diocese": "Rochester",
@@ -699,7 +699,7 @@
   {
     "id": "st-lukes-church-77-country-corner-ln-fairport-ny",
     "name": "St. Luke's Church",
-    "website": "http://www.stlukesfairport.org",
+    "website": "http://www.stlukesfairport.org/",
     "address": "77 Country Corner Ln, Fairport, NY 14450-3034",
     "state": "NY",
     "diocese": "Rochester",
@@ -740,7 +740,7 @@
   {
     "id": "saint-michaels-episcopal-church-23-main-st-geneseo-ny",
     "name": "Saint Michael's Episcopal Church",
-    "website": "http://www.stmikesgeneseo.org",
+    "website": "http://www.stmikesgeneseo.org/",
     "address": "23 Main St, Geneseo, NY 14454-1213",
     "state": "NY",
     "diocese": "Rochester",
@@ -822,7 +822,7 @@
   {
     "id": "st-peters-community-arts-academy-149-genesee-street-geneva-ny",
     "name": "St. Peter's Community Arts Academy",
-    "website": "http://stpetersarts.org",
+    "website": "http://stpetersarts.org/",
     "address": "149 Genesee Street, Geneva, NY 14456",
     "state": "NY",
     "diocese": "Rochester",
@@ -863,7 +863,7 @@
   {
     "id": "st-peters-memorial-149-genesee-st-geneva-ny",
     "name": "St. Peter's Memorial",
-    "website": "http://www.stpetersgeneva.org",
+    "website": "http://www.stpetersgeneva.org/",
     "address": "149 Genesee St, Geneva, NY 14456-2320",
     "state": "NY",
     "diocese": "Rochester",
@@ -945,7 +945,7 @@
   {
     "id": "st-james-church-corner-of-lake-and-main-st-hammondsport-ny",
     "name": "St. James Church",
-    "website": "http://www.stjames14840.org",
+    "website": "http://www.stjames14840.org/",
     "address": "Corner of Lake & Main St, Hammondsport, NY 14840",
     "state": "NY",
     "diocese": "Rochester",
@@ -986,7 +986,7 @@
   {
     "id": "st-peters-episcopal-church-3825-e-henrietta-rd-henrietta-ny",
     "name": "St. Peter's Episcopal Church",
-    "website": "http://henriettachurch.org",
+    "website": "http://henriettachurch.org/",
     "address": "3825 E Henrietta Rd, Henrietta, NY 14467-9147",
     "state": "NY",
     "diocese": "Rochester",
@@ -1601,7 +1601,7 @@
   {
     "id": "st-luke-and-st-simon-cyrene-episcopal-17-south-fitzhugh-st-rochester-ny",
     "name": "St. Luke & St. Simon Cyrene Episcopal",
-    "website": "http://www.twosaints.org",
+    "website": "http://www.twosaints.org/",
     "address": "17 South Fitzhugh St, Rochester, NY 14614-1401",
     "state": "NY",
     "diocese": "Rochester",
@@ -1642,7 +1642,7 @@
   {
     "id": "st-marks-and-st-johns-episcopal-church-1245-culver-rd-rochester-ny",
     "name": "St. Mark's & St. John's Episcopal Church",
-    "website": "http://www.stmarksandstjohns.org",
+    "website": "http://www.stmarksandstjohns.org/",
     "address": "1245 Culver Rd, Rochester, NY 14609-5340",
     "state": "NY",
     "diocese": "Rochester",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-stephens-episcopal-church-350-chili-ave-rochester-ny",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://www.st-stephens-church-rochester.episcopalrochester.org",
+    "website": "http://www.st-stephens-church-rochester.episcopalrochester.org/",
     "address": "350 Chili Ave, Rochester, NY 14611-2596",
     "state": "NY",
     "diocese": "Rochester",
@@ -1765,7 +1765,7 @@
   {
     "id": "st-thomas-episcopal-church-2000-highland-ave-rochester-ny",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://www.allourchildren.org",
+    "website": "http://www.allourchildren.org/",
     "address": "2000 Highland Ave, Rochester, NY 14618-1125",
     "state": "NY",
     "diocese": "Rochester",
@@ -1847,7 +1847,7 @@
   {
     "id": "trinity-episcopal-church-3450-ridge-rd-w-rochester-ny",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinity-greeceny.org",
+    "website": "https://trinity-greeceny.org/",
     "address": "3450 Ridge Rd W, Rochester, NY 14626",
     "state": "NY",
     "diocese": "Rochester",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-james-church-112-6th-st-watkins-glen-ny",
     "name": "St. James Church",
-    "website": "http://www.episcopalschuyler.org",
+    "website": "http://www.episcopalschuyler.org/",
     "address": "112 6th St, Watkins Glen, NY 14891-1359",
     "state": "NY",
     "diocese": "Rochester",
@@ -2093,7 +2093,7 @@
   {
     "id": "church-of-the-good-shepherd-1130-webster-rd-webster-ny",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdepiscopal.org",
+    "website": "http://www.goodshepherdepiscopal.org/",
     "address": "1130 Webster Rd, Webster, NY 14580-9320",
     "state": "NY",
     "diocese": "Rochester",

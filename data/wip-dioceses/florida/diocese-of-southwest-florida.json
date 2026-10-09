@@ -2,7 +2,7 @@
   {
     "id": "church-of-st-edmund-the-martyr-327-w-hickory-st-arcadia-fl",
     "name": "Church of St. Edmund the Martyr",
-    "website": "http://www.episcopalarcadiafl.org",
+    "website": "http://www.episcopalarcadiafl.org/",
     "address": "327 W Hickory St, Arcadia, FL 34266-3905",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -84,7 +84,7 @@
   {
     "id": "st-marys-episcopal-church-9801-bonita-beach-rd-se-bonita-springs-fl",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmarysbonita.org",
+    "website": "https://www.stmarysbonita.org/",
     "address": "9801 Bonita Beach Rd SE, Bonita Springs, FL 34135-4628",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -226,7 +226,7 @@
     "asa": null,
     "city": "Brooksville",
     "church_phone": "(352) 796-9112",
-    "church_email": "Office@stjohnbrooksville.com",
+    "church_email": "office@stjohnbrooksville.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -412,7 +412,7 @@
   {
     "id": "saint-pauls-school-1600-st-pauls-drive-clearwater-fl",
     "name": "Saint Paul's School",
-    "website": "http://www.st.pauls.edu",
+    "website": "http://www.st.pauls.edu/",
     "address": "1600 St. Paul's Drive, Clearwater, FL 33764",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -453,7 +453,7 @@
   {
     "id": "st-johns-episcopal-church-1676-s-belcher-rd-clearwater-fl",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsclearwater.org",
+    "website": "http://www.stjohnsclearwater.org/",
     "address": "1676 S Belcher Rd, Clearwater, FL 33764-6517",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -658,7 +658,7 @@
   {
     "id": "lamb-of-god-church-19691-cypress-view-drive-fort-myers-fl",
     "name": "Lamb of God Church",
-    "website": "http://www.lambofgodchurch.net",
+    "website": "http://www.lambofgodchurch.net/",
     "address": "19691 Cypress View Drive, Fort Myers, FL 33967",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -945,7 +945,7 @@
   {
     "id": "calvary-episcopal-church-1615-1st-st-indian-rocks-beach-fl",
     "name": "Calvary Episcopal Church",
-    "website": "http://www.calvaryirb.org",
+    "website": "http://www.calvaryirb.org/",
     "address": "1615 1st St, Indian Rocks Beach, FL 33785-2809",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -1128,7 +1128,7 @@
     "asa": null,
     "city": "Lehigh Acres",
     "church_phone": "(239) 369-1916",
-    "church_email": "Saintanselm2201@gmail.com",
+    "church_email": "saintanselm2201@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:00 AM",
@@ -1150,7 +1150,7 @@
   {
     "id": "all-angels-by-the-sea-563-bay-isles-rd-longboat-key-fl",
     "name": "All Angels by the Sea",
-    "website": "https://www.allangelslbk.org",
+    "website": "https://www.allangelslbk.org/",
     "address": "563 Bay Isles Rd, Longboat Key, FL 34228-3142",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-mark-episcopal-church-1101-n-collier-blvd-marco-island-fl",
     "name": "St. Mark Episcopal Church",
-    "website": "https://www.stmarksmarco.org",
+    "website": "https://www.stmarksmarco.org/",
     "address": "1101 N Collier Blvd, Marco Island, FL 34145-2507",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -1601,7 +1601,7 @@
   {
     "id": "st-marys-episcopal-church-1010-24th-ave-w-palmetto-fl",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://www.stmaryspalmetto.com",
+    "website": "http://www.stmaryspalmetto.com/",
     "address": "1010 24th Ave W, Palmetto, FL 34221-3540",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -1806,7 +1806,7 @@
   {
     "id": "church-of-the-good-shepherd-401-w-henry-st-punta-gorda-fl",
     "name": "Church of the Good Shepherd",
-    "website": "http://churchofthegoodshepherdpg.com",
+    "website": "http://churchofthegoodshepherdpg.com/",
     "address": "401 W Henry St, Punta Gorda, FL 33950-5905",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -1970,7 +1970,7 @@
   {
     "id": "st-bartholomews-episcopal-church-3747-34th-st-s-saint-petersburg-fl",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "http://www.stbartsinstpete.org",
+    "website": "http://www.stbartsinstpete.org/",
     "address": "3747 34th St S, Saint Petersburg, FL 33711-3836",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -2421,7 +2421,7 @@
   {
     "id": "st-wilfreds-episcopal-church-3773-wilkinson-rd-sarasota-fl",
     "name": "St. Wilfred's Episcopal Church",
-    "website": "http://www.stwilfred.dioswfl.org",
+    "website": "http://www.stwilfred.dioswfl.org/",
     "address": "3773 Wilkinson Rd, Sarasota, FL 34233-3608",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -2585,7 +2585,7 @@
   {
     "id": "canterbury-school-of-florida-hough-campus-st-petersburg-fl",
     "name": "Canterbury School of Florida",
-    "website": "https://www.canterburyflorida.org",
+    "website": "https://www.canterburyflorida.org/",
     "address": "Hough Campus, St. Petersburg, FL 33704",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -2626,7 +2626,7 @@
   {
     "id": "canterbury-school-of-florida-knowlton-campus-st-petersburg-fl",
     "name": "Canterbury School of Florida",
-    "website": "https://www.canterburyflorida.org",
+    "website": "https://www.canterburyflorida.org/",
     "address": "Knowlton Campus, St. Petersburg, FL 33702",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -2667,7 +2667,7 @@
   {
     "id": "florida-resurrection-house-800-11th-street-north-st-petersburg-fl",
     "name": "Florida Resurrection House",
-    "website": "http://floridaresurrectionhouse.org",
+    "website": "http://floridaresurrectionhouse.org/",
     "address": "800 11th Street North, St. Petersburg, FL 33705",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -2749,7 +2749,7 @@
   {
     "id": "st-john-the-divine-episcopal-church-1015-del-webb-blvd-e-sun-city-center-fl",
     "name": "St. John the Divine Episcopal Church",
-    "website": "http://stjohndivine.com",
+    "website": "http://stjohndivine.com/",
     "address": "1015 Del Webb Blvd. E., Sun City Center, FL 33573",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -2790,7 +2790,7 @@
   {
     "id": "berkeley-preparatory-school-4811-kelly-road-tampa-fl",
     "name": "Berkeley Preparatory School",
-    "website": "http://www.berkeleyprep.org",
+    "website": "http://www.berkeleyprep.org/",
     "address": "4811 Kelly Road, Tampa, FL 33615-0009",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -3342,7 +3342,7 @@
     "asa": null,
     "city": "Valrico",
     "church_phone": "(813) 689-3130",
-    "church_email": "Office@hiepiscopal.org",
+    "church_email": "office@hiepiscopal.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -3364,7 +3364,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-1115-center-rd-venice-fl",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "https://www.goodshepherdvenicefl.org",
+    "website": "https://www.goodshepherdvenicefl.org/",
     "address": "1115 Center Rd, Venice, FL 34292-3812",
     "state": "FL",
     "diocese": "Southwest Florida",
@@ -3487,7 +3487,7 @@
   {
     "id": "st-elizabeths-episcopal-church-5855-16th-st-zephyrhills-fl",
     "name": "St. Elizabeth's Episcopal Church",
-    "website": "https://www.Zhillschurch.org",
+    "website": "https://www.Zhillschurch.org/",
     "address": "5855 16th St, Zephyrhills, FL 33542-3761",
     "state": "FL",
     "diocese": "Southwest Florida",

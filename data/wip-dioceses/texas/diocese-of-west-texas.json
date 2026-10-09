@@ -2,7 +2,7 @@
   {
     "id": "church-of-the-advent-200-n-wright-st-alice-tx",
     "name": "Church of the Advent",
-    "website": "https://episcopalchurchalice.com",
+    "website": "https://episcopalchurchalice.com/",
     "address": "200 N Wright St, Alice, TX 78332",
     "state": "TX",
     "diocese": "West Texas",
@@ -62,7 +62,7 @@
     "asa": null,
     "city": "Aransas Pass",
     "church_phone": "(361) 758-3479",
-    "church_email": "OurSaviourAP@gmail.com",
+    "church_email": "oursaviourap@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -84,7 +84,7 @@
   {
     "id": "st-christophers-episcopal-church-395-state-highway-173-n-bandera-tx",
     "name": "St. Christopher's  Episcopal Church",
-    "website": "https://www.stchrisbandera.org",
+    "website": "https://www.stchrisbandera.org/",
     "address": "395 State Highway 173 N, Bandera, TX 78003",
     "state": "TX",
     "diocese": "West Texas",
@@ -166,7 +166,7 @@
   {
     "id": "st-michaels-and-all-angels-episcopal-218-pittsburg-st-blanco-tx",
     "name": "St. Michael's and All Angels Episcopal",
-    "website": "http://stmichaelsblanco.org",
+    "website": "http://stmichaelsblanco.org/",
     "address": "218 Pittsburg St, Blanco, TX 78606-5768",
     "state": "TX",
     "diocese": "West Texas",
@@ -207,7 +207,7 @@
   {
     "id": "st-helenas-episcopal-church-410-n-main-st-boerne-tx",
     "name": "St. Helena's Episcopal Church",
-    "website": "https://sthelenas.net",
+    "website": "https://sthelenas.net/",
     "address": "410 N Main St, Boerne, TX 78006-2040",
     "state": "TX",
     "diocese": "West Texas",
@@ -289,7 +289,7 @@
   {
     "id": "st-pauls-episcopal-church-1105-s-blackburn-st-brady-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsbrady.org",
+    "website": "http://www.stpaulsbrady.org/",
     "address": "1105 S Blackburn St, Brady, TX 76825-6221",
     "state": "TX",
     "diocese": "West Texas",
@@ -371,7 +371,7 @@
   {
     "id": "st-pauls-episcopal-church-la-iglesia-episcopal-de-san-pablo-1626-taft-street-brownsville-tx",
     "name": "St. Paul's Episcopal Church / La Iglesia Episcopal de San Pablo",
-    "website": "http://sanpablobr.org",
+    "website": "http://sanpablobr.org/",
     "address": "1626 Taft Street, Brownsville, TX 78521-3132",
     "state": "TX",
     "diocese": "West Texas",
@@ -453,7 +453,7 @@
   {
     "id": "st-nicholas-episcopal-church-2265-bulverde-road-bulverde-tx",
     "name": "St. Nicholas Episcopal Church",
-    "website": "https://stnickshillcountry.org",
+    "website": "https://stnickshillcountry.org/",
     "address": "2265 Bulverde Road, Bulverde, TX 78163",
     "state": "TX",
     "diocese": "West Texas",
@@ -617,7 +617,7 @@
   {
     "id": "st-boniface-episcopal-church-116-us-hwy-87-north-comfort-tx",
     "name": "St. Boniface Episcopal Church",
-    "website": "http://stbonifacecomfort.com",
+    "website": "http://stbonifacecomfort.com/",
     "address": "116 US Hwy 87 North, Comfort, TX 78013",
     "state": "TX",
     "diocese": "West Texas",
@@ -699,7 +699,7 @@
   {
     "id": "church-of-the-good-shepherd-700-s-upper-broadway-st-corpus-christi-tx",
     "name": "Church of the Good Shepherd",
-    "website": "https://www.cotgs.org",
+    "website": "https://www.cotgs.org/",
     "address": "700 S Upper Broadway St, Corpus Christi, TX 78401-3521",
     "state": "TX",
     "diocese": "West Texas",
@@ -740,7 +740,7 @@
   {
     "id": "st-andrews-episcopal-church-13026-leopard-st-corpus-christi-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://www.standrewsincc.org",
+    "website": "http://www.standrewsincc.org/",
     "address": "13026 Leopard St, Corpus Christi, TX 78410",
     "state": "TX",
     "diocese": "West Texas",
@@ -822,7 +822,7 @@
   {
     "id": "st-bartholomews-episcopal-church-622-airline-rd-corpus-christi-tx",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "http://stbartcc.org",
+    "website": "http://stbartcc.org/",
     "address": "622 Airline Rd, Corpus Christi, TX 78412-3156",
     "state": "TX",
     "diocese": "West Texas",
@@ -863,7 +863,7 @@
   {
     "id": "st-marks-episcopal-church-2727-airline-rd-corpus-christi-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://www.stmarkscc.com",
+    "website": "http://www.stmarkscc.com/",
     "address": "2727 Airline Rd, Corpus Christi, TX 78414-3306",
     "state": "TX",
     "diocese": "West Texas",
@@ -986,7 +986,7 @@
   {
     "id": "st-lukes-episcopal-church-263-spur-962-cypress-mill-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://stlukes-cm.org",
+    "website": "http://stlukes-cm.org/",
     "address": "263 Spur 962, Cypress Mill, TX 78663-8486",
     "state": "TX",
     "diocese": "West Texas",
@@ -1128,7 +1128,7 @@
     "asa": null,
     "city": "Dripping Springs",
     "church_phone": "(512) 858-4924",
-    "church_email": "Secretary@dsholyspirit.org",
+    "church_email": "secretary@dsholyspirit.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -1150,7 +1150,7 @@
   {
     "id": "church-of-the-redeemer-648-madison-st-eagle-pass-tx",
     "name": "Church of the Redeemer",
-    "website": "http://www.redeemereaglepass.org",
+    "website": "http://www.redeemereaglepass.org/",
     "address": "648 Madison St, Eagle Pass, TX 78852-4246",
     "state": "TX",
     "diocese": "West Texas",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-matthews-episcopal-church-2620-crestview-dr-edinburg-tx",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://www.stmattrgv.org",
+    "website": "http://www.stmattrgv.org/",
     "address": "2620 Crestview Dr, Edinburg, TX 78539-6296",
     "state": "TX",
     "diocese": "West Texas",
@@ -1374,7 +1374,7 @@
     "asa": null,
     "city": "George West",
     "church_phone": "(361) 449-2737",
-    "church_email": "GoodShepherdGW@gmail.com",
+    "church_email": "goodshepherdgw@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM",
@@ -1519,7 +1519,7 @@
   {
     "id": "st-albans-episcopal-church-1417-e-austin-ave-harlingen-tx",
     "name": "St. Alban's Episcopal Church",
-    "website": "http://www.staec.org",
+    "website": "http://www.staec.org/",
     "address": "1417 E Austin Ave, Harlingen, TX 78550-8855",
     "state": "TX",
     "diocese": "West Texas",
@@ -1683,7 +1683,7 @@
   {
     "id": "st-peters-episcopal-church-956-main-st-kerrville-tx",
     "name": "St. Peter's Episcopal Church",
-    "website": "http://www.stpeterskerrville.com",
+    "website": "http://www.stpeterskerrville.com/",
     "address": "956 Main St, Kerrville, TX 78028-4650",
     "state": "TX",
     "diocese": "West Texas",
@@ -1929,7 +1929,7 @@
   {
     "id": "emmanuel-episcopal-church-118-n-church-st-lockhart-tx",
     "name": "Emmanuel Episcopal Church",
-    "website": "https://www.emmanuellockhart.org",
+    "website": "https://www.emmanuellockhart.org/",
     "address": "118 N Church St, Lockhart, TX 78644",
     "state": "TX",
     "diocese": "West Texas",
@@ -1970,7 +1970,7 @@
   {
     "id": "church-of-the-annunciation-301-s-walnut-ave-luling-tx",
     "name": "Church of the Annunciation",
-    "website": "https://episcopalluling.com",
+    "website": "https://episcopalluling.com/",
     "address": "301 S Walnut Ave, Luling, TX 78648-2925",
     "state": "TX",
     "diocese": "West Texas",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-johns-episcopal-church-2500-n-10th-st-mcallen-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnsmcallen.org",
+    "website": "https://www.stjohnsmcallen.org/",
     "address": "2500 N 10th St, McAllen, TX 78501-4008",
     "state": "TX",
     "diocese": "West Texas",
@@ -2216,7 +2216,7 @@
   {
     "id": "st-johns-episcopal-church-312-s-guenther-ave-new-braunfels-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnsnb.com",
+    "website": "https://www.stjohnsnb.com/",
     "address": "312 S Guenther Ave, New Braunfels, TX 78130-5639",
     "state": "TX",
     "diocese": "West Texas",
@@ -2339,7 +2339,7 @@
   {
     "id": "trinity-by-the-sea-433-trojan-st-port-aransas-tx",
     "name": "Trinity by the Sea",
-    "website": "http://www.trinitybythesea.org",
+    "website": "http://www.trinitybythesea.org/",
     "address": "433 Trojan St, Port Aransas, TX 78373",
     "state": "TX",
     "diocese": "West Texas",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-christophers-by-the-sea-820-wildcat-dr-portland-tx",
     "name": "St. Christopher's by the Sea",
-    "website": "http://www.stchristophersbythesea.com",
+    "website": "http://www.stchristophersbythesea.com/",
     "address": "820 Wildcat Dr., Portland, TX 78374",
     "state": "TX",
     "diocese": "West Texas",
@@ -2708,7 +2708,7 @@
   {
     "id": "episcopal-church-of-the-holy-spirit-11093-bandera-road-san-antonio-tx",
     "name": "Episcopal Church of the Holy Spirit",
-    "website": "http://www.sentbythespirit.org",
+    "website": "http://www.sentbythespirit.org/",
     "address": "11093 Bandera Road, San Antonio, TX 78250",
     "state": "TX",
     "diocese": "West Texas",
@@ -2790,7 +2790,7 @@
   {
     "id": "grace-episcopal-church-20459-carrie-louise-st-san-antonio-tx",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracechurchsa.org",
+    "website": "https://www.gracechurchsa.org/",
     "address": "20459 Carrie Louise St, San Antonio, TX 78257",
     "state": "TX",
     "diocese": "West Texas",
@@ -2850,7 +2850,7 @@
     "asa": null,
     "city": "San Antonio",
     "church_phone": "(210) 923-0822",
-    "church_email": "SantaFeChurchSA@gmail.com",
+    "church_email": "santafechurchsa@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:15 AM",
@@ -2872,7 +2872,7 @@
   {
     "id": "st-andrews-episcopal-church-6110-nw-loop-410-san-antonio-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewsep.net",
+    "website": "https://www.standrewsep.net/",
     "address": "6110 NW Loop 410, San Antonio, TX 78238-3399",
     "state": "TX",
     "diocese": "West Texas",
@@ -3159,7 +3159,7 @@
   {
     "id": "st-pauls-episcopal-church-and-school-1018-e-grayson-st-san-antonio-tx",
     "name": "St. Paul's Episcopal Church and School",
-    "website": "https://www.stpauls-satx.org",
+    "website": "https://www.stpauls-satx.org/",
     "address": "1018 E Grayson St, San Antonio, TX 78208-1299",
     "state": "TX",
     "diocese": "West Texas",
@@ -3241,7 +3241,7 @@
   {
     "id": "st-philips-episcopal-church-1310-pecan-valley-dr-san-antonio-tx",
     "name": "St. Philip's Episcopal Church",
-    "website": "http://www.stphilips-sat.org",
+    "website": "http://www.stphilips-sat.org/",
     "address": "1310 Pecan Valley Dr, San Antonio, TX 78210-3416",
     "state": "TX",
     "diocese": "West Texas",
@@ -3323,7 +3323,7 @@
   {
     "id": "st-thomas-episcopal-church-1416-n-loop-1604-e-san-antonio-tx",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.tom1604.org",
+    "website": "https://www.tom1604.org/",
     "address": "1416 N Loop 1604 E, San Antonio, TX 78232",
     "state": "TX",
     "diocese": "West Texas",
@@ -3364,7 +3364,7 @@
   {
     "id": "tmi-episcopal-20955-w-tejas-trail-san-antonio-tx",
     "name": "TMI Episcopal",
-    "website": "https://www.tmi-sa.org",
+    "website": "https://www.tmi-sa.org/",
     "address": "20955 W Tejas Trail, San Antonio, TX 78257",
     "state": "TX",
     "diocese": "West Texas",
@@ -3446,7 +3446,7 @@
   {
     "id": "all-saints-episcopal-church-499-n-reagan-st-san-benito-tx",
     "name": "All Saints Episcopal Church",
-    "website": "https://allsaintssb.org",
+    "website": "https://allsaintssb.org/",
     "address": "499 N Reagan St, San Benito, TX 78586-4647",
     "state": "TX",
     "diocese": "West Texas",
@@ -3487,7 +3487,7 @@
   {
     "id": "st-marks-episcopal-church-3039-ranch-road-12-san-marcos-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarks-sanmarcos.org",
+    "website": "https://www.stmarks-sanmarcos.org/",
     "address": "3039 Ranch Road 12, San Marcos, TX 78666-2488",
     "state": "TX",
     "diocese": "West Texas",
@@ -3692,7 +3692,7 @@
   {
     "id": "st-philips-episcopal-church-343-n-getty-st-uvalde-tx",
     "name": "St. Philip's Episcopal Church",
-    "website": "http://www.stphilipsuvalde.org",
+    "website": "http://www.stphilipsuvalde.org/",
     "address": "343 N Getty St, Uvalde, TX 78801-4690",
     "state": "TX",
     "diocese": "West Texas",
@@ -3733,7 +3733,7 @@
   {
     "id": "st-francis-church-episcopal-3002-miori-ln-victoria-tx",
     "name": "St. Francis Church Episcopal",
-    "website": "https://www.sfvct.org",
+    "website": "https://www.sfvct.org/",
     "address": "3002 Miori Ln, Victoria, TX 77901-3618",
     "state": "TX",
     "diocese": "West Texas",
@@ -3774,7 +3774,7 @@
   {
     "id": "trinity-episcopal-church-1501-n-glass-st-victoria-tx",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinitywelcomesyou.org",
+    "website": "http://www.trinitywelcomesyou.org/",
     "address": "1501 N Glass St, Victoria, TX 77901-5130",
     "state": "TX",
     "diocese": "West Texas",
@@ -3875,7 +3875,7 @@
     "asa": null,
     "city": "Weslaco",
     "church_phone": "(956) 968-7014",
-    "church_email": "Parishadmin@graceepiscopalchurchweslaco.org",
+    "church_email": "parishadmin@graceepiscopalchurchweslaco.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "11:00 AM",
@@ -3897,7 +3897,7 @@
   {
     "id": "st-stephens-episcopal-church-6000-fm-3237-wimberley-tx",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.ststeve.org",
+    "website": "https://www.ststeve.org/",
     "address": "6000 Fm 3237, Wimberley, TX 78676-5832",
     "state": "TX",
     "diocese": "West Texas",
@@ -3916,7 +3916,7 @@
     "asa": null,
     "city": "Wimberley",
     "church_phone": "(512) 847-9956",
-    "church_email": "Office@ststeve.org",
+    "church_email": "office@ststeve.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:30 AM; 8:00 AM",
@@ -3938,7 +3938,7 @@
   {
     "id": "church-of-the-resurrection-5909-walzem-rd-windcrest-tx",
     "name": "Church of the Resurrection",
-    "website": "http://www.church-resurrection.org",
+    "website": "http://www.church-resurrection.org/",
     "address": "5909 Walzem Rd, Windcrest, TX 78218-2197",
     "state": "TX",
     "diocese": "West Texas",

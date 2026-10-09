@@ -166,7 +166,7 @@
   {
     "id": "st-andrew-and-st-luke-church-east-campus-850-wolcott-ave-beacon-ny",
     "name": "St. Andrew and St. Luke Church, East Campus",
-    "website": "http://beacon-episcopal.org",
+    "website": "http://beacon-episcopal.org/",
     "address": "850 Wolcott Ave, Beacon, NY 12508",
     "state": "NY",
     "diocese": "New York",
@@ -207,7 +207,7 @@
   {
     "id": "st-andrew-and-st-luke-church-west-campus-15-south-ave-beacon-ny",
     "name": "St. Andrew and St. Luke Church, West Campus",
-    "website": "http://beacon-episcopal.org",
+    "website": "http://beacon-episcopal.org/",
     "address": "15 South Ave, Beacon, NY 12508",
     "state": "NY",
     "diocese": "New York",
@@ -248,7 +248,7 @@
   {
     "id": "st-matthews-church-382-cantitoe-street-bedford-ny",
     "name": "St. Matthew's Church",
-    "website": "http://www.stmatthewsbedford.org",
+    "website": "http://www.stmatthewsbedford.org/",
     "address": "382 Cantitoe Street, Bedford, NY 10506",
     "state": "NY",
     "diocese": "New York",
@@ -330,7 +330,7 @@
   {
     "id": "all-saints-church-bronx-formerly-st-davids-384-east-160th-street-bronx-ny",
     "name": "All Saints' Church, Bronx (formerly St. David's)",
-    "website": "http://www.stdavidsbronx.org",
+    "website": "http://www.stdavidsbronx.org/",
     "address": "384 East 160th Street, Bronx, NY 10451",
     "state": "NY",
     "diocese": "New York",
@@ -371,7 +371,7 @@
   {
     "id": "all-saints-church-bronx-formerly-st-edmunds-1905-morris-ave-bronx-ny",
     "name": "All Saints' Church, Bronx (formerly St. Edmund's)",
-    "website": "https://www.stedmundsbx.org",
+    "website": "https://www.stedmundsbx.org/",
     "address": "1905 Morris Ave., Bronx, NY 10453",
     "state": "NY",
     "diocese": "New York",
@@ -412,7 +412,7 @@
   {
     "id": "all-saints-church-bronx-formerly-st-simeons-worshiping-at-st-davids-episcopal-church-384-east-160th-street-bronx-ny",
     "name": "All Saints' Church, Bronx (formerly St. Simeon's)",
-    "website": "http://www.stsimeonsbronx.org",
+    "website": "http://www.stsimeonsbronx.org/",
     "address": "worshiping at St. David's Episcopal Church 384 East 160th Street, Bronx, NY 10451",
     "state": "NY",
     "diocese": "New York",
@@ -781,7 +781,7 @@
   {
     "id": "haitian-congregation-of-the-good-samaritan-661-e-219th-st-bronx-ny",
     "name": "Haitian Congregation of the Good Samaritan",
-    "website": "http://www.haitiangoodsam.org",
+    "website": "http://www.haitiangoodsam.org/",
     "address": "661 E. 219th St., Bronx, NY 10467",
     "state": "NY",
     "diocese": "New York",
@@ -822,7 +822,7 @@
   {
     "id": "iglesia-de-san-juan-bautista-940-e-156th-st-bronx-ny",
     "name": "Iglesia de San Juan Bautista",
-    "website": "http://sanjuanbautistabronx.org",
+    "website": "http://sanjuanbautistabronx.org/",
     "address": "940 E. 156th St., Bronx, NY 10452",
     "state": "NY",
     "diocese": "New York",
@@ -945,7 +945,7 @@
   {
     "id": "st-anns-church-295-st-anns-ave-bronx-ny",
     "name": "St. Ann's Church",
-    "website": "https://stannssouthbronx.wordpress.com",
+    "website": "https://stannssouthbronx.wordpress.com/",
     "address": "295 St. Ann's Ave., Bronx, NY 10454",
     "state": "NY",
     "diocese": "New York",
@@ -1109,7 +1109,7 @@
   {
     "id": "st-lukes-senior-community-program-777-e-222nd-street-bronx-ny",
     "name": "St. Luke's Senior Community Program",
-    "website": "http://st-lukes-episcopal-the-bronx.edan.io",
+    "website": "http://st-lukes-episcopal-the-bronx.edan.io/",
     "address": "777 E. 222nd Street, Bronx, NY 10467",
     "state": "NY",
     "diocese": "New York",
@@ -1232,7 +1232,7 @@
   {
     "id": "st-peters-church-westchester-square-2500-westchester-avenue-bronx-ny",
     "name": "St. Peter's Church, Westchester Square",
-    "website": "http://www.stpeterswsbronx.org",
+    "website": "http://www.stpeterswsbronx.org/",
     "address": "2500 Westchester Avenue, Bronx, NY 10461",
     "state": "NY",
     "diocese": "New York",
@@ -1355,7 +1355,7 @@
   {
     "id": "christ-church-17-sagamore-road-bronxville-ny",
     "name": "Christ Church",
-    "website": "http://www.ccbny.org",
+    "website": "http://www.ccbny.org/",
     "address": "17 Sagamore Road, Bronxville, NY 10708",
     "state": "NY",
     "diocese": "New York",
@@ -1396,7 +1396,7 @@
   {
     "id": "eliza-corwin-frost-child-center-17-sagamore-road-bronxville-ny",
     "name": "Eliza Corwin Frost Child Center",
-    "website": "https://www.elizacorwinfrost.org",
+    "website": "https://www.elizacorwinfrost.org/",
     "address": "17 Sagamore Road, Bronxville, NY 10708",
     "state": "NY",
     "diocese": "New York",
@@ -1415,7 +1415,7 @@
     "asa": null,
     "city": "Bronxville",
     "church_phone": "(914) 779-4852",
-    "church_email": "MANDY@ELIZACORWINFROST.ORG",
+    "church_email": "mandy@elizacorwinfrost.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -1478,7 +1478,7 @@
   {
     "id": "church-of-st-mary-the-virgin-191-south-greeley-ave-chappaqua-ny",
     "name": "Church of St. Mary the Virgin",
-    "website": "https://www.monkenhadley.church",
+    "website": "https://www.monkenhadley.church/",
     "address": "191 South Greeley Ave., Chappaqua, NY 10514",
     "state": "NY",
     "diocese": "New York",
@@ -1560,7 +1560,7 @@
   {
     "id": "church-of-st-mary-in-the-highlands-1-chestnut-street-cold-spring-ny",
     "name": "Church of St. Mary in-the-Highlands",
-    "website": "http://stmaryscoldspring.org",
+    "website": "http://stmaryscoldspring.org/",
     "address": "1 Chestnut Street, Cold Spring, NY 10516",
     "state": "NY",
     "diocese": "New York",
@@ -1642,7 +1642,7 @@
   {
     "id": "rural-and-migrant-ministry-inc-125-duncan-avenue-cornwall-on-hudson-ny",
     "name": "Rural & Migrant Ministry, Inc.",
-    "website": "http://www.ruralmigrantministry.org",
+    "website": "http://www.ruralmigrantministry.org/",
     "address": "125 Duncan Avenue, Cornwall on Hudson, NY 12520",
     "state": "NY",
     "diocese": "New York",
@@ -1724,7 +1724,7 @@
   {
     "id": "zion-church-55-cedar-street-dobbs-ferry-ny",
     "name": "Zion Church",
-    "website": "http://www.ziondobbsferry.org",
+    "website": "http://www.ziondobbsferry.org/",
     "address": "55 Cedar Street, Dobbs Ferry, NY 10522",
     "state": "NY",
     "diocese": "New York",
@@ -1806,7 +1806,7 @@
   {
     "id": "st-johns-church-40-market-street-ellenville-ny",
     "name": "St. John's Church",
-    "website": "http://www.stjohnsellenville.org",
+    "website": "http://www.stjohnsellenville.org/",
     "address": "40 Market Street, Ellenville, NY 12404",
     "state": "NY",
     "diocese": "New York",
@@ -1888,7 +1888,7 @@
   {
     "id": "trinity-church-1200-main-st-fishkill-ny",
     "name": "Trinity Church",
-    "website": "http://trinityfishkill.org",
+    "website": "http://trinityfishkill.org/",
     "address": "1200 Main St, Fishkill, NY 12524-0484",
     "state": "NY",
     "diocese": "New York",
@@ -1970,7 +1970,7 @@
   {
     "id": "st-philips-church-in-the-highlands-1101-route-9d-garrison-ny",
     "name": "St. Philip's Church in the Highlands",
-    "website": "http://stphilipshighlands.org",
+    "website": "http://stphilipshighlands.org/",
     "address": "1101 Route 9D, Garrison, NY 10524",
     "state": "NY",
     "diocese": "New York",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-james-church-1-saint-james-place-goshen-ny",
     "name": "St. James' Church",
-    "website": "http://www.stjamesgoshen.org",
+    "website": "http://www.stjamesgoshen.org/",
     "address": "1 Saint James Place, Goshen, NY 10924",
     "state": "NY",
     "diocese": "New York",
@@ -2093,7 +2093,7 @@
   {
     "id": "church-of-the-good-shepherd-39-granite-springs-road-granite-springs-ny",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdny.org",
+    "website": "http://www.goodshepherdny.org/",
     "address": "39 Granite Springs Road, Granite Springs, NY 10527",
     "state": "NY",
     "diocese": "New York",
@@ -2175,7 +2175,7 @@
   {
     "id": "all-saints-church-300-harrison-avenue-harrison-ny",
     "name": "All Saints' Church",
-    "website": "https://www.allsaintsharrison.org",
+    "website": "https://www.allsaintsharrison.org/",
     "address": "300 Harrison Avenue, Harrison, NY 10528",
     "state": "NY",
     "diocese": "New York",
@@ -2216,7 +2216,7 @@
   {
     "id": "st-andrews-church-101-n-central-avenue-hartsdale-ny",
     "name": "St. Andrew's Church",
-    "website": "http://saintandrewshartsdale.com",
+    "website": "http://saintandrewshartsdale.com/",
     "address": "101 N. Central Avenue, Hartsdale, NY 10530",
     "state": "NY",
     "diocese": "New York",
@@ -2298,7 +2298,7 @@
   {
     "id": "ascension-holy-trinity-parish-21-grand-street-highland-ny",
     "name": "Ascension Holy Trinity Parish",
-    "website": "http://www.Ascensionholytrinity.org",
+    "website": "http://www.Ascensionholytrinity.org/",
     "address": "21 Grand Street, Highland, NY 12528",
     "state": "NY",
     "diocese": "New York",
@@ -2380,7 +2380,7 @@
   {
     "id": "church-of-the-holy-innocents-401-main-street-highland-falls-ny",
     "name": "Church of the Holy Innocents",
-    "website": "http://www.holyinnocentshf.org",
+    "website": "http://www.holyinnocentshf.org/",
     "address": "401 Main Street, Highland Falls, NY 10928",
     "state": "NY",
     "diocese": "New York",
@@ -2421,7 +2421,7 @@
   {
     "id": "church-of-the-resurrection-182-rt-376-hopewell-junction-ny",
     "name": "Church of the Resurrection",
-    "website": "http://nyresurrection.org",
+    "website": "http://nyresurrection.org/",
     "address": "182 Rt. 376, Hopewell Junction, NY 12533",
     "state": "NY",
     "diocese": "New York",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-james-church-4526-albany-post-road-hyde-park-ny",
     "name": "St. James' Church",
-    "website": "http://stjameshydepark.org",
+    "website": "http://stjameshydepark.org/",
     "address": "4526 Albany Post Road, Hyde Park, NY 12538",
     "state": "NY",
     "diocese": "New York",
@@ -2503,7 +2503,7 @@
   {
     "id": "st-barnabas-church-15-north-broadway-irvington-ny",
     "name": "St. Barnabas' Church",
-    "website": "http://www.stbarnabaschurch.org",
+    "website": "http://www.stbarnabaschurch.org/",
     "address": "15 North Broadway, Irvington, NY 10533",
     "state": "NY",
     "diocese": "New York",
@@ -2626,7 +2626,7 @@
   {
     "id": "holy-cross-church-santa-cruz-parochial-mission-30-pine-grove-ave-kingston-ny",
     "name": "Holy Cross Church/Santa Cruz Parochial Mission",
-    "website": "http://www.holycrosskingston.org",
+    "website": "http://www.holycrosskingston.org/",
     "address": "30 Pine Grove Ave., Kingston, NY 12401",
     "state": "NY",
     "diocese": "New York",
@@ -2667,7 +2667,7 @@
   {
     "id": "st-johns-church-207-albany-avenue-kingston-ny",
     "name": "St. John's Church",
-    "website": "http://www.stjohnskingston.org",
+    "website": "http://www.stjohnskingston.org/",
     "address": "207 Albany Avenue, Kingston, NY 12402",
     "state": "NY",
     "diocese": "New York",
@@ -2749,7 +2749,7 @@
   {
     "id": "church-of-the-holy-communion-1055-route-6-mahopac-ny",
     "name": "Church of the Holy Communion",
-    "website": "http://www.holycommunionmahopac.org",
+    "website": "http://www.holycommunionmahopac.org/",
     "address": "1055 Route 6, Mahopac, NY 10541",
     "state": "NY",
     "diocese": "New York",
@@ -2831,7 +2831,7 @@
   {
     "id": "christ-church-426-old-post-road-marlboro-ny",
     "name": "Christ Church",
-    "website": "http://www.cecmarlboro.org",
+    "website": "http://www.cecmarlboro.org/",
     "address": "426 Old Post Road, Marlboro, NY 12542",
     "state": "NY",
     "diocese": "New York",
@@ -2891,7 +2891,7 @@
     "asa": null,
     "city": "Middletown",
     "church_phone": "(845) 343-6101",
-    "church_email": "Carolanne@GuildofSaintMargaret.com",
+    "church_email": "carolanne@guildofsaintmargaret.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM",
@@ -2913,7 +2913,7 @@
   {
     "id": "grace-church-3328-franklin-ave-millbrook-ny",
     "name": "Grace Church",
-    "website": "https://www.gracemillbrook.org",
+    "website": "https://www.gracemillbrook.org/",
     "address": "3328 Franklin Ave, Millbrook, NY 12545",
     "state": "NY",
     "diocese": "New York",
@@ -2954,7 +2954,7 @@
   {
     "id": "grace-year-3326-franklin-avenue-millbrook-ny",
     "name": "Grace Year",
-    "website": "http://www.graceyear.org",
+    "website": "http://www.graceyear.org/",
     "address": "3326 Franklin Avenue, Millbrook, NY 12545",
     "state": "NY",
     "diocese": "New York",
@@ -2995,7 +2995,7 @@
   {
     "id": "st-peters-church-lithgow-696-deep-hollow-road-millbrook-ny",
     "name": "St. Peter's Church, Lithgow",
-    "website": "http://www.stpeterslithgow.org",
+    "website": "http://www.stpeterslithgow.org/",
     "address": "696 Deep Hollow Road, Millbrook, NY 12545",
     "state": "NY",
     "diocese": "New York",
@@ -3036,7 +3036,7 @@
   {
     "id": "st-marys-church-1836-east-main-st-mohegan-lake-ny",
     "name": "St. Mary's Church",
-    "website": "http://www.stmarysmoheganlake.org",
+    "website": "http://www.stmarysmoheganlake.org/",
     "address": "1836 East Main St., Mohegan Lake, NY 10562",
     "state": "NY",
     "diocese": "New York",
@@ -3077,7 +3077,7 @@
   {
     "id": "grace-church-1-forest-avenue-monroe-ny",
     "name": "Grace Church",
-    "website": "http://www.graceinmonroeny.com",
+    "website": "http://www.graceinmonroeny.com/",
     "address": "1 Forest Avenue, Monroe, NY 10950",
     "state": "NY",
     "diocese": "New York",
@@ -3178,7 +3178,7 @@
     "asa": null,
     "city": "Monticello",
     "church_phone": "(845) 794-8111 Emergency (845) 707-3793",
-    "church_email": "Stjohn1881@yahoo.com",
+    "church_email": "stjohn1881@yahoo.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM",
@@ -3200,7 +3200,7 @@
   {
     "id": "church-of-the-divine-love-80-sunset-rd-montrose-ny",
     "name": "Church of the Divine Love",
-    "website": "http://www.divinelovechurch.com",
+    "website": "http://www.divinelovechurch.com/",
     "address": "80 Sunset Rd., Montrose, NY 10548",
     "state": "NY",
     "diocese": "New York",
@@ -3260,7 +3260,7 @@
     "asa": null,
     "city": "Montrose",
     "church_phone": "(914) 737-1818",
-    "church_email": "Sunsetnurseryschool@gmail.com",
+    "church_email": "sunsetnurseryschool@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -3282,7 +3282,7 @@
   {
     "id": "st-marks-church-85-e-main-street-mount-kisco-ny",
     "name": "St. Mark's Church",
-    "website": "https://www.stmarksmountkisco.org",
+    "website": "https://www.stmarksmountkisco.org/",
     "address": "85 E. Main Street, Mount Kisco, NY 10549",
     "state": "NY",
     "diocese": "New York",
@@ -3364,7 +3364,7 @@
   {
     "id": "sts-john-paul-and-clement-church-126-south-9th-avenue-mount-vernon-ny",
     "name": "Sts. John, Paul & Clement Church",
-    "website": "http://www.saintsjpc.com",
+    "website": "http://www.saintsjpc.com/",
     "address": "126 South 9th Avenue, Mount Vernon, NY 10550",
     "state": "NY",
     "diocese": "New York",
@@ -3569,7 +3569,7 @@
   {
     "id": "st-andrews-church-163-main-street-new-paltz-ny",
     "name": "St. Andrew's Church",
-    "website": "https://standrewnp.org",
+    "website": "https://standrewnp.org/",
     "address": "163 Main Street, New Paltz, NY 12561",
     "state": "NY",
     "diocese": "New York",
@@ -3610,7 +3610,7 @@
   {
     "id": "st-johns-wilmot-chapel-church-of-trinity-episcopal-11-wilmot-road-new-rochelle-ny",
     "name": "St. John's Wilmot, Chapel Church of Trinity Episcopal",
-    "website": "http://www.trinityepiscopalnr.org",
+    "website": "http://www.trinityepiscopalnr.org/",
     "address": "11 Wilmot Road, New Rochelle, NY 10804",
     "state": "NY",
     "diocese": "New York",
@@ -3651,7 +3651,7 @@
   {
     "id": "st-simon-the-cyrenian-chapel-church-of-trinity-episcopal-135-remington-pl-new-rochelle-ny",
     "name": "St. Simon the Cyrenian, Chapel Church of Trinity Episcopal",
-    "website": "https://trinityepiscopalnr.org",
+    "website": "https://trinityepiscopalnr.org/",
     "address": "135 Remington Pl., New Rochelle, NY 10801",
     "state": "NY",
     "diocese": "New York",
@@ -3692,7 +3692,7 @@
   {
     "id": "trinity-episcopal-church-311-huguenot-st-new-rochelle-ny",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityepiscopalnr.org",
+    "website": "http://www.trinityepiscopalnr.org/",
     "address": "311 Huguenot St., New Rochelle, NY 10801",
     "state": "NY",
     "diocese": "New York",
@@ -3774,7 +3774,7 @@
   {
     "id": "all-angels-church-manhattan-251-west-80th-street-new-york-ny",
     "name": "All Angels' Church, Manhattan",
-    "website": "http://allangelschurch.com",
+    "website": "http://allangelschurch.com/",
     "address": "251 West 80th Street, New York, NY 10024",
     "state": "NY",
     "diocese": "New York",
@@ -3815,7 +3815,7 @@
   {
     "id": "all-saints-church-manhattan-230-east-60th-street-new-york-ny",
     "name": "All Saints' Church, Manhattan",
-    "website": "http://www.allsaintsnyc.org",
+    "website": "http://www.allsaintsnyc.org/",
     "address": "230 East 60th Street, New York, NY 10022",
     "state": "NY",
     "diocese": "New York",
@@ -4061,7 +4061,7 @@
   {
     "id": "cathedral-community-cares-ccc-1047-amsterdam-avenue-new-york-ny",
     "name": "Cathedral Community Cares (CCC)",
-    "website": "http://www.cathedralcares.org",
+    "website": "http://www.cathedralcares.org/",
     "address": "1047 Amsterdam Avenue, New York, NY 10025",
     "state": "NY",
     "diocese": "New York",
@@ -4184,7 +4184,7 @@
   {
     "id": "church-club-of-new-york-281-park-ave-south-new-york-ny",
     "name": "Church Club of New York",
-    "website": "http://churchclubny.org",
+    "website": "http://churchclubny.org/",
     "address": "281 Park Ave. South, New York, NY 10010",
     "state": "NY",
     "diocese": "New York",
@@ -4307,7 +4307,7 @@
   {
     "id": "church-of-st-augustine-of-hippo-manhattan-290-henry-street-new-york-ny",
     "name": "Church of St. Augustine of Hippo, Manhattan",
-    "website": "http://www.staugnyc.org",
+    "website": "http://www.staugnyc.org/",
     "address": "290 Henry Street, New York, NY 10002",
     "state": "NY",
     "diocese": "New York",
@@ -4348,7 +4348,7 @@
   {
     "id": "church-of-st-edward-the-martyr-manhattan-14-e-109th-st-new-york-ny",
     "name": "Church of St. Edward the Martyr, Manhattan",
-    "website": "https://saintedwardthemartyr.com",
+    "website": "https://saintedwardthemartyr.com/",
     "address": "14 E. 109th St., New York, NY 10029",
     "state": "NY",
     "diocese": "New York",
@@ -4389,7 +4389,7 @@
   {
     "id": "church-of-st-ignatius-of-antioch-manhattan-552-west-end-ave-new-york-ny",
     "name": "Church of St. Ignatius of Antioch, Manhattan",
-    "website": "https://www.saintignatiusnyc.org",
+    "website": "https://www.saintignatiusnyc.org/",
     "address": "552 West End Ave., New York, NY 10024",
     "state": "NY",
     "diocese": "New York",
@@ -4613,7 +4613,7 @@
     "asa": null,
     "city": "New York",
     "church_phone": "(212) 737-2720",
-    "church_email": "info@EpiphanyNYC.org",
+    "church_email": "info@epiphanynyc.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:30 AM; 10:30 AM",
@@ -4799,7 +4799,7 @@
   {
     "id": "church-of-the-holy-trinity-manhattan-316-east-88th-street-new-york-ny",
     "name": "Church of the Holy Trinity, Manhattan",
-    "website": "http://www.holytrinity-nyc.org",
+    "website": "http://www.holytrinity-nyc.org/",
     "address": "316 East 88th Street, New York, NY 10128",
     "state": "NY",
     "diocese": "New York",
@@ -4963,7 +4963,7 @@
   {
     "id": "church-of-the-transfiguration-manhattan-1-east-29th-street-new-york-ny",
     "name": "Church of the Transfiguration, Manhattan",
-    "website": "http://littlechurch.org",
+    "website": "http://littlechurch.org/",
     "address": "1 East 29th Street, New York, NY 10016",
     "state": "NY",
     "diocese": "New York",
@@ -5373,7 +5373,7 @@
   {
     "id": "grace-church-in-new-york-802-broadway-new-york-ny",
     "name": "Grace Church in New York",
-    "website": "https://gracechurchnyc.org",
+    "website": "https://gracechurchnyc.org/",
     "address": "802 Broadway, New York, NY 10003",
     "state": "NY",
     "diocese": "New York",
@@ -5496,7 +5496,7 @@
   {
     "id": "holy-trinity-church-inwood-20-cumming-st-new-york-ny-10034-new-york-ny",
     "name": "Holy Trinity Church, Inwood",
-    "website": "http://www.holytrinityinwood.org",
+    "website": "http://www.holytrinityinwood.org/",
     "address": "20 Cumming St., New York, NY 10034, New York, NY 10034",
     "state": "NY",
     "diocese": "New York",
@@ -5537,7 +5537,7 @@
   {
     "id": "holyrood-church-iglesia-santa-cruz-manhattan-715-w-179-street-new-york-ny",
     "name": "Holyrood Church/Iglesia Santa Cruz, Manhattan",
-    "website": "http://www.holyroodchurch.com",
+    "website": "http://www.holyroodchurch.com/",
     "address": "715 W 179 Street, New York, NY 10033",
     "state": "NY",
     "diocese": "New York",
@@ -5578,7 +5578,7 @@
   {
     "id": "house-of-the-redeemer-7-e-95th-st-new-york-ny",
     "name": "House of the Redeemer",
-    "website": "http://www.houseofredeemer.org",
+    "website": "http://www.houseofredeemer.org/",
     "address": "7 E. 95th St., New York, NY 10128",
     "state": "NY",
     "diocese": "New York",
@@ -5824,7 +5824,7 @@
   {
     "id": "psychotherapy-and-spirituality-institute-74-trinity-place-new-york-ny",
     "name": "Psychotherapy and Spirituality Institute",
-    "website": "https://psinyc.org",
+    "website": "https://psinyc.org/",
     "address": "74 Trinity Place, New York, NY 10006",
     "state": "NY",
     "diocese": "New York",
@@ -5906,7 +5906,7 @@
   {
     "id": "seamens-church-institute-center-for-seafarers-rights-241-water-street-new-york-ny",
     "name": "Seamen's Church Institute Center for Seafarer's Rights",
-    "website": "http://www.seamenschurch.org",
+    "website": "http://www.seamenschurch.org/",
     "address": "241 Water Street, New York, NY 10038",
     "state": "NY",
     "diocese": "New York",
@@ -6089,7 +6089,7 @@
     "asa": null,
     "city": "New York",
     "church_phone": "(212) 283-2175",
-    "church_email": "StAmbrose@hotmail.com",
+    "church_email": "stambrose@hotmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -6111,7 +6111,7 @@
   {
     "id": "st-andrews-church-harlem-2067-5th-ave-new-york-ny",
     "name": "St. Andrew's Church, Harlem",
-    "website": "http://standrewsharlem.org",
+    "website": "http://standrewsharlem.org/",
     "address": "2067 5th Ave., New York, NY 10027",
     "state": "NY",
     "diocese": "New York",
@@ -6275,7 +6275,7 @@
   {
     "id": "st-clements-church-423-w-46th-street-new-york-ny",
     "name": "St. Clement's Church",
-    "website": "http://www.stclementsnyc.org",
+    "website": "http://www.stclementsnyc.org/",
     "address": "423 W. 46th Street, New York, NY 10036",
     "state": "NY",
     "diocese": "New York",
@@ -6685,7 +6685,7 @@
   {
     "id": "st-pauls-chapel-209-broadway-new-york-ny",
     "name": "St. Paul's Chapel",
-    "website": "https://www.trinitychurchnyc.org",
+    "website": "https://www.trinitychurchnyc.org/",
     "address": "209 Broadway, New York, NY 10007",
     "state": "NY",
     "diocese": "New York",
@@ -6726,7 +6726,7 @@
   {
     "id": "st-peters-church-chelsea-manhattan-346-west-20-street-new-york-ny",
     "name": "St. Peter's Church, Chelsea, Manhattan",
-    "website": "http://stpeterschelsea.org",
+    "website": "http://stpeterschelsea.org/",
     "address": "346 West 20 Street, New York, NY 10011",
     "state": "NY",
     "diocese": "New York",
@@ -6767,7 +6767,7 @@
   {
     "id": "st-philips-church-harlem-manhattan-204-w-134th-st-new-york-ny",
     "name": "St. Philip's Church, Harlem, Manhattan",
-    "website": "http://stphilipsharlem.org",
+    "website": "http://stphilipsharlem.org/",
     "address": "204 W 134th St, New York, NY 10030",
     "state": "NY",
     "diocese": "New York",
@@ -6808,7 +6808,7 @@
   {
     "id": "st-thomas-choir-school-202-w-58th-st-new-york-ny",
     "name": "St. Thomas Choir School",
-    "website": "https://choirschool.org",
+    "website": "https://choirschool.org/",
     "address": "202 W. 58th St., New York, NY 10019",
     "state": "NY",
     "diocese": "New York",
@@ -6972,7 +6972,7 @@
   {
     "id": "trinity-school-new-york-139-w-91st-st-new-york-ny",
     "name": "Trinity School - New York",
-    "website": "https://www.trinityschoolnyc.org",
+    "website": "https://www.trinityschoolnyc.org/",
     "address": "139 W. 91st St., New York, NY 10024",
     "state": "NY",
     "diocese": "New York",
@@ -7095,7 +7095,7 @@
   {
     "id": "st-georges-church-105-grand-st-newburgh-ny",
     "name": "St. George's Church",
-    "website": "http://www.stgeorgesch.com",
+    "website": "http://www.stgeorgesch.com/",
     "address": "105 Grand St., Newburgh, NY 12550",
     "state": "NY",
     "diocese": "New York",
@@ -7136,7 +7136,7 @@
   {
     "id": "st-james-church-296-titicus-rd-north-salem-ny",
     "name": "St. James Church",
-    "website": "http://stjamesns.com",
+    "website": "http://stjamesns.com/",
     "address": "296 Titicus Rd., North Salem, NY 10560",
     "state": "NY",
     "diocese": "New York",
@@ -7218,7 +7218,7 @@
   {
     "id": "grace-church-ossining-st-pauls-campus-40-ganung-drive-ossining-ny",
     "name": "Grace Church, Ossining (St. Paul's Campus)",
-    "website": "https://graceossining.org",
+    "website": "https://graceossining.org/",
     "address": "40 Ganung Drive, Ossining, NY 10562",
     "state": "NY",
     "diocese": "New York",
@@ -7259,7 +7259,7 @@
   {
     "id": "grace-church-ossining-trinity-campus-7-south-highland-avenue-ossining-ny",
     "name": "Grace Church, Ossining (Trinity Campus)",
-    "website": "https://graceossining.org",
+    "website": "https://graceossining.org/",
     "address": "7 South Highland Avenue, Ossining, NY 10562",
     "state": "NY",
     "diocese": "New York",
@@ -7300,7 +7300,7 @@
   {
     "id": "holy-trinity-church-22-coulter-avenue-pawling-ny",
     "name": "Holy Trinity Church",
-    "website": "https://holytrinitypawling.org",
+    "website": "https://holytrinitypawling.org/",
     "address": "22 Coulter Avenue, Pawling, NY 12564",
     "state": "NY",
     "diocese": "New York",
@@ -7341,7 +7341,7 @@
   {
     "id": "trinity-pawling-school-700-route-22-pawling-ny",
     "name": "Trinity-Pawling School",
-    "website": "https://www.trinitypawling.org",
+    "website": "https://www.trinitypawling.org/",
     "address": "700 Route 22, Pawling, NY 12564",
     "state": "NY",
     "diocese": "New York",
@@ -7401,7 +7401,7 @@
     "asa": null,
     "city": "Pearl River",
     "church_phone": "(845) 735-8888",
-    "church_email": "Chris@ldeo.columbia.edu",
+    "church_email": "chris@ldeo.columbia.edu",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM",
@@ -7423,7 +7423,7 @@
   {
     "id": "st-peters-church-137-n-division-st-peekskill-ny",
     "name": "St. Peter's Church",
-    "website": "https://www.stpeterspeekskill.org",
+    "website": "https://www.stpeterspeekskill.org/",
     "address": "137 N. Division St., Peekskill, NY 10566",
     "state": "NY",
     "diocese": "New York",
@@ -7464,7 +7464,7 @@
   {
     "id": "parish-of-christ-the-redeemer-christ-church-1415-pelhamdale-avenue-pelham-ny",
     "name": "Parish of Christ the Redeemer (Christ Church)",
-    "website": "http://www.christchurchpelham.org",
+    "website": "http://www.christchurchpelham.org/",
     "address": "1415 Pelhamdale Avenue, Pelham, NY 10803",
     "state": "NY",
     "diocese": "New York",
@@ -7546,7 +7546,7 @@
   {
     "id": "st-pauls-church-808-traver-road-pleasant-valley-ny",
     "name": "St. Paul's Church",
-    "website": "http://www.stpaulspv.org",
+    "website": "http://www.stpaulspv.org/",
     "address": "808 Traver Road, Pleasant Valley, NY 12569",
     "state": "NY",
     "diocese": "New York",
@@ -7628,7 +7628,7 @@
   {
     "id": "st-johns-church-8-sunnyside-avenue-pleasantville-ny",
     "name": "St. John's Church",
-    "website": "http://www.stjohnspleasantville.org",
+    "website": "http://www.stjohnspleasantville.org/",
     "address": "8 Sunnyside Avenue, Pleasantville, NY 10570",
     "state": "NY",
     "diocese": "New York",
@@ -7669,7 +7669,7 @@
   {
     "id": "st-peters-church-19-smith-street-port-chester-ny",
     "name": "St. Peter's Church",
-    "website": "http://www.stpeterspcny.org",
+    "website": "http://www.stpeterspcny.org/",
     "address": "19 Smith Street, Port Chester, NY 10573",
     "state": "NY",
     "diocese": "New York",
@@ -7710,7 +7710,7 @@
   {
     "id": "grace-church-85-east-main-street-port-jervis-ny",
     "name": "Grace Church",
-    "website": "https://www.episcopalchurchinportjervis.org",
+    "website": "https://www.episcopalchurchinportjervis.org/",
     "address": "85 East Main Street, Port Jervis, NY 12771",
     "state": "NY",
     "diocese": "New York",
@@ -7729,7 +7729,7 @@
     "asa": null,
     "city": "Port Jervis",
     "church_phone": "(845) 856-3026",
-    "church_email": "DFlynn2Spruce@Gmail.com",
+    "church_email": "dflynn2spruce@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
@@ -7833,7 +7833,7 @@
   {
     "id": "christ-church-7423-s-broadway-red-hook-ny",
     "name": "Christ Church",
-    "website": "https://www.christchurch-redhook.org",
+    "website": "https://www.christchurch-redhook.org/",
     "address": "7423 S Broadway, Red Hook, NY 12571",
     "state": "NY",
     "diocese": "New York",
@@ -7915,7 +7915,7 @@
   {
     "id": "church-of-the-messiah-6436-montgomery-street-rhinebeck-ny",
     "name": "Church of the Messiah",
-    "website": "https://rhinebeck-episcopal.org",
+    "website": "https://rhinebeck-episcopal.org/",
     "address": "6436 Montgomery Street, Rhinebeck, NY 12572",
     "state": "NY",
     "diocese": "New York",
@@ -7956,7 +7956,7 @@
   {
     "id": "christs-church-2-rectory-street-rye-ny",
     "name": "Christ's Church",
-    "website": "http://www.ccrye.org",
+    "website": "http://www.ccrye.org/",
     "address": "2 Rectory Street, Rye, NY 10580",
     "state": "NY",
     "diocese": "New York",
@@ -7997,7 +7997,7 @@
   {
     "id": "christs-church-nursery-school-2-rectory-street-rye-ny",
     "name": "Christ's Church Nursery School",
-    "website": "http://ccnsrye.org",
+    "website": "http://ccnsrye.org/",
     "address": "2 Rectory Street, Rye, NY 10580",
     "state": "NY",
     "diocese": "New York",
@@ -8016,7 +8016,7 @@
     "asa": null,
     "city": "Rye",
     "church_phone": "(914) 967-5758",
-    "church_email": "ADMISSIONS@CCNSRYE.ORG",
+    "church_email": "admissions@ccnsrye.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -8038,7 +8038,7 @@
   {
     "id": "church-of-st-james-the-less-10-church-lane-scarsdale-ny",
     "name": "Church of St. James the Less",
-    "website": "https://www.stjamesscarsdale.org",
+    "website": "https://www.stjamesscarsdale.org/",
     "address": "10 Church Lane, Scarsdale, NY 10583",
     "state": "NY",
     "diocese": "New York",
@@ -8079,7 +8079,7 @@
   {
     "id": "metropolitan-japanese-ministry-st-james-the-less-church-scarsdale-ny",
     "name": "Metropolitan Japanese Ministry",
-    "website": "http://www.mjmny.org",
+    "website": "http://www.mjmny.org/",
     "address": "St. James the Less Church, Scarsdale, NY 10583",
     "state": "NY",
     "diocese": "New York",
@@ -8202,7 +8202,7 @@
   {
     "id": "saint-lukes-church-331-route-100-somers-ny",
     "name": "Saint Luke's Church",
-    "website": "http://www.slcsomers.org",
+    "website": "http://www.slcsomers.org/",
     "address": "331 Route 100, Somers, NY 10589-3204",
     "state": "NY",
     "diocese": "New York",
@@ -8243,7 +8243,7 @@
   {
     "id": "st-andrews-mission-5277-state-route-42-south-fallsburg-ny",
     "name": "St. Andrew's Mission",
-    "website": "http://www.standrewsepiscopalmission.org",
+    "website": "http://www.standrewsepiscopalmission.org/",
     "address": "5277 State Route 42, South Fallsburg, NY 12779",
     "state": "NY",
     "diocese": "New York",
@@ -8366,7 +8366,7 @@
   {
     "id": "saint-pauls-church-26-s-madison-ave-spring-valley-ny",
     "name": "Saint Paul's Church",
-    "website": "http://saintpaulssv.org",
+    "website": "http://saintpaulssv.org/",
     "address": "26 S. Madison Ave, Spring Valley, NY 10977",
     "state": "NY",
     "diocese": "New York",
@@ -8407,7 +8407,7 @@
   {
     "id": "st-margarets-church-old-post-road-and-east-elm-ave-staatsburg-ny",
     "name": "St. Margaret's Church",
-    "website": "http://@stmargaretschurchstaatsburg",
+    "website": "http://@stmargaretschurchstaatsburg/",
     "address": "Old Post Road & East Elm Ave., Staatsburg, NY 12580",
     "state": "NY",
     "diocese": "New York",
@@ -8448,7 +8448,7 @@
   {
     "id": "all-saints-church-willowbrook-2329-victory-blvd-staten-island-ny",
     "name": "All Saints' Church, Willowbrook",
-    "website": "http://allsaintsstatenisland.org",
+    "website": "http://allsaintsstatenisland.org/",
     "address": "2329 Victory Blvd., Staten Island, NY 10314",
     "state": "NY",
     "diocese": "New York",
@@ -8571,7 +8571,7 @@
   {
     "id": "church-of-st-andrew-40-old-mill-road-staten-island-ny",
     "name": "Church of St. Andrew",
-    "website": "http://churchofstandrew-si.com",
+    "website": "http://churchofstandrew-si.com/",
     "address": "40 Old Mill Road, Staten Island, NY 10306",
     "state": "NY",
     "diocese": "New York",
@@ -8612,7 +8612,7 @@
   {
     "id": "church-of-the-ascension-1-kingsley-ave-staten-island-ny",
     "name": "Church of the Ascension",
-    "website": "http://www.ascensionsi.org",
+    "website": "http://www.ascensionsi.org/",
     "address": "1 Kingsley Ave, Staten Island, NY 10314",
     "state": "NY",
     "diocese": "New York",
@@ -8735,7 +8735,7 @@
   {
     "id": "st-johns-church-1333-bay-street-staten-island-ny",
     "name": "St. John's Church",
-    "website": "http://stjohnssi.org",
+    "website": "http://stjohnssi.org/",
     "address": "1333 Bay Street, Staten Island, NY 10305",
     "state": "NY",
     "diocese": "New York",
@@ -8817,7 +8817,7 @@
   {
     "id": "st-pauls-memorial-church-225-st-pauls-avenue-staten-island-ny",
     "name": "St. Paul's Memorial Church",
-    "website": "http://www.stpaulschurchsi.org",
+    "website": "http://www.stpaulschurchsi.org/",
     "address": "225 St. Paul's Avenue, Staten Island, NY 10304",
     "state": "NY",
     "diocese": "New York",
@@ -8858,7 +8858,7 @@
   {
     "id": "christ-the-king-church-3021-state-route-213-east-stone-ridge-ny",
     "name": "Christ the King Church",
-    "website": "http://www.ctkstoneridge.org",
+    "website": "http://www.ctkstoneridge.org/",
     "address": "3021 State Route 213 East, Stone Ridge, NY 12484",
     "state": "NY",
     "diocese": "New York",
@@ -8899,7 +8899,7 @@
   {
     "id": "st-johns-church-in-the-wilderness-119-st-johns-road-stony-point-ny",
     "name": "St. John's Church-in-the-Wilderness",
-    "website": "https://stjohnschurchinthewilderness.org",
+    "website": "https://stjohnschurchinthewilderness.org/",
     "address": "119 St. John's Road, Stony Point, NY 10980",
     "state": "NY",
     "diocese": "New York",
@@ -8959,7 +8959,7 @@
     "asa": null,
     "city": "Suffern",
     "church_phone": "(845) 357-1615",
-    "church_email": "Cranston@Protonmail.com",
+    "church_email": "cranston@protonmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -8981,7 +8981,7 @@
   {
     "id": "christ-church-san-marcos-43-south-broadway-tarrytown-ny",
     "name": "Christ Church San Marcos",
-    "website": "http://www.ChristChurchTNY.org",
+    "website": "http://www.ChristChurchTNY.org/",
     "address": "43 South Broadway, Tarrytown, NY 10591",
     "state": "NY",
     "diocese": "New York",
@@ -9022,7 +9022,7 @@
   {
     "id": "st-pauls-and-trinity-parish-39-woods-road-po-box-68-tivoli-ny",
     "name": "St. Paul's and Trinity Parish",
-    "website": "http://stpaulstivoli.org",
+    "website": "http://stpaulstivoli.org/",
     "address": "39 Woods Road (PO Box 68), Tivoli, NY 12583",
     "state": "NY",
     "diocese": "New York",
@@ -9063,7 +9063,7 @@
   {
     "id": "chapel-of-st-john-the-divine-170-mott-farm-road-tomkins-cove-ny",
     "name": "Chapel of St. John the Divine",
-    "website": "http://www.thechapelofstjohnthedivine.org",
+    "website": "http://www.thechapelofstjohnthedivine.org/",
     "address": "170 Mott Farm Road, Tomkins Cove, NY 10986",
     "state": "NY",
     "diocese": "New York",
@@ -9186,7 +9186,7 @@
   {
     "id": "all-saints-church-182-ridge-road-valley-cottage-ny",
     "name": "All Saints' Church",
-    "website": "http://www.allsaintsvalleycottage.org",
+    "website": "http://www.allsaintsvalleycottage.org/",
     "address": "182 Ridge Road, Valley Cottage, NY 10989",
     "state": "NY",
     "diocese": "New York",
@@ -9268,7 +9268,7 @@
   {
     "id": "zion-church-12-satterlee-place-wappingers-falls-ny",
     "name": "Zion Church",
-    "website": "https://zionwappingersfalls.org",
+    "website": "https://zionwappingersfalls.org/",
     "address": "12 Satterlee Place, Wappingers Falls, NY 12590",
     "state": "NY",
     "diocese": "New York",
@@ -9287,7 +9287,7 @@
     "asa": null,
     "city": "Wappingers Falls",
     "church_phone": "(845) 297-9797",
-    "church_email": "ZionWappingersOffice@gmail.com",
+    "church_email": "zionwappingersoffice@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:00 AM",
@@ -9309,7 +9309,7 @@
   {
     "id": "christ-church-50-south-street-warwick-ny",
     "name": "Christ Church",
-    "website": "http://www.christchurch.org",
+    "website": "http://www.christchurch.org/",
     "address": "50 South Street, Warwick, NY 10990",
     "state": "NY",
     "diocese": "New York",
@@ -9514,7 +9514,7 @@
   {
     "id": "lifting-up-westchester-inc-35-orchard-st-white-plains-ny",
     "name": "Lifting Up Westchester, Inc.",
-    "website": "https://www.liftingupwestchester.org",
+    "website": "https://www.liftingupwestchester.org/",
     "address": "35 Orchard St, White Plains, NY 10603",
     "state": "NY",
     "diocese": "New York",
@@ -9533,7 +9533,7 @@
     "asa": null,
     "city": "White Plains",
     "church_phone": "(914) 949-3098",
-    "church_email": "Info@liftingupwestchester.org",
+    "church_email": "info@liftingupwestchester.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -9555,7 +9555,7 @@
   {
     "id": "our-lady-of-good-counsel-high-school-52-north-broadway-white-plains-ny",
     "name": "Our Lady of Good Counsel High School",
-    "website": "http://www.gcahs.org",
+    "website": "http://www.gcahs.org/",
     "address": "52 North Broadway, White Plains, NY 10603",
     "state": "NY",
     "diocese": "New York",
@@ -9596,7 +9596,7 @@
   {
     "id": "st-francis-and-st-marthas-church-575-tarrytown-rd-white-plains-ny",
     "name": "St. Francis & St. Martha's Church",
-    "website": "https://www.stfrancisandmarthas.org",
+    "website": "https://www.stfrancisandmarthas.org/",
     "address": "575 Tarrytown Rd., White Plains, NY 10607",
     "state": "NY",
     "diocese": "New York",
@@ -9637,7 +9637,7 @@
   {
     "id": "st-joseph-of-arimathea-church-2172-saw-mill-river-road-white-plains-ny",
     "name": "St. Joseph of Arimathea Church",
-    "website": "http://stjosephofarimathea-ny.org",
+    "website": "http://stjosephofarimathea-ny.org/",
     "address": "2172 Saw Mill River Road, White Plains, NY 10607",
     "state": "NY",
     "diocese": "New York",
@@ -9656,7 +9656,7 @@
     "asa": null,
     "city": "White Plains",
     "church_phone": "(914) 592-7163",
-    "church_email": "SaintJosephofArimathea@gmail.com",
+    "church_email": "saintjosephofarimathea@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -9678,7 +9678,7 @@
   {
     "id": "st-barts-san-bartolom-82-prospect-st-white-plains-ny",
     "name": "St.Bart's/San Bartolomé",
-    "website": "http://www.stbartswp.org",
+    "website": "http://www.stbartswp.org/",
     "address": "82 Prospect St., White Plains, NY 10606",
     "state": "NY",
     "diocese": "New York",
@@ -9760,7 +9760,7 @@
   {
     "id": "st-gregorys-church-2578-route-212-woodstock-ny",
     "name": "St. Gregory's Church",
-    "website": "http://stgregoryswoodstock.org",
+    "website": "http://stgregoryswoodstock.org/",
     "address": "2578 Route 212, Woodstock, NY 12578",
     "state": "NY",
     "diocese": "New York",
@@ -9842,7 +9842,7 @@
   {
     "id": "holy-cross-church-81-locust-hill-ave-yonkers-ny",
     "name": "Holy Cross Church",
-    "website": "https://www.holycrossyonkers.org",
+    "website": "https://www.holycrossyonkers.org/",
     "address": "81 Locust Hill Ave., Yonkers, NY 10701",
     "state": "NY",
     "diocese": "New York",
@@ -9924,7 +9924,7 @@
   {
     "id": "st-johns-church-tuckahoe-100-underhill-st-yonkers-ny",
     "name": "St. John's Church (Tuckahoe)",
-    "website": "http://www.stjohnstuckahoe.com",
+    "website": "http://www.stjohnstuckahoe.com/",
     "address": "100 Underhill St., Yonkers, NY 10710",
     "state": "NY",
     "diocese": "New York",
@@ -9965,7 +9965,7 @@
   {
     "id": "st-johns-church-getty-square-one-hudson-street-yonkers-ny",
     "name": "St. John's Church, Getty Square",
-    "website": "https://stjohnsgs.org",
+    "website": "https://stjohnsgs.org/",
     "address": "One Hudson Street, Yonkers, NY 10701",
     "state": "NY",
     "diocese": "New York",

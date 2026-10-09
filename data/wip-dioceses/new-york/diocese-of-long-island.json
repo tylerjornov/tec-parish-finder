@@ -84,7 +84,7 @@
   {
     "id": "church-of-the-redeemer-30-14-crescent-st-astoria-ny",
     "name": "church of the Redeemer",
-    "website": "http://www.redeemer-astoria.org",
+    "website": "http://www.redeemer-astoria.org/",
     "address": "30-14 Crescent St, Astoria, NY 11102",
     "state": "NY",
     "diocese": "Long Island",
@@ -125,7 +125,7 @@
   {
     "id": "st-georges-episcopal-church-14-20-27th-ave-astoria-ny",
     "name": "St. George's Episcopal Church",
-    "website": "http://stgeorgeastoria.org",
+    "website": "http://stgeorgeastoria.org/",
     "address": "14-20 27th Ave, Astoria, NY 11102",
     "state": "NY",
     "diocese": "Long Island",
@@ -166,7 +166,7 @@
   {
     "id": "christ-episcopal-church-12-prospect-st-babylon-ny",
     "name": "Christ Episcopal church",
-    "website": "http://www.christchurchbabylon.org",
+    "website": "http://www.christchurchbabylon.org/",
     "address": "12 Prospect St, Babylon, NY 11702",
     "state": "NY",
     "diocese": "Long Island",
@@ -207,7 +207,7 @@
   {
     "id": "all-saints-church-2375-harrison-ave-baldwin-ny",
     "name": "All Saints' church",
-    "website": "http://www.allsaintsbaldwin.org",
+    "website": "http://www.allsaintsbaldwin.org/",
     "address": "2375 Harrison Ave, Baldwin, NY 11510",
     "state": "NY",
     "diocese": "Long Island",
@@ -248,7 +248,7 @@
   {
     "id": "st-peters-by-the-sea-500-s-country-rd-bay-shore-ny",
     "name": "St. Peter's by-the-Sea",
-    "website": "http://www.stpetersbayshore.org",
+    "website": "http://www.stpetersbayshore.org/",
     "address": "500 S Country Rd, Bay Shore, NY 11706",
     "state": "NY",
     "diocese": "Long Island",
@@ -535,7 +535,7 @@
   {
     "id": "all-saints-church-286-88-7th-ave-brooklyn-ny",
     "name": "All Saints' Church",
-    "website": "http://www.allsaintsparkslope.org",
+    "website": "http://www.allsaintsparkslope.org/",
     "address": "286-88 7th Ave, Brooklyn, NY 11215",
     "state": "NY",
     "diocese": "Long Island",
@@ -576,7 +576,7 @@
   {
     "id": "bushwick-abbey-176-st-nicholas-ave-brooklyn-ny",
     "name": "Bushwick Abbey",
-    "website": "https://www.bushwickabbey.org",
+    "website": "https://www.bushwickabbey.org/",
     "address": "176 St. Nicholas Ave, Brooklyn, NY 11237",
     "state": "NY",
     "diocese": "Long Island",
@@ -617,7 +617,7 @@
   {
     "id": "calvary-and-st-cyprians-church-966-bushwick-ave-brooklyn-ny",
     "name": "Calvary & St Cyprian's church",
-    "website": "http://www.calvarystcyprians.com",
+    "website": "http://www.calvarystcyprians.com/",
     "address": "966 Bushwick Ave, Brooklyn, NY 11221",
     "state": "NY",
     "diocese": "Long Island",
@@ -658,7 +658,7 @@
   {
     "id": "christ-church-bay-ridge-7301-ridge-blvd-brooklyn-ny",
     "name": "Christ Church Bay Ridge",
-    "website": "http://www.christchurchbayridge.org",
+    "website": "http://www.christchurchbayridge.org/",
     "address": "7301 Ridge Blvd, Brooklyn, NY 11209",
     "state": "NY",
     "diocese": "Long Island",
@@ -699,7 +699,7 @@
   {
     "id": "christ-church-cobble-hill-326-clinton-st-brooklyn-ny",
     "name": "Christ Church Cobble Hill",
-    "website": "http://www.christchurchcobblehill.net",
+    "website": "http://www.christchurchcobblehill.net/",
     "address": "326 Clinton St, Brooklyn, NY 11231",
     "state": "NY",
     "diocese": "Long Island",
@@ -740,7 +740,7 @@
   {
     "id": "church-of-the-ascension-129-kent-street-brooklyn-ny",
     "name": "church of the Ascension",
-    "website": "http://www.ascensionbrooklyn.org",
+    "website": "http://www.ascensionbrooklyn.org/",
     "address": "129 Kent Street, Brooklyn, NY 11222",
     "state": "NY",
     "diocese": "Long Island",
@@ -945,7 +945,7 @@
   {
     "id": "epiphany-and-st-simon-2910-avenue-m-brooklyn-ny",
     "name": "Epiphany & St. Simon",
-    "website": "http://www.epiphanysimon.org",
+    "website": "http://www.epiphanysimon.org/",
     "address": "2910 Avenue M, Brooklyn, NY 11210",
     "state": "NY",
     "diocese": "Long Island",
@@ -1027,7 +1027,7 @@
   {
     "id": "holy-spirit-81-17-bay-pkwy-brooklyn-ny",
     "name": "Holy Spirit",
-    "website": "http://www.episcopalchurch-of-holyspirit.org",
+    "website": "http://www.episcopalchurch-of-holyspirit.org/",
     "address": "81-17 Bay Pkwy, Brooklyn, NY 11214",
     "state": "NY",
     "diocese": "Long Island",
@@ -1109,7 +1109,7 @@
   {
     "id": "saint-pauls-carroll-street-199-carroll-st-brooklyn-ny",
     "name": "Saint Paul's Carroll Street",
-    "website": "http://www.stpaulscarrollst.org",
+    "website": "http://www.stpaulscarrollst.org/",
     "address": "199 Carroll St, Brooklyn, NY 11231",
     "state": "NY",
     "diocese": "Long Island",
@@ -1232,7 +1232,7 @@
   {
     "id": "st-ann-and-the-holy-trinity-church-157-montague-st-brooklyn-ny",
     "name": "St. Ann & the Holy Trinity church",
-    "website": "http://www.stannholytrinity.org",
+    "website": "http://www.stannholytrinity.org/",
     "address": "157 Montague St, Brooklyn, NY 11201",
     "state": "NY",
     "diocese": "Long Island",
@@ -1273,7 +1273,7 @@
   {
     "id": "st-augustines-church-4301-avenue-d-brooklyn-ny",
     "name": "St. Augustine's church",
-    "website": "http://www.staugustinesbrooklyn.org",
+    "website": "http://www.staugustinesbrooklyn.org/",
     "address": "4301 Avenue D, Brooklyn, NY 11203",
     "state": "NY",
     "diocese": "Long Island",
@@ -1396,7 +1396,7 @@
   {
     "id": "st-gabriels-episcopal-church-331-hawthorne-st-brooklyn-ny",
     "name": "St. Gabriel's Episcopal Church",
-    "website": "http://www.stgabrielschurchbrooklyn.org",
+    "website": "http://www.stgabrielschurchbrooklyn.org/",
     "address": "331 Hawthorne St, Brooklyn, NY 11225",
     "state": "NY",
     "diocese": "Long Island",
@@ -1478,7 +1478,7 @@
   {
     "id": "st-johns-park-slope-139-st-johns-place-brooklyn-ny",
     "name": "St. John's Park Slope",
-    "website": "http://www.parkslopechurch.org",
+    "website": "http://www.parkslopechurch.org/",
     "address": "139 St Johns Place, Brooklyn, NY 11217",
     "state": "NY",
     "diocese": "Long Island",
@@ -1519,7 +1519,7 @@
   {
     "id": "st-luke-and-st-matthew-520-clinton-ave-brooklyn-ny",
     "name": "St. Luke & St. Matthew",
-    "website": "http://www.stlukeandstmatthew.org",
+    "website": "http://www.stlukeandstmatthew.org/",
     "address": "520 Clinton Ave, Brooklyn, NY 11238",
     "state": "NY",
     "diocese": "Long Island",
@@ -1560,7 +1560,7 @@
   {
     "id": "st-marks-church-1417-union-st-brooklyn-ny",
     "name": "St. Mark's church",
-    "website": "http://www.stmarksbrooklyn.org",
+    "website": "http://www.stmarksbrooklyn.org/",
     "address": "1417 Union St, Brooklyn, NY 11213",
     "state": "NY",
     "diocese": "Long Island",
@@ -1601,7 +1601,7 @@
   {
     "id": "st-marys-church-230-classon-avenue-brooklyn-ny",
     "name": "St. Mary's Church",
-    "website": "http://www.stmarysbrooklyn.org",
+    "website": "http://www.stmarysbrooklyn.org/",
     "address": "230 Classon Avenue, Brooklyn, NY 11205",
     "state": "NY",
     "diocese": "Long Island",
@@ -1642,7 +1642,7 @@
   {
     "id": "st-pauls-church-in-the-village-of-flatbush-157-st-pauls-pl-brooklyn-ny",
     "name": "St. Paul's Church in the Village of Flatbush",
-    "website": "http://www.stpaulsflatbush.org",
+    "website": "http://www.stpaulsflatbush.org/",
     "address": "157 St Pauls Pl, Brooklyn, NY 11226",
     "state": "NY",
     "diocese": "Long Island",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-philips-episcopal-church-decatur-334-macdonough-street-brooklyn-ny",
     "name": "St. Philip's Episcopal Church (Decatur)",
-    "website": "https://www.stphilipsbklyn.org",
+    "website": "https://www.stphilipsbklyn.org/",
     "address": "334 MacDonough Street, Brooklyn, NY 11233",
     "state": "NY",
     "diocese": "Long Island",
@@ -1806,7 +1806,7 @@
   {
     "id": "st-stephen-and-st-martins-episcopal-church-789-jefferson-avenue-brooklyn-ny",
     "name": "St. Stephen & St Martin's Episcopal church",
-    "website": "https://www.ststephenstmartins.org",
+    "website": "https://www.ststephenstmartins.org/",
     "address": "789 Jefferson Avenue, Brooklyn, NY 11221",
     "state": "NY",
     "diocese": "Long Island",
@@ -1847,7 +1847,7 @@
   {
     "id": "st-thomas-church-1405-bushwick-ave-brooklyn-ny",
     "name": "St. Thomas' church",
-    "website": "http://www.stthomasepiscopalbrooklyn.org",
+    "website": "http://www.stthomasepiscopalbrooklyn.org/",
     "address": "1405 Bushwick Ave, Brooklyn, NY 11207",
     "state": "NY",
     "diocese": "Long Island",
@@ -1907,7 +1907,7 @@
     "asa": null,
     "city": "Cambria Heights",
     "church_phone": "(718) 528-2095",
-    "church_email": "SDEchurch123@gmail.com",
+    "church_email": "sdechurch123@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -1929,7 +1929,7 @@
   {
     "id": "st-marys-church-252-rushmore-avenue-carle-place-ny",
     "name": "St. Mary's church",
-    "website": "http://www.StMarysCarlePlace.org",
+    "website": "http://www.StMarysCarlePlace.org/",
     "address": "252 Rushmore Avenue, Carle Place, NY 11514",
     "state": "NY",
     "diocese": "Long Island",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-johns-church-1670-route-25a-cold-spring-harbor-ny",
     "name": "St. John's Church",
-    "website": "http://www.stjohnscoldspringharbor.org",
+    "website": "http://www.stjohnscoldspringharbor.org/",
     "address": "1670 Route 25A, Cold Spring Harbor, NY 11724",
     "state": "NY",
     "diocese": "Long Island",
@@ -2093,7 +2093,7 @@
   {
     "id": "st-patricks-church-305-carlls-path-deer-park-ny",
     "name": "St. Patrick's church",
-    "website": "http://www.stpatrickschurchdeerpark.com",
+    "website": "http://www.stpatrickschurchdeerpark.com/",
     "address": "305 Carlls Path, Deer Park, NY 11729",
     "state": "NY",
     "diocese": "Long Island",
@@ -2134,7 +2134,7 @@
   {
     "id": "zion-episcopal-church-24320-church-st-douglaston-ny",
     "name": "Zion Episcopal Church",
-    "website": "http://www.zionepiscopal.org",
+    "website": "http://www.zionepiscopal.org/",
     "address": "24320 Church St., Douglaston, NY 11363",
     "state": "NY",
     "diocese": "Long Island",
@@ -2216,7 +2216,7 @@
   {
     "id": "st-lukes-episcopal-church-18-james-lane-east-hampton-ny",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://stlukeseasthampton.org",
+    "website": "http://stlukeseasthampton.org/",
     "address": "18 James Lane, East Hampton, NY 11937",
     "state": "NY",
     "diocese": "Long Island",
@@ -2298,7 +2298,7 @@
   {
     "id": "st-james-church-84-07-broadway-elmhurst-ny",
     "name": "St. James church",
-    "website": "http://www.stjce.org",
+    "website": "http://www.stjce.org/",
     "address": "84-07 Broadway, Elmhurst, NY 11373",
     "state": "NY",
     "diocese": "Long Island",
@@ -2339,7 +2339,7 @@
   {
     "id": "st-thomas-episcopal-church-298-conklin-street-farmingdale-ny",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.stthomasfarmingdale.org",
+    "website": "https://www.stthomasfarmingdale.org/",
     "address": "298 Conklin Street, Farmingdale, NY 11735",
     "state": "NY",
     "diocese": "Long Island",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-johns-episcopal-church-149-49-sanford-avenue-flushing-ny",
     "name": "St. John's Episcopal Church",
-    "website": "http://stjohnsflushing.wordpress.com",
+    "website": "http://stjohnsflushing.wordpress.com/",
     "address": "149-49 Sanford Avenue, Flushing, NY 11355",
     "state": "NY",
     "diocese": "Long Island",
@@ -2503,7 +2503,7 @@
   {
     "id": "st-lukes-church-85-greenway-s-forest-hills-ny",
     "name": "St. Luke's Church",
-    "website": "http://www.stlukesforesthills.org",
+    "website": "http://www.stlukesforesthills.org/",
     "address": "85 Greenway S, Forest Hills, NY 11375",
     "state": "NY",
     "diocese": "Long Island",
@@ -2544,7 +2544,7 @@
   {
     "id": "church-of-the-transfiguration-165-pine-street-freeport-ny",
     "name": "church of the Transfiguration",
-    "website": "https://www.churchofthetransfigurationfreeport.org",
+    "website": "https://www.churchofthetransfigurationfreeport.org/",
     "address": "165 Pine Street, Freeport, NY 11520",
     "state": "NY",
     "diocese": "Long Island",
@@ -2585,7 +2585,7 @@
   {
     "id": "cathedral-of-the-incarnation-50-cathedral-avenue-garden-city-ny",
     "name": "Cathedral of the Incarnation",
-    "website": "http://www.incarnationgc.org",
+    "website": "http://www.incarnationgc.org/",
     "address": "50 Cathedral Avenue, Garden City, NY 11530",
     "state": "NY",
     "diocese": "Long Island",
@@ -2626,7 +2626,7 @@
   {
     "id": "christ-church-33-jefferson-street-garden-city-ny",
     "name": "Christ church",
-    "website": "http://www.christchurchgc.org",
+    "website": "http://www.christchurchgc.org/",
     "address": "33 Jefferson Street, Garden City, NY 11530",
     "state": "NY",
     "diocese": "Long Island",
@@ -2667,7 +2667,7 @@
   {
     "id": "st-pauls-episcopal-church-28-highland-rd-glen-cove-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsgc.org",
+    "website": "http://www.stpaulsgc.org/",
     "address": "28 Highland Rd, Glen Cove, NY 11542",
     "state": "NY",
     "diocese": "Long Island",
@@ -2727,7 +2727,7 @@
     "asa": null,
     "city": "Great Neck",
     "church_phone": "(516) 482-5392",
-    "church_email": "GemRevPae@gmail.com",
+    "church_email": "gemrevpae@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "11:00 AM",
@@ -2749,7 +2749,7 @@
   {
     "id": "all-saints-church-855-middle-neck-road-great-neck-ny",
     "name": "All Saints' church",
-    "website": "http://www.allsaintsgn.org",
+    "website": "http://www.allsaintsgn.org/",
     "address": "855 Middle Neck Road, Great Neck, NY 11024",
     "state": "NY",
     "diocese": "Long Island",
@@ -2790,7 +2790,7 @@
   {
     "id": "emmanuel-episcopal-church-320-great-river-rd-great-river-ny",
     "name": "Emmanuel Episcopal Church",
-    "website": "http://www.emmanuelgreatriver.org",
+    "website": "http://www.emmanuelgreatriver.org/",
     "address": "320 Great River Rd, Great River, NY 11739-0586",
     "state": "NY",
     "diocese": "Long Island",
@@ -2831,7 +2831,7 @@
   {
     "id": "holy-trinity-church-768-main-street-greenport-ny",
     "name": "Holy Trinity church",
-    "website": "https://www.holytrinitygreenport.com",
+    "website": "https://www.holytrinitygreenport.com/",
     "address": "768 Main Street, Greenport, NY 11944",
     "state": "NY",
     "diocese": "Long Island",
@@ -2872,7 +2872,7 @@
   {
     "id": "st-marys-church-165-ponquoque-avenue-hampton-bays-ny",
     "name": "St. Mary's Church",
-    "website": "http://www.stmaryshb.org",
+    "website": "http://www.stmaryshb.org/",
     "address": "165 Ponquoque Avenue, Hampton Bays, NY 11946",
     "state": "NY",
     "diocese": "Long Island",
@@ -2913,7 +2913,7 @@
   {
     "id": "st-georges-church-319-front-street-hempstead-ny",
     "name": "St. George's Church",
-    "website": "http://www.stgeorges-hempstead.org",
+    "website": "http://www.stgeorges-hempstead.org/",
     "address": "319 Front Street, Hempstead, NY 11550",
     "state": "NY",
     "diocese": "Long Island",
@@ -2954,7 +2954,7 @@
   {
     "id": "trinity-st-johns-church-1142-broadway-hewlett-ny",
     "name": "Trinity-St. John's church",
-    "website": "http://www.trinitystjohns.org",
+    "website": "http://www.trinitystjohns.org/",
     "address": "1142 Broadway, Hewlett, NY 11557",
     "state": "NY",
     "diocese": "Long Island",
@@ -3118,7 +3118,7 @@
   {
     "id": "st-johns-church-12-prospect-street-huntington-ny",
     "name": "St. Johns church",
-    "website": "http://www.stjohnshuntington.org",
+    "website": "http://www.stjohnshuntington.org/",
     "address": "12 Prospect Street, Huntington, NY 11743",
     "state": "NY",
     "diocese": "Long Island",
@@ -3159,7 +3159,7 @@
   {
     "id": "st-marks-church-754-montauk-highway-islip-ny",
     "name": "St. Mark's Church",
-    "website": "http://stmarksislip.org",
+    "website": "http://stmarksislip.org/",
     "address": "754 Montauk Highway, Islip, NY 11751",
     "state": "NY",
     "diocese": "Long Island",
@@ -3323,7 +3323,7 @@
   {
     "id": "st-stephens-episcopal-church-89-26-168th-street-jamaica-ny",
     "name": "St. Stephens Episcopal Church",
-    "website": "http://ststephensepiscopal.org",
+    "website": "http://ststephensepiscopal.org/",
     "address": "89-26 168th Street, Jamaica, NY 11432",
     "state": "NY",
     "diocese": "Long Island",
@@ -3364,7 +3364,7 @@
   {
     "id": "church-of-the-resurrection-8509-118th-st-kew-gardens-ny",
     "name": "Church of the Resurrection",
-    "website": "http://www.churchofresurrection.wordpress.com",
+    "website": "http://www.churchofresurrection.wordpress.com/",
     "address": "8509 118th St, Kew Gardens, NY 11415-2907",
     "state": "NY",
     "diocese": "Long Island",
@@ -3405,7 +3405,7 @@
   {
     "id": "st-marys-episcopal-church-315-lake-shore-road-lake-ronkonkoma-ny",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://www.stmarysonthelake.org",
+    "website": "http://www.stmarysonthelake.org/",
     "address": "315 Lake Shore Road, Lake Ronkonkoma, NY 11779",
     "state": "NY",
     "diocese": "Long Island",
@@ -3547,7 +3547,7 @@
     "asa": null,
     "city": "Locust Valley",
     "church_phone": "(516) 671-3226",
-    "church_email": "Admin@stjlat.org",
+    "church_email": "admin@stjlat.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -3610,7 +3610,7 @@
   {
     "id": "christ-church-1351-northern-blvd-manhasset-ny",
     "name": "Christ Church",
-    "website": "http://www.christchurchmanhasset.org",
+    "website": "http://www.christchurchmanhasset.org/",
     "address": "1351 Northern Blvd, Manhasset, NY 11030",
     "state": "NY",
     "diocese": "Long Island",
@@ -3651,7 +3651,7 @@
   {
     "id": "grace-episcopal-church-23-cedar-shore-dr-massapequa-ny",
     "name": "Grace Episcopal Church",
-    "website": "http://www.gracechurchmassapequa.org",
+    "website": "http://www.gracechurchmassapequa.org/",
     "address": "23 Cedar Shore Dr, Massapequa, NY 11758",
     "state": "NY",
     "diocese": "Long Island",
@@ -3692,7 +3692,7 @@
   {
     "id": "saint-andrews-episcopal-church-250-neighborhood-road-mastic-beach-ny",
     "name": "Saint Andrew's Episcopal Church",
-    "website": "http://standrewschurchmb.org",
+    "website": "http://standrewschurchmb.org/",
     "address": "250 Neighborhood Road, Mastic Beach, NY 11951",
     "state": "NY",
     "diocese": "Long Island",
@@ -3733,7 +3733,7 @@
   {
     "id": "church-of-the-redeemer-13225-sound-ave-mattituck-ny",
     "name": "church of the Redeemer",
-    "website": "http://www.redeemermattituck.com",
+    "website": "http://www.redeemermattituck.com/",
     "address": "13225 Sound Ave, Mattituck, NY 11952",
     "state": "NY",
     "diocese": "Long Island",
@@ -3815,7 +3815,7 @@
   {
     "id": "trinity-church-130-main-street-northport-ny",
     "name": "Trinity church",
-    "website": "http://www.trinityec.com",
+    "website": "http://www.trinityec.com/",
     "address": "130 Main Street, Northport, NY 11768",
     "state": "NY",
     "diocese": "Long Island",
@@ -3897,7 +3897,7 @@
   {
     "id": "christ-church-55-e-main-st-oyster-bay-ny",
     "name": "Christ Church",
-    "website": "http://www.christchurchoysterbay.org",
+    "website": "http://www.christchurchoysterbay.org/",
     "address": "55 E Main St, Oyster Bay, NY 11771-2493",
     "state": "NY",
     "diocese": "Long Island",
@@ -3938,7 +3938,7 @@
   {
     "id": "st-pauls-church-31-rider-avenue-patchogue-ny",
     "name": "St. Paul's Church",
-    "website": "http://www.stpaulspatchogue.org",
+    "website": "http://www.stpaulspatchogue.org/",
     "address": "31 Rider Avenue, Patchogue, NY 11772",
     "state": "NY",
     "diocese": "Long Island",
@@ -3979,7 +3979,7 @@
   {
     "id": "st-margarets-episcopal-church-1000-washington-ave-plainview-ny",
     "name": "St. Margaret's Episcopal Church",
-    "website": "http://www.stmargaretepiscopal.org",
+    "website": "http://www.stmargaretepiscopal.org/",
     "address": "1000 Washington Ave, Plainview, NY 11803",
     "state": "NY",
     "diocese": "Long Island",
@@ -4143,7 +4143,7 @@
   {
     "id": "church-of-the-atonement-17-quogue-st-quogue-ny",
     "name": "Church of the Atonement",
-    "website": "https://www.quoguechurch.org",
+    "website": "https://www.quoguechurch.org/",
     "address": "17 Quogue St, Quogue, NY 11959-0928",
     "state": "NY",
     "diocese": "Long Island",
@@ -4225,7 +4225,7 @@
   {
     "id": "church-of-the-ascension-71-n-village-avenue-rockville-centre-ny",
     "name": "church of the Ascension",
-    "website": "http://www.ascensionrvc.org",
+    "website": "http://www.ascensionrvc.org/",
     "address": "71 N Village Avenue, Rockville Centre, NY 11570",
     "state": "NY",
     "diocese": "Long Island",
@@ -4266,7 +4266,7 @@
   {
     "id": "st-pauls-episcopal-church-18-w-centennial-ave-roosevelt-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsepiscopalroosevelt.org",
+    "website": "https://www.stpaulsepiscopalroosevelt.org/",
     "address": "18 W Centennial Ave, Roosevelt, NY 11575",
     "state": "NY",
     "diocese": "Long Island",
@@ -4307,7 +4307,7 @@
   {
     "id": "st-peters-church-137-28-244th-street-rosedale-ny",
     "name": "St. Peters church",
-    "website": "http://www.stpetersrosedale.org",
+    "website": "http://www.stpetersrosedale.org/",
     "address": "137-28 244th Street, Rosedale, NY 11422",
     "state": "NY",
     "diocese": "Long Island",
@@ -4348,7 +4348,7 @@
   {
     "id": "trinity-church-1579-northern-blvd-roslyn-ny",
     "name": "Trinity church",
-    "website": "http://www.trinityroslyn.org",
+    "website": "http://www.trinityroslyn.org/",
     "address": "1579 Northern Blvd, Roslyn, NY 11576",
     "state": "NY",
     "diocese": "Long Island",
@@ -4430,7 +4430,7 @@
   {
     "id": "st-alban-the-martyr-church-116-42-farmers-blvd-saint-albans-ny",
     "name": "St. Alban the Martyr church",
-    "website": "http://www.stalbanepiscopalqueens.org",
+    "website": "http://www.stalbanepiscopalqueens.org/",
     "address": "116-42 Farmers Blvd, Saint Albans, NY 11412",
     "state": "NY",
     "diocese": "Long Island",
@@ -4471,7 +4471,7 @@
   {
     "id": "st-james-church-490-n-country-road-saint-james-ny",
     "name": "St. James Church",
-    "website": "http://www.stjamesstjames.org",
+    "website": "http://www.stjamesstjames.org/",
     "address": "490 N Country Road, Saint James, NY 11780",
     "state": "NY",
     "diocese": "Long Island",
@@ -4490,7 +4490,7 @@
     "asa": null,
     "city": "Saint James",
     "church_phone": "(631) 584-5560",
-    "church_email": "StJamesChurchNY.Office@gmail.com",
+    "church_email": "stjameschurchny.office@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 9:30 AM",
@@ -4512,7 +4512,7 @@
   {
     "id": "st-anns-church-262-middle-rd-sayville-ny",
     "name": "St. Ann's Church",
-    "website": "http://saint-anns.org",
+    "website": "http://saint-anns.org/",
     "address": "262 Middle Rd, Sayville, NY 11782",
     "state": "NY",
     "diocese": "Long Island",
@@ -4553,7 +4553,7 @@
   {
     "id": "st-lukes-episcopal-church-253-glen-avenue-sea-cliff-ny",
     "name": "St. Luke's Episcopal church",
-    "website": "http://www.saintlukes-seacliff.org",
+    "website": "http://www.saintlukes-seacliff.org/",
     "address": "253 Glen Avenue, Sea Cliff, NY 11579",
     "state": "NY",
     "diocese": "Long Island",
@@ -4572,7 +4572,7 @@
     "asa": null,
     "city": "Sea Cliff",
     "church_phone": "(516) 676-4222",
-    "church_email": "Office@saintlukes-seacliff.org",
+    "church_email": "office@saintlukes-seacliff.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM; 8:00 AM",
@@ -4594,7 +4594,7 @@
   {
     "id": "st-cuthberts-church-18-magnolia-place-selden-ny",
     "name": "St. Cuthberts church",
-    "website": "http://www.stcuthbertsepiscopal.church",
+    "website": "http://www.stcuthbertsepiscopal.church/",
     "address": "18 Magnolia Place, Selden, NY 11784",
     "state": "NY",
     "diocese": "Long Island",
@@ -4676,7 +4676,7 @@
   {
     "id": "st-marys-church-26-st-marys-rd-shelter-island-ny",
     "name": "St. Mary's church",
-    "website": "http://www.StMarysShelterIsland.org",
+    "website": "http://www.StMarysShelterIsland.org/",
     "address": "26 St. Mary's Rd, Shelter Island, NY 11964",
     "state": "NY",
     "diocese": "Long Island",
@@ -4799,7 +4799,7 @@
   {
     "id": "st-thomas-church-of-canterbury-90-edgewater-avenue-smithtown-ny",
     "name": "St. Thomas church of Canterbury",
-    "website": "http://www.stthomasofcanterbury.net",
+    "website": "http://www.stthomasofcanterbury.net/",
     "address": "90 Edgewater Avenue, Smithtown, NY 11787",
     "state": "NY",
     "diocese": "Long Island",
@@ -4840,7 +4840,7 @@
   {
     "id": "church-of-st-john-the-evangelist-133-04-109th-avenue-south-ozone-park-ny",
     "name": "church of St. John the Evangelist",
-    "website": "http://www.stjohnsouthozonepark.org",
+    "website": "http://www.stjohnsouthozonepark.org/",
     "address": "133-04 109th Avenue, South Ozone Park, NY 11420",
     "state": "NY",
     "diocese": "Long Island",
@@ -4881,7 +4881,7 @@
   {
     "id": "st-johns-episcopal-church-100-s-main-street-southampton-ny",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsouthampton.org",
+    "website": "http://www.stjohnsouthampton.org/",
     "address": "100 S Main Street, Southampton, NY 11968",
     "state": "NY",
     "diocese": "Long Island",
@@ -4963,7 +4963,7 @@
   {
     "id": "all-souls-church-10-mill-pond-road-stony-brook-ny",
     "name": "All Souls' church",
-    "website": "http://www.allsouls-stonybrook.org",
+    "website": "http://www.allsouls-stonybrook.org/",
     "address": "10 Mill Pond Road, Stony Brook, NY 11790",
     "state": "NY",
     "diocese": "Long Island",
@@ -5004,7 +5004,7 @@
   {
     "id": "camp-dewolfe-408-n-side-road-wading-river-ny",
     "name": "Camp DeWolfe",
-    "website": "http://www.campdewolfe.org",
+    "website": "http://www.campdewolfe.org/",
     "address": "408 N. Side Road, Wading River, NY 11792",
     "state": "NY",
     "diocese": "Long Island",
@@ -5086,7 +5086,7 @@
   {
     "id": "church-of-the-advent-555-advent-st-westbury-ny",
     "name": "Church of the Advent",
-    "website": "http://www.adventwestbury.org",
+    "website": "http://www.adventwestbury.org/",
     "address": "555 Advent St, Westbury, NY 11590",
     "state": "NY",
     "diocese": "Long Island",
@@ -5127,7 +5127,7 @@
   {
     "id": "st-marks-church-40-main-street-westhampton-beach-ny",
     "name": "St. Marks church",
-    "website": "http://stmarkswhb.org",
+    "website": "http://stmarkswhb.org/",
     "address": "40 Main Street, Westhampton Beach, NY 11978",
     "state": "NY",
     "diocese": "Long Island",
@@ -5168,7 +5168,7 @@
   {
     "id": "grace-church-whitestone-14-15-clintonville-street-whitestone-ny",
     "name": "Grace Church Whitestone",
-    "website": "http://www.gracechurchwhitestone.org",
+    "website": "http://www.gracechurchwhitestone.org/",
     "address": "14-15 Clintonville Street, Whitestone, NY 11357",
     "state": "NY",
     "diocese": "Long Island",
@@ -5209,7 +5209,7 @@
   {
     "id": "episcopal-church-of-the-resurrection-147-campbell-avenue-williston-park-ny",
     "name": "Episcopal Church of the Resurrection",
-    "website": "http://www.resurrectionwillistonpark.org",
+    "website": "http://www.resurrectionwillistonpark.org/",
     "address": "147 Campbell Avenue, Williston Park, NY 11596",
     "state": "NY",
     "diocese": "Long Island",
@@ -5250,7 +5250,7 @@
   {
     "id": "all-saints-church-85-45-96th-street-woodhaven-ny",
     "name": "All Saints Church",
-    "website": "http://www.allsaintswoodhaven.org",
+    "website": "http://www.allsaintswoodhaven.org/",
     "address": "85-45 96th Street, Woodhaven, NY 11421",
     "state": "NY",
     "diocese": "Long Island",

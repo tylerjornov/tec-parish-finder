@@ -2,7 +2,7 @@
   {
     "id": "st-johns-episcopal-church-1114-indiana-ave-alamogordo-nm",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsalamo.com",
+    "website": "http://www.stjohnsalamo.com/",
     "address": "1114 Indiana Ave, Alamogordo, NM 88310-6720",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -84,7 +84,7 @@
   {
     "id": "hope-in-the-desert-episcopal-church-8700-alameda-blvd-ne-albuquerque-nm",
     "name": "Hope-in-the-Desert Episcopal Church",
-    "website": "http://www.hopepiscopal.org",
+    "website": "http://www.hopepiscopal.org/",
     "address": "8700 Alameda Blvd NE, Albuquerque, NM 87122-3789",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -125,7 +125,7 @@
   {
     "id": "st-marks-episcopal-church-431-richmond-pl-ne-albuquerque-nm",
     "name": "St Mark's Episcopal Church",
-    "website": "http://www.stmarksabq.org",
+    "website": "http://www.stmarksabq.org/",
     "address": "431 Richmond Pl NE, Albuquerque, NM 87106-2150",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -226,7 +226,7 @@
     "asa": null,
     "city": "Albuquerque",
     "church_phone": "(505) 766-6876",
-    "church_email": "CMiszkiel@SMHC-NM.org",
+    "church_email": "cmiszkiel@smhc-nm.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -248,7 +248,7 @@
   {
     "id": "st-marys-episcopal-church-1500-chelwood-park-blvd-ne-albuquerque-nm",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://stmarys-abq.org",
+    "website": "https://stmarys-abq.org/",
     "address": "1500 Chelwood Park Blvd NE, Albuquerque, NM 87112-4620",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -289,7 +289,7 @@
   {
     "id": "st-michael-and-all-angels-church-601-montano-rd-nw-albuquerque-nm",
     "name": "St. Michael and All Angels Church",
-    "website": "http://www.stmichaelsabq.org",
+    "website": "http://www.stmichaelsabq.org/",
     "address": "601 Montano Rd NW, Albuquerque, NM 87107-5226",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -330,7 +330,7 @@
   {
     "id": "big-bend-episcopal-mission-510-n-6th-street-alpine-tx",
     "name": "Big Bend Episcopal Mission",
-    "website": "http://www.bigbendepiscopalmission.org",
+    "website": "http://www.bigbendepiscopalmission.org/",
     "address": "510 N 6th Street, Alpine, TX 79830",
     "state": "TX",
     "diocese": "Rio Grande",
@@ -371,7 +371,7 @@
   {
     "id": "st-lukes-episcopal-church-7050-mcnutt-rd-anthony-nm",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://www.stlukeslaunion.org",
+    "website": "http://www.stlukeslaunion.org/",
     "address": "7050 McNutt Rd, Anthony, NM 88021-9221",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -453,7 +453,7 @@
   {
     "id": "grace-episcopal-church-508-west-fox-street-carlsbad-nm",
     "name": "Grace Episcopal Church",
-    "website": "http://gracecarlsbad.org",
+    "website": "http://gracecarlsbad.org/",
     "address": "508 West Fox Street, Carlsbad, NM 88221",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -494,7 +494,7 @@
   {
     "id": "st-jeromes-episcopal-church-331-pine-ave-chama-nm",
     "name": "St. Jerome's Episcopal Church",
-    "website": "http://www.saintjeromeschama.com",
+    "website": "http://www.saintjeromeschama.com/",
     "address": "331 Pine Ave, Chama, NM 87520",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -513,7 +513,7 @@
     "asa": null,
     "city": "Chama",
     "church_phone": "(505) 672-9713",
-    "church_email": "CPKellyL@aol.com",
+    "church_email": "cpkellyl@aol.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "11:00 AM",
@@ -535,7 +535,7 @@
   {
     "id": "st-james-episcopal-church-1117-n-main-st-clovis-nm",
     "name": "St. James Episcopal Church",
-    "website": "http://www.stjameschurchclovis.org",
+    "website": "http://www.stjameschurchclovis.org/",
     "address": "1117 N Main St, Clovis, NM 88101-5934",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -617,7 +617,7 @@
   {
     "id": "st-lukes-episcopal-church-417-w-spruce-street-deming-nm",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://stlukesdeming.org",
+    "website": "https://stlukesdeming.org/",
     "address": "417 W. Spruce Street, Deming, NM 88030-3640",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -658,7 +658,7 @@
   {
     "id": "church-of-the-holy-cross-367-state-highway-344-edgewood-nm",
     "name": "Church of the Holy Cross",
-    "website": "http://www.holycrossnm.org",
+    "website": "http://www.holycrossnm.org/",
     "address": "367 State Highway 344, Edgewood, NM 87015",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -699,7 +699,7 @@
   {
     "id": "all-saints-episcopal-church-3500-mcrae-blvd-el-paso-tx",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaintsepiscopalep.org",
+    "website": "http://www.allsaintsepiscopalep.org/",
     "address": "3500 McRae Blvd, El Paso, TX 79925-2897",
     "state": "TX",
     "diocese": "Rio Grande",
@@ -781,7 +781,7 @@
   {
     "id": "las-americas-immigrant-advocacy-center-1500-east-yandell-el-paso-tx",
     "name": "Las Americas Immigrant Advocacy Center",
-    "website": "http://las-americas.org",
+    "website": "http://las-americas.org/",
     "address": "1500 East Yandell, El Paso, TX 79902",
     "state": "TX",
     "diocese": "Rio Grande",
@@ -822,7 +822,7 @@
   {
     "id": "st-albans-episcopal-church-1810-elm-st-el-paso-tx",
     "name": "St. Alban's Episcopal Church",
-    "website": "http://www.saintalban.org",
+    "website": "http://www.saintalban.org/",
     "address": "1810 Elm St, El Paso, TX 79930-3110",
     "state": "TX",
     "diocese": "Rio Grande",
@@ -904,7 +904,7 @@
   {
     "id": "st-francis-on-the-hill-episcopal-church-6280-los-robles-dr-el-paso-tx",
     "name": "St. Francis on the Hill Episcopal Church",
-    "website": "http://www.sfoth.org",
+    "website": "http://www.sfoth.org/",
     "address": "6280 Los Robles Dr., El Paso, TX 79912",
     "state": "TX",
     "diocese": "Rio Grande",
@@ -945,7 +945,7 @@
   {
     "id": "st-stephens-episcopal-church-703-e-bond-st-espa-ola-nm",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://www.saintstephensnm.org",
+    "website": "http://www.saintstephensnm.org/",
     "address": "703 E Bond St, Española, NM 87532-2729",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -986,7 +986,7 @@
   {
     "id": "st-johns-episcopal-church-312-n-orchard-ave-farmington-nm",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.SaintJohnsChurch.info",
+    "website": "http://www.SaintJohnsChurch.info/",
     "address": "312 N Orchard Ave, Farmington, NM 87401-6227",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1005,7 +1005,7 @@
     "asa": null,
     "city": "Farmington",
     "church_phone": "(505) 325-5832",
-    "church_email": "office@SaintJohnsChurch.info",
+    "church_email": "office@saintjohnschurch.info",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -1150,7 +1150,7 @@
   {
     "id": "st-christophers-episcopal-church-207-e-permian-dr-hobbs-nm",
     "name": "St. Christopher's Episcopal Church",
-    "website": "http://www.stchristophershobbs.com",
+    "website": "http://www.stchristophershobbs.com/",
     "address": "207 E Permian Dr, Hobbs, NM 88240-4434",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1314,7 +1314,7 @@
   {
     "id": "trinity-on-the-hill-episcopal-church-3900-trinity-dr-los-alamos-nm",
     "name": "Trinity on the Hill Episcopal Church",
-    "website": "http://latoth.org",
+    "website": "http://latoth.org/",
     "address": "3900 Trinity Dr, Los Alamos, NM 87544-1871",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1355,7 +1355,7 @@
   {
     "id": "st-matthews-episcopal-church-400-huning-ranch-west-loop-los-lunas-nm",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://stmatthewsloslunas.org",
+    "website": "http://stmatthewsloslunas.org/",
     "address": "400 Huning Ranch West Loop, Los Lunas, NM 87031",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1396,7 +1396,7 @@
   {
     "id": "st-pauls-church-101-e-washington-marfa-tx",
     "name": "St. Paul's Church",
-    "website": "http://www.stpaulsmarfa.org",
+    "website": "http://www.stpaulsmarfa.org/",
     "address": "101 E Washington, Marfa, TX 79843-0175",
     "state": "TX",
     "diocese": "Rio Grande",
@@ -1437,7 +1437,7 @@
   {
     "id": "all-saints-episcopal-church-600-state-hwy-605-milan-nm",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaintsgrants.com",
+    "website": "http://www.allsaintsgrants.com/",
     "address": "600 State Hwy 605, Milan, NM 87020",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1560,7 +1560,7 @@
   {
     "id": "st-philips-episcopal-church-113-la-luna-pl-rio-communities-belen-nm",
     "name": "St. Philip's Episcopal Church",
-    "website": "http://www.stphilipsbelen.org",
+    "website": "http://www.stphilipsbelen.org/",
     "address": "113 La Luna Pl, Rio Communities/Belen, NM 87002",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1765,7 +1765,7 @@
   {
     "id": "church-of-the-holy-family-10a-bisbee-ct-santa-fe-nm",
     "name": "Church of the Holy Family",
-    "website": "http://www.holyfamilysantafe.org",
+    "website": "http://www.holyfamilysantafe.org/",
     "address": "10A Bisbee Ct, Santa Fe, NM 87508",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1847,7 +1847,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-615-n-texas-st-silver-city-nm",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "http://www.goodshepsilver.org",
+    "website": "http://www.goodshepsilver.org/",
     "address": "615 N Texas St, Silver City, NM 88061-5422",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1888,7 +1888,7 @@
   {
     "id": "church-of-the-epiphany-908-leroy-place-socorro-nm",
     "name": "Church of the Epiphany",
-    "website": "http://www.epiphany-net.org",
+    "website": "http://www.epiphany-net.org/",
     "address": "908 Leroy Place, Socorro, NM 87801",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1929,7 +1929,7 @@
   {
     "id": "st-james-episcopal-church-208-camino-de-santiago-taos-nm",
     "name": "St. James Episcopal Church",
-    "website": "https://taoscommongrounds.org",
+    "website": "https://taoscommongrounds.org/",
     "address": "208 Camino De Santiago, Taos, NM 87571",
     "state": "NM",
     "diocese": "Rio Grande",
@@ -1948,7 +1948,7 @@
     "asa": null,
     "city": "Taos",
     "church_phone": "(575) 758-2790",
-    "church_email": "youthMinister@StJamesTaos.org",
+    "church_email": "youthminister@stjamestaos.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 9:15 AM; 5:00 PM",

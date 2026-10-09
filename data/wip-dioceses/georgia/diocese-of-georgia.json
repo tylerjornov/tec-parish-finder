@@ -84,7 +84,7 @@
   {
     "id": "st-patricks-lutheran-episcopal-church-4800-old-dawson-road-albany-ga",
     "name": "St. Patrick's Lutheran Episcopal Church",
-    "website": "http://www.stpatricksalbany.org",
+    "website": "http://www.stpatricksalbany.org/",
     "address": "4800 Old Dawson Road, Albany, GA 31721",
     "state": "GA",
     "diocese": "Georgia",
@@ -535,7 +535,7 @@
   {
     "id": "holy-trinity-episcopal-church-501-college-st-blakely-ga",
     "name": "Holy Trinity Episcopal Church",
-    "website": "http://holytrinityblakely.georgiaepiscopal.org",
+    "website": "http://holytrinityblakely.georgiaepiscopal.org/",
     "address": "501 College St, Blakely, GA 39823",
     "state": "GA",
     "diocese": "Georgia",
@@ -740,7 +740,7 @@
   {
     "id": "christ-episcopal-church-408-s-1st-st-cordele-ga",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christepiscopalchurch-cordele.org",
+    "website": "http://www.christepiscopalchurch-cordele.org/",
     "address": "408 S 1st St, Cordele, GA 31015-1573",
     "state": "GA",
     "diocese": "Georgia",
@@ -822,7 +822,7 @@
   {
     "id": "st-cyprian-episcopal-church-401-fort-king-george-dr-darien-ga",
     "name": "St. Cyprian Episcopal Church",
-    "website": "http://standrewsandstcyprians.org",
+    "website": "http://standrewsandstcyprians.org/",
     "address": "401 Fort King George Dr, Darien, GA 31305",
     "state": "GA",
     "diocese": "Georgia",
@@ -945,7 +945,7 @@
   {
     "id": "christ-church-318-academy-ave-dublin-ga",
     "name": "Christ Church",
-    "website": "http://christchurchdublin.georgiaepiscopal.org",
+    "website": "http://christchurchdublin.georgiaepiscopal.org/",
     "address": "318 Academy Ave, Dublin, GA 31021-5220",
     "state": "GA",
     "diocese": "Georgia",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-philips-episcopal-church-302-e-general-stewart-way-hinesville-ga",
     "name": "St. Philip's Episcopal Church",
-    "website": "http://stphilipshinesville.net",
+    "website": "http://stphilipshinesville.net/",
     "address": "302 E General Stewart Way, Hinesville, GA 31313-2640",
     "state": "GA",
     "diocese": "Georgia",
@@ -1601,7 +1601,7 @@
   {
     "id": "st-elizabeth-of-hungary-16491-ga-highway-144-richmond-hill-ga",
     "name": "St. Elizabeth of Hungary",
-    "website": "https://www.saintelizabethsrh.com",
+    "website": "https://www.saintelizabethsrh.com/",
     "address": "16491 GA Highway 144, Richmond Hill, GA 31324-5367",
     "state": "GA",
     "diocese": "Georgia",
@@ -1888,7 +1888,7 @@
   {
     "id": "st-francis-of-the-islands-episcopal-church-590-walthour-rd-savannah-ga",
     "name": "St. Francis of the Islands Episcopal Church",
-    "website": "http://www.stfrancisislands.org",
+    "website": "http://www.stfrancisislands.org/",
     "address": "590 Walthour Rd, Savannah, GA 31410-2610",
     "state": "GA",
     "diocese": "Georgia",
@@ -2011,7 +2011,7 @@
   {
     "id": "st-matthews-episcopal-church-1401-martin-luther-king-jr-blvd-savannah-ga",
     "name": "St. Matthew's Episcopal Church",
-    "website": "https://www.stmattsav.org",
+    "website": "https://www.stmattsav.org/",
     "address": "1401 Martin Luther King Jr Blvd, Savannah, GA 31415-7201",
     "state": "GA",
     "diocese": "Georgia",
@@ -2030,7 +2030,7 @@
     "asa": null,
     "city": "Savannah",
     "church_phone": "(912) 234-4440",
-    "church_email": "Office@StMattSav.org",
+    "church_email": "office@stmattsav.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM",
@@ -2216,7 +2216,7 @@
   {
     "id": "christ-church-frederica-6329-frederica-rd-st-simons-island-ga",
     "name": "Christ Church, Frederica",
-    "website": "http://ccfssi.org",
+    "website": "http://ccfssi.org/",
     "address": "6329 Frederica Rd, St Simons Island, GA 31522-5812",
     "state": "GA",
     "diocese": "Georgia",
@@ -2380,7 +2380,7 @@
   {
     "id": "all-saints-episcopal-church-443-s-hansell-st-thomasville-ga",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaintsthomasville.org",
+    "website": "http://www.allsaintsthomasville.org/",
     "address": "443 S Hansell St, Thomasville, GA 31792-5512",
     "state": "GA",
     "diocese": "Georgia",
@@ -2522,7 +2522,7 @@
     "asa": null,
     "city": "Thomson",
     "church_phone": "",
-    "church_email": "Holycrossthomson@gmail.com",
+    "church_email": "holycrossthomson@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -2667,7 +2667,7 @@
   {
     "id": "christ-the-king-episcopal-church-101-e-central-ave-valdosta-ga",
     "name": "Christ the King Episcopal Church",
-    "website": "http://www.christthekingvaldosta.org",
+    "website": "http://www.christthekingvaldosta.org/",
     "address": "101 E Central Ave, Valdosta, GA 31601-5546",
     "state": "GA",
     "diocese": "Georgia",
@@ -2749,7 +2749,7 @@
   {
     "id": "st-barnabas-episcopal-church-3565-bemiss-rd-valdosta-ga",
     "name": "St. Barnabas Episcopal Church",
-    "website": "https://saintbarnabasvaldosta.org",
+    "website": "https://saintbarnabasvaldosta.org/",
     "address": "3565 Bemiss Rd, Valdosta, GA 31605",
     "state": "GA",
     "diocese": "Georgia",
@@ -2831,7 +2831,7 @@
   {
     "id": "grace-episcopal-church-401-pendleton-st-waycross-ga",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracechurchwaycross.com",
+    "website": "https://www.gracechurchwaycross.com/",
     "address": "401 Pendleton St, Waycross, GA 31501-3645",
     "state": "GA",
     "diocese": "Georgia",

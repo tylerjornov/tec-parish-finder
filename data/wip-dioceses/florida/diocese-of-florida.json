@@ -207,7 +207,7 @@
   {
     "id": "st-peters-episcopal-church-801-atlantic-ave-fernandina-beach-fl",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpetersparish.org",
+    "website": "https://www.stpetersparish.org/",
     "address": "801 Atlantic Ave, Fernandina Beach, FL 32034-3628",
     "state": "FL",
     "diocese": "Florida",
@@ -494,7 +494,7 @@
   {
     "id": "st-bartholomews-episcopal-church-105-nw-2nd-st-high-springs-fl",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "https://www.stbartshighsprings.org",
+    "website": "https://www.stbartshighsprings.org/",
     "address": "105 NW 2nd St, High Springs, FL 32643-0004",
     "state": "FL",
     "diocese": "Florida",
@@ -595,7 +595,7 @@
     "asa": null,
     "city": "Interlachen",
     "church_phone": "(904) 684-4506",
-    "church_email": "ParishOffice@SaintAndrewsInterlachen.org",
+    "church_email": "parishoffice@saintandrewsinterlachen.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -617,7 +617,7 @@
   {
     "id": "all-saints-early-learning-and-care-center-4171-hendricks-avenue-jacksonville-fl",
     "name": "All Saints Early Learning and Care Center",
-    "website": "http://www.allsaintscarecenter.com",
+    "website": "http://www.allsaintscarecenter.com/",
     "address": "4171 Hendricks Avenue, Jacksonville, FL 32207",
     "state": "FL",
     "diocese": "Florida",
@@ -740,7 +740,7 @@
   {
     "id": "church-of-our-saviour-12236-mandarin-rd-jacksonville-fl",
     "name": "Church of Our Saviour",
-    "website": "https://www.oursaviourjacksonville.org",
+    "website": "https://www.oursaviourjacksonville.org/",
     "address": "12236 Mandarin Rd, Jacksonville, FL 32223-1813",
     "state": "FL",
     "diocese": "Florida",
@@ -822,7 +822,7 @@
   {
     "id": "episcopal-childrens-services-administrative-offices-jacksonville-fl",
     "name": "Episcopal Children's Services",
-    "website": "http://www.ecs4kids.org",
+    "website": "http://www.ecs4kids.org/",
     "address": "Administrative Offices, Jacksonville, FL 32256",
     "state": "FL",
     "diocese": "Florida",
@@ -863,7 +863,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-1100-stockton-st-jacksonville-fl",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "http://www.gsjax.church",
+    "website": "http://www.gsjax.church/",
     "address": "1100 Stockton St, Jacksonville, FL 32204-4237",
     "state": "FL",
     "diocese": "Florida",
@@ -904,7 +904,7 @@
   {
     "id": "lutheran-social-services-of-northeast-florida-4615-philips-highway-jacksonville-fl",
     "name": "Lutheran Social Services of Northeast Florida",
-    "website": "http://www.lssjax.org",
+    "website": "http://www.lssjax.org/",
     "address": "4615 Philips Highway, Jacksonville, FL 32207",
     "state": "FL",
     "diocese": "Florida",
@@ -945,7 +945,7 @@
   {
     "id": "resurrection-episcopal-church-12355-fort-caroline-rd-jacksonville-fl",
     "name": "Resurrection Episcopal Church",
-    "website": "https://www.resurrectionjax.org",
+    "website": "https://www.resurrectionjax.org/",
     "address": "12355 Fort Caroline Rd, Jacksonville, FL 32225",
     "state": "FL",
     "diocese": "Florida",
@@ -986,7 +986,7 @@
   {
     "id": "san-jose-episcopal-church-7423-san-jose-blvd-jacksonville-fl",
     "name": "San Jose Episcopal Church",
-    "website": "https://www.sanjoseepiscopal.com",
+    "website": "https://www.sanjoseepiscopal.com/",
     "address": "7423 San Jose Blvd, Jacksonville, FL 32217",
     "state": "FL",
     "diocese": "Florida",
@@ -1027,7 +1027,7 @@
   {
     "id": "st-andrews-episcopal-church-7801-lone-star-rd-jacksonville-fl",
     "name": "St Andrew's Episcopal Church",
-    "website": "https://www.standrewsjax.com",
+    "website": "https://www.standrewsjax.com/",
     "address": "7801 Lone Star Rd, Jacksonville, FL 32211",
     "state": "FL",
     "diocese": "Florida",
@@ -1109,7 +1109,7 @@
   {
     "id": "st-elizabeths-episcopal-church-1735-leonid-rd-jacksonville-fl",
     "name": "St. Elizabeth's Episcopal Church",
-    "website": "https://www.stelizabethjax.org",
+    "website": "https://www.stelizabethjax.org/",
     "address": "1735 Leonid Rd, Jacksonville, FL 32218",
     "state": "FL",
     "diocese": "Florida",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-george-episcopal-church-10560-fort-george-rd-jacksonville-fl",
     "name": "St. George Episcopal Church",
-    "website": "https://www.saintgeorgejax.org",
+    "website": "https://www.saintgeorgejax.org/",
     "address": "10560 Fort George Rd, Jacksonville, FL 32226-2442",
     "state": "FL",
     "diocese": "Florida",
@@ -1232,7 +1232,7 @@
   {
     "id": "st-john-episcopal-cathedral-256-e-church-st-jacksonville-fl",
     "name": "St. John Episcopal Cathedral",
-    "website": "https://www.jaxcathedral.org",
+    "website": "https://www.jaxcathedral.org/",
     "address": "256 E Church St, Jacksonville, FL 32202-3186",
     "state": "FL",
     "diocese": "Florida",
@@ -1273,7 +1273,7 @@
   {
     "id": "st-lukes-episcopal-church-2961-university-boulevard-n-jacksonville-fl",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukesjax.org",
+    "website": "https://www.stlukesjax.org/",
     "address": "2961 University Boulevard N., Jacksonville, FL 32211-3398",
     "state": "FL",
     "diocese": "Florida",
@@ -1314,7 +1314,7 @@
   {
     "id": "st-marks-episcopal-church-4129-oxford-ave-jacksonville-fl",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksjacksonville.org",
+    "website": "https://www.stmarksjacksonville.org/",
     "address": "4129 Oxford Ave, Jacksonville, FL 32210-4404",
     "state": "FL",
     "diocese": "Florida",
@@ -1437,7 +1437,7 @@
   {
     "id": "st-peters-episcopal-church-5042-timuquana-rd-jacksonville-fl",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpetersbytheriver.org",
+    "website": "https://www.stpetersbytheriver.org/",
     "address": "5042 Timuquana Rd, Jacksonville, FL 32210-7475",
     "state": "FL",
     "diocese": "Florida",
@@ -1478,7 +1478,7 @@
   {
     "id": "st-philips-episcopal-church-321-union-st-w-jacksonville-fl",
     "name": "St. Philip's Episcopal Church",
-    "website": "https://www.stphilipsjax.org",
+    "website": "https://www.stphilipsjax.org/",
     "address": "321 Union St W, Jacksonville, FL 32202-4020",
     "state": "FL",
     "diocese": "Florida",
@@ -1519,7 +1519,7 @@
   {
     "id": "the-cathedral-school-330-market-street-jacksonville-fl",
     "name": "The Cathedral School",
-    "website": "http://www.jaxcathedralschool.org",
+    "website": "http://www.jaxcathedralschool.org/",
     "address": "330 Market Street, Jacksonville, FL 32202",
     "state": "FL",
     "diocese": "Florida",
@@ -1642,7 +1642,7 @@
   {
     "id": "st-pauls-by-the-sea-episcopal-church-465-11th-ave-n-jacksonville-beach-fl",
     "name": "St. Paul's by the Sea Episcopal Church",
-    "website": "http://www.spbts.net",
+    "website": "http://www.spbts.net/",
     "address": "465 11th Ave N, Jacksonville Beach, FL 32250-4722",
     "state": "FL",
     "diocese": "Florida",
@@ -1683,7 +1683,7 @@
   {
     "id": "st-james-episcopal-church-2423-sw-bascom-norris-dr-lake-city-fl",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjameslakecity.org",
+    "website": "https://www.stjameslakecity.org/",
     "address": "2423 SW Bascom Norris Dr, Lake City, FL 32025-4912",
     "state": "FL",
     "diocese": "Florida",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-luke-episcopal-church-1391-sw-11th-st-live-oak-fl",
     "name": "St. Luke Episcopal Church",
-    "website": "https://www.stlukesliveoak.org",
+    "website": "https://www.stlukesliveoak.org/",
     "address": "1391 SW 11th St, Live Oak, FL 32064",
     "state": "FL",
     "diocese": "Florida",
@@ -1765,7 +1765,7 @@
   {
     "id": "st-mary-episcopal-church-140-ne-horry-st-madison-fl",
     "name": "St. Mary Episcopal Church",
-    "website": "http://www.stmarysofmadison.org",
+    "website": "http://www.stmarysofmadison.org/",
     "address": "140 NE Horry St., Madison, FL 32341",
     "state": "FL",
     "diocese": "Florida",
@@ -1847,7 +1847,7 @@
   {
     "id": "trinity-episcopal-church-204-state-road-26-melrose-fl",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitymelrosefl.org",
+    "website": "https://www.trinitymelrosefl.org/",
     "address": "204 State Road 26, Melrose, FL 32666-3900",
     "state": "FL",
     "diocese": "Florida",
@@ -1929,7 +1929,7 @@
   {
     "id": "christ-church-episcopal-425-n-cherry-st-monticello-fl",
     "name": "Christ Church Episcopal",
-    "website": "https://www.christchurchmonticello.com",
+    "website": "https://www.christchurchmonticello.com/",
     "address": "425 N Cherry St, Monticello, FL 32344-2001",
     "state": "FL",
     "diocese": "Florida",
@@ -1970,7 +1970,7 @@
   {
     "id": "st-joseph-episcopal-church-16921-w-newberry-rd-newberry-fl",
     "name": "St. Joseph Episcopal Church",
-    "website": "https://www.stjosephsgnv.org",
+    "website": "https://www.stjosephsgnv.org/",
     "address": "16921 W Newberry Rd, Newberry, FL 32669-2811",
     "state": "FL",
     "diocese": "Florida",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-marks-episcopal-church-200-main-st-palatka-fl",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarkspalatka.net",
+    "website": "https://www.stmarkspalatka.net/",
     "address": "200 Main St, Palatka, FL 32177-3718",
     "state": "FL",
     "diocese": "Florida",
@@ -2134,7 +2134,7 @@
   {
     "id": "st-thomas-episcopal-church-5400-belle-terre-pkwy-palm-coast-fl",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.stthomaspalmcoast.com",
+    "website": "https://www.stthomaspalmcoast.com/",
     "address": "5400 Belle Terre Pkwy, Palm Coast, FL 32137-8824",
     "state": "FL",
     "diocese": "Florida",
@@ -2175,7 +2175,7 @@
   {
     "id": "st-james-episcopal-church-1100-w-green-st-perry-fl",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesperry.org",
+    "website": "https://www.stjamesperry.org/",
     "address": "1100 W Green St, Perry, FL 32347-3107",
     "state": "FL",
     "diocese": "Florida",
@@ -2216,7 +2216,7 @@
   {
     "id": "st-francis-in-the-field-episcopal-church-895-palm-valley-rd-ponte-vedra-fl",
     "name": "St. Francis in-the-Field Episcopal Church",
-    "website": "http://www.stfrancispvb.org",
+    "website": "http://www.stfrancispvb.org/",
     "address": "895 Palm Valley Rd, Ponte Vedra, FL 32081-4315",
     "state": "FL",
     "diocese": "Florida",
@@ -2380,7 +2380,7 @@
   {
     "id": "st-patricks-episcopal-church-1221-state-road-13-saint-johns-fl",
     "name": "St. Patrick's Episcopal Church",
-    "website": "http://www.stpatricksepiscopal.org",
+    "website": "http://www.stpatricksepiscopal.org/",
     "address": "1221 State Road 13, Saint Johns, FL 32259-3184",
     "state": "FL",
     "diocese": "Florida",
@@ -2503,7 +2503,7 @@
   {
     "id": "trinity-episcopal-parish-215-saint-george-st-st-augustine-fl",
     "name": "Trinity Episcopal Parish",
-    "website": "http://trinityepiscopalparish.org",
+    "website": "http://trinityepiscopalparish.org/",
     "address": "215 Saint George St, St Augustine, FL 32084-4410",
     "state": "FL",
     "diocese": "Florida",
@@ -2585,7 +2585,7 @@
   {
     "id": "emergency-care-help-organization-echo-1707-s-gadsden-street-tallahassee-fl",
     "name": "Emergency Care Help Organization (ECHO)",
-    "website": "https://echotlh.org",
+    "website": "https://echotlh.org/",
     "address": "1707 S. Gadsden Street, Tallahassee, FL 32301",
     "state": "FL",
     "diocese": "Florida",
@@ -2667,7 +2667,7 @@
   {
     "id": "episcopal-university-center-at-ruge-hall-655-w-jefferson-st-tallahassee-fl",
     "name": "Episcopal University Center at Ruge Hall",
-    "website": "http://www.rugehall.org",
+    "website": "http://www.rugehall.org/",
     "address": "655 W Jefferson St, Tallahassee, FL 32304-8013",
     "state": "FL",
     "diocese": "Florida",
@@ -2708,7 +2708,7 @@
   {
     "id": "grace-mission-church-303-w-brevard-st-tallahassee-fl",
     "name": "Grace Mission Church",
-    "website": "https://www.gracemission.net",
+    "website": "https://www.gracemission.net/",
     "address": "303 W Brevard St, Tallahassee, FL 32301-1117",
     "state": "FL",
     "diocese": "Florida",
@@ -2749,7 +2749,7 @@
   {
     "id": "holy-comforter-episcopal-church-2015-fleischmann-rd-tallahassee-fl",
     "name": "Holy Comforter Episcopal Church",
-    "website": "https://www.hc-ec.org",
+    "website": "https://www.hc-ec.org/",
     "address": "2015 Fleischmann Rd, Tallahassee, FL 32308-0561",
     "state": "FL",
     "diocese": "Florida",
@@ -2768,7 +2768,7 @@
     "asa": null,
     "city": "Tallahassee",
     "church_phone": "(850) 877-2712",
-    "church_email": "admin@HC-EC.org",
+    "church_email": "admin@hc-ec.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -2790,7 +2790,7 @@
   {
     "id": "st-johns-episcopal-church-211-n-monroe-st-tallahassee-fl",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.saint-john.org",
+    "website": "http://www.saint-john.org/",
     "address": "211 N Monroe St, Tallahassee, FL 32301-7691",
     "state": "FL",
     "diocese": "Florida",
@@ -2831,7 +2831,7 @@
   {
     "id": "st-michael-and-all-angels-episcopal-church-1405-melvin-st-tallahassee-fl",
     "name": "St. Michael & All Angels Episcopal Church",
-    "website": "https://www.stmichaelandallangels.org",
+    "website": "https://www.stmichaelandallangels.org/",
     "address": "1405 Melvin St, Tallahassee, FL 32301-4232",
     "state": "FL",
     "diocese": "Florida",

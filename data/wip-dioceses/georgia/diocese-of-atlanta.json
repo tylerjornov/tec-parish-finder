@@ -84,7 +84,7 @@
   {
     "id": "st-gregory-the-great-episcopal-church-3195-barnett-shoals-rd-athens-ga",
     "name": "St. Gregory the Great Episcopal Church",
-    "website": "https://www.stgregoryathens.org",
+    "website": "https://www.stgregoryathens.org/",
     "address": "3195 Barnett Shoals Rd, Athens, GA 30605-4327",
     "state": "GA",
     "diocese": "Atlanta",
@@ -125,7 +125,7 @@
   {
     "id": "all-saints-episcopal-church-634-w-peachtree-st-nw-atlanta-ga",
     "name": "All Saints' Episcopal Church",
-    "website": "https://allsaintsatlanta.org",
+    "website": "https://allsaintsatlanta.org/",
     "address": "634 W Peachtree St NW, Atlanta, GA 30308-1981",
     "state": "GA",
     "diocese": "Atlanta",
@@ -166,7 +166,7 @@
   {
     "id": "church-of-our-saviour-1068-n-highland-ave-ne-atlanta-ga",
     "name": "Church of Our Saviour",
-    "website": "http://oursaviouratlanta.org",
+    "website": "http://oursaviouratlanta.org/",
     "address": "1068 N Highland Ave NE, Atlanta, GA 30306",
     "state": "GA",
     "diocese": "Atlanta",
@@ -207,7 +207,7 @@
   {
     "id": "church-of-the-common-ground-po-box-4548-atlanta-ga",
     "name": "Church of the Common Ground",
-    "website": "http://www.churchofthecommonground.org",
+    "website": "http://www.churchofthecommonground.org/",
     "address": "PO Box 4548, Atlanta, GA 30302",
     "state": "GA",
     "diocese": "Atlanta",
@@ -289,7 +289,7 @@
   {
     "id": "church-of-the-incarnation-2407-cascade-rd-sw-atlanta-ga",
     "name": "Church of the Incarnation",
-    "website": "https://www.incaratl.org",
+    "website": "https://www.incaratl.org/",
     "address": "2407 Cascade Rd SW, Atlanta, GA 30311-3225",
     "state": "GA",
     "diocese": "Atlanta",
@@ -308,7 +308,7 @@
     "asa": null,
     "city": "Atlanta",
     "church_phone": "(404) 755-6654",
-    "church_email": "IncarnationATL@gmail.com",
+    "church_email": "incarnationatl@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -371,7 +371,7 @@
   {
     "id": "episcopal-community-foundation-for-middle-and-north-georgia-2744-peachtree-rd-nw-atlanta-ga",
     "name": "Episcopal Community Foundation for Middle and North Georgia",
-    "website": "https://ECFimpact.org",
+    "website": "https://ECFimpact.org/",
     "address": "2744 Peachtree RD NW, Atlanta, GA 30305",
     "state": "GA",
     "diocese": "Atlanta",
@@ -390,7 +390,7 @@
     "asa": null,
     "city": "Atlanta",
     "church_phone": "",
-    "church_email": "LHardegree@episcopalatlanta.org",
+    "church_email": "lhardegree@episcopalatlanta.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -412,7 +412,7 @@
   {
     "id": "grace-house-182-5th-street-nw-atlanta-ga",
     "name": "Grace House",
-    "website": "http://www.gracepeople.org",
+    "website": "http://www.gracepeople.org/",
     "address": "182 5th Street NW, Atlanta, GA 30313",
     "state": "GA",
     "diocese": "Atlanta",
@@ -453,7 +453,7 @@
   {
     "id": "holy-innocents-805-mount-vernon-hwy-nw-atlanta-ga",
     "name": "Holy Innocents",
-    "website": "http://www.holyinnocents.org",
+    "website": "http://www.holyinnocents.org/",
     "address": "805 Mount Vernon Hwy NW, Atlanta, GA 30327-4321",
     "state": "GA",
     "diocese": "Atlanta",
@@ -472,7 +472,7 @@
     "asa": null,
     "city": "Atlanta",
     "church_phone": "(404) 255-4023",
-    "church_email": "OfficeAdmin@holyinnocents.org",
+    "church_email": "officeadmin@holyinnocents.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -494,7 +494,7 @@
   {
     "id": "new-american-pathways-2300-henderson-mill-road-ne-atlanta-ga",
     "name": "New American Pathways",
-    "website": "http://www.newamericanpathways.org",
+    "website": "http://www.newamericanpathways.org/",
     "address": "2300 Henderson Mill Road NE, Atlanta, GA 30345",
     "state": "GA",
     "diocese": "Atlanta",
@@ -535,7 +535,7 @@
   {
     "id": "st-annes-episcopal-church-and-day-school-3098-saint-annes-ln-nw-atlanta-ga",
     "name": "St Anne's Episcopal Church and Day School",
-    "website": "https://www.saintannes.com",
+    "website": "https://www.saintannes.com/",
     "address": "3098 Saint Anne's Ln NW, Atlanta, GA 30327",
     "state": "GA",
     "diocese": "Atlanta",
@@ -576,7 +576,7 @@
   {
     "id": "st-bartholomews-episcopal-church-1790-la-vista-rd-ne-atlanta-ga",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "https://www.stbartsatlanta.org",
+    "website": "https://www.stbartsatlanta.org/",
     "address": "1790 La Vista Rd NE, Atlanta, GA 30329-3604",
     "state": "GA",
     "diocese": "Atlanta",
@@ -617,7 +617,7 @@
   {
     "id": "st-bedes-episcopal-church-2601-henderson-mill-rd-ne-atlanta-ga",
     "name": "St. Bede's Episcopal Church",
-    "website": "https://www.stbedes.org",
+    "website": "https://www.stbedes.org/",
     "address": "2601 Henderson Mill Rd NE, Atlanta, GA 30345-2199",
     "state": "GA",
     "diocese": "Atlanta",
@@ -863,7 +863,7 @@
   {
     "id": "st-pauls-episcopal-church-306-peyton-rd-sw-atlanta-ga",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulsatl.org",
+    "website": "http://stpaulsatl.org/",
     "address": "306 Peyton Rd SW, Atlanta, GA 30311-2134",
     "state": "GA",
     "diocese": "Atlanta",
@@ -904,7 +904,7 @@
   {
     "id": "the-cathedral-of-st-philip-2744-peachtree-rd-nw-atlanta-ga",
     "name": "The Cathedral of St. Philip",
-    "website": "https://www.cathedralATL.org",
+    "website": "https://www.cathedralATL.org/",
     "address": "2744 Peachtree Rd NW, Atlanta, GA 30305-2920",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1027,7 +1027,7 @@
   {
     "id": "st-clares-episcopal-church-777-ledford-rd-blairsville-ga",
     "name": "St. Clare's Episcopal Church",
-    "website": "http://stclaresepiscopal.org",
+    "website": "http://stclaresepiscopal.org/",
     "address": "777 Ledford Rd, Blairsville, GA 30512-3110",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1046,7 +1046,7 @@
     "asa": null,
     "city": "Blairsville",
     "church_phone": "(706) 745-0607",
-    "church_email": "stclare@StClaresEpiscopal.org",
+    "church_email": "stclare@stclaresepiscopal.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:30 AM",
@@ -1068,7 +1068,7 @@
   {
     "id": "st-mary-and-st-martha-of-bethany-4346-ridge-road-buford-ga",
     "name": "St. Mary & St Martha of Bethany",
-    "website": "http://smmbuford.org",
+    "website": "http://smmbuford.org/",
     "address": "4346 Ridge Road, Buford, GA 30519-4210",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1109,7 +1109,7 @@
   {
     "id": "st-timothys-episcopal-church-224-trammell-st-calhoun-ga",
     "name": "St. Timothy's Episcopal Church",
-    "website": "https://www.sttimothycalhoun.org",
+    "website": "https://www.sttimothycalhoun.org/",
     "address": "224 Trammell St, Calhoun, GA 30701-2218",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-margarets-episcopal-church-602-newnan-st-carrollton-ga",
     "name": "St. Margaret's Episcopal Church",
-    "website": "https://www.stmargaretsga.com",
+    "website": "https://www.stmargaretsga.com/",
     "address": "602 Newnan St, Carrollton, GA 30117-3429",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1251,7 +1251,7 @@
     "asa": null,
     "city": "Cartersville",
     "church_phone": "(770) 382-2626",
-    "church_email": "Karen@karentindall.com",
+    "church_email": "karen@karentindall.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "7:45 AM; 9:00 AM; 11:00 AM",
@@ -1292,7 +1292,7 @@
     "asa": null,
     "city": "Cedartown",
     "church_phone": "(770) 748-2894",
-    "church_email": "FatherKemper@gmail.com",
+    "church_email": "fatherkemper@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM; 10:30 AM",
@@ -1314,7 +1314,7 @@
   {
     "id": "grace-calvary-episcopal-church-295-e-green-st-clarkesville-ga",
     "name": "Grace-Calvary Episcopal Church",
-    "website": "http://grace-calvary.org",
+    "website": "http://grace-calvary.org/",
     "address": "295 E Green St, Clarkesville, GA 30523",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1396,7 +1396,7 @@
   {
     "id": "st-johns-episcopal-church-3480-east-main-st-college-park-ga",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnscollegepark.com",
+    "website": "https://www.stjohnscollegepark.com/",
     "address": "3480 East Main St, College Park, GA 30337-2099",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1437,7 +1437,7 @@
   {
     "id": "chattahoochee-valley-episcopal-ministries-1120-lockwood-ave-columbus-ga",
     "name": "Chattahoochee Valley Episcopal Ministries",
-    "website": "http://www.cvemjubilee.org",
+    "website": "http://www.cvemjubilee.org/",
     "address": "1120 Lockwood Ave., Columbus, GA 31906",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1519,7 +1519,7 @@
   {
     "id": "st-thomas-episcopal-church-2100-hilton-ave-columbus-ga",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://gemn.org",
+    "website": "http://gemn.org/",
     "address": "2100 Hilton Ave, Columbus, GA 31906-1500",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1560,7 +1560,7 @@
   {
     "id": "trinity-episcopal-church-1130-1st-ave-columbus-ga",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityepiscopalchurch.com",
+    "website": "http://www.trinityepiscopalchurch.com/",
     "address": "1130 1st Ave, Columbus, GA 31901-2404",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1601,7 +1601,7 @@
   {
     "id": "st-simons-episcopal-church-1522-highway-138-ne-conyers-ga",
     "name": "St. Simon's Episcopal Church",
-    "website": "https://www.stsimonsconyers.org",
+    "website": "https://www.stsimonsconyers.org/",
     "address": "1522 Highway 138 NE, Conyers, GA 30013-1266",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1642,7 +1642,7 @@
   {
     "id": "church-of-the-good-shepherd-4140-clark-st-sw-covington-ga",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.saolucasrio.org",
+    "website": "http://www.saolucasrio.org/",
     "address": "4140 Clark St SW, Covington, GA 30014-2713",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1683,7 +1683,7 @@
   {
     "id": "episcopal-church-of-the-holy-spirit-724-pilgrim-mill-rd-cumming-ga",
     "name": "Episcopal Church of the Holy Spirit",
-    "website": "http://www.ecohs.net",
+    "website": "http://www.ecohs.net/",
     "address": "724 Pilgrim Mill Rd, Cumming, GA 30040-2151",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-elizabeths-episcopal-church-1188-hamp-mill-rd-dahlonega-ga",
     "name": "St. Elizabeth's Episcopal Church",
-    "website": "http://stelizabethepiscopal.com",
+    "website": "http://stelizabethepiscopal.com/",
     "address": "1188 Hamp Mill Rd, Dahlonega, GA 30533-4872",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1888,7 +1888,7 @@
   {
     "id": "holy-trinity-parish-515-e-ponce-deleon-ave-decatur-ga",
     "name": "Holy Trinity Parish",
-    "website": "https://HolyTrinityDecatur.org",
+    "website": "https://HolyTrinityDecatur.org/",
     "address": "515 E Ponce DeLeon Ave, Decatur, GA 30030-1941",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1929,7 +1929,7 @@
   {
     "id": "st-timothys-episcopal-church-2833-flat-shoals-rd-decatur-ga",
     "name": "St. Timothy's Episcopal Church",
-    "website": "http://sttimothysdecatur.org",
+    "website": "http://sttimothysdecatur.org/",
     "address": "2833 Flat Shoals Rd, Decatur, GA 30034-1040",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2011,7 +2011,7 @@
   {
     "id": "st-julians-episcopal-church-5400-stewart-mill-rd-douglasville-ga",
     "name": "St. Julian's Episcopal Church",
-    "website": "http://www.saintjulians.org",
+    "website": "http://www.saintjulians.org/",
     "address": "5400 Stewart Mill Rd, Douglasville, GA 30135-2545",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2093,7 +2093,7 @@
   {
     "id": "all-angels-episcopal-church-405-n-jefferson-st-eatonton-ga",
     "name": "All Angels Episcopal Church",
-    "website": "http://episcopalchurch-eatonton.org",
+    "website": "http://episcopalchurch-eatonton.org/",
     "address": "405 N Jefferson St, Eatonton, GA 31024",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2175,7 +2175,7 @@
   {
     "id": "church-of-the-nativity-130-antioch-rd-fayetteville-ga",
     "name": "Church of the Nativity",
-    "website": "http://nativityepiscopal.org",
+    "website": "http://nativityepiscopal.org/",
     "address": "130 Antioch Rd, Fayetteville, GA 30215-5701",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2421,7 +2421,7 @@
   {
     "id": "st-georges-episcopal-church-132-n-10th-st-griffin-ga",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.saintgeorges.org",
+    "website": "https://www.saintgeorges.org/",
     "address": "132 N 10th St, Griffin, GA 30223-2841",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-nicholas-episcopal-church-69-mobley-rd-hamilton-ga",
     "name": "St. Nicholas Episcopal Church",
-    "website": "http://www.stnicholashamilton.org",
+    "website": "http://www.stnicholashamilton.org/",
     "address": "69 Mobley Rd, Hamilton, GA 31811-6092",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2503,7 +2503,7 @@
   {
     "id": "st-andrews-episcopal-church-579-fairview-ave-hartwell-ga",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewshartwell.org",
+    "website": "https://www.standrewshartwell.org/",
     "address": "579 Fairview Ave, Hartwell, GA 30643-2166",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2585,7 +2585,7 @@
   {
     "id": "christ-episcopal-church-1210-wooten-lake-rd-nw-kennesaw-ga",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchkennesaw.com",
+    "website": "https://www.christchurchkennesaw.com/",
     "address": "1210 Wooten Lake Rd NW, Kennesaw, GA 30144-1347",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2626,7 +2626,7 @@
   {
     "id": "st-marks-episcopal-church-207-n-greenwood-st-lagrange-ga",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarkslg.org",
+    "website": "https://www.stmarkslg.org/",
     "address": "207 N Greenwood St, Lagrange, GA 30240-2603",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2790,7 +2790,7 @@
   {
     "id": "christ-episcopal-church-582-walnut-st-macon-ga",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchmacon.com",
+    "website": "https://www.christchurchmacon.com/",
     "address": "582 Walnut St, Macon, GA 31201-2762",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2831,7 +2831,7 @@
   {
     "id": "episcopal-and-lutheran-fellowship-725-college-street-macon-ga",
     "name": "Episcopal and Lutheran Fellowship",
-    "website": "https://canterburymercer.org",
+    "website": "https://canterburymercer.org/",
     "address": "725 College Street, Macon, GA 31201",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2872,7 +2872,7 @@
   {
     "id": "st-francis-episcopal-church-432-forest-hill-rd-macon-ga",
     "name": "St. Francis Episcopal Church",
-    "website": "http://www.stfrancismacon.org",
+    "website": "http://www.stfrancismacon.org/",
     "address": "432 Forest Hill Rd, Macon, GA 31210-4824",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2995,7 +2995,7 @@
   {
     "id": "church-of-the-advent-338-academy-st-madison-ga",
     "name": "Church of the Advent",
-    "website": "http://www.adventmadisonga.com",
+    "website": "http://www.adventmadisonga.com/",
     "address": "338 Academy St, Madison, GA 30650-1545",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3077,7 +3077,7 @@
   {
     "id": "church-of-the-annunciation-1673-jamerson-rd-marietta-ga",
     "name": "Church of the Annunciation",
-    "website": "http://annunciationepiscopal.org",
+    "website": "http://annunciationepiscopal.org/",
     "address": "1673 Jamerson Rd, Marietta, GA 30066-1213",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3118,7 +3118,7 @@
   {
     "id": "st-catherines-episcopal-church-571-holt-rd-ne-marietta-ga",
     "name": "St. Catherine's Episcopal Church",
-    "website": "https://www.stcats.church",
+    "website": "https://www.stcats.church/",
     "address": "571 Holt Rd NE, Marietta, GA 30068-3039",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3159,7 +3159,7 @@
   {
     "id": "st-james-episcopal-church-161-church-st-ne-marietta-ga",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesmarietta.com",
+    "website": "https://www.stjamesmarietta.com/",
     "address": "161 Church St NE, Marietta, GA 30060-1629",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3241,7 +3241,7 @@
   {
     "id": "st-josephs-episcopal-church-1865-highway-20-e-mcdonough-ga",
     "name": "St. Joseph's Episcopal Church",
-    "website": "http://stjosephsmcdonough.org",
+    "website": "http://stjosephsmcdonough.org/",
     "address": "1865 Highway 20 E, McDonough, GA 30252-2264",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3364,7 +3364,7 @@
   {
     "id": "st-albans-episcopal-church-210-n-broad-st-monroe-ga",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://saint-albans.org",
+    "website": "https://saint-albans.org/",
     "address": "210 N Broad St, Monroe, GA 30655-1844",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3446,7 +3446,7 @@
   {
     "id": "st-augustine-of-canterbury-episcopal-church-1221-morrow-road-morrow-ga",
     "name": "St. Augustine of Canterbury Episcopal Church",
-    "website": "http://www.staugustinesmorrow.org",
+    "website": "http://www.staugustinesmorrow.org/",
     "address": "1221 Morrow Road, Morrow, GA 30260",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3487,7 +3487,7 @@
   {
     "id": "st-pauls-episcopal-church-576-roscoe-rd-newnan-ga",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsnewnan.org",
+    "website": "http://www.stpaulsnewnan.org/",
     "address": "576 Roscoe Rd, Newnan, GA 30263",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3528,7 +3528,7 @@
   {
     "id": "christ-episcopal-church-400-holcomb-bridge-rd-norcross-ga",
     "name": "Christ Episcopal Church",
-    "website": "http://www.ccnorcross.org",
+    "website": "http://www.ccnorcross.org/",
     "address": "400 Holcomb Bridge Rd, Norcross, GA 30071",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3569,7 +3569,7 @@
   {
     "id": "st-gabriels-episcopal-church-2920-landrum-education-drive-oakwood-ga",
     "name": "St. Gabriel's Episcopal Church",
-    "website": "http://www.saintgabriels.org",
+    "website": "http://www.saintgabriels.org/",
     "address": "2920 Landrum Education Drive, Oakwood, GA 30566",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3651,7 +3651,7 @@
   {
     "id": "st-christophers-at-the-crossroads-1207-macon-rd-perry-ga",
     "name": "St. Christopher's at the Crossroads",
-    "website": "http://www.stchristophersepiscopal.org",
+    "website": "http://www.stchristophersepiscopal.org/",
     "address": "1207 Macon Rd, Perry, GA 31069",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3692,7 +3692,7 @@
   {
     "id": "church-of-the-transfiguration-304-coker-dr-sw-rome-ga",
     "name": "Church of the Transfiguration",
-    "website": "http://www.transfigurationrome.com",
+    "website": "http://www.transfigurationrome.com/",
     "address": "304 Coker Dr SW, Rome, GA 30165-3416",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3774,7 +3774,7 @@
   {
     "id": "st-davids-episcopal-church-1015-old-roswell-rd-roswell-ga",
     "name": "St. David's Episcopal Church",
-    "website": "http://www.stdavidchurch.org",
+    "website": "http://www.stdavidchurch.org/",
     "address": "1015 Old Roswell Rd, Roswell, GA 30076",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3856,7 +3856,7 @@
   {
     "id": "church-of-the-resurrection-1755-duncan-bridge-rd-sautee-nacoochee-ga",
     "name": "Church of the Resurrection",
-    "website": "https://www.resurrectionsautee.com",
+    "website": "https://www.resurrectionsautee.com/",
     "address": "1755 Duncan Bridge Rd, Sautee Nacoochee, GA 30571-3611",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3897,7 +3897,7 @@
   {
     "id": "path-to-shine-2160-cooper-lake-rd-se-smyrna-ga",
     "name": "Path To Shine",
-    "website": "http://www.pathtoshine.org",
+    "website": "http://www.pathtoshine.org/",
     "address": "2160 Cooper Lake Rd SE, Smyrna, GA 30080-6328",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3938,7 +3938,7 @@
   {
     "id": "st-benedicts-episcopal-church-2160-cooper-lake-rd-se-smyrna-ga",
     "name": "St. Benedict's Episcopal Church",
-    "website": "http://mysaintb.org",
+    "website": "http://mysaintb.org/",
     "address": "2160 Cooper Lake Rd SE, Smyrna, GA 30080-6328",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4020,7 +4020,7 @@
   {
     "id": "st-michael-and-all-angels-episcopal-church-6780-james-b-rivers-dr-stone-mountain-ga",
     "name": "St. Michael & All Angels Episcopal Church",
-    "website": "http://stmichaelstonemountain.org",
+    "website": "http://stmichaelstonemountain.org/",
     "address": "6780 James B Rivers Dr, Stone Mountain, GA 30083-2235",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4061,7 +4061,7 @@
   {
     "id": "st-columbas-episcopal-church-939-james-burgess-rd-suwanee-ga",
     "name": "St. Columba's Episcopal Church",
-    "website": "http://www.saintcolumba.net",
+    "website": "http://www.saintcolumba.net/",
     "address": "939 James Burgess Rd, Suwanee, GA 30024-1128",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4143,7 +4143,7 @@
   {
     "id": "st-matthias-episcopal-church-995-e-tugalo-st-toccoa-ga",
     "name": "St. Matthias Episcopal Church",
-    "website": "https://www.toccoachurch.com",
+    "website": "https://www.toccoachurch.com/",
     "address": "995 E Tugalo St, Toccoa, GA 30577-1938",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4225,7 +4225,7 @@
   {
     "id": "all-saints-episcopal-church-1708-watson-blvd-warner-robins-ga",
     "name": "All Saints' Episcopal Church",
-    "website": "https://www.allsaintswr.org",
+    "website": "https://www.allsaintswr.org/",
     "address": "1708 Watson Blvd, Warner Robins, GA 31093-3632",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4244,7 +4244,7 @@
     "asa": null,
     "city": "Warner Robins",
     "church_phone": "(478) 923-1791",
-    "church_email": "OFFICE@ALLSAINTSWR.ORG",
+    "church_email": "office@allsaintswr.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:15 AM",
@@ -4307,7 +4307,7 @@
   {
     "id": "st-johns-episcopal-church-501-avenue-c-west-point-al",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnswp.com",
+    "website": "https://www.stjohnswp.com/",
     "address": "501 Avenue C, West Point, AL 31833",
     "state": "AL",
     "diocese": "Atlanta",
@@ -4348,7 +4348,7 @@
   {
     "id": "st-anthonys-episcopal-church-174-st-anthonys-drive-winder-ga",
     "name": "St. Anthony's Episcopal Church",
-    "website": "http://stanthonyswinder.org",
+    "website": "http://stanthonyswinder.org/",
     "address": "174 St Anthonys Drive, Winder, GA 30680",
     "state": "GA",
     "diocese": "Atlanta",

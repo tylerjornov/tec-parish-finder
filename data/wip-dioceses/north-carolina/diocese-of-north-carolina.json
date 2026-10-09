@@ -2,7 +2,7 @@
   {
     "id": "church-of-the-ascension-183-fork-bixby-rd-advance-nc",
     "name": "Church of the Ascension",
-    "website": "http://www.Ascension-Fork.org",
+    "website": "http://www.Ascension-Fork.org/",
     "address": "183 Fork Bixby Rd, Advance, NC 27006-7217",
     "state": "NC",
     "diocese": "North Carolina",
@@ -21,7 +21,7 @@
     "asa": null,
     "city": "Advance",
     "church_phone": "(336) 671-5522",
-    "church_email": "DkDeadmon@yadtel.net",
+    "church_email": "dkdeadmon@yadtel.net",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM; 11:00 AM",
@@ -43,7 +43,7 @@
   {
     "id": "christ-episcopal-church-428-pee-dee-ave-albemarle-nc",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christalb.org",
+    "website": "http://www.christalb.org/",
     "address": "428 Pee Dee Ave, Albemarle, NC 28001-4934",
     "state": "NC",
     "diocese": "North Carolina",
@@ -125,7 +125,7 @@
   {
     "id": "church-of-the-good-shepherd-505-mountain-rd-asheboro-nc",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdasheboro.com",
+    "website": "http://www.goodshepherdasheboro.com/",
     "address": "505 Mountain Rd, Asheboro, NC 27205-4219",
     "state": "NC",
     "diocese": "North Carolina",
@@ -185,7 +185,7 @@
     "asa": null,
     "city": "Battleboro",
     "church_phone": "(252) 883-6595",
-    "church_email": "Stjohns.battleboro.nc@gmail.com",
+    "church_email": "stjohns.battleboro.nc@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:00 AM",
@@ -248,7 +248,7 @@
   {
     "id": "st-pauls-episcopal-church-221-union-st-cary-nc",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulscary.org",
+    "website": "http://www.stpaulscary.org/",
     "address": "221 Union St, Cary, NC 27511-3763",
     "state": "NC",
     "diocese": "North Carolina",
@@ -390,7 +390,7 @@
     "asa": null,
     "city": "Chapel Hill",
     "church_phone": "(919) 942-3108",
-    "church_email": "Admin@holyfamilychapelhill.org",
+    "church_email": "admin@holyfamilychapelhill.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM; 9:15 AM; 11:45 AM",
@@ -412,7 +412,7 @@
   {
     "id": "chapel-of-christ-the-king-425-e-17th-st-charlotte-nc",
     "name": "Chapel of Christ the King",
-    "website": "https://christthekingcharlotte.org",
+    "website": "https://christthekingcharlotte.org/",
     "address": "425 E 17th St, Charlotte, NC 28206-3407",
     "state": "NC",
     "diocese": "North Carolina",
@@ -513,7 +513,7 @@
     "asa": null,
     "city": "Charlotte",
     "church_phone": "(704) 399-3151",
-    "church_email": "Pamelahunterlaw@bellsouth.net",
+    "church_email": "pamelahunterlaw@bellsouth.net",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:30 AM",
@@ -599,7 +599,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
-    "weekday_services": "Mon 5:30 PM; Mon & Wed 10:00 AM; Central Piedmont Community College Refugee English and Citizenship Classes 9:00 AM; Mon - Fri 3:00 PM - 5:30 PM 3:00 PM; Wed & Thu,9:00 AM - 1:00 PM 9:00 AM; Wed 9:30 AM; Wed 11:30 AM",
+    "weekday_services": "Mon 5:30 PM; Mon & Wed 10:00 AM; Central Piedmont Community College Refugee English and Citizenship Classes 9:00 AM; Mon–Fri 3:00 PM–5:30 PM 3:00 PM; Wed & Thu,9:00 AM–1:00 PM 9:00 AM; Wed 9:30 AM; Wed 11:30 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
     "rector_name": "",
     "other_clergy": "",
@@ -617,7 +617,7 @@
   {
     "id": "st-johns-episcopal-church-1623-carmel-rd-charlotte-nc",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stje.org",
+    "website": "https://www.stje.org/",
     "address": "1623 Carmel Rd, Charlotte, NC 28226-5097",
     "state": "NC",
     "diocese": "North Carolina",
@@ -658,7 +658,7 @@
   {
     "id": "st-martins-episcopal-church-1510-e-7th-street-charlotte-nc",
     "name": "St. Martin's Episcopal Church",
-    "website": "http://www.stmclt.org",
+    "website": "http://www.stmclt.org/",
     "address": "1510 E 7th Street, Charlotte, NC 28204",
     "state": "NC",
     "diocese": "North Carolina",
@@ -699,7 +699,7 @@
   {
     "id": "st-peters-episcopal-church-115-w-7th-st-charlotte-nc",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://st-peters.org",
+    "website": "https://st-peters.org/",
     "address": "115 W 7th St, Charlotte, NC 28202-2127",
     "state": "NC",
     "diocese": "North Carolina",
@@ -740,7 +740,7 @@
   {
     "id": "grace-episcopal-church-111-lee-court-clayton-nc",
     "name": "Grace Episcopal Church",
-    "website": "https://graceclayton.org",
+    "website": "https://graceclayton.org/",
     "address": "111 Lee Court, Clayton, NC 27520",
     "state": "NC",
     "diocese": "North Carolina",
@@ -781,7 +781,7 @@
   {
     "id": "st-clements-episcopal-church-3600-harper-rd-clemmons-nc",
     "name": "St. Clement's Episcopal Church",
-    "website": "https://www.stclementsepiscopal.com",
+    "website": "https://www.stclementsepiscopal.com/",
     "address": "3600 Harper Rd, Clemmons, NC 27012",
     "state": "NC",
     "diocese": "North Carolina",
@@ -986,7 +986,7 @@
   {
     "id": "episcopal-center-at-duke-university-505-alexander-ave-durham-nc",
     "name": "Episcopal Center at Duke University",
-    "website": "https://ecduke.org",
+    "website": "https://ecduke.org/",
     "address": "505 Alexander Ave, Durham, NC 27705",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1109,7 +1109,7 @@
   {
     "id": "st-josephs-episcopal-church-1902-w-main-st-durham-nc",
     "name": "St. Joseph's Episcopal Church",
-    "website": "http://www.stjosephsdurham.org",
+    "website": "http://www.stjosephsdurham.org/",
     "address": "1902 W Main St, Durham, NC 27705-4838",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1437,7 +1437,7 @@
   {
     "id": "trinity-episcopal-church-1128-s-main-st-fuquay-varina-nc",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityfuquay.org",
+    "website": "http://www.trinityfuquay.org/",
     "address": "1128 S Main St, Fuquay Varina, NC 27526-9700",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1519,7 +1519,7 @@
   {
     "id": "church-of-the-holy-spirit-3910-yanceyville-st-greensboro-nc",
     "name": "Church of the Holy Spirit",
-    "website": "http://www.holyspiritgreensboro.org",
+    "website": "http://www.holyspiritgreensboro.org/",
     "address": "3910 Yanceyville St, Greensboro, NC 27405-3350",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1560,7 +1560,7 @@
   {
     "id": "church-of-the-redeemer-901-e-friendly-ave-greensboro-nc",
     "name": "Church of the Redeemer",
-    "website": "https://redeemerchurchgso.org",
+    "website": "https://redeemerchurchgso.org/",
     "address": "901 E Friendly Ave, Greensboro, NC 27401-3103",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1683,7 +1683,7 @@
   {
     "id": "st-barnabas-episcopal-church-1300-jefferson-rd-greensboro-nc",
     "name": "St. Barnabas Episcopal Church",
-    "website": "http://www.stbarnabasgreensboro.org",
+    "website": "http://www.stbarnabasgreensboro.org/",
     "address": "1300 Jefferson Rd, Greensboro, NC 27410-3529",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-francis-episcopal-church-3506-lawndale-dr-greensboro-nc",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.stfrancisgreensboro.org",
+    "website": "https://www.stfrancisgreensboro.org/",
     "address": "3506 Lawndale Dr, Greensboro, NC 27408-2804",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1765,7 +1765,7 @@
   {
     "id": "all-saints-episcopal-church-217-henderson-st-hamlet-nc",
     "name": "All Saints Episcopal Church",
-    "website": "http://allsaintshamlet.wordpress.com",
+    "website": "http://allsaintshamlet.wordpress.com/",
     "address": "217 Henderson St, Hamlet, NC 28345",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1847,7 +1847,7 @@
   {
     "id": "church-of-the-holy-innocents-210-s-chestnut-st-henderson-nc",
     "name": "Church of the Holy Innocents",
-    "website": "http://www.churchoftheholyinnocents.org",
+    "website": "http://www.churchoftheholyinnocents.org/",
     "address": "210 S Chestnut St, Henderson, NC 27536-4223",
     "state": "NC",
     "diocese": "North Carolina",
@@ -1929,7 +1929,7 @@
   {
     "id": "st-christophers-episcopal-church-303-eastchester-dr-high-point-nc",
     "name": "St. Christopher's Episcopal Church",
-    "website": "http://st-christopher.org",
+    "website": "http://st-christopher.org/",
     "address": "303 Eastchester Dr, High Point, NC 27262-7628",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-marks-episcopal-church-8600-mt-holly-huntersville-rd-huntersville-nc",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://stmarksnc.com",
+    "website": "http://stmarksnc.com/",
     "address": "8600 Mt Holly-Huntersville Rd, Huntersville, NC 28078-8475",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2134,7 +2134,7 @@
   {
     "id": "st-matthews-episcopal-church-1110-salisbury-st-kernersville-nc",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://stmattskville.org",
+    "website": "http://stmattskville.org/",
     "address": "1110 Salisbury St, Kernersville, NC 27284-3302",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2339,7 +2339,7 @@
   {
     "id": "st-pauls-episcopal-church-301-n-church-st-louisburg-nc",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsepiscopal.org",
+    "website": "https://www.stpaulsepiscopal.org/",
     "address": "301 N Church St, Louisburg, NC 27549-2417",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2421,7 +2421,7 @@
   {
     "id": "st-pauls-church-116-s-church-st-monroe-nc",
     "name": "St. Paul's Church",
-    "website": "https://www.spechurch.org",
+    "website": "https://www.spechurch.org/",
     "address": "116 S Church St, Monroe, NC 28112-5605",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2440,7 +2440,7 @@
     "asa": null,
     "city": "Monroe",
     "church_phone": "(704) 289-8434",
-    "church_email": "OFFICE@SPECHURCH.ORG",
+    "church_email": "office@spechurch.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-james-episcopal-church-851-shinnville-rd-mooresville-nc",
     "name": "St. James Episcopal Church",
-    "website": "http://stjamesmooreville.org",
+    "website": "http://stjamesmooreville.org/",
     "address": "851 Shinnville Rd, Mooresville, NC 28115-7111",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2503,7 +2503,7 @@
   {
     "id": "st-patricks-episcopal-church-164-fairview-rd-mooresville-nc",
     "name": "St. Patrick's Episcopal Church",
-    "website": "http://stpatricksmooresville.org",
+    "website": "http://stpatricksmooresville.org/",
     "address": "164 Fairview Rd, Mooresville, NC 28117-9512",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2585,7 +2585,7 @@
   {
     "id": "st-cyprians-episcopal-church-408-granville-st-oxford-nc",
     "name": "St. Cyprian's Episcopal Church",
-    "website": "https://stcypriansoxford.org",
+    "website": "https://stcypriansoxford.org/",
     "address": "408 Granville St, Oxford, NC 27565",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2626,7 +2626,7 @@
   {
     "id": "st-stephens-episcopal-church-140-college-street-oxford-nc",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://www.ststephensoxford.org",
+    "website": "http://www.ststephensoxford.org/",
     "address": "140 College Street, Oxford, NC 27565-2947",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2708,7 +2708,7 @@
   {
     "id": "christ-episcopal-church-120-e-edenton-st-raleigh-nc",
     "name": "Christ Episcopal Church",
-    "website": "http://ccral.org",
+    "website": "http://ccral.org/",
     "address": "120 E Edenton St, Raleigh, NC 27601-1014",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2831,7 +2831,7 @@
   {
     "id": "saint-marys-school-chapel-900-hillsborough-st-raleigh-nc",
     "name": "Saint Mary's School Chapel",
-    "website": "https://www.sms.edu",
+    "website": "https://www.sms.edu/",
     "address": "900 Hillsborough St, Raleigh, NC 27603-1610",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2872,7 +2872,7 @@
   {
     "id": "st-ambrose-episcopal-church-813-darby-st-raleigh-nc",
     "name": "St. Ambrose Episcopal Church",
-    "website": "http://stambroseraleigh.org",
+    "website": "http://stambroseraleigh.org/",
     "address": "813 Darby St, Raleigh, NC 27610-4017",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2913,7 +2913,7 @@
   {
     "id": "st-michaels-episcopal-church-1520-canterbury-rd-raleigh-nc",
     "name": "St. Michael's Episcopal Church",
-    "website": "http://holymichael.org",
+    "website": "http://holymichael.org/",
     "address": "1520 Canterbury Rd, Raleigh, NC 27608-1197",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2954,7 +2954,7 @@
   {
     "id": "st-timothys-church-4523-six-forks-rd-raleigh-nc",
     "name": "St. Timothy's Church",
-    "website": "http://www.stcraleigh.com",
+    "website": "http://www.stcraleigh.com/",
     "address": "4523 Six Forks Rd, Raleigh, NC 27609",
     "state": "NC",
     "diocese": "North Carolina",
@@ -2995,7 +2995,7 @@
   {
     "id": "st-thomas-episcopal-church-315-lindsey-st-reidsville-nc",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://www.stthomasreidsville.org",
+    "website": "http://www.stthomasreidsville.org/",
     "address": "315 Lindsey St, Reidsville, NC 27320-3649",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3036,7 +3036,7 @@
   {
     "id": "all-saints-episcopal-church-700-roanoke-avenue-roanoke-rapids-nc",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaintsrr.org",
+    "website": "http://www.allsaintsrr.org/",
     "address": "700 Roanoke Avenue, Roanoke Rapids, NC 27870",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3118,7 +3118,7 @@
   {
     "id": "church-of-the-good-shepherd-231-n-church-st-rocky-mount-nc",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdrmt.org",
+    "website": "http://www.goodshepherdrmt.org/",
     "address": "231 N Church St, Rocky Mount, NC 27804-5404",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3159,7 +3159,7 @@
   {
     "id": "st-andrews-episcopal-church-301-s-circle-dr-rocky-mount-nc",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://saint-andrews-church.org",
+    "website": "http://saint-andrews-church.org/",
     "address": "301 S Circle Dr, Rocky Mount, NC 27804-3613",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3241,7 +3241,7 @@
   {
     "id": "st-lukes-episcopal-church-131-w-council-st-salisbury-nc",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://www.stlukessalisbury.net",
+    "website": "http://www.stlukessalisbury.net/",
     "address": "131 W Council St, Salisbury, NC 28144",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3323,7 +3323,7 @@
   {
     "id": "st-pauls-church-chestnut-hill-930-s-main-street-salisbury-nc",
     "name": "St. Paul's Church, Chestnut Hill",
-    "website": "http://www.stpaulssalisburync.org",
+    "website": "http://www.stpaulssalisburync.org/",
     "address": "930 S Main Street, Salisbury, NC 28144-6453",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3487,7 +3487,7 @@
   {
     "id": "community-of-the-franciscan-way-5778-siler-cty-snow-cp-rd-siler-city-nc",
     "name": "Community of the Franciscan Way",
-    "website": "http://www.cfw.dionc.org",
+    "website": "http://www.cfw.dionc.org/",
     "address": "5778 Siler Cty Snow Cp Rd, Siler City, NC 27344",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3692,7 +3692,7 @@
   {
     "id": "trinity-episcopal-church-801-henkel-rd-statesville-nc",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitysvl.org",
+    "website": "https://www.trinitysvl.org/",
     "address": "801 Henkel Rd, Statesville, NC 28677-3215",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3733,7 +3733,7 @@
   {
     "id": "calvary-episcopal-church-411-e-church-st-tarboro-nc",
     "name": "Calvary Episcopal Church",
-    "website": "https://calvarytarboro.org",
+    "website": "https://calvarytarboro.org/",
     "address": "411 E Church St, Tarboro, NC 27886-4403",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3879,7 +3879,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "11:00 AM",
-    "weekday_services": "Mon - Fri from 9 AM. - 12 noon 9:00 AM",
+    "weekday_services": "Mon–Fri from 9 AM. - 12 noon 9:00 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
     "rector_name": "",
     "other_clergy": "",
@@ -3938,7 +3938,7 @@
   {
     "id": "christ-church-412-summit-ave-walnut-cove-nc",
     "name": "Christ Church",
-    "website": "https://www.christchurchwalnutcove.org",
+    "website": "https://www.christchurchwalnutcove.org/",
     "address": "412 Summit Ave., Walnut Cove, NC 27052-9352",
     "state": "NC",
     "diocese": "North Carolina",
@@ -4020,7 +4020,7 @@
   {
     "id": "st-margarets-episcopal-church-8515-rea-rd-waxhaw-nc",
     "name": "St. Margaret's Episcopal Church",
-    "website": "http://www.saintmargarets.net",
+    "website": "http://www.saintmargarets.net/",
     "address": "8515 Rea Rd, Waxhaw, NC 28173-6801",
     "state": "NC",
     "diocese": "North Carolina",
@@ -4143,7 +4143,7 @@
   {
     "id": "st-timothys-episcopal-church-2575-parkway-dr-winston-salem-nc",
     "name": "St. Timothy's Episcopal Church",
-    "website": "http://www.sttimothysws.org",
+    "website": "http://www.sttimothysws.org/",
     "address": "2575 Parkway Dr, Winston Salem, NC 27103-3522",
     "state": "NC",
     "diocese": "North Carolina",
@@ -4225,7 +4225,7 @@
   {
     "id": "st-annes-episcopal-church-2690-fairlawn-drive-winston-salem-nc",
     "name": "St. Anne's Episcopal Church",
-    "website": "http://www.stanneswinstonsalem.org",
+    "website": "http://www.stanneswinstonsalem.org/",
     "address": "2690 Fairlawn Drive, Winston-Salem, NC 27106",
     "state": "NC",
     "diocese": "North Carolina",

@@ -2,7 +2,7 @@
   {
     "id": "cathedral-of-all-saints-62-s-swan-st-albany-ny",
     "name": "Cathedral of All Saints",
-    "website": "https://www.cathedralofallsaints.org",
+    "website": "https://www.cathedralofallsaints.org/",
     "address": "62 S Swan St, Albany, NY 12210-2380",
     "state": "NY",
     "diocese": "Albany",
@@ -21,7 +21,7 @@
     "asa": null,
     "city": "Albany",
     "church_phone": "(518) 465-1342",
-    "church_email": "MEWBANK@THECATHEDRALOFALLSAINTS.ORG",
+    "church_email": "mewbank@thecathedralofallsaints.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "7:30 AM; 8:00 AM; 10:00 AM",
@@ -125,7 +125,7 @@
   {
     "id": "st-pauls-episcopal-church-21-hackett-blvd-albany-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsplace.org",
+    "website": "http://www.stpaulsplace.org/",
     "address": "21 Hackett Blvd, Albany, NY 12208-3407",
     "state": "NY",
     "diocese": "Albany",
@@ -166,7 +166,7 @@
   {
     "id": "st-peters-episcopal-church-107-state-st-albany-ny",
     "name": "St. Peter's Episcopal Church",
-    "website": "http://www.stpeterschurchalbany.org",
+    "website": "http://www.stpeterschurchalbany.org/",
     "address": "107 State St, Albany, NY 12207-1683",
     "state": "NY",
     "diocese": "Albany",
@@ -207,7 +207,7 @@
   {
     "id": "st-boniface-episcopal-church-5148-western-tpke-altamont-ny",
     "name": "St. Boniface Episcopal Church",
-    "website": "http://www.stbonifaceepiscopal.com",
+    "website": "http://www.stbonifaceepiscopal.com/",
     "address": "5148 Western Tpke, Altamont, NY 12009",
     "state": "NY",
     "diocese": "Albany",
@@ -289,7 +289,7 @@
   {
     "id": "st-james-episcopal-church-14216-state-rte-9n-au-sable-forks-ny",
     "name": "St. James Episcopal Church",
-    "website": "http://stjamesausableforks.weebly.com",
+    "website": "http://stjamesausableforks.weebly.com/",
     "address": "14216 State Rte 9N, Au Sable Forks, NY 12912",
     "state": "NY",
     "diocese": "Albany",
@@ -308,7 +308,7 @@
     "asa": null,
     "city": "Au Sable Forks",
     "church_phone": "(518) 593-1838",
-    "church_email": "St.JamesAuSableForks@Outlook.com",
+    "church_email": "st.jamesausableforks@outlook.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
@@ -371,7 +371,7 @@
   {
     "id": "st-pauls-church-464-river-st-bloomville-ny",
     "name": "St. Paul's Church",
-    "website": "http://www.stpaulsbloomville.blogspot.com",
+    "website": "http://www.stpaulsbloomville.blogspot.com/",
     "address": "464 River St, Bloomville, NY 13739-0742",
     "state": "NY",
     "diocese": "Albany",
@@ -412,7 +412,7 @@
   {
     "id": "church-of-the-transfiguration-route-30-blue-mountain-lake-ny",
     "name": "Church of the Transfiguration",
-    "website": "http://www.transfigurationbluemountain.org",
+    "website": "http://www.transfigurationbluemountain.org/",
     "address": "Route 30, Blue Mountain Lake, NY 12812",
     "state": "NY",
     "diocese": "Albany",
@@ -576,7 +576,7 @@
   {
     "id": "st-pauls-6596-nys-route-8-brant-lake-ny",
     "name": "St. Paul's",
-    "website": "http://www.theadirondackmission.org",
+    "website": "http://www.theadirondackmission.org/",
     "address": "6596 NYS Route 8, Brant Lake, NY 12815",
     "state": "NY",
     "diocese": "Albany",
@@ -658,7 +658,7 @@
   {
     "id": "st-lukes-church-4-st-lukes-pl-cambridge-ny",
     "name": "St. Luke's Church",
-    "website": "http://www.stlukescambridge.com",
+    "website": "http://www.stlukescambridge.com/",
     "address": "4 St Lukes Pl, Cambridge, NY 12816-1111",
     "state": "NY",
     "diocese": "Albany",
@@ -699,7 +699,7 @@
   {
     "id": "church-of-the-good-shepherd-26-moyer-st-canajoharie-ny",
     "name": "Church of the Good Shepherd",
-    "website": "http://churchgoodshepherd.com",
+    "website": "http://churchgoodshepherd.com/",
     "address": "26 Moyer St, Canajoharie, NY 13317",
     "state": "NY",
     "diocese": "Albany",
@@ -822,7 +822,7 @@
   {
     "id": "christ-and-st-johns-episcopal-church-18-butternut-st-champlain-ny",
     "name": "Christ & St. John's Episcopal Church",
-    "website": "https://www.christandstjohns.com",
+    "website": "https://www.christandstjohns.com/",
     "address": "18 Butternut St, Champlain, NY 12919-5121",
     "state": "NY",
     "diocese": "Albany",
@@ -945,7 +945,7 @@
   {
     "id": "st-georges-episcopal-church-912-route-146-clifton-park-ny",
     "name": "St. George's Episcopal Church",
-    "website": "http://stgeorgescp.org",
+    "website": "http://stgeorgescp.org/",
     "address": "912 Route 146, Clifton Park, NY 12065-3702",
     "state": "NY",
     "diocese": "Albany",
@@ -986,7 +986,7 @@
   {
     "id": "st-georges-school-912-route-146-clifton-park-ny",
     "name": "St. George's School",
-    "website": "http://www.stgeorgeschoolcp.org",
+    "website": "http://www.stgeorgeschoolcp.org/",
     "address": "912 Route 146, Clifton Park, NY 12065",
     "state": "NY",
     "diocese": "Albany",
@@ -1068,7 +1068,7 @@
   {
     "id": "st-johns-church-405-vliet-blvd-cohoes-ny",
     "name": "St. John's Church",
-    "website": "http://stjohnscohoes.org",
+    "website": "http://stjohnscohoes.org/",
     "address": "405 Vliet Blvd, Cohoes, NY 12047-2019",
     "state": "NY",
     "diocese": "Albany",
@@ -1109,7 +1109,7 @@
   {
     "id": "zion-episcopal-church-91-main-st-colton-ny",
     "name": "Zion Episcopal Church",
-    "website": "https://coltonepiscopal.wordpress.com",
+    "website": "https://coltonepiscopal.wordpress.com/",
     "address": "91 Main St, Colton, NY 13625",
     "state": "NY",
     "diocese": "Albany",
@@ -1150,7 +1150,7 @@
   {
     "id": "christ-church-episcopal-46-river-st-cooperstown-ny",
     "name": "Christ Church Episcopal",
-    "website": "http://www.christchurchcooperstown.org",
+    "website": "http://www.christchurchcooperstown.org/",
     "address": "46 River St, Cooperstown, NY 13326-1309",
     "state": "NY",
     "diocese": "Albany",
@@ -1191,7 +1191,7 @@
   {
     "id": "st-john-in-the-wilderness-261-state-route-344-copake-falls-ny",
     "name": "St. John in the Wilderness",
-    "website": "https://www.stjohnw.org",
+    "website": "https://www.stjohnw.org/",
     "address": "261 State Route 344, Copake Falls, NY 12517",
     "state": "NY",
     "diocese": "Albany",
@@ -1314,7 +1314,7 @@
   {
     "id": "st-james-church-55-lake-delaware-dr-delhi-ny",
     "name": "St. James Church",
-    "website": "http://saintjameslakedelaware.org",
+    "website": "http://saintjameslakedelaware.org/",
     "address": "55 Lake Delaware Dr, Delhi, NY 13753-7440",
     "state": "NY",
     "diocese": "Albany",
@@ -1396,7 +1396,7 @@
   {
     "id": "st-stephens-episcopal-church-16-elsmere-ave-delmar-ny",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://ststephensdelmar.weebly.com",
+    "website": "https://ststephensdelmar.weebly.com/",
     "address": "16 Elsmere Ave, Delmar, NY 12054-2100",
     "state": "NY",
     "diocese": "Albany",
@@ -1437,7 +1437,7 @@
   {
     "id": "st-stephens-pre-k-academy-16-elsmere-avenue-delmar-ny",
     "name": "St. Stephen's Pre-K Academy",
-    "website": "http://www.ststpka.com",
+    "website": "http://www.ststpka.com/",
     "address": "16 Elsmere Avenue, Delmar, NY 12054",
     "state": "NY",
     "diocese": "Albany",
@@ -1560,7 +1560,7 @@
   {
     "id": "christ-episcopal-church-132-duanesburg-churches-rd-duanesburg-ny",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christchurchduanesburg.org",
+    "website": "http://www.christchurchduanesburg.org/",
     "address": "132 Duanesburg Churches Rd, Duanesburg, NY 12056",
     "state": "NY",
     "diocese": "Albany",
@@ -1601,7 +1601,7 @@
   {
     "id": "st-peters-church-fourth-lake-summer-chapel-4800-state-route-28-eagle-bay-ny",
     "name": "St. Peter's Church, Fourth Lake (Summer Chapel)",
-    "website": "http://www.stpetersbythelakechapel.com",
+    "website": "http://www.stpetersbythelakechapel.com/",
     "address": "4800 State Route 28, Eagle Bay, NY 13331",
     "state": "NY",
     "diocese": "Albany",
@@ -1683,7 +1683,7 @@
   {
     "id": "st-johns-episcopal-church-4-church-st-essex-ny",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsessexny.com",
+    "website": "http://www.stjohnsessexny.com/",
     "address": "4 Church St, Essex, NY 12936",
     "state": "NY",
     "diocese": "Albany",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-johns-episcopal-church-4-church-st-essex-ny-2",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsessexny.com",
+    "website": "http://www.stjohnsessexny.com/",
     "address": "4 Church St., Essex, NY 12936",
     "state": "NY",
     "diocese": "Albany",
@@ -1829,7 +1829,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:30 AM; 9:15 AM",
-    "weekday_services": "Mon - Fri 8:30 AM; Wed 6:30 PM",
+    "weekday_services": "Mon–Fri 8:30 AM; Wed 6:30 PM",
     "diocesan_bishop": "The Rt. Rev. Jeremiah D. Williamson",
     "rector_name": "",
     "other_clergy": "",
@@ -1847,7 +1847,7 @@
   {
     "id": "church-of-the-messiah-296-glen-st-glens-falls-ny",
     "name": "Church of the Messiah",
-    "website": "http://www.messiahgf.org",
+    "website": "http://www.messiahgf.org/",
     "address": "296 Glen St, Glens Falls, NY 12801-3553",
     "state": "NY",
     "diocese": "Albany",
@@ -1907,7 +1907,7 @@
     "asa": null,
     "city": "Gouverneur",
     "church_phone": "(315) 287-0755",
-    "church_email": "TrinityChurchGou@aol.com",
+    "church_email": "trinitychurchgou@aol.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
@@ -1970,7 +1970,7 @@
   {
     "id": "beaver-cross-camp-575-burton-road-greenwich-ny",
     "name": "Beaver Cross Camp",
-    "website": "http://beavercrosscamp.com",
+    "website": "http://beavercrosscamp.com/",
     "address": "575 Burton Road, Greenwich, NY 12834",
     "state": "NY",
     "diocese": "Albany",
@@ -2052,7 +2052,7 @@
   {
     "id": "st-pauls-episcopal-church-145-main-st-greenwich-ny",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpauls-greenwich.org",
+    "website": "http://www.stpauls-greenwich.org/",
     "address": "145 Main St, Greenwich, NY 12834",
     "state": "NY",
     "diocese": "Albany",
@@ -2093,7 +2093,7 @@
   {
     "id": "the-diocese-of-albany-580-burton-rd-greenwich-ny",
     "name": "The Diocese of Albany",
-    "website": "http://www.albanyepiscopaldiocese.org",
+    "website": "http://www.albanyepiscopaldiocese.org/",
     "address": "580 Burton Rd, Greenwich, NY 12834",
     "state": "NY",
     "diocese": "Albany",
@@ -2216,7 +2216,7 @@
   {
     "id": "all-saints-church-4935-ny-rte-7-hoosick-ny",
     "name": "All Saints Church",
-    "website": "http://www.allsaintshoosick.org",
+    "website": "http://www.allsaintshoosick.org/",
     "address": "4935 NY Rte 7, Hoosick, NY 12089",
     "state": "NY",
     "diocese": "Albany",
@@ -2257,7 +2257,7 @@
   {
     "id": "hoosac-school-14-pine-valley-rd-hoosick-ny",
     "name": "Hoosac School",
-    "website": "http://www.hoosac.com",
+    "website": "http://www.hoosac.com/",
     "address": "14 Pine Valley Rd, Hoosick, NY 12089",
     "state": "NY",
     "diocese": "Albany",
@@ -2339,7 +2339,7 @@
   {
     "id": "christ-episcopal-church-431-union-st-hudson-ny",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christchurchepiscopalhudson.org",
+    "website": "http://www.christchurchepiscopalhudson.org/",
     "address": "431 Union St, Hudson, NY 12534-0411",
     "state": "NY",
     "diocese": "Albany",
@@ -2399,7 +2399,7 @@
     "asa": null,
     "city": "Hudson Falls",
     "church_phone": "(518) 747-6514",
-    "church_email": "Zionhopefaith@gmail.com",
+    "church_email": "zionhopefaith@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
@@ -2421,7 +2421,7 @@
   {
     "id": "st-augustines-church-78-2nd-st-ilion-ny",
     "name": "St. Augustine's Church",
-    "website": "http://ilionepiscopal.weebly.com",
+    "website": "http://ilionepiscopal.weebly.com/",
     "address": "78 2nd St, Ilion, NY 13357-2118",
     "state": "NY",
     "diocese": "Albany",
@@ -2462,7 +2462,7 @@
   {
     "id": "st-johns-episcopal-church-1-n-market-st-johnstown-ny",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsjohnstown.org",
+    "website": "http://www.stjohnsjohnstown.org/",
     "address": "1 N Market St, Johnstown, NY 12095-2139",
     "state": "NY",
     "diocese": "Albany",
@@ -2503,7 +2503,7 @@
   {
     "id": "all-souls-summer-chapel-22-st-huberts-road-keene-valley-ny",
     "name": "All Souls (Summer Chapel)",
-    "website": "http://allsoulssthuberts.net",
+    "website": "http://allsoulssthuberts.net/",
     "address": "22 St. Huberts Road, Keene Valley, NY 12943",
     "state": "NY",
     "diocese": "Albany",
@@ -2626,7 +2626,7 @@
   {
     "id": "st-james-episcopal-church-172-ottawa-st-lake-george-ny",
     "name": "St. James Episcopal Church",
-    "website": "https://stjameslg.com",
+    "website": "https://stjameslg.com/",
     "address": "172 Ottawa St, Lake George, NY 12845-1414",
     "state": "NY",
     "diocese": "Albany",
@@ -2667,7 +2667,7 @@
   {
     "id": "st-marys-episcopal-church-220-lake-ave-lake-luzerne-ny",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmarysluzerne.org",
+    "website": "https://www.stmarysluzerne.org/",
     "address": "220 Lake Ave, Lake Luzerne, NY 12846",
     "state": "NY",
     "diocese": "Albany",
@@ -2708,7 +2708,7 @@
   {
     "id": "st-eustace-church-2450-main-st-lake-placid-ny",
     "name": "St. Eustace Church",
-    "website": "http://steustace.weebly.com",
+    "website": "http://steustace.weebly.com/",
     "address": "2450 Main St, Lake Placid, NY 12946-1320",
     "state": "NY",
     "diocese": "Albany",
@@ -2790,7 +2790,7 @@
   {
     "id": "st-matthews-episcopal-church-129-old-loudon-rd-latham-ny",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://www.stmatthewslatham.org",
+    "website": "http://www.stmatthewslatham.org/",
     "address": "129 Old Loudon Rd, Latham, NY 12110-4008",
     "state": "NY",
     "diocese": "Albany",
@@ -2831,7 +2831,7 @@
   {
     "id": "church-of-our-saviour-14660-state-route-22-lebanon-springs-ny",
     "name": "Church of Our Saviour",
-    "website": "http://www.churchofoursaviour.us",
+    "website": "http://www.churchofoursaviour.us/",
     "address": "14660 State Route 22, Lebanon Springs, NY 12125-0827",
     "state": "NY",
     "diocese": "Albany",
@@ -2913,7 +2913,7 @@
   {
     "id": "st-marks-church-34-elm-st-malone-ny",
     "name": "St. Mark's Church",
-    "website": "http://www.stmarksmalone.org",
+    "website": "http://www.stmarksmalone.org/",
     "address": "34 Elm St, Malone, NY 12953-1507",
     "state": "NY",
     "diocese": "Albany",
@@ -2954,7 +2954,7 @@
   {
     "id": "st-johns-church-139-main-st-massena-ny",
     "name": "St. John's Church",
-    "website": "http://www.stjohnsmassena.org",
+    "website": "http://www.stjohnsmassena.org/",
     "address": "139 Main St, Massena, NY 13662-1908",
     "state": "NY",
     "diocese": "Albany",
@@ -2995,7 +2995,7 @@
   {
     "id": "st-lukes-episcopal-church-40-mcbride-rd-mechanicville-ny",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://www.stlukesonthehill.org",
+    "website": "http://www.stlukesonthehill.org/",
     "address": "40 McBride Rd, Mechanicville, NY 12118-2325",
     "state": "NY",
     "diocese": "Albany",
@@ -3118,7 +3118,7 @@
   {
     "id": "zion-episcopal-church-158-main-st-morris-ny",
     "name": "Zion Episcopal Church",
-    "website": "http://zionchurchmorris.org",
+    "website": "http://zionchurchmorris.org/",
     "address": "158 Main St, Morris, NY 13808",
     "state": "NY",
     "diocese": "Albany",
@@ -3282,7 +3282,7 @@
   {
     "id": "st-christophers-ridge-st-north-creek-ny",
     "name": "St. Christopher's",
-    "website": "http://www.theadirondackmission.org",
+    "website": "http://www.theadirondackmission.org/",
     "address": "Ridge St, North Creek, NY 12853",
     "state": "NY",
     "diocese": "Albany",
@@ -3323,7 +3323,7 @@
   {
     "id": "st-philips-church-42-s-main-st-norwood-ny",
     "name": "St. Philip's Church",
-    "website": "https://saintphilipsnorwood.com",
+    "website": "https://saintphilipsnorwood.com/",
     "address": "42 S Main St, Norwood, NY 13668",
     "state": "NY",
     "diocese": "Albany",
@@ -3405,7 +3405,7 @@
   {
     "id": "st-james-episcopal-church-305-main-st-oneonta-ny",
     "name": "St. James' Episcopal Church",
-    "website": "http://stjamesoneonta.org",
+    "website": "http://stjamesoneonta.org/",
     "address": "305 Main St, Oneonta, NY 13820-2596",
     "state": "NY",
     "diocese": "Albany",
@@ -3528,7 +3528,7 @@
   {
     "id": "st-marks-episcopal-church-118-main-st-philmont-ny",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://www.stmarksphilmont.org",
+    "website": "http://www.stmarksphilmont.org/",
     "address": "118 Main St, Philmont, NY 12565",
     "state": "NY",
     "diocese": "Albany",
@@ -3569,7 +3569,7 @@
   {
     "id": "trinity-episcopal-church-18-trinity-pl-plattsburgh-ny",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitychurchplattsburgh.org",
+    "website": "https://www.trinitychurchplattsburgh.org/",
     "address": "18 Trinity Pl, Plattsburgh, NY 12901-2933",
     "state": "NY",
     "diocese": "Albany",
@@ -3774,7 +3774,7 @@
   {
     "id": "doane-stuart-school-199-washington-avenue-rensselaer-ny",
     "name": "Doane Stuart School",
-    "website": "http://www.doanestuart.org",
+    "website": "http://www.doanestuart.org/",
     "address": "199 Washington Avenue, Rensselaer, NY 12144",
     "state": "NY",
     "diocese": "Albany",
@@ -3815,7 +3815,7 @@
   {
     "id": "trinity-church-rensselaerville-10-trinity-ln-rensselaerville-ny",
     "name": "Trinity Church Rensselaerville",
-    "website": "http://trinityrvl.org",
+    "website": "http://trinityrvl.org/",
     "address": "10 Trinity Ln, Rensselaerville, NY 12147",
     "state": "NY",
     "diocese": "Albany",
@@ -3856,7 +3856,7 @@
   {
     "id": "st-johns-episcopal-church-98-main-st-richfield-springs-ny",
     "name": "St. John's Episcopal Church",
-    "website": "http://www.stjohnsrichfield.org",
+    "website": "http://www.stjohnsrichfield.org/",
     "address": "98 Main St, Richfield Springs, NY 13439",
     "state": "NY",
     "diocese": "Albany",
@@ -3897,7 +3897,7 @@
   {
     "id": "all-saints-church-3-simpson-ln-round-lake-ny",
     "name": "All Saints Church",
-    "website": "http://www.allsaintsroundlake.com",
+    "website": "http://www.allsaintsroundlake.com/",
     "address": "3 Simpson Ln, Round Lake, NY 12151",
     "state": "NY",
     "diocese": "Albany",
@@ -4020,7 +4020,7 @@
   {
     "id": "st-luke-the-beloved-physician-136-main-st-saranac-lake-ny",
     "name": "St. Luke the Beloved Physician",
-    "website": "http://www.stlukessaranaclake.org",
+    "website": "http://www.stlukessaranaclake.org/",
     "address": "136 Main St, Saranac Lake, NY 12983-1734",
     "state": "NY",
     "diocese": "Albany",
@@ -4061,7 +4061,7 @@
   {
     "id": "bethesda-episcopal-church-41-washington-st-saratoga-springs-ny",
     "name": "Bethesda Episcopal Church",
-    "website": "http://bethesdachurch.org",
+    "website": "http://bethesdachurch.org/",
     "address": "41 Washington St, Saratoga Springs, NY 12866-4116",
     "state": "NY",
     "diocese": "Albany",
@@ -4102,7 +4102,7 @@
   {
     "id": "christ-church-970-state-st-schenectady-ny",
     "name": "Christ Church",
-    "website": "http://christchurchschenectady.org",
+    "website": "http://christchurchschenectady.org/",
     "address": "970 State St, Schenectady, NY 12307-1520",
     "state": "NY",
     "diocese": "Albany",
@@ -4348,7 +4348,7 @@
   {
     "id": "st-stephens-episcopal-church-1-grove-st-schuylerville-ny",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://ststephens-schuylerville.com",
+    "website": "http://ststephens-schuylerville.com/",
     "address": "1 Grove St, Schuylerville, NY 12871-1479",
     "state": "NY",
     "diocese": "Albany",
@@ -4471,7 +4471,7 @@
   {
     "id": "st-marys-episcopal-church-7690-state-highway-80-springfield-center-ny",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmarysspringfieldcenter.org",
+    "website": "https://www.stmarysspringfieldcenter.org/",
     "address": "7690 State Highway 80, Springfield Center, NY 13468-0376",
     "state": "NY",
     "diocese": "Albany",
@@ -4553,7 +4553,7 @@
   {
     "id": "church-of-the-cross-129-champlain-ave-ticonderoga-ny",
     "name": "Church of the Cross",
-    "website": "http://churchofthecrossticonderoga.org",
+    "website": "http://churchofthecrossticonderoga.org/",
     "address": "129 Champlain Ave, Ticonderoga, NY 12883-1313",
     "state": "NY",
     "diocese": "Albany",
@@ -4676,7 +4676,7 @@
   {
     "id": "st-pauls-church-58-3rd-st-troy-ny",
     "name": "St. Paul's Church",
-    "website": "https://www.stpaulstroy.org",
+    "website": "https://www.stpaulstroy.org/",
     "address": "58 3rd St, Troy, NY 12180-3962",
     "state": "NY",
     "diocese": "Albany",
@@ -4717,7 +4717,7 @@
   {
     "id": "trinity-episcopal-church-585-4th-ave-troy-ny",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinitychurchlansingburgh.org",
+    "website": "http://www.trinitychurchlansingburgh.org/",
     "address": "585 4th Ave, Troy, NY 12182-2526",
     "state": "NY",
     "diocese": "Albany",
@@ -4799,7 +4799,7 @@
   {
     "id": "st-matthews-church-240-main-st-unadilla-ny",
     "name": "St Matthews Church",
-    "website": "http://www.stmatthewsunadilla.com",
+    "website": "http://www.stmatthewsunadilla.com/",
     "address": "240 Main St, Unadilla, NY 13849",
     "state": "NY",
     "diocese": "Albany",
@@ -4840,7 +4840,7 @@
   {
     "id": "christ-church-41-gardiner-pl-walton-ny",
     "name": "Christ Church",
-    "website": "http://www.waltonchristchurch.org",
+    "website": "http://www.waltonchristchurch.org/",
     "address": "41 Gardiner Pl, Walton, NY 13856-1320",
     "state": "NY",
     "diocese": "Albany",
@@ -4963,7 +4963,7 @@
   {
     "id": "trinity-episcopal-church-1336-1st-ave-watervliet-ny",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityep.org",
+    "website": "http://www.trinityep.org/",
     "address": "1336 1st Ave, Watervliet, NY 12189-3317",
     "state": "NY",
     "diocese": "Albany",
@@ -5045,7 +5045,7 @@
   {
     "id": "trinity-church-is-closed-58-broadway-whitehall-ny",
     "name": "Trinity Church is closed.",
-    "website": "http://www.trinitywhitehall.com",
+    "website": "http://www.trinitywhitehall.com/",
     "address": "58 Broadway, Whitehall, NY 12887-1201",
     "state": "NY",
     "diocese": "Albany",
