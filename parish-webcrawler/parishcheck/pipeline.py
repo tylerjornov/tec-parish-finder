@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import shutil
 import sys
 import threading
 import time
@@ -72,15 +73,18 @@ def tell(msg: str = "") -> None:
 
 
 class Progress:
-    """One line that redraws itself:  Checking websites [#####.....] 32/81 · about 1 h 5 min left · now: x.org"""
+    """One line that redraws itself:  Checking websites [#####.....] 32/81 · about 1 h 5 min left · now: x.org
 
-    WIDTH = 28
+    The line is rebuilt for the current terminal width on every redraw and never longer than the window,
+    so resizing the window can't wrap it or leave stray pieces behind."""
+
+    MIN_BAR, MAX_BAR = 10, 40
+    WINDOW = 30                        # recent completions used for the time estimate
 
     def __init__(self, total: int):
         self.total = max(1, total)
         self.done = 0
-        self.timed = 0                 # sources actually worked on (not resumed), for the time estimate
-        self.started = time.monotonic()
+        self.finished_at: deque = deque(maxlen=self.WINDOW)   # monotonic times of sources actually worked on
         self.current = ""
         self.tty = sys.stdout.isatty()
         self._last_plain = -1
@@ -88,30 +92,47 @@ class Progress:
     def step(self, name: str = "", worked: bool = True) -> None:
         self.done = min(self.total, self.done + 1)
         if worked:
-            self.timed += 1
+            self.finished_at.append(time.monotonic())
         self.draw(name)
 
     def set_total(self, total: int) -> None:
         self.total = max(self.done, total, 1)
 
+    def _eta(self) -> str:
+        left = self.total - self.done
+        if self.done >= self.total:
+            return "finishing up"
+        n = len(self.finished_at)
+        if n < 3:
+            return "estimating time left..."
+        # Seconds per source from the recent completions (parallel crawls included). Timed between the
+        # first and last completion so start-up lag doesn't inflate it, and stretched to "now" if a
+        # long gap has built up since the last one.
+        now = time.monotonic()
+        span = max(self.finished_at[-1] - self.finished_at[0], 0.0)
+        per = max(span / (n - 1), (now - self.finished_at[-1]) / n)
+        secs = per * left
+        return f"about {_hms(secs) if secs < 120 else _hms(round(secs / 60) * 60).replace(' 0 s', '')} left"
+
     def draw(self, name: str = "") -> None:
         if name:
             self.current = name
-        left = self.total - self.done
-        if self.done >= self.total:
-            eta = "finishing up"
-        elif self.timed >= 2:
-            secs = (time.monotonic() - self.started) / self.timed * left
-            eta = f"about {_hms(secs) if secs < 120 else _hms(round(secs / 60) * 60).replace(' 0 s', '')} left"
-        else:
-            eta = "estimating time left..."
-        filled = int(self.WIDTH * self.done / self.total)
-        bar = "█" * filled + "░" * (self.WIDTH - filled)
-        line = f"Checking websites [{bar}] {self.done}/{self.total} · {eta}"
-        if self.current and self.done < self.total:
+        eta = self._eta()
+        cols = shutil.get_terminal_size((100, 24)).columns if self.tty else 100
+        count = f"{self.done}/{self.total}"
+        head, tail = "Checking websites [", f"] {count} · {eta}"
+        room = cols - 1 - len(head) - len(tail)          # stay one short of the edge so it never wraps
+        width = max(self.MIN_BAR, min(self.MAX_BAR, room))
+        filled = int(width * self.done / self.total)
+        line = head + "█" * filled + "░" * (width - filled) + tail
+        if self.current and self.done < self.total and not self.tty:
             line += f" · now: {self.current[:30]}"
+        elif self.current and self.done < self.total:
+            extra = cols - 1 - len(line) - len(" · now: ")
+            if extra >= 8:
+                line += f" · now: {self.current[:extra]}"
         if self.tty:
-            sys.stdout.write("\r\033[K" + line)
+            sys.stdout.write("\r\033[K" + line[:cols - 1])
             sys.stdout.flush()
         elif self.done != self._last_plain:      # not a terminal: plain lines, one per step
             self._last_plain = self.done
@@ -467,6 +488,7 @@ def run(cfg: Config, args) -> int:
             submit_more()
             while inflight:
                 done, _ = wait(list(inflight), timeout=0.5, return_when=FIRST_COMPLETED)
+                progress.draw()              # keeps the bar and time estimate fresh, and fitted after a window resize
                 for fut in done:
                     src = inflight.pop(fut)
                     progress.draw(_short(src.url))
