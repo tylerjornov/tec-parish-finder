@@ -412,6 +412,44 @@ function detailValue(v, kind) {
 
 // Focused again when the dialog closes: the card's button or the map pin.
 let detailReturn = null;
+// The parish shown in the detail dialog, for the share button.
+let detailParish = null;
+
+// Shared links are /?parish=<id>; opening one shows that parish's details.
+function parishUrl(p) {
+  const url = new URL(location.href);
+  url.search = "";
+  url.hash = "";
+  url.searchParams.set("parish", p.id);
+  return url.href;
+}
+
+async function shareParish() {
+  const p = detailParish;
+  if (!p) return;
+  const url = parishUrl(p);
+  // Phones get the system share sheet; desktops get a copy-link prompt.
+  if (navigator.share && matchMedia("(pointer: coarse)").matches) {
+    try {
+      await navigator.share({ title: p.name, url });
+    } catch {}
+    return;
+  }
+  if (!confirm(`Copy link to ${p.name}?`)) return;
+  try {
+    await navigator.clipboard.writeText(url);
+  } catch {
+    prompt("Copy this link:", url);
+  }
+}
+
+function openSharedParish() {
+  const id = new URLSearchParams(location.search).get("parish");
+  const p = id && state.all.find((x) => x.id === id);
+  if (!p) return;
+  select(p);
+  openDetail(p, null);
+}
 
 function openDetail(p, returnTo) {
   const miles = milesTo(p);
@@ -436,6 +474,7 @@ function openDetail(p, returnTo) {
     return rows.length ? `<section><h3>${title}</h3><dl>${rows.join("")}</dl></section>` : "";
   }).join("");
   detailReturn = returnTo;
+  detailParish = p;
   const dlg = $("detail");
   if (!dlg.open) dlg.showModal();
   body.scrollTop = 0;
@@ -619,10 +658,14 @@ function bindUi() {
   });
   const dlg = $("detail");
   $("detail-close").addEventListener("click", () => dlg.close());
+  $("detail-share").addEventListener("click", shareParish);
   closeOnBackdrop(dlg);
   dlg.addEventListener("close", () => {
     if (detailReturn?.isConnected) detailReturn.focus({ preventScroll: true });
     detailReturn = null;
+    detailParish = null;
+    // Drop a shared ?parish= so a reload doesn't reopen it.
+    if (new URLSearchParams(location.search).has("parish")) history.replaceState(null, "", location.pathname);
   });
   $("view-list").addEventListener("click", () => setView("list"));
   $("view-map").addEventListener("click", () => setView("map"));
@@ -661,6 +704,7 @@ Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
     } catch (err) {
       console.error("UI binding failed:", err);
     }
+    openSharedParish();
   })
   .catch((err) => {
     console.error(err);
