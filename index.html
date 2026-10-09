@@ -82,13 +82,15 @@
     <div id="map" role="region" aria-label="Map of parishes"></div>
   </main>
   <dialog id="search" class="search-dlg" aria-labelledby="search-title">
-    <form method="dialog">
-      <label id="search-title" for="q">Keyword Search</label>
-      <div class="search-row">
-        <input id="q" type="text" enterkeyhint="search" placeholder="enter parish name or other keywords" autocomplete="off" autofocus>
-        <button type="submit" value="apply">Search</button>
-      </div>
-    </form>
+    <div class="search-panel">
+      <form>
+        <label id="search-title" for="q">Keyword Search</label>
+        <input id="q" type="search" enterkeyhint="search" placeholder="enter parish name or other keywords"
+          autocomplete="off" aria-controls="q-results" autofocus>
+      </form>
+      <ul id="q-results" class="search-results" aria-label="Matching parishes"></ul>
+      <p id="q-status" class="visually-hidden" role="status"></p>
+    </div>
   </dialog>
   <dialog id="detail" class="detail" aria-labelledby="detail-title">
     <div class="detail-head">

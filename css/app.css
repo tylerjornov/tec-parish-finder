@@ -170,25 +170,37 @@ body.app { display: flex; flex-direction: column; }
   .leaflet-container .leaflet-control-attribution a { color: LinkText; }
   .tag { border-color: CanvasText; }
 }
-/* Parish search: a panel in the middle of the screen; at the top on phones. */
+/* Parish search: a panel near the top of the dimmed page, with matches listed under
+   the box. The dialog itself fills the screen (transparent) so a tap anywhere
+   outside the panel lands on it and closes the search, including on iOS. */
 .search-dlg {
-  width: min(520px, 100% - 32px); padding: 0; color: var(--text); background: var(--panel);
-  border: 1px solid var(--control); border-radius: 10px; box-shadow: 0 12px 48px rgb(0 0 0 / 0.5);
+  width: 100%; height: 100%; max-width: none; max-height: none; margin: 0; padding: 0;
+  color: var(--text); background: transparent; border: 0; overscroll-behavior: contain;
 }
 .search-dlg::backdrop { background: rgb(0 0 0 / 0.6); }
+.search-panel {
+  display: flex; flex-direction: column; width: min(520px, 100% - 32px); max-height: 75%;
+  margin: 10vh auto 0; background: var(--panel); border: 1px solid var(--control); border-radius: 10px;
+  box-shadow: 0 12px 48px rgb(0 0 0 / 0.5); overflow: hidden;
+}
 .search-dlg form { padding: 16px; }
 .search-dlg label { display: block; margin-bottom: 8px; font-weight: 600; }
-.search-row { display: flex; gap: 8px; }
-.search-row input {
-  flex: 1; min-width: 0; padding: 9px 10px; font: inherit; color: var(--text);
+.search-dlg input {
+  box-sizing: border-box; width: 100%; padding: 9px 10px; font: inherit; color: var(--text);
   background: var(--field); border: 1px solid var(--control); border-radius: 6px;
 }
-.search-row button {
-  flex: none; padding: 9px 14px; font: inherit; cursor: pointer; color: var(--acc);
-  background: var(--acc-bg); border: 1px solid var(--acc-line); border-radius: 6px;
+.search-results { margin: 0; padding: 0; list-style: none; overflow: auto; overscroll-behavior: contain; }
+.search-results:empty { display: none; }
+.search-results li { border-top: 1px solid var(--line); }
+.search-results button {
+  display: block; width: 100%; padding: 10px 16px; font: inherit; text-align: left; color: var(--text);
+  background: transparent; border: 0; cursor: pointer;
 }
+.search-results button:hover, .search-results button:focus-visible { background: var(--active); }
+.search-results strong { display: block; font-size: 0.9375rem; }
+.search-results .search-none { padding: 12px 16px; color: var(--muted); }
 @media (max-width: 600px) {
-  .search-dlg { margin-top: 16px; }
+  .search-panel { margin-top: 16px; }
 }
 /* Parish detail: a panel over the dimmed page; full screen on phones. */
 .detail {
@@ -255,11 +267,13 @@ path.diocese-shape { stroke: var(--acc); stroke-opacity: 0.9; fill: var(--acc); 
 path.diocese-shape:hover { fill-opacity: 0.16; }
 .leaflet-tooltip.diocese-label {
   padding: 0; background: transparent; border: 0; box-shadow: none; pointer-events: none;
-  font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.02em; color: var(--acc);
+  font-size: var(--diocese-label-size, 0.8125rem); font-weight: 600; letter-spacing: 0.02em; color: var(--acc);
   white-space: normal; width: max-content; max-width: 9em; text-align: center; line-height: 1.2;
   text-shadow: 0 0 3px var(--bg), 0 0 3px var(--bg), 0 0 6px var(--bg);
 }
 .leaflet-tooltip.diocese-label::before { display: none; }
+/* Too far out for the names to fit (touch devices, where every name is shown). */
+.diocese-labels-hidden .leaflet-tooltip.diocese-label { display: none; }
 .settings-switch { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 24px; }
 .settings-switch > span { font-size: 0.8125rem; font-weight: 700; }
 .settings-panel label.switch { position: relative; flex: none; width: 36px; min-height: 20px; gap: 0; }

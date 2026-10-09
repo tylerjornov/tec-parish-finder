@@ -12,6 +12,7 @@
     // Touch devices have no hover, so every name stays on the map there.
     const touch = matchMedia("(hover: none)");
     const syncLabels = () => {
+      sizeLabels();
       for (const { label, l } of labels) {
         if (touch.matches) {
           label.setLatLng(labelPoint(l));
@@ -22,6 +23,25 @@
       }
     };
     touch.addEventListener("change", syncLabels);
+
+    // The always-on names (touch) scale with the map, so they keep the same size
+    // relative to the dioceses: full size (13px) from zoom 6 in, halving with each
+    // step out, and hidden once they'd be under 6px. Hover names stay full size.
+    const FULL_SIZE = 13;
+    const FULL_ZOOM = 6;
+    const MIN_SIZE = 6;
+    function sizeLabels() {
+      const box = map.getContainer();
+      const size = touch.matches ? FULL_SIZE * 2 ** Math.min(0, map.getZoom() - FULL_ZOOM) : FULL_SIZE;
+      box.style.setProperty("--diocese-label-size", `${size}px`);
+      box.classList.toggle("diocese-labels-hidden", size < MIN_SIZE);
+    }
+    map.on("zoomend", () => {
+      sizeLabels();
+      // Re-center each name for its new size.
+      if (touch.matches) for (const { label } of labels) if (label.isOpen()) label.update();
+    });
+    sizeLabels();
 
     // Colors come from css/app.css (.diocese-shape) so they follow the theme.
     const style = { className: "diocese-shape", weight: 1.5 };

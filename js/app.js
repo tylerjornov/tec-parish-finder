@@ -121,18 +121,12 @@ const matchesAny = (key, value, wanted) => answers(key, value).some((a) => wante
 
 function filtered() {
   // Read the controls once per render rather than once per parish.
-  const q = $("q").value.trim().toLowerCase();
   const active = FILTERS.map(([id, key]) => [key, chosen.get(id)]).filter(([, set]) => set && set.size);
-  const list = state.all.filter((p) => {
-    if (q) {
-      const hay = [p.name, p.address, p.state, p.diocese, p.notes]
-        .filter((v) => v != null)
-        .join(" ")
-        .toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
-    return active.every(([key, set]) => matchesAny(key, p[key], set));
-  });
+  return sorted(state.all.filter((p) => active.every(([key, set]) => matchesAny(key, p[key], set))));
+}
+
+// Nearest first when there's an origin, otherwise A–Z.
+function sorted(list) {
   const byName = (a, b) => a.name.localeCompare(b.name);
   if (state.origin) {
     // Parishes without coordinates are Infinity away; order those (and ties) by name.
@@ -142,6 +136,23 @@ function filtered() {
     list.sort(byName);
   }
   return list;
+}
+
+// Keyword search: every parish (filters aside) whose name, address, state,
+// diocese or notes contain each word of the query.
+const SEARCH_LIMIT = 50;
+function keywordMatches(q) {
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return [];
+  return sorted(
+    state.all.filter((p) => {
+      const hay = [p.name, p.address, p.state, p.diocese, p.notes]
+        .filter((v) => v != null)
+        .join(" ")
+        .toLowerCase();
+      return words.every((w) => hay.includes(w));
+    })
+  );
 }
 
 let map, markers;
@@ -208,8 +219,8 @@ function render() {
   $("status").textContent = `${list.length} of ${state.all.length} parishes`;
   const wrap = $("list");
   wrap.innerHTML = "";
-  // The list stays empty until there's a place to sort by distance from or a name search.
-  const showList = state.origin || $("q").value.trim();
+  // The list stays empty until there's a place to sort by distance from.
+  const showList = state.origin;
   if (!showList) {
     wrap.innerHTML = `<p class="list-empty">Begin searching${canLocate ? " or use your current location" : ""} to show parishes</p>`;
   }
@@ -264,7 +275,7 @@ function paintMap(list) {
     // list is sorted by distance when there's an origin.
     if (state.origin && near.length <= NEAREST_SHOWN) near.push([p.lat, p.lon]);
   });
-  const narrowed = $("q").value.trim() || filtersActive();
+  const narrowed = filtersActive();
   const fit = () => {
     const opts = { padding: [24, 24], maxZoom: 12, ...still() };
     if (state.origin) map.fitBounds(near, opts);
@@ -532,37 +543,57 @@ function closeOnBackdrop(dlg) {
   });
 }
 
-const SEARCH_LABEL = "Search for a specific parish";
-
-// The search button shows the applied search, or its prompt when there's none.
-function syncSearchBtn() {
-  const q = $("q").value.trim();
-  $("search-btn-text").textContent = q ? `Search: ${q}` : SEARCH_LABEL;
-  $("search-btn").classList.toggle("on", !!q);
-}
-
-// The search box lives in a dialog. Submitting applies it; Esc or a click
-// outside puts back the search that was there before.
+// The search box lives in a dialog over the dimmed page, with matches listed
+// under it as you type. Picking one opens that parish; Esc or a tap outside
+// closes the search and clears it, leaving the page as it was.
 function bindSearch() {
   const dlg = $("search");
   const q = $("q");
-  let before = "";
+  const results = $("q-results");
   $("search-btn").addEventListener("click", () => {
-    before = q.value;
-    dlg.returnValue = "";
     dlg.showModal();
-    q.select();
+    q.focus();
+  });
+  q.addEventListener("input", () => showMatches(q.value));
+  // Enter just puts the keyboard away so the matches can be seen.
+  dlg.querySelector("form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    q.blur();
+  });
+  results.addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-id]");
+    if (!btn) return;
+    const p = state.all.find((x) => x.id === btn.dataset.id);
+    dlg.close();
+    select(p);
+    openDetail(p, $("search-btn"));
   });
   closeOnBackdrop(dlg);
   dlg.addEventListener("close", () => {
-    if (dlg.returnValue === "apply") {
-      syncSearchBtn();
-      render();
-    } else {
-      q.value = before;
-    }
-    $("search-btn").focus({ preventScroll: true });
+    q.value = "";
+    showMatches("");
+    if (!$("detail").open) $("search-btn").focus({ preventScroll: true });
   });
+}
+
+function showMatches(q) {
+  const results = $("q-results");
+  const list = keywordMatches(q);
+  const shown = list.slice(0, SEARCH_LIMIT);
+  results.innerHTML = shown
+    .map((p) => {
+      const miles = milesTo(p);
+      return `<li><button type="button" data-id="${escapeHtml(p.id)}" aria-haspopup="dialog">
+        <strong>${escapeHtml(p.name)}</strong>
+        <span class="meta">${escapeHtml(p.address)}${miles ? " · " + miles : ""}</span>
+      </button></li>`;
+    })
+    .join("");
+  if (q.trim() && !list.length) results.innerHTML = `<li class="search-none">No parishes match</li>`;
+  else if (list.length > shown.length) {
+    results.insertAdjacentHTML("beforeend", `<li class="search-none">Showing ${shown.length} of ${list.length}. Add more words to narrow it down.</li>`);
+  }
+  $("q-status").textContent = q.trim() ? `${list.length} ${list.length === 1 ? "match" : "matches"}` : "";
 }
 
 function bindUi() {
@@ -576,8 +607,6 @@ function bindUi() {
     if (e.key === "Enter") parseOrigin();
   });
   $("reset").addEventListener("click", () => {
-    $("q").value = "";
-    syncSearchBtn();
     $("origin").value = "";
     clearFilters();
     originSeq++;
