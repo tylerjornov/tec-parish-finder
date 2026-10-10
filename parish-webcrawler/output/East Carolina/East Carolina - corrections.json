@@ -1,0 +1,395 @@
+{
+  "input_file": "data/wip-dioceses/north-carolina/diocese-of-east-carolina.json",
+  "generated_at": "2026-10-09T20:20:50-04:00",
+  "how_to_apply": [
+    "The file named in input_file is a JSON array of parish records. Each record has a unique \"id\".",
+    "For each item in \"changes\": find the record whose \"id\" equals item.id.",
+    "Check that record[item.field] equals item.current_value exactly (null means the key is absent). If it does not, skip the item and report it; the data changed after this check.",
+    "Set record[item.field] = item.new_value. action \"add\" fills a blank value; \"replace\" overwrites an outdated one.",
+    "Change nothing else: no other fields, no other records, no reordering of keys or records.",
+    "Write the file back exactly as Python's json.dumps(records, ensure_ascii=False, indent=2) + \"\\n\" would (UTF-8); that reproduces its current formatting byte for byte."
+  ],
+  "change_count": 38,
+  "changes": [
+    {
+      "id": "all-saints-episcopal-church-40-pintail-trl-southern-shores-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@allsaintsepiscopalchurchobx",
+      "name": "All Saints Episcopal Church",
+      "source_url": "https://www.allsaintsobx.org/",
+      "evidence": "link \"Recorded Services\" -> https://www.youtube.com/@allsaintsepiscopalchurchobx"
+    },
+    {
+      "id": "all-saints-episcopal-church-40-pintail-trl-southern-shores-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@allsaintsobx.org",
+      "name": "All Saints Episcopal Church",
+      "source_url": "https://www.allsaintsobx.org/choir/",
+      "evidence": "ng how to sing in a choir. For more information, please email Rev. Tommy Drake: rector@allsaintsobx.org 40 Pintail Trail, Southern Shores, NC 2"
+    },
+    {
+      "id": "all-saints-episcopal-church-40-pintail-trl-southern-shores-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Thomas C. Drake IV",
+      "name": "All Saints Episcopal Church",
+      "source_url": "https://www.allsaintsobx.org/staff_category/our-staff/",
+      "evidence": "Rev. Thomas (Tommy) C. Drake IV / Rector"
+    },
+    {
+      "id": "christ-episcopal-church-200-s-mcmorrine-st-elizabeth-city-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@ChristEpiscopalChurchECity",
+      "name": "Christ Episcopal Church",
+      "source_url": "https://www.christchurchecity.org/",
+      "evidence": "link \"YouTube\" -> https://www.youtube.com/@ChristEpiscopalChurchECity"
+    },
+    {
+      "id": "christ-episcopal-church-320-pollock-st-new-bern-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "christ@christchurchnewbern.com",
+      "new_value": "hannahhutchens@christchurchnewbern.com",
+      "name": "Christ Episcopal Church",
+      "source_url": "https://www.christchurchnewbern.com/staff",
+      "evidence": "email link: Hannah Hutchens"
+    },
+    {
+      "id": "christ-episcopal-church-320-pollock-st-new-bern-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "paulcanady@christchurchnewbern.com",
+      "name": "Christ Episcopal Church",
+      "source_url": "https://www.christchurchnewbern.com/adult-classes",
+      "evidence": "rsbiblestudy . If you have trouble joining, reach out to the Rev. Paul Canady – paulcanady@christchurchnewbern.com / and he’ll get you on the list! WOMEN'"
+    },
+    {
+      "id": "christ-episcopal-church-320-pollock-st-new-bern-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. H. Paul Canady Iii",
+      "name": "Christ Episcopal Church",
+      "source_url": "https://www.christchurchnewbern.com/clergy",
+      "evidence": "The Rev. H. Paul Canady III / Rector"
+    },
+    {
+      "id": "church-of-the-servant-4925-oriole-dr-wilmington-nc",
+      "field": "address",
+      "action": "replace",
+      "current_value": "4925 Oriole Dr., Wilmington, NC 28403-1759",
+      "new_value": "705 Doctors Dr, Kinston, NC",
+      "name": "Church of the Servant",
+      "source_url": "https://www.diocese-eastcarolina.org/",
+      "evidence": "705 Doctors Drive Kinston, NC"
+    },
+    {
+      "id": "church-of-the-servant-4925-oriole-dr-wilmington-nc",
+      "field": "city",
+      "action": "replace",
+      "current_value": "Wilmington",
+      "new_value": "Kinston",
+      "name": "Church of the Servant",
+      "source_url": "https://www.diocese-eastcarolina.org/",
+      "evidence": "705 Doctors Drive Kinston, NC"
+    },
+    {
+      "id": "st-pauls-episcopal-church-101-w-gale-st-edenton-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "mperdue@stpedenton.org",
+      "name": "St Paul's Episcopal Church",
+      "source_url": "https://www.stpedenton.org/staff",
+      "evidence": "9:30am Faith Formation 10:30am Worship, Rite II Staff Rev. Melody Perdue Rector mperdue@stpedenton.org Melody was called as Rector of St. Paul"
+    },
+    {
+      "id": "st-pauls-episcopal-church-101-w-gale-st-edenton-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Melody Perdue",
+      "name": "St Paul's Episcopal Church",
+      "source_url": "https://www.stpedenton.org/staff",
+      "evidence": "Rev. Melody Perdue / Rector"
+    },
+    {
+      "id": "st-pauls-episcopal-church-16-n-16th-st-wilmington-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@spechurch.com",
+      "name": "St Paul's Episcopal Church",
+      "source_url": "https://www.spechurch.com/people",
+      "evidence": "clusive ministry, and strengthening the parish's vibrant traditions. Mail Phone rector@spechurch.com (910) 762-4578 Read More Curate The Rev"
+    },
+    {
+      "id": "st-pauls-episcopal-church-16-n-16th-st-wilmington-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Caleb J. Lee",
+      "name": "St Paul's Episcopal Church",
+      "source_url": "https://www.spechurch.com/people",
+      "evidence": "Rector / The Reverend Caleb J. Lee"
+    },
+    {
+      "id": "st-andrews-on-the-sound-episcopal-church-101-airlie-rd-wilmington-nc",
+      "field": "church_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "info@saots.org",
+      "name": "St. Andrew's On-the-Sound Episcopal Church",
+      "source_url": "https://www.saots.org/",
+      "evidence": "email link: ​"
+    },
+    {
+      "id": "st-andrews-on-the-sound-episcopal-church-101-airlie-rd-wilmington-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. William J. Buracker II",
+      "name": "St. Andrew's On-the-Sound Episcopal Church",
+      "source_url": "https://www.saots.org/clergy-staff",
+      "evidence": "The Reverend Dr. William J. “BJ” Buracker II / Rector"
+    },
+    {
+      "id": "st-annes-episcopal-church-711-henderson-dr-jacksonville-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/channel/UCMPRFYRPZNquvKnboMRHA0A",
+      "name": "St. Anne's Episcopal Church",
+      "source_url": "https://www.stannesjaxnc.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/channel/UCMPRFYRPZNquvKnboMRHA0A"
+    },
+    {
+      "id": "st-annes-episcopal-church-711-henderson-dr-jacksonville-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@stannesjaxnc.org",
+      "name": "St. Anne's Episcopal Church",
+      "source_url": "https://www.stannesjaxnc.org/staff",
+      "evidence": "attractions and museums, and cheering on his favorite hockey and soccer teams. rector@stannesjaxnc.org 910-347-3774 Parish Office Staff Doris"
+    },
+    {
+      "id": "st-annes-episcopal-church-711-henderson-dr-jacksonville-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Matt Overturf",
+      "name": "St. Anne's Episcopal Church",
+      "source_url": "https://www.stannesjaxnc.org/staff",
+      "evidence": "Rector / Reverend Matt Overturf"
+    },
+    {
+      "id": "st-francis-episcopal-church-503-forest-hill-drive-goldsboro-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "margaret73pollock@icloud.com",
+      "name": "St. Francis Episcopal Church",
+      "source_url": "https://stfrancisgoldsboro.org/",
+      "evidence": "3900 Admin T: 252-200-8850 E: parish@stfrancisgoldsboro.org Priest-in-Charge E: margaret73pollock@icloud.com Facebook © 2026 St. Francis Episcopal C"
+    },
+    {
+      "id": "st-francis-episcopal-church-503-forest-hill-drive-goldsboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Margaret Pollock",
+      "name": "St. Francis Episcopal Church",
+      "source_url": "https://stfrancisgoldsboro.org/about/",
+      "evidence": "Priest in Charge / The Rev. Margaret Pollock"
+    },
+    {
+      "id": "st-james-episcopal-church-25-s-3rd-st-wilmington-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@StJamesParish",
+      "name": "St. James' Episcopal Church",
+      "source_url": "https://www.stjamesp.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/@StJamesParish"
+    },
+    {
+      "id": "st-james-episcopal-church-25-s-3rd-st-wilmington-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. C. Phillip Craig, Jr",
+      "name": "St. James' Episcopal Church",
+      "source_url": "https://www.stjamesp.org/meet-our-clergy/",
+      "evidence": "Meet Our Rector / The Rev. C. Phillip Craig, Jr."
+    },
+    {
+      "id": "st-james-the-fisherman-church-4941-main-st-shallotte-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Farrell Graves, Phd",
+      "name": "St. James' the Fisherman Church",
+      "source_url": "https://stjamesthefisherman.net/church-staff-directory/",
+      "evidence": "Rector / The Rev. Farrell Graves, PHD"
+    },
+    {
+      "id": "st-johns-episcopal-church-302-green-st-fayetteville-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@st.johnsepiscopalchurchoff6088",
+      "name": "St. John's Episcopal Church",
+      "source_url": "https://www.stjohnsnc.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/@st.johnsepiscopalchurchoff6088"
+    },
+    {
+      "id": "st-marks-episcopal-church-600-grace-st-wilmington-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. Skip Walker",
+      "name": "St. Mark's Episcopal Church",
+      "source_url": "https://www.stmarksepiscopalwilmington.org/",
+      "evidence": "The Rev. Dr. Skip Walker, Priest-in-Charge"
+    },
+    {
+      "id": "st-marys-episcopal-church-800-rountree-st-kinston-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/channel/UCe8FGMJ_J8LnwUxcO6IunAg",
+      "name": "St. Mary's Episcopal Church",
+      "source_url": "http://www.stmaryskinston.com/about-us/contact-us-prayer-requests/",
+      "evidence": "link \"YouTube\" -> https://www.youtube.com/channel/UCe8FGMJ_J8LnwUxcO6IunAg"
+    },
+    {
+      "id": "st-pauls-episcopal-church-215-ann-st-beaufort-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://youtube.com/@stpaulsepiscopalchurch1318",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://www.stpaulsbeaufort.org/",
+      "evidence": "link \"\" -> https://youtube.com/@stpaulsepiscopalchurch1318"
+    },
+    {
+      "id": "st-pauls-episcopal-church-215-ann-st-beaufort-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Tambria E. Lee",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://www.stpaulsbeaufort.org/leadership",
+      "evidence": "The Rev. Tambria (Tammy) E. Lee, Rector"
+    },
+    {
+      "id": "st-pauls-episcopal-church-401-e-4th-st-greenville-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Andrew Cannan",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://www.stpaulsepiscopal.com/meet/who-we-are/",
+      "evidence": "The Rev. Andrew Cannan / Rector"
+    },
+    {
+      "id": "st-peters-by-the-sea-church-503-w-broad-st-swansboro-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@saintpeters5430",
+      "name": "St. Peter's by the Sea Church",
+      "source_url": "https://www.saintpetersbythesea.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/@saintpeters5430"
+    },
+    {
+      "id": "st-peters-by-the-sea-church-503-w-broad-st-swansboro-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "michelle@saintpetersbythesea.org",
+      "name": "St. Peter's by the Sea Church",
+      "source_url": "https://www.saintpetersbythesea.org/about-us",
+      "evidence": "email link: michelle@saintpetersbythesea.org"
+    },
+    {
+      "id": "st-peters-by-the-sea-church-503-w-broad-st-swansboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Michelle Bullock",
+      "name": "St. Peter's by the Sea Church",
+      "source_url": "https://www.saintpetersbythesea.org/about-us",
+      "evidence": "Rev. Michelle Bullock, Rector"
+    },
+    {
+      "id": "st-peters-episcopal-church-101-n-bonner-st-washington-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Christopher Adams",
+      "name": "St. Peter's Episcopal Church",
+      "source_url": "https://saintpetersnc.org/staff-and-leadership",
+      "evidence": "The Rev. Christopher Adams, Rector"
+    },
+    {
+      "id": "st-stephens-episcopal-church-200-north-james-street-goldsboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. David F. Wyly Jr",
+      "name": "St. Stephen's Episcopal Church",
+      "source_url": "https://ststephenschurch.com/staff/",
+      "evidence": "The Rev. David F. Wyly Jr. / Rector"
+    },
+    {
+      "id": "st-thomas-episcopal-church-402-freemason-st-oriental-nc",
+      "field": "website",
+      "action": "replace",
+      "current_value": "https://stthomasonc.org/digital_faith/live",
+      "new_value": "http://stthomasonc.org/digital_faith/live",
+      "name": "St. Thomas Episcopal Church",
+      "source_url": "",
+      "evidence": "https://stthomasonc.org/digital_faith/live does not open, but http://stthomasonc.org/digital_faith/live does"
+    },
+    {
+      "id": "st-timothys-episcopal-church-107-louis-st-greenville-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. John Porter-Acee",
+      "name": "St. Timothy's Episcopal Church",
+      "source_url": "https://st-tim.org/welcome/staff-leadership/",
+      "evidence": "The Rev. John Porter-Acee / Rector"
+    },
+    {
+      "id": "trinity-episcopal-church-1202-n-chestnut-st-lumberton-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Gretchen S. Ratterree",
+      "name": "Trinity Episcopal Church",
+      "source_url": "https://www.trinitylumberton.net/about-us",
+      "evidence": "Priest-in-Charge / The Rev. Gretchen S. Ratterree"
+    },
+    {
+      "id": "zion-episcopal-church-7322-us-hwy-264e-washington-nc",
+      "field": "church_phone",
+      "action": "replace",
+      "current_value": "(252) 927-9466",
+      "new_value": "(252) 495-8210",
+      "name": "Zion Episcopal Church",
+      "source_url": "https://zionepiscopal.com/",
+      "evidence": "ashington, NC 27889-1329 mailing Post Office Box 1329 Washington, NC 27889-1329 (252) 495-8210 admin@zionepiscopal.com Explore People Directory Events New"
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "input_file": "data/wip-dioceses/north-carolina/diocese-of-north-carolina.json",
+  "generated_at": "2026-10-09T20:25:36-04:00",
+  "how_to_apply": [
+    "The file named in input_file is a JSON array of parish records. Each record has a unique \"id\".",
+    "For each item in \"changes\": find the record whose \"id\" equals item.id.",
+    "Check that record[item.field] equals item.current_value exactly (null means the key is absent). If it does not, skip the item and report it; the data changed after this check.",
+    "Set record[item.field] = item.new_value. action \"add\" fills a blank value; \"replace\" overwrites an outdated one.",
+    "Change nothing else: no other fields, no other records, no reordering of keys or records.",
+    "Write the file back exactly as Python's json.dumps(records, ensure_ascii=False, indent=2) + \"\\n\" would (UTF-8); that reproduces its current formatting byte for byte."
+  ],
+  "change_count": 89,
+  "changes": [
+    {
+      "id": "all-saints-church-4211-wayne-rd-greensboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Paula Rachal",
+      "name": "All Saints Church",
+      "source_url": "https://allsaintsgreensboro.wixsite.com/home/leadership-1",
+      "evidence": "The Rev. Paula Rachal / Rector"
+    },
+    {
+      "id": "calvary-episcopal-church-411-e-church-st-tarboro-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "calvarytarboro@gmail.com",
+      "new_value": "admin@calvarytarboro.org",
+      "name": "Calvary Episcopal Church",
+      "source_url": "https://calvarytarboro.org/",
+      "evidence": "ach other in Christ.” Get in Touch We look forward to welcoming you to Calvary! admin@calvarytarboro.org (252) 823-8192 411 East Church Street T"
+    },
+    {
+      "id": "calvary-episcopal-church-411-e-church-st-tarboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Stephen Mazingo",
+      "name": "Calvary Episcopal Church",
+      "source_url": "https://calvarytarboro.org/clergy-and-staff/",
+      "evidence": "Rector / The Rev. Stephen Mazingo"
+    },
+    {
+      "id": "christ-episcopal-church-1412-providence-rd-charlotte-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@christchurchcharlotte",
+      "name": "Christ Episcopal Church",
+      "source_url": "https://christchurchcharlotte.org/",
+      "evidence": "link \"Follow\" -> https://www.youtube.com/@christchurchcharlotte"
+    },
+    {
+      "id": "christ-episcopal-church-428-pee-dee-ave-albemarle-nc",
+      "field": "website",
+      "action": "replace",
+      "current_value": "http://www.christalb.org/",
+      "new_value": "https://christalborg.com/",
+      "name": "Christ Episcopal Church",
+      "source_url": "",
+      "evidence": "http://www.christalb.org/ now leads to https://christalborg.com/"
+    },
+    {
+      "id": "church-of-the-advocate-8410-merin-road-chapel-hill-nc",
+      "field": "church_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "theadvocatechurch@gmail.com",
+      "name": "Church of the Advocate",
+      "source_url": "https://theadvocatechurch.org/contact-us/",
+      "evidence": "ded to our weekly email. Get Connected Church Office Phone: 984-999-1819 Email: TheAdvocateChurch@gmail.com The Rev. Joe MItchell , Rector (Time-Ce"
+    },
+    {
+      "id": "church-of-the-advocate-8410-merin-road-chapel-hill-nc",
+      "field": "church_phone",
+      "action": "add",
+      "current_value": "",
+      "new_value": "(984) 999-1819",
+      "name": "Church of the Advocate",
+      "source_url": "https://theadvocatechurch.org/who-we-are/pee-wee-homes-at-the-advocate/",
+      "evidence": "e Episcopal Church of the Advocate 8410 Merin Road Chapel Hill, NC 27516 Phone: (984) 999-1819 Our Larger Community of Faith Episcopal Diocese of North Ca"
+    },
+    {
+      "id": "church-of-the-good-shepherd-231-n-church-st-rocky-mount-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@ChurchoftheGoodShepherdrmt/featured",
+      "name": "Church of the Good Shepherd",
+      "source_url": "https://www.goodshepherdrmt.org/",
+      "evidence": "link \"Click here for live stream\" -> https://www.youtube.com/@ChurchoftheGoodShepherdrmt/featured"
+    },
+    {
+      "id": "church-of-the-good-shepherd-231-n-church-st-rocky-mount-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "Lawrence Goering",
+      "name": "Church of the Good Shepherd",
+      "source_url": "https://www.goodshepherdrmt.org/leadership.html",
+      "evidence": "Priest in Charge / Lawrence Goering"
+    },
+    {
+      "id": "church-of-the-good-shepherd-505-mountain-rd-asheboro-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@GoodShepherdAsheboroYT/streams",
+      "name": "Church of the Good Shepherd",
+      "source_url": "https://www.goodshepherdasheboro.org/",
+      "evidence": "link \"Watch Online\" -> https://www.youtube.com/@GoodShepherdAsheboroYT/streams"
+    },
+    {
+      "id": "church-of-the-good-shepherd-505-mountain-rd-asheboro-nc",
+      "field": "website",
+      "action": "replace",
+      "current_value": "http://www.goodshepherdasheboro.com/",
+      "new_value": "https://www.goodshepherdasheboro.org/",
+      "name": "Church of the Good Shepherd",
+      "source_url": "",
+      "evidence": "http://www.goodshepherdasheboro.com/ now leads to https://www.goodshepherdasheboro.org/"
+    },
+    {
+      "id": "church-of-the-holy-comforter-320-e-davis-st-burlington-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@ECHCBurlington",
+      "name": "Church of the Holy Comforter",
+      "source_url": "http://holycomforterburlington.org/watch-live",
+      "evidence": "link \"\" -> https://www.youtube.com/@ECHCBurlington"
+    },
+    {
+      "id": "church-of-the-holy-comforter-320-e-davis-st-burlington-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rlee@hc-b.org",
+      "name": "Church of the Holy Comforter",
+      "source_url": "http://holycomforterburlington.org/church-staff",
+      "evidence": "BISHOP jennifer.brookedavidson@episdionc.org The Rev. Dr. Rhonda M. Lee RECTOR rlee@hc-b.org Julia Buffington FINANCIAL ADMINISTRATO"
+    },
+    {
+      "id": "church-of-the-holy-comforter-320-e-davis-st-burlington-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. Rhonda M. Lee",
+      "name": "Church of the Holy Comforter",
+      "source_url": "http://holycomforterburlington.org/church-staff",
+      "evidence": "The Rev. Dr. Rhonda M. Lee / RECTOR"
+    },
+    {
+      "id": "church-of-the-nativity-8849-ray-rd-raleigh-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. Grey Maggiano",
+      "name": "Church of the Nativity",
+      "source_url": "https://nativityonline.org/who-we-are/clergy-and-staff/",
+      "evidence": "The Rev. Dr. Grey Maggiano / Rector"
+    },
+    {
+      "id": "church-of-the-redeemer-901-e-friendly-ave-greensboro-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@churchoftheredeemer6718/streams",
+      "name": "Church of the Redeemer",
+      "source_url": "https://redeemerchurchgso.org/",
+      "evidence": "link \"join us on Sundays at 10a.m.\" -> https://www.youtube.com/@churchoftheredeemer6718/streams"
+    },
+    {
+      "id": "church-of-the-redeemer-901-e-friendly-ave-greensboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Michelle Roach",
+      "name": "Church of the Redeemer",
+      "source_url": "https://redeemerchurchgso.org/about-us/",
+      "evidence": "The Rev. Michelle Roach, Rector"
+    },
+    {
+      "id": "emmanuel-episcopal-church-340-s-ridge-st-southern-pines-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Morris Thompson",
+      "name": "Emmanuel Episcopal Church",
+      "source_url": "https://www.emmanuel-parish.org/staff",
+      "evidence": "The Rev. Morris Thompson / RECTOR"
+    },
+    {
+      "id": "episcopal-center-at-duke-university-505-alexander-ave-durham-nc",
+      "field": "website",
+      "action": "replace",
+      "current_value": "https://ecduke.org/",
+      "new_value": "https://episcopalcenterduke.wordpress.com/",
+      "name": "Episcopal Center at Duke University",
+      "source_url": "",
+      "evidence": "https://ecduke.org/ now leads to https://episcopalcenterduke.wordpress.com/"
+    },
+    {
+      "id": "galloway-memorial-episcopal-church-308-w-main-st-elkin-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/channel/UCgytjyF4r8oWl-FRi4s35Ow",
+      "name": "Galloway Memorial Episcopal Church",
+      "source_url": "https://www.galloway-episcopal-church.com/livestream",
+      "evidence": "link \"visit our YouTube Channel for Upcoming Livestreams\" -> https://www.youtube.com/channel/UCgytjyF4r8oWl-FRi4s35Ow"
+    },
+    {
+      "id": "grace-episcopal-church-111-lee-court-clayton-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "vicar@graceclayton.org",
+      "name": "Grace Episcopal Church",
+      "source_url": "https://www.graceclayton.org/",
+      "evidence": "Clayton Blvd, Clayton, NC 27520 Mailing Address: PO Box 752, Clayton, NC 27528 vicar@graceclayton.org Copyright © 2026 Grace Episcopal Church"
+    },
+    {
+      "id": "grace-episcopal-church-111-lee-court-clayton-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Andrew Phillips",
+      "name": "Grace Episcopal Church",
+      "source_url": "https://www.graceclayton.org/about-4/",
+      "evidence": "The Rev. Andrew Phillips, Vicar"
+    },
+    {
+      "id": "grace-episcopal-church-419-s-main-st-lexington-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://youtube.com/@gracechurchlexingtonnc263?si=hJHFIWRV43oIGiJQ",
+      "name": "Grace Episcopal Church",
+      "source_url": "https://gracelexingtonnc.org/",
+      "evidence": "link \"YouTube\" -> https://youtube.com/@gracechurchlexingtonnc263?si=hJHFIWRV43oIGiJQ"
+    },
+    {
+      "id": "grace-episcopal-church-419-s-main-st-lexington-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Stephen Becker",
+      "name": "Grace Episcopal Church",
+      "source_url": "https://gracelexingtonnc.org/clergy-staff-and-vestry/",
+      "evidence": "The Rev. Stephen Becker, Interim Rector"
+    },
+    {
+      "id": "holy-trinity-episcopal-church-607-n-greene-st-greensboro-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "david@holy-trinity.com",
+      "name": "Holy Trinity Episcopal Church",
+      "source_url": "https://www.holy-trinity.com/staff",
+      "evidence": "nity.com office: 336-272-6149 ext. 223 Item Link The Rev. David Umphlett Rector david@holy-trinity.com, 336-272-6149 ext. 228 Item Link Eli Wa"
+    },
+    {
+      "id": "holy-trinity-episcopal-church-607-n-greene-st-greensboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. David Umphlett",
+      "name": "Holy Trinity Episcopal Church",
+      "source_url": "https://www.holy-trinity.com/staff",
+      "evidence": "The Rev. David Umphlett / Rector"
+    },
+    {
+      "id": "saint-marys-school-chapel-900-hillsborough-st-raleigh-nc",
+      "field": "church_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "admission@sms.edu",
+      "name": "Saint Mary's School Chapel",
+      "source_url": "https://www.sms.edu/",
+      "evidence": "Tour (opens in new window/tab) Apply (opens in new window/tab) Give Contact Us: admission@sms.edu An all-girl, independent, college-prepa"
+    },
+    {
+      "id": "saint-marys-school-chapel-900-hillsborough-st-raleigh-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "Teresa Assenzo",
+      "name": "Saint Mary's School Chapel",
+      "source_url": "https://www.sms.edu/about/facultystaff-directory",
+      "evidence": "Teresa Assenzo / Dean of Students"
+    },
+    {
+      "id": "st-albans-episcopal-church-301-caldwell-lane-davidson-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Carmen Germino",
+      "name": "St Albans Episcopal Church",
+      "source_url": "https://www.saintalbansdavidson.org/clergy-staff",
+      "evidence": "The Rev. Carmen Germino / Rector"
+    },
+    {
+      "id": "st-lukes-episcopal-church-1737-hillandale-rd-durham-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@stlukesdurham.org",
+      "name": "St Lukes Episcopal Church",
+      "source_url": "https://stlukesdurham.org/clergy-and-staff/",
+      "evidence": "xamined, and deeper truth has a way of emerging.” Find it on Spotify. Email me: rector@stlukesdurham.org Monnie Riggin Deacon As our deacon, Mon"
+    },
+    {
+      "id": "st-lukes-episcopal-church-1737-hillandale-rd-durham-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Greg Farrand",
+      "name": "St Lukes Episcopal Church",
+      "source_url": "https://stlukesdurham.org/clergy-and-staff/",
+      "evidence": "Rev. Greg Farrand / Rector"
+    },
+    {
+      "id": "st-mary-magdalene-episcopal-church-1145-seven-lakes-dr-seven-lakes-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "revbachand@gmail.com",
+      "name": "St Mary Magdalene Episcopal Church",
+      "source_url": "https://stmmsevenlakes.org/",
+      "evidence": "email link: Email Rev. Colette"
+    },
+    {
+      "id": "st-mary-magdalene-episcopal-church-1145-seven-lakes-dr-seven-lakes-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Colette Bachand",
+      "name": "St Mary Magdalene Episcopal Church",
+      "source_url": "https://stmmsevenlakes.org/",
+      "evidence": "Rev. Colette Bachand, Vicar"
+    },
+    {
+      "id": "st-ambrose-episcopal-church-813-darby-st-raleigh-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/channel/UCnCLYmk2RucQkBcrDb2NinQ/videos?view_as=subscriber",
+      "name": "St. Ambrose Episcopal Church",
+      "source_url": "https://stambroseraleigh.org/",
+      "evidence": "link \"Follow\" -> https://www.youtube.com/channel/UCnCLYmk2RucQkBcrDb2NinQ/videos?view_as=subscriber"
+    },
+    {
+      "id": "st-ambrose-episcopal-church-813-darby-st-raleigh-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "jtaylor@stambroseraleigh.org",
+      "name": "St. Ambrose Episcopal Church",
+      "source_url": "https://stambroseraleigh.org/",
+      "evidence": "email link: Email Rector"
+    },
+    {
+      "id": "st-ambrose-episcopal-church-813-darby-st-raleigh-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Robert Jemonde Taylor",
+      "name": "St. Ambrose Episcopal Church",
+      "source_url": "https://stambroseraleigh.org/clergy-staff/",
+      "evidence": "The Reverend Robert Jemonde Taylor / RECTOR"
+    },
+    {
+      "id": "st-andrews-episcopal-church-1004-e-main-st-haw-river-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "vicar@saintandrewshawriver.org",
+      "name": "St. Andrew's Episcopal Church",
+      "source_url": "https://www.saintandrewshawriver.org/staff",
+      "evidence": "email link: Email Fr. Joe"
+    },
+    {
+      "id": "st-andrews-episcopal-church-1004-e-main-st-haw-river-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Joe Sroka",
+      "name": "St. Andrew's Episcopal Church",
+      "source_url": "https://www.saintandrewshawriver.org/staff",
+      "evidence": "The Rev. Joe Sroka / Vicar"
+    },
+    {
+      "id": "st-annes-episcopal-church-2690-fairlawn-drive-winston-salem-nc",
+      "field": "church_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "parishoffice@stannes-ws.org",
+      "name": "St. Anne's Episcopal Church",
+      "source_url": "https://stanneswinstonsalem.org/",
+      "evidence": "nts Footer St. Anne's Episcopal Church 2690 Fairlawn Dr Winston-Salem, NC 27106 parishoffice@stannes-ws.org 336-768-0174 A Congregation of The Epis"
+    },
+    {
+      "id": "st-annes-episcopal-church-2690-fairlawn-drive-winston-salem-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@stannes-ws.org",
+      "name": "St. Anne's Episcopal Church",
+      "source_url": "https://stanneswinstonsalem.org/about/leadership/",
+      "evidence": "n our search for a long-term, full-time rector. You can reach Joani by email at rector@stannes-ws.org Terry Hicks, Director of Music and Orga"
+    },
+    {
+      "id": "st-annes-episcopal-church-2690-fairlawn-drive-winston-salem-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Joani Peacock",
+      "name": "St. Anne's Episcopal Church",
+      "source_url": "https://stanneswinstonsalem.org/about/leadership/",
+      "evidence": "The Reverend Joani Peacock, Interim Rector"
+    },
+    {
+      "id": "st-barnabas-episcopal-church-1300-jefferson-rd-greensboro-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "admin@stbarnabasgreensboro.org",
+      "new_value": "vestry@stbarnabasgreensboro.org",
+      "name": "St. Barnabas Episcopal Church",
+      "source_url": "https://www.stbarnabasgreensboro.org/",
+      "evidence": "scopal Church 1300 Jefferson Rd Greensboro, North Carolina 27410 (336) 294-1282 vestry@stbarnabasgreensboro.org All Souls Natural Burial Association Fo"
+    },
+    {
+      "id": "st-bartholomews-episcopal-church-204-west-salisbury-street-pittsboro-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "ttransueftm@aol.com",
+      "new_value": "office@saint-barts.org",
+      "name": "St. Bartholomew's Episcopal Church",
+      "source_url": "https://www.saint-barts.org/",
+      "evidence": "D MORE >> FIND US ADDRESS 919-542-5679 204 W. Salisbury St. Pittsboro, NC 27312 office@saint-barts.org SUBSCRIBE FOR EMAILS Subscribe Now © 20"
+    },
+    {
+      "id": "st-bartholomews-episcopal-church-204-west-salisbury-street-pittsboro-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@saintbarts/streams",
+      "name": "St. Bartholomew's Episcopal Church",
+      "source_url": "https://www.saint-barts.org/",
+      "evidence": "link \"LIVESTREAM\" -> https://www.youtube.com/@saintbarts/streams"
+    },
+    {
+      "id": "st-christophers-episcopal-church-303-eastchester-dr-high-point-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@StchristopherOrgHighPoint/streams",
+      "name": "St. Christopher's Episcopal Church",
+      "source_url": "https://st-christopher.org/",
+      "evidence": "link \"Join us for YouTube worship\" -> https://www.youtube.com/@StchristopherOrgHighPoint/streams"
+    },
+    {
+      "id": "st-davids-episcopal-church-506-azure-ct-laurinburg-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. John Talk",
+      "name": "St. David's Episcopal Church",
+      "source_url": "https://stdavidslaurinburgnc.org/people/",
+      "evidence": "Rev. John Talk, Vicar"
+    },
+    {
+      "id": "st-francis-episcopal-church-3506-lawndale-dr-greensboro-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/channel/UC7nlQlNYxq_GGC-KtAvZ1hA",
+      "name": "St. Francis Episcopal Church",
+      "source_url": "https://stfrancisgreensboro.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/channel/UC7nlQlNYxq_GGC-KtAvZ1hA"
+    },
+    {
+      "id": "st-francis-episcopal-church-3506-lawndale-dr-greensboro-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Very Rev. Milton C. Williams, Jr",
+      "name": "St. Francis Episcopal Church",
+      "source_url": "https://stfrancisgreensboro.org/clergy-church-staff/",
+      "evidence": "The Very Rev. Milton C. Williams, Jr. / Rector"
+    },
+    {
+      "id": "st-johns-episcopal-church-1623-carmel-rd-charlotte-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/channel/UC8eevzXSrvU8xpU5LfaeODQ/videos",
+      "name": "St. John's Episcopal Church",
+      "source_url": "https://www.stje.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/channel/UC8eevzXSrvU8xpU5LfaeODQ/videos"
+    },
+    {
+      "id": "st-johns-episcopal-church-1623-carmel-rd-charlotte-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Peter Floyd X0103",
+      "name": "St. John's Episcopal Church",
+      "source_url": "https://www.stje.org/contact",
+      "evidence": "The Rev. Peter Floyd x0103 / Rector"
+    },
+    {
+      "id": "st-josephs-episcopal-church-1902-w-main-st-durham-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "vicar@saintjosephsdurham.org",
+      "new_value": "office@stjosephsdurham.org",
+      "name": "St. Joseph's Episcopal Church",
+      "source_url": "https://stjosephsdurham.org/",
+      "evidence": "ewsletter Saint Joseph’s Episcopal Church, 1902 West Main St., Durham, NC 27705 office@stjosephsdurham.org"
+    },
+    {
+      "id": "st-josephs-episcopal-church-1902-w-main-st-durham-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "vicar@stjosephsdurham.org",
+      "name": "St. Joseph's Episcopal Church",
+      "source_url": "https://stjosephsdurham.org/clergystaffvestry",
+      "evidence": "email link: Email Lauren"
+    },
+    {
+      "id": "st-josephs-episcopal-church-1902-w-main-st-durham-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. Lauren Winner",
+      "name": "St. Joseph's Episcopal Church",
+      "source_url": "https://stjosephsdurham.org/clergystaffvestry",
+      "evidence": "The Rev. Dr. Lauren Winner / Vicar"
+    },
+    {
+      "id": "st-luke-episcopal-church-301-panola-st-tarboro-nc",
+      "field": "website",
+      "action": "replace",
+      "current_value": "https://stlukestarboro.org/",
+      "new_value": "https://stlukestarboro.wordpress.com/",
+      "name": "St. Luke Episcopal Church",
+      "source_url": "",
+      "evidence": "https://stlukestarboro.org/ now leads to https://stlukestarboro.wordpress.com/"
+    },
+    {
+      "id": "st-lukes-episcopal-church-131-w-council-st-salisbury-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "rblack@stlukessalisbury.net",
+      "new_value": "cstephenson@sls.church",
+      "name": "St. Luke's Episcopal Church",
+      "source_url": "https://www.stlukessalisbury.net/children-youth",
+      "evidence": "email link: Contact Children's Ministry"
+    },
+    {
+      "id": "st-lukes-episcopal-church-131-w-council-st-salisbury-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@StLukesSalisbury/streams",
+      "name": "St. Luke's Episcopal Church",
+      "source_url": "https://www.stlukessalisbury.net/",
+      "evidence": "link \"\" -> https://www.youtube.com/@StLukesSalisbury/streams"
+    },
+    {
+      "id": "st-margarets-episcopal-church-8515-rea-rd-waxhaw-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/c/StMargaretsEpiscopalChurch/videos",
+      "name": "St. Margaret's Episcopal Church",
+      "source_url": "https://www.saintmargarets.net/media/",
+      "evidence": "link \"here\" -> https://www.youtube.com/c/StMargaretsEpiscopalChurch/videos"
+    },
+    {
+      "id": "st-margarets-episcopal-church-8515-rea-rd-waxhaw-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Fr. Todd R. Dill",
+      "name": "St. Margaret's Episcopal Church",
+      "source_url": "https://www.saintmargarets.net/about/",
+      "evidence": "Rev. Father Todd R. Dill / Rector"
+    },
+    {
+      "id": "st-marks-episcopal-church-8600-mt-holly-huntersville-rd-huntersville-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "deborah.heggen@gmail.com",
+      "new_value": "life@stmarksnc.org",
+      "name": "St. Mark's Episcopal Church",
+      "source_url": "https://www.stmarksnc.com/",
+      "evidence": "ore on The Rafters' website. View Website CONTACT US Phone: 704-399-5193 Email: life@stmarksnc.org 8600 Mt. Holly-Huntersville Rd Huntersv"
+    },
+    {
+      "id": "st-marks-episcopal-church-8600-mt-holly-huntersville-rd-huntersville-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/user/stmarksepiscopalnc/streams",
+      "name": "St. Mark's Episcopal Church",
+      "source_url": "https://www.stmarksnc.com/",
+      "evidence": "link \"YouTube\" -> https://www.youtube.com/user/stmarksepiscopalnc/streams"
+    },
+    {
+      "id": "st-martins-episcopal-church-1510-e-7th-street-charlotte-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/c/StMartinsCLT",
+      "name": "St. Martin's Episcopal Church",
+      "source_url": "https://www.stmclt.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/c/StMartinsCLT"
+    },
+    {
+      "id": "st-marys-episcopal-church-108-w-farriss-ave-high-point-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "dorothy1@northstate.net",
+      "new_value": "admin@stmaryshighpoint.org",
+      "name": "St. Mary's Episcopal Church",
+      "source_url": "https://stmaryshighpoint.org/worship/",
+      "evidence": "email link: please contact the church office"
+    },
+    {
+      "id": "st-marys-episcopal-church-108-w-farriss-ave-high-point-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@stmaryshighpoint.org",
+      "name": "St. Mary's Episcopal Church",
+      "source_url": "https://stmaryshighpoint.org/leadership/",
+      "evidence": "email link: Email"
+    },
+    {
+      "id": "st-marys-episcopal-church-108-w-farriss-ave-high-point-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "Fr. Rob Travis",
+      "name": "St. Mary's Episcopal Church",
+      "source_url": "https://stmaryshighpoint.org/leadership/",
+      "evidence": "Father Rob Travis / Rector"
+    },
+    {
+      "id": "st-matthews-episcopal-church-1110-salisbury-st-kernersville-nc",
+      "field": "church_phone",
+      "action": "replace",
+      "current_value": "(336) 996-2244",
+      "new_value": "(336) 996-4422",
+      "name": "St. Matthew's Episcopal Church",
+      "source_url": "https://stmattskville.org/",
+      "evidence": "(336) 996-4422 Home About Us Coming Events Sunday Worship Newsletter Resou"
+    },
+    {
+      "id": "st-patricks-episcopal-church-164-fairview-rd-mooresville-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@stpatricksmooresville",
+      "name": "St. Patrick's Episcopal Church",
+      "source_url": "https://www.stpatricksmooresville.org/",
+      "evidence": "link \"\" -> https://www.youtube.com/@stpatricksmooresville"
+    },
+    {
+      "id": "st-patricks-episcopal-church-164-fairview-rd-mooresville-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Gregory McIntyre",
+      "name": "St. Patrick's Episcopal Church",
+      "source_url": "https://www.stpatricksmooresville.org/",
+      "evidence": "The Rev. Gregory McIntyre, Rector"
+    },
+    {
+      "id": "st-pauls-episcopal-church-221-union-st-cary-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "stpauls@spaulscary.org",
+      "new_value": "stpauls@stpaulscary.org",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://stpaulscary.org/",
+      "evidence": ". – 3 p.m. Service Schedule: 8 a.m., 9 a.m. and 11:15 a.m. Sundays 919-467-1477 stpauls@stpaulscary.org More Info Directions View Full Site Vie"
+    },
+    {
+      "id": "st-pauls-episcopal-church-221-union-st-cary-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. James Weldon, Jr",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://stpaulscary.org/group/clergy/",
+      "evidence": "The Rev. Dr. James Weldon, Jr. / Rector"
+    },
+    {
+      "id": "st-pauls-episcopal-church-301-n-church-st-louisburg-nc",
+      "field": "address",
+      "action": "replace",
+      "current_value": "301 N Church St, Louisburg, NC 27549-2417",
+      "new_value": "305 N Church St, Louisburg, NC",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://www.stpaulsepiscopal.org/",
+      "evidence": "305 N. Church St., Louisburg, NC"
+    },
+    {
+      "id": "st-pauls-episcopal-church-520-summit-street-winston-salem-nc-winston-salem-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://vimeo.com/showcase/9237318",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://www.stpaulsws.org",
+      "evidence": "link \"Watch\" -> https://vimeo.com/showcase/9237318"
+    },
+    {
+      "id": "st-pauls-episcopal-church-520-summit-street-winston-salem-nc-winston-salem-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. D. Dixon Kinser",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "https://www.stpaulsws.org/about/clergy-staff",
+      "evidence": "The Rev. Dr. D. Dixon Kinser / Rector"
+    },
+    {
+      "id": "st-pauls-episcopal-church-520-summit-street-winston-salem-nc-winston-salem-nc",
+      "field": "website",
+      "action": "replace",
+      "current_value": "http://www.stpauls-ws.org/",
+      "new_value": "https://www.stpaulsws.org/",
+      "name": "St. Paul's Episcopal Church",
+      "source_url": "",
+      "evidence": "http://www.stpauls-ws.org/ now leads to https://www.stpaulsws.org/"
+    },
+    {
+      "id": "st-philips-episcopal-church-403-e-main-street-durham-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "maryann@stphilipsdurham.org",
+      "name": "St. Philip's Episcopal Church",
+      "source_url": "https://stphilipsdurham.org/about-us/clergy-and-staff/",
+      "evidence": "e priesthood. Maryann is a full-time staff member and works Sunday to Thursday. maryann@stphilipsdurham.org The Rev. Gabe Lamazares, Associate Rect"
+    },
+    {
+      "id": "st-philips-episcopal-church-403-e-main-street-durham-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Maryann D. Younger",
+      "name": "St. Philip's Episcopal Church",
+      "source_url": "https://stphilipsdurham.org/about-us/clergy-and-staff/",
+      "evidence": "The Rev. Maryann D. Younger, Rector"
+    },
+    {
+      "id": "st-stephens-episcopal-church-140-college-street-oxford-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@ststephensoxford.org",
+      "name": "St. Stephen's Episcopal Church",
+      "source_url": "https://ststephensoxford.org/open-position/",
+      "evidence": "at least one letter of recommendation to St. Stephen’s Rector, Anna Brawley, at rector@ststephensoxford.org . Share this: Share on X (Opens in new"
+    },
+    {
+      "id": "st-stephens-episcopal-church-140-college-street-oxford-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. Anna Brawley",
+      "name": "St. Stephen's Episcopal Church",
+      "source_url": "https://ststephensoxford.org/staff/",
+      "evidence": "The Rev. Dr. Anna Brawley / Rector"
+    },
+    {
+      "id": "st-stephens-episcopal-church-810-highland-ave-winston-salem-nc",
+      "field": "church_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "ststephensepiscopal@triad.rr.com",
+      "name": "St. Stephen's Episcopal Church",
+      "source_url": "https://ststephensws.wordpress.com/",
+      "evidence": "iscopalians Contact Us 810 Highland Ave, Winston-Salem, NC 27101 (336) 724-2614 ststephensepiscopal@triad.rr.com Find Us on Facebook Find Us on Facebook"
+    },
+    {
+      "id": "st-thomas-episcopal-church-312-n-steele-st-sanford-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@st.thomaschurchsanfordnc4614/streams",
+      "name": "St. Thomas Episcopal Church",
+      "source_url": "https://stthomassanford.org/",
+      "evidence": "link \"https://www.youtube.com/@st.thomaschurchsanfordnc4614/streams\" -> https://www.youtube.com/@st.thomaschurchsanfordnc4614/streams"
+    },
+    {
+      "id": "st-thomas-episcopal-church-312-n-steele-st-sanford-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rev.etuttle@gmail.com",
+      "name": "St. Thomas Episcopal Church",
+      "source_url": "https://stthomassanford.org/staff/",
+      "evidence": "time with his friends, family, and rescue dog named Mako. You can email him at rev.etuttle@gmail.com . Beth Wood Parish Administrator Beth i"
+    },
+    {
+      "id": "st-thomas-episcopal-church-312-n-steele-st-sanford-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Dr. Eric Tuttle",
+      "name": "St. Thomas Episcopal Church",
+      "source_url": "https://stthomassanford.org/staff/",
+      "evidence": "The Rev. Dr. Eric Tuttle / Rector"
+    },
+    {
+      "id": "st-timothys-church-4523-six-forks-rd-raleigh-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "churchoffice@sttimothys.org",
+      "new_value": "admin@stcraleigh.org",
+      "name": "St. Timothy's Church",
+      "source_url": "http://stcraleigh.com/",
+      "evidence": "al services Address 4523 Six Forks Road Raleigh, NC US Phone 919-787-7590 Email admin@stcraleigh.org Want to receive our newsletter? Click h"
+    },
+    {
+      "id": "st-timothys-episcopal-church-2575-parkway-dr-winston-salem-nc",
+      "field": "church_email",
+      "action": "replace",
+      "current_value": "info@stttimothys.ws",
+      "new_value": "info@sttimothys.ws",
+      "name": "St. Timothy's Episcopal Church",
+      "source_url": "https://sttimothysws.org/",
+      "evidence": "mothy’s Episcopal Church 2575 Parkway Drive Winston-Salem, North Carolina 27103 info@sttimothys.ws 336.765.0294"
+    },
+    {
+      "id": "st-timothys-episcopal-church-2575-parkway-dr-winston-salem-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "frsteve@sttimothys.ws",
+      "name": "St. Timothy's Episcopal Church",
+      "source_url": "https://sttimothysws.org/rector",
+      "evidence": "email link: Contact Fr Rice"
+    },
+    {
+      "id": "st-timothys-episcopal-church-2575-parkway-dr-winston-salem-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "Fr. Steve Rice",
+      "name": "St. Timothy's Episcopal Church",
+      "source_url": "https://sttimothysws.org/clergystaff",
+      "evidence": "Fr. Steve Rice / RECTOR"
+    },
+    {
+      "id": "st-titus-episcopal-church-400-moline-st-durham-nc",
+      "field": "livestream_url",
+      "action": "add",
+      "current_value": "",
+      "new_value": "https://www.youtube.com/@st.titustech",
+      "name": "St. Titus' Episcopal Church",
+      "source_url": "https://sttitusdurham.org/Sermons/",
+      "evidence": "link \"Eucharistic Services\" -> https://www.youtube.com/@st.titustech"
+    },
+    {
+      "id": "trinity-episcopal-church-1128-s-main-st-fuquay-varina-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "Bob Henderson",
+      "name": "Trinity Episcopal Church",
+      "source_url": "https://www.trinityfuquay.org/about-5",
+      "evidence": "Rector: Bob Henderson"
+    },
+    {
+      "id": "trinity-episcopal-church-801-henkel-rd-statesville-nc",
+      "field": "rector_email",
+      "action": "add",
+      "current_value": "",
+      "new_value": "rector@trinitysvl.org",
+      "name": "Trinity Episcopal Church",
+      "source_url": "https://www.trinitysvl.org/contact-us",
+      "evidence": "8:30 - 3:00 8:30 - 2:00 8:30 - 2:00 8:30 - 2:00 Rector: The Rev. Brad Mullis - rector@trinitysvl.org Parish Administrator: Heather Scercy -"
+    },
+    {
+      "id": "trinity-episcopal-church-801-henkel-rd-statesville-nc",
+      "field": "rector_name",
+      "action": "add",
+      "current_value": "",
+      "new_value": "The Rev. Brad Mullis",
+      "name": "Trinity Episcopal Church",
+      "source_url": "https://www.trinitysvl.org/contact-us",
+      "evidence": "Rector: The Rev. Brad Mullis -"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Things this tool creates; keep them out of git
 .venv/
-output/
 __pycache__/
 *.pyc
+
+# Page cache the checker rebuilds on each run (output/ results are kept)
+output/.cache/
