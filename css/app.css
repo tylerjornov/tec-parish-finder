@@ -123,6 +123,10 @@ body.app { display: flex; flex-direction: column; }
 :root[data-contrast="more"][data-theme="dark"] .leaflet-tile-pane { filter: grayscale(1) brightness(3); }
 .leaflet-bar a, .leaflet-bar a:hover { background-color: var(--panel); color: var(--text); border-bottom-color: var(--line); }
 .leaflet-bar { border: 1px solid var(--line); }
+
+/* Cathedral pins (pinIcon in app.js): a faint ground shadow like Leaflet's default, and a soft gold glow around the pin. */
+.cathedral-pin .pin-shadow { fill: #000; fill-opacity: 0.3; filter: blur(1.5px); }
+.cathedral-pin .pin-body { filter: drop-shadow(0 0 3px rgba(255, 201, 60, 0.75)); }
 .about { max-width: 720px; margin: 0 auto; padding: 32px 16px 80px; }
 .about .compass-rose { display: block; width: 50%; height: auto; margin: 24px auto 0; }
 @media (max-width: 900px) {

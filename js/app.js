@@ -197,21 +197,49 @@ function ensureMap() {
   markers = L.layerGroup().addTo(map);
   // settings.js changes data-pin-size when the visitor moves the Pin size slider.
   new MutationObserver(() => {
-    const icon = pinIcon();
-    markers.eachLayer((m) => m.setIcon(icon));
+    markers.eachLayer((m) => m.setIcon(pinIcon(m.options.cathedral)));
   }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-pin-size"] });
 }
 
+// Cathedrals are picked out by name, the same way the Dean title is chosen.
+const isCathedral = (p) => /\bCathedral\b/i.test(p.name);
+
 // Leaflet's default pin (25×41, tip at 12,41), scaled by the Pin size setting.
-function pinIcon() {
+// Cathedrals get the same pin with a gold star in the middle.
+function pinIcon(cathedral = false) {
   const s = Number(document.documentElement.dataset.pinSize) || 1;
   const px = (n) => Math.round(n * s);
+  if (cathedral) {
+    return L.divIcon({
+      className: "cathedral-pin",
+      iconSize: [px(25), px(41)],
+      iconAnchor: [px(12), px(41)],
+      // The shadow ellipse sits on the ground like Leaflet's default shadow and
+      // overflows the 25×41 box to the right; the gold glow is styled in app.css.
+      html: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 41" width="${px(25)}" height="${px(41)}" style="display:block;overflow:visible">
+        <ellipse class="pin-shadow" cx="14.5" cy="40" rx="8" ry="2.6"/>
+        <g class="pin-body">
+          <path d="M12.5 1C6.2 1 1 6.1 1 12.4 1 20.3 12.5 40 12.5 40S24 20.3 24 12.4C24 6.1 18.8 1 12.5 1Z" fill="#2A81CB" stroke="#fff" stroke-width="1.2"/>
+          <polygon points="${starPoints(12.5, 13, 6.6, 2.8)}" fill="#FFC93C" stroke="#5A3E00" stroke-width="0.6" stroke-linejoin="round"/>
+        </g>
+      </svg>`,
+    });
+  }
   return new L.Icon.Default({
     iconSize: [px(25), px(41)],
     iconAnchor: [px(12), px(41)],
     shadowSize: [px(41), px(41)],
     shadowAnchor: [px(12), px(41)],
   });
+}
+
+// Five-point star outline centered on (cx, cy), alternating outer and inner radius.
+function starPoints(cx, cy, outer, inner) {
+  return Array.from({ length: 10 }, (_, i) => {
+    const a = -Math.PI / 2 + (i * Math.PI) / 5;
+    const r = i % 2 ? inner : outer;
+    return `${(cx + r * Math.cos(a)).toFixed(2)},${(cy + r * Math.sin(a)).toFixed(2)}`;
+  }).join(" ");
 }
 
 function render() {
@@ -265,7 +293,8 @@ function paintMap(list) {
   const near = state.origin ? [[state.origin.lat, state.origin.lon]] : [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
-    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name, icon: pinIcon() });
+    const cathedral = isCathedral(p);
+    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name, icon: pinIcon(cathedral), cathedral });
     m.on("click", () => {
       select(p);
       openDetail(p, m.getElement());
@@ -479,7 +508,7 @@ function openDetail(p, returnTo) {
   const body = $("detail-body");
   // The lead priest's title: "clergy_title" (Vicar, Priest-in-Charge...) if set,
   // else Dean for a cathedral, else Rector.
-  const leadTitle = hasValue(p.clergy_title) ? String(p.clergy_title).trim() : /\bCathedral\b/i.test(p.name) ? "Dean" : "Rector";
+  const leadTitle = hasValue(p.clergy_title) ? String(p.clergy_title).trim() : isCathedral(p) ? "Dean" : "Rector";
   body.innerHTML = DETAIL_SECTIONS.map(([title, fields]) => {
     const rows = fields
       .filter(([key, , kind]) => (kind === "freeform" ? String(v[key] ?? "").trim() !== "" : hasValue(v[key])))
