@@ -38,14 +38,9 @@ menu() {
   cat <<'MENU'
 Tools for the parish finder
 
-  1) Check formatting in the data files          (normalize_data.py --check)
-  2) Fix formatting in the data files            (normalize_data.py)
-  3) Import a parish JSON file into parishes.json (import_parishes.py)
-  4) Find coordinates for one address             (geocode_address.py)
-  5) Find coordinates for records in a file       (geocode_address.py --file)
-  6) Rebuild the diocesan boundaries              (diocese-boundaries: npm run build)
-  7) Check the diocesan boundaries                (diocese-boundaries: npm run check)
-  8) Check parish websites                        (parish-webcrawler/run.command)
+  1) Fix formatting in chosen data files         (normalize_data.py FILE ...)
+  2) Import a parish JSON file into parishes.json (import_parishes.py)
+  3) Make the diocesan boundaries match the parish pins (diocese-boundaries: npm run build, then npm run check)
   q) Quit
 
 MENU
@@ -57,14 +52,14 @@ while true; do
   case "$CHOICE" in
     1)
       need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
-      run python3 tools/normalize_data.py --check
+      FILES=()
+      while IFS= read -r line; do [ -n "$line" ] && FILES+=("$line"); done < <(pick "Choose the JSON file(s) to fix")
+      if [ ${#FILES[@]} -eq 0 ]; then echo "No file chosen."; pause; continue; fi
+      echo "This rewrites these file(s) wherever a format rule changes something:"
+      printf '  %s\n' "${FILES[@]}"
+      if yes_no "Go ahead?"; then run python3 tools/normalize_data.py "${FILES[@]}"; else echo "Nothing changed."; fi
       pause ;;
     2)
-      need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
-      echo "This rewrites data/parishes.json and every file in data/wip-dioceses/ where a format rule changes something."
-      if yes_no "Go ahead?"; then run python3 tools/normalize_data.py; fi
-      pause ;;
-    3)
       need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
       FILES=()
       while IFS= read -r line; do [ -n "$line" ] && FILES+=("$line"); done < <(pick "Choose the parish JSON file(s) to import")
@@ -76,41 +71,17 @@ while true; do
         echo "Not imported."
       fi
       pause ;;
-    4)
-      need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
-      read -r -p "Address (e.g. 3430 Old US Highway 70, Cleveland, NC 27013): " ADDR
-      if [ -z "$ADDR" ]; then echo "No address given."; pause; continue; fi
-      run python3 tools/geocode_address.py "$ADDR"
-      pause ;;
-    5)
-      need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
-      FILE=$(pick "Choose the diocese JSON file to geocode")
-      if [ -z "$FILE" ]; then echo "No file chosen."; pause; continue; fi
-      read -r -p "Only one record? Paste its id, or press Return for every record in the file: " ID
-      if [ -n "$ID" ]; then ID_ARGS=(--id "$ID"); else ID_ARGS=(); fi
-      run python3 tools/geocode_address.py --file "$FILE" "${ID_ARGS[@]}"
-      if yes_no "Save these coordinates into the file?"; then
-        run python3 tools/geocode_address.py --file "$FILE" "${ID_ARGS[@]}" --write
+    3)
+      need node "Install Node.js from https://nodejs.org/ first." || { pause; continue; }
+      cd "$ROOT/tools/diocese-boundaries" || { pause; continue; }
+      [ -d node_modules ] || run npm install
+      # Redraw from dioceses.json first, so the check looks at the overlay as it now stands.
+      if run npm run build; then
+        run npm run check
       else
-        echo "Not saved."
+        echo "Build failed, so the check was not run."
       fi
-      pause ;;
-    6)
-      need node "Install Node.js from https://nodejs.org/ first." || { pause; continue; }
-      cd "$ROOT/tools/diocese-boundaries" || { pause; continue; }
-      [ -d node_modules ] || run npm install
-      run npm run build
       cd "$ROOT" || exit 1
-      pause ;;
-    7)
-      need node "Install Node.js from https://nodejs.org/ first." || { pause; continue; }
-      cd "$ROOT/tools/diocese-boundaries" || { pause; continue; }
-      [ -d node_modules ] || run npm install
-      run npm run check
-      cd "$ROOT" || exit 1
-      pause ;;
-    8)
-      run "$ROOT/parish-webcrawler/run.command"
       pause ;;
     q|Q)
       exit 0 ;;
