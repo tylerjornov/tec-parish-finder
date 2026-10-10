@@ -408,9 +408,19 @@ function detailValue(v, kind) {
   if (kind === "email") return `<a href="mailto:${s}">${s}</a>`;
   if (kind === "list") {
     const items = v.split(/;\s*/).filter(Boolean);
-    if (items.length > 1) return `<ul>${items.map((i) => `<li>${escapeHtml(i)}</li>`).join("")}</ul>`;
+    if (items.length > 1) return `<ul>${items.map((i) => `<li>${listItemHtml(i)}</li>`).join("")}</ul>`;
+    return listItemHtml(v);
   }
   return s;
+}
+
+// The only markup allowed in list values is <a href="https://…">text</a>, used for links such as a
+// clergy member's parish. The text is escaped first, then just that tag is turned back into a link.
+function listItemHtml(v) {
+  return escapeHtml(v).replace(
+    /&lt;a href=&quot;(https?:\/\/.+?)&quot;&gt;(.*?)&lt;\/a&gt;/g,
+    '<a href="$1" target="_blank" rel="noopener">$2</a>'
+  );
 }
 
 // Focused again when the dialog closes: the card's button or the map pin.
