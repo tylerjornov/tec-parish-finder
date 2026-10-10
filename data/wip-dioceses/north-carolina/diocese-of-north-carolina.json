@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.88234,
     "lon": -80.44443,
@@ -38,12 +37,13 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Eucharistic Ministers/Visitors; Godly Play; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-428-pee-dee-ave-albemarle-nc",
     "name": "Christ Episcopal Church",
-    "website": "http://www.christalb.org/",
+    "website": "https://christalborg.com/",
     "address": "428 Pee Dee Ave, Albemarle, NC 28001-4934",
     "state": "NC",
     "diocese": "North Carolina",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.34198,
     "lon": -80.17533,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-souls-episcopal-church-8812-main-st-ansonville-nc",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.10616,
     "lon": -80.10796,
@@ -120,12 +119,13 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-505-mountain-rd-asheboro-nc",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdasheboro.com/",
+    "website": "https://www.goodshepherdasheboro.org/",
     "address": "505 Mountain Rd, Asheboro, NC 27205-4219",
     "state": "NC",
     "diocese": "North Carolina",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.71447,
     "lon": -79.83235,
@@ -155,13 +154,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@GoodShepherdAsheboroYT/streams",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Journey to Adulthood (J2A); Men's group; Neighborhood associations; Nursery; Youth faith formation/Sunday school; Youth group; Rotary Club (Stop Hunger Now event); Knotty Knitters",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-211-e-battleboro-ave-battleboro-nc",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.0517,
     "lon": -77.75481,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-comforter-320-e-davis-st-burlington-nc",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.09541,
     "lon": -79.44113,
@@ -228,22 +227,23 @@
     "church_phone": "(336) 227-4251",
     "church_email": "info@hc-b.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "rlee@hc-b.org",
     "sunday_services": "10:30 AM; 8:15 AM",
     "weekday_services": "Tue 8:30 AM; Wed 11:00 AM; Thu 8:30 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Dr. Rhonda M. Lee",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@ECHCBurlington",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-221-union-st-cary-nc",
@@ -260,20 +260,19 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.77572,
     "lon": -78.75759,
     "asa": null,
     "city": "Cary",
     "church_phone": "(919) 467-1477",
-    "church_email": "stpauls@spaulscary.org",
+    "church_email": "stpauls@stpaulscary.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "7:30 AM; 9:00 AM; 10:00 AM; 11:15 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Dr. James Weldon, Jr",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Eucharistic Ministers/Visitors; Girl Scouts; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); LGBTQ group; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "chapel-of-the-cross-304-e-franklin-st-chapel-hill-nc",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91427,
     "lon": -79.05482,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; College student group; Daughters of the King; Eucharistic Ministers/Visitors; FORMA; Godly Play; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-advocate-8410-merin-road-chapel-hill-nc",
@@ -342,14 +342,13 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.95287,
     "lon": -79.07217,
     "asa": null,
     "city": "Chapel Hill",
-    "church_phone": "",
-    "church_email": "",
+    "church_phone": "(984) 999-1819",
+    "church_email": "theadvocatechurch@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:30 AM; 9:30 AM; 10:30 AM",
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-family-200-hayes-rd-chapel-hill-nc",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91551,
     "lon": -79.02548,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; FORMA; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations; Young adult group; Youth faith formation/Sunday school; Youth group; InterFaith Council and Food Pantry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "chapel-of-christ-the-king-425-e-17th-st-charlotte-nc",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.23465,
     "lon": -80.82416,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-1412-providence-rd-charlotte-nc",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.18769,
     "lon": -80.82343,
@@ -483,13 +482,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@christchurchcharlotte",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; College student group; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Habitat for Humanity; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-st-michael-and-all-angels-750-e-9th-st-charlotte-nc",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.2244,
     "lon": -80.82992,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-comforter-2701-park-rd-charlotte-nc",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.19391,
     "lon": -80.85102,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; College student group; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "galilee-ministries-of-east-charlotte-3601-central-avenue-charlotte-nc",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.21655,
     "lon": -80.78413,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-1623-carmel-rd-charlotte-nc",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.14356,
     "lon": -80.80058,
@@ -637,23 +636,24 @@
     "city": "Charlotte",
     "church_phone": "(704) 366-3034",
     "church_email": "kerry@stje.org",
-    "rector_phone": "",
+    "rector_phone": "(704) 366-3034 ext. 0103",
     "rector_email": "",
     "sunday_services": "7:30 AM; 8:45 AM; 11:15 AM; 5:00 PM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Peter Floyd",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/channel/UC8eevzXSrvU8xpU5LfaeODQ/videos",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Habitat for Humanity; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martins-episcopal-church-1510-e-7th-street-charlotte-nc",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.21705,
     "lon": -80.82452,
@@ -688,13 +687,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/c/StMartinsCLT",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Girl Scouts; Neighborhood associations; Nursery; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-episcopal-church-115-w-7th-st-charlotte-nc",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.22985,
     "lon": -80.84049,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Neighborhood associations; Nursery; Young adult group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-111-lee-court-clayton-nc",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.63926,
     "lon": -78.47663,
@@ -761,11 +760,11 @@
     "church_phone": "(919) 553-2810",
     "church_email": "graceepiscopal01@gmail.com",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "vicar@graceclayton.org",
     "sunday_services": "9:15 AM; 11:11 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Andrew Phillips",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-clements-episcopal-church-3600-harper-rd-clemmons-nc",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.02899,
     "lon": -80.40236,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Men's group; Women's Group; Social Dinner Group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-3430-old-us-hwy-70-cleveland-nc",
@@ -834,10 +834,9 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
-    "lat": null,
-    "lon": null,
+    "lat": 35.73313,
+    "lon": -80.66539,
     "asa": null,
     "city": "Cleveland",
     "church_phone": "(704) 278-4652",
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-525-lake-concord-rd-ne-concord-nc",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.44515,
     "lon": -80.60048,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Education for Ministry (EFM); Daughters of the King; Choir; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-141-church-st-cooleemee-nc",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.81366,
     "lon": -80.55641,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-301-caldwell-lane-davidson-nc",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.49374,
     "lon": -80.83224,
@@ -970,7 +969,7 @@
     "sunday_services": "8:00 AM; 9:10 AM; 10:15 AM; 10:30 AM",
     "weekday_services": "Tue 9:15 AM; Thu 9:15 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Carmen Germino",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -981,12 +980,13 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; College student group; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-center-at-duke-university-505-alexander-ave-durham-nc",
     "name": "Episcopal Center at Duke University",
-    "website": "https://ecduke.org/",
+    "website": "https://episcopalcenterduke.wordpress.com/",
     "address": "505 Alexander Ave, Durham, NC 27705",
     "state": "NC",
     "diocese": "North Carolina",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.00158,
     "lon": -78.92665,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "College student group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "iglesia-el-buen-pastor-1852-liberty-st-durham-nc",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.9899,
     "lon": -78.86861,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-1737-hillandale-rd-durham-nc",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.02755,
     "lon": -78.93679,
@@ -1089,11 +1088,11 @@
     "church_phone": "(919) 286-2273",
     "church_email": "information@stlukesdurham.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "rector@stlukesdurham.org",
     "sunday_services": "8:00 AM; 10:30 AM",
     "weekday_services": "Wed 11:30 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Greg Farrand",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; LGBTQ group; Men's group; Nursery; Episcopalians United Against Racism; Faith Teams; Durham Episcopal Resettlement Coalition",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-josephs-episcopal-church-1902-w-main-st-durham-nc",
@@ -1121,20 +1121,19 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.00678,
     "lon": -78.92125,
     "asa": null,
     "city": "Durham",
     "church_phone": "(919) 286-1064",
-    "church_email": "vicar@saintjosephsdurham.org",
+    "church_email": "office@stjosephsdurham.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "vicar@stjosephsdurham.org",
     "sunday_services": "10:30 AM",
     "weekday_services": "Mon 7:30 AM; Tue 7:30 AM; Wed 7:30 AM; Thu 7:30 AM; Fri 7:30 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Dr. Lauren Winner",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Eucharistic Ministers/Visitors; Godly Play; Good News Gardens; Nursery; St. Basil's Romanian Orthodox Church",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-episcopal-church-403-e-main-street-durham-nc",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.99279,
     "lon": -78.89633,
@@ -1171,11 +1170,11 @@
     "church_phone": "(919) 682-5708",
     "church_email": "office@stphilipsdurham.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "maryann@stphilipsdurham.org",
     "sunday_services": "8:00 AM; 9:00 AM; 11:00 AM",
     "weekday_services": "Wed 5:30 PM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Maryann D. Younger",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; FORMA; Journey to Adulthood (J2A); Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-82-kimberly-dr-durham-nc",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.93479,
     "lon": -78.95263,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; College student group; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Habitat for Humanity; Men's group; Nursery; Young adult group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-titus-episcopal-church-400-moline-st-durham-nc",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.97761,
     "lon": -78.90253,
@@ -1262,13 +1261,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@st.titustech",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Habitat for Humanity; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-538-henry-st-eden-nc",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.49364,
     "lon": -79.76813,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-600-morgan-rd-eden-nc",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.51701,
     "lon": -79.76057,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "galloway-memorial-episcopal-church-308-w-main-st-elkin-nc",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.2495,
     "lon": -80.85835,
@@ -1385,13 +1384,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/channel/UCgytjyF4r8oWl-FRi4s35Ow",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; The Ark Elkin; Tri-County Christian Crisis Ministry; Grace Clinic of Yadkin Valley; Christ Lutheran Church of Jonesville",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-201-denim-drive-erwin-nc",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.32694,
     "lon": -78.67354,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Daughters of the King; Episcopal Church Women (ECW); ECHO (Erwin Churches Helping Others)  Food Bank",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-1128-s-main-st-fuquay-varina-nc",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.56759,
     "lon": -78.80218,
@@ -1462,7 +1461,7 @@
     "sunday_services": "8:30 AM; 10:30 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "Bob Henderson",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Daughters of the King; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-church-4211-wayne-rd-greensboro-nc",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.01467,
     "lon": -79.86748,
@@ -1503,7 +1502,7 @@
     "sunday_services": "10:00 AM; 9:45 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Paula Rachal",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Daughters of the King; Godly Play; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-spirit-3910-yanceyville-st-greensboro-nc",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.09122,
     "lon": -79.78097,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Young adult group; LGBTQ group; Bible study; UNC Greensboro Environmental & Sustainability Studies interns; Transition Ministries Network; African Prayer Train; Open Door Church",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-901-e-friendly-ave-greensboro-nc",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.07352,
     "lon": -79.79578,
@@ -1585,18 +1584,19 @@
     "sunday_services": "",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Michelle Roach",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@churchoftheredeemer6718/streams",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-church-607-n-greene-st-greensboro-nc",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.07948,
     "lon": -79.7915,
@@ -1622,11 +1621,11 @@
     "church_phone": "(336) 272-6149 ext. 272",
     "church_email": "marilynwolf1953@gmail.com",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "david@holy-trinity.com",
     "sunday_services": "8:00 AM; 9:00 AM; 10:15 AM; 11:15 AM; 8:30 AM; 10:30 AM; 10:00 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. David Umphlett",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Men's group; Nursery; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-2105-w-market-st-greensboro-nc",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.07367,
     "lon": -79.81923,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group; Nursery; Preschool; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-episcopal-church-1300-jefferson-rd-greensboro-nc",
@@ -1695,14 +1695,13 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.11609,
     "lon": -79.86987,
     "asa": null,
     "city": "Greensboro",
     "church_phone": "(336) 294-1282",
-    "church_email": "admin@stbarnabasgreensboro.org",
+    "church_email": "vestry@stbarnabasgreensboro.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:30 AM; 10:30 AM",
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-3506-lawndale-dr-greensboro-nc",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.11558,
     "lon": -79.82357,
@@ -1749,18 +1748,19 @@
     "sunday_services": "",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Very Rev. Milton C. Williams, Jr",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/channel/UC7nlQlNYxq_GGC-KtAvZ1hA",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-217-henderson-st-hamlet-nc",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.88601,
     "lon": -79.70315,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Girl Scouts; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-1004-e-main-st-haw-river-nc",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.09158,
     "lon": -79.3634,
@@ -1827,11 +1826,11 @@
     "church_phone": "(336) 578-3623",
     "church_email": "saintandrewshawriver@gmail.com",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "vicar@saintandrewshawriver.org",
     "sunday_services": "10:30 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Joe Sroka",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-innocents-210-s-chestnut-st-henderson-nc",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.3282,
     "lon": -78.40561,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Nursery; Preschool; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-101-main-st-henderson-nc",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.33798,
     "lon": -78.39455,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-episcopal-church-303-eastchester-dr-high-point-nc",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.98277,
     "lon": -80.02228,
@@ -1959,13 +1958,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@StchristopherOrgHighPoint/streams",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-108-w-farriss-ave-high-point-nc",
@@ -1982,20 +1982,19 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.96941,
     "lon": -80.02154,
     "asa": null,
     "city": "High Point",
     "church_phone": "(336) 886-4756",
-    "church_email": "dorothy1@northstate.net",
+    "church_email": "admin@stmaryshighpoint.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "rector@stmaryshighpoint.org",
     "sunday_services": "9:00 AM; 11:00 AM; 8:00 AM",
     "weekday_services": "Wed 12:00 PM; Wed 5:30 PM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "Fr. Rob Travis",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Good News Gardens; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-210-st-marys-road-hillsborough-nc",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.07614,
     "lon": -79.09552,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-8600-mt-holly-huntersville-rd-huntersville-nc",
@@ -2064,14 +2064,13 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.34896,
     "lon": -80.8808,
     "asa": null,
     "city": "Huntersville",
     "church_phone": "(704) 399-5193",
-    "church_email": "deborah.heggen@gmail.com",
+    "church_email": "life@stmarksnc.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:30 AM; 10:30 AM",
@@ -2082,13 +2081,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/user/stmarksepiscopalnc/streams",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Eucharistic Ministers/Visitors; Men's group; Nursery; Preschool; Youth faith formation/Sunday school; Youth group; Tutoring; Grace Community Church; Mindful Meditation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-church-of-the-saviour-201-n-church-st-jackson-nc",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.39119,
     "lon": -77.42175,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Episcopal Church Women (ECW); Habitat for Humanity",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-1110-salisbury-st-kernersville-nc",
@@ -2146,13 +2146,12 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.1137,
     "lon": -80.07748,
     "asa": null,
     "city": "Kernersville",
-    "church_phone": "(336) 996-2244",
+    "church_phone": "(336) 996-4422",
     "church_email": "office@stmattskville.org",
     "rector_phone": "",
     "rector_email": "",
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-episcopal-church-506-azure-ct-laurinburg-nc",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.77402,
     "lon": -79.47268,
@@ -2200,7 +2199,7 @@
     "sunday_services": "11:00 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. John Talk",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Eucharistic Ministers/Visitors; Girl Scouts; Church Community Services",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-419-s-main-st-lexington-nc",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.82007,
     "lon": -80.25712,
@@ -2241,18 +2240,19 @@
     "sunday_services": "10:30 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Stephen Becker",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://youtube.com/@gracechurchlexingtonnc263?si=hJHFIWRV43oIGiJQ",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Journey to Adulthood (J2A); Men's group; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-300-mosby-ave-littleton-nc",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.43676,
     "lon": -77.9142,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Habitat for Humanity; John 3:16; Helpful Hands and Hearts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthias-episcopal-church-340-south-main-st-louisburg-nc",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.0961,
     "lon": -78.30306,
@@ -2334,13 +2333,14 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-301-n-church-st-louisburg-nc",
     "name": "St. Paul's Episcopal Church",
     "website": "https://www.stpaulsepiscopal.org/",
-    "address": "301 N Church St, Louisburg, NC 27549-2417",
+    "address": "305 N Church St, Louisburg, NC 27549",
     "state": "NC",
     "diocese": "North Carolina",
     "churchmanship": "N/A - Data Not Available",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.10236,
     "lon": -78.30087,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-messiah-114-s-2nd-ave-mayodan-nc",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.40503,
     "lon": -79.96891,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-116-s-church-st-monroe-nc",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.98448,
     "lon": -80.54839,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Men's group; Nursery; http://www.loavesandfishesofunioncounty.org/",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-851-shinnville-rd-mooresville-nc",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.66026,
     "lon": -80.80234,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-patricks-episcopal-church-164-fairview-rd-mooresville-nc",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.54877,
     "lon": -80.85046,
@@ -2528,18 +2527,19 @@
     "sunday_services": "8:00 AM; 10:30 AM",
     "weekday_services": "Wed 12:30 PM; Wed, March 27-Taize Tenebrae 8:00 PM; Thu, March 28 - Maundy Thu 6:00 PM; Fri, March 29 - Stations of the Cross 12:00 PM; Fri, March 29 - Good Fri Service 6:00 PM; Sat, March 30 - Easter Vigil 8:00 PM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Gregory McIntyre",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@stpatricksmooresville",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Journey to Adulthood (J2A); Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-472-n-main-st-mount-airy-nc",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.49129,
     "lon": -80.59596,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Episcopal Church Women (ECW); Godly Play; Men's group; Nursery; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-cyprians-episcopal-church-408-granville-st-oxford-nc",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.2629,
     "lon": -78.62299,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-140-college-street-oxford-nc",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.3167,
     "lon": -78.59273,
@@ -2647,11 +2646,11 @@
     "church_phone": "(919) 693-9740",
     "church_email": "admin@ststephensoxford.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "rector@ststephensoxford.org",
     "sunday_services": "8:00 AM; 10:30 AM; 5:30 PM",
     "weekday_services": "Thu 8:30 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Dr. Anna Brawley",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Boy Scouts; Choir; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Preschool; Youth group; Area Congregations in Ministry; Hope House; Boys and Girls Club",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-bartholomews-episcopal-church-204-west-salisbury-street-pittsboro-nc",
@@ -2679,14 +2679,13 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.72231,
     "lon": -79.18081,
     "asa": null,
     "city": "Pittsboro",
     "church_phone": "(919) 542-5679",
-    "church_email": "ttransueftm@aol.com",
+    "church_email": "office@saint-barts.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:00 AM",
@@ -2697,13 +2696,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@saintbarts/streams",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-120-e-edenton-st-raleigh-nc",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.78076,
     "lon": -78.6378,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-121-hillsborough-st-raleigh-nc",
@@ -2761,10 +2761,9 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
-    "lat": 35.78182,
-    "lon": -78.65355,
+    "lat": 35.78037,
+    "lon": -78.64046,
     "asa": null,
     "city": "Raleigh",
     "church_phone": "(919) 831-2000",
@@ -2785,7 +2784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); LGBTQ group; Men's group; Nursery; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-nativity-8849-ray-rd-raleigh-nc",
@@ -2802,7 +2802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.90367,
     "lon": -78.70624,
@@ -2815,7 +2814,7 @@
     "sunday_services": "8:30 AM; 10:30 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Dr. Grey Maggiano",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -2826,7 +2825,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Preschool; Youth faith formation/Sunday school; Youth group; North Raleigh Ukelele Jam",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-marys-school-chapel-900-hillsborough-st-raleigh-nc",
@@ -2843,20 +2843,19 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
-    "lat": 35.78182,
-    "lon": -78.65355,
+    "lat": 35.78155,
+    "lon": -78.65296,
     "asa": null,
     "city": "Raleigh",
     "church_phone": "(919) 424-4000",
-    "church_email": "",
+    "church_email": "admission@sms.edu",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "Teresa Assenzo",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -2867,7 +2866,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-ambrose-episcopal-church-813-darby-st-raleigh-nc",
@@ -2884,7 +2884,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.75732,
     "lon": -78.62353,
@@ -2893,22 +2892,23 @@
     "church_phone": "(919) 833-8055",
     "church_email": "admin@stambroseraleigh.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "jtaylor@stambroseraleigh.org",
     "sunday_services": "8:00 AM; 10:15 AM; 9:00 AM",
     "weekday_services": "Wed 12:15 PM; Wed 6:30 PM; Tue 12:15 PM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Robert Jemonde Taylor",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/channel/UCnCLYmk2RucQkBcrDb2NinQ/videos?view_as=subscriber",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Godly Play; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michaels-episcopal-church-1520-canterbury-rd-raleigh-nc",
@@ -2925,7 +2925,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.80914,
     "lon": -78.66728,
@@ -2949,7 +2948,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-church-4523-six-forks-rd-raleigh-nc",
@@ -2966,14 +2966,13 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.84195,
     "lon": -78.64388,
     "asa": null,
     "city": "Raleigh",
     "church_phone": "(919) 787-7590",
-    "church_email": "churchoffice@sttimothys.org",
+    "church_email": "admin@stcraleigh.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM",
@@ -2990,7 +2989,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-315-lindsey-st-reidsville-nc",
@@ -3007,7 +3007,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.35856,
     "lon": -79.67355,
@@ -3031,7 +3030,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Episcopal Church Women (ECW); Choir; Reidsville Soup Kitchen; Reidsville Outreach Center",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-700-roanoke-avenue-roanoke-rapids-nc",
@@ -3048,7 +3048,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.44585,
     "lon": -77.66557,
@@ -3072,7 +3071,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Good News Gardens; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-messiah-202-n-lawrence-st-rockingham-nc",
@@ -3089,7 +3089,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.94047,
     "lon": -79.77251,
@@ -3113,7 +3112,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-231-n-church-st-rocky-mount-nc",
@@ -3130,7 +3130,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.97169,
     "lon": -77.84503,
@@ -3143,18 +3142,19 @@
     "sunday_services": "8:00 AM; 10:30 AM",
     "weekday_services": "Wed 7:30 AM; Wed 12:10 PM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "Lawrence Goering",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@ChurchoftheGoodShepherdrmt/featured",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Neighborhood associations; Nursery; Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-301-s-circle-dr-rocky-mount-nc",
@@ -3171,7 +3171,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.96871,
     "lon": -77.87588,
@@ -3195,7 +3194,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-422-n-main-st-roxboro-nc",
@@ -3212,7 +3212,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.39153,
     "lon": -78.98557,
@@ -3236,7 +3235,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-131-w-council-st-salisbury-nc",
@@ -3253,14 +3253,13 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.67302,
     "lon": -80.4743,
     "asa": null,
     "city": "Salisbury",
     "church_phone": "(704) 633-3221",
-    "church_email": "rblack@stlukessalisbury.net",
+    "church_email": "cstephenson@sls.church",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 10:30 AM",
@@ -3271,13 +3270,14 @@
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@StLukesSalisbury/streams",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Eucharistic Ministers/Visitors; Habitat for Humanity; Nursery; Preschool; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-4401-statesville-blvd-salisbury-nc",
@@ -3294,7 +3294,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.70961,
     "lon": -80.55913,
@@ -3318,7 +3317,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-chestnut-hill-930-s-main-street-salisbury-nc",
@@ -3335,7 +3335,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.66836,
     "lon": -80.46862,
@@ -3359,7 +3358,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Neighborhood associations",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-312-n-steele-st-sanford-nc",
@@ -3376,7 +3376,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.47976,
     "lon": -79.17808,
@@ -3385,22 +3384,23 @@
     "church_phone": "(919) 774-8644",
     "church_email": "saintthomasnc@gmail.com",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "rev.etuttle@gmail.com",
     "sunday_services": "10:00 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Dr. Eric Tuttle",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/@st.thomaschurchsanfordnc4614/streams",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group; Nursery; Youth faith formation/Sunday school; Youth group; Literacy mentoring",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-1305-n-main-st-scotland-neck-nc",
@@ -3417,7 +3417,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.14779,
     "lon": -77.41599,
@@ -3441,7 +3440,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Ecumenical Wednesday Lenten lunches, Advent Lessons and Carols",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mary-magdalene-episcopal-church-1145-seven-lakes-dr-seven-lakes-nc",
@@ -3458,7 +3458,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.27192,
     "lon": -79.56993,
@@ -3467,11 +3466,11 @@
     "church_phone": "(910) 673-3838",
     "church_email": "stmarymag2@aol.com",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "revbachand@gmail.com",
     "sunday_services": "9:30 AM",
     "weekday_services": "Tue 11:00 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Colette Bachand",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -3482,7 +3481,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir; Literacy of Moore County",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "community-of-the-franciscan-way-5778-siler-cty-snow-cp-rd-siler-city-nc",
@@ -3499,10 +3499,9 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
-    "lat": null,
-    "lon": null,
+    "lat": 35.79593,
+    "lon": -79.43134,
     "asa": null,
     "city": "Siler City",
     "church_phone": "(919) 663-3030",
@@ -3523,7 +3522,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-218-s-second-st-smithfield-nc",
@@ -3540,7 +3540,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.51187,
     "lon": -78.31944,
@@ -3564,7 +3563,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "chapel-of-the-transfiguration-500-e-rhode-island-ave-southern-pines-nc",
@@ -3581,7 +3581,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.17285,
     "lon": -79.38104,
@@ -3605,7 +3604,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "emmanuel-episcopal-church-340-s-ridge-st-southern-pines-nc",
@@ -3622,7 +3622,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.19612,
     "lon": -79.39221,
@@ -3635,7 +3634,7 @@
     "sunday_services": "8:00 AM; 10:00 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Morris Thompson",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -3646,13 +3645,14 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Preschool; Young adult group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
-    "id": "st-marys-episcopal-church-po-box-215-speed-nc",
+    "id": "st-marys-episcopal-church-108-mill-pond-rd-speed-nc",
     "name": "St. Mary's Episcopal Church",
     "website": "https://www.episcopalassetmap.org/dioceses/diocese-north-carolina/list/st-marys-episcopal-church-0",
-    "address": "PO Box 215, Speed, NC 27881",
+    "address": "108 Mill Pond Rd, Speed, NC 27843",
     "state": "NC",
     "diocese": "North Carolina",
     "churchmanship": "N/A - Data Not Available",
@@ -3663,10 +3663,9 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
-    "lat": null,
-    "lon": null,
+    "lat": 35.96892,
+    "lon": -77.44147,
     "asa": null,
     "city": "Speed",
     "church_phone": "",
@@ -3687,7 +3686,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-801-henkel-rd-statesville-nc",
@@ -3704,7 +3704,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.79816,
     "lon": -80.9008,
@@ -3713,11 +3712,11 @@
     "church_phone": "(704) 872-6314",
     "church_email": "parishadmin@trinitysvl.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "rector@trinitysvl.org",
     "sunday_services": "",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Brad Mullis",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -3728,7 +3727,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-411-e-church-st-tarboro-nc",
@@ -3745,20 +3745,19 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.89958,
     "lon": -77.53069,
     "asa": null,
     "city": "Tarboro",
     "church_phone": "(252) 823-8192",
-    "church_email": "calvarytarboro@gmail.com",
+    "church_email": "admin@calvarytarboro.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM; 11:00 AM",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Stephen Mazingo",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -3769,12 +3768,13 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Men's group; Nursery; Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-luke-episcopal-church-301-panola-st-tarboro-nc",
     "name": "St. Luke Episcopal Church",
-    "website": "https://stlukestarboro.org/",
+    "website": "https://stlukestarboro.wordpress.com/",
     "address": "301 Panola St, Tarboro, NC 27886-4551",
     "state": "NC",
     "diocese": "North Carolina",
@@ -3786,7 +3786,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.8988,
     "lon": -77.52953,
@@ -3810,7 +3809,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michael-episcopal-church-3204-western-blvd-tarboro-nc",
@@ -3827,7 +3827,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.92267,
     "lon": -77.56537,
@@ -3851,7 +3850,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-308-e-wade-st-wadesboro-nc",
@@ -3868,7 +3868,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.96567,
     "lon": -80.07379,
@@ -3892,7 +3891,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Neighborhood associations; Inter-Church Council of Downtown Wadesboro; Anson Crisis Ministry; Anson County Domestic Violence Coalition",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-834-durham-rd-wake-forest-nc",
@@ -3909,7 +3909,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.97667,
     "lon": -78.54329,
@@ -3933,7 +3932,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-412-summit-ave-walnut-cove-nc",
@@ -3950,7 +3950,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.29762,
     "lon": -80.1395,
@@ -3974,7 +3973,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-episcopal-church-127-n-main-st-warrenton-nc",
@@ -3991,7 +3991,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.39982,
     "lon": -78.15512,
@@ -4015,7 +4014,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-margarets-episcopal-church-8515-rea-rd-waxhaw-nc",
@@ -4032,7 +4032,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.01113,
     "lon": -80.77827,
@@ -4045,18 +4044,19 @@
     "sunday_services": "8:15 AM; 10:30 AM",
     "weekday_services": "Wed 11:00 AM; Christmas Eve, 12/24 *Children's Service 3:00 PM; Christmas Eve, 12/24 with Choral Eucharist 5:30 PM; Christmas Eve, 12/24 Sung Eucharist & Incense 8:00 PM; Christmas Day, 12/25 with Sung Eucharist 11:00 AM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Fr. Todd R. Dill",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://www.youtube.com/c/StMargaretsEpiscopalChurch/videos",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-106-reid-st-se-wilson-nc",
@@ -4073,7 +4073,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.73004,
     "lon": -77.90593,
@@ -4097,7 +4096,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-church-202-n-goldsboro-st-wilson-nc",
@@ -4114,7 +4114,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.70651,
     "lon": -77.92658,
@@ -4138,7 +4137,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Godly Play; Men's group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-episcopal-church-2575-parkway-dr-winston-salem-nc",
@@ -4155,20 +4155,19 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.08212,
     "lon": -80.28387,
     "asa": null,
     "city": "Winston Salem",
     "church_phone": "(336) 765-0294",
-    "church_email": "info@stttimothys.ws",
+    "church_email": "info@sttimothys.ws",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "frsteve@sttimothys.ws",
     "sunday_services": "",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "Fr. Steve Rice",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -4179,7 +4178,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Young adult group; Nursery; Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; College student group; Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christs-beloved-community-comunidad-amada-de-cristo-3205-s-main-street-winston-salem-nc",
@@ -4196,7 +4196,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.05374,
     "lon": -80.23914,
@@ -4220,7 +4219,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-episcopal-church-2690-fairlawn-drive-winston-salem-nc",
@@ -4237,20 +4237,19 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.14295,
     "lon": -80.29428,
     "asa": null,
     "city": "Winston-Salem",
     "church_phone": "(336) 768-0174",
-    "church_email": "",
+    "church_email": "parishoffice@stannes-ws.org",
     "rector_phone": "",
-    "rector_email": "",
+    "rector_email": "rector@stannes-ws.org",
     "sunday_services": "10:00 AM; 8:00 AM; 11:00 AM",
     "weekday_services": "Mon 6:00 PM; Tue 6:00 PM; Wed 6:00 PM; Thu 8:00 PM",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Joani Peacock",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -4261,12 +4260,13 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Education for Ministry (EFM); Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-520-summit-street-winston-salem-nc-winston-salem-nc",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpauls-ws.org/",
+    "website": "https://www.stpaulsws.org/",
     "address": "520 Summit Street, Winston-Salem, NC, Winston-Salem, NC 27101",
     "state": "NC",
     "diocese": "North Carolina",
@@ -4278,7 +4278,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.09527,
     "lon": -80.24302,
@@ -4291,18 +4290,19 @@
     "sunday_services": "",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Samuel Rodman",
-    "rector_name": "",
+    "rector_name": "The Rev. Dr. D. Dixon Kinser",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
     "service_languages": "",
-    "livestream_url": "",
+    "livestream_url": "https://vimeo.com/showcase/9237318",
     "music_style": "",
     "accessibility": "",
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-810-highland-ave-winston-salem-nc",
@@ -4319,14 +4319,13 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.10048,
     "lon": -80.23353,
     "asa": null,
     "city": "Winston-Salem",
     "church_phone": "(336) 724-2614",
-    "church_email": "",
+    "church_email": "ststephensepiscopal@triad.rr.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "",
@@ -4343,7 +4342,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-abraham-project-2575-parkway-dr-winston-salem-nc",
@@ -4360,7 +4360,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.08212,
     "lon": -80.28387,
@@ -4384,6 +4383,7 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

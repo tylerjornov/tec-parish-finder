@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.67064,
     "lon": -81.5053,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "anchor-house-3000-k-ville-ave-auburndale-auburndale-fl",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.0332,
     "lon": -81.82382,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-202-pontotoc-plaza-auburndale-fl",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.06436,
     "lon": -81.78859,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "camp-wingmann-3404-wingmann-rd-avon-park-fl",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-910-w-martin-rd-avon-park-fl",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.5738,
     "lon": -81.51268,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-church-500-w-stuart-st-bartow-fl",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.88601,
     "lon": -81.8464,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-5750-se-115th-st-belleview-fl",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.05502,
     "lon": -82.05461,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-of-assisi-episcopal-church-313-n-grace-st-bushnell-fl",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.66526,
     "lon": -82.10689,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthias-episcopal-church-574-west-montrose-st-clermont-fl",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.55531,
     "lon": -81.76461,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-4-church-st-cocoa-fl",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.35339,
     "lon": -80.72528,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-academy-2-church-street-cocoa-fl",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.35339,
     "lon": -80.72529,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-st-davids-by-the-sea-600-s-4th-st-cocoa-beach-fl",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.31116,
     "lon": -80.61475,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-episcopal-church-9870-w-fort-island-trl-crystal-river-fl",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.8712,
     "lon": -82.59885,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-216-orange-ave-daytona-beach-fl",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.20756,
     "lon": -81.01965,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-episcopal-church-381-n-lincoln-st-daytona-beach-fl",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.21321,
     "lon": -81.03431,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-presence-355-n-kepler-rd-deland-fl",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.03345,
     "lon": -81.26013,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-episcopal-church-319-w-wisconsin-ave-deland-fl",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.03175,
     "lon": -81.30869,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-advent-11251-sw-hwy-484-dunnellon-fl",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.05363,
     "lon": -82.30644,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-faith-church-19924-w-blue-cove-dr-dunnellon-fl",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.05075,
     "lon": -82.45019,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-155-clark-st-enterprise-fl",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.87015,
     "lon": -81.26774,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-st-thomas-317-s-mary-st-eustis-fl",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.85022,
     "lon": -81.67931,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-1-n-cleveland-ave-fort-meade-fl",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.75209,
     "lon": -81.79606,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-st-simon-the-cyrenian-1700-avenue-e-fort-pierce-fl",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.45487,
     "lon": -80.34179,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-academy-210-s-indian-river-drive-fort-pierce-fl",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.44672,
     "lon": -80.32242,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-210-s-indian-river-dr-fort-pierce-fl",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.44672,
     "lon": -80.32242,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-church-2201-spring-lake-rd-fruitland-park-fl",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-102-s-9th-st-haines-city-fl",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.10824,
     "lon": -81.62421,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-margarets-episcopal-church-114-n-osceola-ave-inverness-fl",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.83712,
     "lon": -82.33391,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-1709-n-john-young-pkwy-kissimmee-fl",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.30693,
     "lon": -81.41575,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-george-episcopal-church-1250-paige-place-lady-lake-fl",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.94487,
     "lon": -81.95302,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Brotherhood of St. Andrew; Daughters of the King; Episcopal Church Women (ECW); Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-episcopal-church-700-rinehart-rd-lake-mary-fl",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-of-assisi-episcopal-church-43-lake-june-rd-lake-placid-fl",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.31703,
     "lon": -81.36769,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-church-of-the-good-shepherd-221-s-4th-st-lake-wales-fl",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.8988,
     "lon": -81.58338,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-202-s-massachusetts-ave-lakeland-fl",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.04284,
     "lon": -81.95408,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-the-king-episcopal-church-6400-n-socrum-loop-rd-lakeland-fl",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.12514,
     "lon": -81.94655,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-episcopal-church-145-edgewood-drive-lakeland-fl",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.01134,
     "lon": -81.95764,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-church-1820-e-county-road-540a-lakeland-fl",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.95299,
     "lon": -81.93125,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "shepherd-of-the-hills-episcopal-church-2540-w-norvell-bryant-hwy-lecanto-fl",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.89249,
     "lon": -82.47541,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-204-lee-st-leesburg-fl",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.81286,
     "lon": -81.87993,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-151-w-church-ave-longwood-fl",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.70092,
     "lon": -81.3472,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-resurrection-251-e-lake-brantley-dr-longwood-fl",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.69288,
     "lon": -81.41274,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "sweetwater-day-camp-251-e-lake-brantley-dr-longwood-fl",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.69288,
     "lon": -81.41274,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "sweetwater-episcopal-academy-251-e-lake-brantley-drive-longwood-fl",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.69288,
     "lon": -81.41274,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-good-shepherd-331-lake-ave-maitland-fl",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.61855,
     "lon": -81.36844,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-academy-5625-holy-trinity-drive-melbourne-fl",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.19419,
     "lon": -80.6692,
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-church-50-w-strawbridge-ave-melbourne-fl",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.08005,
     "lon": -80.62285,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "hope-episcopal-church-190-interlachen-rd-melbourne-fl",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.227,
     "lon": -80.6982,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-610-young-st-melbourne-fl",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.1272,
     "lon": -80.6274,
@@ -1965,7 +1964,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-sebastians-by-the-sea-2010-s-oak-st-melbourne-beach-fl",
@@ -1982,7 +1982,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.05797,
     "lon": -80.55852,
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-5555-n-tropical-trl-merritt-island-fl",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.45768,
     "lon": -80.71641,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Central Brevard Sharing Center; I Love My Island Senior Services; Links of Hope; Merritt Island High School Food Pantry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-edward-the-confessor-460-n-grandview-st-mount-dora-fl",
@@ -2064,7 +2064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.80017,
     "lon": -81.64053,
@@ -2088,7 +2087,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-luke-the-evangelist-church-505-ne-1st-ave-mulberry-fl",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.89894,
     "lon": -81.97271,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-1650-live-oak-st-new-smyrna-beach-fl",
@@ -2146,7 +2146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.00644,
     "lon": -80.91543,
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Neighborhood associations; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Girl Scouts; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-pre-school-1650-live-oak-street-new-smyrna-beach-fl",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.00644,
     "lon": -80.91543,
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peter-the-fisherman-church-4220-saxon-dr-new-smyrna-beach-fl",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.99933,
     "lon": -80.87743,
@@ -2252,7 +2251,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "coventry-episcopal-church-20-sw-87th-pl-ocala-fl",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.09538,
     "lon": -82.13644,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-503-se-broadway-st-ocala-fl",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.18629,
     "lon": -82.13269,
@@ -2334,7 +2333,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-patricks-episcopal-church-3803-ne-7th-st-ocala-fl",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.19374,
     "lon": -82.08406,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-55-palm-rd-ocala-fl",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.08961,
     "lon": -81.99446,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "corpus-christi-episcopal-church-3430-county-rd-470-okahumpka-fl",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.74765,
     "lon": -81.89729,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-our-saviour-200-nw-3rd-st-okeechobee-fl",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.24587,
     "lon": -80.83116,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-judes-episcopal-church-815-e-graves-ave-orange-city-fl",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.94879,
     "lon": -81.28932,
@@ -2539,7 +2538,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Brotherhood of St. Andrew; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "cathedral-church-of-st-luke-130-n-magnolia-ave-orlando-fl",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.54393,
     "lon": -81.37755,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-the-king-episcopal-church-26-willow-dr-orlando-fl",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.54529,
     "lon": -81.30574,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-4950-s-apopka-vineland-rd-orlando-fl",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.4893,
     "lon": -81.50857,
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-episcopal-church-1603-e-winter-park-rd-orlando-fl",
@@ -2679,7 +2679,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2703,7 +2702,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-family-episcopal-church-1010-n-hiawassee-rd-orlando-fl",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.55507,
     "lon": -81.47596,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "iglesia-episcopal-jesus-de-nazaret-26-willow-dr-orlando-fl",
@@ -2761,7 +2761,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.54529,
     "lon": -81.30574,
@@ -2785,7 +2784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "iglesia-episcopal-san-cristobal-7500-forest-city-rd-orlando-fl",
@@ -2802,7 +2802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.62487,
     "lon": -81.41518,
@@ -2826,7 +2825,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mary-of-the-angels-episcopal-church-6316-matchett-rd-orlando-fl",
@@ -2843,7 +2843,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.46901,
     "lon": -81.36298,
@@ -2867,7 +2866,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-the-baptist-church-1000-bethune-dr-orlando-fl",
@@ -2884,7 +2884,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.5293,
     "lon": -81.42019,
@@ -2908,7 +2907,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-5873-n-dean-rd-orlando-fl",
@@ -2925,7 +2925,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.60877,
     "lon": -81.24405,
@@ -2949,7 +2948,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michaels-church-2499-n-westmoreland-dr-orlando-fl",
@@ -2966,7 +2966,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.57383,
     "lon": -81.39354,
@@ -2990,7 +2989,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Good News Gardens",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-episcopal-counseling-center-1021-a-east-robinson-street-orlando-fl",
@@ -3007,7 +3007,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.54583,
     "lon": -81.36601,
@@ -3031,7 +3030,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-child-1225-w-granada-blvd-ormond-beach-fl",
@@ -3048,7 +3048,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.26718,
     "lon": -81.10251,
@@ -3072,7 +3071,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Men's group; Daughters of the King; Bible study; Grandparents Raising Grandchildren of Volusia County",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-44-s-halifax-dr-ormond-beach-fl",
@@ -3089,7 +3089,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.28829,
     "lon": -81.0448,
@@ -3113,7 +3112,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-incarnation-1231-reformation-dr-oviedo-fl",
@@ -3130,7 +3130,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -3154,7 +3153,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-our-savior-1000-jersey-ln-ne-palm-bay-fl",
@@ -3171,7 +3171,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.02088,
     "lon": -80.58478,
@@ -3195,7 +3194,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-blessed-redeemer-1225-degroodt-rd-sw-palm-bay-fl",
@@ -3212,7 +3212,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.96677,
     "lon": -80.67722,
@@ -3236,7 +3235,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors; Daughters of the King; Choir; Brotherhood of St. Andrew; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-4110-s-ridgewood-avenue-port-orange-fl",
@@ -3253,7 +3253,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.14196,
     "lon": -80.98681,
@@ -3277,7 +3276,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-nativity-1151-sw-del-rio-blvd-port-saint-lucie-fl",
@@ -3294,7 +3294,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.28775,
     "lon": -80.37786,
@@ -3318,7 +3317,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-faith-episcopal-church-6990-s-us-highway-1-port-saint-lucie-fl",
@@ -3335,7 +3335,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.3381,
     "lon": -80.32571,
@@ -3359,7 +3358,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-st-luke-and-st-peter-2745-canoe-creek-rd-saint-cloud-fl",
@@ -3376,7 +3376,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.21941,
     "lon": -81.29294,
@@ -3400,7 +3399,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-cross-episcopal-church-401-s-park-ave-sanford-fl",
@@ -3417,7 +3417,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.80892,
     "lon": -81.26795,
@@ -3441,7 +3440,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "sanford-christian-sharing-center-inc-po-box-762-sanford-fl",
@@ -3458,7 +3458,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -3482,7 +3481,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-apostles-505-grant-ave-satellite-beach-fl",
@@ -3499,7 +3499,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.18173,
     "lon": -80.60308,
@@ -3523,7 +3522,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-elizabeths-episcopal-church-901-clearmont-st-sebastian-fl",
@@ -3540,7 +3540,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.78544,
     "lon": -80.48994,
@@ -3564,7 +3563,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-agnes-episcopal-church-3840-lakeview-dr-sebring-fl",
@@ -3581,7 +3581,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.50613,
     "lon": -81.48441,
@@ -3605,7 +3604,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-gabriels-episcopal-church-414-pine-st-titusville-fl",
@@ -3622,7 +3622,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.61037,
     "lon": -80.80928,
@@ -3646,7 +3645,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-edwards-school-1895-saint-edwards-drive-vero-beach-fl",
@@ -3663,7 +3663,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.59889,
     "lon": -80.33862,
@@ -3687,7 +3686,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-augustine-of-canterbury-475-43rd-ave-vero-beach-fl",
@@ -3704,7 +3704,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.59554,
     "lon": -80.43067,
@@ -3728,7 +3727,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-2365-pine-ave-vero-beach-fl",
@@ -3745,7 +3745,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.64351,
     "lon": -80.3942,
@@ -3769,7 +3768,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-anns-episcopal-church-204-n-9th-ave-wauchula-fl",
@@ -3786,7 +3786,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.54887,
     "lon": -81.81554,
@@ -3810,7 +3809,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-messiah-241-n-main-street-winter-garden-fl",
@@ -3827,7 +3827,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.5683,
     "lon": -81.58561,
@@ -3851,7 +3850,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-academy-5001-state-road-540-west-winter-haven-fl",
@@ -3868,7 +3868,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.01106,
     "lon": -81.80857,
@@ -3892,7 +3891,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-cross-church-201-kipling-lane-winter-haven-fl",
@@ -3909,7 +3909,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 27.99783,
     "lon": -81.6729,
@@ -3933,7 +3932,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Daughters of the King; Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-656-avenue-l-nw-winter-haven-fl",
@@ -3950,7 +3950,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.0331,
     "lon": -81.73415,
@@ -3974,7 +3973,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-338-e-lyman-ave-winter-park-fl",
@@ -3991,7 +3991,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.59497,
     "lon": -81.34731,
@@ -4015,7 +4014,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-richards-episcopal-church-5151-lake-howell-rd-winter-park-fl",
@@ -4032,7 +4032,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.61682,
     "lon": -81.32678,
@@ -4056,7 +4055,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-preparatory-school-of-florida-5700-trinity-prep-lane-winter-park-fl",
@@ -4073,7 +4073,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.6114,
     "lon": -81.27037,
@@ -4097,6 +4096,7 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 658-4439 | diocese@episwtn.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.25535,
     "lon": -88.98946,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "ravenscroft-chapel-8219-holly-grove-rd-brighton-tn",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 837-1312 | rfvandergrift@att.net",
-    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.5054,
     "lon": -89.79266,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "christ-church-episcopal-140-n-washington-ave-brownsville-tn",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 772-9156 | diocese@episwtn.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59523,
     "lon": -89.26206,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-apostles-1380-wolf-river-blvd-collierville-tn",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 937-3830 | holly@holyapostlestn.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.08571,
     "lon": -89.69703,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-andrews-episcopal-church-106-walnut-st-collierville-tn",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 853-0425 | jeff@standrewscollierville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.04296,
     "lon": -89.66657,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-independent-school-1880-wolf-river-blvd-collierville-tn",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.09804,
     "lon": -89.72051,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-303-s-munford-st-covington-tn",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 476-6577 | diocese@episwtn.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.56287,
     "lon": -89.648,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mary-episcopal-church-108-n-king-ave-dyersburg-tn",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 285-3522 | office@stmarysdyersburg.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.0334,
     "lon": -89.39075,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-episcopal-church-2425-s-germantown-rd-germantown-tn",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 754-7282 | office@stgeorgesgermantown.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.0821,
     "lon": -89.81171,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-the-apostle-episcopal-church-6-esquire-lewis-rd-humboldt-tn",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 388-9055 | diocese@episwtn.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.80151,
     "lon": -88.88483,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-309-e-baltimore-st-jackson-tn",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 424-0556 | stlukes@estlukes.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.61345,
     "lon": -88.81711,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "immanuel-episcopal-church-45-second-st-la-grange-tn",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 486-5530 | wallacewitmer36@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.04431,
     "lon": -89.24165,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-paul-episcopal-church-2406-us-highway-70-e-mason-tn",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 426-7858 | stpaulmason1847@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.42967,
     "lon": -89.49592,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-260-n-main-st-mason-tn",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 430-2129",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "barth-house-episcopal-center-409-patterson-ave-memphis-tn",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "barthhouse@episwtn.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.13256,
     "lon": -90.04956,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-102-n-2nd-st-memphis-tn",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 525-6602 | nbrasfield@calvarymemphis.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.14712,
     "lon": -90.05056,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-communion-4645-walnut-grove-rd-memphis-tn",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 767-6987 | mmcguire@holycommunion.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.13101,
     "lon": -89.9065,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-st-lukes-episcopal-church-1720-peabody-ave-memphis-tn",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 272-7425 | lucy@gracestlukes.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.13214,
     "lon": -90.00425,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-johns-episcopal-church-3245-central-ave-memphis-tn",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 323-8597 | jay@stjohnsmemphis.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.12335,
     "lon": -89.95327,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-columba-episcopal-camp-and-retreat-center-4577-billy-maher-road-memphis-tn",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 377-9284 | ali@saintcolumbamemphis.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.25017,
     "lon": -89.86395,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-constance-episcopal-church-1508-s-white-station-rd-memphis-tn",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "hmathes@holytrinityec.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.09041,
     "lon": -89.89083,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-constance-episcopal-church-1508-s-white-station-rd-memphis-tn-2",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "hmathes@holytrinityec.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.09041,
     "lon": -89.89083,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-cathedral-700-poplar-ave-memphis-tn",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 527-3361 | apouncey@stmarysmemphis.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.14593,
     "lon": -90.03475,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philip-episcopal-church-9380-davies-plantation-rd-memphis-tn",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 388-9830 | office@stphilipmemphis.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.2182,
     "lon": -89.74969,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-church-4063-sykes-rd-millington-tn",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(901) 872-0303 | stannesmillington@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.30947,
     "lon": -89.92698,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-103-s-poplar-st-paris-tn",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 642-1721 | gracechurchparistn@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.3011,
     "lon": -88.32528,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "immanuel-episcopal-church-134-s-jefferson-st-ripley-tn",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 635-5593 | crwebbjr@bellsouth.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.74275,
     "lon": -89.53164,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-203-w-market-st-somerville-tn",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "setimau121@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.24429,
     "lon": -89.35144,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-422-e-church-st-union-city-tn",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(731) 885-9575 | chuckmcmillen@mac.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.42426,
     "lon": -89.05436,
@@ -1186,6 +1185,7 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

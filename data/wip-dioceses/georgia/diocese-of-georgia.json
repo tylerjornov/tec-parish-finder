@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.52907,
     "lon": -84.13386,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-patricks-episcopal-church-4800-old-dawson-rd-albany-ga",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.61298,
     "lon": -84.26905,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Daughters of the King; Episcopal Church Women (ECW); Girl Scouts; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-patricks-lutheran-episcopal-church-4800-old-dawson-road-albany-ga",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.61298,
     "lon": -84.26905,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-212-n-jefferson-st-albany-ga",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-408-s-lee-st-americus-ga",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.06652,
     "lon": -84.23035,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Young adult group; Nursery; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-1904-greene-st-augusta-ga",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.48338,
     "lon": -81.99732,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-2230-walton-way-augusta-ga",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.47687,
     "lon": -82.01403,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-pauls-church-605-reynolds-st-augusta-ga",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.47543,
     "lon": -81.96123,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Godly Play; Eucharistic Ministers/Visitors; Education for Ministry (EFM); Daughters of the King; Choir; Youth group; Al anon",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-2321-lumpkin-rd-augusta-ga",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.42027,
     "lon": -82.0342,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-augustine-of-canterbury-3321-wheeler-rd-augusta-ga",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.49098,
     "lon": -82.06063,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Nursery; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Education for Ministry (EFM); Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-1114-12th-st-augusta-ga",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.46654,
     "lon": -81.97826,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-516-e-broughton-st-bainbridge-ga",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.9058,
     "lon": -84.57192,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-aquinas-episcopal-church-2093-golden-isles-w-baxley-ga",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.78571,
     "lon": -82.36985,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-church-501-college-st-blakely-ga",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.37919,
     "lon": -84.93603,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-church-780-pennick-rd-brunswick-ga",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-athanasius-episcopal-church-1321-albany-st-brunswick-ga",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.14829,
     "lon": -81.48874,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-900-gloucester-st-brunswick-ga",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.14995,
     "lon": -81.49185,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Choir; Brotherhood of St. Andrew; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-158-e-cherry-st-cochran-ga",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.39052,
     "lon": -83.35241,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-408-s-1st-st-cordele-ga",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.9653,
     "lon": -83.77282,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-310-greene-st-darien-ga",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Nursery; Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Education for Ministry (EFM); Daughters of the King; Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-cyprian-episcopal-church-401-fort-king-george-dr-darien-ga",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.36671,
     "lon": -81.43114,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-spirit-1170-georgia-ave-se-dawson-ga",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-204-south-coffee-avenue-douglas-ga",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.50792,
     "lon": -82.84692,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-318-academy-ave-dublin-ga",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-212-w-pine-st-fitzgerald-ga",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.71352,
     "lon": -83.25603,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grovetown-episcopal-lutheran-mission-1040-newmantown-road-grovetown-ga",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.43751,
     "lon": -82.20601,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-335-n-louisville-st-harlem-ga",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.42012,
     "lon": -82.31062,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-138-s-dooley-st-hawkinsville-ga",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.28071,
     "lon": -83.47,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Nursery; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-atonement-2616-tobacco-rd-hephzibah-ga",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.38013,
     "lon": -82.08882,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Girl Scouts; Episcopal Church Women (ECW); Daughters of the King; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-episcopal-church-302-e-general-stewart-way-hinesville-ga",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.85532,
     "lon": -81.59106,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-745-s-palm-st-jesup-ga",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.58978,
     "lon": -81.87887,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "king-of-peace-6230-laurel-island-pkwy-kingsland-ga",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Girl Scouts; Eucharistic Ministers/Visitors; Choir; Boy Scouts; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "tierra-santa-2895-colerain-rd-kingsland-ga",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.82182,
     "lon": -81.70242,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-st-mary-magdalene-321-w-7th-st-louisville-ga",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.00248,
     "lon": -82.41043,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-comforter-church-473-furys-ferry-road-martinez-ga",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.53389,
     "lon": -82.07758,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "our-savior-episcopal-church-4227-columbia-rd-martinez-ga",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.50796,
     "lon": -82.11862,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-margaret-of-scotland-church-1499-s-main-st-moultrie-ga",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.16054,
     "lon": -83.78901,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-patricks-episcopal-church-1285-pine-barren-rd-pooler-ga",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.10004,
     "lon": -81.28057,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-306-n-court-st-quitman-ga",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.78667,
     "lon": -83.56002,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-elizabeth-of-hungary-16491-ga-highway-144-richmond-hill-ga",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.87201,
     "lon": -81.25992,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Episcopal Church Women (ECW); Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-155-goshen-rd-rincon-ga",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.24981,
     "lon": -81.21321,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Girl Scouts; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Choir; Boy Scouts; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-305-wheeler-st-saint-marys-ga",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.72361,
     "lon": -81.54953,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Daughters of the King; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-114-2nd-ave-w-sandersville-ga",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.99307,
     "lon": -82.80997,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-episcopal-28-bull-street-savannah-ga",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Neighborhood associations; Nursery; Young adult group; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "columba-house-214-e-34th-street-savannah-ga",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.05904,
     "lon": -81.09668,
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-bartholomews-chapel-burroughs-wild-heron-at-chevis-road-savannah-ga",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 31.96956,
     "lon": -81.24385,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "st-francis-of-the-islands-episcopal-church-590-walthour-rd-savannah-ga",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.01182,
     "lon": -80.95896,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Neighborhood associations; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-episcopal-church-15-willow-rd-savannah-ga",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.97072,
     "lon": -81.13408,
@@ -1965,7 +1964,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-325-bull-street-savannah-ga",
@@ -1982,7 +1982,6 @@
     "ssm": "No - Homosexuality Seen as Sinful",
     "theological_cultural_alignment": "Traditional Orthodox - Both Theologically & Socially Conservative",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.07366,
     "lon": -81.09446,
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Men's group; Preschool; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-1401-martin-luther-king-jr-blvd-savannah-ga",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.06383,
     "lon": -81.10357,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-paul-the-apostle-canon-t-porter-ball-memorial-parish-house-savannah-ga",
@@ -2064,7 +2064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2088,7 +2087,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); LGBTQ group; Men's group; Youth group; Narcotics Anonymous (N/A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-episcopal-church-3-west-ridge-rd-savannah-ga",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.94031,
     "lon": -81.04888,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-2-saint-thomas-ave-savannah-ga",
@@ -2146,7 +2146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.98355,
     "lon": -81.05787,
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "vocare-young-adult-ministry-in-georgia-18-east-34th-street-savannah-ga",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.05954,
     "lon": -81.09861,
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-frederica-6329-frederica-rd-st-simons-island-ga",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.22425,
     "lon": -81.38687,
@@ -2252,7 +2251,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir; Bible study; Youth group; Backpack Buddies",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-nativity-615-mallery-st-st-simons-island-ga",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.14125,
     "lon": -81.39341,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-4401-country-club-rd-statesboro-ga",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.43734,
     "lon": -81.81468,
@@ -2334,7 +2333,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-good-shepherd-621-w-main-st-swainsboro-ga",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.59108,
     "lon": -82.34665,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-443-s-hansell-st-thomasville-ga",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.8373,
     "lon": -83.97187,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Young adult group; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-515-n-oak-st-thomasville-ga",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.83949,
     "lon": -83.9875,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-216-remington-ave-thomasville-ga",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.83742,
     "lon": -83.9776,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-cross-episcopal-church-515-fluker-st-thomson-ga",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.45732,
     "lon": -82.50432,
@@ -2539,7 +2538,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-episcopal-church-2411-central-ave-n-tifton-ga",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.47668,
     "lon": -83.5062,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Men's group; Godly Play; Eucharistic Ministers/Visitors; Education for Ministry (EFM); Choir; Boy Scouts; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-804-jones-ave-tybee-island-ga",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.00415,
     "lon": -80.84672,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Education for Ministry (EFM); Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-1521-n-patterson-st-valdosta-ga",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.8495,
     "lon": -83.28751,
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; College student group; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Nursery; Preschool; Young adult group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-the-king-episcopal-church-101-e-central-ave-valdosta-ga",
@@ -2679,7 +2679,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.83258,
     "lon": -83.27778,
@@ -2703,7 +2702,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-cafe-1515-n-patterson-st-valdosta-ga",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.84944,
     "lon": -83.2875,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-episcopal-church-3565-bemiss-rd-valdosta-ga",
@@ -2761,7 +2761,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.89223,
     "lon": -83.26999,
@@ -2785,7 +2784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-annunciation-1512-meadows-lane-vidalia-ga",
@@ -2802,7 +2802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.20677,
     "lon": -82.39803,
@@ -2826,7 +2825,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-401-pendleton-st-waycross-ga",
@@ -2843,7 +2843,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.21046,
     "lon": -82.35988,
@@ -2867,7 +2866,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michaels-episcopal-church-515-s-liberty-st-waynesboro-ga",
@@ -2884,7 +2884,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.08738,
     "lon": -82.01416,
@@ -2908,7 +2907,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); College student group; Choir; Bible study; Youth group; Wimberly House Ministries and Heaping Hand Ministries",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-209-bedell-ave-woodbine-ga",
@@ -2925,7 +2925,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.9702,
     "lon": -81.724,
@@ -2949,6 +2948,7 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

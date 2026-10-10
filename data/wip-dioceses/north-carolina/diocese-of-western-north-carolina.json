@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.56548,
     "lon": -82.54281,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-advocate-the-red-door-community-60-church-st-asheville-nc",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59284,
     "lon": -82.55298,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations; Young adult group; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-1201-riverside-dr-asheville-nc",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.62452,
     "lon": -82.59138,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Wild Heart WNC",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-871-merrimon-ave-asheville-nc",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.62875,
     "lon": -82.55212,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Youth faith formation/Sunday school; Safe Shelter; Women Walking the Way",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-episcopal-church-1-school-rd-asheville-nc",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.57481,
     "lon": -82.61281,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Food Connection; WNC Franciscan Justice Circle",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-giles-chapel-1617-hendersonville-rd-asheville-nc",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.51054,
     "lon": -82.5265,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "st-johns-episcopal-church-290-old-haw-creek-rd-asheville-nc",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59734,
     "lon": -82.5077,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Eucharistic Ministers/Visitors; Habitat for Humanity; LGBTQ group; Youth faith formation/Sunday school; CORE; Community Organized Relief Efforts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-219-chunns-cove-rd-asheville-nc",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.6029,
     "lon": -82.53101,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Girl Scouts; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-337-charlotte-street-asheville-nc",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.61119,
     "lon": -82.54571,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthias-episcopal-church-1-dundee-st-asheville-nc",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59208,
     "lon": -82.54788,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Habitat for Humanity; Pisgah Legal Services",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-60-church-st-asheville-nc",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59284,
     "lon": -82.55298,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Eucharistic Ministers/Visitors; FORMA; Godly Play; Habitat for Humanity; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-cross-122-skiles-way-banner-elk-nc",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.16171,
     "lon": -81.8643,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-transfiguration-106-saylor-lane-bat-cave-nc",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.45005,
     "lon": -82.27982,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-1303-n-12th-st-bessemer-city-nc",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.30041,
     "lon": -81.27781,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-424-w-state-st-black-mountain-nc",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.61456,
     "lon": -82.32458,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mary-of-the-hills-church-140-chestnut-dr-blowing-rock-nc",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.13051,
     "lon": -81.67808,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Daughters of the King; Episcopal Church Women (ECW); Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-170-councill-st-boone-nc",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.21714,
     "lon": -81.6755,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Godly Play; Men's group; Hunger & Health Coalition; Angel Tree; Community Care Clinic",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-episcopal-church-256-e-main-st-brevard-nc",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.23234,
     "lon": -82.73133,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-372-reservoir-rd-burnsville-nc",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91253,
     "lon": -82.29792,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-on-the-hill-episcopal-church-251-academy-st-canton-nc",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.52986,
     "lon": -82.83369,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Daughters of the King; Episcopal Church Women (ECW); Godly Play; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-1448-highway-107-s-cashiers-nc",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.09854,
     "lon": -83.08632,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Bazaar Barn; English Language Learners",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "whiteside-summer-chapel-4546-whiteside-cove-rd-cashiers-nc",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.06345,
     "lon": -83.12593,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "faith-memorial-chapel-11-faith-chapel-rd-cedar-mountain-nc",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.14554,
     "lon": -82.65219,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "st-francis-of-assisi-church-82-old-river-rd-cherokee-nc",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.47123,
     "lon": -83.31555,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-episcopal-church-385-forest-hills-rd-cullowhee-nc",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.30445,
     "lon": -83.18123,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-st-peters-by-the-lake-8433-fairfield-forest-rd-denver-nc",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.50733,
     "lon": -80.97769,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-the-episcopal-church-in-edneyville-1659-st-pauls-rd-edneyville-nc",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.41196,
     "lon": -82.33815,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-in-the-wilderness-1895-greenville-highway-flat-rock-nc",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.28189,
     "lon": -82.44272,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Young adult group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-2840-hendersonville-rd-fletcher-nc",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.44283,
     "lon": -82.50613,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Habitat for Humanity; Men's group; Calvary Care Fund",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-st-cyprians-chapel-216-roller-mill-rd-franklin-nc",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.16718,
     "lon": -83.40369,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-st-agnes-chapel-84-church-st-franklin-nc",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.1829,
     "lon": -83.38244,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-542-st-johns-church-rd-franklin-nc",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.14273,
     "lon": -83.49154,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-1201-s-new-hope-rd-gastonia-nc",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.24921,
     "lon": -81.14426,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-258-west-franklin-boulevard-gastonia-nc",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.26224,
     "lon": -81.18493,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-episcopal-church-495-herbert-hills-dr-hayesville-nc",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.03723,
     "lon": -83.80058,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Young adult group; Youth faith formation/Sunday school; Fiber Arts Group; Stamping Group; Knitting and Prayer Shawl Ministry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "la-capilla-de-santa-maria-186-st-marys-dr-hendersonville-nc-28792-hendersonville-nc",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.35554,
     "lon": -82.42893,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-766-n-main-st-hendersonville-nc",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.32165,
     "lon": -82.46221,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Good News Gardens; Habitat for Humanity; Men's group; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-726-1st-ave-nw-hickory-nc",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.73329,
     "lon": -81.34949,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Nursery; Young adult group; Youth faith formation/Sunday school; Youth group; Young Family Fellowship; Hickory Soup Kitchen; Exodus Homes; Family Care Center of Catawba Valley, Inc; Greater Hickory Cooperative Christian Ministry; Lake Logan",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-130-39th-ave-pl-nw-hickory-nc",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.78453,
     "lon": -81.32305,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-church-of-the-incarnation-520-main-st-highlands-nc",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.05219,
     "lon": -83.19511,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-806-college-ave-sw-lenoir-nc",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91293,
     "lon": -81.53902,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Yokefellow of Caldwell County   https://www.yokefellow.org/; Caldwell County Habitat for Humanity    https://www.caldwellhabitat.org/; Helping Hands Clinic   https://www.helpinghandsclinic.org/; Lenoir Soup Kitchen   https://www.lenoirsoupkitchen.org/; Shelter Home of the Foothills   https://www.shelterhomecc.org",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "our-saviour-episcopal-church-1128-highway-182-lincolnton-nc",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.46161,
     "lon": -81.27834,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-315-north-cedar-street-lincolnton-nc",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.47442,
     "lon": -81.25316,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Youth group; Lincoln Youth Neighborhood Community",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-chapel-236-carolina-ave-linville-nc",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 36.07038,
     "lon": -81.86891,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "church-of-the-resurrection-160-high-ridge-road-little-switzerland-nc",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.85109,
     "lon": -82.09037,
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-289-s-main-st-marion-nc",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.68033,
     "lon": -82.00691,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; FORMA; Godly Play; Good News Gardens; Journey to Adulthood (J2A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-spirit-433-bone-camp-rd-marshall-nc",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.83535,
     "lon": -82.58554,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; World Central Kitchen; La Esperanza; Beacon of Hope; Community Housing Coalition; Beloved Asheville; Marshall Relief Alliance; Pisgah Legal Services; Neighbors In Need; Homeward Bound",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-family-419-turnpike-rd-mills-river-nc",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.37039,
     "lon": -82.58091,
@@ -1965,7 +1964,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-303-s-king-st-morganton-nc",
@@ -1982,7 +1982,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.74227,
     "lon": -81.68564,
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-140-st-marys-church-rd-morganton-nc",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.75992,
     "lon": -81.72081,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-lake-james-1865-n-powerhouse-rd-morganton-nc",
@@ -2064,7 +2064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.75731,
     "lon": -81.82276,
@@ -2088,7 +2087,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Daughters of the King; Episcopal Church Women (ECW); Habitat for Humanity; Nursery; Preschool; Burke United Christian Ministries; Glen Alpine Food Pantry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-and-st-marys-episcopal-church-140-st-marys-church-rd-morganton-nc",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.75992,
     "lon": -81.72081,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Episcopal Church Women (ECW); Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-messiah-76-peachtree-st-murphy-nc",
@@ -2146,7 +2146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.08669,
     "lon": -84.03338,
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew; Choir; Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-savior-2118-elk-park-hwy-newland-nc",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.1191,
     "lon": -81.93331,
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-epiphany-750-w-13th-st-newton-nc",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.67504,
     "lon": -81.23184,
@@ -2252,7 +2251,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-mountainside-church-a-lutheran-and-episcopal-fellowship-129-s-main-st-robbinsville-nc",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.32736,
     "lon": -83.80865,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-408-n-main-st-rutherfordton-nc",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.36643,
     "lon": -81.95782,
@@ -2334,7 +2333,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Habitat for Humanity; Men's group; Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-gabriels-episcopal-church-330-n-ridgecrest-ave-rutherfordton-nc",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.37736,
     "lon": -81.96422,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-transfiguration-72-charles-st-saluda-nc",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.23748,
     "lon": -82.34597,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Daughters of the King; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-502-w-sumter-st-shelby-nc",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.29363,
     "lon": -81.54649,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-2543-us-hwy-21-s-sparta-nc",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.48405,
     "lon": -81.08869,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-15-hemlock-ave-spruce-pine-nc",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91366,
     "lon": -82.07793,
@@ -2539,7 +2538,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Neighborhood associations; AMY Wellness Foundation; Jungle Aviation and Relay Service; Mitchell County Safe Place; Mitchell County Senior Center; Mitchell County Shepherd's Staff; Philanthropic Educational Organization",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-18-jackson-st-sylva-nc",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.37272,
     "lon": -83.22392,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Men's group; Neighborhood associations; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-814-markham-rd-tryon-nc",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.21508,
     "lon": -82.23056,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-cross-150-melrose-ave-tryon-nc",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.20569,
     "lon": -82.24203,
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-in-the-mountains-394-n-haywood-st-waynesville-nc",
@@ -2679,7 +2679,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.48875,
     "lon": -82.98887,
@@ -2703,7 +2702,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "parish-of-holy-communion-120-glendale-school-rd-west-jefferson-nc",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.34704,
     "lon": -81.38244,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Habitat for Humanity; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-206-west-cowles-street-wilkesboro-nc",
@@ -2761,7 +2761,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.14923,
     "lon": -81.15438,
@@ -2785,6 +2784,7 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; LGBTQ group; Men's group; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

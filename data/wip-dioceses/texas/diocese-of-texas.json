@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.42122,
     "lon": -95.24486,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-907-washington-st-anahuac-tx",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.76527,
     "lon": -94.68406,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-comforter-234-south-arcola-office-angleton-tx",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Boy Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-souls-episcopal-church-wellspring-on-main-arlington-tx",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; College student group; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-209-w-27th-st-austin-tx",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.29178,
     "lon": -97.73908,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; College student group; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "austin-farm-church-9301-hog-eye-road-austin-tx",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.28248,
     "lon": -97.62334,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-resurrection-2200-justin-ln-austin-tx",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.34484,
     "lon": -97.73607,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Daughters of the King; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-student-center-in-austin-209-w-27th-street-austin-tx",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.29178,
     "lon": -97.73908,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; College student group; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-veterans-fellowship-st-marks-episcopal-church-austin-tx",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "front-porch-no-longer-in-operation-207-w-27th-street-austin-tx",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.29178,
     "lon": -97.73906,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "iglesia-san-francisco-de-asis-7000-woodhue-dr-austin-tx",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.19876,
     "lon": -97.80121,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "soco-episcopal-community-2010-alameda-dr-austin-tx",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.24129,
     "lon": -97.74563,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-11819-interstate-hwy-35-s-austin-tx",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.13193,
     "lon": -97.79868,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-episcopal-church-8724-travis-hills-dr-austin-tx",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.25797,
     "lon": -97.88945,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-episcopal-church-301-e-8th-st-austin-tx",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.26916,
     "lon": -97.73965,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-episcopal-church-4301-n-interstate-35-austin-tx",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Eucharistic Ministers/Visitors; Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-hildegards-community-4001-speedway-austin-tx",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.30307,
     "lon": -97.73188,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-1941-webberville-rd-austin-tx",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.28343,
     "lon": -97.67317,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-11201-parkfield-dr-austin-tx",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.38534,
     "lon": -97.69619,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Neighborhood associations; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-on-the-lake-episcopal-church-5600-ranch-road-620-n-austin-tx",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-2128-barton-hills-dr-austin-tx",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.25308,
     "lon": -97.78526,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Daughters of the King; Episcopal Church Women (ECW); Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-8134-mesa-dr-austin-tx",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.37213,
     "lon": -97.75702,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Habitat for Humanity; Youth faith formation/Sunday school; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Girl Scouts; Episcopal Church Women (ECW); Daughters of the King; Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michaels-episcopal-church-1500-n-capital-of-texas-hwy-austin-tx",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.31808,
     "lon": -97.82286,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Habitat for Humanity; Youth faith formation/Sunday school; Preschool; Nursery; Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Education for Ministry (EFM)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-episcopal-church-of-the-good-shepherd-3201-windsor-rd-austin-tx",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.2967,
     "lon": -97.76835,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-center-304-east-7th-street-austin-tx",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.26832,
     "lon": -97.73991,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-603-spring-st-bastrop-tx",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.11155,
     "lon": -97.32117,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-2200-avenue-e-bay-city-tx",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.98177,
     "lon": -95.97122,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Daughters of the King; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-5010-n-main-st-baytown-tx",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.77847,
     "lon": -94.96404,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Daughters of the King; Eucharistic Ministers/Visitors; FORMA; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-college-community-at-lamar-university-796-east-virginia-beaumont-tx",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.0419,
     "lon": -94.07728,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-680-calder-st-beaumont-tx",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.08627,
     "lon": -94.10095,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-4090-delaware-st-beaumont-tx",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.10448,
     "lon": -94.1449,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "ubi-caritas-4400-highland-avenue-beaumont-tx",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.04376,
     "lon": -94.08548,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-cross-lake-travis-18101-w-hwy-71-suite-120-bee-cave-tx",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.33033,
     "lon": -98.02331,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-high-school-4650-bissonnet-st-bellaire-tx",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.71332,
     "lon": -95.45689,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-24-n-masonic-st-bellville-tx",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.95168,
     "lon": -96.25821,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-episcopal-church-2310-airline-dr-brenham-tx",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.14575,
     "lon": -96.39564,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-217-w-26th-st-bryan-tx",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.67377,
     "lon": -96.37428,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-601-n-wood-st-burnet-tx",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Girl Scouts; Daughters of the King; Boy Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-700-gregg-st-calvert-tx",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.97405,
     "lon": -96.67842,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-200-n-travis-ave-cameron-tx",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.85197,
     "lon": -96.97786,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-308-cottage-rd-carthage-tx",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.16688,
     "lon": -94.34491,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-3520-w-whitestone-blvd-cedar-park-tx",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.51183,
     "lon": -97.88232,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Boy Scouts; Youth group; Hill Country Community Ministries",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-julian-of-norwich-episcopal-church-3823-brushy-creek-road-cedar-park-tx",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.51203,
     "lon": -97.76141,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-1063-southview-cir-center-tx",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.78558,
     "lon": -94.18526,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "canterbury-episcopal-student-center-texas-a-and-m-and-blinn-college-902-george-bush-drive-college-station-tx",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.60965,
     "lon": -96.33335,
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-1101-rock-prairie-rd-college-station-tx",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.57859,
     "lon": -96.29943,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Habitat for Humanity",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-906-george-bush-dr-college-station-tx",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.60969,
     "lon": -96.33331,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Habitat for Humanity; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; College student group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-915-travis-st-columbus-tx",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.70785,
     "lon": -96.53922,
@@ -1965,7 +1964,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-the-apostle-episcopal-church-1803-highland-hollow-dr-conroe-tx",
@@ -1982,7 +1982,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.34354,
     "lon": -95.51947,
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Daughters of the King; Boy Scouts; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-1803-highland-hollow-dr-conroe-tx",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.34354,
     "lon": -95.51947,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Godly Play; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martins-episcopal-church-1602-s-fm-116-copperas-cove-tx",
@@ -2064,7 +2064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.10765,
     "lon": -97.90782,
@@ -2088,7 +2087,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-1301-e-houston-ave-crockett-tx",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.32194,
     "lon": -95.44415,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-1301-east-houston-ave-crockett-tx",
@@ -2146,7 +2146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.32194,
     "lon": -95.44415,
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-jordan-school-1303-east-houston-ave-crockett-tx",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.32197,
     "lon": -95.44414,
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-aidans-episcopal-church-13131-fry-rd-cypress-tx",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2252,7 +2251,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Young adult group; Preschool; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-15415-n-eldridge-pkwy-cypress-tx",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); LGBTQ group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-resurrection-905-south-church-street-decatur-tx",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.22867,
     "lon": -97.58548,
@@ -2334,7 +2333,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-church-4613-highway-3-dickinson-tx",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.4589,
     "lon": -95.04913,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-304-e-stockbridge-st-eagle-lake-tx",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.58922,
     "lon": -96.33095,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-9700-saints-circle-fort-worth-tx",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.73024,
     "lon": -97.49421,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Godly Play; Journey to Adulthood (J2A); Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-church-5709-wedgewood-drive-fort-worth-tx",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.66667,
     "lon": -97.39055,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Journey to Adulthood (J2A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-in-the-meadow-episcopal-church-2529-mt-view-avenue-fort-worth-tx",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2539,7 +2538,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-simon-of-cyrene-episcopal-church-5709-wedgewood-drive-fort-worth-tx",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.66667,
     "lon": -97.39055,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-3401-bellaire-dr-s-fort-worth-tx",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.70152,
     "lon": -97.36534,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; College student group; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-1307-w-5th-st-freeport-tx",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.95188,
     "lon": -95.36378,
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Eucharistic Ministers/Visitors; Daughters of the King; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-1207-winding-way-dr-friendswood-tx",
@@ -2679,7 +2679,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.51749,
     "lon": -95.19259,
@@ -2703,7 +2702,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-1115-36th-st-galveston-tx",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.29501,
     "lon": -94.8066,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-augustine-of-hippo-galveston-1410-jack-johnson-blvd-galveston-tx",
@@ -2761,7 +2761,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2785,7 +2784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-vincents-house-2817-postoffice-street-galveston-tx",
@@ -2802,7 +2802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.3029,
     "lon": -94.79954,
@@ -2826,7 +2825,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Preschool; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-2216-ball-st-galveston-tx",
@@ -2843,7 +2843,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.30223,
     "lon": -94.7917,
@@ -2867,7 +2866,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "william-temple-episcopal-center-427-market-galveston-tx",
@@ -2884,7 +2884,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.31087,
     "lon": -94.77271,
@@ -2908,7 +2907,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-1314-e-university-ave-georgetown-tx",
@@ -2925,7 +2925,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.63335,
     "lon": -97.66399,
@@ -2949,7 +2948,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-west-campus-4402-db-wood-georgetown-tx",
@@ -2966,7 +2966,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2990,7 +2989,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-4530-acton-hwy-granbury-tx",
@@ -3007,7 +3007,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.44329,
     "lon": -97.71436,
@@ -3031,7 +3030,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Godly Play; Habitat for Humanity; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "people-helping-people-306-kings-plaza-granbury-tx",
@@ -3048,7 +3048,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -3072,7 +3071,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-hamilton-county-st-marys-1101-south-rice-hamilton-tx",
@@ -3089,7 +3089,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.69472,
     "lon": -98.12774,
@@ -3113,7 +3112,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-episcopal-church-408-cedar-st-hearne-tx",
@@ -3130,7 +3130,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.87915,
     "lon": -96.59604,
@@ -3154,7 +3153,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-bartholomews-church-811-14th-st-hempstead-tx",
@@ -3171,7 +3171,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.09743,
     "lon": -96.08338,
@@ -3195,7 +3194,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-214-college-st-henderson-tx",
@@ -3212,7 +3212,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.14407,
     "lon": -94.79638,
@@ -3236,7 +3235,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Daughters of the King; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-1323-park-drive-hillsboro-tx",
@@ -3253,7 +3253,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.00944,
     "lon": -97.10091,
@@ -3277,7 +3276,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-10416-highway-6-hitchcock-tx",
@@ -3294,7 +3294,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.36098,
     "lon": -95.05495,
@@ -3318,7 +3317,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Neighborhood associations; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "autry-house-the-episcopal-mission-to-rice-university-6221-main-street-houston-tx",
@@ -3335,7 +3335,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.71816,
     "lon": -95.39553,
@@ -3359,7 +3358,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "cathedral-house-1112-prairie-st-houston-tx",
@@ -3376,7 +3376,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.76009,
     "lon": -95.36095,
@@ -3400,7 +3399,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-cathedral-1117-texas-ave-houston-tx",
@@ -3417,7 +3417,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.75938,
     "lon": -95.36145,
@@ -3441,7 +3440,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-the-king-episcopal-church-15325-bellaire-blvd-houston-tx",
@@ -3458,7 +3458,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.69963,
     "lon": -95.65762,
@@ -3482,7 +3481,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-2525-seagler-rd-houston-tx",
@@ -3499,7 +3499,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.73818,
     "lon": -95.55317,
@@ -3523,7 +3522,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Men's group; Eucharistic Ministers/Visitors; Daughters of the King; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-9600-s-gessner-dr-houston-tx",
@@ -3540,7 +3540,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.6765,
     "lon": -95.52837,
@@ -3564,7 +3563,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-5700-lawndale-houston-tx",
@@ -3581,7 +3581,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.72609,
     "lon": -95.31592,
@@ -3605,7 +3604,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Girl Scouts; Boy Scouts; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-episcopal-church-3785-barker-cypress-rd-houston-tx",
@@ -3622,7 +3622,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.82647,
     "lon": -95.68703,
@@ -3646,7 +3645,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "first-steps-montessorri-school-2450-river-oaks-blvd-houston-tx",
@@ -3663,7 +3663,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.74324,
     "lon": -95.42656,
@@ -3687,7 +3686,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-4040-w-bellfort-st-houston-tx",
@@ -3704,7 +3704,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.67332,
     "lon": -95.44335,
@@ -3728,7 +3727,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Men's group; Eucharistic Ministers/Visitors; Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-family-3719-navigation-blvd-houston-tx",
@@ -3745,7 +3745,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.75437,
     "lon": -95.33296,
@@ -3769,7 +3768,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-spirit-episcopal-church-12535-perthshire-rd-houston-tx",
@@ -3786,7 +3786,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.77461,
     "lon": -95.5519,
@@ -3810,7 +3809,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "hope-episcopal-church-1613-w-43rd-st-houston-tx",
@@ -3827,7 +3827,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.83052,
     "lon": -95.43952,
@@ -3851,7 +3850,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "houston-canterbury-3800-cullen-blvd-houston-tx",
@@ -3868,7 +3868,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.72064,
     "lon": -95.34759,
@@ -3892,7 +3891,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "iglesia-episcopal-san-mateo-6635-alder-dr-houston-tx",
@@ -3909,7 +3909,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.7083,
     "lon": -95.48042,
@@ -3933,7 +3932,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "lord-of-the-streets-episcopal-church-3401-fannin-st-houston-tx",
@@ -3950,7 +3950,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.73976,
     "lon": -95.37716,
@@ -3974,7 +3973,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "palmer-memorial-episcopal-church-6221-main-st-houston-tx",
@@ -3991,7 +3991,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.71816,
     "lon": -95.39553,
@@ -4015,7 +4014,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; College student group; Daughters of the King; Eucharistic Ministers/Visitors; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "san-pablo-st-pauls-episcopal-7843-park-place-blvd-houston-tx",
@@ -4032,7 +4032,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.6855,
     "lon": -95.28228,
@@ -4056,7 +4055,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "santa-maria-virgen-episcopal-church-9600-huntington-place-dr-houston-tx",
@@ -4073,7 +4073,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.67473,
     "lon": -95.59974,
@@ -4097,7 +4096,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Eucharistic Ministers/Visitors; Daughters of the King; Choir; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-420-woodard-st-houston-tx",
@@ -4114,7 +4114,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.81079,
     "lon": -95.36655,
@@ -4138,7 +4137,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Nursery; Youth faith formation/Sunday school; Lindale Park Civic Club",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-1819-heights-blvd-houston-tx",
@@ -4155,7 +4155,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.80216,
     "lon": -95.39798,
@@ -4179,7 +4178,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Brotherhood of St. Andrew; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-episcopal-church-107-e-edgebrook-dr-houston-tx",
@@ -4196,7 +4196,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.6495,
     "lon": -95.21847,
@@ -4220,7 +4219,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-episcopal-church-1656-blalock-rd-houston-tx",
@@ -4237,7 +4237,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.80222,
     "lon": -95.52418,
@@ -4261,7 +4260,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Nursery; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-cuthbert-episcopal-church-17020-west-rd-houston-tx",
@@ -4278,7 +4278,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.9056,
     "lon": -95.66821,
@@ -4302,7 +4301,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Episcopal Church Women (ECW); Daughters of the King; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-dunstans-episcopal-church-14301-stuebner-airline-rd-houston-tx",
@@ -4319,7 +4319,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.99098,
     "lon": -95.50073,
@@ -4343,7 +4342,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Daughters of the King; Eucharistic Ministers/Visitors; FORMA",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-345-piney-point-rd-houston-tx",
@@ -4360,7 +4360,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.75902,
     "lon": -95.51747,
@@ -4384,7 +4383,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Girl Scouts; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir; Boy Scouts; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-3129-southmore-boulevard-houston-tx",
@@ -4401,7 +4401,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.71723,
     "lon": -95.36856,
@@ -4425,7 +4424,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Daughters of the King; Choir; Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-luke-the-evangelist-episcopal-church-3530-wheeler-st-houston-tx",
@@ -4442,7 +4442,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.72042,
     "lon": -95.35675,
@@ -4466,7 +4465,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Brotherhood of St. Andrew; Choir; College student group; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-3816-bellaire-blvd-houston-tx",
@@ -4483,7 +4483,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.70607,
     "lon": -95.43813,
@@ -4507,7 +4506,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martins-episcopal-church-717-sage-rd-houston-tx",
@@ -4524,7 +4524,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.76106,
     "lon": -95.46756,
@@ -4548,7 +4547,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Men's group; Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philip-the-evangelist-2525-seagler-rd-houston-tx",
@@ -4565,7 +4565,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.73818,
     "lon": -95.55317,
@@ -4589,7 +4588,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-1805-w-alabama-st-houston-tx",
@@ -4606,7 +4606,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.73857,
     "lon": -95.40476,
@@ -4630,7 +4629,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; LGBTQ group; Eucharistic Ministers/Visitors; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-4900-jackwood-st-houston-tx",
@@ -4647,7 +4647,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.68488,
     "lon": -95.46402,
@@ -4671,7 +4670,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-the-apostle-episcopal-church-18300-upper-bay-rd-houston-tx",
@@ -4688,7 +4688,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.54635,
     "lon": -95.08779,
@@ -4712,7 +4711,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Habitat for Humanity; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Men's group; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-episcopal-church-13125-indianapolis-st-houston-tx",
@@ -4729,7 +4729,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.78437,
     "lon": -95.19408,
@@ -4753,7 +4752,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Daughters of the King; Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-church-of-st-john-the-divine-episcopal-2450-river-oaks-blvd-houston-tx",
@@ -4770,7 +4770,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.74324,
     "lon": -95.42656,
@@ -4794,7 +4793,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-1015-holman-st-houston-tx",
@@ -4811,7 +4811,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.73971,
     "lon": -95.37833,
@@ -4835,7 +4834,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Young adult group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Daughters of the King; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "yoga-mass-4040-w-bellfort-houston-tx",
@@ -4852,7 +4852,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.67332,
     "lon": -95.44335,
@@ -4876,7 +4875,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-the-king-atascocita-19330-pinehurst-trail-dr-humble-tx",
@@ -4893,7 +4893,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.9984,
     "lon": -95.14957,
@@ -4917,7 +4916,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Brotherhood of St. Andrew; Daughters of the King; Eucharistic Ministers/Visitors; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-student-center-at-sam-houston-state-university-1614-university-avenue-huntsville-tx",
@@ -4934,7 +4934,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.71714,
     "lon": -95.55054,
@@ -4958,7 +4957,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; College student group; LGBTQ group; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-5019-sam-houston-ave-huntsville-tx",
@@ -4975,7 +4975,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.69757,
     "lon": -95.53344,
@@ -4999,7 +4998,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Brotherhood of St. Andrew; Choir; College student group; Daughters of the King; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-463-west-harwood-road-hurst-tx",
@@ -5016,7 +5016,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.8479,
     "lon": -97.17655,
@@ -5040,7 +5039,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Eucharistic Ministers/Visitors; LGBTQ group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-1000-s-jackson-st-jacksonville-tx",
@@ -5057,7 +5057,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.95653,
     "lon": -95.26673,
@@ -5081,7 +5080,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Daughters of the King; Episcopal Church Women (ECW); HOPE",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-800-n-main-st-jasper-tx",
@@ -5098,7 +5098,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.92776,
     "lon": -94.00055,
@@ -5122,7 +5121,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-703-s-main-st-jefferson-tx",
@@ -5139,7 +5139,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.75576,
     "lon": -94.35037,
@@ -5163,7 +5162,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-apostles-episcopal-church-katy-1225-w-grand-pkwy-s-katy-tx",
@@ -5180,7 +5180,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5204,7 +5203,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; College student group; Daughters of the King; Eucharistic Ministers/Visitors; Nursery; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-5373-franz-rd-katy-tx",
@@ -5221,7 +5221,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.80151,
     "lon": -95.81281,
@@ -5245,7 +5244,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martin-in-the-fields-episcopal-church-223-s-pearson-ln-keller-tx",
@@ -5262,7 +5262,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.9323,
     "lon": -97.20311,
@@ -5286,7 +5285,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-314-n-henderson-blvd-kilgore-tx",
@@ -5303,7 +5303,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.38268,
     "lon": -94.86893,
@@ -5327,7 +5326,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Choir; Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-episcopal-church-2800-trimmier-rd-killeen-tx",
@@ -5344,7 +5344,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.08797,
     "lon": -97.73485,
@@ -5368,7 +5367,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Habitat for Humanity",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-2929-woodland-hills-dr-kingwood-tx",
@@ -5385,7 +5385,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.05513,
     "lon": -95.2133,
@@ -5409,7 +5408,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-156-n-monroe-st-lagrange-tx",
@@ -5426,7 +5426,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.90782,
     "lon": -96.87372,
@@ -5450,7 +5449,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Men's group; Daughters of the King; Choir; Youth group; Order of St. Luke's",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-episcopal-church-200-oyster-creek-dr-lake-jackson-tx",
@@ -5467,7 +5467,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.04224,
     "lon": -95.44131,
@@ -5491,7 +5490,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Nursery; Choir; Brotherhood of St. Andrew; Youth group; The Hall- an after school program for nearby intermediate school students.",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michaels-episcopal-church-1601-lake-rd-lamarque-tx",
@@ -5508,7 +5508,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.36452,
     "lon": -94.97953,
@@ -5532,7 +5531,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Eucharistic Ministers/Visitors; Daughters of the King; Choir; Brotherhood of St. Andrew; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-501-s-chestnut-st-lampasas-tx",
@@ -5549,7 +5549,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.06407,
     "lon": -98.18088,
@@ -5573,7 +5572,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-815-s-broadway-st-laporte-tx",
@@ -5590,7 +5590,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.65615,
     "lon": -95.01906,
@@ -5614,7 +5613,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christopher-episcopal-church-2508-st-christopher-ave-league-city-tx",
@@ -5631,7 +5631,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.52198,
     "lon": -95.07365,
@@ -5655,7 +5654,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-fm-134-leigh-tx",
@@ -5672,7 +5672,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5696,7 +5695,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-stephens-episcopal-church-2041-trinity-st-liberty-tx",
@@ -5713,7 +5713,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.05992,
     "lon": -94.79535,
@@ -5737,7 +5736,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; St. Stephen's Men's Group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-16292-fm-849-lindale-tx",
@@ -5754,7 +5754,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.50325,
     "lon": -95.41916,
@@ -5778,7 +5777,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Godly Play; Episcopal Church Women (ECW); Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-836-w-jones-st-livingston-tx",
@@ -5795,7 +5795,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.71429,
     "lon": -94.94124,
@@ -5819,7 +5818,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Episcopal Church Women (ECW); Daughters of the King; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michael-and-all-angels-episcopal-church-909-reel-rd-longview-tx",
@@ -5836,7 +5836,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.53034,
     "lon": -94.79378,
@@ -5860,7 +5859,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-906-padon-st-longview-tx",
@@ -5877,7 +5877,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.49929,
     "lon": -94.72908,
@@ -5901,7 +5900,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-school-of-texas-215-teague-street-longview-tx",
@@ -5918,7 +5918,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.4978,
     "lon": -94.72456,
@@ -5942,7 +5941,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-cyprians-episcopal-church-919-s-john-redditt-dr-lufkin-tx",
@@ -5959,7 +5959,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5983,7 +5982,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Nursery; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-innocents-episcopal-church-600-n-mciver-st-madisonville-tx",
@@ -6000,7 +6000,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.95221,
     "lon": -95.91684,
@@ -6024,7 +6023,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mary-magdalene-episcopal-church-12800-lexington-street-manor-tx",
@@ -6041,7 +6041,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -6065,7 +6064,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-909-ave-d-marble-falls-tx",
@@ -6082,7 +6082,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.5749,
     "lon": -98.26803,
@@ -6106,7 +6105,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Men's group; Eucharistic Ministers/Visitors; Education for Ministry (EFM); Daughters of the King; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-514-carter-st-marlin-tx",
@@ -6123,7 +6123,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.31129,
     "lon": -96.89246,
@@ -6147,7 +6146,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-106-n-grove-st-marshall-tx",
@@ -6164,7 +6164,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.54512,
     "lon": -94.37123,
@@ -6188,7 +6187,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Daughters of the King; Choir; Brotherhood of St. Andrew; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-206-cypress-st-matagorda-tx",
@@ -6205,7 +6205,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -6229,7 +6228,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-505-e-commerce-st-mexia-tx",
@@ -6246,7 +6246,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.6814,
     "lon": -96.48051,
@@ -6270,7 +6269,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-catherine-of-sienna-episcopal-church-4747-sienna-pkwy-missouri-city-tx",
@@ -6287,7 +6287,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.51866,
     "lon": -95.5302,
@@ -6311,7 +6310,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Episcopal Church Women (ECW); Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-episcopal-school-1428-n-mound-street-nacogdoches-tx",
@@ -6328,7 +6328,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.61582,
     "lon": -94.64939,
@@ -6352,7 +6351,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-1420-n-mound-st-nacogdoches-tx",
@@ -6369,7 +6369,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.6158,
     "lon": -94.64939,
@@ -6393,7 +6392,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; College student group; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "camp-allen-conference-and-retreat-center-18800-fm-362-navasota-tx",
@@ -6410,7 +6410,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.24501,
     "lon": -95.95661,
@@ -6434,7 +6433,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-414-e-mcalpine-st-navasota-tx",
@@ -6451,7 +6451,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.38832,
     "lon": -96.0864,
@@ -6475,7 +6474,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-1401-w-park-ave-orange-tx",
@@ -6492,7 +6492,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.0992,
     "lon": -93.74368,
@@ -6516,7 +6515,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-300-3rd-st-palacios-tx",
@@ -6533,7 +6533,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 28.70153,
     "lon": -96.21342,
@@ -6557,7 +6556,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-episcopal-church-106-east-crawford-st-palestine-tx",
@@ -6574,7 +6574,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.76321,
     "lon": -95.63129,
@@ -6598,7 +6597,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Godly Play; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-san-pedro-episcopal-church-705-williams-st-pasadena-tx",
@@ -6615,7 +6615,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.70168,
     "lon": -95.1989,
@@ -6639,7 +6638,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Young adult group; Daughters of the King; College student group; Choir; Bible study; Youth group; North Pasadena Community Outreach",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-academy-2535-broadway-st-pearland-tx",
@@ -6656,7 +6656,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.55281,
     "lon": -95.25575,
@@ -6680,7 +6679,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-2535-broadway-st-pearland-tx",
@@ -6697,7 +6697,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.55281,
     "lon": -95.25575,
@@ -6721,7 +6720,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Neighborhood associations; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "mosaic-church-11901-shadowcreek-parkway-peerland-tx",
@@ -6738,7 +6738,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.57786,
     "lon": -95.40278,
@@ -6762,7 +6761,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; LGBTQ group; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-joan-of-arc-1225-town-center-pflugerville-tx",
@@ -6779,7 +6779,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.46796,
     "lon": -97.60545,
@@ -6803,7 +6802,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-po-box-28-pflugerville-tx",
@@ -6820,7 +6820,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -6844,7 +6843,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Choir; Bible study; Steps in Action Group Austin",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-church-2425-nall-st-port-neches-tx",
@@ -6861,7 +6861,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.97676,
     "lon": -93.96572,
@@ -6885,7 +6884,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-college-ministry-canterbury-at-prairie-view-a-and-m-204-dooley-street-prairie-view-tx",
@@ -6902,7 +6902,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -6926,7 +6925,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-of-assisi-episcopal-church-204-dooley-st-prairie-view-tx",
@@ -6943,7 +6943,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -6967,7 +6966,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Men's group; Episcopal Church Women (ECW); College student group; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-806-thompson-rd-richmond-tx",
@@ -6984,7 +6984,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.57545,
     "lon": -95.76501,
@@ -7008,7 +7007,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Boy Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-7615-fm-762-rd-richmond-tx",
@@ -7025,7 +7025,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.52348,
     "lon": -95.69723,
@@ -7049,7 +7048,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Godly Play; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-302-e-davilla-ave-rockdale-tx",
@@ -7066,7 +7066,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.65826,
     "lon": -97.00027,
@@ -7090,7 +7089,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-josephs-episcopal-church-881-n-main-st-salado-tx",
@@ -7107,7 +7107,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.95501,
     "lon": -97.53419,
@@ -7131,7 +7130,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-201-n-ayish-st-san-augustine-tx",
@@ -7148,7 +7148,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -7172,7 +7171,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-311-6th-st-sealy-tx",
@@ -7189,7 +7189,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.77795,
     "lon": -96.15652,
@@ -7213,7 +7212,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Nursery; Men's group; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-1305-roosevelt-dr-silsbee-tx",
@@ -7230,7 +7230,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.3587,
     "lon": -94.19224,
@@ -7254,7 +7253,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "abundant-harvest-kitchen-24803-oakhurst-dr-spring-tx",
@@ -7271,7 +7271,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.12478,
     "lon": -95.44135,
@@ -7295,7 +7294,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-comforter-episcopal-church-2322-spring-cypress-rd-spring-tx",
@@ -7312,7 +7312,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.06803,
     "lon": -95.4489,
@@ -7336,7 +7335,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Daughters of the King; Education for Ministry (EFM)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "rev-sean-steele-24803-oakhurst-dr-spring-tx",
@@ -7353,7 +7353,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.12478,
     "lon": -95.44135,
@@ -7377,7 +7376,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Eucharistic Ministers/Visitors; LGBTQ group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-605-dulles-ave-stafford-tx",
@@ -7394,7 +7394,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.62131,
     "lon": -95.58256,
@@ -7418,7 +7417,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Men's group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-episcopal-indian-church-605-dulles-ave-stafford-tx",
@@ -7435,7 +7435,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.62131,
     "lon": -95.58256,
@@ -7459,7 +7458,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-indian-episcopal-church-605-dulles-avenue-stafford-tx",
@@ -7476,7 +7476,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.62131,
     "lon": -95.58256,
@@ -7500,7 +7499,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-595-n-mcilhaney-st-stephenville-tx",
@@ -7517,7 +7517,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.21861,
     "lon": -98.21511,
@@ -7541,7 +7540,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; College student group; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-cross-episcopal-church-5653-w-river-park-dr-sugar-land-tx",
@@ -7558,7 +7558,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.57541,
     "lon": -95.68242,
@@ -7582,7 +7581,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool; Neighborhood associations; Men's group; Boy Scouts; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-612-davis-street-taylor-tx",
@@ -7599,7 +7599,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.57233,
     "lon": -97.41478,
@@ -7623,7 +7622,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-episcopal-school-317-n-first-st-temple-tx",
@@ -7640,7 +7640,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.10005,
     "lon": -97.34094,
@@ -7664,7 +7663,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-300-n-main-st-temple-tx",
@@ -7681,7 +7681,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.09972,
     "lon": -97.34013,
@@ -7705,7 +7704,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-5001-hickory-rd-temple-tx",
@@ -7722,7 +7722,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.06006,
     "lon": -97.39666,
@@ -7746,7 +7745,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Boy Scouts; Choir; Eucharistic Ministers/Visitors; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-episcopal-church-510-13th-ave-n-texas-city-tx",
@@ -7763,7 +7763,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.39733,
     "lon": -94.90134,
@@ -7787,7 +7786,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir; Boy Scouts; Youth group; Cooking class for kids & Adults, Teaching Garden After school Club",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-3901-s-panther-creek-dr-the-woodlands-tx",
@@ -7804,7 +7804,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.15525,
     "lon": -95.49771,
@@ -7828,7 +7827,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Journey to Adulthood (J2A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-801-e-main-st-tomball-tx",
@@ -7845,7 +7845,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 30.10059,
     "lon": -95.6049,
@@ -7869,7 +7868,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Nursery; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Daughters of the King; Choir; Brotherhood of St. Andrew; Boy Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-118-s-bois-d-arc-ave-tyler-tx",
@@ -7886,7 +7886,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.35051,
     "lon": -95.30271,
@@ -7910,7 +7909,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Godly Play; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-3232-jan-ave-tyler-tx",
@@ -7927,7 +7927,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.31364,
     "lon": -95.28531,
@@ -7951,7 +7950,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-the-baptist-episcopal-church-514-w-vance-st-tyler-tx",
@@ -7968,7 +7968,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.36692,
     "lon": -95.3056,
@@ -7992,7 +7991,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "baylor-university-spiritual-life-500-speight-street-waco-tx",
@@ -8009,7 +8009,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.54534,
     "lon": -97.11839,
@@ -8033,7 +8032,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-holy-spirit-1624-wooded-acres-dr-waco-tx",
@@ -8050,7 +8050,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.53709,
     "lon": -97.19282,
@@ -8074,7 +8073,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Men's group; Episcopal Church Women (ECW); Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-305-n-30th-st-waco-tx",
@@ -8091,7 +8091,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.53818,
     "lon": -97.15688,
@@ -8115,7 +8114,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; College student group; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-515-columbus-ave-waco-tx",
@@ -8132,7 +8132,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.55829,
     "lon": -97.13402,
@@ -8156,7 +8155,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-episcopal-student-center-1712-south-10th-street-waco-tx",
@@ -8173,7 +8173,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 31.54064,
     "lon": -97.12171,
@@ -8197,7 +8196,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; College student group; Episcopal Lutheran Fellowship at Baylor",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-201-east-clay-west-columbia-tx",
@@ -8214,7 +8214,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.14309,
     "lon": -95.64706,
@@ -8238,7 +8237,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Daughters of the King; Brotherhood of St. Andrew; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-207-bob-o-link-lane-wharton-tx",
@@ -8255,7 +8255,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 29.32105,
     "lon": -96.09432,
@@ -8279,7 +8278,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Nursery; Godly Play; Girl Scouts; Eucharistic Ministers/Visitors; Daughters of the King; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "faith-episcopal-church-meeting-at-faith-lutheran-church-wichita-falls-tx",
@@ -8296,7 +8296,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -8320,7 +8319,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-1703-w-bluff-st-woodville-tx",
@@ -8337,7 +8337,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -8361,6 +8360,7 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Bible study; Foster / Adoption Development Classes; Rotary Club - Woodville; Lakside Apostolic Church; Caring is Sharing",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

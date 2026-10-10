@@ -15,7 +15,6 @@
     "ssm": { "type": "choice", "description": "Same-sex marriage" },
     "theological_cultural_alignment": { "type": "choice", "description": "Theological and cultural alignment" },
     "other_contact": { "type": "text", "description": "Other contact info, usually \"phone | email\"" },
-    "notes": { "type": "text", "description": "Notes" },
     "verification_status": { "type": "choice", "choices": ["Verified", "Unverified"], "description": "How the information was gathered" },
     "lat": { "type": "number", "description": "Latitude" },
     "lon": { "type": "number", "description": "Longitude" },
@@ -40,7 +39,8 @@
     "parking": { "type": "text", "description": "Parking" },
     "childcare": { "type": "text", "description": "Childcare" },
     "formation": { "type": "text", "description": "Formation and community" },
-    "date_last_updated": { "type": "date", "description": "Date last updated, as YYYY-MM-DD" }
+    "date_last_updated": { "type": "date", "description": "Date last updated, as YYYY-MM-DD" },
+    "notes": { "type": "freeform", "description": "Freeform notes, shown under their own Notes heading at the bottom of the parish details. Typed as written; not reformatted (apart from curly quotes)" }
   },
   "list_options": {
     "churchmanship": [

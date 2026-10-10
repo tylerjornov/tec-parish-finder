@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.56548,
     "lon": -82.54281,
@@ -39,7 +38,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-advocate-the-red-door-community-60-church-st-asheville-nc",
@@ -56,7 +56,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59284,
     "lon": -82.55298,
@@ -81,7 +80,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations; Young adult group; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-1201-riverside-dr-asheville-nc",
@@ -98,7 +98,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.62452,
     "lon": -82.59138,
@@ -123,7 +122,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Wild Heart WNC",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-871-merrimon-ave-asheville-nc",
@@ -140,7 +140,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.62875,
     "lon": -82.55212,
@@ -165,7 +164,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Youth faith formation/Sunday school; Safe Shelter; Women Walking the Way",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-episcopal-church-1-school-rd-asheville-nc",
@@ -182,7 +182,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.57481,
     "lon": -82.61281,
@@ -207,7 +206,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Food Connection; WNC Franciscan Justice Circle",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-giles-chapel-1617-hendersonville-rd-asheville-nc",
@@ -224,7 +224,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.51054,
     "lon": -82.5265,
@@ -249,7 +248,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "st-johns-episcopal-church-290-old-haw-creek-rd-asheville-nc",
@@ -266,7 +266,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59734,
     "lon": -82.5077,
@@ -291,7 +290,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Eucharistic Ministers/Visitors; Habitat for Humanity; LGBTQ group; Youth faith formation/Sunday school; CORE; Community Organized Relief Efforts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-219-chunns-cove-rd-asheville-nc",
@@ -308,7 +308,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.6029,
     "lon": -82.53101,
@@ -333,7 +332,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Girl Scouts; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-337-charlotte-street-asheville-nc",
@@ -350,7 +350,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.61119,
     "lon": -82.54571,
@@ -375,7 +374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthias-episcopal-church-1-dundee-st-asheville-nc",
@@ -392,7 +392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59208,
     "lon": -82.54788,
@@ -417,7 +416,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Habitat for Humanity; Pisgah Legal Services",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-60-church-st-asheville-nc",
@@ -434,7 +434,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.59284,
     "lon": -82.55298,
@@ -459,7 +458,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Brotherhood of St. Andrew; Choir; Daughters of the King; Eucharistic Ministers/Visitors; FORMA; Godly Play; Habitat for Humanity; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-cross-122-skiles-way-banner-elk-nc",
@@ -476,7 +476,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.16171,
     "lon": -81.8643,
@@ -501,7 +500,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-transfiguration-106-saylor-lane-bat-cave-nc",
@@ -518,7 +518,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.45005,
     "lon": -82.27982,
@@ -543,7 +542,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-1303-n-12th-st-bessemer-city-nc",
@@ -560,7 +560,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.30041,
     "lon": -81.27781,
@@ -585,7 +584,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-424-w-state-st-black-mountain-nc",
@@ -602,7 +602,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.61456,
     "lon": -82.32458,
@@ -627,7 +626,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mary-of-the-hills-church-140-chestnut-dr-blowing-rock-nc",
@@ -644,7 +644,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.13051,
     "lon": -81.67808,
@@ -669,7 +668,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Daughters of the King; Episcopal Church Women (ECW); Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-170-councill-st-boone-nc",
@@ -686,7 +686,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.21714,
     "lon": -81.6755,
@@ -711,7 +710,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Godly Play; Men's group; Hunger & Health Coalition; Angel Tree; Community Care Clinic",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-episcopal-church-256-e-main-st-brevard-nc",
@@ -728,7 +728,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.23234,
     "lon": -82.73133,
@@ -753,7 +752,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-372-reservoir-rd-burnsville-nc",
@@ -770,7 +770,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91253,
     "lon": -82.29792,
@@ -795,7 +794,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-on-the-hill-episcopal-church-251-academy-st-canton-nc",
@@ -812,7 +812,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.52986,
     "lon": -82.83369,
@@ -837,7 +836,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Daughters of the King; Episcopal Church Women (ECW); Godly Play; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-1448-highway-107-s-cashiers-nc",
@@ -854,7 +854,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.09854,
     "lon": -83.08632,
@@ -879,7 +878,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Bazaar Barn; English Language Learners",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "whiteside-summer-chapel-4546-whiteside-cove-rd-cashiers-nc",
@@ -896,7 +896,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.06345,
     "lon": -83.12593,
@@ -921,7 +920,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "faith-memorial-chapel-11-faith-chapel-rd-cedar-mountain-nc",
@@ -938,7 +938,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 35.14554,
     "lon": -82.65219,
@@ -963,7 +962,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "st-francis-of-assisi-church-82-old-river-rd-cherokee-nc",
@@ -980,7 +980,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.47123,
     "lon": -83.31555,
@@ -1005,7 +1004,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-episcopal-church-385-forest-hills-rd-cullowhee-nc",
@@ -1022,7 +1022,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.30445,
     "lon": -83.18123,
@@ -1047,7 +1046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-st-peters-by-the-lake-8433-fairfield-forest-rd-denver-nc",
@@ -1064,7 +1064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.50733,
     "lon": -80.97769,
@@ -1089,7 +1088,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-the-episcopal-church-in-edneyville-1659-st-pauls-rd-edneyville-nc",
@@ -1106,7 +1106,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.41196,
     "lon": -82.33815,
@@ -1131,7 +1130,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-in-the-wilderness-1895-greenville-highway-flat-rock-nc",
@@ -1148,7 +1148,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.28189,
     "lon": -82.44272,
@@ -1173,7 +1172,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Young adult group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-2840-hendersonville-rd-fletcher-nc",
@@ -1190,7 +1190,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.44283,
     "lon": -82.50613,
@@ -1215,7 +1214,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Habitat for Humanity; Men's group; Calvary Care Fund",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-st-cyprians-chapel-216-roller-mill-rd-franklin-nc",
@@ -1232,7 +1232,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.16718,
     "lon": -83.40369,
@@ -1257,7 +1256,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-st-agnes-chapel-84-church-st-franklin-nc",
@@ -1274,7 +1274,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.1829,
     "lon": -83.38244,
@@ -1299,7 +1298,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-542-st-johns-church-rd-franklin-nc",
@@ -1316,7 +1316,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.14273,
     "lon": -83.49154,
@@ -1341,7 +1340,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-1201-s-new-hope-rd-gastonia-nc",
@@ -1358,7 +1358,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.24921,
     "lon": -81.14426,
@@ -1383,7 +1382,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-258-west-franklin-boulevard-gastonia-nc",
@@ -1400,7 +1400,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.26224,
     "lon": -81.18493,
@@ -1414,7 +1413,7 @@
     "weekday_services": "",
     "diocesan_bishop": "Sede vacante (Standing Committee; The Rt. Rev. José A. McLoughlin transferred ecclesiastical authority 31 July 2026)",
     "clergy_title": "",
-    "rector_name": "Shawn Griffith",
+    "rector_name": "The Ven. Brenda Gilbert",
     "other_clergy": "",
     "rite": "",
     "rite_details": "",
@@ -1425,7 +1424,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-episcopal-church-495-herbert-hills-dr-hayesville-nc",
@@ -1442,7 +1442,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.03723,
     "lon": -83.80058,
@@ -1467,7 +1466,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Young adult group; Youth faith formation/Sunday school; Fiber Arts Group; Stamping Group; Knitting and Prayer Shawl Ministry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "la-capilla-de-santa-maria-186-st-marys-dr-hendersonville-nc-28792-hendersonville-nc",
@@ -1484,7 +1484,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.35554,
     "lon": -82.42893,
@@ -1509,7 +1508,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-766-n-main-st-hendersonville-nc",
@@ -1526,7 +1526,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.32165,
     "lon": -82.46221,
@@ -1551,7 +1550,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Good News Gardens; Habitat for Humanity; Men's group; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-726-1st-ave-nw-hickory-nc",
@@ -1568,7 +1568,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.73329,
     "lon": -81.34949,
@@ -1593,7 +1592,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Nursery; Young adult group; Youth faith formation/Sunday school; Youth group; Young Family Fellowship; Hickory Soup Kitchen; Exodus Homes; Family Care Center of Catawba Valley, Inc; Greater Hickory Cooperative Christian Ministry; Lake Logan",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-130-39th-ave-pl-nw-hickory-nc",
@@ -1610,7 +1610,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.78453,
     "lon": -81.32305,
@@ -1635,7 +1634,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-church-of-the-incarnation-520-main-st-highlands-nc",
@@ -1652,7 +1652,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.05219,
     "lon": -83.19511,
@@ -1677,7 +1676,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Daughters of the King; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-806-college-ave-sw-lenoir-nc",
@@ -1694,7 +1694,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91293,
     "lon": -81.53902,
@@ -1718,8 +1717,9 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Yokefellow of Caldwell County   https://www.yokefellow.org/; Caldwell County Habitat for Humanity    https://www.caldwellhabitat.org/; Helping Hands Clinic   https://www.helpinghandsclinic.org/; Lenoir Soup Kitchen   https://www.lenoirsoupkitchen.org/; Shelter Home of the Foothills   https://www.shelterhomecc.org",
-    "date_last_updated": "2026-10-08"
+    "formation": "Alcoholics Anonymous & Narcotics Anonymous; Stephen Ministry, Community of Hope; Yokefellow of Caldwell County; Caldwell County Habitat for Humanity; Helping Hands Clinic; Lenoir Soup Kitchen; Shelter Home of the Foothills",
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "our-saviour-episcopal-church-1128-highway-182-lincolnton-nc",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.46161,
     "lon": -81.27834,
@@ -1761,7 +1760,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-315-north-cedar-street-lincolnton-nc",
@@ -1778,7 +1778,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.47442,
     "lon": -81.25316,
@@ -1803,7 +1802,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Youth group; Lincoln Youth Neighborhood Community",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-chapel-236-carolina-ave-linville-nc",
@@ -1820,7 +1820,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 36.07038,
     "lon": -81.86891,
@@ -1845,7 +1844,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Seasonal or chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "church-of-the-resurrection-160-high-ridge-road-little-switzerland-nc",
@@ -1862,7 +1862,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.85109,
     "lon": -82.09037,
@@ -1887,7 +1886,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-289-s-main-st-marion-nc",
@@ -1904,7 +1904,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.68033,
     "lon": -82.00691,
@@ -1929,7 +1928,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; FORMA; Godly Play; Good News Gardens; Journey to Adulthood (J2A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-spirit-433-bone-camp-rd-marshall-nc",
@@ -1946,7 +1946,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.83535,
     "lon": -82.58554,
@@ -1971,7 +1970,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; World Central Kitchen; La Esperanza; Beacon of Hope; Community Housing Coalition; Beloved Asheville; Marshall Relief Alliance; Pisgah Legal Services; Neighbors In Need; Homeward Bound",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-family-419-turnpike-rd-mills-river-nc",
@@ -1988,7 +1988,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.37039,
     "lon": -82.58091,
@@ -2013,7 +2012,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-303-s-king-st-morganton-nc",
@@ -2030,7 +2030,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.74227,
     "lon": -81.68564,
@@ -2055,7 +2054,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-140-st-marys-church-rd-morganton-nc",
@@ -2072,7 +2072,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.75992,
     "lon": -81.72081,
@@ -2097,7 +2096,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-lake-james-1865-n-powerhouse-rd-morganton-nc",
@@ -2114,7 +2114,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.75731,
     "lon": -81.82276,
@@ -2139,7 +2138,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Daughters of the King; Episcopal Church Women (ECW); Habitat for Humanity; Nursery; Preschool; Burke United Christian Ministries; Glen Alpine Food Pantry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-and-st-marys-episcopal-church-140-st-marys-church-rd-morganton-nc",
@@ -2156,7 +2156,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.75992,
     "lon": -81.72081,
@@ -2181,7 +2180,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Episcopal Church Women (ECW); Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-messiah-76-peachtree-st-murphy-nc",
@@ -2198,7 +2198,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.08669,
     "lon": -84.03338,
@@ -2223,7 +2222,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew; Choir; Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "This is a yoked parish, being served by an ELCA pastor."
   },
   {
     "id": "the-savior-2118-elk-park-hwy-newland-nc",
@@ -2240,7 +2240,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.1191,
     "lon": -81.93331,
@@ -2265,7 +2264,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-epiphany-750-w-13th-st-newton-nc",
@@ -2282,7 +2282,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.67504,
     "lon": -81.23184,
@@ -2307,7 +2306,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-mountainside-church-a-lutheran-and-episcopal-fellowship-129-s-main-st-robbinsville-nc",
@@ -2324,7 +2324,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.32736,
     "lon": -83.80865,
@@ -2349,7 +2348,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-408-n-main-st-rutherfordton-nc",
@@ -2366,7 +2366,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.36643,
     "lon": -81.95782,
@@ -2391,7 +2390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Habitat for Humanity; Men's group; Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-gabriels-episcopal-church-330-n-ridgecrest-ave-rutherfordton-nc",
@@ -2408,7 +2408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.37736,
     "lon": -81.96422,
@@ -2433,7 +2432,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-transfiguration-72-charles-st-saluda-nc",
@@ -2450,7 +2450,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.23748,
     "lon": -82.34597,
@@ -2475,7 +2474,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Daughters of the King; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-502-w-sumter-st-shelby-nc",
@@ -2492,7 +2492,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.29363,
     "lon": -81.54649,
@@ -2517,7 +2516,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-2543-us-hwy-21-s-sparta-nc",
@@ -2534,7 +2534,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.48405,
     "lon": -81.08869,
@@ -2559,7 +2558,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-15-hemlock-ave-spruce-pine-nc",
@@ -2576,7 +2576,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.91366,
     "lon": -82.07793,
@@ -2601,7 +2600,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Neighborhood associations; AMY Wellness Foundation; Jungle Aviation and Relay Service; Mitchell County Safe Place; Mitchell County Senior Center; Mitchell County Shepherd's Staff; Philanthropic Educational Organization",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-18-jackson-st-sylva-nc",
@@ -2618,7 +2618,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.37272,
     "lon": -83.22392,
@@ -2643,7 +2642,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Men's group; Neighborhood associations; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-814-markham-rd-tryon-nc",
@@ -2660,7 +2660,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.21508,
     "lon": -82.23056,
@@ -2685,7 +2684,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-cross-150-melrose-ave-tryon-nc",
@@ -2702,7 +2702,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.20569,
     "lon": -82.24203,
@@ -2727,7 +2726,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-in-the-mountains-394-n-haywood-st-waynesville-nc",
@@ -2744,7 +2744,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.48875,
     "lon": -82.98887,
@@ -2769,7 +2768,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "parish-of-holy-communion-120-glendale-school-rd-west-jefferson-nc",
@@ -2786,7 +2786,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.34704,
     "lon": -81.38244,
@@ -2811,7 +2810,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Habitat for Humanity; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-206-west-cowles-street-wilkesboro-nc",
@@ -2828,7 +2828,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 36.14923,
     "lon": -81.15438,
@@ -2853,7 +2852,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; LGBTQ group; Men's group; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-communion-401-n-main-st-allendale-sc",
@@ -2870,7 +2870,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.0099,
     "lon": -81.30687,
@@ -2895,7 +2894,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-communion-218-ashley-ave-charleston-sc",
@@ -2912,7 +2912,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.78906,
     "lon": -79.94799,
@@ -2937,7 +2936,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Podcast Club; adult discussion groups; Montessori-based children's curriculum; Rosary; Food Pantry",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "grace-church-cathedral-98-wentworth-st-charleston-sc",
@@ -2954,7 +2954,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.78176,
     "lon": -79.93662,
@@ -2979,7 +2978,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Contemplative Journey Group; Bible Study (in person); Dean's Bible Study; Citadel Episcopal Fellowship; youth ministry; children's and adult formation",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-1872-camp-road-charleston-sc",
@@ -2996,7 +2996,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.73573,
     "lon": -79.97618,
@@ -3021,7 +3020,8 @@
     "parking": "Over 200 on-site spaces; handicapped spaces",
     "childcare": "Nursery (St. James Center) during 10:00 AM service; Sunday School/Christian Formation 9:00 AM",
     "formation": "Sunday School/Christian Formation 9 AM; adult book/theme discussion led by Rector; choir; Men's Breakfast (2nd Tuesday monthly)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-mark-s-episcopal-church-charleston-16-thomas-street-charleston-sc",
@@ -3038,7 +3038,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.78703,
     "lon": -79.94268,
@@ -3063,7 +3062,8 @@
     "parking": "Free parking at the Ashley Hall lot",
     "childcare": "Nursery for infants–5 years from 9:45 AM in the Parish House",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-peter-s-episcopal-church-1393-miles-drive-charleston-sc",
@@ -3080,7 +3080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.80803,
     "lon": -79.99672,
@@ -3105,7 +3104,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Spiritual Book Group; Coffee & Conversation w/ Rev. Courtney; The Table We Share; Community BINGO",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-stephen-s-episcopal-church-67-anson-st-charleston-sc",
@@ -3122,7 +3122,6 @@
     "ssm": "Yes - Practiced",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.78493,
     "lon": -79.93114,
@@ -3147,7 +3146,8 @@
     "parking": "Free Sunday-morning parking at Gaillard Center Garage (33 Alexander St; validate with bulletin); United Bank lot on George St when bank closed; 1-hour street parking",
     "childcare": "",
     "formation": "Adult Formation; Sunday School; Youth Group; Foyer Groups; Choir; Second Sunday Social; gentle yoga; Prayer Team",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "the-historic-calvary-episcopal-church-106-line-st-charleston-sc",
@@ -3164,7 +3164,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.79403,
     "lon": -79.94603,
@@ -3189,7 +3188,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-david-s-episcopal-church-420-market-street-cheraw-sc",
@@ -3206,7 +3206,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.69535,
     "lon": -79.88801,
@@ -3231,7 +3230,8 @@
     "parking": "",
     "childcare": "Weekday daycare (infants 6 weeks–30 months) and preschool (31 months–4K) at St. David's Episcopal School",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-anne-s-episcopal-church-2104-north-main-street-conway-sc",
@@ -3248,7 +3248,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.85598,
     "lon": -79.05611,
@@ -3273,7 +3272,8 @@
     "parking": "Small parking lot (under improvement); overflow at Hardwick's Body Shop or the grassy lot beside the church",
     "childcare": "Nursery for children under seven during the 10:00 AM service; Nursery Director on staff",
     "formation": "Episcopal Church Women (ECW); seasonal book study with Compline",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-5266-carolina-hwy-denmark-sc",
@@ -3290,7 +3290,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.31849,
     "lon": -81.14345,
@@ -3315,7 +3314,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Coffee hour in the parish hall",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-philip-episcopal-church-voorhees-college-584-voorhees-rd-denmark-sc",
@@ -3332,7 +3332,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.30632,
     "lon": -81.12962,
@@ -3357,7 +3356,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-1644-hwy-174-edisto-island-sc",
@@ -3374,7 +3374,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.57267,
     "lon": -80.28388,
@@ -3399,7 +3398,8 @@
     "parking": "Church parking on the left facing the front doors; grass and roadside parking along Oak Island Road",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-heavenly-rest-152-corley-rd-estill-sc",
@@ -3416,7 +3416,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.71073,
     "lon": -81.31094,
@@ -3441,7 +3440,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-catherine-s-episcopal-church-1806-west-palmetto-street-florence-sc",
@@ -3458,7 +3458,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.18947,
     "lon": -79.80255,
@@ -3483,7 +3482,8 @@
     "parking": "Plenty of parking in back",
     "childcare": "",
     "formation": "Book study; Sunday morning Coffee & Conversation",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-511-jackson-ave-e-hampton-sc",
@@ -3500,7 +3500,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.8628,
     "lon": -81.10386,
@@ -3525,7 +3524,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-bartholomew-s-episcopal-church-103-campus-drive-hartsville-sc",
@@ -3542,7 +3542,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.37591,
     "lon": -80.06997,
@@ -3567,7 +3566,8 @@
     "parking": "Area in front of church; Coker University lot; E. Carolina Ave street parking",
     "childcare": "Godly Play from start of service until return before communion; children welcome in worship",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-3001-meeting-st-hilton-head-island-sc",
@@ -3584,7 +3584,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.21731,
     "lon": -80.73,
@@ -3609,7 +3608,8 @@
     "parking": "\"Visitor\" signs at the Meeting Street lot; several handicapped spaces",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-john-s-episcopal-church-3673-maybank-hwy-johns-island-sc",
@@ -3626,7 +3626,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.71711,
     "lon": -80.08475,
@@ -3651,7 +3650,8 @@
     "parking": "",
     "childcare": "Nursery (LaRoche Building) Sundays 9:00 AM–12:00 PM",
     "formation": "St. John's Kids; Christian Formation",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-alban-s-church-305-hampton-ave-kingstree-sc",
@@ -3668,7 +3668,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.66689,
     "lon": -79.82999,
@@ -3693,7 +3692,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-james-santee-episcopal-church-144-oak-st-mcclellanville-sc",
@@ -3710,7 +3710,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.08505,
     "lon": -79.46256,
@@ -3735,7 +3734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-2304-highway-17-north-mount-pleasant-sc",
@@ -3752,7 +3752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.84415,
     "lon": -79.81385,
@@ -3777,7 +3776,8 @@
     "parking": "",
     "childcare": "Nursery available",
     "formation": "Rector's Bible Study; Godly Play; Children's Choir; children/youth groups; Foyer Groups; Women's Group; Men's Group; Knitting Group; Daughters of the King",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "the-episcopal-church-of-the-messiah-4221a-north-kings-highway-myrtle-beach-sc",
@@ -3794,7 +3794,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.71887,
     "lon": -78.85333,
@@ -3819,7 +3818,8 @@
     "parking": "",
     "childcare": "Childcare for the littlest ones; Children's Program in the Upper Room during worship (return for Communion)",
     "formation": "Lunch with the Vicar (faith discussions); Children's Program; coffee after worship",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-1150-e-montague-ave-north-charleston-sc",
@@ -3836,7 +3836,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.88174,
     "lon": -79.98271,
@@ -3861,7 +3860,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-stephen-s-episcopal-church-801-11th-avenue-north-north-myrtle-beach-sc",
@@ -3878,7 +3878,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.83028,
     "lon": -78.6666,
@@ -3903,7 +3902,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "holy-cross-faith-memorial-episcopal-church-113-baskervill-drive-pawleys-island-s",
@@ -3920,7 +3920,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.46193,
     "lon": -79.11338,
@@ -3945,7 +3944,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult Forum (Sun 9:15 AM); Coffee with Clergy adult formation; choir; Meditation Gathering; Friday morning Women's Bible Study; ECW; children & youth",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-augustine-s-episcopal-church-5450-milford-plantation-rd-pinewood-sc",
@@ -3962,7 +3962,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.79511,
     "lon": -80.5372,
@@ -3987,7 +3986,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-mark-s-episcopal-church-1110a-paris-ave-port-royal-sc",
@@ -4004,7 +4004,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.37718,
     "lon": -80.69239,
@@ -4029,7 +4028,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Congregational Care (brain health, memory loss & caregiver support); Calming the Waters (mindfulness/meditation); Flower Guild",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "the-episcopal-church-in-okatie-231-hazzard-creek-village-ridgeland-sc",
@@ -4046,7 +4046,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.36064,
     "lon": -80.87351,
@@ -4071,7 +4070,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-stephen-s-episcopal-church-196-brick-church-cir-saint-stephen-sc",
@@ -4088,7 +4088,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.40545,
     "lon": -79.91652,
@@ -4113,7 +4112,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-212-central-ave-summerville-sc",
@@ -4130,7 +4130,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.01837,
     "lon": -80.17962,
@@ -4155,7 +4154,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-good-shepherd-208-central-avenue-summerville-sc",
@@ -4172,7 +4172,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.01845,
     "lon": -80.17939,
@@ -4197,7 +4196,8 @@
     "parking": "",
     "childcare": "Professionally staffed nursery (infants–pre-K) and Children's Christian Education (K–5th) during the 10:30 service, September–May",
     "formation": "Adult Christian Education (Sept–May); Children's Christian Education (K–5th)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-george-s-episcopal-church-9110-dorchester-rd-summerville-sc",
@@ -4214,7 +4214,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 32.93322,
     "lon": -80.13711,
@@ -4239,7 +4238,8 @@
     "parking": "",
     "childcare": "Children's Sunday School 10:30 AM",
     "formation": "Adult Forum (Sun 10:30 AM); Children's Sunday School; Traditional Choir; Handbell Choir; Modern Music; Seniors Fellowship; Wednesday Supper and Study; Daughters of the King",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-good-shepherd-401-dingle-street-sumter-sc",
@@ -4256,7 +4256,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.9149,
     "lon": -80.34954,
@@ -4281,7 +4280,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-200-church-st-abbeville-sc",
@@ -4298,7 +4298,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.17702,
     "lon": -82.38073,
@@ -4323,7 +4322,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-augustine-of-canterbury-1630-silver-bluff-rd-aiken-sc",
@@ -4340,7 +4340,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.49263,
     "lon": -81.75493,
@@ -4365,7 +4364,8 @@
     "parking": "Parking lot on site",
     "childcare": "",
     "formation": "Thursday Bible Study (1:00 PM); Cursillo Reunion Group (Mondays 1:00 PM)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-thaddeus-episcopal-church-125-pendleton-st-sw-aiken-sc",
@@ -4382,7 +4382,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.56196,
     "lon": -81.72469,
@@ -4407,7 +4406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Sunday school classes; Bible study groups; choir; fellowship events",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-711-s-mcduffie-st-anderson-sc",
@@ -4424,7 +4424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.49942,
     "lon": -82.64724,
@@ -4449,7 +4448,8 @@
     "parking": "",
     "childcare": "Nursery; Sunday school for all ages",
     "formation": "Sunday school for all ages; youth groups; choirs; Bible study; prayer; outreach; fellowship",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-george-episcopal-church-2206-e-greenville-st-anderson-sc",
@@ -4466,7 +4466,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.5555,
     "lon": -82.62886,
@@ -4491,7 +4490,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-paul-s-episcopal-church-116-south-perry-st-batesburg-sc",
@@ -4508,7 +4508,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.90423,
     "lon": -81.54275,
@@ -4533,7 +4532,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-305-williston-rd-beech-island-sc",
@@ -4550,7 +4550,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.42331,
     "lon": -81.86042,
@@ -4575,7 +4574,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-margaret-s-episcopal-church-4180-hwy-9-boiling-springs-sc",
@@ -4592,7 +4592,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.05592,
     "lon": -81.99159,
@@ -4617,7 +4616,8 @@
     "parking": "",
     "childcare": "Children's Chapel (K–4th) during 10:30 service",
     "formation": "Scripture Conversation (Sundays 9:30)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-1315-lyttleton-st-camden-sc",
@@ -4634,7 +4634,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.25147,
     "lon": -80.60398,
@@ -4659,7 +4658,8 @@
     "parking": "",
     "childcare": "Nursery for all Sunday services; Sunday School 9:30 AM for children",
     "formation": "Sunday School 9:30 AM for adults and children",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-1001-12th-st-cayce-sc",
@@ -4676,7 +4676,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.98129,
     "lon": -81.06955,
@@ -4701,7 +4700,8 @@
     "parking": "",
     "childcare": "Youth and Little Ones meet every 2nd Sunday after the 10:30 AM service (Little Ones in large classroom; older youth in Christian Education Classroom)",
     "formation": "Men's Group; St. Anne's Guild; St. Mary's Guild; Women of All Saints'; youth group (2nd Sundays)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-francis-of-assisi-735-old-lexington-hwy-chapin-sc",
@@ -4718,7 +4718,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.15346,
     "lon": -81.3479,
@@ -4743,7 +4742,8 @@
     "parking": "",
     "childcare": "Children & Youth Sunday School 9:30 AM (Parish Hall Building)",
     "formation": "Adult Christian Education 9:30 AM; Children & Youth Sunday School 9:30 AM; Wednesday Coffee Hour with Clergy",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "saint-mark-s-episcopal-church-132-center-street-chester-sc",
@@ -4760,7 +4760,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.70536,
     "lon": -81.21573,
@@ -4785,7 +4784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "holy-trinity-episcopal-church-193-old-greenville-hwy-clemson-sc",
@@ -4802,7 +4802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.68302,
     "lon": -82.83898,
@@ -4827,7 +4826,8 @@
     "parking": "",
     "childcare": "Nursery ages 0–PreK; Children's Church K–4th (Sept–mid May, except 1st Sundays); supervision for children through 5th grade during Adult Bible Study, joining age groups at 10:15 AM",
     "formation": "Adult Sunday School/Bible Study (Sept–mid May); Monday dinner and small group; Youth Group (5th–12th); Canterbury college ministry; Chancel Choir; Children's Choir",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-505-calvert-ave-clinton-sc",
@@ -4844,7 +4844,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.46845,
     "lon": -81.87242,
@@ -4869,7 +4868,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-columbia-sc",
@@ -4886,7 +4886,6 @@
     "ssm": "No - Alternative Blessings Practiced",
     "theological_cultural_alignment": "Traditional Orthodox - Both Theologically & Socially Conservative",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.0094,
     "lon": -81.0339,
@@ -4911,7 +4910,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth and adult Sunday school (Sun 9:30); periodic study classes; fellowship groups for youth, young adults, career-aged adults and seniors; Rosary; Eucharistic Adoration",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-david-s-episcopal-church-605-polo-rd-columbia-sc",
@@ -4928,7 +4928,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.09452,
     "lon": -80.89214,
@@ -4953,7 +4952,8 @@
     "parking": "",
     "childcare": "Nursery provided; Children's Sunday School and Children's Chapel",
     "formation": "Sunday School and Adult Forum (9:15 AM); Men's Bible Study; Daughters of the King",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-john-s-episcopal-church-2827-wheat-st-columbia-sc",
@@ -4970,7 +4970,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.99546,
     "lon": -81.00199,
@@ -4995,7 +4994,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-luke-s-episcopal-church-1300-pine-st-columbia-sc",
@@ -5012,7 +5012,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.0082,
     "lon": -81.01795,
@@ -5037,7 +5036,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-martins-in-the-fields-columbia-sc",
@@ -5054,7 +5054,6 @@
     "ssm": "Yes - Practiced",
     "theological_cultural_alignment": "Moderate Liberal - Theologically & Socially Progressive, fully affirms the three creeds",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.01701,
     "lon": -80.97194,
@@ -5079,7 +5078,8 @@
     "parking": "",
     "childcare": "Nursery for infants–3-year-olds from 10:00 AM; Children's Sunday School 9:15–10:15 AM",
     "formation": "Children's Sunday School; Youth Group (EYC, Sun evenings); small-group studies; adult Sunday forum (9:15 AM); In the Fields podcast",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-mary-s-episcopal-church-170-saint-andrews-rd-columbia-sc",
@@ -5096,7 +5096,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.04559,
     "lon": -81.14679,
@@ -5121,7 +5120,8 @@
     "parking": "",
     "childcare": "Nursery during the 9:30 service",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-michael-and-all-angels-6408-bridgewood-rd-columbia-sc",
@@ -5138,7 +5138,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.04236,
     "lon": -80.96127,
@@ -5163,7 +5162,8 @@
     "parking": "Two visitor parking spots directly in front of the church",
     "childcare": "Nursery from 9:00 AM; younger children may use the nursery room during the sermon",
     "formation": "Adult Christian Formation (Sun 9:00 AM); Taizé worship (2nd Sundays)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-timothy-s-episcopal-church-900-calhoun-st-columbia-sc",
@@ -5180,7 +5180,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.01028,
     "lon": -81.04294,
@@ -5205,7 +5204,8 @@
     "parking": "",
     "childcare": "Catechesis of the Good Shepherd (ages 3–7) during 10:30 AM service",
     "formation": "Adult Formation (Sun 9:00); Catechesis of the Good Shepherd (ages 3–7); Morning Prayer; Compline; Contemplative Prayer; Healing Prayer",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "the-episcopal-church-of-the-cross-7244-patterson-road-columbia-sc",
@@ -5222,7 +5222,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.97004,
     "lon": -80.936,
@@ -5247,7 +5246,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-cathedral-columbia-sc",
@@ -5264,7 +5264,6 @@
     "ssm": "Yes - Affirmed but not Practiced",
     "theological_cultural_alignment": "Traditional Orthodox - Both Theologically & Socially Conservative",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.001028,
     "lon": -81.03111,
@@ -5289,7 +5288,8 @@
     "parking": "Senate and Marion Streets; accessible spaces on Sumter St and in the small Marion St lot",
     "childcare": "",
     "formation": "Adult ministry groups (men, women, young adults, college students); Youth Ministry (middle/high school); Children's Ministry",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-michael-s-episcopal-church-1200-powdersville-rd-easley-sc",
@@ -5306,7 +5306,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.81155,
     "lon": -82.54929,
@@ -5331,7 +5330,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Christian Education program for all ages on the day's scriptures",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-thomas-church-115-yelton-rd-eastover-sc",
@@ -5348,7 +5348,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.90354,
     "lon": -80.67685,
@@ -5373,7 +5372,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-ridge-trinity-church-313-simkins-street-edgefield-sc",
@@ -5390,7 +5390,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "This is one parish that worships in three locations with three different buildings (Trinity, Our Saviour, and Grace). Sunday services rotate between locations. See churchoftheridge.org for more details.",
     "verification_status": "Unverified",
     "lat": 33.79013,
     "lon": -81.92793,
@@ -5415,7 +5414,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Monday Night Zoom Study Group (parish-wide)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": "This is one parish that worships in three locations with three different buildings (Trinity, Our Saviour, and Grace). Sunday services rotate between locations. See churchoftheridge.org for more details."
   },
   {
     "id": "st-paul-s-episcopal-church-501-pine-st-fort-mill-sc",
@@ -5432,7 +5432,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.01601,
     "lon": -80.94176,
@@ -5457,7 +5456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Christian Education / youth ministries",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-incarnation-308-college-dr-gaffney-sc",
@@ -5474,7 +5474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 35.06733,
     "lon": -81.64942,
@@ -5499,7 +5498,8 @@
     "parking": "Church lot or museum lot across the street; street parking along South Johnson Street",
     "childcare": "Nursery and Children's Chapel during 10:30 AM service",
     "formation": "Christian Formation for all ages (Sun 9:30 AM; covered-dish breakfast 1st Sundays)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-paul-s-episcopal-church-117-hard-st-graniteville-sc",
@@ -5516,7 +5516,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.56325,
     "lon": -81.80852,
@@ -5541,7 +5540,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-peter-s-episcopal-church-30-hampton-st-great-falls-sc",
@@ -5558,7 +5558,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.56447,
     "lon": -80.89421,
@@ -5583,7 +5582,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-10-n-church-st-greenville-sc",
@@ -5600,7 +5600,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.85082,
     "lon": -82.39444,
@@ -5625,7 +5624,8 @@
     "parking": "Main lot off East Washington Street; designated \"Sunday Visitor\" spaces",
     "childcare": "Nursery care for younger children; Children's Church (3K–3rd grade) during Liturgy of the Word at 10:30 AM; children's programming during 10:30 AM",
     "formation": "Sunday School; EYC youth; children's, adult and education ministries; Alpha; Rhythms of Grace",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-120-mauldin-rd-greenville-sc",
@@ -5642,7 +5642,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.80471,
     "lon": -82.37743,
@@ -5667,7 +5666,8 @@
     "parking": "",
     "childcare": "Nursery Sundays 9:15–11:45 AM",
     "formation": "Men's Breakfast and Study; Choir; Daughters of the King; Laundry Love outreach",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-greenville-sc",
@@ -5684,7 +5684,6 @@
     "ssm": "Yes - Practiced",
     "theological_cultural_alignment": "Inclusive Orthodox - Socially Progressive & Theologically Conservative",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.8398,
     "lon": -82.4005,
@@ -5709,7 +5708,8 @@
     "parking": "",
     "childcare": "Catechesis of the Good Shepherd (ages 3–9), Sun 9:30 AM",
     "formation": "Tuesday 4:00 PM clergy-led Bible Study; Rosary (3rd Wednesdays)",
-    "date_last_updated": "2026-10-09"
+    "date_last_updated": "2026-10-09",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-301-piney-mountain-road-greenville-sc",
@@ -5726,7 +5726,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.8977,
     "lon": -82.38162,
@@ -5751,7 +5750,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-301-piney-mountain-rd-greenville-sc",
@@ -5768,7 +5768,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.8977,
     "lon": -82.38162,
@@ -5793,7 +5792,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-peter-s-episcopal-church-910-hudson-rd-greenville-sc",
@@ -5810,7 +5810,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.86966,
     "lon": -82.31183,
@@ -5835,7 +5834,8 @@
     "parking": "",
     "childcare": "Childcare offered during 10:30 AM service; Sunday School for all ages 9:30 AM",
     "formation": "Sunday School for all ages (9:30 AM)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-philip-s-church-31-allendale-ln-greenville-sc",
@@ -5852,7 +5852,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.83949,
     "lon": -82.36972,
@@ -5877,7 +5876,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Monday Bible Study (6:00 PM)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-resurrection-700-s-main-st-greenwood-sc",
@@ -5894,7 +5894,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.18633,
     "lon": -82.1594,
@@ -5919,7 +5918,8 @@
     "parking": "Lots behind the church and along Marion Avenue",
     "childcare": "Nursery (infants/toddlers) during the 10:30 AM service",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-200-cannon-st-greer-sc",
@@ -5936,7 +5936,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.93921,
     "lon": -82.2239,
@@ -5961,7 +5960,8 @@
     "parking": "Small lot behind the church (5 handicapped, 3 visitor spaces); street parking",
     "childcare": "",
     "formation": "Men's Bible Study; Women's Bible Study; Christian Formation; Let's Cook",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-john-s-episcopal-church-1151-elm-savannah-road-hopkins-sc",
@@ -5978,7 +5978,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.90133,
     "lon": -80.80007,
@@ -6003,7 +6002,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-st-simon-st-jude-1110-kinley-rd-irmo-sc",
@@ -6020,7 +6020,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.09301,
     "lon": -81.16423,
@@ -6045,7 +6044,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Table Church (sensory-friendly Sunday service); youth & children ministries; fellowship",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-barnabas-episcopal-church-1056-st-barnabas-church-road-jenkinsville-sc",
@@ -6062,7 +6062,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.29619,
     "lon": -81.26653,
@@ -6087,7 +6086,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-534-plantation-rd-lancaster-sc",
@@ -6104,7 +6104,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.72462,
     "lon": -80.7986,
@@ -6129,7 +6128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-225-w-main-st-laurens-sc",
@@ -6146,7 +6146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.49843,
     "lon": -82.01696,
@@ -6171,7 +6170,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-alban-s-episcopal-church-403-park-rd-lexington-sc",
@@ -6188,7 +6188,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.99514,
     "lon": -81.26124,
@@ -6213,7 +6212,8 @@
     "parking": "",
     "childcare": "Nursery from 8:15 AM; Children's Church during the 10:30 AM service",
     "formation": "Youth Ministry; Music Ministry; Daughters of the King; Brotherhood; Cursillo; Kairos; Canterbury Way; Altar Guild",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-luke-s-episcopal-church-1605-main-st-newberry-sc",
@@ -6230,7 +6230,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.27639,
     "lon": -81.61514,
@@ -6255,7 +6254,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult Christian Ed (9:30 AM, 1st & 3rd Sundays); Episcopal Men; Episcopal Churchwomen; Daughters of the King",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-bartholomew-s-episcopal-church-471-w-martintown-rd-north-augusta-sc",
@@ -6272,7 +6272,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 33.51116,
     "lon": -81.97537,
@@ -6297,7 +6296,8 @@
     "parking": "",
     "childcare": "Nursery available; Sunday School 9:00 AM (Christian Education Building)",
     "formation": "Sunday School 9:00 AM; Centering Prayer",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-ridge-grace-church-212-green-street-ridge-spring-sc",
@@ -6314,7 +6314,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "This is one parish that worships in three locations with three different buildings (Trinity, Our Saviour, and Grace). Sunday services rotate between locations. See churchoftheridge.org for more details.",
     "verification_status": "Unverified",
     "lat": 33.84316,
     "lon": -81.6625,
@@ -6339,7 +6338,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Monday Night Zoom Study Group (parish-wide)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": "This is one parish that worships in three locations with three different buildings (Trinity, Our Saviour, and Grace). Sunday services rotate between locations. See churchoftheridge.org for more details."
   },
   {
     "id": "st-stephen-s-episcopal-church-307-longtown-rd-ridgeway-sc",
@@ -6356,7 +6356,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.31169,
     "lon": -80.95637,
@@ -6381,7 +6380,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-our-saviour-144-caldwell-st-rock-hill-sc",
@@ -6398,7 +6398,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.9261,
     "lon": -81.02467,
@@ -6423,7 +6422,8 @@
     "parking": "",
     "childcare": "Nursery during Sunday service (Sept–May), infants through age 5",
     "formation": "Sunday School for all ages after the service (Sept–May); coffee hour",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-214-northampton-rd-seneca-sc",
@@ -6440,7 +6440,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.70156,
     "lon": -82.95434,
@@ -6465,7 +6464,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Christian Formation class each Sunday after the 10 AM service & coffee hour",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "holy-cross-episcopal-church-205-e-college-st-simpsonville-sc",
@@ -6482,7 +6482,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.74039,
     "lon": -82.25404,
@@ -6507,7 +6506,8 @@
     "parking": "",
     "childcare": "Holy Cross Academy weekday day care (infant, toddler, elementary); Sunday nursery for infants–age 4, 7:45–11:30 AM; Children's Chapel Sept–May",
     "formation": "Children's formation (first communion, fellowship); children's and youth ministries",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-3685-glenn-springs-rd-spartanburg-sc",
@@ -6524,7 +6524,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.81591,
     "lon": -81.83066,
@@ -6549,7 +6548,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-advent-141-advent-st-spartanburg-sc",
@@ -6566,7 +6566,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.94986,
     "lon": -81.92426,
@@ -6591,7 +6590,8 @@
     "parking": "",
     "childcare": "Sunday nursery 9:00–11:30 AM, infants to 4 years (Parish and Community Life Center), professional staff and trained volunteers",
     "formation": "Men's Group Dinner; Wednesday Night Dinners & program; adult confirmation class; Sunday School",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-epiphany-121-ernest-l-collins-ave-spartanburg-sc",
@@ -6608,7 +6608,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.94212,
     "lon": -81.92592,
@@ -6633,7 +6632,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-christopher-s-church-episcopal-400-dupre-dr-spartanburg-sc",
@@ -6650,7 +6650,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.95821,
     "lon": -81.89644,
@@ -6675,7 +6674,8 @@
     "parking": "",
     "childcare": "Sunday nursery (birth to age 5), supervised play",
     "formation": "Christian Formation after the Sunday service; Wednesday Morning Prayer and Bible Study",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-matthew-s-episcopal-church-101-saint-matthews-ln-spartanburg-sc",
@@ -6692,7 +6692,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.93834,
     "lon": -81.98401,
@@ -6717,7 +6716,8 @@
     "parking": "",
     "childcare": "Children's Formation from 10:00 AM until the Eucharist",
     "formation": "Children's Formation; EYC (Episcopal Youth Community, 5:30 PM); Bible, Bread & Wine (5:30 PM); Education for Ministry (EfM); Foyer Groups; Agape Meals; Cursillo group; book series",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-the-ridge-our-saviour-212-church-street-trenton-sc",
@@ -6734,7 +6734,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "This is one parish that worships in three locations with three different buildings (Trinity, Our Saviour, and Grace). Sunday services rotate between locations. See churchoftheridge.org for more details.",
     "verification_status": "Unverified",
     "lat": 33.74344,
     "lon": -81.84428,
@@ -6759,7 +6758,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Monday Night Zoom Study Group (parish-wide)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": "This is one parish that worships in three locations with three different buildings (Trinity, Our Saviour, and Grace). Sunday services rotate between locations. See churchoftheridge.org for more details."
   },
   {
     "id": "church-of-the-nativity-320-s-church-st-union-sc",
@@ -6776,7 +6776,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.70978,
     "lon": -81.6197,
@@ -6801,7 +6800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "st-john-s-episcopal-church-301-w-liberty-st-winnsboro-sc",
@@ -6818,7 +6818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.37785,
     "lon": -81.08909,
@@ -6843,7 +6842,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-108-e-liberty-st-york-sc",
@@ -6860,7 +6860,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 34.99271,
     "lon": -81.23981,
@@ -6885,6 +6884,7 @@
     "parking": "",
     "childcare": "Godly Play for the youngest children during the 10:30 AM service (join congregation for Communion)",
     "formation": "Godly Play (Montessori-inspired children's formation)",
-    "date_last_updated": "2026-09-29"
+    "date_last_updated": "2026-09-29",
+    "notes": ""
   }
 ]

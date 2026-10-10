@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 434-4646 | dg4720@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.99924,
     "lon": -76.98311,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-oakley-22598-oakley-rd-avenue-md",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "greg@allsaintsoakley.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.28835,
     "lon": -76.74202,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-zion-parish-11040-baltimore-ave-beltsville-md",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 937-4292 | office@saintjohnsbeltsville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.03445,
     "lon": -76.90817,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-6201-dunrobbin-dr-bethesda-md",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 229-3770 | office@redeemerbethesda.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96959,
     "lon": -77.14046,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Nursery; Neighborhood associations; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Journey to Adulthood (J2A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-dunstans-bethesda-5450-massachusetts-avenue-bethesda-md",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 229-2960 | admin@stdunstansbethesda.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.95797,
     "lon": -77.10925,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Men's group; Neighborhood associations; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-trinity-parish-bethesda-6030-grosvenor-ln-bethesda-md",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 530-1800 | admin@stlukesbethesda.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.02239,
     "lon": -77.12193,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-parish-13500-baden-westwood-rd-brandywine-md",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 579-2643 | office.stpauls@aol.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.65989,
     "lon": -76.77287,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school; Community Support Systems of Southern Maryland",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-baden-13801-baden-westwood-rd-brandywine-md",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 888-1536 | stphilipsbaden@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.66142,
     "lon": -76.76781,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Men's group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-brighton-1001-brighton-dam-rd-brookeville-md",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(240) 389-5853 | rector@stlukesbrighton.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.19293,
     "lon": -77.02664,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Choir; Olney Help Food Bank",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-leonardtown-44078-saint-andrews-church-rd-california-md",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 862-2247 | parishadmin@standrewsleonardtown.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.28681,
     "lon": -76.55244,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth faith formation/Sunday school; CDI Head Start; St. Andrew's Thrift Shop",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-25390-maddox-rd-church-chaptico-md",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 884-3451 | office@cckqp.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-newport-and-hughesville-9560-trinity-church-rd-charlotte-hall-md",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 934-1424 | trinityepiscopalparish@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.44965,
     "lon": -76.86554,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-3-chevy-chase-cir-chevy-chase-md",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 654-2488 | shireen.david@allsaintschurch.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96754,
     "lon": -77.07771,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-norwood-6701-wisconsin-ave-chevy-chase-md",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 654-7767 | aderse@stjohnsnorwood.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.97724,
     "lon": -77.09058,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Journey to Adulthood (J2A); Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-8710-old-branch-ave-clinton-md",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 868-1330 | christchurchclinton@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.76983,
     "lon": -76.89991,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "commonplace-episcopal-anglican-7600-baltimore-avenue-college-park-md",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(423) 304-6116",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-4512-college-ave-college-park-md",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 864-8880 | office@saeccp.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.9818,
     "lon": -76.93614,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; College student group; Eucharistic Ministers/Visitors; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-25100-ridge-rd-damascus-md",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 253-2130 | frjon@stannesdamascus.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.26842,
     "lon": -77.21769,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "epiphany-episcopal-church-3111-ritchie-rd-forestville-md",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 735-7717 | epiphanyforestville@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.8472,
     "lon": -76.87643,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-broad-creek-9801-livingston-rd-fort-washington-md",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 248-4290 | info@stjohnsbroadcreek.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.75581,
     "lon": -76.99881,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-205-s-summit-ave-gaithersburg-md",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 948-0122 | office@ascensionmd.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.13771,
     "lon": -77.19411,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-church-of-the-deaf-205-s-summit-ave-gaithersburg-md",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "stbarnabaschurchofthedeaf@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.13771,
     "lon": -77.19411,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-nicholas-15575-germantown-road-germantown-md",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(240) 631-2800 | rector@saintnicks.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.11112,
     "lon": -77.30151,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Godly Play; Good News Gardens",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-7010-glenn-dale-road-glenn-dale-md",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 262-3285 | office@stgeorgesglenndale.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Godly Play; LGBTQ group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-san-mateo-5901-36th-ave-hyattsville-md",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 559-8686 | st.matthewsparish@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96188,
     "lon": -76.95658,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-7-potomac-ave-indian-head-md",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 743-2366 | rector.st.james.indianhead@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.5994,
     "lon": -77.16323,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-4001-franklin-st-kensington-md",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 942-4673 | sundayschool@ccpk.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.0182,
     "lon": -77.07822,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Journey to Adulthood (J2A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-port-tobacco-112-e-charles-st-la-plata-md",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 392-1051 | ccptp@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.52963,
     "lon": -76.97973,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Charles County Interfaith Council",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-522-main-street-laurel-md",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 776-5151 | admin@stphilipslaurel.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.10725,
     "lon": -76.85101,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-bartholomews-21611-laytonsville-rd-laytonsville-md",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 355-7189 | parishadmin@saintbartholomews.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.2105,
     "lon": -77.14222,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-21641-great-mills-rd-lexington-park-md",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(410) 200-0216 | mrstamper1@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.26142,
     "lon": -76.46349,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-faith-charlotte-hall-38885-new-market-turner-rd-mechanicsville-md",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 884-3773 | allfaithchurch1692@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.46737,
     "lon": -76.73206,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Girl Scouts; Young adult group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-mt-rainier-4112-34th-st-mount-rainier-md",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 927-1156 | parishadministrator@stjohnsmountrainier.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.9401,
     "lon": -76.96133,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Men's group; Youth faith formation/Sunday school; Mothers' Union",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-durham-8700-ironsides-rd-nanjemoy-md",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 743-7099 | deacon.susan.fritz@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.47315,
     "lon": -77.15557,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; 4-H",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-church-8001-annapolis-rd-new-carrollton-md",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 577-1281 | office@stchrispgc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.95465,
     "lon": -76.87456,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Daughters of the King; Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-wayside-13050-rock-point-rd-newburg-md",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 259-4327 | christchurchwayside@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.35048,
     "lon": -76.93603,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-3427-olney-laytonsville-rd-olney-md",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 774-6999 | rector@stjec.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.15374,
     "lon": -77.06762,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school; Youth group; Food Pantry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-20100-fisher-ave-poolesville-md",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 349-2073 | stpeters@stpeterspoolesville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.14652,
     "lon": -77.42036,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-10033-river-rd-potomac-md",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 365-2055 | info@stfrancispotomac.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.01685,
     "lon": -77.20699,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-11815-seven-locks-rd-potomac-md",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 762-8040 | james@stjamespotomac.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.0507,
     "lon": -77.16395,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-childrens-school-11815-seven-locks-road-potomac-md",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 762-3246 | preschool@stjamespotomac.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.0507,
     "lon": -77.16395,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-parish-107-s-washington-st-rockville-md",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 762-2191 | christchurch@cecrockville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.08241,
     "lon": -77.15291,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-our-saviour-hillandale-1700-powder-mill-rd-silver-spring-md",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 439-5900 | churchoffice@episcopalcos.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.02246,
     "lon": -76.97701,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-sligo-parish-633-sligo-ave-silver-spring-md",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 587-3272 | reverendterri@aol.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.99117,
     "lon": -77.01473,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Men's group; Neighborhood associations; Nursery; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-episcopal-church-818-university-blvd-west-silver-spring-md",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 593-3282 | assistant@gsecmd.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.03224,
     "lon": -77.02304,
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Boy Scouts; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-1607-grace-church-rd-silver-spring-md",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 585-3515 | pastorsarah@graceepiscopalchurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.00602,
     "lon": -77.03694,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-fairland-12621-old-columbia-pike-silver-spring-md",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 622-5860 | office@stmarks-silverspring.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.06364,
     "lon": -76.96563,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mary-magdalene-episcopal-church-misa-magdalena-wheaton-parish-3820-aspen-hill-rd-silver-spring-md",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 871-7689 | rector@stmarymagdalene-md.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.08031,
     "lon": -77.07744,
@@ -1965,7 +1964,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "transfiguration-parish-13925-new-hampshire-ave-silver-spring-md",
@@ -1982,7 +1982,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 384-6264 | church@transfig.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.08327,
     "lon": -77.00022,
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-church-st-marys-parish-47444-trinity-church-rd-st-marys-city-md",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 862-4597 | trinitysmcmd@olg.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.18802,
     "lon": -76.43326,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-5203-saint-barnabas-rd-temple-hills-md",
@@ -2064,7 +2064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 894-9100 | info@stbarnabastemplehills.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.81987,
     "lon": -76.95821,
@@ -2088,7 +2087,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Daughters of the King; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-leeland-14111-oak-grove-rd-upper-marlboro-md",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 249-5001 | rector@stbarnabas.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.87528,
     "lon": -76.76202,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Men's group; Godly Play; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-croom-14300-saint-thomas-church-rd-upper-marlboro-md",
@@ -2146,7 +2146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 627-8469 | administrator@stthomascroom.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.7486,
     "lon": -76.75975,
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-14515-church-st-upper-marlboro-md",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 627-2636 | parishadmin@trinityuppermarlboro.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.81456,
     "lon": -76.75395,
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-44965-blake-creek-rd-valley-lee-md",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 994-0585 | parishadmin@stgeorgesvl.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.19544,
     "lon": -76.52297,
@@ -2252,7 +2251,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Eucharistic Ministers/Visitors; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-piney-parish-4535-piney-church-rd-waldorf-md",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(301) 645-5000 | office@stpaulswaldorf.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.58765,
     "lon": -76.90007,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; FORMA; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-souls-episcopal-church-2300-cathedral-ave-nw-washington-dc",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 232-4244 | office@allsoulsdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.92776,
     "lon": -77.0528,
@@ -2334,7 +2333,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Girl Scouts; Men's group; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-church-820-6th-st-ne-washington-dc",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 546-8011 | rev.petergs@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90047,
     "lon": -76.99852,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew; Choir; Daughters of the King; Episcopal Church Women (ECW); Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-georgetown-3116-o-st-nw-washington-dc",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 333-6677 | info@christchurchgeorgetown.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90839,
     "lon": -77.06173,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-washington-capitol-hill-620-g-st-se-washington-dc",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 547-9300 | welcome@christchurchdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88133,
     "lon": -76.99753,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Godly Play; Journey to Adulthood (J2A); Men's group; Young adult group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christian-family-montessori-school-201-allison-st-nw-ste-b-washington-dc",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.94543,
     "lon": -77.01564,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-our-saviour-brookland-1616-irving-st-ne-washington-dc",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 635-7804 | oursaviourbrookland@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.92908,
     "lon": -76.9821,
@@ -2539,7 +2538,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-ascension-and-st-agnes-1215-massachusetts-ave-nw-washington-dc",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 347-8161 | parish.administrator@asa-dc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90445,
     "lon": -77.02832,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Men's group; Neighborhood associations; Nursery; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-atonement-5073-e-capitol-st-se-washington-dc",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 582-4200 | info@atonementepiscopaldc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88964,
     "lon": -76.92758,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Daughters of the King; Episcopal Church Women (ECW); East of the River Steelband",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-1317-g-street-nw-washington-dc",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 347-2635 | info@epiphanydc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.89837,
     "lon": -77.03005,
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Eucharistic Ministers/Visitors; Neighborhood associations; Street Sense Media; Muslim Prayer group affiliated with the All Dulles Area Muslim Society; Thomas Circle Singers",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "commonplace-episcopal-anglican-2400-6th-street-washington-dc",
@@ -2679,7 +2679,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.92249,
     "lon": -77.02117,
@@ -2703,7 +2702,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-house-mount-st-alban-washington-dc",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-anglican-presence-at-american-university-4400-massachusetts-avenue-nw-washington-dc",
@@ -2761,7 +2761,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "cseaton1@starpower.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.93905,
     "lon": -77.08756,
@@ -2785,7 +2784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-georgetown-1041-wisconsin-ave-nw-washington-dc",
@@ -2802,7 +2802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 333-7100 | office@gracedc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90386,
     "lon": -77.06271,
@@ -2826,7 +2825,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-comforter-701-oglethorpe-st-nw-washington-dc",
@@ -2843,7 +2843,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 726-1862 | holycomforterdc@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96137,
     "lon": -77.02252,
@@ -2867,7 +2866,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-communion-3640-martin-luther-king-jr-ave-se-washington-dc",
@@ -2884,7 +2884,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 562-5400 | welcome@holycommunion.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.83881,
     "lon": -77.00534,
@@ -2908,7 +2907,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Men's group; Episcopal Church Women (ECW); Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "housing-up-5101-16th-street-nw-washington-dc",
@@ -2925,7 +2925,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 291-5535 | info@housingup.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.95193,
     "lon": -77.03634,
@@ -2949,7 +2948,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "national-cathedral-school-3612-woodley-rd-nw-washington-dc",
@@ -2966,7 +2966,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 537-6300",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.93171,
     "lon": -77.07116,
@@ -2990,7 +2989,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "rosemount-center-2000-rosemount-ave-nw-washington-dc",
@@ -3007,7 +3007,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 265-9885 | info@rosemountcenter.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.93279,
     "lon": -77.04662,
@@ -3031,7 +3030,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "samaritan-ministry-of-greater-washington-1516-hamilton-street-nw-washington-dc",
@@ -3048,7 +3048,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 722-2280 | dwolf@samaritanministry.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.95285,
     "lon": -77.03501,
@@ -3072,7 +3071,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-3001-wisconsin-ave-nw-washington-dc",
@@ -3089,7 +3089,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 363-8286 | opshop@stalbansdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.92907,
     "lon": -77.07302,
@@ -3113,7 +3112,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Journey to Adulthood (J2A)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-school-mount-saint-alban-washington-dc",
@@ -3130,7 +3130,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 537-6435",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -3154,7 +3153,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-augustines-555-water-street-sw-washington-dc",
@@ -3171,7 +3171,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 554-3222 | thor081828@hotmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -3195,7 +3194,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-columbas-4201-albemarle-st-nw-washington-dc",
@@ -3212,7 +3212,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 363-4119 | communications@columba.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.94796,
     "lon": -77.08212,
@@ -3236,7 +3235,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); LGBTQ group; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-columbas-nursery-school-4201-albemarle-street-n-w-washington-dc",
@@ -3253,7 +3253,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 363-4119 | parishoffice@columba.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.94796,
     "lon": -77.08212,
@@ -3277,7 +3276,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-5150-macomb-st-nw-washington-dc",
@@ -3294,7 +3294,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 966-2093 | parishoffice@stdavidsdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.93272,
     "lon": -77.10565,
@@ -3318,7 +3317,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-160-u-st-nw-washington-dc",
@@ -3335,7 +3335,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 387-6421 | churchofc@stgeorgesdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.91694,
     "lon": -77.01385,
@@ -3359,7 +3358,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Neighborhood associations; Men's group; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Brotherhood of St. Andrew; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-georgetown-3240-o-st-nw-washington-dc",
@@ -3376,7 +3376,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 338-1796 | gini@stjohnsgeorgetown.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90776,
     "lon": -77.065,
@@ -3400,7 +3399,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-lafayette-square-1525-h-st-nw-washington-dc",
@@ -3417,7 +3417,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 347-8766 | hello@stjohns-dc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90026,
     "lon": -77.03551,
@@ -3441,7 +3440,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Godly Play; LGBTQ group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-1514-15th-st-nw-washington-dc",
@@ -3458,7 +3458,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 667-4394 | saintlukesdc@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.91033,
     "lon": -77.03463,
@@ -3482,7 +3481,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Daughters of the King; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-margarets-1820-connecticut-ave-nw-washington-dc",
@@ -3499,7 +3499,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 232-2995 | richard@stmargaretsdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.91489,
     "lon": -77.04644,
@@ -3523,7 +3522,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-capitol-hill-301-a-st-se-washington-dc",
@@ -3540,7 +3540,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 543-0053 | michele@stmarks.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88862,
     "lon": -77.00196,
@@ -3564,7 +3563,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Girl Scouts; Men's group; Nursery; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-foggy-bottom-728-23rd-st-nw-washington-dc",
@@ -3581,7 +3581,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 333-3985 | stmaryschurch728@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.89871,
     "lon": -77.05021,
@@ -3605,7 +3604,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-monica-and-st-james-capitol-hill-222-8th-st-ne-washington-dc",
@@ -3622,7 +3622,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "office@smjec.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.8924,
     "lon": -76.99504,
@@ -3646,7 +3645,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Young adult group; Everyone Home DC; So Others May Eat (S.O.M.E.)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-patricks-4700-whitehaven-pkwy-nw-washington-dc",
@@ -3663,7 +3663,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 342-2800 | churchoffice@stpatrickschurchdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.91638,
     "lon": -77.08878,
@@ -3687,7 +3686,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Boy Scouts; Choir; College student group; Men's group; Nursery; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-rock-creek-201-allison-street-nw-washington-dc",
@@ -3704,7 +3704,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 726-2080 | rtrache@stpaulsrockcreek.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.94543,
     "lon": -77.01564,
@@ -3728,7 +3727,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-k-street-2430-k-st-nw-washington-dc",
@@ -3745,7 +3745,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 337-2020 | gratepatrol@stpauls-kst.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90242,
     "lon": -77.0523,
@@ -3769,7 +3768,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephen-and-the-incarnation-1525-newton-st-nw-washington-dc",
@@ -3786,7 +3786,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 232-0900 | volunteer@loavesandfishesdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.93279,
     "lon": -77.03502,
@@ -3810,7 +3809,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); LGBTQ group; Neighborhood associations; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-dupont-circle-1517-18th-street-nw-washington-dc",
@@ -3827,7 +3827,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 808-3326 | info@office.stthomasdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.91033,
     "lon": -77.0416,
@@ -3851,7 +3850,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; LGBTQ group; Young adult group; Christ House; Rainbow Railroad",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-episcopal-church-3601-alabama-ave-se-washington-md",
@@ -3868,7 +3868,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 582-7740 | churchofsttimothys@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.86264,
     "lon": -76.9566,
@@ -3892,7 +3891,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Boy Scouts; Brotherhood of St. Andrew; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-bishop-john-t-walker-school-for-boys-1801-mississippi-ave-se-ste-1-washington-dc",
@@ -3909,7 +3909,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 678-1515 | info@bishopwalkerschool.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.84356,
     "lon": -76.9774,
@@ -3933,7 +3932,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-church-dc-7005-piney-branch-rd-nw-washington-dc",
@@ -3950,7 +3950,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 726-7036 | office@trinitychurchdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.97528,
     "lon": -77.02136,
@@ -3974,7 +3973,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-volunteer-corps-7005-piney-branch-road-nw-washington-pa",
@@ -3991,7 +3991,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "office@trinitychurchdc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.97528,
     "lon": -77.02136,
@@ -4015,7 +4014,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "washington-national-cathedral-3101-wisconsin-ave-nw-washington-dc",
@@ -4032,7 +4032,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 537-6200 | info@cathedral.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.93045,
     "lon": -77.0728,
@@ -4056,7 +4055,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "beauvoir-the-national-cathedral-elementary-school-3500-woodley-rd-n-w-washington-dc-dc",
@@ -4073,7 +4073,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(202) 537-6485",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.93155,
     "lon": -77.06857,
@@ -4097,6 +4096,7 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

@@ -348,11 +348,14 @@ const DETAIL_SECTIONS = [
     ["diocese", "Diocese"],
     ["diocesan_bishop", "Diocesan Bishop"],
   ]],
-  ["Notes & verification", [
-    ["notes", "Notes"],
+  ["Verification", [
     ["verification_status", "Verification Status"],
     ["date_last_updated", "Last Updated", "date"],
     ["coords", "Coordinates"],
+  ]],
+  // Freeform text, typed as written; its line breaks are kept (see .freeform in app.css).
+  ["Notes", [
+    ["notes", "Notes", "freeform"],
   ]],
 ];
 
@@ -469,8 +472,8 @@ function openDetail(p, returnTo) {
   const leadTitle = hasValue(p.clergy_title) ? String(p.clergy_title).trim() : /\bCathedral\b/i.test(p.name) ? "Dean" : "Rector";
   body.innerHTML = DETAIL_SECTIONS.map(([title, fields]) => {
     const rows = fields
-      .filter(([key]) => hasValue(v[key]))
-      .map(([key, label, kind]) => `<div><dt>${label.replace(/^Rector/, leadTitle)}</dt><dd>${detailValue(String(v[key]), kind)}</dd></div>`);
+      .filter(([key, , kind]) => (kind === "freeform" ? String(v[key] ?? "").trim() !== "" : hasValue(v[key])))
+      .map(([key, label, kind]) => `<div><dt>${label.replace(/^Rector/, leadTitle)}</dt><dd${kind === "freeform" ? ' class="freeform"' : ""}>${detailValue(String(v[key]), kind)}</dd></div>`);
     return rows.length ? `<section><h3>${title}</h3><dl>${rows.join("")}</dl></section>` : "";
   }).join("");
   detailReturn = returnTo;

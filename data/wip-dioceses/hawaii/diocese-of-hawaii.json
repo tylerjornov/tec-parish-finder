@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 488-5747 | office@sttimothysaiea.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.38738,
     "lon": -157.94451,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; LGBTQ group; Neighborhood associations",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-eleele-322-mehana-rd-eleele-hi",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 335-5533 | ecwk@hawaiiantel.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.90655,
     "lon": -159.5801,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-apostles-church-of-the-1407-kapiolani-st-hilo-hi",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 935-5545 | office@echa-hilo.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 19.70108,
     "lon": -155.07718,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "iolani-school-563-kamoku-street-honolulu-hi",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 949-5355 | info@iolani.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.28645,
     "lon": -157.82466,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "epiphany-episcopal-church-1041-10th-ave-honolulu-hi",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 734-5706 | eechiinfo@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.2817,
     "lon": -157.80228,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Boy Scouts; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-samaritan-episcopal-church-1801-10th-ave-honolulu-hi",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 735-5944 | goodsamhawaii@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.29283,
     "lon": -157.79583,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-nativity-school-5286-kalanianaole-highway-honolulu-hi",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 373-3232 | admissions@holynativityschool.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-nativity-the-church-of-the-5286-kalanianaole-hwy-honolulu-hi",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 373-2131 | hncparish@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Preschool; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-schools-224-queen-emma-square-honolulu-hi",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 536-6102 | info@standrewsschools.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrew-the-cathedral-of-hawaii-229-queen-emma-square-honolulu-hi",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 524-2822 | office@cathedralhawaii.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.31024,
     "lon": -157.85653,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-clements-school-1515-wilder-avenue-honolulu-hi",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 949-2082",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.30349,
     "lon": -157.83406,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-clement-the-episcopal-parish-of-1515-wilder-ave-honolulu-hi",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 955-7745 | info@stclem.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.30349,
     "lon": -157.83406,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; LGBTQ group; Neighborhood associations; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-elizabeths-episcopal-church-720-n-king-st-honolulu-hi",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 845-2112 | stelizabethhawaii@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.3208,
     "lon": -157.86635,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-45-n-judd-st-honolulu-hi",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 533-3481 | stlukeshawaii@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.32274,
     "lon": -157.85034,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-parish-539-kapahulu-ave-honolulu-hi",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.2771,
     "lon": -157.81437,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-2062-s-king-st-honolulu-hi",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 949-4655 | stmaryshawaii@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.29444,
     "lon": -157.82871,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-229-queen-emma-sq-honolulu-hi",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.31024,
     "lon": -157.85653,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-episcopal-church-1317-queen-emma-st-honolulu-hi",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 533-1943 | stpetershonoluluoffice@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.31099,
     "lon": -157.85631,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-2210-farrington-ave-hoolehua-hi",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 567-6420 | gracemkk.episcopal@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.16331,
     "lon": -157.05071,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-cross-56-356-kamehameha-hwy-kahuku-hi",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-episcopal-church-780-keolu-dr-kailua-hi",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 262-4548 | office@emmanuelkailua.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.38407,
     "lon": -157.73162,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Education for Ministry (EFM); Neighborhood associations",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christopher-the-parish-church-of-93-n-kainalu-dr-kailua-hi",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 262-8176 | stc@stchristopherkailua.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.39928,
     "lon": -157.74062,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-65-1237-kawaihae-rd-kamuela-hi",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 885-4923 | office@stjameshawaii.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 20.0218,
     "lon": -155.67086,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-by-the-sea-47-074-lihikai-dr-kaneohe-hi",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 239-7198 | stjohnsbts@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.45896,
     "lon": -157.83334,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Family Promise",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-1065-kuhio-hwy-kapaa-hi",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 822-4267 | church@allsaintskauai.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Habitat for Humanity; Youth faith formation/Sunday school; Preschool; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Daughters of the King; Choir",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-augustines-episcopal-church-kohala-episcopal-mission-54-3801-akoni-pule-hwy-kapaau-hi",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 889-5390 | admin@staugustineskohala.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 20.23104,
     "lon": -155.80275,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Boy Scouts; Choir; Eucharistic Ministers/Visitors; Godly Play; Youth faith formation/Sunday school; Kohala Cares",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-nicholas-episcopal-church-909-haumea-st-kapolei-hi",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 753-7788 | info@stnickschurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.33306,
     "lon": -158.08114,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-episcopal-81-1004-konawaena-school-rd-kealakekua-hi",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 323-3429 | christchurchhawaii@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 19.50841,
     "lon": -155.91986,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-8640-kiowea-rd-kekaha-hi",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.96272,
     "lon": -159.70419,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-by-the-sea-100-kulanihakoi-st-kihei-hi",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 879-0161 | info@trinitybts.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 20.76171,
     "lon": -156.45488,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Youth faith formation/Sunday school; A Cup of Cold Water-Outreach Ministry to Maui's Unsheltered Community",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-memorial-episcopal-church-2509-kolo-rd-kilauea-hi",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 482-4824 | christmemorial.kauai@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 22.2072,
     "lon": -159.41123,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-the-parish-of-8992-kula-hwy-kula-hi",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 878-1485 | president@accwmaui.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 20.70758,
     "lon": -156.35387,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-innocents-the-church-of-the-interim-location-for-sunday-worship-due-to-wildfires-lahaina-hi",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 879-0161 | info@trinitybts.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michael-and-all-angels-episcopal-church-4364-hardy-street-lihue-hi",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 245-3796 | info@stmichaels-kauai.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.97644,
     "lon": -159.36437,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "seabury-hall-480-olinda-road-makawao-hi",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 572-7235 | admissions@seaburyhall.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 20.83996,
     "lon": -156.30795,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-judes-episcopal-mission-92-8606-paradise-cir-ocean-view-hi",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 19.08984,
     "lon": -155.76498,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-columbas-episcopal-church-43-1425-hauola-road-paauilo-hi",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 885-4923 | frdavid@stjameshawaii.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 20.04089,
     "lon": -155.37198,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-beach-road-oleai-saipan-mp",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-the-divine-911-n-marine-corps-dr-tamuning-gu",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(671) 649-0090",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 13.48375,
     "lon": 144.77274,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-1679-california-ave-wahiawa-hi",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 621-8662 | ststephee001@hawaii.rr.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.50236,
     "lon": -158.00843,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Catholic Charities; Thrift Shop; Oahu Berea Evangelical Church (Chuukese); Tikvat Yisrael Messianic Congregation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "camp-mokuleia-68-729-farrington-highway-waialua-hi",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 637-6241 | info@campmokuleia.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.58015,
     "lon": -158.18134,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "creation-care-at-camp-mokuleia-68-729-farrington-highway-waialua-hi",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 637-6241 | kahubt@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.58015,
     "lon": -158.18134,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-the-baptist-episcopal-church-87-227-saint-johns-rd-waianae-hi",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 696-5772 | revjazzybostock@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.41681,
     "lon": -158.17258,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-episcopal-church-2140-main-st-wailuku-hi",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 244-4656 | office@goodshepherdmaui.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 20.88735,
     "lon": -156.50354,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-41-054-ehukai-st-waimanalo-hi",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(808) 259-8664 | cesoffice@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 21.3395,
     "lon": -157.70203,
@@ -1842,6 +1841,7 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

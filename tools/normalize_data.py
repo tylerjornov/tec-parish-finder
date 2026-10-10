@@ -8,11 +8,12 @@ alone and listed at the end so it can be fixed by hand. The site applies the sam
 number (formatPhones in js/app.js); this script fixes the data itself.
 
 Clergy (rector_name, diocesan_bishop, other_clergy) use only these titles:
-    Rev.   Mtr.   Fr.   Rt. Rev.   Very Rev.
+    Rev.   Ven.   Mtr.   Fr.   Rt. Rev.   Very Rev.
 so "Reverend", "Revd", "Rev" -> Rev.; "Right Reverend", "Rt Rev" -> Rt. Rev.; "Very Reverend" -> Very Rev.;
-"Father", "Fr" -> Fr.; "Mother", "Mthr", "Mtr" -> Mtr. "Dr.", "Canon" and the rest of the name are kept. A name
-that starts with Rev., Rt. Rev. or Very Rev. always starts with "The" ("Rev. Ann Lee" -> "The Rev. Ann Lee");
-Fr. and Mtr. do not get one. "Father" / "Mother" are only changed when a capitalised name follows.
+"Venerable", "Ven" -> Ven.; "Father", "Fr" -> Fr.; "Mother", "Mthr", "Mtr" -> Mtr. "Dr.", "Canon" and the rest
+of the name are kept. A name that starts with Rev., Ven., Rt. Rev. or Very Rev. always starts with "The"
+("Rev. Ann Lee" -> "The Rev. Ann Lee"; "The Venerable Ann Lee" -> "The Ven. Ann Lee"); Fr. and Mtr. do not get one.
+"Father" / "Mother" are only changed when a capitalised name follows.
   - rector_name and diocesan_bishop: a role after the name is dropped (", Rector", ", Priest-in-Charge",
     ", Bishop Provisional"); generational suffixes (", Jr.", ", IV") are kept.
   - clergy_title: a lead-priest role after the name in rector_name ("The Rev. Ann Lee, Vicar") is moved here
@@ -30,9 +31,10 @@ Emails (church_email, rector_email, and any address in other_contact) are lowerc
 URLs (website, livestream_url): a bare domain gets a trailing slash ("https://x.org" -> "https://x.org/").
 http:// is not upgraded, because not every site serves https.
 
-Text: curly quotes become straight ones in every field. In the free-text fields, an em dash after a service
-time is dropped ("11:00 AM — Holy Eucharist" -> "11:00 AM Holy Eucharist"), and time, day and month ranges
-use an en dash ("9:15-11:45 AM" -> "9:15–11:45 AM", "Mon-Fri" -> "Mon–Fri", "Sept - May" -> "Sept–May").
+Text: curly quotes become straight ones in every field. In the service and detail fields, an em dash after a
+service time is dropped ("11:00 AM — Holy Eucharist" -> "11:00 AM Holy Eucharist"), and time, day and month
+ranges use an en dash ("9:15-11:45 AM" -> "9:15–11:45 AM", "Mon-Fri" -> "Mon–Fri", "Sept - May" -> "Sept–May").
+"notes" is freeform: it is only checked for curly quotes and otherwise kept exactly as typed.
 
     python3 tools/normalize_data.py              # fix data/parishes.json and data/wip-dioceses/**.json
     python3 tools/normalize_data.py --check      # only report what would change
@@ -64,7 +66,7 @@ EMAIL_FIELDS = ("church_email", "rector_email")
 URL_FIELDS = ("website", "livestream_url")
 PROSE_FIELDS = (
     "sunday_services", "weekday_services", "rite_details", "service_languages", "music_style",
-    "accessibility", "parking", "childcare", "formation", "notes",
+    "accessibility", "parking", "childcare", "formation",
 )
 
 # Order matters: the longer titles go first so "Right Reverend" is not left as "Right Rev.".
@@ -72,12 +74,13 @@ _TITLES = [
     (re.compile(r"\b(?:Right|Rt\.?)\s*(?:Reverend|Revd\.?|Rev\b\.?)", re.I), "Rt. Rev."),
     (re.compile(r"\bVery\s+(?:Reverend|Revd\.?|Rev\b\.?)", re.I), "Very Rev."),
     (re.compile(r"\b(?:Reverend|Revd\.?|Rev\b\.?)", re.I), "Rev."),
+    (re.compile(r"\b(?:Venerable|Ven\b\.?)(?=\s+[A-Z])"), "Ven."),
     (re.compile(r"\b(?:Father|Fr\b\.?)(?=\s+[A-Z])"), "Fr."),
     (re.compile(r"\b(?:Mother|Mthr\b\.?|Mtr\b\.?)(?=\s+[A-Z])"), "Mtr."),
 ]
 _SKIP = ("N/A", "None", "Sede vacante")
-_GENERATION = re.compile(r"(?:Jr|Sr)\.?|II|III|IV|V|VI", re.I)
-_THE_TITLE = re.compile(r"(?:Rt\. Rev\.|Very Rev\.|Rev\.)")
+_GENERATION = re.compile(r"(?:Jr|Sr)\.?|II|III|IV|V|VI|Ph\.?\s?D\.?|Ed\.?\s?D\.?|D\.?\s?Min\.?", re.I)
+_THE_TITLE = re.compile(r"(?:Rt\. Rev\.|Very Rev\.|Rev\.|Ven\.)")
 
 _LEAD_ROLE = re.compile(r"(?:(interim)\s+)?(rector|vicar|dean|priest[\s-]+in[\s-]+charge)", re.I)
 
@@ -89,6 +92,13 @@ _TIME_RANGE = re.compile(r"(\d{1,2}(?::\d\d)?(?:\s?[AP]M)?)\s*[-—]\s*(?=" + _T
 _NAMES = r"(?:Mon|Tues?|Wed|Thu(?:rs?)?|Fri|Sat|Sun|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept?|Oct|Nov|Dec)"
 _NAME_RANGE = re.compile(r"\b(" + _NAMES + r")\.?\s*[-—]\s*(?=" + _NAMES + r"\b)")
 _TIME_EM_DASH = re.compile(r"\b([AP]M)\s+—\s+")
+_SUFFIX = re.compile(r"(?<=[\s,])(Ii|Iii|Iv|Vi|Vii|Viii)(?=[\s,.;(]|$)")
+_DEGREES = [
+    (re.compile(r"\bPh\.?\s?D\.?(?![\w])", re.I), "PhD"),
+    (re.compile(r"\bEd\.?\s?D\.?(?![\w])", re.I), "EdD"),
+    (re.compile(r"\bD\.?\s?Min\.?(?![\w])", re.I), "DMin"),
+]
+_NAME_EXT = re.compile(r"\b[xX]\d{3,6}\b|\bext\.?\s*\d", re.I)
 
 
 def format_phones(value: str) -> str:
@@ -179,6 +189,16 @@ def lead_title(record: dict) -> str | None:
     return "" if title == default else title
 
 
+def format_name_case(value: str) -> str:
+    """Roman generation suffixes in capitals ("Iii" -> "III") and degrees as PhD, EdD, DMin."""
+    if not isinstance(value, str) or not value or value.startswith(_SKIP):
+        return value
+    value = _SUFFIX.sub(lambda m: m.group(1).upper(), value)
+    for pat, repl in _DEGREES:
+        value = pat.sub(repl, value)
+    return value
+
+
 def format_email(value: str) -> str:
     return _EMAIL.sub(lambda m: m.group(0).lower(), value) if isinstance(value, str) else value
 
@@ -222,8 +242,8 @@ def normalize_record(r: dict, path: Path, unreadable: list[str]) -> list[tuple[s
         r.setdefault("clergy_title", "")
         put("clergy_title", title)
     rules = [
-        (TITLE_FIELDS, format_title),
-        (CLERGY_LIST_FIELDS, format_clergy_list),
+        (TITLE_FIELDS, lambda v: format_name_case(format_title(v))),
+        (CLERGY_LIST_FIELDS, lambda v: format_name_case(format_clergy_list(v))),
         (EMAIL_FIELDS + ("other_contact",), format_email),
         (URL_FIELDS, format_url),
         (PROSE_FIELDS, format_prose),
@@ -235,13 +255,39 @@ def normalize_record(r: dict, path: Path, unreadable: list[str]) -> list[tuple[s
     return changes
 
 
+def review(records: list[dict], path: Path) -> list[str]:
+    """Things a script should not decide on its own. Reported, never changed."""
+    where = path.relative_to(ROOT)
+    flags = []
+    by_coords: dict[tuple, list[str]] = {}
+    for r in records:
+        rid = r.get("id", r.get("name", "?"))
+        for k in phone_keys(r):
+            v = _INVISIBLE.sub("", r[k]) if isinstance(r.get(k), str) else ""
+            if "phone" in k.lower() and len(list(PHONE_RE.finditer(v))) > 1:
+                flags.append(f"{where}  {rid}  {k} has more than one number, pick one: {r[k]!r}")
+        address = r.get("address") or ""
+        if address and not re.search(r"\b\d{5}(?:-\d{4})?\b", address):
+            flags.append(f"{where}  {rid}  address has no ZIP: {address!r}")
+        for k in TITLE_FIELDS + CLERGY_LIST_FIELDS:
+            v = r.get(k)
+            if isinstance(v, str) and _NAME_EXT.search(v):
+                flags.append(f"{where}  {rid}  {k} contains a phone extension, move it to a phone field: {v!r}")
+        if r.get("lat") is not None and r.get("lon") is not None:
+            by_coords.setdefault((r["lat"], r["lon"]), []).append(rid)
+    for coords, ids in by_coords.items():
+        if len(ids) > 1:
+            flags.append(f"{where}  same coordinates {coords} for {len(ids)} records (fine if one building, else check): {', '.join(ids)}")
+    return flags
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("files", nargs="*", type=Path)
     ap.add_argument("--check", action="store_true", help="report only; change nothing")
     args = ap.parse_args()
 
-    total, unreadable = 0, []
+    total, unreadable, flags = 0, [], []
     for path in [p.resolve() for p in args.files] or default_files():
         records = json.loads(path.read_text(encoding="utf-8-sig"))
         changed = 0
@@ -250,6 +296,7 @@ def main() -> int:
                 if args.check and "phone" not in k:
                     print(f"  {r.get('id', '?')}  {k}: {old!r} -> {new!r}")
                 changed += 1
+        flags += review(records, path)
         total += changed
         print(f"{'would fix' if args.check else 'fixed'} {changed:4d} change(s) in {path.relative_to(ROOT)}")
         if changed and not args.check:
@@ -258,6 +305,9 @@ def main() -> int:
     if unreadable:
         print(f"\n{len(unreadable)} phone value(s) with no readable number (left as they are, fix by hand):")
         print("\n".join("  " + u for u in unreadable))
+    if flags:
+        print(f"\n{len(flags)} item(s) to check by hand (not changed):")
+        print("\n".join("  " + f for f in flags))
     return 0
 
 

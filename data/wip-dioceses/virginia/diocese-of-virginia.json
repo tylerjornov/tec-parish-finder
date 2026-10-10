@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-sharon-chapel-3421-franconia-rd-alexandria-va",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 960-4808 | office@sharonchapel.org",
-    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 38.79243,
     "lon": -77.09043,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school; Carpenter's Shelter; United Community Ministries; Koinonia",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "christ-church-118-n-washington-st-alexandria-va",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 549-1450 | parishlife@historicchristchurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.80531,
     "lon": -77.04699,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; LGBTQ group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-st-clement-1701-n-quaker-ln-alexandria-va",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 998-6166 | office@saintclement.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.83207,
     "lon": -77.08514,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Nursery; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-resurrection-2800-hope-way-alexandria-va",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 998-0888 | office@welcometoresurrection.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Godly Play; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-spirit-6107-franconia-rd-alexandria-va",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 971-5242 to leave message | cotsva@aol.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.78201,
     "lon": -77.14649,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Sisters of the Spirit (women's prayer and fellowship)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-episcopal-church-1608-russell-road-alexandria-va",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 683-0798 | office@emanuelonhigh.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.81993,
     "lon": -77.06646,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-high-school-1200-n-quaker-lane-alexandria-va",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 933-3000",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.82506,
     "lon": -77.08875,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-3601-russell-rd-alexandria-va",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 549-1980 | parish.administrator@gracealex.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.83756,
     "lon": -77.06488,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Girl Scouts; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "immanuel-church-on-the-hill-3606-seminary-rd-alexandria-va",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 370-6555 | office@icoh.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.81741,
     "lon": -77.09005,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Education for Ministry (EFM); Godly Play; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "meade-memorial-church-322-n-alfred-st-alexandria-va",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 549-1334 | rector@meadechurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.80791,
     "lon": -77.04872,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Eucharistic Ministers/Visitors; Youth group; Daughters of Miriam",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-aidans-episcopal-church-8531-riverside-road-alexandria-va",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 360-4220 | info@centerforspiritualdeepening.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.72574,
     "lon": -77.06816,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Boy Scouts; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Preschool; Youth faith formation/Sunday school; Youth group; Rising Hope United Methodist Mission Church",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-at-mount-vernon-5614-old-mill-road-alexandria-va",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 780-3081 | office@stjamesmv.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.70899,
     "lon": -77.12049,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-church-8009-fort-hunt-rd-alexandria-va",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 765-4342 | church@saintlukeschurch.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.73965,
     "lon": -77.05423,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martin-de-porres-church-6744-s-kings-hwy-alexandria-va",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 765-3949 | rector@stmarksalex.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.77194,
     "lon": -77.10095,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martin-de-porres-church-6744-s-kings-hwy-alexandria-va-2",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.77194,
     "lon": -77.10095,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-228-s-pitt-steet-alexandria-va",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 549-3312 | office@stpaulsalexandria.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.80328,
     "lon": -77.04497,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Choir; Bible study; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-and-st-agnes-school-1000-st-stephens-rd-alexandria-va",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 751-2700 | admission@sssas.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.81818,
     "lon": -77.09922,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trytank-3737-seminary-rd-alexandria-va",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 370-6600 | lorenzo@trytank.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.8206,
     "lon": -77.09489,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "union-of-black-episcopalians-national-office-3737-seminary-road-alexandria-va",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.8206,
     "lon": -77.09489,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-church-6800-columbia-pike-annandale-va",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 256-2966 | info@stalbansva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.83601,
     "lon": -77.17925,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Nursery; Eucharistic Ministers/Visitors; Education for Ministry (EFM); Choir; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-barnabas-church-4801-ravensworth-rd-annandale-va",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 941-2922 | stbarnabaschurch@outlook.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.82062,
     "lon": -77.20383,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Journey to Adulthood (J2A); Godly Play; Education for Ministry (EFM); Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "la-iglesia-de-san-jose-911-n-oakland-st-arlington-va",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 524-4716 | iglesiast.jose@live.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88201,
     "lon": -77.10446,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-church-4000-lorcom-ln-arlington-va",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 522-1600 | church.office@standrewsarlington.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90224,
     "lon": -77.1089,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Girl Scouts; Eucharistic Ministers/Visitors; Choir; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-church-915-n-oakland-st-arlington-va",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 525-8286 | info@saintgeorgeschurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88204,
     "lon": -77.10448,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Nursery; Men's group; LGBTQ group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-415-s-lexington-st-arlington-va",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 671-6834 ext. 21 | office@stjohnsarlingtonva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.86283,
     "lon": -77.12735,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Nursery; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Education for Ministry (EFM)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-2609-n-glebe-rd-arlington-va",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 527-6800 | office@stmarysarlington.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90271,
     "lon": -77.12763,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-michaels-church-1132-n-ivanhoe-st-arlington-va",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 241-2474 | parishoffice@stmichaelsarlington.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88276,
     "lon": -77.13227,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Eucharistic Ministers/Visitors; Choir; AA; MONA",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-church-4250-n-glebe-rd-arlington-va",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 536-6606 | info@saint-peters.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.92384,
     "lon": -77.12734,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Godly Play; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-church-2217-columbia-pike-arlington-va",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 920-7077 | info@tecarl.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.86406,
     "lon": -77.08138,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Nursery; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Choir; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-school-of-early-learning-2217-columbia-pike-arlington-va",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(240) 343-6010 | asstheadmaster@tecarl.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.86406,
     "lon": -77.08138,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-episcopal-church-and-school-43600-russell-branch-pkwy-ashburn-va",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 729-0570 | office@sdlife.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.07122,
     "lon": -77.4862,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Daughters of the King; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-st-james-the-less-125-beverly-rd-ashland-va",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 798-6336 | kasey@stjamestheless.church",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.75833,
     "lon": -77.492,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Education for Ministry (EFM); Journey to Adulthood (J2A); Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "hanover-interfaith-clinics-po-box-117-ashland-va",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 798-8890 | info@hanoverinterfaithclinics.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-davids-church-11291-west-river-rd-aylett-va",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 496-1002 | info@stdavidsaylett.church",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.78506,
     "lon": -77.10411,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-3439-payne-st-baileys-crossroads-va",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 820-2625 | tomlinson@stpaulsbxr.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.85137,
     "lon": -77.13364,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-cross-church-va-rte-635-batesville-va",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "holycrossbatesville@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-clarke-parish-110-n-church-st-berryville-va",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 955-1610",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.15219,
     "lon": -77.97998,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-219-n-buckmarsh-st-berryville-va",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 955-1610 | info@clarkeparish.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.15517,
     "lon": -77.9807,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-27-good-shepherd-rd-bluemont-va",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 252-5825 | office@goodshepherdbluemont.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.11677,
     "lon": -77.85984,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Good News Gardens",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-asaphs-church-130-s-main-st-bowling-green-va",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 633-5660",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.04766,
     "lon": -77.34607,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-14586-alanthus-rd-brandy-station-va",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "cecbrandystation@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.50234,
     "lon": -77.89386,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-754-bremo-bluff-rd-bremo-bluff-va",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 842-3131 / (434) 842-3636",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.71684,
     "lon": -78.29663,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-church-6509-sydenstricker-rd-burke-va",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 455-2500 | will@standrews.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.77575,
     "lon": -77.26797,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Eucharistic Ministers/Visitors; FORMA; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-church-of-the-good-shepherd-9350-braddock-road-burke-va",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 323-5400 | info@good-shepherd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.81329,
     "lon": -77.26797,
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-emmanuel-parish-5108-weston-rd-casanova-va",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 788-4419",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-church-8695-old-dumfries-road-catlett-va",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 788-4252 | ststephencatlett@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.67882,
     "lon": -77.6669,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-5649-mount-gilead-rd-centreville-va",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 803-7500 | priest@stjohnscentreville.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.84142,
     "lon": -77.42717,
@@ -1965,7 +1964,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "westover-parish-church-charles-city-6401-john-tyler-memorial-hwy-charles-city-va",
@@ -1982,7 +1982,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 829-2488 | westoverchurch9@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.33536,
     "lon": -77.15892,
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "bread-and-roses-ministry-1118-preston-avenue-charlottesville-va",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 293-3157 | breadandroses@trinityepiscopalcville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.04274,
     "lon": -78.49247,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "canterbury-episcopal-student-ministry-at-the-university-of-virginia-1700-university-avenue-charlottesville-va",
@@ -2064,7 +2064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 295-2156 | office@spmcuva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.036,
     "lon": -78.50158,
@@ -2088,7 +2087,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-100-w-jefferson-st-charlottesville-va",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 293-2347",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.03228,
     "lon": -78.48099,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-our-saviour-1165-e-rio-rd-charlottesville-va",
@@ -2146,7 +2146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 973-6512",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.06874,
     "lon": -78.46741,
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "mcilhany-church-albermarle-960-monacan-trail-rd-charlottesville-va",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 293-3455 | office@mcilhany.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.01177,
     "lon": -78.55625,
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-the-baptist-church-4708-dick-woods-rd-charlottesville-va",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 295-0744 | st.johnthebaptistivy@outlook.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.01697,
     "lon": -78.65756,
@@ -2252,7 +2251,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-church-simeon-1333-thomas-jefferson-pkwy-charlottesville-va",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 970-5020",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.99095,
     "lon": -78.44371,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-ivy-851-owensville-rd-charlottesville-va",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 979-6354 | office@stpaulsivy.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.05775,
     "lon": -78.59661,
@@ -2334,7 +2333,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-memorial-church-1701-university-ave-charlottesville-va",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 295-2156 | office@spmcuva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.03608,
     "lon": -78.50147,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-1118-preston-ave-charlottesville-va",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 293-3157 | office@trinityepiscopalcville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.04274,
     "lon": -78.49247,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "westminster-canterbury-of-the-blue-ridge-250-pantops-mountain-road-charlottesville-va",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 972-2622",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.02913,
     "lon": -78.43879,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christchurch-school-49-seahorse-lane-christchurch-va",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 758-2306 | jhomer@christchurchschool.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-203-dennison-st-colonial-beach-va",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 224-7186 | stmarys_church@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.25171,
     "lon": -76.96348,
@@ -2539,7 +2538,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Episcopal Church Women (ECW); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-43-washington-st-columbia-va",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.75333,
     "lon": -78.16225,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-115-n-east-st-culpeper-va",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 825-8786 | ssec@ststephensculpeper.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.47307,
     "lon": -77.99444,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-church-9668-maidstone-rd-delaplane-va",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 364-2772 | admin@emmanuel-delaplane.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.89968,
     "lon": -77.91183,
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Brotherhood of St. Andrew; Choir; Episcopal Church Women (ECW); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-fork-church-12566-old-ridge-rd-doswell-va",
@@ -2679,7 +2679,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 227-3413 | knicholasforti@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.85355,
     "lon": -77.53147,
@@ -2703,7 +2702,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Men's group; Godly Play; Eucharistic Ministers/Visitors; Bible study; Youth group; Women's Small Group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-cross-2455-gallows-road-dunn-loring-va",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 698-6991 | office@holycrossepiscopal.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.8906,
     "lon": -77.22552,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "buck-mountain-episcopal-church-4133-earlysville-rd-earlysville-va",
@@ -2761,7 +2761,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 973-2054 | bmecfoodpantry@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.15424,
     "lon": -78.48107,
@@ -2785,7 +2784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephen-and-the-good-shepherd-7078-rocky-bar-rd-elkton-va",
@@ -2802,7 +2802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "no phone | st.sgsrockybar@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.34429,
     "lon": -78.70126,
@@ -2826,7 +2825,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "holy-cross-korean-episcopal-church-10520-main-street-fairfax-va",
@@ -2843,7 +2843,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.84722,
     "lon": -77.30946,
@@ -2867,7 +2866,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-in-the-woods-5911-fairview-woods-dr-fairfax-station-va",
@@ -2884,7 +2884,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 503-9210 | spwmain@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.7972,
     "lon": -77.3285,
@@ -2908,7 +2907,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "la-iglesia-de-santa-maria-7000-arlington-blvd-falls-church-va",
@@ -2925,7 +2925,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 533-9220 | santamaria@vacoxmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.86824,
     "lon": -77.18507,
@@ -2949,7 +2948,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-patricks-anglo-vietnamese-church-3241-brush-dr-falls-church-va",
@@ -2966,7 +2966,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 532-5656",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.85841,
     "lon": -77.18914,
@@ -2990,7 +2989,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-falls-church-episcopal-115-e-fairfax-st-falls-church-va",
@@ -3007,7 +3007,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 241-0003 | info@thefallschurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88051,
     "lon": -77.17088,
@@ -3031,7 +3030,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Preschool; Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "north-farnham-parish-church-231-n-farnham-church-rd-farnham-va",
@@ -3048,7 +3048,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 333-4333",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.88601,
     "lon": -76.62554,
@@ -3072,7 +3071,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-3020-fleeton-rd-fleeton-va",
@@ -3089,7 +3089,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 453-6712",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.81566,
     "lon": -76.27854,
@@ -3113,7 +3112,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "olivet-church-6107-franconia-rd-franconia-va",
@@ -3130,7 +3130,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 971-4733",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.78201,
     "lon": -77.14649,
@@ -3154,7 +3153,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-messiah-12201-spotswood-furnace-ln-fredericksburg-va",
@@ -3171,7 +3171,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 786-3100 | cotmfredericksburg@comcast.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.29275,
     "lon": -77.57401,
@@ -3195,7 +3194,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-church-905-princess-anne-st-fredericksburg-va",
@@ -3212,7 +3212,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 373-4133 | carey.chirico@stgeorgesepiscopal.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.30243,
     "lon": -77.46003,
@@ -3236,7 +3235,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Journey to Adulthood (J2A); Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-house-fxbg-episcopal-lutheran-campus-and-young-adult-ministry-820-college-avenue-fredericksburg-va",
@@ -3253,7 +3253,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 373-2996 | missioner@thehousefxbg.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.29723,
     "lon": -77.47297,
@@ -3277,7 +3276,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-church-825-college-ave-fredericksburg-va",
@@ -3294,7 +3294,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 373-2996 | parish@trinity-fredericksburg.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.29728,
     "lon": -77.47284,
@@ -3318,7 +3317,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Brotherhood of St. Andrew; Choir; College student group; Daughters of the King; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-of-the-hills-7420-mission-home-rd-free-union-va",
@@ -3335,7 +3335,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "goodshepherdhills.boonesville@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.24032,
     "lon": -78.61694,
@@ -3359,7 +3358,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-church-11-w-2nd-st-front-royal-va",
@@ -3376,7 +3376,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 635-2763",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.92106,
     "lon": -78.1946,
@@ -3400,7 +3399,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-episcopal-5000-pouncey-tract-rd-glen-allen-va",
@@ -3417,7 +3417,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 364-0394 | k.malcolm@ccerva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.67311,
     "lon": -77.61567,
@@ -3441,7 +3440,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Eucharistic Ministers/Visitors; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-episcopal-preschool-5000-pouncy-tract-road-glen-allen-va",
@@ -3458,7 +3458,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 364-0394",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.67311,
     "lon": -77.61567,
@@ -3482,7 +3481,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "ware-episcopal-church-7825-john-clayton-memorial-hwy-gloucester-va",
@@ -3499,7 +3499,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 693-3821 | rector@warechurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.42354,
     "lon": -76.50719,
@@ -3523,7 +3522,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Boy Scouts; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-2955-river-road-w-goochland-va",
@@ -3540,7 +3540,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 556-3051",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.6844,
     "lon": -77.88545,
@@ -3564,7 +3563,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-310-n-high-st-gordonsville-va",
@@ -3581,7 +3581,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 832-3209 | office@christchurchgordonsville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.13759,
     "lon": -78.19116,
@@ -3605,7 +3604,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-church-9220-georgetown-pike-great-falls-va",
@@ -3622,7 +3622,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 759-2082",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.9854,
     "lon": -77.26306,
@@ -3646,7 +3645,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-creche-9220-georgetown-pike-great-falls-va",
@@ -3663,7 +3663,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 759-2522",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.9854,
     "lon": -77.26306,
@@ -3687,7 +3686,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-episcopal-church-7599-rockfish-gap-tpke-greenwood-va",
@@ -3704,7 +3704,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 456-6334 | info@emmanuelgreenwood.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.03439,
     "lon": -78.76281,
@@ -3728,7 +3727,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-episcopal-church-13312-hanover-courthouse-rd-hanover-va",
@@ -3745,7 +3745,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 537-5061",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.76878,
     "lon": -77.37101,
@@ -3769,7 +3768,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-8050-st-pauls-church-rd-hanover-va",
@@ -3786,7 +3786,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 537-5516",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.76516,
     "lon": -77.3708,
@@ -3810,7 +3809,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-the-king-episcopal-church-660-s-main-street-harrisonburg-va",
@@ -3827,7 +3827,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.44268,
     "lon": -78.8727,
@@ -3851,7 +3850,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-church-660-s-main-st-harrisonburg-va",
@@ -3868,7 +3868,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 434-2357",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.44268,
     "lon": -78.8727,
@@ -3892,7 +3891,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "abingdon-church-4645-george-washington-memorial-hwy-hayes-va",
@@ -3909,7 +3909,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 693-3035 | admin@abingdonchurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.33183,
     "lon": -76.51424,
@@ -3933,7 +3932,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-6750-fayette-st-haymarket-va",
@@ -3950,7 +3950,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 753-2443 | stpaulsepiscopalhaymarket@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.81109,
     "lon": -77.63877,
@@ -3974,7 +3973,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-church-6807-northumberland-hwy-heathsville-va",
@@ -3991,7 +3991,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 724-4238",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.91883,
     "lon": -76.47317,
@@ -4015,7 +4014,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-8000-hermitage-rd-henrico-va",
@@ -4032,7 +4032,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 266-2503 | office@churchepiphanyrva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.62405,
     "lon": -77.48928,
@@ -4056,7 +4055,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martins-episcopal-church-9000-st-martins-ln-henrico-va",
@@ -4073,7 +4073,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 270-6786 | saintmartinsec@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.63153,
     "lon": -77.54681,
@@ -4097,7 +4096,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "varina-church-2385-mill-rd-henrico-va",
@@ -4114,7 +4114,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 795-5340 | office@varinaparish.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.44357,
     "lon": -77.36591,
@@ -4138,7 +4137,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-church-432-van-buren-st-herndon-va",
@@ -4155,7 +4155,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 437-3790 | office@saint-timothys.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96183,
     "lon": -77.38516,
@@ -4179,7 +4178,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-timothys-pre-school-432-van-buren-street-herndon-va",
@@ -4196,7 +4196,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 437-4767 | sttimothyspreschool432@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96183,
     "lon": -77.38516,
@@ -4220,7 +4219,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-501-w-nine-mile-rd-highland-springs-va",
@@ -4237,7 +4237,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54879,
     "lon": -77.33058,
@@ -4261,7 +4260,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "rappahannock-westminster-canterbury-132-lancaster-drive-irvington-va",
@@ -4278,7 +4278,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 792-1444 | info@rw-c.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.67697,
     "lon": -76.3997,
@@ -4302,7 +4301,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-5607-gordonsville-rd-keswick-va",
@@ -4319,7 +4319,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 293-3549 | parishadministrator@gracekeswick.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.06032,
     "lon": -78.30999,
@@ -4343,7 +4342,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-kilmarnock-303-s-main-st-kilmarnock-va",
@@ -4360,7 +4360,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 435-1285 | office@graceepiscopalchurch.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.70668,
     "lon": -76.37904,
@@ -4384,7 +4383,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "immanuel-episcopal-church-190-allens-cir-king-and-queen-court-house-va",
@@ -4401,7 +4401,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -4425,7 +4424,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-church-5rh7-pm-king-george-virginia-google-place-code-king-george-va",
@@ -4442,7 +4442,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "info@hwbkgva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -4466,7 +4465,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-9413-kings-highway-king-george-va",
@@ -4483,7 +4483,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "info@hwbkgva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.26736,
     "lon": -77.18218,
@@ -4507,7 +4506,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-5486-saint-pauls-rd-king-george-va",
@@ -4524,7 +4524,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 775-3635",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.33234,
     "lon": -77.12401,
@@ -4548,7 +4547,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "cople-episcopal-parish-1233-old-yeocomico-rd-kinsale-va",
@@ -4565,7 +4565,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 472-2593 | office@copleparish.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.06201,
     "lon": -76.59657,
@@ -4589,7 +4588,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-whitechapel-5940-white-chapel-rd-lancaster-va",
@@ -4606,7 +4606,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 462-5908 | trinity.smwc@gmail.com",
-    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 37.74738,
     "lon": -76.55028,
@@ -4630,7 +4629,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "trinity-episcopal-church-8484-mary-ball-rd-lancaster-va",
@@ -4647,7 +4647,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 462-5908 | trinity.smwc@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.76947,
     "lon": -76.46282,
@@ -4671,7 +4670,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Upper Lancaster Community Food Pantry",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-lucketts-14861-new-valley-church-rd-leesburg-va",
@@ -4688,7 +4688,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 771-2196",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.20418,
     "lon": -77.53832,
@@ -4712,7 +4711,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-gabriels-san-gabriel-episcopal-church-14-cornwall-st-nw-leesburg-va",
@@ -4729,7 +4729,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 779-3616 | info@saintgabriels.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.11675,
     "lon": -77.56422,
@@ -4753,7 +4752,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school; Nursery; Neighborhood associations; Men's group; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Eucharistic Ministers/Visitors; Choir; Educando con Amor (Educating with Love)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-gabriels-episcopal-church-14-cornwall-st-nw-leesburg-va",
@@ -4770,7 +4770,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(571) 293-0070 | fr.daniel@saintgabriels.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.11675,
     "lon": -77.56422,
@@ -4794,7 +4793,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-8-cornwall-st-nw-leesburg-va",
@@ -4811,7 +4811,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 777-1124 | info@stjamesleesburg.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.11673,
     "lon": -77.56413,
@@ -4835,7 +4834,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Men's group; Nursery; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "vauters-church-3661-tidewater-trail-loretto-va",
@@ -4852,7 +4852,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 795-5340 | vauterschurch@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -4876,7 +4875,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "pohick-church-9301-richmond-hwy-lorton-va",
@@ -4893,7 +4893,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.70912,
     "lon": -77.19307,
@@ -4917,7 +4916,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-church-102-ellisville-dr-louisa-va",
@@ -4934,7 +4934,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 967-1665 | stjameslouisa@outlook.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.02919,
     "lon": -78.0056,
@@ -4958,7 +4957,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-16-amiss-ave-luray-va",
@@ -4975,7 +4975,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 743-5734",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.66263,
     "lon": -78.45748,
@@ -4999,7 +4998,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "piedmont-bromfield-parish-214-church-st-madison-va",
@@ -5016,7 +5016,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 948-6787",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.38003,
     "lon": -78.25741,
@@ -5040,7 +5039,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-francis-episcopal-church-1484-hockett-rd-manakin-sabot-va",
@@ -5057,7 +5057,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 784-6116",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5081,7 +5080,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-church-9325-west-st-manassas-va",
@@ -5098,7 +5098,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 368-4231 | carole@trinityepiscopalchurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.75224,
     "lon": -77.47352,
@@ -5122,7 +5121,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "episcopal-church-of-leeds-parish-4332-leeds-manor-rd-markham-va",
@@ -5139,7 +5139,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 364-2849 | leedschurchmarkham@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.8509,
     "lon": -77.99647,
@@ -5163,7 +5162,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations; Preschool",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "kingston-parish-370-main-st-mathews-va",
@@ -5180,7 +5180,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 725-2175 | kingstonparish@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.43127,
     "lon": -76.32184,
@@ -5204,7 +5203,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-church-8991-brook-rd-mclean-va",
@@ -5221,7 +5221,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 442-0330",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.94377,
     "lon": -77.25471,
@@ -5245,7 +5244,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Neighborhood associations; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-dunstans-church-1830-kirby-rd-mclean-va",
@@ -5262,7 +5262,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 356-7533 | april@stdunstans.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.91672,
     "lon": -77.15891,
@@ -5286,7 +5285,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-6715-georgetown-pike-mclean-va",
@@ -5303,7 +5303,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 356-4902",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.94972,
     "lon": -77.17169,
@@ -5327,7 +5326,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Godly Play; Nursery; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-souls-episcopal-church-9077-atlee-rd-mechanicsville-va",
@@ -5344,7 +5344,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 559-9302 | allsoulsvaoffice@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.64639,
     "lon": -77.39583,
@@ -5368,7 +5367,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Community Garden",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-creator-7159-mechanicsville-pike-mechanicsville-va",
@@ -5385,7 +5385,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 746-8765 | creatorcontact@comcast.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.61079,
     "lon": -77.34544,
@@ -5409,7 +5408,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Girl Scouts; Habitat for Humanity; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "immanuel-church-3263-old-church-rd-mechanicsville-va",
@@ -5426,7 +5426,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 779-3454",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.6435,
     "lon": -77.21539,
@@ -5450,7 +5449,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-cherub-school-3263-old-church-road-mechanicsville-va",
@@ -5467,7 +5467,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 779-3454",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.6435,
     "lon": -77.21539,
@@ -5491,7 +5490,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-church-105-e-washington-st-middleburg-va",
@@ -5508,7 +5508,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96949,
     "lon": -77.73408,
@@ -5532,7 +5531,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-7924-richmond-hwy-millers-tavern-va",
@@ -5549,7 +5549,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 443-2341",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5573,7 +5572,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-604-howerton-rd-millers-tavern-va",
@@ -5590,7 +5590,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5614,7 +5613,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "cunningham-chapel-parish-christ-church-809-bishop-meade-rd-millwood-va",
@@ -5631,7 +5631,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 837-1112 | christchurch@cunninghamchapel.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5655,7 +5654,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-incarnation-102-louisa-ave-mineral-va",
@@ -5672,7 +5672,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 894-0136",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.01193,
     "lon": -77.90725,
@@ -5696,7 +5695,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-our-saviour-17102-mountain-rd-montpelier-va",
@@ -5713,7 +5713,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 883-5943 | cosoffice@cosepiscopal.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.81878,
     "lon": -77.68337,
@@ -5737,7 +5736,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-church-15870-kings-hwy-montross-va",
@@ -5754,7 +5754,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 493-8285 | saintjamesmontross@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.09499,
     "lon": -76.82666,
@@ -5778,7 +5777,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-5890-main-st-mount-jackson-va",
@@ -5795,7 +5795,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 477-3335 | beckfordparishoffice@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5819,7 +5818,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-parish-church-8400-st-peters-ln-new-kent-va",
@@ -5836,7 +5836,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 932-4846 | stpeters.admin1@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.53686,
     "lon": -77.0583,
@@ -5860,7 +5859,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Nursery; Young adult group; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "charis-community-3121-red-hill-depot-road-north-garden-va",
@@ -5877,7 +5877,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.96152,
     "lon": -78.60772,
@@ -5901,7 +5900,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-3121-red-hill-depot-road-north-garden-va",
@@ -5918,7 +5918,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.96152,
     "lon": -78.60772,
@@ -5942,7 +5941,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-currently-worshiping-at-ingleside-vineyards-5872-leedstown-rd-oak-grove-va-22443-oak-grove-va",
@@ -5959,7 +5959,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 224-7309",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -5983,7 +5982,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "epiphany-episcopal-church-3301-hidden-meadow-drive-oak-hill-va",
@@ -6000,7 +6000,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 466-5200 | churchoffice@epiphanyec.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.90718,
     "lon": -77.40827,
@@ -6024,7 +6023,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Boy Scouts; Choir; Eucharistic Ministers/Visitors; Godly Play; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-119-caroline-st-orange-va",
@@ -6041,7 +6041,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 672-3761 | kbomar52@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.24371,
     "lon": -78.11339,
@@ -6065,7 +6064,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "shrine-mont-retreat-center-and-cathedral-shrine-of-the-transfiguration-221-shrine-mont-cir-orkney-springs-va",
@@ -6082,7 +6082,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 856-2141",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.79596,
     "lon": -78.81779,
@@ -6106,7 +6105,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-memorial-church-7120-ore-bank-rd-port-republic-va",
@@ -6123,7 +6123,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 938-8629 / (540) 249-4121",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.29489,
     "lon": -78.76265,
@@ -6147,7 +6146,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-church-823-water-st-port-royal-va",
@@ -6164,7 +6164,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 884-0050 | revkrisrose@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.17123,
     "lon": -77.18972,
@@ -6188,7 +6187,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Youth group; CERV; Healthy Harvest Food Bank, Warsaw, VA",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-church-37018-glendale-st-purcellville-va",
@@ -6205,7 +6205,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 338-7307 | office@stpetes.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.12884,
     "lon": -77.72417,
@@ -6229,7 +6228,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-church-28279-rapidan-rd-rapidan-va",
@@ -6246,7 +6246,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 672-1395 | info@emmanuelrapidan.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.31331,
     "lon": -78.0647,
@@ -6270,7 +6269,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-church-400-n-church-st-remington-va",
@@ -6287,7 +6287,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 439-3733",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.53634,
     "lon": -77.80881,
@@ -6311,7 +6310,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-church-1700-wainwright-dr-reston-va",
@@ -6328,7 +6328,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 437-6530 | corso.glen@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.96461,
     "lon": -77.35251,
@@ -6352,7 +6351,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-church-8787-river-rd-richmond-va",
@@ -6369,7 +6369,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 288-7811 | office@allsaintsrichmond.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.57144,
     "lon": -77.57668,
@@ -6393,7 +6392,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "anna-julia-cooper-school-2124-north-29th-street-richmond-va",
@@ -6410,7 +6410,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 822-6610",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54529,
     "lon": -77.40009,
@@ -6434,7 +6433,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-ascension-church-1704-w-laburnum-ave-richmond-va",
@@ -6451,7 +6451,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 264-9474 | episcopal@cachurch.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.58422,
     "lon": -77.464,
@@ -6475,7 +6474,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-comforter-4819-monument-ave-richmond-va",
@@ -6492,7 +6492,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 355-3251 | office@hoco.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.57563,
     "lon": -77.49688,
@@ -6516,7 +6515,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "diocese-of-virginia-110-w-franklin-street-richmond-va",
@@ -6533,7 +6533,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54458,
     "lon": -77.44456,
@@ -6557,7 +6556,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-church-at-brook-hill-1214-wilmer-ave-richmond-va",
@@ -6574,7 +6574,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 266-2431 | church@emmanuelrva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.60705,
     "lon": -77.45631,
@@ -6598,7 +6597,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Eucharistic Ministers/Visitors; Men's group; Youth faith formation/Sunday school; Youth group; Shalom Farms; Micah",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-and-holy-trinity-church-8-north-laurel-street-richmond-va",
@@ -6615,7 +6615,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 359-5628 | kreinholz@ghtc.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54656,
     "lon": -77.45162,
@@ -6639,7 +6638,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Nursery; Neighborhood associations; Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "peter-paul-development-center-1708-n-22nd-street-richmond-va",
@@ -6656,7 +6656,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.5456,
     "lon": -77.40987,
@@ -6680,7 +6679,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "roslyn-center-8727-river-road-richmond-va",
@@ -6697,7 +6697,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 288-6045 | info@roslyncenter.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.57013,
     "lon": -77.5728,
@@ -6721,7 +6720,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-jamess-episcopal-church-1205-w-franklin-st-richmond-va",
@@ -6738,7 +6738,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 355-1779 | communications@stjamessrva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.55153,
     "lon": -77.45638,
@@ -6762,7 +6761,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-240-s-laurel-st-richmond-va",
@@ -6779,7 +6779,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 648-7980 | priscillabarrett70@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54234,
     "lon": -77.45171,
@@ -6803,7 +6802,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Neighborhood associations; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-school-227-south-cherry-street-richmond-va",
@@ -6820,7 +6820,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54246,
     "lon": -77.45278,
@@ -6844,7 +6843,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-bartholomews-episcopal-church-10627-patterson-ave-richmond-va",
@@ -6861,7 +6861,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 740-2101",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.59692,
     "lon": -77.60989,
@@ -6885,7 +6884,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-catherines-school-6001-grove-avenue-richmond-va",
@@ -6902,7 +6902,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.57279,
     "lon": -77.5208,
@@ -6926,7 +6925,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-school-711-st-christophers-rd-richmond-va",
@@ -6943,7 +6943,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 282-3185",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.57902,
     "lon": -77.52284,
@@ -6967,7 +6966,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-2401-e-broad-st-richmond-va",
@@ -6984,7 +6984,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 649-7938 | dcurtis@saintjohnsrichmond.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.53211,
     "lon": -77.41969,
@@ -7008,7 +7007,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Youth faith formation/Sunday school; Young adult group; Nursery; Eucharistic Ministers/Visitors; Choir; Bible study",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-church-520-n-boulevard-richmond-va",
@@ -7025,7 +7025,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 358-4771",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.55861,
     "lon": -77.47251,
@@ -7049,7 +7048,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-church-12291-river-rd-richmond-va",
@@ -7066,7 +7066,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 784-5678 | contact@stmarysgoochland.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.58722,
     "lon": -77.62948,
@@ -7090,7 +7089,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-1101-forest-ave-richmond-va",
@@ -7107,7 +7107,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 288-1911 | stmattsrva@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.5944,
     "lon": -77.54843,
@@ -7131,7 +7130,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-815-e-grace-st-richmond-va",
@@ -7148,7 +7148,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 643-3589",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54032,
     "lon": -77.43544,
@@ -7172,7 +7171,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-outreach-ministry-815-east-grace-street-richmond-va",
@@ -7189,7 +7189,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 648-7410 | sailn4me@aol.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54032,
     "lon": -77.43544,
@@ -7213,7 +7212,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-church-1719-n-22nd-st-richmond-va",
@@ -7230,7 +7230,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 643-2686 | stpeterschurchhill@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54561,
     "lon": -77.40968,
@@ -7254,7 +7253,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Eucharistic Ministers/Visitors; Men's group; Neighborhood associations; Youth faith formation/Sunday school; ReWork Richmond - Workforce Development",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-philips-church-2900-hanes-ave-richmond-va",
@@ -7271,7 +7271,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 321-1266 | office@stphilipsrva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.57013,
     "lon": -77.43527,
@@ -7295,7 +7294,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-church-6000-grove-ave-richmond-va",
@@ -7312,7 +7312,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 288-2867",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.57296,
     "lon": -77.52185,
@@ -7336,7 +7335,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-church-3602-hawthorne-ave-richmond-va",
@@ -7353,7 +7353,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 321-9548 | hjones@stthomasrichmond.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.58255,
     "lon": -77.44501,
@@ -7377,7 +7376,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); LGBTQ group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-pace-center-700-w-franklin-st-richmond-va",
@@ -7394,7 +7394,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 658-4064 | info@thepacecenter.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.54772,
     "lon": -77.4498,
@@ -7418,7 +7417,8 @@
     "parking": "",
     "childcare": "",
     "formation": "College student group; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "westminster-canterbury-1600-westbrook-avenue-richmond-va",
@@ -7435,7 +7435,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 264-6000",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.59749,
     "lon": -77.45863,
@@ -7459,7 +7458,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "little-fork-episcopal-church-16461-oak-shade-rd-rixeyville-va",
@@ -7476,7 +7476,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 937-4306 | administrator@littleforkchurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.59993,
     "lon": -77.95496,
@@ -7500,7 +7499,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-parish-56-christchurch-lane-saluda-va",
@@ -7517,7 +7517,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 758-2006 | office@christchurchparish.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.6105,
     "lon": -76.54724,
@@ -7541,7 +7540,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Daughters of the King; Education for Ministry (EFM)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-parish-900-glendower-rd-scottsville-va",
@@ -7558,7 +7558,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 286-3437",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.85567,
     "lon": -78.5313,
@@ -7582,7 +7581,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-3075-comertown-rd-shenandoah-va",
@@ -7599,7 +7599,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.51698,
     "lon": -78.58098,
@@ -7623,7 +7622,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-church-8951-courthouse-rd-spotsylvania-va",
@@ -7640,7 +7640,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 582-5033 | rector@christchurchspotsy.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.19965,
     "lon": -77.58794,
@@ -7664,7 +7663,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "la-iglesia-de-cristo-rey-6320-hanover-avenue-springfield-va",
@@ -7681,7 +7681,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 524-4716 | cristoreyepiscopal@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.78058,
     "lon": -77.19494,
@@ -7705,7 +7704,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-christophers-church-6320-hanover-ave-springfield-va",
@@ -7722,7 +7722,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 451-1088",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.78058,
     "lon": -77.19494,
@@ -7746,7 +7745,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "aquia-church-2938-jefferson-davis-hwy-stafford-va",
@@ -7763,7 +7763,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 659-4007 | office@aquiachurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.46666,
     "lon": -77.40356,
@@ -7787,7 +7786,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-97-main-st-stanardsville-va",
@@ -7804,7 +7804,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(434) 985-7716",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.29743,
     "lon": -78.44033,
@@ -7828,7 +7827,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-church-3380-pine-grove-rd-stanley-va",
@@ -7845,7 +7845,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 225-0922 | florentinesboy@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.53686,
     "lon": -78.48169,
@@ -7869,7 +7868,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "stuart-hall-school-235-w-frederick-st-staunton-va",
@@ -7886,7 +7886,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.15025,
     "lon": -79.07662,
@@ -7910,7 +7909,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-201-e-frederick-dr-sterling-va",
@@ -7927,7 +7927,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 430-2121 | office@stmtts.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.01606,
     "lon": -77.38866,
@@ -7951,7 +7950,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Education for Ministry (EFM); Girl Scouts; Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-216-duke-st-tappahannock-va",
@@ -7968,7 +7968,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 443-2130 | stjohnstappahannock@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -7992,7 +7991,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-margarets-school-444-s-water-ln-tappahannock-va",
@@ -8009,7 +8009,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 443-3357 | admit@sms.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.92735,
     "lon": -76.85724,
@@ -8033,7 +8032,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-church-6507-main-st-the-plains-va",
@@ -8050,7 +8050,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 253-5177 | gracechurch@gracetheplains.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.86253,
     "lon": -77.77641,
@@ -8074,7 +8073,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-church-9108-john-mosby-hwy-upperville-va",
@@ -8091,7 +8091,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 592-3343",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.99367,
     "lon": -77.88179,
@@ -8115,7 +8114,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-comforter-543-beulah-rd-ne-vienna-va",
@@ -8132,7 +8132,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 938-6521",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.91428,
     "lon": -77.26577,
@@ -8156,7 +8155,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-church-73-culpeper-st-warrenton-va",
@@ -8173,7 +8173,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 347-4342 | welcome@saintjameswarrenton.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.71176,
     "lon": -77.79629,
@@ -8197,7 +8196,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-5987-richmond-rd-warsaw-va",
@@ -8214,7 +8214,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 333-4333",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.95729,
     "lon": -76.75469,
@@ -8238,7 +8237,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-nomini-grove-351-st-pauls-road-warsaw-va",
@@ -8255,7 +8255,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 273-7379 | stpaulsnominigrove@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -8279,7 +8278,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-church-370-gay-st-washington-va",
@@ -8296,7 +8296,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 675-3716",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.71204,
     "lon": -78.15942,
@@ -8320,7 +8319,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Boy Scouts; Brotherhood of St. Andrew; Choir; Education for Ministry (EFM); Episcopal Church Women (ECW); Girl Scouts",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-916-main-st-west-point-va",
@@ -8337,7 +8337,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 843-4594",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.53343,
     "lon": -76.79732,
@@ -8361,7 +8360,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-15th-and-f-sts-west-point-va",
@@ -8378,7 +8378,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 843-2933",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 37.5388,
     "lon": -76.7969,
@@ -8402,7 +8401,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "meade-memorial-church-192-white-post-rd-white-post-va",
@@ -8419,7 +8419,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 837-2334",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.05735,
     "lon": -78.1037,
@@ -8443,7 +8442,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "wicomico-parish-church-5191-jessie-ball-dupont-memorial-hwy-wicomico-church-va",
@@ -8460,7 +8460,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(804) 580-6445 | administrator@wicomicoepiscopal.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -8484,7 +8483,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-114-w-boscawen-st-winchester-va",
@@ -8501,7 +8501,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 662-5843",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.18449,
     "lon": -78.16729,
@@ -8525,7 +8524,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-on-the-hill-church-1527-senseny-rd-winchester-va",
@@ -8542,7 +8542,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 667-8110 | spothpriest@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.16884,
     "lon": -78.13512,
@@ -8566,7 +8565,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-margarets-church-5290-saratoga-lane-woodbridge-va",
@@ -8583,7 +8583,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(703) 590-3990 | parishoffice@stmargaretsva.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.6408,
     "lon": -77.3656,
@@ -8607,7 +8606,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "emmanuel-church-122-e-court-st-woodstock-va",
@@ -8624,7 +8624,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(540) 459-2720 | beckfordparishoffice@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 38.88165,
     "lon": -78.50496,
@@ -8648,6 +8647,7 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Emmanuel's Table Food Pantry, Tuesdays, 9:00 a.m.-noon",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

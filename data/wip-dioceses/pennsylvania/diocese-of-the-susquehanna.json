@@ -14,7 +14,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 434-0155 | mail@episcopalmediator.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.59964,
     "lon": -75.49243,
@@ -38,7 +37,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Girl Scouts; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-108-n-5th-st-allentown-pa",
@@ -55,7 +55,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 435-0782 | office@graceallentown.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.60498,
     "lon": -75.46881,
@@ -79,7 +78,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); LGBTQ group; Neighborhood associations",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-montessori-school-814-w-linden-st-allentown-pa",
@@ -96,7 +96,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 435-4060",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.60287,
     "lon": -75.47497,
@@ -120,7 +119,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-church-1900-pennsylvania-ave-allentown-pa",
@@ -137,7 +137,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 865-3603 | saec@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -161,7 +160,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-806-13th-street-altoona-pa",
@@ -178,7 +178,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "info@stlukesaltoona.org | info@stlukesaltoona.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.51257,
     "lon": -78.39885,
@@ -202,7 +201,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Eucharistic Ministers/Visitors; Godly Play; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "north-parish-st-johns-market-st-and-13th-ashland-pa",
@@ -219,7 +219,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 429-7107 | nparish@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.7825,
     "lon": -76.34714,
@@ -243,7 +242,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-701-s-main-st-athens-pa",
@@ -260,7 +260,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 888-5715 | information@trinityathens.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.95263,
     "lon": -76.51675,
@@ -284,7 +283,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "calvary-chapel-13318-mentzer-gap-rd-beartown-pa",
@@ -301,7 +301,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 794-2229 | transcal@icloud.com",
-    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 39.74447,
     "lon": -77.49403,
@@ -325,7 +324,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "st-james-309-s-richard-st-bedford-pa",
@@ -342,7 +342,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 623-8822 | stjamesbedford309@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.01558,
     "lon": -78.50146,
@@ -366,7 +365,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-120-w-lamb-street-bellefonte-pa",
@@ -383,7 +383,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 355-0497 | office@stjohnsepiscopalbellefonte.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.91501,
     "lon": -77.77923,
@@ -407,7 +406,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-712-e-16th-st-berwick-pa",
@@ -424,7 +424,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 752-6205 | mekisner@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.07011,
     "lon": -76.23076,
@@ -448,7 +447,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "new-bethany-ministries-333-west-4th-street-bethlehem-pa",
@@ -465,7 +465,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 691-5602 | newbethany@newbethanyministries.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.61034,
     "lon": -75.38373,
@@ -489,7 +488,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-cathedral-church-of-the-nativity-321-wyandotte-st-bethlehem-pa",
@@ -506,7 +506,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 865-0727 | mail@nativitycathedral.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.61138,
     "lon": -75.38392,
@@ -530,7 +529,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Godly Play; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-44-e-market-st-bethlehem-pa",
@@ -547,7 +547,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 867-4741 | communications@trinitybeth.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.62063,
     "lon": -75.37681,
@@ -571,7 +570,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Eucharistic Ministers/Visitors; Trinity Soup Kitchen",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-101-e-main-st-bloomsburg-pa",
@@ -588,7 +588,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 784-3316 | saintpaulsbloom@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.00387,
     "lon": -76.45509,
@@ -612,7 +611,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-transfiguration-13646-summit-ave-blue-ridge-summit-pa",
@@ -629,7 +629,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 794-2229 | transcal@icloud.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.72134,
     "lon": -77.47041,
@@ -653,7 +652,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "mount-calvary-church-125-n-25th-st-camp-hill-pa",
@@ -670,7 +670,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 433-7201 | mtcalvary@mtcp.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.24249,
     "lon": -76.9257,
@@ -694,7 +693,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Habitat for Humanity; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-58-river-st-carbondale-pa",
@@ -711,7 +711,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 282-3620 | trinitychurch@echoes.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.57237,
     "lon": -75.50385,
@@ -735,7 +734,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-1-a-n-hanover-st-carlisle-pa",
@@ -752,7 +752,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 243-4220 | admin@stjohnscarlisle.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.20212,
     "lon": -77.18894,
@@ -776,7 +775,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Nursery; Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-58-s-2nd-st-chambersburg-pa",
@@ -793,7 +793,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 264-6351 | admin@trinitychambersburg.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.93635,
     "lon": -77.65932,
@@ -817,7 +816,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-paul-episcopal-church-340-locust-st-columbia-pa",
@@ -834,7 +834,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 684-8496 | admin@saintpaulcolumbia.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.03238,
     "lon": -76.5017,
@@ -858,7 +857,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-601-n-main-st-coudersport-pa",
@@ -875,7 +875,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 274-8391 | christandallsaints@zitomedia.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.77828,
     "lon": -78.02075,
@@ -899,7 +898,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; College student group; Eucharistic Ministers/Visitors; Girl Scouts; Preschool; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-prince-of-peace-420-main-st-dallas-pa",
@@ -916,7 +916,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 675-1723 | princeofpeace@epix.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.33014,
     "lon": -75.95301,
@@ -940,7 +939,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Episcopal Church Women (ECW); Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-epiphany-25-church-hill-road-dalton-glenburn-twp-pa",
@@ -957,7 +957,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 563-1564 | cote@epix.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.52185,
     "lon": -75.72657,
@@ -981,7 +980,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school; AEM Food Pantry at Dalton United Methodist Church, Dalton Pa; Open Door Food Pantry at the Gathering Place, Clarks Summit Pa; Hemlock Hill Academy located at Church of the Epiphany, Dalton Pa; Spinner's Web located at Church of the Epiphany, Dalton Pa",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-memorial-episcopal-church-156-e-market-st-danville-pa",
@@ -998,7 +998,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 275-3903 | info@cmecdanville.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.95957,
     "lon": -76.61703,
@@ -1022,7 +1021,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Good Samaritan Mission - Danville, PA; Danville-Riverside Foodbank",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-gabriels-episcopal-church-1188-ben-franklin-hwy-east-douglassville-pa",
@@ -1039,7 +1039,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 385-3144 | office@stgabriels.us",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.25806,
     "lon": -75.72931,
@@ -1063,7 +1062,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Girl Scouts; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-2161-route-940-drifton-pa",
@@ -1080,7 +1080,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 636-3967 | roberst02@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.00261,
     "lon": -75.90728,
@@ -1104,7 +1103,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-summer-chapel-2074-state-route-rt-247-dundaff-pa",
@@ -1121,7 +1121,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 222-2724 | robert.a.schreiber@echoes.net",
-    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 41.65194,
     "lon": -75.54807,
@@ -1145,7 +1144,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "trinity-episcopal-church-234-spring-garden-st-easton-pa",
@@ -1162,7 +1162,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 253-0792 | barbara@diobeth.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.69321,
     "lon": -75.20835,
@@ -1186,7 +1185,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-margarets-episcopal-church-150-elm-st-emmaus-pa",
@@ -1203,7 +1203,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 967-1450 | smec@rcn.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.54081,
     "lon": -75.49181,
@@ -1227,7 +1226,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Eucharistic Ministers/Visitors; Neighborhood associations; Community Crafters at Knitter's Edge Yarn Store, Bethlehem; Daybreak Lehigh Conference of Churches",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-state-route-44-exchange-pa",
@@ -1244,7 +1244,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 437-2696 | dculbertsonrector@windstream.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1268,7 +1267,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-700-delaware-st-forest-city-pa",
@@ -1285,7 +1285,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 785-3425 | christchurchparishforestcity@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.65145,
     "lon": -75.46731,
@@ -1309,7 +1308,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "prince-of-peace-memorial-church-20-w-high-st-gettysburg-pa",
@@ -1326,7 +1326,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 334-6463 | secretary@gettysburgepiscopal.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.82851,
     "lon": -77.23165,
@@ -1350,7 +1349,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Habitat for Humanity; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-564-easton-turnpike-hamlin-pa",
@@ -1367,7 +1367,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 689-9260 | saintjohnshamlinpa@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -1391,7 +1390,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-church-890-mccosh-st-hanover-pa",
@@ -1408,7 +1408,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 637-5772 | rector.allsaintsec@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.81372,
     "lon": -76.98733,
@@ -1432,7 +1431,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Choir; Daughters of the King; Episcopal Church Women (ECW); Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-1854-market-st-harrisburg-pa",
@@ -1449,7 +1449,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 234-8815 | standrewhbg1@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.26808,
     "lon": -76.8622,
@@ -1473,7 +1472,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-in-the-valley-4620-linglestown-road-harrisburg-pa",
@@ -1490,7 +1490,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 657-8575 | standrewhbg1@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.33684,
     "lon": -76.81746,
@@ -1514,7 +1513,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Girl Scouts; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-248-seneca-st-harrisburg-pa",
@@ -1531,7 +1531,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 233-2175 | st.pauls.hbg@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.28373,
     "lon": -76.89877,
@@ -1555,7 +1554,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group; State Street Academy of Music",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-cathedral-221-n-front-st-harrisburg-pa",
@@ -1572,7 +1572,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 236-4059 | churchadmin@ststep.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.26049,
     "lon": -76.88589,
@@ -1596,7 +1595,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Nursery; Young adult group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "chapel-of-the-good-shepherd-270-whitman-st-hawk-run-pa",
@@ -1613,7 +1613,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 342-7307 | caj.2@verizon.net",
-    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally.",
     "verification_status": "Unverified",
     "lat": 40.92422,
     "lon": -78.20742,
@@ -1637,7 +1636,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": "Chapel listing on the Episcopal Asset Map; confirm Sunday schedule locally."
   },
   {
     "id": "st-peters-episcopal-church-46-s-laurel-st-hazleton-pa",
@@ -1654,7 +1654,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 454-6543 | stpeters1859@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.95316,
     "lon": -75.97621,
@@ -1678,7 +1677,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-georges-episcopal-church-735-delaware-ave-hellertown-pa",
@@ -1695,7 +1695,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 838-9355 | stgeorges@rcn.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.58015,
     "lon": -75.33789,
@@ -1719,7 +1718,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-310-elm-ave-hershey-pa",
@@ -1736,7 +1736,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 533-2454 | jenieceregan@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.27691,
     "lon": -76.65145,
@@ -1760,7 +1759,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; College student group; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-holy-trinity-315-jones-st-hollidaysburg-pa",
@@ -1777,7 +1777,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 695-7751 | holy-trinity-hollidaysburg@diocpa.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.43016,
     "lon": -78.38754,
@@ -1801,7 +1800,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-827-church-st-honesdale-pa",
@@ -1818,7 +1818,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 253-2760 | rector@gracechurchhonesdale.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.57283,
     "lon": -75.25461,
@@ -1842,7 +1841,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; LGBTQ group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-212-penn-st-huntingdon-pa",
@@ -1859,7 +1859,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 643-4732 | stjohnspahuntpa@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.4833,
     "lon": -78.00746,
@@ -1883,7 +1882,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-st-george-episcopal-church-398-washington-ave-jermyn-pa",
@@ -1900,7 +1900,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 876-4896 | ssjandg@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.5272,
     "lon": -75.54747,
@@ -1924,7 +1923,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-176-mount-pleasant-ave-jersey-shore-pa",
@@ -1941,7 +1941,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 398-4007 | trinityjs@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.20176,
     "lon": -77.26461,
@@ -1965,7 +1964,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mark-and-st-john-church-21-race-st-jim-thorpe-pa",
@@ -1982,7 +1982,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 325-2241 | markjhn1@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.86307,
     "lon": -75.73903,
@@ -2006,7 +2005,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "grace-episcopal-church-30-butler-st-kingston-pa",
@@ -2023,7 +2023,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 287-8440 | grace_kingston@juno.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.27726,
     "lon": -75.87609,
@@ -2047,7 +2046,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-st-barnabas-center-of-kutztown-234-e-main-st-kutztown-pa",
@@ -2064,7 +2064,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(484) 648-2814 | stbarnabascenter@hometownu.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.52232,
     "lon": -75.77326,
@@ -2088,7 +2087,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-james-episcopal-church-119-n-duke-st-lancaster-pa",
@@ -2105,7 +2105,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 397-4858 | office@saintjameslancaster.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.04034,
     "lon": -76.30398,
@@ -2129,7 +2128,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Young adult group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-edward-episcopal-church-2453-harrisburg-pike-lancaster-pa",
@@ -2146,7 +2146,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 898-6276 | stedsoffice@comcast.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.07321,
     "lon": -76.36903,
@@ -2170,7 +2169,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group; Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-321-w-chestnut-st-lancaster-pa",
@@ -2187,7 +2187,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 299-1188 | info@stjohns-lancaster.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.04059,
     "lon": -76.31203,
@@ -2211,7 +2210,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Journey to Adulthood (J2A); Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Nursery; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-301-saint-thomas-rd-lancaster-pa",
@@ -2228,7 +2228,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 569-3241 | jennifer.e.mattson@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.09961,
     "lon": -76.27499,
@@ -2252,7 +2251,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Nursery; Young adult group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-22-s-6th-st-lebanon-pa",
@@ -2269,7 +2269,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 272-8251 | admin@stlukeslebanon.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.33874,
     "lon": -76.42094,
@@ -2293,7 +2292,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-301-n-2nd-st-lehighton-pa",
@@ -2310,7 +2310,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 377-2675 | allsaint@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.83707,
     "lon": -75.71073,
@@ -2334,7 +2333,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-255-s-derr-dr-lewisburg-pa",
@@ -2351,7 +2351,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 524-2061 | standrewslbg@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.95645,
     "lon": -76.89117,
@@ -2375,7 +2374,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-21-s-main-st-lewistown-pa",
@@ -2392,7 +2392,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 248-8327 | info@stmark-lewistown.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.59688,
     "lon": -77.57381,
@@ -2416,7 +2415,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Episcopal Church Women (ECW); Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-112-e-main-st-lock-haven-pa",
@@ -2433,7 +2433,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 748-2440 | danselvage2@comcast.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.13706,
     "lon": -77.44526,
@@ -2457,7 +2456,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "hope-episcopal-church-2425-mountain-rd-manheim-pa",
@@ -2474,7 +2474,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 665-6311 | office@hopeepiscopal.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.22154,
     "lon": -76.42242,
@@ -2498,7 +2497,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Eucharistic Ministers/Visitors; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-90-s-charlotte-st-manheim-pa",
@@ -2515,7 +2515,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 665-6584 | stpaulmhm@windstream.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.16091,
     "lon": -76.39492,
@@ -2539,7 +2538,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-18-saint-james-st-mansfield-pa",
@@ -2556,7 +2556,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 662-2003 | stjames.mansfieldpa@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.80686,
     "lon": -77.07636,
@@ -2580,7 +2579,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-church-239-e-market-st-marietta-pa",
@@ -2597,7 +2597,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 426-3189 | stjohnsmarietta@comcast.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.05787,
     "lon": -76.54951,
@@ -2621,7 +2620,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Men's group; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-8-e-keller-st-mechanicsburg-pa",
@@ -2638,7 +2638,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 766-5182 | admin.st.lukes@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.21049,
     "lon": -77.0064,
@@ -2662,7 +2661,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "good-shepherd-and-st-johns-church-110-w-catherine-st-milford-pa",
@@ -2679,7 +2679,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 296-8123 | office@goodshepherdmilford.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.32419,
     "lon": -74.80235,
@@ -2703,7 +2702,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Daughters of the King; Preschool; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-21-upper-market-st-milton-pa",
@@ -2720,7 +2720,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 742-8871 | cecmilton@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.02247,
     "lon": -76.8548,
@@ -2744,7 +2743,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-our-saviour-31-n-loyalsock-ave-montoursville-pa",
@@ -2761,7 +2761,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 368-1860 | aurikerr@hotmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.25058,
     "lon": -76.92756,
@@ -2785,7 +2784,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-827-good-shepherd-rd-montoursville-pa",
@@ -2802,7 +2802,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 433-3823 | laurikerr@hotmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.28502,
     "lon": -76.84102,
@@ -2826,7 +2825,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-276-church-st-montrose-pa",
@@ -2843,7 +2843,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 278-2954 | stpaulsmontrose@epix.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.83233,
     "lon": -75.87737,
@@ -2867,7 +2866,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-thomas-episcopal-church-6251-morgantown-rd-morgantown-pa",
@@ -2884,7 +2884,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 286-9547 | info@saintthomasepiscopal.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -2908,7 +2907,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marks-episcopal-church-1109-church-st-moscow-pa",
@@ -2925,7 +2925,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 842-7231 | stmark3@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.33857,
     "lon": -75.54592,
@@ -2949,7 +2948,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "saint-luke-episcopal-church-209-s-market-st-mount-joy-pa",
@@ -2966,7 +2966,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 653-4979 | stlukesmountjoy@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.10662,
     "lon": -76.50311,
@@ -2990,7 +2989,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-137-trinity-hill-rd-mount-pocono-pa",
@@ -3007,7 +3007,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 839-9376 | trinitychurchmp@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.10933,
     "lon": -75.34188,
@@ -3031,7 +3030,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-martin-in-the-fields-3085-church-rd-mountain-top-pa",
@@ -3048,7 +3048,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 868-5358 | contact@stmartintimeless.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.14713,
     "lon": -75.95921,
@@ -3072,7 +3071,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-215-s-main-st-muncy-pa",
@@ -3089,7 +3089,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 546-6740 | stjameschurchmuncy@windstream.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.20157,
     "lon": -76.78593,
@@ -3113,7 +3112,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-church-12-e-kirmar-ave-nanticoke-pa",
@@ -3130,7 +3130,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 735-3295",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.18337,
     "lon": -76.01036,
@@ -3154,7 +3153,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "bangor-episcopal-church-2099-main-st-narvon-pa",
@@ -3171,7 +3171,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 445-0253 | bangorclergy@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.13367,
     "lon": -75.96097,
@@ -3195,7 +3194,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-brigids-church-310-madison-ave-nazareth-pa",
@@ -3212,7 +3212,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 746-3910 | stbrigidsnaz@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.7398,
     "lon": -75.31679,
@@ -3236,7 +3235,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-nativity-st-stephen-159-s-2nd-st-newport-pa",
@@ -3253,7 +3253,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 567-6514 | nativityrector@pa.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.47614,
     "lon": -77.12906,
@@ -3277,7 +3276,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-mark-episcopal-church-187-king-st-northumberland-pa",
@@ -3294,7 +3294,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 473-3220 | stmarknorry@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.89032,
     "lon": -76.79587,
@@ -3318,7 +3317,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-johns-episcopal-church-365-lafayette-ave-palmerton-pa",
@@ -3335,7 +3335,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 826-2611 | office@stjohnspalmerton.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.80446,
     "lon": -75.60962,
@@ -3359,7 +3358,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Eucharistic Ministers/Visitors; Free Community Dinner last Thursday of month from 4 to 6 PM.",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-josephs-episcopal-church-1440-verona-ave-pen-argyl-pa",
@@ -3376,7 +3376,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 759-0973 | tuck6789@yahoo.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.8792,
     "lon": -75.24183,
@@ -3400,7 +3399,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-church-40-w-prequeisle-st-philipsburg-pa",
@@ -3417,7 +3417,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.89544,
     "lon": -78.22251,
@@ -3441,7 +3440,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-406-e-presqueiisle-st-phillipsburg-pa",
@@ -3458,7 +3458,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 342-3180 | stpaulsphilipsburg@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.89694,
     "lon": -78.21944,
@@ -3482,7 +3481,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-200-s-2nd-st-pottsville-pa",
@@ -3499,7 +3499,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 622-8720 | episcopalch200@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.68339,
     "lon": -76.19482,
@@ -3523,7 +3522,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Eucharistic Ministers/Visitors; Girl Scouts; Neighborhood associations; Preschool; Young adult group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-435-court-st-reading-pa",
@@ -3540,7 +3540,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 374-8269 | officemgr@rdgchristchurch.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.33631,
     "lon": -75.92848,
@@ -3564,7 +3563,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Nursery",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-redeemer-201-s-wilbur-ave-sayre-pa",
@@ -3581,7 +3581,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 888-2270 | credeemer2@stny.rr.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.98029,
     "lon": -76.51874,
@@ -3605,7 +3604,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-james-episcopal-church-100-dock-st-schuylkill-haven-pa",
@@ -3622,7 +3622,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 385-0737 | whhanson6791@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.63244,
     "lon": -76.17263,
@@ -3646,7 +3645,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "church-of-the-good-shepherd-1780-n-washington-ave-scranton-pa",
@@ -3663,7 +3663,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 347-1760 | goodshepherdscr@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.42918,
     "lon": -75.64215,
@@ -3687,7 +3686,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-lukes-episcopal-church-232-wyoming-ave-scranton-pa",
@@ -3704,7 +3704,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 342-7654 | stlukesscranton@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.40916,
     "lon": -75.66456,
@@ -3728,7 +3727,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-episcopal-church-129-n-market-st-selinsgrove-pa",
@@ -3745,7 +3745,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 374-8289 | allsaints@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.80062,
     "lon": -76.86155,
@@ -3769,7 +3768,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Brotherhood of St. Andrew; College student group; Episcopal Church Women (ECW); Girl Scouts; Meals on Wheels; Meals for Seals",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-206-e-burd-st-shippensburg-pa",
@@ -3786,7 +3786,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 532-8089 | rector@standrewsship.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.05355,
     "lon": -77.51744,
@@ -3810,7 +3809,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "the-episcopal-home-206-east-burd-street-shippensburg-pa",
@@ -3827,7 +3827,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 532-4612",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.05355,
     "lon": -77.51744,
@@ -3851,7 +3850,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-albans-episcopal-church-2848-saint-albans-dr-sinking-spring-pa",
@@ -3868,7 +3868,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 678-7001 | info@stalbansepiscopal.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.33439,
     "lon": -76.00676,
@@ -3892,7 +3891,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "north-parish-holy-apostles-307-e-hancock-st-st-clair-pa",
@@ -3909,7 +3909,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 429-7107 | nparish@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.72195,
     "lon": -76.18867,
@@ -3933,7 +3932,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-church-208-w-foster-ave-state-college-pa",
@@ -3950,7 +3950,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 237-7659 | rrovansek@pacewater.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.79111,
     "lon": -77.86006,
@@ -3974,7 +3973,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; College student group; Education for Ministry (EFM); Youth faith formation/Sunday school; Youth group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-205-n-7th-st-stroudsburg-pa",
@@ -3991,7 +3991,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 421-7481 | office@christchurchstroudsburg.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.98682,
     "lon": -75.19507,
@@ -4015,7 +4014,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-matthews-episcopal-church-32-n-front-st-sunbury-pa",
@@ -4032,7 +4032,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 286-7002 | stmatthewsunbury@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.86366,
     "lon": -76.79618,
@@ -4056,7 +4055,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-1107-w-main-st-susquehanna-pa",
@@ -4073,7 +4073,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 465-3896",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.94481,
     "lon": -75.60714,
@@ -4097,7 +4096,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-15-s-main-st-tioga-pa",
@@ -4114,7 +4114,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 835-5030 | st-andrews-tioga@diocpa.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.90864,
     "lon": -77.1333,
@@ -4138,7 +4137,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-1-main-st-towanda-pa",
@@ -4155,7 +4155,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 265-5035 | info@christchurchtowanda.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.77096,
     "lon": -76.4431,
@@ -4179,7 +4178,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-annes-episcopal-church-6667-lower-macungie-rd-trexlertown-pa",
@@ -4196,7 +4196,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 398-3321 | administrator@stannesepiscopal.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -4220,7 +4219,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-130-elmira-st-troy-pa",
@@ -4237,7 +4237,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 297-4864 | stpaulschurch@frontier.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.78691,
     "lon": -76.78526,
@@ -4261,7 +4260,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-peters-episcopal-church-3832-state-route-6-tunkhannock-pa",
@@ -4278,7 +4278,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 836-2233 | saintpeters18657@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.54088,
     "lon": -75.92442,
@@ -4302,7 +4301,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-830-washington-ave-tyrone-pa",
@@ -4319,7 +4319,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(814) 684-3100 | jlh1134@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.66932,
     "lon": -78.24307,
@@ -4343,7 +4342,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Choir; Eucharistic Ministers/Visitors; Youth faith formation/Sunday school",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "brookland-retreat-center-3714-fox-hill-rd-ulysses-pa",
@@ -4360,7 +4360,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 236-5959 ext. 1109 | info@brooklandcenter.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -4384,7 +4383,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-112-e-2nd-st-waynesboro-pa",
@@ -4401,7 +4401,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 762-1930 | office@stmaryswaynesboro.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.75231,
     "lon": -77.57584,
@@ -4425,7 +4424,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-pauls-episcopal-church-29-charles-st-wellsboro-pa",
@@ -4442,7 +4442,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 724-4771 | stpauls@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.74671,
     "lon": -77.3025,
@@ -4466,7 +4465,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Bible study; Boy Scouts; Choir; Episcopal Church Women (ECW); Youth group; Tana's Jumpstart (exercise) and TOPS (Taking off Pounds Sensibly",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-church-337-spring-street-west-pittston-pa",
@@ -4483,7 +4483,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 654-3261 | trinityepiscopalchurchwp@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.32889,
     "lon": -75.7998,
@@ -4507,7 +4506,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-episcopal-church-3900-mechanicsville-rd-whitehall-pa",
@@ -4524,7 +4524,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 435-3901 | saintste@ptd.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": null,
     "lon": null,
@@ -4548,7 +4547,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-clement-and-st-peters-church-165-hanover-st-wilkes-barre-pa",
@@ -4565,7 +4565,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 822-8043 | stclementstpeter@verizon.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.23741,
     "lon": -75.90674,
@@ -4589,7 +4588,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-stephens-pro-cathedral-35-s-franklin-st-wilkes-barre-pa",
@@ -4606,7 +4606,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 825-6653 | ststephensreach@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.24591,
     "lon": -75.88507,
@@ -4630,7 +4629,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Eucharistic Ministers/Visitors; LGBTQ group; Men's group; Youth faith formation/Sunday school; RSCM (Royal School of Church Music - every August))",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "all-saints-memorial-1656-scott-st-williamsport-pa",
@@ -4647,7 +4647,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 326-0191 | 1656scott@comcast.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.24166,
     "lon": -77.04245,
@@ -4671,7 +4670,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "christ-episcopal-church-426-mulberry-st-williamsport-pa",
@@ -4688,7 +4688,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 322-8160 | christepchurch@gmail.com",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.24325,
     "lon": -77.00055,
@@ -4712,7 +4711,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; College student group; Eucharistic Ministers/Visitors; Godly Play; Lay pastoral care (e.g. Stephen Ministry, Community of Hope)",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "gleam-3-1656-scott-st-williamsport-pa",
@@ -4729,7 +4729,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.24166,
     "lon": -77.04245,
@@ -4753,7 +4752,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "trinity-episcopal-pro-cathedral-844-w-4th-st-williamsport-pa",
@@ -4770,7 +4770,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(570) 322-0126 | trinityrector@comcast.net",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 41.23977,
     "lon": -77.01886,
@@ -4794,7 +4793,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Choir; Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity; LGBTQ group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-marys-episcopal-church-340-n-lehigh-ave-wind-gap-pa",
@@ -4811,7 +4811,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(610) 863-8007",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 40.85195,
     "lon": -75.28571,
@@ -4835,7 +4834,8 @@
     "parking": "",
     "childcare": "",
     "formation": "",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-andrews-episcopal-church-1502-4th-ave-york-pa",
@@ -4852,7 +4852,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 843-3868 | secretary@standrewsyork.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.9668,
     "lon": -76.69764,
@@ -4876,7 +4875,8 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Bible study; Brotherhood of St. Andrew; Choir; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Men's group",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   },
   {
     "id": "st-john-the-baptist-episcopal-church-140-n-beaver-st-york-pa",
@@ -4893,7 +4893,6 @@
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "(717) 848-1862 | secretary@stjohnyork.org",
-    "notes": "",
     "verification_status": "Unverified",
     "lat": 39.96401,
     "lon": -76.73086,
@@ -4917,6 +4916,7 @@
     "parking": "",
     "childcare": "",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Choir; Daughters of the King; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Godly Play; Habitat for Humanity",
-    "date_last_updated": "2026-10-08"
+    "date_last_updated": "2026-10-08",
+    "notes": ""
   }
 ]

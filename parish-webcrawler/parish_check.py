@@ -266,12 +266,13 @@ def city_key(c: str) -> str:
 # ==================================================================================================
 # People
 # ==================================================================================================
-HONORIFIC = {"the", "reverend", "rev", "revd", "very", "right", "rt", "most", "fr", "father", "mother", "mtr", "dr",
-             "canon", "deacon", "bishop", "mr", "mrs", "ms", "pastor"}
+HONORIFIC = {"the", "reverend", "rev", "revd", "very", "right", "rt", "most", "venerable", "ven", "fr", "father",
+             "mother", "mtr", "dr", "canon", "deacon", "bishop", "mr", "mrs", "ms", "pastor"}
 SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "phd", "dmin"}
 TITLES = [(re.compile(r"\b(?:Right|Rt\.?)\s*(?:Reverend|Revd\.?|Rev\b\.?)", re.I), "Rt. Rev."),
           (re.compile(r"\bVery\s+(?:Reverend|Revd\.?|Rev\b\.?)", re.I), "Very Rev."),
           (re.compile(r"\b(?:Reverend|Revd\.?|Rev\b\.?)", re.I), "Rev."),
+          (re.compile(r"\b(?:Venerable|Ven\b\.?)(?=\s+[A-Z])"), "Ven."),
           (re.compile(r"\b(?:Father|Fr\b\.?)(?=\s+[A-Z])"), "Fr."),
           (re.compile(r"\b(?:Mother|Mtr\b\.?)(?=\s+[A-Z])"), "Mtr.")]
 
@@ -307,7 +308,7 @@ def house_title(name: str) -> str:
     for rx, rep in TITLES:
         name = rx.sub(rep, name)
     name = re.sub(r"^the\s+", "", name, flags=re.I)
-    return f"The {name}" if re.match(r"(?:Rt\. Rev\.|Very Rev\.|Rev\.)", name) else name
+    return f"The {name}" if re.match(r"(?:Rt\. Rev\.|Very Rev\.|Rev\.|Ven\.)", name) else name
 
 
 # A role on a line of its own, and what kind of clergy it is.
