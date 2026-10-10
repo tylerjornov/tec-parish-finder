@@ -1,6 +1,6 @@
 #!/bin/bash
-# Double-click me. Asks which parish JSON file to check, checks it against the parish websites, opens the results.
-# (From Terminal you can name the file instead:  ./run.command path/to/file.json)
+# Double-click me. Asks which parish JSON file(s) to check, checks them against the parish websites, opens the results.
+# (From Terminal you can name the files instead:  ./run.command path/to/a.json path/to/b.json)
 cd "$(dirname "$0")" || exit 1
 PY=".venv/bin/python"
 LIBS="httpx>=0.27 beautifulsoup4>=4.12 openpyxl>=3.1"
@@ -13,15 +13,31 @@ if [ "$(cat .venv/.libs 2>/dev/null)" != "$LIBS" ]; then
     || { echo "Installing libraries failed. Check your internet connection."; finish 1; }
 fi
 
-# Which file to check: one named on the command line, else a file picker (never assumes the live parishes.json).
-FILE="$1"
-if [ -z "$FILE" ]; then
-  FILE=$(osascript -e 'POSIX path of (choose file with prompt "Choose the parish JSON file to check" of type {"json", "public.json"} default location (POSIX file "'"$(cd .. && pwd)"'"))' 2>/dev/null)
-  [ -n "$FILE" ] || { echo "No file chosen. Nothing was checked."; finish 0; }
+# Which files to check: ones named on the command line, else a file picker (never assumes the live parishes.json).
+FILES=("$@")
+if [ ${#FILES[@]} -eq 0 ]; then
+  PICKED=$(osascript \
+    -e 'set fs to choose file with prompt "Choose the parish JSON file(s) to check" of type {"json", "public.json"} with multiple selections allowed default location (POSIX file "'"$(cd .. && pwd)"'")' \
+    -e 'set o to ""' \
+    -e 'repeat with f in fs' \
+    -e 'set o to o & POSIX path of f & linefeed' \
+    -e 'end repeat' \
+    -e 'return o' 2>/dev/null)
+  while IFS= read -r line; do [ -n "$line" ] && FILES+=("$line"); done <<< "$PICKED"
+  [ ${#FILES[@]} -gt 0 ] || { echo "No file chosen. Nothing was checked."; finish 0; }
 fi
-echo "Checking: $FILE"
+for f in "${FILES[@]}"; do echo "Checking: $f"; done
 
-"$PY" parish_check.py "$FILE"
+"$PY" parish_check.py "${FILES[@]}"
 RC=$?
-[ $RC -eq 0 ] && open "output/Corrections.xlsx" "output/Website Problems.xlsx"
+if [ $RC -eq 0 ]; then
+  OPEN=()
+  for f in "${FILES[@]}"; do
+    DIR=$("$PY" parish_check.py --where "$f")
+    PREFIX=""
+    [ "$(basename "$DIR")" != "output" ] && PREFIX="$(basename "$DIR") - "
+    OPEN+=("$DIR/${PREFIX}Corrections.xlsx" "$DIR/${PREFIX}Website Problems.xlsx")
+  done
+  open "${OPEN[@]}"
+fi
 finish $RC

@@ -17,6 +17,8 @@ Output (output/):
   corrections.json        every change to make to parishes.json, written for a script or an AI to apply
   Corrections.xlsx        the same changes, for people
   Website Problems.xlsx   parishes whose website could not be read, and why (colour-coded)
+  A file other than data/parishes.json goes to output/<Diocese>/ instead, with the diocese in each file name,
+  e.g. output/Western North Carolina/Western North Carolina - Corrections.xlsx
 parishes.json itself is never changed.
 """
 
@@ -51,6 +53,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 HERE = Path(__file__).resolve().parent
 OUT = HERE / "output"
 CACHE = OUT / ".cache"
+LIVE = (HERE.parent / "data" / "parishes.json").resolve()   # the live file: its results go straight into output/
 
 MAX_PAGES, MAX_DEPTH = 30, 3          # pages read per website, and how many clicks deep
 DELAY, WORKERS, TIMEOUT = 1.0, 6, 20  # seconds between requests to one site, sites read at once, seconds per request
@@ -960,10 +963,23 @@ def run(path: Path) -> int:
 
     changes.sort(key=lambda c: (str(c["name"]).casefold(), str(c["id"]), c["field"]))
     problems.sort(key=lambda p: (list(PROBLEMS).index(p["problem"]), str(p["name"]).casefold()))
-    write_outputs(path, changes, problems)
+    label = diocese_label(path, records)
+    write_outputs(path, changes, problems, label)
     print(f"Done in {round(time.monotonic() - started)} s: {len(changes)} change(s) for {len({c['id'] for c in changes})} parish(es), "
-          f"{len(problems)} website problem(s). See {OUT}/")
+          f"{len(problems)} website problem(s). See {results_folder(label)}/")
     return 0
+
+
+def diocese_label(path: Path, records: list) -> str:
+    """'' for the live data/parishes.json; otherwise the one diocese the records name, or the file name if they name several."""
+    if path.resolve() == LIVE:
+        return ""
+    dioceses = {str(r.get("diocese") or "").strip() for r in records if isinstance(r, dict)} - {""}
+    return dioceses.pop() if len(dioceses) == 1 else path.stem.replace("-", " ")
+
+
+def results_folder(label: str) -> Path:
+    return OUT / re.sub(r'[/:\\]', "-", label) if label else OUT
 
 
 # ==================================================================================================
@@ -981,30 +997,32 @@ HOW_TO_APPLY = [
 ]
 
 
-def write_outputs(path: Path, changes: list[dict], problems: list[dict]) -> None:
-    OUT.mkdir(parents=True, exist_ok=True)
-    for old in OUT.iterdir():                     # earlier results (and older versions' files) go; the cache stays
+def write_outputs(path: Path, changes: list[dict], problems: list[dict], label: str = "") -> None:
+    folder = results_folder(label)
+    folder.mkdir(parents=True, exist_ok=True)
+    for old in folder.iterdir():                  # earlier results (and older versions' files) go; the cache stays
         if old.is_file() and not old.name.startswith((".", "~$")):
             old.unlink()
+    prefix = f"{label} - " if label else ""
     try:
         shown = str(path.resolve().relative_to(HERE.parent))
     except ValueError:
         shown = str(path)
-    (OUT / "corrections.json").write_text(json.dumps({
+    (folder / f"{prefix}corrections.json").write_text(json.dumps({
         "input_file": shown, "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
         "how_to_apply": HOW_TO_APPLY, "change_count": len(changes),
         "changes": [{k: c[k] for k in ("id", "field", "action", "current_value", "new_value", "name", "source_url", "evidence")}
                     for c in changes]}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     action = {"add": ("Add missing", "D6E6FA"), "replace": ("Replace", "FCE8C3")}
-    sheet(OUT / "Corrections.xlsx", "Corrections",
+    sheet(folder / f"{prefix}Corrections.xlsx", "Corrections",
           ["Parish", "Id", "Field", "Change", "Current value", "Correct value", "Source page", "Evidence"],
           [32, 26, 16, 14, 36, 36, 40, 60],
           [([c["name"], c["id"], c["field"], action[c["action"]][0], c["current_value"] or "", c["new_value"],
              c["source_url"], c["evidence"]], action[c["action"]][1]) for c in changes],
           [("Add missing", "D6E6FA", "parishes.json has no value; the website gives one."),
            ("Replace", "FCE8C3", "parishes.json has a value the website no longer shows anywhere; the website gives this one.")])
-    sheet(OUT / "Website Problems.xlsx", "Website problems",
+    sheet(folder / f"{prefix}Website Problems.xlsx", "Website problems",
           ["Parish", "City", "Id", "Website", "Problem", "Details"], [32, 16, 26, 44, 22, 70],
           [([p["name"], p["city"], p["id"], p["website"], p["problem"], p["details"]], PROBLEMS[p["problem"]][0])
            for p in problems],
@@ -1093,13 +1111,30 @@ def selftest() -> int:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Check parishes.json against parish websites (no AI).")
-    ap.add_argument("input", nargs="?", help="the parish JSON file to check (required; the live ../data/parishes.json is never assumed)")
+    ap.add_argument("inputs", nargs="*", help="the parish JSON files to check, one after another (required; the live ../data/parishes.json is never assumed)")
     ap.add_argument("--selftest", action="store_true", help="test the rules offline and stop")
+    ap.add_argument("--where", action="store_true", help="print the folder the results for each file go to, and stop")
     a = ap.parse_args()
-    if not a.selftest and not a.input:
-        ap.error("name the JSON file to check, e.g.  .venv/bin/python parish_check.py path/to/file.json")
+    if not a.selftest and not a.inputs:
+        ap.error("name the JSON file(s) to check, e.g.  .venv/bin/python parish_check.py path/to/file.json")
+    paths = [Path(p).expanduser() for p in a.inputs]
+    if a.where:
+        for path in paths:
+            print(results_folder(diocese_label(path, json.loads(path.read_text(encoding="utf-8-sig")))))
+        sys.exit(0)
+    if a.selftest:
+        sys.exit(selftest())
+    status = 0
     try:
-        sys.exit(selftest() if a.selftest else run(Path(a.input).expanduser()))
+        for n, path in enumerate(paths, 1):
+            if len(paths) > 1:
+                print(f"\n[{n} of {len(paths)}] {path.name}")
+            try:
+                status = max(status, run(path))
+            except (OSError, ValueError) as e:            # a bad file: report it and go on to the next
+                print(f"Could not check {path}: {e}")
+                status = 1
     except KeyboardInterrupt:
         print("\nStopped. Pages read so far are cached; run again to continue quickly.")
         sys.exit(130)
+    sys.exit(status)
