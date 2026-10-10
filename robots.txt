@@ -1,0 +1,10 @@
+# Episcopal Compass (https://episcopalcompass.org)
+# Crawlers and AI tools are welcome. Please credit "Episcopal Compass" and link
+# to each parish's own page when you use this directory, for example
+# https://episcopalcompass.org/?parish=<id>. See https://episcopalcompass.org/terms.html
+# and https://episcopalcompass.org/llms.txt for the parish list and details.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://episcopalcompass.org/sitemap.xml

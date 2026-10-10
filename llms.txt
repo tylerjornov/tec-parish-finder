@@ -1,0 +1,196 @@
+# Episcopal Compass
+
+> A free, unofficial directory of Episcopal Church parishes in North Carolina and South Carolina,
+> with filters, a map, and details for each parish: services, contact information, clergy,
+> accessibility, and parish culture. Not an official publication of The Episcopal Church.
+
+## Data
+
+- Full parish dataset (JSON, 164 parishes): https://github.com/tylerjornov/tec-parish-finder/blob/main/data/parishes.json
+- Each parish has a stable id, used in its deep link: https://episcopalcompass.org/?parish=<id>
+- Each parish's date_last_updated shows when its details were last changed.
+- Most fields are from public sources (parish websites and the Episcopal Asset Map). Fields marked
+  "Verified" were gathered through direct contact with the parish.
+
+## Attribution
+
+- If you use this directory's data or answer a question with it, please credit "Episcopal Compass" and link to the parish's own page on the site, using its deep link (https://episcopalcompass.org/?parish=<id>).
+- Facts such as names, addresses, and websites may be reused. The notes and classifications on
+  Verified entries are original work and may not be republished without permission.
+- Full terms: https://episcopalcompass.org/terms.html
+
+## Pages
+
+- [Home](https://episcopalcompass.org/): Find an Episcopal parish in North and South Carolina, and Western North Carolina.
+- [About](https://episcopalcompass.org/about.html): About Episcopal Compass and how the parish data is gathered.
+- [Institutions](https://episcopalcompass.org/institutions.html): Institutions and dioceses covered by the directory.
+- [Definitions](https://episcopalcompass.org/definitions.html): Definitions of the parish categories used on the site.
+- [Terms](https://episcopalcompass.org/terms.html): Terms of use, data credit, and permissions.
+- [Acknowledgements](https://episcopalcompass.org/acknowledgements.html): Sources and acknowledgements.
+
+## Parishes
+
+- [Cathedral of All Souls](https://episcopalcompass.org/?parish=cathedral-of-all-souls-9-swan-st-asheville-nc): Western North Carolina, Asheville, NC
+- [Church of the Advocate/The Red Door Community](https://episcopalcompass.org/?parish=church-of-the-advocate-the-red-door-community-60-church-st-asheville-nc): Western North Carolina, Asheville, NC
+- [Church of the Redeemer](https://episcopalcompass.org/?parish=church-of-the-redeemer-1201-riverside-dr-asheville-nc): Western North Carolina, Asheville, NC
+- [Grace Episcopal Church](https://episcopalcompass.org/?parish=grace-episcopal-church-871-merrimon-ave-asheville-nc): Western North Carolina, Asheville, NC
+- [St. George's Episcopal Church](https://episcopalcompass.org/?parish=st-georges-episcopal-church-1-school-rd-asheville-nc): Western North Carolina, Asheville, NC
+- [St. Giles Chapel](https://episcopalcompass.org/?parish=st-giles-chapel-1617-hendersonville-rd-asheville-nc): Western North Carolina, Asheville, NC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-johns-episcopal-church-290-old-haw-creek-rd-asheville-nc): Western North Carolina, Asheville, NC
+- [St. Luke's Episcopal Church](https://episcopalcompass.org/?parish=st-lukes-episcopal-church-219-chunns-cove-rd-asheville-nc): Western North Carolina, Asheville, NC
+- [St. Mary's Church](https://episcopalcompass.org/?parish=st-marys-church-337-charlotte-street-asheville-nc): Western North Carolina, Asheville, NC
+- [St. Matthias Episcopal Church](https://episcopalcompass.org/?parish=st-matthias-episcopal-church-1-dundee-st-asheville-nc): Western North Carolina, Asheville, NC
+- [Trinity Episcopal Church](https://episcopalcompass.org/?parish=trinity-episcopal-church-60-church-st-asheville-nc): Western North Carolina, Asheville, NC
+- [Church of the Holy Cross](https://episcopalcompass.org/?parish=church-of-the-holy-cross-122-skiles-way-banner-elk-nc): Western North Carolina, Banner Elk, NC
+- [Church of the Transfiguration](https://episcopalcompass.org/?parish=church-of-the-transfiguration-106-saylor-lane-bat-cave-nc): Western North Carolina, Bat Cave, NC
+- [St. Andrew's Episcopal Church](https://episcopalcompass.org/?parish=st-andrews-episcopal-church-1303-n-12th-st-bessemer-city-nc): Western North Carolina, Bessemer City, NC
+- [St. James Episcopal Church](https://episcopalcompass.org/?parish=st-james-episcopal-church-424-w-state-st-black-mountain-nc): Western North Carolina, Black Mountain, NC
+- [St. Mary of the Hills Church](https://episcopalcompass.org/?parish=st-mary-of-the-hills-church-140-chestnut-dr-blowing-rock-nc): Western North Carolina, Blowing Rock, NC
+- [St. Luke's Episcopal Church](https://episcopalcompass.org/?parish=st-lukes-episcopal-church-170-councill-st-boone-nc): Western North Carolina, Boone, NC
+- [St. Philip's Episcopal Church](https://episcopalcompass.org/?parish=st-philips-episcopal-church-256-e-main-st-brevard-nc): Western North Carolina, Brevard, NC
+- [St. Thomas Episcopal Church](https://episcopalcompass.org/?parish=st-thomas-episcopal-church-372-reservoir-rd-burnsville-nc): Western North Carolina, Burnsville, NC
+- [St. Andrew's on-the-Hill Episcopal Church](https://episcopalcompass.org/?parish=st-andrews-on-the-hill-episcopal-church-251-academy-st-canton-nc): Western North Carolina, Canton, NC
+- [Church of the Good Shepherd](https://episcopalcompass.org/?parish=church-of-the-good-shepherd-1448-highway-107-s-cashiers-nc): Western North Carolina, Cashiers, NC
+- [Whiteside Summer Chapel](https://episcopalcompass.org/?parish=whiteside-summer-chapel-4546-whiteside-cove-rd-cashiers-nc): Western North Carolina, Cashiers, NC
+- [Faith Memorial Chapel](https://episcopalcompass.org/?parish=faith-memorial-chapel-11-faith-chapel-rd-cedar-mountain-nc): Western North Carolina, Cedar Mountain, NC
+- [St. Francis of Assisi Church](https://episcopalcompass.org/?parish=st-francis-of-assisi-church-82-old-river-rd-cherokee-nc): Western North Carolina, Cherokee, NC
+- [St. David's Episcopal Church](https://episcopalcompass.org/?parish=st-davids-episcopal-church-385-forest-hills-rd-cullowhee-nc): Western North Carolina, Cullowhee, NC
+- [Episcopal Church of St. Peters by the Lake](https://episcopalcompass.org/?parish=episcopal-church-of-st-peters-by-the-lake-8433-fairfield-forest-rd-denver-nc): Western North Carolina, Denver, NC
+- [St. Paul's: The Episcopal Church in Edneyville](https://episcopalcompass.org/?parish=st-pauls-the-episcopal-church-in-edneyville-1659-st-pauls-rd-edneyville-nc): Western North Carolina, Edneyville, NC
+- [St. John in the Wilderness](https://episcopalcompass.org/?parish=st-john-in-the-wilderness-1895-greenville-highway-flat-rock-nc): Western North Carolina, Flat Rock, NC
+- [Calvary Episcopal Church](https://episcopalcompass.org/?parish=calvary-episcopal-church-2840-hendersonville-rd-fletcher-nc): Western North Carolina, Fletcher, NC
+- [All Saints Episcopal Church - St Cyprian's Chapel](https://episcopalcompass.org/?parish=all-saints-episcopal-church-st-cyprians-chapel-216-roller-mill-rd-franklin-nc): Western North Carolina, Franklin, NC
+- [All Saints Episcopal Church - St. Agnes Chapel](https://episcopalcompass.org/?parish=all-saints-episcopal-church-st-agnes-chapel-84-church-st-franklin-nc): Western North Carolina, Franklin, NC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-johns-episcopal-church-542-st-johns-church-rd-franklin-nc): Western North Carolina, Franklin, NC
+- [All Saints Episcopal Church](https://episcopalcompass.org/?parish=all-saints-episcopal-church-1201-s-new-hope-rd-gastonia-nc): Western North Carolina, Gastonia, NC
+- [St. Mark's Episcopal Church](https://episcopalcompass.org/?parish=st-marks-episcopal-church-258-west-franklin-boulevard-gastonia-nc): Western North Carolina, Gastonia, NC
+- [Good Shepherd Episcopal Church](https://episcopalcompass.org/?parish=good-shepherd-episcopal-church-495-herbert-hills-dr-hayesville-nc): Western North Carolina, Hayesville, NC
+- [La Capilla de Santa Maria](https://episcopalcompass.org/?parish=la-capilla-de-santa-maria-186-st-marys-dr-hendersonville-nc-28792-hendersonville-nc): Western North Carolina, Hendersonville, NC
+- [St. James Episcopal Church](https://episcopalcompass.org/?parish=st-james-episcopal-church-766-n-main-st-hendersonville-nc): Western North Carolina, Hendersonville, NC
+- [Church of the Ascension](https://episcopalcompass.org/?parish=church-of-the-ascension-726-1st-ave-nw-hickory-nc): Western North Carolina, Hickory, NC
+- [St. Alban's Episcopal Church](https://episcopalcompass.org/?parish=st-albans-episcopal-church-130-39th-ave-pl-nw-hickory-nc): Western North Carolina, Hickory, NC
+- [The Church of the Incarnation](https://episcopalcompass.org/?parish=the-church-of-the-incarnation-520-main-st-highlands-nc): Western North Carolina, Highlands, NC
+- [St. James Episcopal Church](https://episcopalcompass.org/?parish=st-james-episcopal-church-806-college-ave-sw-lenoir-nc): Western North Carolina, Lenoir, NC
+- [Our Saviour Episcopal Church](https://episcopalcompass.org/?parish=our-saviour-episcopal-church-1128-highway-182-lincolnton-nc): Western North Carolina, Lincolnton, NC
+- [St. Luke's Episcopal Church](https://episcopalcompass.org/?parish=st-lukes-episcopal-church-315-north-cedar-street-lincolnton-nc): Western North Carolina, Lincolnton, NC
+- [All Saints Episcopal Chapel](https://episcopalcompass.org/?parish=all-saints-episcopal-chapel-236-carolina-ave-linville-nc): Western North Carolina, Linville, NC
+- [Church of the Resurrection](https://episcopalcompass.org/?parish=church-of-the-resurrection-160-high-ridge-road-little-switzerland-nc): Western North Carolina, Little Switzerland, NC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-johns-episcopal-church-289-s-main-st-marion-nc): Western North Carolina, Marion, NC
+- [Church of the Holy Spirit](https://episcopalcompass.org/?parish=church-of-the-holy-spirit-433-bone-camp-rd-marshall-nc): Western North Carolina, Marshall, NC
+- [Church of the Holy Family](https://episcopalcompass.org/?parish=church-of-the-holy-family-419-turnpike-rd-mills-river-nc): Western North Carolina, Mills River, NC
+- [Grace Episcopal Church](https://episcopalcompass.org/?parish=grace-episcopal-church-303-s-king-st-morganton-nc): Western North Carolina, Morganton, NC
+- [St. Mary's Episcopal Church](https://episcopalcompass.org/?parish=st-marys-episcopal-church-140-st-marys-church-rd-morganton-nc): Western North Carolina, Morganton, NC
+- [St. Paul's Episcopal Church, Lake James](https://episcopalcompass.org/?parish=st-pauls-episcopal-church-lake-james-1865-n-powerhouse-rd-morganton-nc): Western North Carolina, Morganton, NC
+- [St. Stephen's and St. Mary's Episcopal Church](https://episcopalcompass.org/?parish=st-stephens-and-st-marys-episcopal-church-140-st-marys-church-rd-morganton-nc): Western North Carolina, Morganton, NC
+- [Church of the Messiah](https://episcopalcompass.org/?parish=church-of-the-messiah-76-peachtree-st-murphy-nc): Western North Carolina, Murphy, NC
+- [The Savior](https://episcopalcompass.org/?parish=the-savior-2118-elk-park-hwy-newland-nc): Western North Carolina, Newland, NC
+- [Episcopal Church of the Epiphany](https://episcopalcompass.org/?parish=episcopal-church-of-the-epiphany-750-w-13th-st-newton-nc): Western North Carolina, Newton, NC
+- [Grace Mountainside Church - A Lutheran and Episcopal Fellowship](https://episcopalcompass.org/?parish=grace-mountainside-church-a-lutheran-and-episcopal-fellowship-129-s-main-st-robbinsville-nc): Western North Carolina, Robbinsville, NC
+- [St. Francis Episcopal Church](https://episcopalcompass.org/?parish=st-francis-episcopal-church-408-n-main-st-rutherfordton-nc): Western North Carolina, Rutherfordton, NC
+- [St. Gabriel's Episcopal Church](https://episcopalcompass.org/?parish=st-gabriels-episcopal-church-330-n-ridgecrest-ave-rutherfordton-nc): Western North Carolina, Rutherfordton, NC
+- [Church of the Transfiguration](https://episcopalcompass.org/?parish=church-of-the-transfiguration-72-charles-st-saluda-nc): Western North Carolina, Saluda, NC
+- [Church of the Redeemer](https://episcopalcompass.org/?parish=church-of-the-redeemer-502-w-sumter-st-shelby-nc): Western North Carolina, Shelby, NC
+- [Christ Episcopal Church](https://episcopalcompass.org/?parish=christ-episcopal-church-2543-us-hwy-21-s-sparta-nc): Western North Carolina, Sparta, NC
+- [Trinity Episcopal Church](https://episcopalcompass.org/?parish=trinity-episcopal-church-15-hemlock-ave-spruce-pine-nc): Western North Carolina, Spruce Pine, NC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-johns-episcopal-church-18-jackson-st-sylva-nc): Western North Carolina, Sylva, NC
+- [Church of the Good Shepherd](https://episcopalcompass.org/?parish=church-of-the-good-shepherd-814-markham-rd-tryon-nc): Western North Carolina, Tryon, NC
+- [Church of the Holy Cross](https://episcopalcompass.org/?parish=church-of-the-holy-cross-150-melrose-ave-tryon-nc): Western North Carolina, Tryon, NC
+- [Grace Church in the Mountains](https://episcopalcompass.org/?parish=grace-church-in-the-mountains-394-n-haywood-st-waynesville-nc): Western North Carolina, Waynesville, NC
+- [Parish of Holy Communion](https://episcopalcompass.org/?parish=parish-of-holy-communion-120-glendale-school-rd-west-jefferson-nc): Western North Carolina, West Jefferson, NC
+- [St. Paul's Episcopal Church](https://episcopalcompass.org/?parish=st-pauls-episcopal-church-206-west-cowles-street-wilkesboro-nc): Western North Carolina, Wilkesboro, NC
+- [Church of the Holy Communion](https://episcopalcompass.org/?parish=church-of-the-holy-communion-401-n-main-st-allendale-sc): South Carolina, Allendale, SC
+- [Church of the Holy Communion](https://episcopalcompass.org/?parish=church-of-the-holy-communion-218-ashley-ave-charleston-sc): South Carolina, Charleston, SC
+- [Grace Church Cathedral](https://episcopalcompass.org/?parish=grace-church-cathedral-98-wentworth-st-charleston-sc): South Carolina, Charleston, SC
+- [St. James' Episcopal Church](https://episcopalcompass.org/?parish=st-james-episcopal-church-1872-camp-road-charleston-sc): South Carolina, Charleston, SC
+- [St. Mark's Episcopal Church, Charleston](https://episcopalcompass.org/?parish=st-mark-s-episcopal-church-charleston-16-thomas-street-charleston-sc): South Carolina, Charleston, SC
+- [St. Peter's Episcopal Church](https://episcopalcompass.org/?parish=st-peter-s-episcopal-church-1393-miles-drive-charleston-sc): South Carolina, Charleston, SC
+- [St. Stephen's Episcopal Church](https://episcopalcompass.org/?parish=st-stephen-s-episcopal-church-67-anson-st-charleston-sc): South Carolina, Charleston, SC
+- [The Historic Calvary Episcopal Church](https://episcopalcompass.org/?parish=the-historic-calvary-episcopal-church-106-line-st-charleston-sc): South Carolina, Charleston, SC
+- [St. David's Episcopal Church](https://episcopalcompass.org/?parish=st-david-s-episcopal-church-420-market-street-cheraw-sc): South Carolina, Cheraw, SC
+- [St. Anne's Episcopal Church](https://episcopalcompass.org/?parish=st-anne-s-episcopal-church-2104-north-main-street-conway-sc): South Carolina, Conway, SC
+- [Christ Episcopal Church](https://episcopalcompass.org/?parish=christ-episcopal-church-5266-carolina-hwy-denmark-sc): South Carolina, Denmark, SC
+- [St. Philip Episcopal Church (Voorhees College)](https://episcopalcompass.org/?parish=st-philip-episcopal-church-voorhees-college-584-voorhees-rd-denmark-sc): South Carolina, Denmark, SC
+- [St. Francis Episcopal Church](https://episcopalcompass.org/?parish=st-francis-episcopal-church-1644-hwy-174-edisto-island-sc): South Carolina, Edisto Island, SC
+- [Church of the Heavenly Rest](https://episcopalcompass.org/?parish=church-of-the-heavenly-rest-152-corley-rd-estill-sc): South Carolina, Estill, SC
+- [St. Catherine's Episcopal Church](https://episcopalcompass.org/?parish=st-catherine-s-episcopal-church-1806-west-palmetto-street-florence-sc): South Carolina, Florence, SC
+- [All Saints Episcopal Church](https://episcopalcompass.org/?parish=all-saints-episcopal-church-511-jackson-ave-e-hampton-sc): South Carolina, Hampton, SC
+- [St. Bartholomew's Episcopal Church](https://episcopalcompass.org/?parish=st-bartholomew-s-episcopal-church-103-campus-drive-hartsville-sc): South Carolina, Hartsville, SC
+- [All Saints Episcopal Church](https://episcopalcompass.org/?parish=all-saints-episcopal-church-3001-meeting-st-hilton-head-island-sc): South Carolina, Hilton Head Island, SC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-john-s-episcopal-church-3673-maybank-hwy-johns-island-sc): South Carolina, Johns Island, SC
+- [St. Alban's Church](https://episcopalcompass.org/?parish=st-alban-s-church-305-hampton-ave-kingstree-sc): South Carolina, Kingstree, SC
+- [St. James - Santee Episcopal Church](https://episcopalcompass.org/?parish=st-james-santee-episcopal-church-144-oak-st-mcclellanville-sc): South Carolina, McClellanville, SC
+- [Christ Episcopal Church](https://episcopalcompass.org/?parish=christ-episcopal-church-2304-highway-17-north-mount-pleasant-sc): South Carolina, Mount Pleasant, SC
+- [The Episcopal Church of the Messiah](https://episcopalcompass.org/?parish=the-episcopal-church-of-the-messiah-4221a-north-kings-highway-myrtle-beach-sc): South Carolina, Myrtle Beach, SC
+- [St. Thomas Episcopal Church](https://episcopalcompass.org/?parish=st-thomas-episcopal-church-1150-e-montague-ave-north-charleston-sc): South Carolina, North Charleston, SC
+- [St. Stephen's Episcopal Church](https://episcopalcompass.org/?parish=st-stephen-s-episcopal-church-801-11th-avenue-north-north-myrtle-beach-sc): South Carolina, North Myrtle Beach, SC
+- [Holy Cross Faith Memorial Episcopal Church](https://episcopalcompass.org/?parish=holy-cross-faith-memorial-episcopal-church-113-baskervill-drive-pawleys-island-s): South Carolina, Pawleys Island, SC
+- [St. Augustine's Episcopal Church](https://episcopalcompass.org/?parish=st-augustine-s-episcopal-church-5450-milford-plantation-rd-pinewood-sc): South Carolina, Pinewood, SC
+- [St. Mark's Episcopal Church](https://episcopalcompass.org/?parish=st-mark-s-episcopal-church-1110a-paris-ave-port-royal-sc): South Carolina, Port Royal, SC
+- [The Episcopal Church in Okatie](https://episcopalcompass.org/?parish=the-episcopal-church-in-okatie-231-hazzard-creek-village-ridgeland-sc): South Carolina, Ridgeland, SC
+- [St. Stephen's Episcopal Church](https://episcopalcompass.org/?parish=st-stephen-s-episcopal-church-196-brick-church-cir-saint-stephen-sc): South Carolina, Saint Stephen, SC
+- [Church of the Epiphany](https://episcopalcompass.org/?parish=church-of-the-epiphany-212-central-ave-summerville-sc): South Carolina, Summerville, SC
+- [Episcopal Church of the Good Shepherd](https://episcopalcompass.org/?parish=episcopal-church-of-the-good-shepherd-208-central-avenue-summerville-sc): South Carolina, Summerville, SC
+- [St. George's Episcopal Church](https://episcopalcompass.org/?parish=st-george-s-episcopal-church-9110-dorchester-rd-summerville-sc): South Carolina, Summerville, SC
+- [Episcopal Church of the Good Shepherd](https://episcopalcompass.org/?parish=episcopal-church-of-the-good-shepherd-401-dingle-street-sumter-sc): South Carolina, Sumter, SC
+- [Trinity Episcopal Church](https://episcopalcompass.org/?parish=trinity-episcopal-church-200-church-st-abbeville-sc): Upper South Carolina, Abbeville, SC
+- [St. Augustine of Canterbury](https://episcopalcompass.org/?parish=st-augustine-of-canterbury-1630-silver-bluff-rd-aiken-sc): Upper South Carolina, Aiken, SC
+- [St. Thaddeus Episcopal Church](https://episcopalcompass.org/?parish=st-thaddeus-episcopal-church-125-pendleton-st-sw-aiken-sc): Upper South Carolina, Aiken, SC
+- [Grace Episcopal Church](https://episcopalcompass.org/?parish=grace-episcopal-church-711-s-mcduffie-st-anderson-sc): Upper South Carolina, Anderson, SC
+- [St. George Episcopal Church](https://episcopalcompass.org/?parish=st-george-episcopal-church-2206-e-greenville-st-anderson-sc): Upper South Carolina, Anderson, SC
+- [St. Paul's Episcopal Church](https://episcopalcompass.org/?parish=st-paul-s-episcopal-church-116-south-perry-st-batesburg-sc): Upper South Carolina, Batesburg, SC
+- [All Saints Episcopal Church](https://episcopalcompass.org/?parish=all-saints-episcopal-church-305-williston-rd-beech-island-sc): Upper South Carolina, Beech Island, SC
+- [St. Margaret's Episcopal Church](https://episcopalcompass.org/?parish=st-margaret-s-episcopal-church-4180-hwy-9-boiling-springs-sc): Upper South Carolina, Boiling Springs, SC
+- [Grace Episcopal Church](https://episcopalcompass.org/?parish=grace-episcopal-church-1315-lyttleton-st-camden-sc): Upper South Carolina, Camden, SC
+- [All Saints' Episcopal Church](https://episcopalcompass.org/?parish=all-saints-episcopal-church-1001-12th-st-cayce-sc): Upper South Carolina, Cayce, SC
+- [St. Francis of Assisi](https://episcopalcompass.org/?parish=st-francis-of-assisi-735-old-lexington-hwy-chapin-sc): Upper South Carolina, Chapin, SC
+- [Saint Mark's Episcopal Church](https://episcopalcompass.org/?parish=saint-mark-s-episcopal-church-132-center-street-chester-sc): Upper South Carolina, Chester, SC
+- [Holy Trinity Episcopal Church](https://episcopalcompass.org/?parish=holy-trinity-episcopal-church-193-old-greenville-hwy-clemson-sc): Upper South Carolina, Clemson, SC
+- [All Saints Episcopal Church](https://episcopalcompass.org/?parish=all-saints-episcopal-church-505-calvert-ave-clinton-sc): Upper South Carolina, Clinton, SC
+- [Church of the Good Shepherd](https://episcopalcompass.org/?parish=church-of-the-good-shepherd-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. David's Episcopal Church](https://episcopalcompass.org/?parish=st-david-s-episcopal-church-605-polo-rd-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-john-s-episcopal-church-2827-wheat-st-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. Luke's Episcopal Church](https://episcopalcompass.org/?parish=st-luke-s-episcopal-church-1300-pine-st-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. Martin's-in-the-Fields](https://episcopalcompass.org/?parish=st-martins-in-the-fields-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. Mary's Episcopal Church](https://episcopalcompass.org/?parish=st-mary-s-episcopal-church-170-saint-andrews-rd-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. Michael and All Angels](https://episcopalcompass.org/?parish=st-michael-and-all-angels-6408-bridgewood-rd-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. Timothy's Episcopal Church](https://episcopalcompass.org/?parish=st-timothy-s-episcopal-church-900-calhoun-st-columbia-sc): Upper South Carolina, Columbia, SC
+- [The Episcopal Church of the Cross](https://episcopalcompass.org/?parish=the-episcopal-church-of-the-cross-7244-patterson-road-columbia-sc): Upper South Carolina, Columbia, SC
+- [Trinity Episcopal Cathedral](https://episcopalcompass.org/?parish=trinity-episcopal-cathedral-columbia-sc): Upper South Carolina, Columbia, SC
+- [St. Michael's Episcopal Church](https://episcopalcompass.org/?parish=st-michael-s-episcopal-church-1200-powdersville-rd-easley-sc): Upper South Carolina, Easley, SC
+- [St. Thomas Church](https://episcopalcompass.org/?parish=st-thomas-church-115-yelton-rd-eastover-sc): Upper South Carolina, Eastover, SC
+- [Episcopal Church of the Ridge — Trinity Church](https://episcopalcompass.org/?parish=episcopal-church-of-the-ridge-trinity-church-313-simkins-street-edgefield-sc): Upper South Carolina, Edgefield, SC
+- [St. Paul's Episcopal Church](https://episcopalcompass.org/?parish=st-paul-s-episcopal-church-501-pine-st-fort-mill-sc): Upper South Carolina, Fort Mill, SC
+- [Episcopal Church of the Incarnation](https://episcopalcompass.org/?parish=episcopal-church-of-the-incarnation-308-college-dr-gaffney-sc): Upper South Carolina, Gaffney, SC
+- [St. Paul's Episcopal Church](https://episcopalcompass.org/?parish=st-paul-s-episcopal-church-117-hard-st-graniteville-sc): Upper South Carolina, Graniteville, SC
+- [St. Peter's Episcopal Church](https://episcopalcompass.org/?parish=st-peter-s-episcopal-church-30-hampton-st-great-falls-sc): Upper South Carolina, Great Falls, SC
+- [Christ Church Episcopal](https://episcopalcompass.org/?parish=christ-episcopal-church-10-n-church-st-greenville-sc): Upper South Carolina, Greenville, SC
+- [Church of the Redeemer](https://episcopalcompass.org/?parish=church-of-the-redeemer-120-mauldin-rd-greenville-sc): Upper South Carolina, Greenville, SC
+- [St. Andrew's Episcopal Church](https://episcopalcompass.org/?parish=st-andrews-episcopal-church-greenville-sc): Upper South Carolina, Greenville, SC
+- [St. Francis Episcopal Church](https://episcopalcompass.org/?parish=st-francis-episcopal-church-301-piney-mountain-road-greenville-sc): Upper South Carolina, Greenville, SC
+- [St. James Episcopal Church](https://episcopalcompass.org/?parish=st-james-episcopal-church-301-piney-mountain-rd-greenville-sc): Upper South Carolina, Greenville, SC
+- [St. Peter's Episcopal Church](https://episcopalcompass.org/?parish=st-peter-s-episcopal-church-910-hudson-rd-greenville-sc): Upper South Carolina, Greenville, SC
+- [St. Philip's Church](https://episcopalcompass.org/?parish=st-philip-s-church-31-allendale-ln-greenville-sc): Upper South Carolina, Greenville, SC
+- [Church of the Resurrection](https://episcopalcompass.org/?parish=church-of-the-resurrection-700-s-main-st-greenwood-sc): Upper South Carolina, Greenwood, SC
+- [Church of the Good Shepherd](https://episcopalcompass.org/?parish=church-of-the-good-shepherd-200-cannon-st-greer-sc): Upper South Carolina, Greer, SC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-john-s-episcopal-church-1151-elm-savannah-road-hopkins-sc): Upper South Carolina, Hopkins, SC
+- [Episcopal Church of St. Simon & St. Jude](https://episcopalcompass.org/?parish=episcopal-church-of-st-simon-st-jude-1110-kinley-rd-irmo-sc): Upper South Carolina, Irmo, SC
+- [St. Barnabas Episcopal Church](https://episcopalcompass.org/?parish=st-barnabas-episcopal-church-1056-st-barnabas-church-road-jenkinsville-sc): Upper South Carolina, Jenkinsville, SC
+- [Christ Episcopal Church](https://episcopalcompass.org/?parish=christ-episcopal-church-534-plantation-rd-lancaster-sc): Upper South Carolina, Lancaster, SC
+- [Church of the Epiphany](https://episcopalcompass.org/?parish=church-of-the-epiphany-225-w-main-st-laurens-sc): Upper South Carolina, Laurens, SC
+- [St. Alban's Episcopal Church](https://episcopalcompass.org/?parish=st-alban-s-episcopal-church-403-park-rd-lexington-sc): Upper South Carolina, Lexington, SC
+- [St. Luke's Episcopal Church](https://episcopalcompass.org/?parish=st-luke-s-episcopal-church-1605-main-st-newberry-sc): Upper South Carolina, Newberry, SC
+- [St. Bartholomew's Episcopal Church](https://episcopalcompass.org/?parish=st-bartholomew-s-episcopal-church-471-w-martintown-rd-north-augusta-sc): Upper South Carolina, North Augusta, SC
+- [Episcopal Church of the Ridge — Grace Church](https://episcopalcompass.org/?parish=episcopal-church-of-the-ridge-grace-church-212-green-street-ridge-spring-sc): Upper South Carolina, Ridge Spring, SC
+- [St. Stephen's Episcopal Church](https://episcopalcompass.org/?parish=st-stephen-s-episcopal-church-307-longtown-rd-ridgeway-sc): Upper South Carolina, Ridgeway, SC
+- [Episcopal Church of Our Saviour](https://episcopalcompass.org/?parish=episcopal-church-of-our-saviour-144-caldwell-st-rock-hill-sc): Upper South Carolina, Rock Hill, SC
+- [Church of the Ascension](https://episcopalcompass.org/?parish=church-of-the-ascension-214-northampton-rd-seneca-sc): Upper South Carolina, Seneca, SC
+- [Holy Cross Episcopal Church](https://episcopalcompass.org/?parish=holy-cross-episcopal-church-205-e-college-st-simpsonville-sc): Upper South Carolina, Simpsonville, SC
+- [Calvary Episcopal Church](https://episcopalcompass.org/?parish=calvary-episcopal-church-3685-glenn-springs-rd-spartanburg-sc): Upper South Carolina, Spartanburg, SC
+- [Episcopal Church of the Advent](https://episcopalcompass.org/?parish=episcopal-church-of-the-advent-141-advent-st-spartanburg-sc): Upper South Carolina, Spartanburg, SC
+- [Episcopal Church of the Epiphany](https://episcopalcompass.org/?parish=episcopal-church-of-the-epiphany-121-ernest-l-collins-ave-spartanburg-sc): Upper South Carolina, Spartanburg, SC
+- [St. Christopher's Church Episcopal](https://episcopalcompass.org/?parish=st-christopher-s-church-episcopal-400-dupre-dr-spartanburg-sc): Upper South Carolina, Spartanburg, SC
+- [St. Matthew's Episcopal Church](https://episcopalcompass.org/?parish=st-matthew-s-episcopal-church-101-saint-matthews-ln-spartanburg-sc): Upper South Carolina, Spartanburg, SC
+- [Episcopal Church of the Ridge — Our Saviour](https://episcopalcompass.org/?parish=episcopal-church-of-the-ridge-our-saviour-212-church-street-trenton-sc): Upper South Carolina, Trenton, SC
+- [Church of the Nativity](https://episcopalcompass.org/?parish=church-of-the-nativity-320-s-church-st-union-sc): Upper South Carolina, Union, SC
+- [St. John's Episcopal Church](https://episcopalcompass.org/?parish=st-john-s-episcopal-church-301-w-liberty-st-winnsboro-sc): Upper South Carolina, Winnsboro, SC
+- [Church of the Good Shepherd](https://episcopalcompass.org/?parish=church-of-the-good-shepherd-108-e-liberty-st-york-sc): Upper South Carolina, York, SC
