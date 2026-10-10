@@ -41,12 +41,11 @@ Tools for the parish finder
   1) Check formatting in the data files          (normalize_data.py --check)
   2) Fix formatting in the data files            (normalize_data.py)
   3) Import a parish JSON file into parishes.json (import_parishes.py)
-  4) Rebuild sitemap.xml and llms.txt             (build-sitemap.py)
-  5) Find coordinates for one address             (geocode_address.py)
-  6) Find coordinates for records in a file       (geocode_address.py --file)
-  7) Rebuild the diocesan boundaries              (diocese-boundaries: npm run build)
-  8) Check the diocesan boundaries                (diocese-boundaries: npm run check)
-  9) Check parish websites                        (parish-webcrawler/run.command)
+  4) Find coordinates for one address             (geocode_address.py)
+  5) Find coordinates for records in a file       (geocode_address.py --file)
+  6) Rebuild the diocesan boundaries              (diocese-boundaries: npm run build)
+  7) Check the diocesan boundaries                (diocese-boundaries: npm run check)
+  8) Check parish websites                        (parish-webcrawler/run.command)
   q) Quit
 
 MENU
@@ -67,26 +66,23 @@ while true; do
       pause ;;
     3)
       need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
-      FILE=$(pick "Choose the parish JSON file to import")
-      if [ -z "$FILE" ]; then echo "No file chosen."; pause; continue; fi
-      run python3 tools/import_parishes.py "$FILE" --dry-run
-      if yes_no "Import this file into data/parishes.json for real?"; then
-        run python3 tools/import_parishes.py "$FILE"
+      FILES=()
+      while IFS= read -r line; do [ -n "$line" ] && FILES+=("$line"); done < <(pick "Choose the parish JSON file(s) to import")
+      if [ ${#FILES[@]} -eq 0 ]; then echo "No file chosen."; pause; continue; fi
+      run python3 tools/import_parishes.py "${FILES[@]}" --dry-run
+      if yes_no "Import these file(s) into data/parishes.json for real?"; then
+        run python3 tools/import_parishes.py "${FILES[@]}"
       else
         echo "Not imported."
       fi
       pause ;;
     4)
       need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
-      run python3 tools/build-sitemap.py
-      pause ;;
-    5)
-      need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
       read -r -p "Address (e.g. 3430 Old US Highway 70, Cleveland, NC 27013): " ADDR
       if [ -z "$ADDR" ]; then echo "No address given."; pause; continue; fi
       run python3 tools/geocode_address.py "$ADDR"
       pause ;;
-    6)
+    5)
       need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
       FILE=$(pick "Choose the diocese JSON file to geocode")
       if [ -z "$FILE" ]; then echo "No file chosen."; pause; continue; fi
@@ -99,21 +95,21 @@ while true; do
         echo "Not saved."
       fi
       pause ;;
-    7)
+    6)
       need node "Install Node.js from https://nodejs.org/ first." || { pause; continue; }
       cd "$ROOT/tools/diocese-boundaries" || { pause; continue; }
       [ -d node_modules ] || run npm install
       run npm run build
       cd "$ROOT" || exit 1
       pause ;;
-    8)
+    7)
       need node "Install Node.js from https://nodejs.org/ first." || { pause; continue; }
       cd "$ROOT/tools/diocese-boundaries" || { pause; continue; }
       [ -d node_modules ] || run npm install
       run npm run check
       cd "$ROOT" || exit 1
       pause ;;
-    9)
+    8)
       run "$ROOT/parish-webcrawler/run.command"
       pause ;;
     q|Q)

@@ -211,8 +211,10 @@ for (const key of Object.keys(JUSTIFIED)) if (!used.has(key)) report("stale", `J
 // ---- 4: parish pins ----
 const short = (name) => name.replace(/^(Episcopal |Missionary )?(Diocese of |Church in )(the )?/i, "").replace(/ʻ/g, "").trim().toLowerCase();
 const nameOf = Object.fromEntries(data.features.map((f) => [f.properties.diocese_id, f.properties.name]));
-const files = ["data/parishes.json", ...fs.readdirSync(path.join(ROOT, "data/wip-dioceses"))
-  .flatMap((d) => fs.readdirSync(path.join(ROOT, "data/wip-dioceses", d)).map((f) => `data/wip-dioceses/${d}/${f}`))];
+const wipDir = path.join(ROOT, "data/wip-dioceses");
+const files = ["data/parishes.json", ...fs.readdirSync(wipDir)
+  .filter((d) => fs.statSync(path.join(wipDir, d)).isDirectory())
+  .flatMap((d) => fs.readdirSync(path.join(wipDir, d)).filter((f) => f.endsWith(".json")).map((f) => `data/wip-dioceses/${d}/${f}`))];
 let checked = 0;
 const usedExceptions = new Set();
 for (const file of files) {

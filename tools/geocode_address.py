@@ -6,7 +6,7 @@ Sources, in order (the first one that passes every check wins):
     2. US Census geocoder     free, no key; address-range interpolation
     3. OpenStreetMap Nominatim free, no key; accepted only for a house-number match
 
-Every candidate must fall inside North Carolina and agree with the city (and ZIP, when given). A result
+Every candidate must be in the address's state and agree with the city (and ZIP, when given). A result
 that fails is reported with the reason, never written.
 
 If no source finds the address, the script says so. Add a pin by hand in that case: open the parish
@@ -31,7 +31,6 @@ import urllib.request
 from pathlib import Path
 
 USER_AGENT = "tec-parish-finder-geocoder/1.0 (tylerajornov@icloud.com)"
-NC_BOUNDS = (33.8, 36.6, -84.4, -75.4)  # south, north, west, east
 ROOT = Path(__file__).resolve().parent.parent
 
 try:  # some Python installs ship without a CA bundle; certifi supplies one
@@ -61,12 +60,9 @@ def parse_parts(address: str) -> tuple[str, str, str]:
     return city, state, zip_code
 
 
-def in_nc(lat: float, lon: float) -> bool:
-    south, north, west, east = NC_BOUNDS
-    return south <= lat <= north and west <= lon <= east
-
-
-def agrees(city: str, zip_code: str, matched: str) -> bool:
+def agrees(city: str, state: str, zip_code: str, matched: str) -> bool:
+    if state and not re.search(rf"\b{state}\b", matched):
+        return False
     if city and city.lower() not in matched.lower():
         return False
     if zip_code and zip_code not in matched:
@@ -74,7 +70,7 @@ def agrees(city: str, zip_code: str, matched: str) -> bool:
     return True
 
 
-def from_google(address: str, city: str, zip_code: str) -> dict | None:
+def from_google(address: str, city: str, state: str, zip_code: str) -> dict | None:
     key = os.environ.get("GOOGLE_MAPS_API_KEY")
     if not key:
         raise Skipped("GOOGLE_MAPS_API_KEY not set")
@@ -87,29 +83,31 @@ def from_google(address: str, city: str, zip_code: str) -> dict | None:
     if quality not in ("ROOFTOP", "RANGE_INTERPOLATED"):
         return None
     loc = top["geometry"]["location"]
-    if not in_nc(loc["lat"], loc["lng"]) or not agrees(city, zip_code, top["formatted_address"]):
+    if not agrees(city, state, zip_code, top["formatted_address"]):
         return None
     return {"lat": loc["lat"], "lon": loc["lng"], "source": f"google ({quality})", "matched": top["formatted_address"]}
 
 
-def from_census(address: str, city: str, zip_code: str) -> dict | None:
+def from_census(address: str, city: str, state: str, zip_code: str) -> dict | None:
     data = _get_json("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress",
                      {"address": address, "benchmark": "Public_AR_Current", "format": "json"})
     for match in data.get("result", {}).get("addressMatches", []):
         lat, lon = match["coordinates"]["y"], match["coordinates"]["x"]
-        if in_nc(lat, lon) and agrees(city, zip_code, match["matchedAddress"]):
+        if agrees(city, state, zip_code, match["matchedAddress"]):
             return {"lat": lat, "lon": lon, "source": "census (address range)", "matched": match["matchedAddress"]}
     return None
 
 
-def from_nominatim(address: str, city: str, zip_code: str) -> dict | None:
+def from_nominatim(address: str, city: str, state: str, zip_code: str) -> dict | None:
     time.sleep(1.1)  # the public Nominatim service allows one request per second
     results = _get_json("https://nominatim.openstreetmap.org/search",
                         {"q": address, "format": "json", "limit": 3, "countrycodes": "us", "addressdetails": 1})
     for r in results if isinstance(results, list) else []:
         lat, lon = float(r["lat"]), float(r["lon"])
         has_number = bool(r.get("address", {}).get("house_number"))
-        if has_number and in_nc(lat, lon) and agrees(city, zip_code, r["display_name"]):
+        # Nominatim names the state in full ("North Carolina"), so compare its ISO code ("US-NC") instead
+        same_state = r.get("address", {}).get("ISO3166-2-lvl4", "").upper() == f"US-{state}"
+        if has_number and same_state and agrees(city, "", zip_code, r["display_name"]):
             return {"lat": lat, "lon": lon, "source": f"openstreetmap ({r.get('type', '?')})", "matched": r["display_name"]}
     return None
 
@@ -118,11 +116,11 @@ SOURCES = [from_google, from_census, from_nominatim]
 
 
 def geocode(address: str) -> tuple[dict | None, list[str]]:
-    city, _state, zip_code = parse_parts(address)
+    city, state, zip_code = parse_parts(address)
     notes = []
     for source in SOURCES:
         try:
-            found = source(address, city, zip_code)
+            found = source(address, city, state, zip_code)
         except Skipped as why:
             notes.append(f"{source.__name__}: skipped, {why}")
             continue

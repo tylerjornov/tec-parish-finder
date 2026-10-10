@@ -7,3 +7,6 @@ exclude:
   - ACKNOWLEDGMENTS.md
   - parish-webcrawler
   - tools
+
+# Jekyll: expose data/ as site.data so the sitemap can list every parish
+data_dir: data
