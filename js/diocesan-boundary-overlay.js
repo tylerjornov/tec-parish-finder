@@ -13,12 +13,15 @@
     // (markerPane is 600, tooltipPane 650), so the pins sit over the names.
     const labelPane = map.createPane("diocese-labels");
     labelPane.style.zIndex = 550;
-    // Touch devices have no hover, so every name stays on the map there.
+    // Touch devices have no hover, so every name stays on the map there. On hover
+    // devices the "Always show diocese names" setting (data-diocese-names="always")
+    // does the same; otherwise a name shows only while the pointer is over its diocese.
     const touch = matchMedia("(hover: none)");
+    const persistent = () => touch.matches || document.documentElement.dataset.dioceseNames === "always";
     const syncLabels = () => {
       sizeLabels();
       for (const { label, l } of labels) {
-        if (touch.matches) {
+        if (persistent()) {
           label.setLatLng(labelPoint(l));
           layer.addLayer(label);
         } else {
@@ -28,22 +31,22 @@
     };
     touch.addEventListener("change", syncLabels);
 
-    // The always-on names (touch) scale with the map, so they keep the same size
-    // relative to the dioceses: full size (13px) from zoom 6 in, halving with each
-    // step out, and hidden once they'd be under 6px. Hover names stay full size.
+    // Names scale with the map, so they keep the same size relative to the dioceses
+    // and stay inside them: full size (13px) from zoom 6 in, halving with each step
+    // out, and hidden once they'd be under 6px.
     const FULL_SIZE = 13;
     const FULL_ZOOM = 6;
     const MIN_SIZE = 6;
     function sizeLabels() {
       const box = map.getContainer();
-      const size = touch.matches ? FULL_SIZE * 2 ** Math.min(0, map.getZoom() - FULL_ZOOM) : FULL_SIZE;
+      const size = FULL_SIZE * 2 ** Math.min(0, map.getZoom() - FULL_ZOOM);
       box.style.setProperty("--diocese-label-size", `${size}px`);
       box.classList.toggle("diocese-labels-hidden", size < MIN_SIZE);
     }
     map.on("zoomend", () => {
       sizeLabels();
       // Re-center each name for its new size.
-      if (touch.matches) for (const { label } of labels) if (label.isOpen()) label.update();
+      for (const { label } of labels) if (label.isOpen()) label.update();
     });
     sizeLabels();
 
@@ -74,8 +77,8 @@
           L.geoJSON(data, {
             style,
             onEachFeature: (f, l) => {
-              // On hover devices the name shows while the pointer is over the diocese;
-              // on touch devices every name stays up. permanent: true either way, since
+              // Unless names are always on, the name shows while the pointer is over
+              // the diocese. permanent: true either way, since
               // Leaflet closes a non-permanent tooltip on any tap or click on the map.
               const label = L.tooltip({
                 permanent: true,
@@ -86,10 +89,10 @@
               }).setContent(f.properties.name.replace(/^Episcopal /, ""));
               labels.push({ label, l });
               l.on("mouseover", () => {
-                if (!touch.matches) label.setLatLng(labelPoint(l)).addTo(map);
+                if (!persistent()) label.setLatLng(labelPoint(l)).addTo(map);
               });
               l.on("mouseout", () => {
-                if (!touch.matches) label.remove();
+                if (!persistent()) label.remove();
               });
             },
           }).addTo(layer);
@@ -114,6 +117,10 @@
     new MutationObserver(sync).observe(document.documentElement, {
       attributes: true,
       attributeFilter: ["data-boundaries"],
+    });
+    new MutationObserver(syncLabels).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-diocese-names"],
     });
     return layer;
   }

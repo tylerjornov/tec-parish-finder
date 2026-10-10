@@ -52,6 +52,7 @@
   function apply() {
     document.documentElement.dataset.pinSize = String(+(pinSize() * PIN_BASE).toFixed(3));
     document.documentElement.dataset.boundaries = saved.boundaries === true ? "on" : "off";
+    document.documentElement.dataset.dioceseNames = saved.dioceseNames === true ? "always" : "hover";
     for (const [name, opt] of Object.entries(OPTIONS)) {
       const v = chosen(name);
       document.documentElement.dataset[name] =
@@ -103,6 +104,13 @@
               <span class="switch-track" aria-hidden="true"></span>
             </label>
           </div>
+          <div class="settings-switch names-switch">
+            <span id="diocese-names-label">Always show names</span>
+            <label class="switch">
+              <input type="checkbox" role="switch" id="dioceseNames" aria-labelledby="diocese-names-label"${saved.dioceseNames === true ? " checked" : ""}${saved.boundaries === true ? "" : " disabled"}>
+              <span class="switch-track" aria-hidden="true"></span>
+            </label>
+          </div>
         </fieldset>
         <fieldset>
           <legend id="pin-size-legend">Pin size</legend>
@@ -141,6 +149,8 @@
     panel.addEventListener("change", (e) => {
       if (e.target.type === "checkbox") {
         saved[e.target.id] = e.target.checked;
+        // Names only matter while the boundaries are showing.
+        panel.querySelector("#dioceseNames").disabled = saved.boundaries !== true;
         save();
         return;
       }

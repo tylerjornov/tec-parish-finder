@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Source+Sans+3:wght@400..700&display=swap");
+
 /* Palettes. js/settings.js sets data-theme / data-contrast / data-motion on
-   <html> from the visitor's choice or, on "Automatic", their device settings. */
+<html> from the visitor's choice or, on "Automatic", their device settings.
+*/
+/* Abbreviations used below:
+   wght = weight (the font-weight range requested from Google Fonts)
+   bg   = background (the page background color, --bg)
+   acc  = accent (the highlight color, --acc; -line is its border/line color and -bg its background color)
+*/
 :root {
   color-scheme: dark;
   --bg: #0f1218; --panel: #171c25; --header: #12161d; --field: #10141b; --active: #1d2430;
@@ -8,7 +16,7 @@
 }
 :root[data-theme="light"] {
   color-scheme: light;
-  --bg: #f4f5f8; --panel: #fff; --header: #eceef3; --field: #fff; --active: #e7edf8;
+  --bg: #fff9e9; --panel: #fff; --header: #f3f2ec; --field: #fff; --active: #e7edf8;
   --line: #d5d9e0; --control: #7a8394; --text: #1a1f29; --muted: #545e70;
   --acc: #7a5516; --acc-line: #9a7a3e; --acc-bg: #fbf4e4; --link: #1d4fb8;
 }
@@ -24,7 +32,8 @@
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
-  font: 0.9375rem/1.4 "Segoe UI", system-ui, sans-serif; }
+  font-size: 0.9375rem; line-height: 1.4; font-family: "Source Sans 3", sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Lora", serif; }
 a { color: var(--link); }
 :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
 .visually-hidden {
@@ -293,3 +302,8 @@ path.diocese-shape:hover { fill-opacity: 0.16; }
 .switch input:checked + .switch-track::after { transform: translateX(16px); background: var(--acc); }
 .switch input:focus-visible + .switch-track { outline: 2px solid var(--link); outline-offset: 2px; }
 [data-motion="reduce"] .switch-track, [data-motion="reduce"] .switch-track::after { transition: none; }
+/* Touch devices always show names, so the setting only applies with a hover pointer. */
+.names-switch { margin-top: 6px; }
+.names-switch:has(input:disabled) { opacity: 0.45; }
+.names-switch input:disabled { cursor: not-allowed; }
+@media (hover: none) { .names-switch { display: none; } }
