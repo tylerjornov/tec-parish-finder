@@ -65,7 +65,7 @@ CLERGY_LIST_FIELDS = ("other_clergy",)
 EMAIL_FIELDS = ("church_email", "rector_email")
 URL_FIELDS = ("website", "livestream_url")
 PROSE_FIELDS = (
-    "sunday_services", "weekday_services", "rite_details", "service_languages", "music_style",
+    "sunday_services", "weekday_services", "service_languages", "music_style",
     "accessibility", "parking", "childcare", "formation",
 )
 

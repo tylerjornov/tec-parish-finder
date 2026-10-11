@@ -30,8 +30,8 @@
     "clergy_title": { "type": "text", "description": "Optional title of the lead priest, e.g. \"Vicar\" or \"Priest-in-Charge\"; blank means Rector (Dean at a cathedral)" },
     "rector_name": { "type": "text", "description": "Rector or priest" },
     "other_clergy": { "type": "list", "description": "Other clergy serving here, each with an optional role in parentheses, e.g. \"The Rev. Ann Lee (Associate Rector); The Rev. Bob Ray (Deacon)\"" },
-    "rite": { "type": "choice", "choices": ["I", "II", "Mixed"], "description": "Prayer book rite used" },
-    "rite_details": { "type": "text", "description": "Rite details" },
+    "rite": { "type": "choices", "description": "Rite or prayer book used" },
+    "celebrant_position": { "type": "choices", "description": "Celebrant's position at the Eucharist (ad orientem or versus populum); blank until filled" },
     "service_languages": { "type": "list", "description": "Service languages" },
     "livestream_url": { "type": "url", "description": "Livestream link" },
     "music_style": { "type": "text", "description": "Music style" },
@@ -43,6 +43,16 @@
     "notes": { "type": "freeform", "description": "Freeform notes, shown under their own Notes heading at the bottom of the parish details. Typed as written; not reformatted (apart from curly quotes)" }
   },
   "list_options": {
+    "rite": [
+      "Rite I",
+      "Rite II",
+      "1928 Book of Common Prayer",
+      "Other"
+    ],
+    "celebrant_position": [
+      "Ad Orientem",
+      "Versus Populum"
+    ],
     "churchmanship": [
       "Anglo-Papalist",
       "Anglo-Catholic",

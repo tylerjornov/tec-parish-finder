@@ -352,9 +352,9 @@ const DETAIL_SECTIONS = [
   ["Worship", [
     ["sunday_services", "Sunday Services", "list"],
     ["weekday_services", "Weekday Services", "list"],
-    ["rite", "Rite"],
-    ["rite_details", "Rite Details"],
+    ["rite", "Rite", "list"],
     ["churchmanship", "Churchmanship"],
+    ["celebrant_position", "Celebrant Position", "list"],
     ["music_style", "Music"],
     ["service_languages", "Service Language(s)"],
   ]],
