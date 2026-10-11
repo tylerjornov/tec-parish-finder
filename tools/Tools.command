@@ -39,8 +39,9 @@ menu() {
 Tools for the parish finder
 
   1) Fix formatting in chosen data files         (normalize_data.py FILE ...)
-  2) Import a parish JSON file into parishes.json (import_parishes.py)
-  3) Make the diocesan boundaries match the parish pins (diocese-boundaries: npm run build, then npm run check)
+  2) Import a parish JSON file into data/states/   (import_parishes.py)
+  3) Rebuild parishes.json from data/states/     (build_parishes.py)
+  4) Make the diocesan boundaries match the parish pins (diocese-boundaries: npm run build, then npm run check)
   q) Quit
 
 MENU
@@ -65,13 +66,17 @@ while true; do
       while IFS= read -r line; do [ -n "$line" ] && FILES+=("$line"); done < <(pick "Choose the parish JSON file(s) to import")
       if [ ${#FILES[@]} -eq 0 ]; then echo "No file chosen."; pause; continue; fi
       run python3 tools/import_parishes.py "${FILES[@]}" --dry-run
-      if yes_no "Import these file(s) into data/parishes.json for real?"; then
+      if yes_no "Import these file(s) into data/states/ (and rebuild parishes.json) for real?"; then
         run python3 tools/import_parishes.py "${FILES[@]}"
       else
         echo "Not imported."
       fi
       pause ;;
     3)
+      need python3 "Install Python 3 from https://www.python.org/downloads/" || { pause; continue; }
+      run python3 tools/build_parishes.py
+      pause ;;
+    4)
       need node "Install Node.js from https://nodejs.org/ first." || { pause; continue; }
       cd "$ROOT/tools/diocese-boundaries" || { pause; continue; }
       [ -d node_modules ] || run npm install

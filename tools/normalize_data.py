@@ -36,7 +36,7 @@ service time is dropped ("11:00 AM — Holy Eucharist" -> "11:00 AM Holy Euchari
 ranges use an en dash ("9:15-11:45 AM" -> "9:15–11:45 AM", "Mon-Fri" -> "Mon–Fri", "Sept - May" -> "Sept–May").
 "notes" is freeform: it is only checked for curly quotes and otherwise kept exactly as typed.
 
-    python3 tools/normalize_data.py              # fix data/parishes.json and data/wip-dioceses/**.json
+    python3 tools/normalize_data.py              # fix data/states/**.json and data/wip-dioceses/**.json, then rebuild parishes.json
     python3 tools/normalize_data.py --check      # only report what would change
     python3 tools/normalize_data.py FILE ...     # fix just these files
 """
@@ -50,6 +50,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+STATES = ROOT / "data" / "states"
 
 # Zero-width spaces, direction marks, byte-order marks: invisible, but they break matching and tel: links.
 _INVISIBLE = re.compile(r"[​-‏‪-‮⁠﻿]")
@@ -126,7 +127,7 @@ def phone_keys(record: dict) -> list[str]:
 
 
 def default_files() -> list[Path]:
-    return [ROOT / "data" / "parishes.json"] + sorted((ROOT / "data" / "wip-dioceses").rglob("*.json"))
+    return sorted((ROOT / "data" / "states").rglob("*.json")) + sorted((ROOT / "data" / "wip-dioceses").rglob("*.json"))
 
 
 def _respell(value: str) -> str:
@@ -288,7 +289,8 @@ def main() -> int:
     args = ap.parse_args()
 
     total, unreadable, flags = 0, [], []
-    for path in [p.resolve() for p in args.files] or default_files():
+    files = [p.resolve() for p in args.files] or default_files()
+    for path in files:
         records = json.loads(path.read_text(encoding="utf-8-sig"))
         changed = 0
         for r in records:
@@ -302,6 +304,10 @@ def main() -> int:
         if changed and not args.check:
             path.write_text(json.dumps(records, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"\n{total} change(s) {'pending' if args.check else 'made'}.")
+    if total and not args.check and any(STATES in p.parents for p in files):
+        import parish_files
+        parish_files.write_combined(parish_files.load_all())
+        print("rebuilt data/parishes.json")
     if unreadable:
         print(f"\n{len(unreadable)} phone value(s) with no readable number (left as they are, fix by hand):")
         print("\n".join("  " + u for u in unreadable))
