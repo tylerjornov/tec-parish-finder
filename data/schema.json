@@ -137,6 +137,6 @@
   },
   "hidden_fields": {
     "about": "Fields listed here stay in parishes.json but are left out of the site: no filter dropdown, card tag, detail row or keyword search. Remove a field from this list to show it again.",
-    "fields": ["female_clergy", "womens_ordination_affirmed", "notes"]
+    "fields": ["female_clergy", "womens_ordination_affirmed", "notes", "theological_cultural_alignment"]
   }
 }
