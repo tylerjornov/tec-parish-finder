@@ -155,7 +155,7 @@ function keywordMatches(q) {
   );
 }
 
-let map, markers;
+let map, markers, cathedralMarkers;
 // The contiguous US, shown until a location or filter narrows things down.
 const US_BOUNDS = [[24.5, -125.0], [49.5, -66.9]];
 // With a location set, the map frames it and this many of the closest parishes.
@@ -205,9 +205,14 @@ function ensureMap() {
         iconSize: [36, 36],
       }),
   }).addTo(map);
+  // Cathedrals sit outside the cluster group so they are never hidden in a bubble.
+  // Their own pane sits between the overlays (400) and markers (600), so they stay underneath the numbers.
+  map.createPane("cathedralPane").style.zIndex = 550;
+  cathedralMarkers = L.layerGroup().addTo(map);
   // settings.js changes data-pin-size when the visitor moves the Pin size slider.
   new MutationObserver(() => {
     markers.eachLayer((m) => m.setIcon(pinIcon(m.options.cathedral)));
+    cathedralMarkers.eachLayer((m) => m.setIcon(pinIcon(m.options.cathedral)));
   }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-pin-size"] });
 }
 
@@ -299,24 +304,33 @@ function paintMap(list) {
   ensureMap();
   map.invalidateSize();
   markers.clearLayers();
+  cathedralMarkers.clearLayers();
   const pts = [];
   const near = state.origin ? [[state.origin.lat, state.origin.lon]] : [];
   const pins = [];
+  const cathedrals = [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
     const cathedral = isCathedral(p);
-    const m = L.marker([p.lat, p.lon], { alt: p.name, title: p.name, icon: pinIcon(cathedral), cathedral });
+    const m = L.marker([p.lat, p.lon], {
+      alt: p.name,
+      title: p.name,
+      icon: pinIcon(cathedral),
+      cathedral,
+      ...(cathedral && { pane: "cathedralPane" }),
+    });
     m.on("click", () => {
       select(p);
       openDetail(p, m.getElement());
     });
-    pins.push(m);
+    (cathedral ? cathedrals : pins).push(m);
     pts.push([p.lat, p.lon]);
     // list is sorted by distance when there's an origin.
     if (state.origin && near.length <= NEAREST_SHOWN) near.push([p.lat, p.lon]);
   });
   // One bulk add lets the cluster group index all pins at once.
   markers.addLayers(pins);
+  cathedrals.forEach((m) => cathedralMarkers.addLayer(m));
   const narrowed = filtersActive();
   const fit = () => {
     const opts = { padding: [24, 24], maxZoom: 12, ...still() };
