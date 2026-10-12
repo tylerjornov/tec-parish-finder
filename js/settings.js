@@ -53,6 +53,7 @@
     document.documentElement.dataset.pinSize = String(+(pinSize() * PIN_BASE).toFixed(3));
     document.documentElement.dataset.boundaries = saved.boundaries === true ? "on" : "off";
     document.documentElement.dataset.dioceseNames = saved.dioceseNames === true ? "always" : "hover";
+    document.documentElement.dataset.clustering = saved.clusterPins === false ? "off" : "on";
     for (const [name, opt] of Object.entries(OPTIONS)) {
       const v = chosen(name);
       document.documentElement.dataset[name] =
@@ -108,6 +109,15 @@
             <span id="diocese-names-label">Always show names</span>
             <label class="switch">
               <input type="checkbox" role="switch" id="dioceseNames" aria-labelledby="diocese-names-label"${saved.dioceseNames === true ? " checked" : ""}${saved.boundaries === true ? "" : " disabled"}>
+              <span class="switch-track" aria-hidden="true"></span>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="settings-switch">
+            <span id="cluster-pins-label">Cluster pins</span>
+            <label class="switch">
+              <input type="checkbox" role="switch" id="clusterPins" aria-labelledby="cluster-pins-label"${saved.clusterPins === false ? "" : " checked"}>
               <span class="switch-track" aria-hidden="true"></span>
             </label>
           </div>

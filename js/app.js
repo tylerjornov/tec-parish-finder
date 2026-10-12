@@ -156,6 +156,8 @@ function keywordMatches(q) {
 }
 
 let map, markers, cathedralMarkers;
+// Parish pins in the current `markers` layer, kept so the layer can be rebuilt when clustering is toggled.
+let pinMarkers = [];
 // The contiguous US, shown until a location or filter narrows things down.
 const US_BOUNDS = [[24.5, -125.0], [49.5, -66.9]];
 // With a location set, the map frames it and this many of the closest parishes.
@@ -194,17 +196,7 @@ function ensureMap() {
     attributeFilter: ["data-theme"],
   });
   if (window.DioceseBoundaries) DioceseBoundaries.attach(map);
-  // Nearby pins merge into a numbered bubble that splits apart as the map zooms in.
-  markers = L.markerClusterGroup({
-    showCoverageOnHover: false,
-    maxClusterRadius: 40,
-    iconCreateFunction: (group) =>
-      L.divIcon({
-        className: "parish-cluster",
-        html: `<span>${group.getChildCount()}</span>`,
-        iconSize: [36, 36],
-      }),
-  }).addTo(map);
+  markers = newMarkerLayer();
   // Cathedrals sit outside the cluster group so they are never hidden in a bubble.
   // Their own pane sits between the overlays (400) and markers (600), so they stay underneath the numbers.
   map.createPane("cathedralPane").style.zIndex = 550;
@@ -214,6 +206,39 @@ function ensureMap() {
     markers.eachLayer((m) => m.setIcon(pinIcon(m.options.cathedral)));
     cathedralMarkers.eachLayer((m) => m.setIcon(pinIcon(m.options.cathedral)));
   }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-pin-size"] });
+  // settings.js changes data-clustering when the visitor flips the Cluster pins switch.
+  let clustered = clusterPins();
+  new MutationObserver(() => {
+    if (clusterPins() === clustered) return;
+    clustered = clusterPins();
+    markers.remove();
+    markers = newMarkerLayer();
+    addPins(pinMarkers);
+  }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-clustering"] });
+}
+
+const clusterPins = () => document.documentElement.dataset.clustering !== "off";
+
+// Nearby pins merge into a numbered bubble that splits apart as the map zooms in.
+// With clustering off, every pin is drawn on its own.
+function newMarkerLayer() {
+  if (!clusterPins()) return L.layerGroup().addTo(map);
+  return L.markerClusterGroup({
+    showCoverageOnHover: false,
+    maxClusterRadius: 40,
+    iconCreateFunction: (group) =>
+      L.divIcon({
+        className: "parish-cluster",
+        html: `<span>${group.getChildCount()}</span>`,
+        iconSize: [36, 36],
+      }),
+  }).addTo(map);
+}
+
+// One bulk add lets the cluster group index all pins at once.
+function addPins(pins) {
+  if (clusterPins()) markers.addLayers(pins);
+  else pins.forEach((m) => markers.addLayer(m));
 }
 
 // Cathedrals are picked out by name, the same way the Dean title is chosen.
@@ -328,8 +353,8 @@ function paintMap(list) {
     // list is sorted by distance when there's an origin.
     if (state.origin && near.length <= NEAREST_SHOWN) near.push([p.lat, p.lon]);
   });
-  // One bulk add lets the cluster group index all pins at once.
-  markers.addLayers(pins);
+  pinMarkers = pins;
+  addPins(pins);
   cathedrals.forEach((m) => cathedralMarkers.addLayer(m));
   const narrowed = filtersActive();
   const fit = () => {
