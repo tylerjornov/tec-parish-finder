@@ -194,7 +194,17 @@ function ensureMap() {
     attributeFilter: ["data-theme"],
   });
   if (window.DioceseBoundaries) DioceseBoundaries.attach(map);
-  markers = L.layerGroup().addTo(map);
+  // Nearby pins merge into a numbered bubble that splits apart as the map zooms in.
+  markers = L.markerClusterGroup({
+    showCoverageOnHover: false,
+    maxClusterRadius: 40,
+    iconCreateFunction: (group) =>
+      L.divIcon({
+        className: "parish-cluster",
+        html: `<span>${group.getChildCount()}</span>`,
+        iconSize: [36, 36],
+      }),
+  }).addTo(map);
   // settings.js changes data-pin-size when the visitor moves the Pin size slider.
   new MutationObserver(() => {
     markers.eachLayer((m) => m.setIcon(pinIcon(m.options.cathedral)));
@@ -291,6 +301,7 @@ function paintMap(list) {
   markers.clearLayers();
   const pts = [];
   const near = state.origin ? [[state.origin.lat, state.origin.lon]] : [];
+  const pins = [];
   list.forEach((p) => {
     if (p.lat == null || p.lon == null) return;
     const cathedral = isCathedral(p);
@@ -299,11 +310,13 @@ function paintMap(list) {
       select(p);
       openDetail(p, m.getElement());
     });
-    markers.addLayer(m);
+    pins.push(m);
     pts.push([p.lat, p.lon]);
     // list is sorted by distance when there's an origin.
     if (state.origin && near.length <= NEAREST_SHOWN) near.push([p.lat, p.lon]);
   });
+  // One bulk add lets the cluster group index all pins at once.
+  markers.addLayers(pins);
   const narrowed = filtersActive();
   const fit = () => {
     const opts = { padding: [24, 24], maxZoom: 12, ...still() };
