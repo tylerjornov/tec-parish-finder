@@ -146,7 +146,7 @@ function keywordMatches(q) {
   if (!words.length) return [];
   return sorted(
     state.all.filter((p) => {
-      const hay = [p.name, p.address, p.state, p.diocese, p.notes]
+      const hay = [p.name, p.address, p.state, p.diocese, hidden.has("notes") ? null : p.notes]
         .filter((v) => v != null)
         .join(" ")
         .toLowerCase();
@@ -396,9 +396,11 @@ const WO_NOTE = '<a class="wo-note" href="acknowledgements.html#interpretive-lib
 // Card tags, from schema.list_tags: one per field, in its order, using the
 // short label of the first listed answer the parish has.
 let listTags = {};
+// Fields hidden from the site (schema.hidden_fields). Their data stays in parishes.json.
+let hidden = new Set();
 function cardTags(p) {
   return Object.entries(listTags)
-    .filter(([key]) => key !== "about")
+    .filter(([key]) => key !== "about" && !hidden.has(key))
     .map(([key, labels]) => {
       const have = new Set(answers(key, p[key]));
       return Object.entries(labels).find(([answer]) => have.has(answer))?.[1];
@@ -516,6 +518,7 @@ function openDetail(p, returnTo) {
   const leadTitle = hasValue(p.clergy_title) ? String(p.clergy_title).trim() : isCathedral(p) ? "Dean" : "Rector";
   body.innerHTML = DETAIL_SECTIONS.map(([title, fields]) => {
     const rows = fields
+      .filter(([key]) => !hidden.has(key))
       .filter(([key, , kind]) => (kind === "freeform" ? String(v[key] ?? "").trim() !== "" : hasValue(v[key])))
       .map(([key, label, kind]) => `<div><dt>${label.replace(/^Rector/, leadTitle)}</dt><dd${kind === "freeform" ? ' class="freeform"' : ""}>${detailValue(String(v[key]), kind)}${key === WO_FIELD ? WO_NOTE : ""}</dd></div>`);
     return rows.length ? `<section><h3>${title}</h3><dl>${rows.join("")}</dl></section>` : "";
@@ -736,9 +739,17 @@ Promise.all([getJson("data/parishes.json"), getJson("data/schema.json")])
   .then(([parishes, schema]) => {
     state.all = parishes;
     listTags = schema.list_tags || {};
+    hidden = new Set(schema.hidden_fields?.fields || []);
     // Each dropdown offers only answers some parish actually has, in the
     // schema's order. State and Diocese have no set list, so they're A–Z.
     FILTERS.forEach(([id, key]) => {
+      if (hidden.has(key)) {
+        // Take the dropdown and its label out of the page; the filter is simply never used.
+        const host = document.querySelector(`.ms[data-id="${id}"]`);
+        if (host?.previousElementSibling?.tagName === "LABEL") host.previousElementSibling.remove();
+        host?.remove();
+        return;
+      }
       const used = new Set(parishes.flatMap((p) => answers(key, p[key])));
       const listed = schema.list_options[key] || schema.fields[key].choices;
       fillFilter(id, listed ? listed.filter((v) => used.has(v)) : [...used].filter(Boolean).sort());
