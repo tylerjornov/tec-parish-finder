@@ -113,6 +113,9 @@ body.app { display: flex; flex-direction: column; }
   padding: 1px 8px; border: 1px solid var(--acc-line); border-radius: 99px;
   font-size: 0.8125rem; color: var(--acc); background: var(--acc-bg);
 }
+/* Asterisk after a women's-ordination stance, linking to the acknowledgements note. */
+.wo-note { margin-left: 2px; color: var(--acc); font-weight: 700; text-decoration: none; }
+.wo-note:hover, .wo-note:focus-visible { text-decoration: underline; }
 #map { height: 100%; min-height: 400px; min-width: 0; }
 .leaflet-control-attribution a { text-decoration: underline; }
 /* Light and dark tiles come from CARTO (see ensureMap in app.js); high

@@ -262,7 +262,7 @@ function render() {
       <h2><button type="button" class="card-open" aria-haspopup="dialog">${escapeHtml(p.name)}</button></h2>
       <div class="meta">${escapeHtml(p.address)} ${miles ? " · " + miles : ""}</div>
       ${p.website ? `<div class="meta card-site"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener">${escapeHtml(shortUrl(p.website))}<span class="visually-hidden"> for ${escapeHtml(p.name)}</span></a></div>` : ""}
-      ${tags.length ? `<ul class="tags">${tags.map((t) => `<li class="tag">${escapeHtml(t)}</li>`).join("")}</ul>` : ""}
+      ${tags.length ? `<ul class="tags">${tags.map((t) => `<li class="tag">${escapeHtml(t.label)}${t.wo ? WO_NOTE : ""}</li>`).join("")}</ul>` : ""}
     `;
     div.onclick = (e) => {
       if (e.target.closest("a")) return;
@@ -388,6 +388,11 @@ const DETAIL_SECTIONS = [
   ]],
 ];
 
+// A gold asterisk linking to the acknowledgements' note on how women's-ordination stances are
+// inferred from observed practice. Added after every visible women's-ordination stance.
+const WO_FIELDS = new Set(["female_clergy", "womens_ordination_affirmed"]);
+const WO_NOTE = '<a class="wo-note" href="acknowledgements.html#interpretive-liberty" target="_blank" rel="noopener" aria-label="How women’s ordination stances are determined">*</a>';
+
 // Card tags, from schema.list_tags: one per field, in its order, using the
 // short label of the first listed answer the parish has.
 let listTags = {};
@@ -396,7 +401,8 @@ function cardTags(p) {
     .filter(([key]) => key !== "about")
     .map(([key, labels]) => {
       const have = new Set(answers(key, p[key]));
-      return Object.entries(labels).find(([answer]) => have.has(answer))?.[1];
+      const label = Object.entries(labels).find(([answer]) => have.has(answer))?.[1];
+      return label && { label, wo: WO_FIELDS.has(key) };
     })
     .filter(Boolean);
 }
@@ -512,7 +518,7 @@ function openDetail(p, returnTo) {
   body.innerHTML = DETAIL_SECTIONS.map(([title, fields]) => {
     const rows = fields
       .filter(([key, , kind]) => (kind === "freeform" ? String(v[key] ?? "").trim() !== "" : hasValue(v[key])))
-      .map(([key, label, kind]) => `<div><dt>${label.replace(/^Rector/, leadTitle)}</dt><dd${kind === "freeform" ? ' class="freeform"' : ""}>${detailValue(String(v[key]), kind)}</dd></div>`);
+      .map(([key, label, kind]) => `<div><dt>${label.replace(/^Rector/, leadTitle)}</dt><dd${kind === "freeform" ? ' class="freeform"' : ""}>${detailValue(String(v[key]), kind)}${WO_FIELDS.has(key) ? WO_NOTE : ""}</dd></div>`);
     return rows.length ? `<section><h3>${title}</h3><dl>${rows.join("")}</dl></section>` : "";
   }).join("");
   detailReturn = returnTo;
