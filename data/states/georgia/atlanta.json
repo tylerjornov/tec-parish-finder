@@ -351,8 +351,8 @@
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
     "verification_status": "Unverified",
-    "lat": null,
-    "lon": null,
+    "lat": 33.7268,
+    "lon": -84.38838,
     "asa": null,
     "city": "Atlanta",
     "church_phone": "(404) 797-1195",
@@ -375,7 +375,7 @@
     "childcare": "",
     "formation": "",
     "date_last_updated": "2026-10-10",
-    "notes": ""
+    "notes": "Pin is the Emmaus House campus (Google Maps), not the chapel building."
   },
   {
     "id": "episcopal-community-foundation-for-middle-and-north-georgia-2744-peachtree-rd-nw-atlanta-ga",
@@ -477,8 +477,8 @@
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
     "verification_status": "Unverified",
-    "lat": null,
-    "lon": null,
+    "lat": 33.90847,
+    "lon": -84.414,
     "asa": null,
     "city": "Atlanta",
     "church_phone": "(404) 255-4023",
@@ -1695,8 +1695,8 @@
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
     "verification_status": "Unverified",
-    "lat": null,
-    "lon": null,
+    "lat": 34.22123,
+    "lon": -84.12198,
     "asa": null,
     "city": "Cumming",
     "church_phone": "(770) 887-8190",
@@ -2310,10 +2310,10 @@
     "notes": ""
   },
   {
-    "id": "st-lukes-episcopal-church-1000-state-college-dr-fort-valley-ga",
+    "id": "st-lukes-episcopal-church-1000-state-university-dr-fort-valley-ga",
     "name": "St. Luke's Episcopal Church",
     "website": "https://www.facebook.com/p/St-Lukes-Episcopal-Church-Fort-Valley-100067997513553/",
-    "address": "1000 State College Dr, Fort Valley, GA 31030-4315",
+    "address": "1000 State University Dr, Fort Valley, GA 31030",
     "state": "GA",
     "diocese": "Atlanta",
     "churchmanship": "N/A - Data Not Available",
@@ -2325,8 +2325,8 @@
     "theological_cultural_alignment": "N/A - Data Not Available",
     "other_contact": "",
     "verification_status": "Unverified",
-    "lat": null,
-    "lon": null,
+    "lat": 32.54142,
+    "lon": -83.89649,
     "asa": null,
     "city": "Fort Valley",
     "church_phone": "(912) 825-5975",
@@ -2349,7 +2349,7 @@
     "childcare": "",
     "formation": "",
     "date_last_updated": "2026-10-08",
-    "notes": ""
+    "notes": "Street corrected from State College Dr to State University Dr per Diocese of Atlanta list and Google Maps; ZIP+4 reduced to 5 digits."
   },
   {
     "id": "grace-episcopal-church-431-washington-st-se-gainesville-ga",
