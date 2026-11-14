@@ -2,7 +2,7 @@
   {
     "id": "church-of-the-mediator-1620-w-turner-st-allentown-pa",
     "name": "Church of the Mediator",
-    "website": "https://episcopalmediator.org/",
+    "website": "https://episcopalmediator.org",
     "address": "1620 W Turner St, Allentown, PA 18102",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -44,7 +44,7 @@
   {
     "id": "grace-episcopal-church-108-n-5th-st-allentown-pa",
     "name": "Grace Episcopal Church",
-    "website": "https://graceallentown.org/",
+    "website": "https://graceallentown.org",
     "address": "108 N 5th St, Allentown, PA 18102",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -86,7 +86,7 @@
   {
     "id": "st-andrews-church-1900-pennsylvania-ave-allentown-pa",
     "name": "St. Andrew's Church",
-    "website": "https://www.standrewsbethlehem.org/",
+    "website": "https://www.standrewsbethlehem.org",
     "address": "1900 Pennsylvania Ave, Allentown, PA 18109",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -128,7 +128,7 @@
   {
     "id": "st-lukes-altoona-806-13th-st-altoona-pa",
     "name": "St. Luke's, Altoona",
-    "website": "https://www.stlukesaltoona.org/",
+    "website": "https://www.stlukesaltoona.org",
     "address": "806 13th St, Altoona, PA 16602",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -170,7 +170,7 @@
   {
     "id": "north-parish-st-johns-market-st-13th-st-ashland-pa",
     "name": "North Parish: St. John's",
-    "website": "http://www.northparish.com/",
+    "website": "http://www.northparish.com",
     "address": "Market St & 13th St, Ashland, PA 17921",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -212,7 +212,7 @@
   {
     "id": "trinity-episcopal-church-701-s-main-st-athens-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinityathens.org/",
+    "website": "https://trinityathens.org",
     "address": "701 S Main St, Athens, PA 18810",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -254,7 +254,7 @@
   {
     "id": "calvary-chapel-13318-mentzer-gap-rd-beartown-pa",
     "name": "Calvary Chapel",
-    "website": "https://thechurches.diocpa.org/",
+    "website": "https://thechurches.diocpa.org",
     "address": "13318 Mentzer Gap Rd, Beartown, PA 17268",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -296,7 +296,7 @@
   {
     "id": "st-james-bedford-309-s-richard-st-bedford-pa",
     "name": "St. James', Bedford",
-    "website": "https://stjamesbedford.diocpa.org/",
+    "website": "https://stjamesbedford.diocpa.org",
     "address": "309 S Richard St, Bedford, PA 15522",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -338,7 +338,7 @@
   {
     "id": "st-johns-bellefonte-120-w-lamb-st-bellefonte-pa",
     "name": "St. John's, Bellefonte",
-    "website": "https://stjohnsepiscopalbellefonte.org/",
+    "website": "https://stjohnsepiscopalbellefonte.org",
     "address": "120 W Lamb St, Bellefonte, PA 16823",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -380,7 +380,7 @@
   {
     "id": "christ-episcopal-church-712-e-16th-st-berwick-pa",
     "name": "Christ Episcopal Church",
-    "website": "https://christepiscopalberwick.org/",
+    "website": "https://christepiscopalberwick.org",
     "address": "712 E 16th St, Berwick, PA 18603",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -422,7 +422,7 @@
   {
     "id": "the-cathedral-church-of-the-nativity-321-wyandotte-st-bethlehem-pa",
     "name": "The Cathedral Church of the Nativity",
-    "website": "https://www.nativitycathedral.org/",
+    "website": "https://www.nativitycathedral.org",
     "address": "321 Wyandotte St, Bethlehem, PA 18015",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -444,7 +444,7 @@
     "rector_phone": "(610) 849-6376",
     "rector_email": "dean@nativitycathedral.org",
     "sunday_services": "8:00 AM Holy Eucharist (spoken); 9:00 AM Holy Eucharist (contemporary); 10:45 AM Holy Eucharist (traditional music); 12:30 PM Santa Eucaristia en Espanol (virtual)",
-    "weekday_services": "Sat 5:00 PM Holy Eucharist (spoken); 4th Sat 5:00 PM Contemplative Spirituality (Celtic) Service; Mon 7:00 PM Prayer Bead Meditation (Zoom); Tue–Fri 9:00 AM Prayer in Chapel",
+    "weekday_services": "Sat 5:00 PM Holy Eucharist (spoken); 4th Sat 5:00 PM Contemplative Spirituality (Celtic) Service; Mon 7:00 PM Prayer Bead Meditation (Zoom); Tue-Fri 9:00 AM Prayer in Chapel",
     "diocesan_bishop": "The Rt. Rev. Dr. Audrey C. Scanlan",
     "clergy_title": "",
     "rector_name": "The Very Rev. Jon Stratton",
@@ -464,7 +464,7 @@
   {
     "id": "trinity-episcopal-church-44-e-market-st-bethlehem-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinitybeth.org/",
+    "website": "https://trinitybeth.org",
     "address": "44 E Market St, Bethlehem, PA 18018",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -506,7 +506,7 @@
   {
     "id": "st-pauls-episcopal-church-101-e-main-st-bloomsburg-pa",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://saintpaulsbloomsburg.org/",
+    "website": "https://saintpaulsbloomsburg.org",
     "address": "101 E Main St, Bloomsburg, PA 17815",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -548,7 +548,7 @@
   {
     "id": "church-of-the-transfiguration-13646-summit-ave-blue-ridge-summit-pa",
     "name": "Church of the Transfiguration",
-    "website": "https://thechurches.diocpa.org/",
+    "website": "https://thechurches.diocpa.org",
     "address": "13646 Summit Ave, Blue Ridge Summit, PA 17214",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -590,7 +590,7 @@
   {
     "id": "mount-calvary-church-125-n-25th-st-camp-hill-pa",
     "name": "Mount Calvary Church",
-    "website": "http://www.mtcp.org/",
+    "website": "http://www.mtcp.org",
     "address": "125 N 25th St, Camp Hill, PA 17011",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -632,7 +632,7 @@
   {
     "id": "trinity-episcopal-church-58-river-st-carbondale-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinity-episcopal.weebly.com/",
+    "website": "https://trinity-episcopal.weebly.com",
     "address": "58 River St, Carbondale, PA 18407",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -674,7 +674,7 @@
   {
     "id": "st-johns-episcopal-church-1-a-n-hanover-st-carlisle-pa",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnscarlisle.org/",
+    "website": "https://www.stjohnscarlisle.org",
     "address": "1-A N Hanover St, Carlisle, PA 17013",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -716,7 +716,7 @@
   {
     "id": "trinity-episcopal-church-58-s-2nd-st-chambersburg-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityepiscopalchambersburg.org/",
+    "website": "https://www.trinityepiscopalchambersburg.org",
     "address": "58 S 2nd St, Chambersburg, PA 17201",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -758,7 +758,7 @@
   {
     "id": "saint-paul-episcopal-church-340-locust-st-columbia-pa",
     "name": "Saint Paul Episcopal Church",
-    "website": "https://www.saintpaulcolumbia.org/",
+    "website": "https://www.saintpaulcolumbia.org",
     "address": "340 Locust St, Columbia, PA 17512",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -842,7 +842,7 @@
   {
     "id": "church-of-the-prince-of-peace-420-main-st-dallas-pa",
     "name": "Church of the Prince of Peace",
-    "website": "https://www.princeofpeacedallaspa.org/",
+    "website": "https://www.princeofpeacedallaspa.org",
     "address": "420 Main St, Dallas, PA 18612",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -877,14 +877,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "Nursery in parish hall",
-    "formation": "Church School through grade 5 (Sept–May, Sunday); Bible study with Deacon Barb after Sunday worship; youth group; Episcopal Church Women",
+    "formation": "Church School through grade 5 (Sept-May, Sunday); Bible study with Deacon Barb after Sunday worship; youth group; Episcopal Church Women",
     "date_last_updated": "2026-11-14",
     "notes": "Father Rafferty referred to as 'Father'. Deacons' genders not stated. Office hours Mon/Thu 9-12. Asset Map lists no clergy beyond Rafferty."
   },
   {
     "id": "church-of-the-epiphany-25-church-hill-road-dalton-glenburn-twp-pa",
     "name": "Church of the Epiphany",
-    "website": "https://www.epiphanyglenburn.org/",
+    "website": "https://www.epiphanyglenburn.org",
     "address": "25 Church Hill Road, Dalton - Glenburn Twp, PA 18414",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -926,7 +926,7 @@
   {
     "id": "christ-memorial-episcopal-church-156-e-market-st-danville-pa",
     "name": "Christ Memorial Episcopal Church",
-    "website": "https://www.cmecdanville.org/",
+    "website": "https://www.cmecdanville.org",
     "address": "156 E Market St, Danville, PA 17821",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -968,7 +968,7 @@
   {
     "id": "st-gabriels-episcopal-church-1188-ben-franklin-hwy-east-douglassville-pa",
     "name": "St. Gabriel's Episcopal Church",
-    "website": "https://www.stgabriels.net/",
+    "website": "https://www.stgabriels.net",
     "address": "1188 Ben Franklin Hwy East, Douglassville, PA 19518",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1003,7 +1003,7 @@
     "accessibility": "Handicap accessible via Parish Life Center door",
     "parking": "Large parking lot on Rt. 422 before the church",
     "childcare": "Nursery; Godly Play",
-    "formation": "Sunday School for children, teens and adults 9:15–10:15 AM; Education for Ministry; Daughters of the King",
+    "formation": "Sunday School for children, teens and adults 9:15-10:15 AM; Education for Ministry; Daughters of the King",
     "date_last_updated": "2026-11-14",
     "notes": "Old domain stgabriels.us now redirects to stgabriels.net (confirmed as official site via Google); email changed from office@stgabriels.us (Asset Map) to office@stgabriels.net. Rector confirmed male by bio ('his wife'). Organist/Choirmaster position open; Music Associate Phoebe Kelleher. Hosts Good Shepherd Learning Center (preschool). Site links an LGBT community page (external)."
   },
@@ -1094,7 +1094,7 @@
   {
     "id": "trinity-episcopal-church-234-spring-garden-st-easton-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityeaston.org/",
+    "website": "https://www.trinityeaston.org",
     "address": "234 Spring Garden St, Easton, PA 18042",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-margarets-episcopal-church-150-elm-st-emmaus-pa",
     "name": "St. Margaret's Episcopal Church",
-    "website": "https://stmargaretsemmaus.org/",
+    "website": "https://stmargaretsemmaus.org",
     "address": "150 Elm St, Emmaus, PA 18049",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1262,7 +1262,7 @@
   {
     "id": "prince-of-peace-memorial-church-20-w-high-st-gettysburg-pa",
     "name": "Prince of Peace Memorial Church",
-    "website": "https://www.gettysburgepiscopal.org/",
+    "website": "https://www.gettysburgepiscopal.org",
     "address": "20 W High St, Gettysburg, PA 17325",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1304,7 +1304,7 @@
   {
     "id": "st-johns-episcopal-church-564-easton-turnpike-hamlin-pa",
     "name": "St. John's Episcopal Church",
-    "website": "https://saintjohnhamlin.org/",
+    "website": "https://saintjohnhamlin.org",
     "address": "564 Easton Turnpike, Hamlin, PA 18427",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1346,7 +1346,7 @@
   {
     "id": "all-saints-church-890-mccosh-st-hanover-pa",
     "name": "All Saints Church",
-    "website": "https://www.allsaintshanover.org/",
+    "website": "https://www.allsaintshanover.org",
     "address": "890 McCosh St, Hanover, PA 17331",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1430,7 +1430,7 @@
   {
     "id": "st-andrews-in-the-valley-4620-linglestown-rd-harrisburg-pa",
     "name": "St. Andrew's in the Valley",
-    "website": "http://www.saintandrewsinthevalley.org/",
+    "website": "http://www.saintandrewsinthevalley.org",
     "address": "4620 Linglestown Rd, Harrisburg, PA 17112",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1472,7 +1472,7 @@
   {
     "id": "st-pauls-episcopal-church-248-seneca-st-harrisburg-pa",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulshbg.org/",
+    "website": "https://www.stpaulshbg.org",
     "address": "248 Seneca St, Harrisburg, PA 17110",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1514,7 +1514,7 @@
   {
     "id": "st-stephens-cathedral-221-n-front-st-harrisburg-pa",
     "name": "St. Stephen's Cathedral",
-    "website": "https://ststephenshbg.org/",
+    "website": "https://ststephenshbg.org",
     "address": "221 N Front St, Harrisburg, PA 17101",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1556,7 +1556,7 @@
   {
     "id": "chapel-of-the-good-shepherd-270-whitman-st-hawk-run-pa",
     "name": "Chapel of the Good Shepherd",
-    "website": "https://goodshepherd.diocpa.org/",
+    "website": "https://goodshepherd.diocpa.org",
     "address": "270 Whitman St, Hawk Run, PA 16840",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1598,7 +1598,7 @@
   {
     "id": "st-peters-episcopal-church-46-s-laurel-st-hazleton-pa",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://stpetershazleton.org/",
+    "website": "https://stpetershazleton.org",
     "address": "46 S Laurel St, Hazleton, PA 18201",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1640,7 +1640,7 @@
   {
     "id": "st-georges-episcopal-church-735-delaware-ave-hellertown-pa",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.stgeorgeshellertown.org/",
+    "website": "https://www.stgeorgeshellertown.org",
     "address": "735 Delaware Ave, Hellertown, PA 18055",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1682,7 +1682,7 @@
   {
     "id": "all-saints-episcopal-church-310-elm-ave-hershey-pa",
     "name": "All Saints Episcopal Church",
-    "website": "https://www.allsaints38.com/",
+    "website": "https://www.allsaints38.com",
     "address": "310 Elm Ave, Hershey, PA 17033",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1717,14 +1717,14 @@
     "accessibility": "Fully wheelchair accessible; automated doors, elevator, accessible restrooms; wheelchairs on site",
     "parking": "Street parking on Elm Ave and Valley Rd; lot behind church off S 8th St and Valley Rd",
     "childcare": "Pray Ground (toys/books) in sanctuary on Sundays",
-    "formation": "Godly Play (ages 3-7) and Weaving God's Promises (ages 8-13) on 1st/3rd/5th Sundays 10 AM Sept–May; adult formation, Bible study",
+    "formation": "Godly Play (ages 3-7) and Weaving God's Promises (ages 8-13) on 1st/3rd/5th Sundays 10 AM Sept-May; adult formation, Bible study",
     "date_last_updated": "2026-11-14",
     "notes": "Rector uses She/They pronouns (site). Self-described affirming parish (vestry statement 2006, gaychurch.org affiliate); site says all sacraments for all baptized, no explicit same-sex wedding statement so ssm N/A. Self-described CORE (Catholic, Orthodox, Reformed, Evangelistic) worship. Rector email from Asset Map. YouTube channel is on Asset Map."
   },
   {
     "id": "church-of-the-holy-trinity-315-jones-st-hollidaysburg-pa",
     "name": "Church of the Holy Trinity",
-    "website": "https://holytrinityepiscopal.net/",
+    "website": "https://holytrinityepiscopal.net",
     "address": "315 Jones St, Hollidaysburg, PA 16648",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1766,7 +1766,7 @@
   {
     "id": "grace-episcopal-church-827-church-st-honesdale-pa",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracechurchhonesdale.org/",
+    "website": "https://www.gracechurchhonesdale.org",
     "address": "827 Church St, Honesdale, PA 18431",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1808,7 +1808,7 @@
   {
     "id": "st-johns-church-212-penn-st-huntingdon-pa",
     "name": "St. John's Church",
-    "website": "https://stjohnshuntingdon.diocpa.org/",
+    "website": "https://stjohnshuntingdon.diocpa.org",
     "address": "212 Penn St, Huntingdon, PA 16652",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1850,7 +1850,7 @@
   {
     "id": "st-james-st-george-episcopal-church-398-washington-ave-jermyn-pa",
     "name": "St James-St George Episcopal Church",
-    "website": "https://ssjandg.weebly.com/",
+    "website": "https://ssjandg.weebly.com",
     "address": "398 Washington Ave, Jermyn, PA 18433",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1892,7 +1892,7 @@
   {
     "id": "trinity-episcopal-church-176-mount-pleasant-ave-jersey-shore-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinity-jersey-shore.diocpa.org/",
+    "website": "https://trinity-jersey-shore.diocpa.org",
     "address": "176 Mount Pleasant Ave, Jersey Shore, PA 17740",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1934,7 +1934,7 @@
   {
     "id": "st-mark-st-john-church-21-race-st-jim-thorpe-pa",
     "name": "St. Mark & St. John Church",
-    "website": "https://www.stmarkandjohn.org/",
+    "website": "https://www.stmarkandjohn.org",
     "address": "21 Race St, Jim Thorpe, PA 18229",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -1969,14 +1969,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "Church School (Sept–May) with Children's Chapel",
+    "formation": "Church School (Sept-May) with Children's Chapel",
     "date_last_updated": "2026-11-14",
     "notes": "Combined name St. Mark & St. John (single parish, one building, regular Sunday worship confirmed on site: every Sunday 9:00 AM). Parish site names no clergy; Fr. Timothy Griffin, Priest-in-Charge, comes from Asset Map only (Asset Map list/detail slug st-marks-st-johns-church). Site mentions church tours (National Historic Landmark building). Home-page tour/events text looks dated (May 28 references). No rite stated."
   },
   {
     "id": "grace-episcopal-church-30-butler-st-kingston-pa",
     "name": "Grace Episcopal Church",
-    "website": "https://gracekingston.org/",
+    "website": "https://gracekingston.org",
     "address": "30 Butler St, Kingston, PA 18704",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2018,7 +2018,7 @@
   {
     "id": "saint-james-episcopal-church-119-n-duke-st-lancaster-pa",
     "name": "Saint James Episcopal Church",
-    "website": "https://www.saintjameslancaster.org/",
+    "website": "https://www.saintjameslancaster.org",
     "address": "119 N Duke St, Lancaster, PA 17602",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2040,7 +2040,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:30 AM Mass (Holy Communion); 10:30 AM Mass (Holy Communion, full choir); 5:00 PM Vespers (in person; Holy Communion 3rd Sunday)",
-    "weekday_services": "Sat 5:00 PM Mass (periodic, with live music); Mon 8:30 AM Morning Prayer; Tue–Thu 8:00 AM Contemplative Prayer Meditation; Wed 5:30 PM Evening Prayer (Zoom only); Fri 6:45 AM Contemplative Prayer Meditation; Fri 8:30 AM Morning Prayer; Daily 9:00 PM Evening Compline (Zoom)",
+    "weekday_services": "Sat 5:00 PM Mass (periodic, with live music); Mon 8:30 AM Morning Prayer; Tue-Thu 8:00 AM Contemplative Prayer Meditation; Wed 5:30 PM Evening Prayer (Zoom only); Fri 6:45 AM Contemplative Prayer Meditation; Fri 8:30 AM Morning Prayer; Daily 9:00 PM Evening Compline (Zoom)",
     "diocesan_bishop": "The Rt. Rev. Dr. Audrey C. Scanlan",
     "clergy_title": "",
     "rector_name": "The Rev. David W. Peck",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-edward-episcopal-church-2453-harrisburg-pike-lancaster-pa",
     "name": "St. Edward Episcopal Church",
-    "website": "https://sainteds.org/",
+    "website": "https://sainteds.org",
     "address": "2453 Harrisburg Pike, Lancaster, PA 17601",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2102,7 +2102,7 @@
   {
     "id": "st-johns-episcopal-church-321-w-chestnut-st-lancaster-pa",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohns-lancaster.org/",
+    "website": "https://stjohns-lancaster.org",
     "address": "321 W Chestnut St, Lancaster, PA 17603",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2144,7 +2144,7 @@
   {
     "id": "st-thomas-episcopal-church-301-saint-thomas-rd-lancaster-pa",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.stthomaslancaster.org/",
+    "website": "https://www.stthomaslancaster.org",
     "address": "301 Saint Thomas Rd, Lancaster, PA 17601",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2165,7 +2165,7 @@
     "church_email": "",
     "rector_phone": "",
     "rector_email": "jennifer.e.mattson@gmail.com",
-    "sunday_services": "8:00 AM Holy Eucharist, Rite I (spoken, no music); 10:00 AM Holy Eucharist, Rite II (music, choir); 2:30–4:30 PM Contemplative Prayer (chapel)",
+    "sunday_services": "8:00 AM Holy Eucharist, Rite I (spoken, no music); 10:00 AM Holy Eucharist, Rite II (music, choir); 2:30-4:30 PM Contemplative Prayer (chapel)",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. Dr. Audrey C. Scanlan",
     "clergy_title": "",
@@ -2186,7 +2186,7 @@
   {
     "id": "st-lukes-episcopal-church-22-s-6th-st-lebanon-pa",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://stlukeslebanon.org/",
+    "website": "https://stlukeslebanon.org",
     "address": "22 S 6th St, Lebanon, PA 17042",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2207,7 +2207,7 @@
     "church_email": "admin@stlukeslebanon.org",
     "rector_phone": "",
     "rector_email": "",
-    "sunday_services": "8:00 AM Holy Eucharist, Rite I; 10:30 AM Holy Eucharist, Rite II (sung; livestreamed); periodic 4:00 PM Evensong (Sep–Jun)",
+    "sunday_services": "8:00 AM Holy Eucharist, Rite I; 10:30 AM Holy Eucharist, Rite II (sung; livestreamed); periodic 4:00 PM Evensong (Sep-Jun)",
     "weekday_services": "Sat 5:00 PM Vigil Eucharist (informal, Lady Chapel); Wed 10:00 AM Holy Eucharist and Service of Healing (per Asset Map)",
     "diocesan_bishop": "The Rt. Rev. Dr. Audrey C. Scanlan",
     "clergy_title": "",
@@ -2228,7 +2228,7 @@
   {
     "id": "all-saints-episcopal-church-301-n-2nd-st-lehighton-pa",
     "name": "All Saints Episcopal Church",
-    "website": "https://allsaintslehighton.org/",
+    "website": "https://allsaintslehighton.org",
     "address": "301 N 2nd St, Lehighton, PA 18235",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2270,7 +2270,7 @@
   {
     "id": "st-andrews-episcopal-church-255-s-derr-dr-lewisburg-pa",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewslewisburg.com/",
+    "website": "https://www.standrewslewisburg.com",
     "address": "255 S Derr Dr, Lewisburg, PA 17837",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2312,7 +2312,7 @@
   {
     "id": "st-marks-episcopal-church-21-s-main-st-lewistown-pa",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://www.stmark-lewistown.org/",
+    "website": "http://www.stmark-lewistown.org",
     "address": "21 S Main St, Lewistown, PA 17044",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2354,7 +2354,7 @@
   {
     "id": "st-pauls-church-112-e-main-st-lock-haven-pa",
     "name": "St. Paul's Church",
-    "website": "https://st-pauls-lock-haven.diocpa.org/",
+    "website": "https://st-pauls-lock-haven.diocpa.org",
     "address": "112 E Main St, Lock Haven, PA 17745",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2396,7 +2396,7 @@
   {
     "id": "hope-episcopal-church-2425-mountain-rd-manheim-pa",
     "name": "Hope Episcopal Church",
-    "website": "https://hopeepiscopal.org/",
+    "website": "https://hopeepiscopal.org",
     "address": "2425 Mountain Rd, Manheim, PA 17545",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2438,7 +2438,7 @@
   {
     "id": "st-pauls-episcopal-church-90-s-charlotte-st-manheim-pa",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsmanheim.org/",
+    "website": "http://www.stpaulsmanheim.org",
     "address": "90 S Charlotte St, Manheim, PA 17545",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2480,7 +2480,7 @@
   {
     "id": "st-james-episcopal-church-18-saint-james-st-mansfield-pa",
     "name": "St. James Episcopal Church",
-    "website": "https://st-james-mansfield.diocpa.org/",
+    "website": "https://st-james-mansfield.diocpa.org",
     "address": "18 Saint James St, Mansfield, PA 16933",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2522,7 +2522,7 @@
   {
     "id": "st-johns-church-239-e-market-st-marietta-pa",
     "name": "St. John's Church",
-    "website": "https://st-johns-marietta.diocpa.org/",
+    "website": "https://st-johns-marietta.diocpa.org",
     "address": "239 E Market St, Marietta, PA 17547",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2564,7 +2564,7 @@
   {
     "id": "st-lukes-episcopal-church-8-e-keller-st-mechanicsburg-pa",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://st-lukes-mechanicsburg.diocpa.org/",
+    "website": "https://st-lukes-mechanicsburg.diocpa.org",
     "address": "8 E Keller St, Mechanicsburg, PA 17055",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2606,7 +2606,7 @@
   {
     "id": "good-shepherd-st-johns-church-110-w-catherine-st-milford-pa",
     "name": "Good Shepherd & St. John's Church",
-    "website": "https://goodshepherdmilford.org/",
+    "website": "https://goodshepherdmilford.org",
     "address": "110 W Catherine St, Milford, PA 18337",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2816,7 +2816,7 @@
   {
     "id": "st-thomas-episcopal-church-6251-morgantown-rd-morgantown-pa",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://saintthomasepiscopal.org/",
+    "website": "https://saintthomasepiscopal.org",
     "address": "6251 Morgantown Rd, Morgantown, PA 19543",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2900,7 +2900,7 @@
   {
     "id": "saint-luke-episcopal-church-209-s-market-st-mount-joy-pa",
     "name": "Saint Luke Episcopal Church",
-    "website": "https://saintlukemountjoy.org/",
+    "website": "https://saintlukemountjoy.org",
     "address": "209 S Market St, Mount Joy, PA 17552",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2942,7 +2942,7 @@
   {
     "id": "trinity-episcopal-church-137-trinity-hill-rd-mount-pocono-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitymtpocono.org/",
+    "website": "https://www.trinitymtpocono.org",
     "address": "137 Trinity Hill Rd, Mount Pocono, PA 18344",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -2984,7 +2984,7 @@
   {
     "id": "st-martin-in-the-fields-3085-church-rd-mountain-top-pa",
     "name": "St. Martin in the Fields",
-    "website": "https://www.stmartintimeless.org/",
+    "website": "https://www.stmartintimeless.org",
     "address": "3085 Church Rd, Mountain Top, PA 18707",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3110,7 +3110,7 @@
   {
     "id": "bangor-episcopal-church-2099-main-st-narvon-pa",
     "name": "Bangor Episcopal Church",
-    "website": "https://bangorepiscopal.org/",
+    "website": "https://bangorepiscopal.org",
     "address": "2099 Main St, Narvon, PA 17555",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3140,7 +3140,7 @@
     "rite": "",
     "celebrant_position": "",
     "service_languages": "English",
-    "livestream_url": "https://bangorepiscopal.org/",
+    "livestream_url": "https://bangorepiscopal.org",
     "music_style": "",
     "accessibility": "",
     "parking": "Rear of church, accessed off Water Street",
@@ -3152,7 +3152,7 @@
   {
     "id": "st-brigids-church-310-madison-ave-nazareth-pa",
     "name": "St. Brigid's Church",
-    "website": "https://stbrigidsnaz.org/",
+    "website": "https://stbrigidsnaz.org",
     "address": "310 Madison Ave, Nazareth, PA 18064",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3194,7 +3194,7 @@
   {
     "id": "church-of-the-nativity-st-stephen-159-s-2nd-st-newport-pa",
     "name": "Church of the Nativity - St. Stephen",
-    "website": "https://nativityandststephen.org/",
+    "website": "https://nativityandststephen.org",
     "address": "159 S 2nd St, Newport, PA 17074",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3236,7 +3236,7 @@
   {
     "id": "st-mark-episcopal-church-187-king-st-northumberland-pa",
     "name": "St. Mark Episcopal Church",
-    "website": "https://st-marks-northumberland.diocpa.org/",
+    "website": "https://st-marks-northumberland.diocpa.org",
     "address": "187 King St, Northumberland, PA 17857",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3278,7 +3278,7 @@
   {
     "id": "st-johns-episcopal-church-365-lafayette-ave-palmerton-pa",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnspalmerton.com/",
+    "website": "https://stjohnspalmerton.com",
     "address": "365 Lafayette Ave, Palmerton, PA 18071",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3362,7 +3362,7 @@
   {
     "id": "st-pauls-episcopal-church-406-e-presqueisle-st-philipsburg-pa",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://stpaulsphilipsburg.diocpa.org/",
+    "website": "https://stpaulsphilipsburg.diocpa.org",
     "address": "406 E Presqueisle St, Philipsburg, PA 16866",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3404,7 +3404,7 @@
   {
     "id": "trinity-episcopal-church-200-s-2nd-st-pottsville-pa",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityepiscopalpottsvillepa.org/",
+    "website": "http://www.trinityepiscopalpottsvillepa.org",
     "address": "200 S 2nd St, Pottsville, PA 17901",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3488,7 +3488,7 @@
   {
     "id": "church-of-the-redeemer-201-s-wilbur-ave-sayre-pa",
     "name": "Church of the Redeemer",
-    "website": "https://www.redeemersayre.org/",
+    "website": "https://www.redeemersayre.org",
     "address": "201 S Wilbur Ave, Sayre, PA 18840",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3530,7 +3530,7 @@
   {
     "id": "st-james-episcopal-church-100-dock-st-schuylkill-haven-pa",
     "name": "St. James Episcopal Church",
-    "website": "https://stjamesschuylkillhaven.wordpress.com/",
+    "website": "https://stjamesschuylkillhaven.wordpress.com",
     "address": "100 Dock St, Schuylkill Haven, PA 17972",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3572,7 +3572,7 @@
   {
     "id": "church-of-the-good-shepherd-1780-n-washington-ave-scranton-pa",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdscranton.org/",
+    "website": "http://www.goodshepherdscranton.org",
     "address": "1780 N Washington Ave, Scranton, PA 18509",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3614,7 +3614,7 @@
   {
     "id": "st-lukes-episcopal-church-232-wyoming-ave-scranton-pa",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://stlukescranton.org/",
+    "website": "https://stlukescranton.org",
     "address": "232 Wyoming Ave, Scranton, PA 18503",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3656,7 +3656,7 @@
   {
     "id": "all-saints-episcopal-church-129-n-market-st-selinsgrove-pa",
     "name": "All Saints Episcopal Church",
-    "website": "https://allsaintsepiscopalofselinsgrove.com/",
+    "website": "https://allsaintsepiscopalofselinsgrove.com",
     "address": "129 N Market St, Selinsgrove, PA 17870",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3698,7 +3698,7 @@
   {
     "id": "st-andrews-episcopal-church-206-e-burd-st-shippensburg-pa",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewsshippensburg.org/",
+    "website": "https://www.standrewsshippensburg.org",
     "address": "206 E Burd St, Shippensburg, PA 17257",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3740,7 +3740,7 @@
   {
     "id": "st-albans-episcopal-church-2848-saint-albans-dr-sinking-spring-pa",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://www.stalbansepiscopal.org/",
+    "website": "https://www.stalbansepiscopal.org",
     "address": "2848 Saint Albans Dr, Sinking Spring, PA 19608",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3782,7 +3782,7 @@
   {
     "id": "north-parish-holy-apostles-307-e-hancock-st-st-clair-pa",
     "name": "North Parish: Holy Apostles",
-    "website": "http://www.northparish.com/",
+    "website": "http://www.northparish.com",
     "address": "307 E. Hancock St., St. Clair, PA 17970",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3824,7 +3824,7 @@
   {
     "id": "st-andrews-church-208-w-foster-ave-state-college-pa",
     "name": "St. Andrew's Church",
-    "website": "https://standrewsc.org/",
+    "website": "https://standrewsc.org",
     "address": "208 W Foster Ave, State College, PA 16801",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3866,7 +3866,7 @@
   {
     "id": "christ-episcopal-church-205-n-7th-st-stroudsburg-pa",
     "name": "Christ Episcopal Church",
-    "website": "https://christchurchstroudsburg.org/",
+    "website": "https://christchurchstroudsburg.org",
     "address": "205 N 7th St, Stroudsburg, PA 18360",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3888,7 +3888,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM Spoken Eucharist, Rite I; 10:00 AM Sung Eucharist, Rite II",
-    "weekday_services": "Wed 12:00 PM Healing Service; Mon–Fri 8:00 AM Morning Prayer (Zoom); Saturday 4:00 PM services (per Asset Map: 1st Celtic Eucharist, 2nd spoken vigil, 3rd Healing Evening Prayer & Benediction, 4th sung vigil); 1st and 3rd Saturday 8:00 AM bilingual Morning Prayer (per Asset Map)",
+    "weekday_services": "Wed 12:00 PM Healing Service; Mon-Fri 8:00 AM Morning Prayer (Zoom); Saturday 4:00 PM services (per Asset Map: 1st Celtic Eucharist, 2nd spoken vigil, 3rd Healing Evening Prayer & Benediction, 4th sung vigil); 1st and 3rd Saturday 8:00 AM bilingual Morning Prayer (per Asset Map)",
     "diocesan_bishop": "The Rt. Rev. Dr. Audrey C. Scanlan",
     "clergy_title": "",
     "rector_name": "The Rev. Bill Martin",
@@ -3908,7 +3908,7 @@
   {
     "id": "st-matthews-episcopal-church-32-n-front-st-sunbury-pa",
     "name": "St. Matthew's Episcopal Church",
-    "website": "http://stmatthew-episcopal.org/",
+    "website": "http://stmatthew-episcopal.org",
     "address": "32 N Front St, Sunbury, PA 17801",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -3950,7 +3950,7 @@
   {
     "id": "christ-episcopal-church-1107-w-main-st-susquehanna-pa",
     "name": "Christ Episcopal Church",
-    "website": "https://www.uppersusquehannaepiscopal.org/",
+    "website": "https://www.uppersusquehannaepiscopal.org",
     "address": "1107 W Main St, Susquehanna, PA 18847",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4034,7 +4034,7 @@
   {
     "id": "christ-episcopal-church-1-main-st-towanda-pa",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchtowanda.org/",
+    "website": "https://www.christchurchtowanda.org",
     "address": "1 Main St, Towanda, PA 18848",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4076,7 +4076,7 @@
   {
     "id": "st-annes-episcopal-church-6667-lower-macungie-rd-trexlertown-pa",
     "name": "St. Anne's Episcopal Church",
-    "website": "https://stannesepiscopal.net/",
+    "website": "https://stannesepiscopal.net",
     "address": "6667 Lower Macungie Rd, Trexlertown, PA 18087",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4202,7 +4202,7 @@
   {
     "id": "trinity-episcopal-church-830-washington-ave-tyrone-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinity-tyrone.diocpa.org/",
+    "website": "https://trinity-tyrone.diocpa.org",
     "address": "830 Washington Ave, Tyrone, PA 16686",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4244,7 +4244,7 @@
   {
     "id": "st-marys-episcopal-church-112-e-2nd-st-waynesboro-pa",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://stmaryswaynesboro.org/",
+    "website": "https://stmaryswaynesboro.org",
     "address": "112 E 2nd St, Waynesboro, PA 17268",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4286,7 +4286,7 @@
   {
     "id": "st-pauls-episcopal-church-29-charles-st-wellsboro-pa",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulswellsboro.org/",
+    "website": "http://stpaulswellsboro.org",
     "address": "29 Charles St, Wellsboro, PA 16901",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4328,7 +4328,7 @@
   {
     "id": "trinity-episcopal-church-337-spring-st-west-pittston-pa",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinitywp.org/",
+    "website": "https://trinitywp.org",
     "address": "337 Spring St, West Pittston, PA 18643",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4370,7 +4370,7 @@
   {
     "id": "st-stephens-episcopal-church-3900-mechanicsville-rd-whitehall-pa",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.saintste.com/",
+    "website": "https://www.saintste.com",
     "address": "3900 Mechanicsville Rd, Whitehall, PA 18052",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4412,7 +4412,7 @@
   {
     "id": "st-clement-st-peters-church-165-hanover-st-wilkes-barre-pa",
     "name": "St. Clement & St. Peter's Church",
-    "website": "https://stclementstpeter.org/",
+    "website": "https://stclementstpeter.org",
     "address": "165 Hanover St, Wilkes Barre, PA 18702",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4454,7 +4454,7 @@
   {
     "id": "st-stephens-pro-cathedral-35-s-franklin-st-wilkes-barre-pa",
     "name": "St. Stephen's Pro-Cathedral",
-    "website": "https://ststephenswb.org/",
+    "website": "https://ststephenswb.org",
     "address": "35 S Franklin St, Wilkes Barre, PA 18701",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4476,7 +4476,7 @@
     "rector_phone": "(570) 540-3535",
     "rector_email": "frtimothy@outlook.com",
     "sunday_services": "8:00 AM Holy Eucharist, Rite I; 10:30 AM Choral Eucharist, Rite II",
-    "weekday_services": "Wed 12:05 PM Healing Eucharist (Sept–May); Weekdays 9:00 AM Morning Prayer (most weekdays) [per Asset Map]",
+    "weekday_services": "Wed 12:05 PM Healing Eucharist (Sept-May); Weekdays 9:00 AM Morning Prayer (most weekdays) [per Asset Map]",
     "diocesan_bishop": "The Rt. Rev. Dr. Audrey C. Scanlan",
     "clergy_title": "",
     "rector_name": "Fr. Timothy Alleman",
@@ -4538,7 +4538,7 @@
   {
     "id": "christ-episcopal-church-426-mulberry-st-williamsport-pa",
     "name": "Christ Episcopal Church",
-    "website": "https://christchurchwilliamsport.org/",
+    "website": "https://christchurchwilliamsport.org",
     "address": "426 Mulberry St, Williamsport, PA 17701",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4580,7 +4580,7 @@
   {
     "id": "trinity-episcopal-pro-cathedral-844-w-4th-st-williamsport-pa",
     "name": "Trinity Episcopal Pro Cathedral",
-    "website": "https://trinity-williamsport.diocpa.org/",
+    "website": "https://trinity-williamsport.diocpa.org",
     "address": "844 W 4th St, Williamsport, PA 17701",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4614,8 +4614,8 @@
     "music_style": "Choral (10:00 AM); organ; children's choir",
     "accessibility": "Accessible entrance ramp on Trinity Place (east) side; wheelchair seating pews 3 & 4; large-print books and hearing aid devices available",
     "parking": "",
-    "childcare": "Nursery on gym level, staffed 9:00–11:30 AM",
-    "formation": "Sunday School/Godly Play 9:00 AM (Sept–May); Youth Group (grades 6-12); Adult Forum Sundays 9:00 AM (per Asset Map)",
+    "childcare": "Nursery on gym level, staffed 9:00-11:30 AM",
+    "formation": "Sunday School/Godly Play 9:00 AM (Sept-May); Youth Group (grades 6-12); Adult Forum Sundays 9:00 AM (per Asset Map)",
     "date_last_updated": "2026-11-14",
     "notes": "Site is a live parish site on the diocpa.org subdomain (footer (c) 2026, Nov 2026 events); the Asset Map link uses http://www.trinity-williamsport.diocpa.org which failed to load, https version works. Site lists The Rev. Canon Ken Wagner-Pizza as 'Rector & Provost' (Fr. Ken, male by title); Asset Map spells 'The Rev. Cn. Kenneth E. Wagner-Pizza'. Rite not stated on site. Past services on YouTube (youtube.com/channel/UCgCpmbR78IRS1pMk92HRmBg). Asset Map groups include LGBTQ+ Group, Men's Group."
   },
@@ -4664,7 +4664,7 @@
   {
     "id": "st-andrews-episcopal-church-1502-4th-ave-york-pa",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewsyork.org/",
+    "website": "https://www.standrewsyork.org",
     "address": "1502 4th Ave, York, PA 17403",
     "state": "PA",
     "diocese": "Susquehanna",
@@ -4706,7 +4706,7 @@
   {
     "id": "st-john-the-baptist-episcopal-church-140-n-beaver-st-york-pa",
     "name": "St. John The Baptist Episcopal Church",
-    "website": "https://stjohnyork.org/",
+    "website": "https://stjohnyork.org",
     "address": "140 N Beaver St, York, PA 17401",
     "state": "PA",
     "diocese": "Susquehanna",

@@ -2,7 +2,7 @@
   {
     "id": "st-michael-all-angels-adelphi-8501-new-hampshire-ave-adelphi-md",
     "name": "St. Michael & All Angels, Adelphi",
-    "website": "https://www.stmichaelsadelphi.org/",
+    "website": "https://www.stmichaelsadelphi.org",
     "address": "8501 New Hampshire Ave, Adelphi, MD 20783",
     "state": "MD",
     "diocese": "Washington",
@@ -44,7 +44,7 @@
   {
     "id": "all-saints-oakley-22598-oakley-rd-avenue-md",
     "name": "All Saints, Oakley",
-    "website": "https://www.allsaintsoakley.org/",
+    "website": "https://www.allsaintsoakley.org",
     "address": "22598 Oakley Rd, Avenue, MD 20657",
     "state": "MD",
     "diocese": "Washington",
@@ -86,7 +86,7 @@
   {
     "id": "st-johns-zion-parish-11040-baltimore-ave-beltsville-md",
     "name": "St. John's, Zion Parish",
-    "website": "http://saintjohnsbeltsville.org/",
+    "website": "http://saintjohnsbeltsville.org",
     "address": "11040 Baltimore Ave, Beltsville, MD 20705",
     "state": "MD",
     "diocese": "Washington",
@@ -128,7 +128,7 @@
   {
     "id": "church-of-the-redeemer-6201-dunrobbin-dr-bethesda-md",
     "name": "Church of the Redeemer",
-    "website": "https://www.redeemerbethesda.org/",
+    "website": "https://www.redeemerbethesda.org",
     "address": "6201 Dunrobbin Dr, Bethesda, MD 20816",
     "state": "MD",
     "diocese": "Washington",
@@ -170,7 +170,7 @@
   {
     "id": "st-dunstans-bethesda-md-5450-massachusetts-ave-bethesda-md",
     "name": "St. Dunstan's/Bethesda, MD",
-    "website": "https://stdunstansbethesda.org/",
+    "website": "https://stdunstansbethesda.org",
     "address": "5450 Massachusetts Ave, Bethesda, MD 20816",
     "state": "MD",
     "diocese": "Washington",
@@ -212,7 +212,7 @@
   {
     "id": "st-lukes-episcopal-church-trinity-parish-bethesda-6030-grosvenor-ln-bethesda-md",
     "name": "St. Luke's Episcopal Church, Trinity Parish (Bethesda)",
-    "website": "https://stlukesbethesda.org/",
+    "website": "https://stlukesbethesda.org",
     "address": "6030 Grosvenor Ln, Bethesda, MD 20814",
     "state": "MD",
     "diocese": "Washington",
@@ -246,7 +246,7 @@
     "music_style": "Choir; Minister of Music, Liturgy, and Communications",
     "accessibility": "",
     "parking": "",
-    "childcare": "Sunday nursery care 9:00–11:30 AM, ages birth-4",
+    "childcare": "Sunday nursery care 9:00-11:30 AM, ages birth-4",
     "formation": "Adult and youth faith formation",
     "date_last_updated": "2026-11-14",
     "notes": "Rite not stated on site. 10:00 AM service is livestreamed on YouTube."
@@ -254,7 +254,7 @@
   {
     "id": "st-pauls-parish-13500-baden-westwood-rd-brandywine-md",
     "name": "St. Paul's Parish",
-    "website": "https://stpaulsbaden.org/",
+    "website": "https://stpaulsbaden.org",
     "address": "13500 Baden Westwood Rd, Brandywine, MD 20613",
     "state": "MD",
     "diocese": "Washington",
@@ -296,7 +296,7 @@
   {
     "id": "st-philips-baden-13801-baden-westwood-rd-brandywine-md",
     "name": "St. Philip's, Baden",
-    "website": "https://stphilipsbaden.org/",
+    "website": "https://stphilipsbaden.org",
     "address": "13801 Baden Westwood Rd, Brandywine, MD 20613",
     "state": "MD",
     "diocese": "Washington",
@@ -338,7 +338,7 @@
   {
     "id": "st-lukes-brighton-1001-brighton-dam-rd-brookeville-md",
     "name": "St. Luke's, Brighton",
-    "website": "https://www.stlukebrighton.com/",
+    "website": "https://www.stlukebrighton.com",
     "address": "1001 Brighton Dam Rd, Brookeville, MD 20833",
     "state": "MD",
     "diocese": "Washington",
@@ -380,7 +380,7 @@
   {
     "id": "st-andrews-leonardtown-44078-saint-andrews-church-rd-california-md",
     "name": "St. Andrew's, Leonardtown",
-    "website": "https://standrewsleonardtown.org/",
+    "website": "https://standrewsleonardtown.org",
     "address": "44078 Saint Andrews Church Rd, California, MD 20619",
     "state": "MD",
     "diocese": "Washington",
@@ -422,7 +422,7 @@
   {
     "id": "christ-church-chaptico-25390-maddox-rd-chaptico-md",
     "name": "Christ Church, Chaptico",
-    "website": "https://www.cckqp.net/",
+    "website": "https://www.cckqp.net",
     "address": "25390 Maddox Rd, Chaptico, MD 20621",
     "state": "MD",
     "diocese": "Washington",
@@ -506,7 +506,7 @@
   {
     "id": "all-saints-chevy-chase-3-chevy-chase-cir-chevy-chase-md",
     "name": "All Saints, Chevy Chase",
-    "website": "http://allsaintschurch.net/",
+    "website": "http://allsaintschurch.net",
     "address": "3 Chevy Chase Cir, Chevy Chase, MD 20815",
     "state": "MD",
     "diocese": "Washington",
@@ -548,7 +548,7 @@
   {
     "id": "st-johns-norwood-6701-wisconsin-ave-chevy-chase-md",
     "name": "St. John's, Norwood",
-    "website": "https://stjohnsnorwood.org/",
+    "website": "https://stjohnsnorwood.org",
     "address": "6701 Wisconsin Ave, Chevy Chase, MD 20815",
     "state": "MD",
     "diocese": "Washington",
@@ -590,7 +590,7 @@
   {
     "id": "christ-church-clinton-8710-old-branch-ave-clinton-md",
     "name": "Christ Church, Clinton",
-    "website": "https://christchurchclinton.org/",
+    "website": "https://christchurchclinton.org",
     "address": "8710 Old Branch Ave, Clinton, MD 20735",
     "state": "MD",
     "diocese": "Washington",
@@ -632,7 +632,7 @@
   {
     "id": "st-andrews-college-park-4512-college-ave-college-park-md",
     "name": "St. Andrew's, College Park",
-    "website": "https://saeccp.org/",
+    "website": "https://saeccp.org",
     "address": "4512 College Ave, College Park, MD 20740",
     "state": "MD",
     "diocese": "Washington",
@@ -666,7 +666,7 @@
     "music_style": "Organ at 8:00; hymns, choir, organ, piano and other instruments at 10:30",
     "accessibility": "Ramp from Yale Avenue parking lot; lift to parish hall",
     "parking": "Church lot (Yale Ave and Princeton Ave entrances); overflow free Sunday parking in garage above Ledo's Pizza on Knox Rd",
-    "childcare": "Nursery for ages 0-2, Sundays 10:00 AM–12:00 PM",
+    "childcare": "Nursery for ages 0-2, Sundays 10:00 AM-12:00 PM",
     "formation": "Children's, youth and adult formation; University of Maryland Episcopal Chaplaincy",
     "date_last_updated": "2026-11-14",
     "notes": "Site calls itself 'welcoming and affirming' (generic; no SSM/alignment set). Deacon Lesley Krauland's gender not confirmed on site, so female_clergy N/A. Rector referred to as 'Father Michael' on home page. Asset Map midweek Wed 12:00 PM service not listed on site (site lists Morning Prayer Tue-Thu 8 AM). Site home page announces St. Andrew's Day service Sun Nov 15 at 9:30 AM."
@@ -674,7 +674,7 @@
   {
     "id": "st-annes-25100-ridge-rd-damascus-md",
     "name": "St. Anne's",
-    "website": "https://www.saintannesdamascus.net/",
+    "website": "https://www.saintannesdamascus.net",
     "address": "25100 Ridge Rd, Damascus, MD 20872",
     "state": "MD",
     "diocese": "Washington",
@@ -696,7 +696,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM Holy Eucharist (spoken, onsite only); 10:00 AM Holy Eucharist with music (onsite and livestreamed)",
-    "weekday_services": "Mon–Fri 8:00 PM Compline (Zoom, lay-led)",
+    "weekday_services": "Mon-Fri 8:00 PM Compline (Zoom, lay-led)",
     "diocesan_bishop": "The Rt. Rev. Mariann Edgar Budde",
     "clergy_title": "",
     "rector_name": "The Rev. Jonathan Musser",
@@ -716,7 +716,7 @@
   {
     "id": "epiphany-episcopal-church-forestville-3111-ritchie-rd-forestville-md",
     "name": "Epiphany Episcopal Church, Forestville",
-    "website": "http://www.epiphanyforestville.org/",
+    "website": "http://www.epiphanyforestville.org",
     "address": "3111 Ritchie Rd, Forestville, MD 20747",
     "state": "MD",
     "diocese": "Washington",
@@ -758,7 +758,7 @@
   {
     "id": "st-johns-broad-creek-9801-livingston-rd-fort-washington-md",
     "name": "St. John's, Broad Creek",
-    "website": "https://www.stjohnsbroadcreek.org/",
+    "website": "https://www.stjohnsbroadcreek.org",
     "address": "9801 Livingston Rd, Fort Washington, MD 20744",
     "state": "MD",
     "diocese": "Washington",
@@ -793,14 +793,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "Nursery available (per Asset Map)",
-    "formation": "Adult formation, Bible study, Men's Ministry, Women's Ministry (W.O.W.), Homework Helpers (Tue 7:00–8:30 PM), Fort Washington Food Pantry (Saturdays)",
+    "formation": "Adult formation, Bible study, Men's Ministry, Women's Ministry (W.O.W.), Homework Helpers (Tue 7:00-8:30 PM), Fort Washington Food Pantry (Saturdays)",
     "date_last_updated": "2026-11-14",
     "notes": "Parish site names no clergy (says 'our priest and our deacon'); clergy name/title from Asset Map only (Interim Rector); gender not confirmed so female_clergy N/A. Sunday time conflict: parish site says 9:30 AM in person and Facebook livestream; Asset Map lists 8:00 AM and 10:30 AM (stale). Parish site has a Facebook page livestream link (post URL, not page); livestream_url set to the Facebook page from Asset Map. Asset Map notes parish has been active 325+ years."
   },
   {
     "id": "church-of-the-ascension-gaithersburg-205-s-summit-ave-gaithersburg-md",
     "name": "Church of the Ascension, Gaithersburg",
-    "website": "https://ascensionmd.org/",
+    "website": "https://ascensionmd.org",
     "address": "205 S Summit Ave, Gaithersburg, MD 20877",
     "state": "MD",
     "diocese": "Washington",
@@ -835,14 +835,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "Godly Play Sunday school (preschool-5th grade, mid-Sept to mid-June); Youth Group (2nd and 4th Sundays 6:00–8:00 PM); adult formation; Education for Ministry; Bible study; Lord's Table soup kitchen volunteers; Equity and Justice Committee; Green Team",
+    "formation": "Godly Play Sunday school (preschool-5th grade, mid-Sept to mid-June); Youth Group (2nd and 4th Sundays 6:00-8:00 PM); adult formation; Education for Ministry; Bible study; Lord's Table soup kitchen volunteers; Equity and Justice Committee; Green Team",
     "date_last_updated": "2026-11-14",
     "notes": "Site describes the parish as 'progressive, multicultural' (no explicit SSM/alignment statement, so left N/A). Shares building (205 S Summit Ave) with St. Barnabas Church of the Deaf (separate record). Spanish 12:00 PM service is part of the same parish (Asset Map lists it under this entry), so no separate Spanish record. Site has 'Live Sunday Worship Services' link but URL not captured. Rite not stated explicitly on site; 8:00 AM described as classic Prayer Book liturgy. Rev. Tracey Forfa ordained priest July 2025 (female per 'she/her' on site); Rev. Rosa Briones deacon ordained Nov 2022 (female per her bio)."
   },
   {
     "id": "st-barnabas-church-of-the-deaf-205-s-summit-ave-gaithersburg-md",
     "name": "St. Barnabas Church of the Deaf",
-    "website": "http://stbarnabasdeaf.org/",
+    "website": "http://stbarnabasdeaf.org",
     "address": "205 S Summit Ave, Gaithersburg, MD 20877",
     "state": "MD",
     "diocese": "Washington",
@@ -884,7 +884,7 @@
   {
     "id": "st-nicholas-germantown-15575-germantown-rd-germantown-md",
     "name": "St. Nicholas, Germantown",
-    "website": "https://saintnicks.com/",
+    "website": "https://saintnicks.com",
     "address": "15575 Germantown Rd, Germantown, MD 20874",
     "state": "MD",
     "diocese": "Washington",
@@ -926,7 +926,7 @@
   {
     "id": "st-georges-glenn-dale-7010-glenn-dale-road-glenn-dale-md",
     "name": "St. George's, Glenn Dale",
-    "website": "https://stgeorgesglenndale.org/",
+    "website": "https://stgeorgesglenndale.org",
     "address": "7010 Glenn Dale Road, Glenn Dale, MD 20769",
     "state": "MD",
     "diocese": "Washington",
@@ -968,7 +968,7 @@
   {
     "id": "st-matthews-san-mateo-hyattsville-5901-36th-ave-hyattsville-md",
     "name": "St. Matthew's/San Mateo, Hyattsville",
-    "website": "https://stmatthewshyattsville.org/",
+    "website": "https://stmatthewshyattsville.org",
     "address": "5901 36th Ave, Hyattsville, MD 20782",
     "state": "MD",
     "diocese": "Washington",
@@ -1010,7 +1010,7 @@
   {
     "id": "st-james-indian-head-7-potomac-ave-indian-head-md",
     "name": "St. James, Indian Head",
-    "website": "https://www.stjamesindianhead.org/",
+    "website": "https://www.stjamesindianhead.org",
     "address": "7 Potomac Ave, Indian Head, MD 20640",
     "state": "MD",
     "diocese": "Washington",
@@ -1052,7 +1052,7 @@
   {
     "id": "christ-church-kensington-4001-franklin-st-kensington-md",
     "name": "Christ Church, Kensington",
-    "website": "https://christchurchkensington.org/",
+    "website": "https://christchurchkensington.org",
     "address": "4001 Franklin St, Kensington, MD 20895",
     "state": "MD",
     "diocese": "Washington",
@@ -1094,7 +1094,7 @@
   {
     "id": "christ-church-port-tobacco-112-e-charles-st-la-plata-md",
     "name": "Christ Church, Port Tobacco",
-    "website": "https://christchurchlaplata.org/",
+    "website": "https://christchurchlaplata.org",
     "address": "112 E Charles St, La Plata, MD 20646",
     "state": "MD",
     "diocese": "Washington",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-philips-laurel-522-main-street-laurel-md",
     "name": "St. Philip's, Laurel",
-    "website": "https://www.stphilipslaurel.org/",
+    "website": "https://www.stphilipslaurel.org",
     "address": "522 Main Street, Laurel, MD 20707",
     "state": "MD",
     "diocese": "Washington",
@@ -1178,7 +1178,7 @@
   {
     "id": "st-bartholomews-laytonsville-21611-laytonsville-rd-laytonsville-md",
     "name": "St. Bartholomew's, Laytonsville",
-    "website": "https://saintbartholomews.org/",
+    "website": "https://saintbartholomews.org",
     "address": "21611 Laytonsville Rd, Laytonsville, MD 20882",
     "state": "MD",
     "diocese": "Washington",
@@ -1212,15 +1212,15 @@
     "music_style": "Choir and organ",
     "accessibility": "Wheelchair-capable elevator on south side of church; handicap parking on both sides of building",
     "parking": "",
-    "childcare": "Sunday school concurrent with service (Sept–May)",
-    "formation": "Thu 10:30 AM Bible Study (Zoom); Sunday School Sept–May; adult book group; regional youth group",
+    "childcare": "Sunday school concurrent with service (Sept-May)",
+    "formation": "Thu 10:30 AM Bible Study (Zoom); Sunday School Sept-May; adult book group; regional youth group",
     "date_last_updated": "2026-11-14",
     "notes": "Part-time rector shared with St. Luke's, Brookeville (collaborative ministry). Rector gender not confirmed from title/pronoun. Site also streams on YouTube. Rite not stated."
   },
   {
     "id": "church-of-the-ascension-lexington-park-21641-great-mills-rd-lexington-park-md",
     "name": "Church of the Ascension, Lexington Park",
-    "website": "https://www.ascensionlp.org/",
+    "website": "https://www.ascensionlp.org",
     "address": "21641 Great Mills Rd, Lexington Park, MD 20653",
     "state": "MD",
     "diocese": "Washington",
@@ -1262,7 +1262,7 @@
   {
     "id": "all-faith-charlotte-hall-38885-new-market-turner-rd-mechanicsville-md",
     "name": "All Faith, Charlotte Hall",
-    "website": "https://www.allfaithchurch.com/",
+    "website": "https://www.allfaithchurch.com",
     "address": "38885 New Market Turner Rd, Mechanicsville, MD 20659",
     "state": "MD",
     "diocese": "Washington",
@@ -1304,7 +1304,7 @@
   {
     "id": "st-johns-mt-rainier-4112-34th-st-mount-rainier-md",
     "name": "St. John's, Mt. Rainier",
-    "website": "https://www.stjohnsmountrainier.org/",
+    "website": "https://www.stjohnsmountrainier.org",
     "address": "4112 34th St, Mount Rainier, MD 20712",
     "state": "MD",
     "diocese": "Washington",
@@ -1346,7 +1346,7 @@
   {
     "id": "christ-church-durham-8700-ironsides-rd-nanjemoy-md",
     "name": "Christ Church, Durham",
-    "website": "https://durhamparish.org/",
+    "website": "https://durhamparish.org",
     "address": "8700 Ironsides Rd, Nanjemoy, MD 20662",
     "state": "MD",
     "diocese": "Washington",
@@ -1381,14 +1381,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "Bible Study; Sacred Ground race dialogue circles; Daughters of the King; Joe's Place Food Pantry (2nd and 4th Thu 4:00–5:30 PM)",
+    "formation": "Bible Study; Sacred Ground race dialogue circles; Daughters of the King; Joe's Place Food Pantry (2nd and 4th Thu 4:00-5:30 PM)",
     "date_last_updated": "2026-11-14",
     "notes": "Livestream is via Zoom meetings ('most services'); site also links Facebook and YouTube. Deacon Fritz gender not confirmed by title/pronoun (bio uses first person). Rite not stated. Rector email from Asset Map."
   },
   {
     "id": "st-christophers-church-new-carrollton-8001-annapolis-rd-new-carrollton-md",
     "name": "St. Christopher's Church, New Carrollton",
-    "website": "https://www.stchrispgc.org/",
+    "website": "https://www.stchrispgc.org",
     "address": "8001 Annapolis Rd, New Carrollton, MD 20784",
     "state": "MD",
     "diocese": "Washington",
@@ -1430,7 +1430,7 @@
   {
     "id": "christ-church-wayside-13050-rock-point-rd-newburg-md",
     "name": "Christ Church, Wayside",
-    "website": "https://christchurchwayside.com/",
+    "website": "https://christchurchwayside.com",
     "address": "13050 Rock Point Rd, Newburg, MD 20664",
     "state": "MD",
     "diocese": "Washington",
@@ -1472,7 +1472,7 @@
   {
     "id": "st-johns-olney-3427-olney-laytonsville-rd-olney-md",
     "name": "St. John's, Olney",
-    "website": "https://stjec.org/",
+    "website": "https://stjec.org",
     "address": "3427 Olney Laytonsville Rd, Olney, MD 20832",
     "state": "MD",
     "diocese": "Washington",
@@ -1506,15 +1506,15 @@
     "music_style": "Classic and modern music; choir, piano, organ, handbell ringers",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery for children 5 and under, 10:00 AM–12:00 PM Sunday",
-    "formation": "9:00 AM Adult Forum (book and discussion group); Intergenerational Holy Household 9:30 AM; Middle and High School Youth Group Sunday 12–1 PM",
+    "childcare": "Nursery for children 5 and under, 10:00 AM-12:00 PM Sunday",
+    "formation": "9:00 AM Adult Forum (book and discussion group); Intergenerational Holy Household 9:30 AM; Middle and High School Youth Group Sunday 12-1 PM",
     "date_last_updated": "2026-11-14",
     "notes": "St. John's Episcopal School at same address excluded. Site uses 'Fr. Henry McQueen' for rector and 'Mo. Shivaun Wilkinson' for associate (female per site 'she'); Deacon Nancy Stockbridge ('she'). Site gives no parish email (associate@stjec.org, deacon@stjec.org, music@stjec.org published)."
   },
   {
     "id": "st-peters-poolesville-20100-fisher-ave-poolesville-md",
     "name": "St. Peter's, Poolesville",
-    "website": "https://www.stpeterspoolesville.org/",
+    "website": "https://www.stpeterspoolesville.org",
     "address": "20100 Fisher Ave, Poolesville, MD 20837",
     "state": "MD",
     "diocese": "Washington",
@@ -1548,7 +1548,7 @@
     "music_style": "Holy Eucharist with music; organist and director of music",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery 9:30 AM–12:00 PM Sunday (preschool age and younger)",
+    "childcare": "Nursery 9:30 AM-12:00 PM Sunday (preschool age and younger)",
     "formation": "Sunday 9:00 AM adult formation/coffee hour; 10:00 AM Sunday School; Education for Ministry; Bible study; youth group",
     "date_last_updated": "2026-11-14",
     "notes": "Summer schedule (June-September 1): single 9:00 AM service. 10:00 AM service broadcast live on Facebook (URL not captured). Gender of Deacon Sally Lermond not stated on site. Asset Map has Rector email elloyd@stpeterspoolesville.org (matches site)."
@@ -1556,7 +1556,7 @@
   {
     "id": "st-francis-episcopal-church-10033-river-rd-potomac-md",
     "name": "St. Francis Episcopal Church",
-    "website": "https://stfrancispotomac.org/",
+    "website": "https://stfrancispotomac.org",
     "address": "10033 River Rd, Potomac, MD 20854",
     "state": "MD",
     "diocese": "Washington",
@@ -1577,7 +1577,7 @@
     "church_email": "info@stfrancispotomac.org",
     "rector_phone": "",
     "rector_email": "mmichael@stfrancispotomac.org",
-    "sunday_services": "Sept–May: 8:00 AM Holy Eucharist; 9:15 AM Holy Eucharist with organ and choir. Summer (Memorial Day weekend-Labor Day weekend): 8:30 AM Morning Prayer with Communion from the Reserved Sacrament; 10:00 AM Holy Eucharist",
+    "sunday_services": "Sept-May: 8:00 AM Holy Eucharist; 9:15 AM Holy Eucharist with organ and choir. Summer (Memorial Day weekend-Labor Day weekend): 8:30 AM Morning Prayer with Communion from the Reserved Sacrament; 10:00 AM Holy Eucharist",
     "weekday_services": "Mon 8:00 AM Morning Prayer; Wed & Fri 8:30 AM Morning Prayer; Wed & Fri 4:00 PM Evening Prayer",
     "diocesan_bishop": "The Rt. Rev. Mariann Edgar Budde",
     "clergy_title": "",
@@ -1598,7 +1598,7 @@
   {
     "id": "st-james-potomac-11815-seven-locks-rd-potomac-md",
     "name": "St. James, Potomac",
-    "website": "https://stjamespotomac.org/",
+    "website": "https://stjamespotomac.org",
     "address": "11815 Seven Locks Rd, Potomac, MD 20854",
     "state": "MD",
     "diocese": "Washington",
@@ -1640,7 +1640,7 @@
   {
     "id": "christ-episcopal-parish-rockville-107-s-washington-st-rockville-md",
     "name": "Christ Episcopal Parish, Rockville",
-    "website": "https://www.christchurchrockville.org/",
+    "website": "https://www.christchurchrockville.org",
     "address": "107 S Washington St, Rockville, MD 20850",
     "state": "MD",
     "diocese": "Washington",
@@ -1682,7 +1682,7 @@
   {
     "id": "church-of-our-saviour-hillandale-1700-powder-mill-rd-silver-spring-md",
     "name": "Church of Our Saviour, Hillandale",
-    "website": "https://www.episcopalcos.org/",
+    "website": "https://www.episcopalcos.org",
     "address": "1700 Powder Mill Rd, Silver Spring, MD 20903",
     "state": "MD",
     "diocese": "Washington",
@@ -1717,14 +1717,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "Second Sunday of month 9:00–9:45 AM open conversation with rector; recovery/twelve step groups",
+    "formation": "Second Sunday of month 9:00-9:45 AM open conversation with rector; recovery/twelve step groups",
     "date_last_updated": "2026-11-14",
     "notes": "Site clergy page heads Rev. Francisco Valle as Rector but bio calls him Priest-in-Charge. Rev. Adela Vasquez headed 'Assistant Priest' but bio says ordained deacon Nov 2022 (female per bio) - recorded as Deacon. Site (copyright 2020-2021) partly dated. Rite from Asset Map; Spanish 1:00 PM Mass is this parish's own service (not a separate congregation)."
   },
   {
     "id": "church-of-the-ascension-sligo-parish-633-sligo-ave-silver-spring-md",
     "name": "Church of the Ascension, Sligo Parish",
-    "website": "https://ascensionsilverspring.org/",
+    "website": "https://ascensionsilverspring.org",
     "address": "633 Sligo Ave, Silver Spring, MD 20910",
     "state": "MD",
     "diocese": "Washington",
@@ -1758,15 +1758,15 @@
     "music_style": "Director of Music Ministries; choral groups and instrumental ensembles",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery 9:30–11:30 AM Sunday, year round",
-    "formation": "Sunday School 10–11 AM; Monday night study group series",
+    "childcare": "Nursery 9:30-11:30 AM Sunday, year round",
+    "formation": "Sunday School 10-11 AM; Monday night study group series",
     "date_last_updated": "2026-11-14",
     "notes": "Site Leadership page lists The Rev. Aaron R. Dunn as Rector (gender not stated); Asset Map lists The Rev. Dr. Joan E. Beilstein as Rector and The Rev. Terri Murphy as Deacon (stale; Terri Murphy not on site). Livestream of 10:00 AM Eucharist on YouTube."
   },
   {
     "id": "good-shepherd-episcopal-church-818-university-blvd-west-silver-spring-md",
     "name": "Good Shepherd Episcopal Church",
-    "website": "https://www.gsecmd.org/",
+    "website": "https://www.gsecmd.org",
     "address": "818 University Blvd West, Silver Spring, MD 20901",
     "state": "MD",
     "diocese": "Washington",
@@ -1808,7 +1808,7 @@
   {
     "id": "grace-church-silver-spring-1607-grace-church-rd-silver-spring-md",
     "name": "Grace Church, Silver Spring",
-    "website": "https://graceepiscopalchurch.org/",
+    "website": "https://graceepiscopalchurch.org",
     "address": "1607 Grace Church Rd, Silver Spring, MD 20910",
     "state": "MD",
     "diocese": "Washington",
@@ -1850,7 +1850,7 @@
   {
     "id": "st-marks-fairland-silver-spring-12621-old-columbia-pike-silver-spring-md",
     "name": "St. Mark's Fairland, Silver Spring",
-    "website": "https://stmarks-silverspring.org/",
+    "website": "https://stmarks-silverspring.org",
     "address": "12621 Old Columbia Pike, Silver Spring, MD 20904",
     "state": "MD",
     "diocese": "Washington",
@@ -1892,7 +1892,7 @@
   {
     "id": "st-mary-magdalene-episcopal-church-misa-magdalena-wheaton-parish-3820-aspen-hill-rd-silver-spring-md",
     "name": "St. Mary Magdalene Episcopal Church, Misa Magdalena, Wheaton Parish",
-    "website": "https://www.stmarymagdalene-md.org/",
+    "website": "https://www.stmarymagdalene-md.org",
     "address": "3820 Aspen Hill Rd, Silver Spring, MD 20906",
     "state": "MD",
     "diocese": "Washington",
@@ -1934,7 +1934,7 @@
   {
     "id": "transfiguration-parish-silver-spring-13925-new-hampshire-ave-silver-spring-md",
     "name": "Transfiguration Parish, Silver Spring",
-    "website": "https://transfig.org/",
+    "website": "https://transfig.org",
     "address": "13925 New Hampshire Ave, Silver Spring, MD 20904",
     "state": "MD",
     "diocese": "Washington",
@@ -1976,7 +1976,7 @@
   {
     "id": "trinity-church-st-marys-parish-47444-trinity-church-rd-st-marys-city-md",
     "name": "Trinity Church, St. Mary's Parish",
-    "website": "https://www.trinitysmcmd.com/",
+    "website": "https://www.trinitysmcmd.com",
     "address": "47444 Trinity Church Rd, St. Marys City, MD 20686",
     "state": "MD",
     "diocese": "Washington",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-barnabas-leeland-14111-oak-grove-rd-upper-marlboro-md",
     "name": "St. Barnabas, Leeland",
-    "website": "https://stbarnabas.net/",
+    "website": "https://stbarnabas.net",
     "address": "14111 Oak Grove Rd, Upper Marlboro, MD 20774",
     "state": "MD",
     "diocese": "Washington",
@@ -2102,7 +2102,7 @@
   {
     "id": "st-thomas-croom-14300-saint-thomas-church-rd-upper-marlboro-md",
     "name": "St. Thomas, Croom",
-    "website": "https://www.stthomascroom.org/",
+    "website": "https://www.stthomascroom.org",
     "address": "14300 Saint Thomas Church Rd, Upper Marlboro, MD 20772",
     "state": "MD",
     "diocese": "Washington",
@@ -2144,7 +2144,7 @@
   {
     "id": "trinity-upper-marlboro-14515-church-st-upper-marlboro-md",
     "name": "Trinity, Upper Marlboro",
-    "website": "https://trinityuppermarlboro.org/",
+    "website": "https://trinityuppermarlboro.org",
     "address": "14515 Church St, Upper Marlboro, MD 20772",
     "state": "MD",
     "diocese": "Washington",
@@ -2186,7 +2186,7 @@
   {
     "id": "st-georges-valley-lee-44965-blake-creek-rd-valley-lee-md",
     "name": "St. George's, Valley Lee",
-    "website": "https://www.stgeorgesvl.org/",
+    "website": "https://www.stgeorgesvl.org",
     "address": "44965 Blake Creek Rd, Valley Lee, MD 20650",
     "state": "MD",
     "diocese": "Washington",
@@ -2228,7 +2228,7 @@
   {
     "id": "st-pauls-piney-parish-4535-piney-church-rd-waldorf-md",
     "name": "St. Paul's (Piney Parish)",
-    "website": "https://stpaulswaldorf.org/",
+    "website": "https://stpaulswaldorf.org",
     "address": "4535 Piney Church Rd, Waldorf, MD 20602",
     "state": "MD",
     "diocese": "Washington",

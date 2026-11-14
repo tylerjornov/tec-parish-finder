@@ -44,7 +44,7 @@
   {
     "id": "st-augustine-of-canterbury-1630-silver-bluff-rd-aiken-sc",
     "name": "St. Augustine of Canterbury",
-    "website": "https://staaiken.us/",
+    "website": "https://staaiken.us",
     "address": "1630 Silver Bluff Rd, Aiken, SC 29803",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -86,7 +86,7 @@
   {
     "id": "st-thaddeus-episcopal-church-125-pendleton-st-sw-aiken-sc",
     "name": "St. Thaddeus Episcopal Church",
-    "website": "https://stthaddeus.org/",
+    "website": "https://stthaddeus.org",
     "address": "125 Pendleton St SW, Aiken, SC 29801",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -128,7 +128,7 @@
   {
     "id": "grace-episcopal-church-711-s-mcduffie-st-anderson-sc",
     "name": "Grace Episcopal Church",
-    "website": "https://gracechurchanderson.com/",
+    "website": "https://gracechurchanderson.com",
     "address": "711 S McDuffie St, Anderson, SC 29624",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -170,7 +170,7 @@
   {
     "id": "st-george-episcopal-church-2206-e-greenville-st-anderson-sc",
     "name": "St. George Episcopal Church",
-    "website": "https://www.stgeorgesanderson.org/",
+    "website": "https://www.stgeorgesanderson.org",
     "address": "2206 E Greenville St, Anderson, SC 29621",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -296,7 +296,7 @@
   {
     "id": "st-margaret-s-episcopal-church-4180-hwy-9-boiling-springs-sc",
     "name": "St. Margaret's Episcopal Church",
-    "website": "https://stmargaretsepiscopal.org/",
+    "website": "https://stmargaretsepiscopal.org",
     "address": "4180 Hwy 9, Boiling Springs, SC 29316",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -338,7 +338,7 @@
   {
     "id": "grace-episcopal-church-1315-lyttleton-st-camden-sc",
     "name": "Grace Episcopal Church",
-    "website": "https://gracechurchcamden.org/",
+    "website": "https://gracechurchcamden.org",
     "address": "1315 Lyttleton St, Camden, SC 29020",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -380,7 +380,7 @@
   {
     "id": "all-saints-episcopal-church-1001-12th-st-cayce-sc",
     "name": "All Saints' Episcopal Church",
-    "website": "https://allsaintscayce.org/",
+    "website": "https://allsaintscayce.org",
     "address": "1001 12th St, Cayce, SC 29033",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -422,7 +422,7 @@
   {
     "id": "st-francis-of-assisi-735-old-lexington-hwy-chapin-sc",
     "name": "St. Francis of Assisi",
-    "website": "https://www.stfrancischapin.org/",
+    "website": "https://www.stfrancischapin.org",
     "address": "735 Old Lexington Hwy, Chapin, SC 29036",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -506,7 +506,7 @@
   {
     "id": "holy-trinity-episcopal-church-193-old-greenville-hwy-clemson-sc",
     "name": "Holy Trinity Episcopal Church",
-    "website": "https://www.holytrinityclemson.org/",
+    "website": "https://www.holytrinityclemson.org",
     "address": "193 Old Greenville Hwy, Clemson, SC 29631",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -548,7 +548,7 @@
   {
     "id": "all-saints-episcopal-church-505-calvert-ave-clinton-sc",
     "name": "All Saints Episcopal Church",
-    "website": "https://www.allsaintsclinton.org/",
+    "website": "https://www.allsaintsclinton.org",
     "address": "505 Calvert Ave, Clinton, SC 29325",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -590,7 +590,7 @@
   {
     "id": "church-of-the-good-shepherd-columbia-sc",
     "name": "Church of the Good Shepherd",
-    "website": "http://www.goodshepherdcolumbia.org/",
+    "website": "http://www.goodshepherdcolumbia.org",
     "address": "1512 Blanding St, Columbia, SC 29201",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -632,7 +632,7 @@
   {
     "id": "st-david-s-episcopal-church-605-polo-rd-columbia-sc",
     "name": "St. David's Episcopal Church",
-    "website": "https://stdavidscolumbia.org/",
+    "website": "https://stdavidscolumbia.org",
     "address": "605 Polo Rd, Columbia, SC 29223",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -674,7 +674,7 @@
   {
     "id": "st-john-s-episcopal-church-2827-wheat-st-columbia-sc",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnscolumbia.org/",
+    "website": "https://stjohnscolumbia.org",
     "address": "2827 Wheat St, Columbia, SC 29205",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -716,7 +716,7 @@
   {
     "id": "st-luke-s-episcopal-church-1300-pine-st-columbia-sc",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukescolasc.org/",
+    "website": "https://www.stlukescolasc.org",
     "address": "1300 Pine St., Columbia, SC 29204",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -758,7 +758,7 @@
   {
     "id": "st-martins-in-the-fields-columbia-sc",
     "name": "St. Martin's-in-the-Fields",
-    "website": "https://www.smifsc.com/",
+    "website": "https://www.smifsc.com",
     "address": "5220 Clemson Ave, Columbia, SC 29206",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -792,7 +792,7 @@
     "music_style": "Choir and congregational singing (10:30 & 5 PM); spoken 8 AM with cantor chants",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery for infants–3-year-olds from 10:00 AM; Children's Sunday School 9:15–10:15 AM",
+    "childcare": "Nursery for infants–3-year-olds from 10:00 AM; Children's Sunday School 9:15-10:15 AM",
     "formation": "Children's Sunday School; Youth Group (EYC, Sun evenings); small-group studies; adult Sunday forum (9:15 AM); In the Fields podcast",
     "date_last_updated": "2026-10-09",
     "notes": ""
@@ -800,7 +800,7 @@
   {
     "id": "st-mary-s-episcopal-church-170-saint-andrews-rd-columbia-sc",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmaryscolumbia.org/",
+    "website": "https://www.stmaryscolumbia.org",
     "address": "170 Saint Andrews Rd, Columbia, SC 29210",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -842,7 +842,7 @@
   {
     "id": "st-michael-and-all-angels-6408-bridgewood-rd-columbia-sc",
     "name": "St. Michael and All Angels",
-    "website": "https://saintmichaelepiscopal.org/",
+    "website": "https://saintmichaelepiscopal.org",
     "address": "6408 Bridgewood Rd, Columbia, SC 29206",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -872,7 +872,7 @@
     "rite": "",
     "celebrant_position": "",
     "service_languages": "",
-    "livestream_url": "https://saintmichaelepiscopal.online.church/",
+    "livestream_url": "https://saintmichaelepiscopal.online.church",
     "music_style": "",
     "accessibility": "",
     "parking": "Two visitor parking spots directly in front of the church",
@@ -884,7 +884,7 @@
   {
     "id": "st-timothy-s-episcopal-church-900-calhoun-st-columbia-sc",
     "name": "St. Timothy's Episcopal Church",
-    "website": "https://www.sainttimothyscolumbia.com/",
+    "website": "https://www.sainttimothyscolumbia.com",
     "address": "900 Calhoun St, Columbia, SC 29201",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -926,7 +926,7 @@
   {
     "id": "the-episcopal-church-of-the-cross-7244-patterson-road-columbia-sc",
     "name": "The Episcopal Church of the Cross",
-    "website": "https://www.cotcsc.com/",
+    "website": "https://www.cotcsc.com",
     "address": "7244 Patterson Road, Columbia, SC 29209",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -968,7 +968,7 @@
   {
     "id": "trinity-episcopal-cathedral-columbia-sc",
     "name": "Trinity Episcopal Cathedral",
-    "website": "https://trinitysc.org/",
+    "website": "https://trinitysc.org",
     "address": "1100 Sumter St, Columbia, SC 29201",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -990,7 +990,7 @@
     "rector_phone": "",
     "rector_email": "cnations@trinitysc.org",
     "sunday_services": "8:00 AM Holy Eucharist (traditional language, no music, Keenan Chapel); 9:00 AM Holy Eucharist Rite II (hymns, choir); 11:15 AM Choral Eucharist Rite I (livestreamed); 4:00 PM Choral Evensong (livestreamed); 5:00 PM Holy Eucharist (spoken, modern language, Keenan Chapel)",
-    "weekday_services": "Mon–Fri 8:30 AM Morning Prayer with Holy Eucharist (Keenan Chapel); Thu 12:30 PM Holy Eucharist with prayers for healing (Keenan Chapel)",
+    "weekday_services": "Mon-Fri 8:30 AM Morning Prayer with Holy Eucharist (Keenan Chapel); Thu 12:30 PM Holy Eucharist with prayers for healing (Keenan Chapel)",
     "diocesan_bishop": "The Rt. Rev. Daniel P. Richards",
     "clergy_title": "",
     "rector_name": "The Very Rev. Cameron Nations",
@@ -1010,7 +1010,7 @@
   {
     "id": "st-michael-s-episcopal-church-1200-powdersville-rd-easley-sc",
     "name": "St. Michael's Episcopal Church",
-    "website": "https://stmec.org/",
+    "website": "https://stmec.org",
     "address": "1200 Powdersville Rd, Easley, SC 29642",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1094,7 +1094,7 @@
   {
     "id": "episcopal-church-of-the-ridge-trinity-church-313-simkins-street-edgefield-sc",
     "name": "Episcopal Church of the Ridge — Trinity Church",
-    "website": "https://www.churchoftheridge.org/",
+    "website": "https://www.churchoftheridge.org",
     "address": "313 Simkins Street, Edgefield, SC 29824",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-paul-s-episcopal-church-501-pine-st-fort-mill-sc",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsftmill.org/",
+    "website": "https://www.stpaulsftmill.org",
     "address": "501 Pine St, Fort Mill, SC 29715",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1178,7 +1178,7 @@
   {
     "id": "episcopal-church-of-the-incarnation-308-college-dr-gaffney-sc",
     "name": "Episcopal Church of the Incarnation",
-    "website": "https://www.incarnation-gaffney.org/",
+    "website": "https://www.incarnation-gaffney.org",
     "address": "308 College Dr, Gaffney, SC 29340",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1304,7 +1304,7 @@
   {
     "id": "christ-episcopal-church-10-n-church-st-greenville-sc",
     "name": "Christ Church Episcopal",
-    "website": "https://www.ccgsc.org/",
+    "website": "https://www.ccgsc.org",
     "address": "10 N Church St, Greenville, SC 29601",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1325,7 +1325,7 @@
     "church_email": "communications@ccgsc.org",
     "rector_phone": "",
     "rector_email": "",
-    "sunday_services": "8:00 AM Holy Eucharist Rite I (Chapel, unaccompanied); 10:30 AM Holy Eucharist Rite II (Church, Parish Choir); 10:30 AM Holy Eucharist Rite II (Chapel, contemporary feel; breaks for summer); 1st Sun 5:00 PM Choral Evensong (Oct–May); 2nd–5th Sun 5:00 PM Holy Eucharist Rite II (Chapel); 2nd Sun 3:00 PM Rhythms of Grace (Sept–May)",
+    "sunday_services": "8:00 AM Holy Eucharist Rite I (Chapel, unaccompanied); 10:30 AM Holy Eucharist Rite II (Church, Parish Choir); 10:30 AM Holy Eucharist Rite II (Chapel, contemporary feel; breaks for summer); 1st Sun 5:00 PM Choral Evensong (Oct-May); 2nd–5th Sun 5:00 PM Holy Eucharist Rite II (Chapel); 2nd Sun 3:00 PM Rhythms of Grace (Sept-May)",
     "weekday_services": "1st & 3rd Tue 5:00 PM Healing Eucharist; Wed 10:30 AM Holy Eucharist Rite I",
     "diocesan_bishop": "The Rt. Rev. Daniel P. Richards",
     "clergy_title": "",
@@ -1346,7 +1346,7 @@
   {
     "id": "church-of-the-redeemer-120-mauldin-rd-greenville-sc",
     "name": "Church of the Redeemer",
-    "website": "https://corgsc.org/",
+    "website": "https://corgsc.org",
     "address": "120 Mauldin Rd, Greenville, SC 29605",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1380,7 +1380,7 @@
     "music_style": "",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery Sundays 9:15–11:45 AM",
+    "childcare": "Nursery Sundays 9:15-11:45 AM",
     "formation": "Men's Breakfast and Study; Choir; Daughters of the King; Laundry Love outreach",
     "date_last_updated": "2026-10-09",
     "notes": ""
@@ -1388,7 +1388,7 @@
   {
     "id": "st-andrews-episcopal-church-greenville-sc",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewsgreenville.org/",
+    "website": "https://www.standrewsgreenville.org",
     "address": "1002 S Main St., Greenville, SC 29601",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1472,7 +1472,7 @@
   {
     "id": "st-james-episcopal-church-301-piney-mountain-rd-greenville-sc",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesgreenville.org/",
+    "website": "https://www.stjamesgreenville.org",
     "address": "301 Piney Mountain Rd, Greenville, SC 29609",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1514,7 +1514,7 @@
   {
     "id": "st-peter-s-episcopal-church-910-hudson-rd-greenville-sc",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpetersgreenville.com/",
+    "website": "https://www.stpetersgreenville.com",
     "address": "910 Hudson Rd, Greenville, SC 29615",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1556,7 +1556,7 @@
   {
     "id": "st-philip-s-church-31-allendale-ln-greenville-sc",
     "name": "St. Philip's Church",
-    "website": "https://www.stphilipsgreenville.com/",
+    "website": "https://www.stphilipsgreenville.com",
     "address": "31 Allendale Ln, Greenville, SC 29607",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1598,7 +1598,7 @@
   {
     "id": "church-of-the-resurrection-700-s-main-st-greenwood-sc",
     "name": "Church of the Resurrection",
-    "website": "https://episcopalgreenwood.org/",
+    "website": "https://episcopalgreenwood.org",
     "address": "700 S Main St, Greenwood, SC 29646",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1640,7 +1640,7 @@
   {
     "id": "church-of-the-good-shepherd-200-cannon-st-greer-sc",
     "name": "Church of the Good Shepherd",
-    "website": "https://www.goodshepherdgreer.org/",
+    "website": "https://www.goodshepherdgreer.org",
     "address": "200 Cannon St, Greer, SC 29651",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1682,7 +1682,7 @@
   {
     "id": "st-john-s-episcopal-church-1151-elm-savannah-road-hopkins-sc",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnscongaree.net/",
+    "website": "https://www.stjohnscongaree.net",
     "address": "1151 Elm Savannah Road, Hopkins, SC 29061",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1724,7 +1724,7 @@
   {
     "id": "episcopal-church-of-st-simon-st-jude-1110-kinley-rd-irmo-sc",
     "name": "Episcopal Church of St. Simon & St. Jude",
-    "website": "https://ecsssj.org/",
+    "website": "https://ecsssj.org",
     "address": "1110 Kinley Rd, Irmo, SC 29063",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1808,7 +1808,7 @@
   {
     "id": "christ-episcopal-church-534-plantation-rd-lancaster-sc",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchlancaster.com/",
+    "website": "https://www.christchurchlancaster.com",
     "address": "534 Plantation Rd, Lancaster, SC 29720",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1850,7 +1850,7 @@
   {
     "id": "church-of-the-epiphany-225-w-main-st-laurens-sc",
     "name": "Church of the Epiphany",
-    "website": "https://epiphanyoflaurens.org/",
+    "website": "https://epiphanyoflaurens.org",
     "address": "225 W Main St, Laurens, SC 29360",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1892,7 +1892,7 @@
   {
     "id": "st-alban-s-episcopal-church-403-park-rd-lexington-sc",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://www.stalbanschurch.org/",
+    "website": "https://www.stalbanschurch.org",
     "address": "403 Park Rd, Lexington, SC 29072",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1934,7 +1934,7 @@
   {
     "id": "st-luke-s-episcopal-church-1605-main-st-newberry-sc",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://stlukesnewberry.org/",
+    "website": "https://stlukesnewberry.org",
     "address": "1605 Main St, Newberry, SC 29108",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -1976,7 +1976,7 @@
   {
     "id": "st-bartholomew-s-episcopal-church-471-w-martintown-rd-north-augusta-sc",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "https://www.saintbart.org/",
+    "website": "https://www.saintbart.org",
     "address": "471 W Martintown Rd, North Augusta, SC 29841",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2018,7 +2018,7 @@
   {
     "id": "episcopal-church-of-the-ridge-grace-church-212-green-street-ridge-spring-sc",
     "name": "Episcopal Church of the Ridge — Grace Church",
-    "website": "https://www.churchoftheridge.org/",
+    "website": "https://www.churchoftheridge.org",
     "address": "212 Green Street, Ridge Spring, SC 29129",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-stephen-s-episcopal-church-307-longtown-rd-ridgeway-sc",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://ststephensridgeway.org/",
+    "website": "https://ststephensridgeway.org",
     "address": "307 Longtown Rd, Ridgeway, SC 29130",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2102,7 +2102,7 @@
   {
     "id": "episcopal-church-of-our-saviour-144-caldwell-st-rock-hill-sc",
     "name": "Episcopal Church of Our Saviour",
-    "website": "https://ecoos.org/",
+    "website": "https://ecoos.org",
     "address": "144 Caldwell St, Rock Hill, SC 29730",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2124,7 +2124,7 @@
     "rector_phone": "",
     "rector_email": "rectorecoos@gmail.com",
     "sunday_services": "9:30 AM Holy Eucharist Rite II with music (in person and online)",
-    "weekday_services": "Wed 12:00 noon Holy Eucharist and Healing (Sept–May)",
+    "weekday_services": "Wed 12:00 noon Holy Eucharist and Healing (Sept-May)",
     "diocesan_bishop": "The Rt. Rev. Daniel P. Richards",
     "clergy_title": "",
     "rector_name": "The Rev. Lucas Caine Crossland",
@@ -2136,15 +2136,15 @@
     "music_style": "",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery during Sunday service (Sept–May), infants through age 5",
-    "formation": "Sunday School for all ages after the service (Sept–May); coffee hour",
+    "childcare": "Nursery during Sunday service (Sept-May), infants through age 5",
+    "formation": "Sunday School for all ages after the service (Sept-May); coffee hour",
     "date_last_updated": "2026-10-09",
     "notes": ""
   },
   {
     "id": "church-of-the-ascension-214-northampton-rd-seneca-sc",
     "name": "Church of the Ascension",
-    "website": "https://www.ascensionseneca.org/",
+    "website": "https://www.ascensionseneca.org",
     "address": "214 Northampton Rd, Seneca, SC 29672",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2186,7 +2186,7 @@
   {
     "id": "holy-cross-episcopal-church-205-e-college-st-simpsonville-sc",
     "name": "Holy Cross Episcopal Church",
-    "website": "https://www.holycrossep.org/",
+    "website": "https://www.holycrossep.org",
     "address": "205 E College St, Simpsonville, SC 29681",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2220,7 +2220,7 @@
     "music_style": "Spectrum from traditional to more contemporary Christian music",
     "accessibility": "",
     "parking": "",
-    "childcare": "Holy Cross Academy weekday day care (infant, toddler, elementary); Sunday nursery for infants–age 4, 7:45–11:30 AM; Children's Chapel Sept–May",
+    "childcare": "Holy Cross Academy weekday day care (infant, toddler, elementary); Sunday nursery for infants–age 4, 7:45-11:30 AM; Children's Chapel Sept-May",
     "formation": "Children's formation (first communion, fellowship); children's and youth ministries",
     "date_last_updated": "2026-10-09",
     "notes": ""
@@ -2270,7 +2270,7 @@
   {
     "id": "episcopal-church-of-the-advent-141-advent-st-spartanburg-sc",
     "name": "Episcopal Church of the Advent",
-    "website": "https://churchofadvent.org/",
+    "website": "https://churchofadvent.org",
     "address": "141 Advent St, Spartanburg, SC 29302",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2292,7 +2292,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM Holy Eucharist Rite One (traditional language); 10:15 AM Holy Eucharist Rite Two (principal service, music; incense sometimes on Major Feasts)",
-    "weekday_services": "Mon–Fri 8:15 AM Morning Prayer (Olney Chapel); Wed 5:15 PM Vessels of Grace Holy Eucharist (Olney Chapel)",
+    "weekday_services": "Mon-Fri 8:15 AM Morning Prayer (Olney Chapel); Wed 5:15 PM Vessels of Grace Holy Eucharist (Olney Chapel)",
     "diocesan_bishop": "The Rt. Rev. Daniel P. Richards",
     "clergy_title": "",
     "rector_name": "The Rev. Richard G. Proctor",
@@ -2304,7 +2304,7 @@
     "music_style": "Music throughout most of the principal liturgy; incense on some Major Feasts",
     "accessibility": "",
     "parking": "",
-    "childcare": "Sunday nursery 9:00–11:30 AM, infants to 4 years (Parish and Community Life Center), professional staff and trained volunteers",
+    "childcare": "Sunday nursery 9:00-11:30 AM, infants to 4 years (Parish and Community Life Center), professional staff and trained volunteers",
     "formation": "Men's Group Dinner; Wednesday Night Dinners & program; adult confirmation class; Sunday School",
     "date_last_updated": "2026-10-09",
     "notes": ""
@@ -2354,7 +2354,7 @@
   {
     "id": "st-christopher-s-church-episcopal-400-dupre-dr-spartanburg-sc",
     "name": "St. Christopher's Church Episcopal",
-    "website": "https://stchrisepiscopal.org/",
+    "website": "https://stchrisepiscopal.org",
     "address": "400 Dupre Dr, Spartanburg, SC 29307",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2376,7 +2376,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM Holy Eucharist (Rite II)",
-    "weekday_services": "Wed 10:30–11:30 AM Morning Prayer and Bible Study; seasonal weeknight Evening Prayer or Compline",
+    "weekday_services": "Wed 10:30-11:30 AM Morning Prayer and Bible Study; seasonal weeknight Evening Prayer or Compline",
     "diocesan_bishop": "The Rt. Rev. Daniel P. Richards",
     "clergy_title": "",
     "rector_name": "",
@@ -2396,7 +2396,7 @@
   {
     "id": "st-matthew-s-episcopal-church-101-saint-matthews-ln-spartanburg-sc",
     "name": "St. Matthew's Episcopal Church",
-    "website": "https://stmatthewsepiscopal.org/",
+    "website": "https://stmatthewsepiscopal.org",
     "address": "101 Saint Matthews Ln, Spartanburg, SC 29301",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2438,7 +2438,7 @@
   {
     "id": "episcopal-church-of-the-ridge-our-saviour-212-church-street-trenton-sc",
     "name": "Episcopal Church of the Ridge — Our Saviour",
-    "website": "https://www.churchoftheridge.org/",
+    "website": "https://www.churchoftheridge.org",
     "address": "212 Church Street, Trenton, SC 29847",
     "state": "SC",
     "diocese": "Upper South Carolina",
@@ -2564,7 +2564,7 @@
   {
     "id": "church-of-the-good-shepherd-108-e-liberty-st-york-sc",
     "name": "Church of the Good Shepherd",
-    "website": "https://www.goodshepherdyork.org/",
+    "website": "https://www.goodshepherdyork.org",
     "address": "108 E Liberty St, York, SC 29745",
     "state": "SC",
     "diocese": "Upper South Carolina",

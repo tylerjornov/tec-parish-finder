@@ -2,7 +2,7 @@
   {
     "id": "st-john-and-st-marks-episcopal-church-2425-cherry-laurel-ln-albany-ga",
     "name": "St. John & St. Mark's Episcopal Church",
-    "website": "https://stjohnandstmark.wordpress.com/",
+    "website": "https://stjohnandstmark.wordpress.com",
     "address": "2425 Cherry Laurel Ln, Albany, GA 31705-4507",
     "state": "GA",
     "diocese": "Georgia",
@@ -44,7 +44,7 @@
   {
     "id": "st-patricks-episcopal-church-4800-old-dawson-rd-albany-ga",
     "name": "St. Patrick's Episcopal Church",
-    "website": "https://stpatricksalbany.org/",
+    "website": "https://stpatricksalbany.org",
     "address": "4800 Old Dawson Rd, Albany, GA 31721-9151",
     "state": "GA",
     "diocese": "Georgia",
@@ -86,7 +86,7 @@
   {
     "id": "st-patricks-lutheran-episcopal-church-4800-old-dawson-road-albany-ga",
     "name": "St. Patrick's Episcopal Church",
-    "website": "http://www.stpatricksalbany.org/",
+    "website": "http://www.stpatricksalbany.org",
     "address": "4800 Old Dawson Road, Albany, GA 31721",
     "state": "GA",
     "diocese": "Georgia",
@@ -128,7 +128,7 @@
   {
     "id": "st-pauls-episcopal-church-212-n-jefferson-st-albany-ga",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulsalbany.org/",
+    "website": "http://stpaulsalbany.org",
     "address": "212 N Jefferson St, Albany, GA 31701-4892",
     "state": "GA",
     "diocese": "Georgia",
@@ -170,7 +170,7 @@
   {
     "id": "calvary-episcopal-church-408-s-lee-st-americus-ga",
     "name": "Calvary Episcopal Church",
-    "website": "http://www.calvaryepiscopalamericus.org/",
+    "website": "http://www.calvaryepiscopalamericus.org",
     "address": "408 S Lee St, Americus, GA 31709-3918",
     "state": "GA",
     "diocese": "Georgia",
@@ -212,7 +212,7 @@
   {
     "id": "christ-church-1904-greene-st-augusta-ga",
     "name": "Christ Church",
-    "website": "http://christchurchaugusta.georgiaepiscopal.org/",
+    "website": "http://christchurchaugusta.georgiaepiscopal.org",
     "address": "1904 Greene St, Augusta, GA 30904-3906",
     "state": "GA",
     "diocese": "Georgia",
@@ -254,7 +254,7 @@
   {
     "id": "church-of-the-good-shepherd-2230-walton-way-augusta-ga",
     "name": "Church of the Good Shepherd",
-    "website": "https://cogsaugusta.org/",
+    "website": "https://cogsaugusta.org",
     "address": "2230 Walton Way, Augusta, GA 30904-4302",
     "state": "GA",
     "diocese": "Georgia",
@@ -296,7 +296,7 @@
   {
     "id": "saint-pauls-church-605-reynolds-st-augusta-ga",
     "name": "Saint Paul's Church",
-    "website": "http://www.saintpauls.org/",
+    "website": "http://www.saintpauls.org",
     "address": "605 Reynolds St, Augusta, GA 30901",
     "state": "GA",
     "diocese": "Georgia",
@@ -380,7 +380,7 @@
   {
     "id": "st-augustine-of-canterbury-3321-wheeler-rd-augusta-ga",
     "name": "St. Augustine of Canterbury",
-    "website": "http://www.st-augustines.org/",
+    "website": "http://www.st-augustines.org",
     "address": "3321 Wheeler Rd, Augusta, GA 30909-3104",
     "state": "GA",
     "diocese": "Georgia",
@@ -422,7 +422,7 @@
   {
     "id": "st-marys-church-1114-12th-st-augusta-ga",
     "name": "St. Mary's Church",
-    "website": "https://stmarysaugusta.org/",
+    "website": "https://stmarysaugusta.org",
     "address": "1114 12th St, Augusta, GA 30901-2706",
     "state": "GA",
     "diocese": "Georgia",
@@ -590,7 +590,7 @@
   {
     "id": "st-athanasius-episcopal-church-1321-albany-st-brunswick-ga",
     "name": "St. Athanasius Episcopal Church",
-    "website": "http://saintachurch.org/",
+    "website": "http://saintachurch.org",
     "address": "1321 Albany St, Brunswick, GA 31520-7238",
     "state": "GA",
     "diocese": "Georgia",
@@ -632,7 +632,7 @@
   {
     "id": "st-marks-episcopal-church-900-gloucester-st-brunswick-ga",
     "name": "St. Mark's Episcopal Church",
-    "website": "http://www.saintmarksepiscopal.com/",
+    "website": "http://www.saintmarksepiscopal.com",
     "address": "900 Gloucester St, Brunswick, GA 31520-7048",
     "state": "GA",
     "diocese": "Georgia",
@@ -716,7 +716,7 @@
   {
     "id": "christ-episcopal-church-408-s-1st-st-cordele-ga",
     "name": "Christ Episcopal Church",
-    "website": "https://cordeleepiscopal.org/",
+    "website": "https://cordeleepiscopal.org",
     "address": "408 S 1st St, Cordele, GA 31015-1573",
     "state": "GA",
     "diocese": "Georgia",
@@ -738,7 +738,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM (coffee hour 10:30 AM; Bible study 11:00 AM); summer 'Worship on the Water' at Lake Blackshear, late May–late July",
-    "weekday_services": "Mon–Fri Morning Prayer (via Zoom)",
+    "weekday_services": "Mon-Fri Morning Prayer (via Zoom)",
     "diocesan_bishop": "The Rt. Rev. Frank S. Logue",
     "clergy_title": "",
     "rector_name": "",
@@ -758,7 +758,7 @@
   {
     "id": "st-andrews-episcopal-church-310-greene-st-darien-ga",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://standrewsdarien.org/",
+    "website": "https://standrewsdarien.org",
     "address": "301 Washington St, Darien, GA 31305",
     "state": "GA",
     "diocese": "Georgia",
@@ -780,7 +780,7 @@
     "rector_phone": "",
     "rector_email": "rector@standrewsdarien.org",
     "sunday_services": "11:15 AM Holy Eucharist, Rite II, with music (coffee hour 10:00 AM; adult lectionary class and children's Sunday School 10:20 AM, except summer)",
-    "weekday_services": "Mon–Fri 7:15 AM Morning Prayer",
+    "weekday_services": "Mon-Fri 7:15 AM Morning Prayer",
     "diocesan_bishop": "The Rt. Rev. Frank S. Logue",
     "clergy_title": "Rector",
     "rector_name": "The Rev. Michael Gumulauskas",
@@ -800,7 +800,7 @@
   {
     "id": "st-cyprian-episcopal-church-401-fort-king-george-dr-darien-ga",
     "name": "St. Cyprian Episcopal Church",
-    "website": "https://stcypriansdarien.org/",
+    "website": "https://stcypriansdarien.org",
     "address": "401 Fort King George Dr, Darien, GA 31305",
     "state": "GA",
     "diocese": "Georgia",
@@ -884,7 +884,7 @@
   {
     "id": "st-andrews-episcopal-church-204-south-coffee-avenue-douglas-ga",
     "name": "St. Andrew's Episcopal Church",
-    "website": "http://standrewsdouglas.org/",
+    "website": "http://standrewsdouglas.org",
     "address": "204 South Coffee Avenue, Douglas, GA 31533",
     "state": "GA",
     "diocese": "Georgia",
@@ -926,7 +926,7 @@
   {
     "id": "christ-church-318-academy-ave-dublin-ga",
     "name": "Christ Church",
-    "website": "https://christepiscopaldublin.org/",
+    "website": "https://christepiscopaldublin.org",
     "address": "318 Academy Ave, Dublin, GA 31021-5220",
     "state": "GA",
     "diocese": "Georgia",
@@ -1094,7 +1094,7 @@
   {
     "id": "st-lukes-episcopal-church-138-s-dooley-st-hawkinsville-ga",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukeshawkinsville.org/",
+    "website": "https://www.stlukeshawkinsville.org",
     "address": "138 S Dooley St, Hawkinsville, GA 31036",
     "state": "GA",
     "diocese": "Georgia",
@@ -1136,7 +1136,7 @@
   {
     "id": "church-of-the-atonement-2616-tobacco-rd-hephzibah-ga",
     "name": "Church of the Atonement",
-    "website": "http://www.atonementepiscopal.org/",
+    "website": "http://www.atonementepiscopal.org",
     "address": "2616 Tobacco Rd, Hephzibah, GA 30815-7015",
     "state": "GA",
     "diocese": "Georgia",
@@ -1220,7 +1220,7 @@
   {
     "id": "st-pauls-episcopal-church-745-s-palm-st-jesup-ga",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulsjesup.org/",
+    "website": "http://stpaulsjesup.org",
     "address": "745 S Palm St, Jesup, GA 31546",
     "state": "GA",
     "diocese": "Georgia",
@@ -1262,7 +1262,7 @@
   {
     "id": "king-of-peace-6230-laurel-island-pkwy-kingsland-ga",
     "name": "King of Peace",
-    "website": "http://kingofpeace.org/",
+    "website": "http://kingofpeace.org",
     "address": "6230 Laurel Island Pkwy, Kingsland, GA 31548-6056",
     "state": "GA",
     "diocese": "Georgia",
@@ -1346,7 +1346,7 @@
   {
     "id": "holy-comforter-church-473-furys-ferry-road-martinez-ga",
     "name": "Holy Comforter Church",
-    "website": "http://www.holycomforterchurch.org/",
+    "website": "http://www.holycomforterchurch.org",
     "address": "473 Fury's Ferry road, Martinez, GA 30907-8236",
     "state": "GA",
     "diocese": "Georgia",
@@ -1380,7 +1380,7 @@
     "music_style": "Choir; blend of contemporary and traditional hymns",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery for infants and children up to age five during the service (parents get pagers); children's Christian Education 9:15 AM Sept–May",
+    "childcare": "Nursery for infants and children up to age five during the service (parents get pagers); children's Christian Education 9:15 AM Sept-May",
     "formation": "",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -1388,7 +1388,7 @@
   {
     "id": "our-savior-episcopal-church-4227-columbia-rd-martinez-ga",
     "name": "Our Savior Episcopal Church",
-    "website": "https://www.oursaviorepiscopal.org/",
+    "website": "https://www.oursaviorepiscopal.org",
     "address": "4227 Columbia Rd, Martinez, GA 30907-1466",
     "state": "GA",
     "diocese": "Georgia",
@@ -1472,7 +1472,7 @@
   {
     "id": "st-patricks-episcopal-church-1285-pine-barren-rd-pooler-ga",
     "name": "St. Patrick's Episcopal Church",
-    "website": "https://www.stpatrickspooler.org/",
+    "website": "https://www.stpatrickspooler.org",
     "address": "1285 Pine Barren Rd, Pooler, GA 31322",
     "state": "GA",
     "diocese": "Georgia",
@@ -1556,7 +1556,7 @@
   {
     "id": "st-elizabeth-of-hungary-16491-ga-highway-144-richmond-hill-ga",
     "name": "St. Elizabeth of Hungary",
-    "website": "https://www.saintelizabethsrh.com/",
+    "website": "https://www.saintelizabethsrh.com",
     "address": "16491 GA Highway 144, Richmond Hill, GA 31324-5367",
     "state": "GA",
     "diocese": "Georgia",
@@ -1598,7 +1598,7 @@
   {
     "id": "st-lukes-episcopal-church-155-goshen-rd-rincon-ga",
     "name": "St. Luke's Episcopal Church",
-    "website": "http://www.saintlukesrincon.com/",
+    "website": "http://www.saintlukesrincon.com",
     "address": "155 Goshen Rd, Rincon, GA 31326-5546",
     "state": "GA",
     "diocese": "Georgia",
@@ -1682,7 +1682,7 @@
   {
     "id": "grace-episcopal-church-114-2nd-ave-w-sandersville-ga",
     "name": "Grace Episcopal Church",
-    "website": "https://www.graceepiscopalsandersville.org/",
+    "website": "https://www.graceepiscopalsandersville.org",
     "address": "114 2nd Ave W, Sandersville, GA 31082",
     "state": "GA",
     "diocese": "Georgia",
@@ -1724,7 +1724,7 @@
   {
     "id": "christ-church-episcopal-28-bull-street-savannah-ga",
     "name": "Christ Church Episcopal",
-    "website": "https://christchurchsavannah.org/",
+    "website": "https://christchurchsavannah.org",
     "address": "28 Bull Street, Savannah, GA 31401",
     "state": "GA",
     "diocese": "Georgia",
@@ -1766,7 +1766,7 @@
   {
     "id": "st-bartholomews-chapel-burroughs-wild-heron-at-chevis-road-savannah-ga",
     "name": "St. Bartholomew's Chapel, Burroughs",
-    "website": "https://stbartholomewssavannah.georgiaepiscopal.org/",
+    "website": "https://stbartholomewssavannah.georgiaepiscopal.org",
     "address": "Wild Heron at Chevis Road, Savannah, GA 31419",
     "state": "GA",
     "diocese": "Georgia",
@@ -1842,7 +1842,7 @@
     "music_style": "",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery 8:45–11:15 AM on Sundays",
+    "childcare": "Nursery 8:45-11:15 AM on Sundays",
     "formation": "Adult faith formation; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Boy Scouts; Choir; Daughters of the King; Education for Ministry (EFM); Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Neighborhood associations; Nursery",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -1850,7 +1850,7 @@
   {
     "id": "st-georges-episcopal-church-15-willow-rd-savannah-ga",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.stgeorgessavannah.com/",
+    "website": "https://www.stgeorgessavannah.com",
     "address": "15 Willow Rd, Savannah, GA 31419-2627",
     "state": "GA",
     "diocese": "Georgia",
@@ -1892,7 +1892,7 @@
   {
     "id": "st-johns-episcopal-church-325-bull-street-savannah-ga",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnssav.org/",
+    "website": "https://stjohnssav.org",
     "address": "325 Bull Street, Savannah, GA 31401-4399",
     "state": "GA",
     "diocese": "Georgia",
@@ -1934,7 +1934,7 @@
   {
     "id": "st-matthews-episcopal-church-1401-martin-luther-king-jr-blvd-savannah-ga",
     "name": "St. Matthew's Episcopal Church",
-    "website": "https://www.stmattsav.org/",
+    "website": "https://www.stmattsav.org",
     "address": "1401 Martin Luther King Jr Blvd, Savannah, GA 31415-7201",
     "state": "GA",
     "diocese": "Georgia",
@@ -1976,7 +1976,7 @@
   {
     "id": "st-paul-the-apostle-canon-t-porter-ball-memorial-parish-house-savannah-ga",
     "name": "St. Paul the Apostle",
-    "website": "https://stpaulsavannah.org/",
+    "website": "https://stpaulsavannah.org",
     "address": "1802 Abercorn Street, Savannah, GA 31401",
     "state": "GA",
     "diocese": "Georgia",
@@ -2018,7 +2018,7 @@
   {
     "id": "st-peters-episcopal-church-3-west-ridge-rd-savannah-ga",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpsav.org/",
+    "website": "https://www.stpsav.org",
     "address": "3 West Ridge Rd, Savannah, GA 31411-2951",
     "state": "GA",
     "diocese": "Georgia",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-thomas-episcopal-church-2-saint-thomas-ave-savannah-ga",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://www.stthomasioh.org/",
+    "website": "http://www.stthomasioh.org",
     "address": "2 Saint Thomas Ave, Savannah, GA 31406-7533",
     "state": "GA",
     "diocese": "Georgia",
@@ -2102,7 +2102,7 @@
   {
     "id": "christ-church-frederica-6329-frederica-rd-st-simons-island-ga",
     "name": "Christ Church, Frederica",
-    "website": "http://ccfssi.org/",
+    "website": "http://ccfssi.org",
     "address": "6329 Frederica Rd, St Simons Island, GA 31522-5812",
     "state": "GA",
     "diocese": "Georgia",
@@ -2144,7 +2144,7 @@
   {
     "id": "church-of-the-holy-nativity-615-mallery-st-st-simons-island-ga",
     "name": "Church of the Holy Nativity",
-    "website": "http://holynativityssi.org/",
+    "website": "http://holynativityssi.org",
     "address": "615 Mallery St, St Simons Island, GA 31522-4018",
     "state": "GA",
     "diocese": "Georgia",
@@ -2186,7 +2186,7 @@
   {
     "id": "trinity-episcopal-church-4401-country-club-rd-statesboro-ga",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinitystatesboro.org/",
+    "website": "http://www.trinitystatesboro.org",
     "address": "4401 Country Club Rd, Statesboro, GA 30458",
     "state": "GA",
     "diocese": "Georgia",
@@ -2228,7 +2228,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-621-w-main-st-swainsboro-ga",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "https://goodshepherdswainsboro.georgiaepiscopal.org/",
+    "website": "https://goodshepherdswainsboro.georgiaepiscopal.org",
     "address": "621 W Main St, Swainsboro, GA 30401-3108",
     "state": "GA",
     "diocese": "Georgia",
@@ -2270,7 +2270,7 @@
   {
     "id": "all-saints-episcopal-church-443-s-hansell-st-thomasville-ga",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaintsthomasville.org/",
+    "website": "http://www.allsaintsthomasville.org",
     "address": "443 S Hansell St, Thomasville, GA 31792-5512",
     "state": "GA",
     "diocese": "Georgia",
@@ -2304,7 +2304,7 @@
     "music_style": "",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery and Children's Church in the Parish Hall, 9:00–10:15 AM and 10:30–11:45 AM on Sundays",
+    "childcare": "Nursery and Children's Church in the Parish Hall, 9:00-10:15 AM and 10:30-11:45 AM on Sundays",
     "formation": "Young adult group; Youth group",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -2312,7 +2312,7 @@
   {
     "id": "church-of-the-good-shepherd-515-n-oak-st-thomasville-ga",
     "name": "Church of the Good Shepherd",
-    "website": "https://goodshepherdthomasville.georgiaepiscopal.org/",
+    "website": "https://goodshepherdthomasville.georgiaepiscopal.org",
     "address": "515 N Oak St, Thomasville, GA 31792-5046",
     "state": "GA",
     "diocese": "Georgia",
@@ -2354,7 +2354,7 @@
   {
     "id": "st-thomas-episcopal-church-216-remington-ave-thomasville-ga",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://www.stthomasthomasville.org/",
+    "website": "http://www.stthomasthomasville.org",
     "address": "216 Remington Ave, Thomasville, GA 31792-5521",
     "state": "GA",
     "diocese": "Georgia",
@@ -2396,7 +2396,7 @@
   {
     "id": "holy-cross-episcopal-church-515-fluker-st-thomson-ga",
     "name": "Holy Cross Episcopal Church",
-    "website": "https://holycrossthomson.wordpress.com/",
+    "website": "https://holycrossthomson.wordpress.com",
     "address": "515 Fluker St, Thomson, GA 30824",
     "state": "GA",
     "diocese": "Georgia",
@@ -2438,7 +2438,7 @@
   {
     "id": "st-annes-episcopal-church-2411-central-ave-n-tifton-ga",
     "name": "St. Anne's Episcopal Church",
-    "website": "http://stannestifton.com/",
+    "website": "http://stannestifton.com",
     "address": "2411 Central Ave. N., Tifton, GA 31794",
     "state": "GA",
     "diocese": "Georgia",
@@ -2460,7 +2460,7 @@
     "rector_phone": "",
     "rector_email": "fathernathan@stannestifton.com",
     "sunday_services": "10:00 AM Holy Eucharist",
-    "weekday_services": "Mon–Thu 8:30 AM Morning Prayer (Little St. Anne's Chapel); Wed 6:00 PM Holy Eucharist",
+    "weekday_services": "Mon-Thu 8:30 AM Morning Prayer (Little St. Anne's Chapel); Wed 6:00 PM Holy Eucharist",
     "diocesan_bishop": "The Rt. Rev. Frank S. Logue",
     "clergy_title": "",
     "rector_name": "The Rev. Nathan Wilson",
@@ -2480,7 +2480,7 @@
   {
     "id": "all-saints-episcopal-church-804-jones-ave-tybee-island-ga",
     "name": "All Saints' Episcopal Church",
-    "website": "https://www.allsaintstybee.com/",
+    "website": "https://www.allsaintstybee.com",
     "address": "804 Jones Ave, Tybee Island, GA 31328-0727",
     "state": "GA",
     "diocese": "Georgia",
@@ -2522,7 +2522,7 @@
   {
     "id": "christ-church-1521-n-patterson-st-valdosta-ga",
     "name": "Christ Church",
-    "website": "http://www.christchurchvaldosta.org/",
+    "website": "http://www.christchurchvaldosta.org",
     "address": "1521 N Patterson St, Valdosta, GA 31602-3848",
     "state": "GA",
     "diocese": "Georgia",
@@ -2564,7 +2564,7 @@
   {
     "id": "christ-the-king-episcopal-church-101-e-central-ave-valdosta-ga",
     "name": "Christ the King Episcopal Church",
-    "website": "http://www.christthekingvaldosta.org/",
+    "website": "http://www.christthekingvaldosta.org",
     "address": "110 McKey St, Valdosta, GA 31601",
     "state": "GA",
     "diocese": "Georgia",
@@ -2606,7 +2606,7 @@
   {
     "id": "st-barnabas-episcopal-church-3565-bemiss-rd-valdosta-ga",
     "name": "St. Barnabas Episcopal Church",
-    "website": "https://saintbarnabasvaldosta.org/",
+    "website": "https://saintbarnabasvaldosta.org",
     "address": "3565 Bemiss Rd, Valdosta, GA 31605",
     "state": "GA",
     "diocese": "Georgia",
@@ -2648,7 +2648,7 @@
   {
     "id": "church-of-the-annunciation-1512-meadows-lane-vidalia-ga",
     "name": "Church of the Annunciation",
-    "website": "http://www.annunciationvidalia.org/",
+    "website": "http://www.annunciationvidalia.org",
     "address": "1512 Meadows Lane, Vidalia, GA 30474-4425",
     "state": "GA",
     "diocese": "Georgia",
@@ -2690,7 +2690,7 @@
   {
     "id": "grace-episcopal-church-401-pendleton-st-waycross-ga",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracechurchwaycross.com/",
+    "website": "https://www.gracechurchwaycross.com",
     "address": "401 Pendleton St, Waycross, GA 31501-3645",
     "state": "GA",
     "diocese": "Georgia",
@@ -2732,7 +2732,7 @@
   {
     "id": "st-michaels-episcopal-church-515-s-liberty-st-waynesboro-ga",
     "name": "St. Michael's Episcopal Church",
-    "website": "http://stmichaelswaynesboro.org/",
+    "website": "http://stmichaelswaynesboro.org",
     "address": "515 S Liberty St, Waynesboro, GA 30830-1508",
     "state": "GA",
     "diocese": "Georgia",

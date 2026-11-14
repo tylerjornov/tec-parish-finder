@@ -28,12 +28,12 @@ spelling of the title.
 
 Emails (church_email, rector_email, and any address in other_contact) are lowercased.
 
-URLs (website, livestream_url): a bare domain gets a trailing slash ("https://x.org" -> "https://x.org/").
+URLs (website, livestream_url): a bare domain has no trailing slash ("https://x.org/" -> "https://x.org").
 http:// is not upgraded, because not every site serves https.
 
 Text: curly quotes become straight ones in every field. In the service and detail fields, an em dash after a
 service time is dropped ("11:00 AM — Holy Eucharist" -> "11:00 AM Holy Eucharist"), and time, day and month
-ranges use an en dash ("9:15-11:45 AM" -> "9:15–11:45 AM", "Mon-Fri" -> "Mon–Fri", "Sept - May" -> "Sept–May").
+ranges use a plain hyphen with no spaces ("9:15–11:45 AM" -> "9:15-11:45 AM", "Mon – Fri" -> "Mon-Fri", "Sept - May" -> "Sept-May").
 "notes" is freeform: it is only checked for curly quotes and otherwise kept exactly as typed.
 
     python3 tools/normalize_data.py              # fix data/states/**.json and data/wip-dioceses/**.json, then rebuild parishes.json
@@ -89,9 +89,9 @@ _QUOTES = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"'})
 _EMAIL = re.compile(r"[\w.+-]+@[\w-]+(?:\.[\w-]+)+")
 _BARE_DOMAIN = re.compile(r"https?://[^/?#\s]+", re.I)
 _TIME = r"\d{1,2}(?::\d\d)?\s?[AP]M"
-_TIME_RANGE = re.compile(r"(\d{1,2}(?::\d\d)?(?:\s?[AP]M)?)\s*[-—]\s*(?=" + _TIME + r"\b)")
+_TIME_RANGE = re.compile(r"(\d{1,2}(?::\d\d)?(?:\s?[AP]M)?)\s*[-—–]\s*(?=" + _TIME + r"\b)")
 _NAMES = r"(?:Mon|Tues?|Wed|Thu(?:rs?)?|Fri|Sat|Sun|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept?|Oct|Nov|Dec)"
-_NAME_RANGE = re.compile(r"\b(" + _NAMES + r")\.?\s*[-—]\s*(?=" + _NAMES + r"\b)")
+_NAME_RANGE = re.compile(r"\b(" + _NAMES + r")\.?\s*[-—–]\s*(?=" + _NAMES + r"\b)")
 _TIME_EM_DASH = re.compile(r"\b([AP]M)\s+—\s+")
 _SUFFIX = re.compile(r"(?<=[\s,])(Ii|Iii|Iv|Vi|Vii|Viii)(?=[\s,.;(]|$)")
 _DEGREES = [
@@ -205,8 +205,8 @@ def format_email(value: str) -> str:
 
 
 def format_url(value: str) -> str:
-    if isinstance(value, str) and _BARE_DOMAIN.fullmatch(value.strip()):
-        return value.strip() + "/"
+    if isinstance(value, str) and value.strip().endswith("/") and _BARE_DOMAIN.fullmatch(value.strip()[:-1]):
+        return value.strip()[:-1]
     return value
 
 
@@ -214,8 +214,8 @@ def format_prose(value: str) -> str:
     if not isinstance(value, str) or not value:
         return value
     value = _TIME_EM_DASH.sub(r"\1 ", value)
-    value = _TIME_RANGE.sub(r"\1–", value)
-    return _NAME_RANGE.sub(r"\1–", value)
+    value = _TIME_RANGE.sub(r"\1-", value)
+    return _NAME_RANGE.sub(r"\1-", value)
 
 
 def normalize_record(r: dict, path: Path, unreadable: list[str]) -> list[tuple[str, object, object]]:

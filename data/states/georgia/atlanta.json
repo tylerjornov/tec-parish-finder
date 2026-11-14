@@ -2,7 +2,7 @@
   {
     "id": "st-teresas-episcopal-church-5725-fords-rd-nw-acworth-ga",
     "name": "St. Teresa's Episcopal Church",
-    "website": "https://stteresasacworth.com/",
+    "website": "https://stteresasacworth.com",
     "address": "5725 Fords Rd NW, Acworth, GA 30101-4674",
     "state": "GA",
     "diocese": "Atlanta",
@@ -44,7 +44,7 @@
   {
     "id": "emmanuel-episcopal-church-498-prince-ave-athens-ga",
     "name": "Emmanuel Episcopal Church",
-    "website": "https://www.emmanuelathens.org/",
+    "website": "https://www.emmanuelathens.org",
     "address": "498 Prince Ave, Athens, GA 30601-2449",
     "state": "GA",
     "diocese": "Atlanta",
@@ -86,7 +86,7 @@
   {
     "id": "st-gregory-the-great-episcopal-church-3195-barnett-shoals-rd-athens-ga",
     "name": "St. Gregory the Great Episcopal Church",
-    "website": "https://www.stgregoryathens.org/",
+    "website": "https://www.stgregoryathens.org",
     "address": "3195 Barnett Shoals Rd, Athens, GA 30605-4327",
     "state": "GA",
     "diocese": "Atlanta",
@@ -128,7 +128,7 @@
   {
     "id": "all-saints-episcopal-church-634-w-peachtree-st-nw-atlanta-ga",
     "name": "All Saints' Episcopal Church",
-    "website": "https://allsaintsatlanta.org/",
+    "website": "https://allsaintsatlanta.org",
     "address": "634 W Peachtree St NW, Atlanta, GA 30308-1981",
     "state": "GA",
     "diocese": "Atlanta",
@@ -162,7 +162,7 @@
     "music_style": "Choral music at 9:00 and 11:15 AM; jazz combo at The Welcome Table (5:00 PM); 8:00 AM without music",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery for birth through Pre-K, Sundays 8:30 AM–12:30 PM; Children's Church",
+    "childcare": "Nursery for birth through Pre-K, Sundays 8:30 AM-12:30 PM; Children's Church",
     "formation": "",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -170,7 +170,7 @@
   {
     "id": "church-of-our-saviour-1068-n-highland-ave-ne-atlanta-ga",
     "name": "Church of Our Saviour",
-    "website": "https://www.oursaviouratlanta.com/",
+    "website": "https://www.oursaviouratlanta.com",
     "address": "1068 N Highland Ave NE, Atlanta, GA 30306",
     "state": "GA",
     "diocese": "Atlanta",
@@ -192,7 +192,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM Holy Mass with incense, Rite I (livestreamed; nursery provided)",
-    "weekday_services": "Mon–Thu 9:00 AM Morning Prayer/Angelus (Lady Chapel); Tue 11:30 AM Holy Rosary; Tue 12:10 PM Holy Mass; Thu 5:45–6:45 PM Confessions; Thu 7:00 PM Holy Mass (no incense at weekday Masses)",
+    "weekday_services": "Mon-Thu 9:00 AM Morning Prayer/Angelus (Lady Chapel); Tue 11:30 AM Holy Rosary; Tue 12:10 PM Holy Mass; Thu 5:45-6:45 PM Confessions; Thu 7:00 PM Holy Mass (no incense at weekday Masses)",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "",
     "rector_name": "The Rev. Melanie Rowell",
@@ -212,7 +212,7 @@
   {
     "id": "church-of-the-common-ground-po-box-4548-atlanta-ga",
     "name": "Church of the Common Ground",
-    "website": "http://www.churchofthecommonground.org/",
+    "website": "http://www.churchofthecommonground.org",
     "address": "435 Peachtree St NE, Atlanta, GA 30308",
     "state": "GA",
     "diocese": "Atlanta",
@@ -254,7 +254,7 @@
   {
     "id": "church-of-the-holy-comforter-737-woodland-ave-se-atlanta-ga",
     "name": "Church of the Holy Comforter",
-    "website": "https://www.holycomforter-atlanta.org/",
+    "website": "https://www.holycomforter-atlanta.org",
     "address": "737 Woodland Ave SE, Atlanta, GA 30316-2454",
     "state": "GA",
     "diocese": "Atlanta",
@@ -296,7 +296,7 @@
   {
     "id": "church-of-the-incarnation-2407-cascade-rd-sw-atlanta-ga",
     "name": "Church of the Incarnation",
-    "website": "https://www.incaratl.org/",
+    "website": "https://www.incaratl.org",
     "address": "2407 Cascade Rd SW, Atlanta, GA 30311-3225",
     "state": "GA",
     "diocese": "Atlanta",
@@ -318,7 +318,7 @@
     "rector_phone": "",
     "rector_email": "revlynnewincarnation@gmail.com",
     "sunday_services": "11:00 AM (in person and on Facebook Live)",
-    "weekday_services": "Mon–Fri 9:00 AM Morning Prayer (Zoom); Mon–Fri 7:30 PM Evening Prayer (Zoom); Tue–Thu 9:00 PM Compline (Zoom); Wed 12:00 PM Noonday Prayer & Bible Study (Zoom); Thu 7:30 PM Evening Prayer with the Daughters of the King (Zoom)",
+    "weekday_services": "Mon-Fri 9:00 AM Morning Prayer (Zoom); Mon-Fri 7:30 PM Evening Prayer (Zoom); Tue-Thu 9:00 PM Compline (Zoom); Wed 12:00 PM Noonday Prayer & Bible Study (Zoom); Thu 7:30 PM Evening Prayer with the Daughters of the King (Zoom)",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "Priest-in-Charge",
     "rector_name": "The Rev. Dr. Lynne E. Washington",
@@ -338,7 +338,7 @@
   {
     "id": "emmaus-house-1017-hank-aaron-dr-sw-atlanta-ga",
     "name": "Emmaus House Chapel",
-    "website": "https://www.emmaushouseatlanta.org/",
+    "website": "https://www.emmaushouseatlanta.org",
     "address": "993 Hank Aaron Dr SW, Atlanta, GA 30315",
     "state": "GA",
     "diocese": "Atlanta",
@@ -380,7 +380,7 @@
   {
     "id": "episcopal-community-foundation-for-middle-and-north-georgia-2744-peachtree-rd-nw-atlanta-ga",
     "name": "Episcopal Community Foundation for Middle and North Georgia",
-    "website": "https://episcopalcommunityfoundation.org/",
+    "website": "https://episcopalcommunityfoundation.org",
     "address": "2744 Peachtree RD NW, Atlanta, GA 30305",
     "state": "GA",
     "diocese": "Atlanta",
@@ -422,7 +422,7 @@
   {
     "id": "grace-house-182-5th-street-nw-atlanta-ga",
     "name": "Grace House",
-    "website": "http://www.gracepeople.org/",
+    "website": "http://www.gracepeople.org",
     "address": "182 5th Street NW, Atlanta, GA 30313",
     "state": "GA",
     "diocese": "Atlanta",
@@ -464,7 +464,7 @@
   {
     "id": "holy-innocents-805-mount-vernon-hwy-nw-atlanta-ga",
     "name": "Holy Innocents' Episcopal Church",
-    "website": "http://www.holyinnocents.org/",
+    "website": "http://www.holyinnocents.org",
     "address": "805 Mount Vernon Hwy NW, Atlanta, GA 30327-4321",
     "state": "GA",
     "diocese": "Atlanta",
@@ -506,7 +506,7 @@
   {
     "id": "new-american-pathways-2300-henderson-mill-road-ne-atlanta-ga",
     "name": "New American Pathways",
-    "website": "http://www.newamericanpathways.org/",
+    "website": "http://www.newamericanpathways.org",
     "address": "2300 Henderson Mill Rd NE, Suite 100, Atlanta, GA 30345",
     "state": "GA",
     "diocese": "Atlanta",
@@ -548,7 +548,7 @@
   {
     "id": "st-annes-episcopal-church-and-day-school-3098-saint-annes-ln-nw-atlanta-ga",
     "name": "St Anne's Episcopal Church and Day School",
-    "website": "https://www.saintannes.com/",
+    "website": "https://www.saintannes.com",
     "address": "3098 Saint Anne's Ln NW, Atlanta, GA 30327",
     "state": "GA",
     "diocese": "Atlanta",
@@ -590,7 +590,7 @@
   {
     "id": "st-bartholomews-episcopal-church-1790-la-vista-rd-ne-atlanta-ga",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "https://www.stbartsatlanta.org/",
+    "website": "https://www.stbartsatlanta.org",
     "address": "1790 La Vista Rd NE, Atlanta, GA 30329-3604",
     "state": "GA",
     "diocese": "Atlanta",
@@ -632,7 +632,7 @@
   {
     "id": "st-bedes-episcopal-church-2601-henderson-mill-rd-ne-atlanta-ga",
     "name": "St. Bede's Episcopal Church",
-    "website": "https://www.stbedes.org/",
+    "website": "https://www.stbedes.org",
     "address": "2601 Henderson Mill Rd NE, Atlanta, GA 30345-2199",
     "state": "GA",
     "diocese": "Atlanta",
@@ -674,7 +674,7 @@
   {
     "id": "st-dunstans-episcopal-church-4393-garmon-rd-nw-atlanta-ga",
     "name": "St. Dunstan's Episcopal Church",
-    "website": "https://stdunstan.net/",
+    "website": "https://stdunstan.net",
     "address": "4393 Garmon Rd NW, Atlanta, GA 30327",
     "state": "GA",
     "diocese": "Atlanta",
@@ -716,7 +716,7 @@
   {
     "id": "st-dunstans-episcopal-church-4393-garmon-rd-nw-atlanta-ga-2",
     "name": "St. Dunstan's Episcopal Church",
-    "website": "https://stdunstan.net/",
+    "website": "https://stdunstan.net",
     "address": "4393 Garmon Rd NW, Atlanta, GA 30327-3831",
     "state": "GA",
     "diocese": "Atlanta",
@@ -758,7 +758,7 @@
   {
     "id": "st-lukes-episcopal-church-435-peachtree-st-ne-atlanta-ga",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukesatlanta.org/",
+    "website": "https://www.stlukesatlanta.org",
     "address": "435 Peachtree St NE, Atlanta, GA 30308-3228",
     "state": "GA",
     "diocese": "Atlanta",
@@ -792,7 +792,7 @@
     "music_style": "Anglican choral tradition — choir and organ at 11:15 AM; congregational singing at 9:00 AM; 8:00 AM spoken",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery Sundays 8:45 AM–12:45 PM for ages 0–4; Children's Chapel (Pre-K–5th) during the 9:00 AM service",
+    "childcare": "Nursery Sundays 8:45 AM-12:45 PM for ages 0–4; Children's Chapel (Pre-K–5th) during the 9:00 AM service",
     "formation": "Adult faith formation; Habitat for Humanity; Youth faith formation/Sunday school; Young adult group; Journey to Adulthood (J2A); Godly Play; Eucharistic Ministers/Visitors; Education for Ministry (EFM); Daughters of the King; Choir; Bible study; Youth group",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -800,7 +800,7 @@
   {
     "id": "st-martin-in-the-fields-episcopal-church-3110-ashford-dunwoody-rd-ne-atlanta-ga",
     "name": "St. Martin in the Fields Episcopal Church",
-    "website": "https://www.stmartins.org/",
+    "website": "https://www.stmartins.org",
     "address": "3110 Ashford Dunwoody Rd NE, Atlanta, GA 30319-2972",
     "state": "GA",
     "diocese": "Atlanta",
@@ -842,7 +842,7 @@
   {
     "id": "st-pauls-episcopal-church-306-peyton-rd-sw-atlanta-ga",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://stpaulsatl.org/",
+    "website": "http://stpaulsatl.org",
     "address": "306 Peyton Rd SW, Atlanta, GA 30311-2134",
     "state": "GA",
     "diocese": "Atlanta",
@@ -884,7 +884,7 @@
   {
     "id": "the-cathedral-of-st-philip-2744-peachtree-rd-nw-atlanta-ga",
     "name": "The Cathedral of St. Philip",
-    "website": "https://www.cathedralATL.org/",
+    "website": "https://www.cathedralATL.org",
     "address": "2744 Peachtree Rd NW, Atlanta, GA 30305-2920",
     "state": "GA",
     "diocese": "Atlanta",
@@ -906,7 +906,7 @@
     "rector_phone": "",
     "rector_email": "scandler@cathedralatl.org",
     "sunday_services": "7:45 AM Holy Eucharist (Mikell Chapel, traditional, no music); 8:45 AM Holy Eucharist with music (Children's Chapel; livestreamed); 11:15 AM Holy Eucharist (choral; livestreamed); 11:15 AM Santa Eucaristía en Español (Mikell Chapel); 4:00 PM Choral Evensong (September–May); 5:22 PM Contemplative Eucharist (Good Faith Chapel)",
-    "weekday_services": "Mon–Sat 8:45 AM Morning Prayer (Mikell Chapel); Mon–Fri 12:15 PM Holy Eucharist (Good Faith Chapel; Fridays include Healing Service); 3rd Mon 7:00 PM labyrinth walk and Taizé Prayers for Peace",
+    "weekday_services": "Mon-Sat 8:45 AM Morning Prayer (Mikell Chapel); Mon-Fri 12:15 PM Holy Eucharist (Good Faith Chapel; Fridays include Healing Service); 3rd Mon 7:00 PM labyrinth walk and Taizé Prayers for Peace",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "",
     "rector_name": "The Very Rev. Samuel G. Candler",
@@ -918,7 +918,7 @@
     "music_style": "Anglican choral tradition; Choral Evensong Sundays at 4:00 PM (September–May)",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nurturing Center Sundays 8:30 AM–1:00 PM for children 4 and under; Children's Chapel (age 4–5th grade) during the 8:45 AM service",
+    "childcare": "Nurturing Center Sundays 8:30 AM-1:00 PM for children 4 and under; Children's Chapel (age 4–5th grade) during the 8:45 AM service",
     "formation": "Adult faith formation; Habitat for Humanity; Youth faith formation/Sunday school; Young adult group; Preschool; Nursery; Men's group; Godly Play; Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Eucharistic Ministers/Visitors; Episcopal Church Women (ECW); Education for Ministry (EFM)",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -1010,7 +1010,7 @@
   {
     "id": "st-clares-episcopal-church-777-ledford-rd-blairsville-ga",
     "name": "St. Clare's Episcopal Church",
-    "website": "http://stclaresepiscopal.org/",
+    "website": "http://stclaresepiscopal.org",
     "address": "777 Ledford Rd, Blairsville, GA 30512-3110",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1032,7 +1032,7 @@
     "rector_phone": "",
     "rector_email": "liz@stclaresepiscopal.org",
     "sunday_services": "10:30 AM (in person and on Facebook); 3rd Sundays 6:30 PM Choral Compline (Assisi Chapel; also on Facebook)",
-    "weekday_services": "Mon–Fri 8:00 AM Morning Prayer (Facebook only); Mon–Fri 7:30 PM Compline (Facebook only); Wed 11:30 AM Centering Prayer (Assisi Chapel); Wed 12:15 PM Holy Eucharist (Assisi Chapel, in person only)",
+    "weekday_services": "Mon-Fri 8:00 AM Morning Prayer (Facebook only); Mon-Fri 7:30 PM Compline (Facebook only); Wed 11:30 AM Centering Prayer (Assisi Chapel); Wed 12:15 PM Holy Eucharist (Assisi Chapel, in person only)",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "",
     "rector_name": "The Rev. Liz Schellingerhoudt",
@@ -1052,7 +1052,7 @@
   {
     "id": "st-mary-and-st-martha-of-bethany-4346-ridge-road-buford-ga",
     "name": "St. Mary & St Martha of Bethany",
-    "website": "http://smmbuford.org/",
+    "website": "http://smmbuford.org",
     "address": "4346 Ridge Road, Buford, GA 30519-4210",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1094,7 +1094,7 @@
   {
     "id": "st-timothys-episcopal-church-224-trammell-st-calhoun-ga",
     "name": "St. Timothy's Episcopal Church",
-    "website": "https://www.sttimothycalhoun.org/",
+    "website": "https://www.sttimothycalhoun.org",
     "address": "224 Trammell St, Calhoun, GA 30701-2218",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-clements-episcopal-church-2795-ridge-rd-canton-ga",
     "name": "St. Clement's Episcopal Church",
-    "website": "https://www.stclementscanton.org/",
+    "website": "https://www.stclementscanton.org",
     "address": "2795 Ridge Rd, Canton, GA 30114-9501",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1178,7 +1178,7 @@
   {
     "id": "st-margarets-episcopal-church-602-newnan-st-carrollton-ga",
     "name": "St. Margaret's Episcopal Church",
-    "website": "https://www.stmargaretsga.com/",
+    "website": "https://www.stmargaretsga.com",
     "address": "606 Newnan St, Carrollton, GA 30117",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1220,7 +1220,7 @@
   {
     "id": "church-of-the-ascension-205-w-cherokee-ave-cartersville-ga",
     "name": "Church of the Ascension",
-    "website": "http://www.ascensioncartersville.org/",
+    "website": "http://www.ascensioncartersville.org",
     "address": "205 W Cherokee Ave, Cartersville, GA 30120-3003",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1262,7 +1262,7 @@
   {
     "id": "st-james-episcopal-church-302-west-ave-cedartown-ga",
     "name": "St. James' Episcopal Church",
-    "website": "https://stjamescedartown.org/",
+    "website": "https://stjamescedartown.org",
     "address": "302 West Ave., Cedartown, GA 30125-3422",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1304,7 +1304,7 @@
   {
     "id": "grace-calvary-episcopal-church-295-e-green-st-clarkesville-ga",
     "name": "Grace-Calvary Episcopal Church",
-    "website": "http://grace-calvary.org/",
+    "website": "http://grace-calvary.org",
     "address": "260 E Green St, Clarkesville, GA 30523",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1346,7 +1346,7 @@
   {
     "id": "st-james-episcopal-church-260-warwoman-rd-clayton-ga",
     "name": "St. James Episcopal Church",
-    "website": "http://www.stjamesclayton.org/",
+    "website": "http://www.stjamesclayton.org",
     "address": "260 Warwoman Rd., Clayton, GA 30525",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1388,7 +1388,7 @@
   {
     "id": "st-johns-episcopal-church-3480-east-main-st-college-park-ga",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnscollegepark.org/",
+    "website": "https://www.stjohnscollegepark.org",
     "address": "3480 East Main St, College Park, GA 30337-2099",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1430,7 +1430,7 @@
   {
     "id": "chattahoochee-valley-episcopal-ministries-1120-lockwood-ave-columbus-ga",
     "name": "Chattahoochee Valley Episcopal Ministry",
-    "website": "http://www.cvemjubilee.org/",
+    "website": "http://www.cvemjubilee.org",
     "address": "1120 Lockwood Ave., Columbus, GA 31906",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1514,7 +1514,7 @@
   {
     "id": "st-thomas-episcopal-church-2100-hilton-ave-columbus-ga",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.stthomascolumbus.org/",
+    "website": "https://www.stthomascolumbus.org",
     "address": "2100 Hilton Ave, Columbus, GA 31906-1500",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1556,7 +1556,7 @@
   {
     "id": "trinity-episcopal-church-1130-1st-ave-columbus-ga",
     "name": "Trinity Episcopal Church",
-    "website": "http://www.trinityepiscopalchurch.com/",
+    "website": "http://www.trinityepiscopalchurch.com",
     "address": "1130 1st Ave, Columbus, GA 31901-2404",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1598,7 +1598,7 @@
   {
     "id": "st-simons-episcopal-church-1522-highway-138-ne-conyers-ga",
     "name": "St. Simon's Episcopal Church",
-    "website": "https://www.stsimonsconyers.org/",
+    "website": "https://www.stsimonsconyers.org",
     "address": "1522 Highway 138 NE, Conyers, GA 30013-1266",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1640,7 +1640,7 @@
   {
     "id": "church-of-the-good-shepherd-4140-clark-st-sw-covington-ga",
     "name": "Church of the Good Shepherd",
-    "website": "https://www.goodshepherdcovington.org/",
+    "website": "https://www.goodshepherdcovington.org",
     "address": "4140 Clark St SW, Covington, GA 30014-2713",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1662,7 +1662,7 @@
     "rector_phone": "",
     "rector_email": "cgse.mgdupree@gmail.com",
     "sunday_services": "10:30 AM Holy Eucharist, Rite II (hymns, choir; on YouTube); 2nd & 3rd Sundays 8:00 AM Holy Eucharist, Rite I",
-    "weekday_services": "Mon–Fri 8:30 AM Morning Prayer (online, Zoom); Wed 6:00 PM",
+    "weekday_services": "Mon-Fri 8:30 AM Morning Prayer (online, Zoom); Wed 6:00 PM",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "Priest-in-Charge",
     "rector_name": "The Rev. Dr. Mary Grace DuPree",
@@ -1682,7 +1682,7 @@
   {
     "id": "episcopal-church-of-the-holy-spirit-724-pilgrim-mill-rd-cumming-ga",
     "name": "Episcopal Church of the Holy Spirit",
-    "website": "http://www.ecohs.net/",
+    "website": "http://www.ecohs.net",
     "address": "724 Pilgrim Mill Rd, Cumming, GA 30040-2151",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-elizabeths-episcopal-church-1188-hamp-mill-rd-dahlonega-ga",
     "name": "St. Elizabeth's Episcopal Church",
-    "website": "http://stelizabethepiscopal.com/",
+    "website": "http://stelizabethepiscopal.com",
     "address": "1188 Hamp Mill Rd, Dahlonega, GA 30533-4872",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1745,7 +1745,7 @@
     "church_email": "stelizabethdahlonega@gmail.com",
     "rector_phone": "",
     "rector_email": "",
-    "sunday_services": "10:30 AM (streamed on YouTube and Facebook); 4th Sundays (Jan–Oct) 7:00 PM Celtic Vespers",
+    "sunday_services": "10:30 AM (streamed on YouTube and Facebook); 4th Sundays (Jan-Oct) 7:00 PM Celtic Vespers",
     "weekday_services": "Tue 10:30 AM",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "",
@@ -1766,7 +1766,7 @@
   {
     "id": "st-marks-episcopal-church-901-w-emery-st-dalton-ga",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksepiscopaldalton.org/",
+    "website": "https://www.stmarksepiscopaldalton.org",
     "address": "901 W Emery St, Dalton, GA 30720",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1808,7 +1808,7 @@
   {
     "id": "church-of-the-holy-cross-2005-s-columbia-pl-decatur-ga",
     "name": "Church of the Holy Cross",
-    "website": "http://www.holy-cross.org/",
+    "website": "http://www.holy-cross.org",
     "address": "2005 S Columbia Pl, Decatur, GA 30032-5945",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1892,7 +1892,7 @@
   {
     "id": "holy-trinity-parish-515-e-ponce-deleon-ave-decatur-ga",
     "name": "Holy Trinity Parish",
-    "website": "https://HolyTrinityDecatur.org/",
+    "website": "https://HolyTrinityDecatur.org",
     "address": "515 E Ponce DeLeon Ave, Decatur, GA 30030-1941",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1934,7 +1934,7 @@
   {
     "id": "st-timothys-episcopal-church-2833-flat-shoals-rd-decatur-ga",
     "name": "St. Timothy's Episcopal Church",
-    "website": "http://sttimothysdecatur.org/",
+    "website": "http://sttimothysdecatur.org",
     "address": "2833 Flat Shoals Rd, Decatur, GA 30034-1040",
     "state": "GA",
     "diocese": "Atlanta",
@@ -1976,7 +1976,7 @@
   {
     "id": "the-episcopal-church-of-the-epiphany-712-tuxworth-circle-decatur-ga",
     "name": "The Episcopal Church of the Epiphany",
-    "website": "https://www.epiphany.org/",
+    "website": "https://www.epiphany.org",
     "address": "712 Tuxworth Circle, Decatur, GA 30033-5620",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2018,7 +2018,7 @@
   {
     "id": "st-julians-episcopal-church-5400-stewart-mill-rd-douglasville-ga",
     "name": "St. Julian's Episcopal Church",
-    "website": "http://www.saintjulians.org/",
+    "website": "http://www.saintjulians.org",
     "address": "5400 Stewart Mill Rd, Douglasville, GA 30135-2545",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-patricks-episcopal-church-4755-n-peachtree-rd-atlanta-ga",
     "name": "St. Patrick's Episcopal Church",
-    "website": "https://stpat.net/",
+    "website": "https://stpat.net",
     "address": "4755 N Peachtree Rd, Dunwoody, GA 30338",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2144,7 +2144,7 @@
   {
     "id": "all-angels-episcopal-church-405-n-jefferson-st-eatonton-ga",
     "name": "All Angels Episcopal Church",
-    "website": "https://www.allangels-eatonton.org/",
+    "website": "https://www.allangels-eatonton.org",
     "address": "405 N Jefferson Ave, Eatonton, GA 31024",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2186,7 +2186,7 @@
   {
     "id": "st-albans-episcopal-church-109-brookside-dr-elberton-ga",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://www.stalbanselberton.org/",
+    "website": "https://www.stalbanselberton.org",
     "address": "109 Brookside Dr, Elberton, GA 30635-2503",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2228,7 +2228,7 @@
   {
     "id": "church-of-the-nativity-130-antioch-rd-fayetteville-ga",
     "name": "Church of the Nativity",
-    "website": "http://nativityepiscopal.org/",
+    "website": "http://nativityepiscopal.org",
     "address": "130 Antioch Rd, Fayetteville, GA 30215-5701",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2354,7 +2354,7 @@
   {
     "id": "grace-episcopal-church-431-washington-st-se-gainesville-ga",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracechurchgainesville.org/",
+    "website": "https://www.gracechurchgainesville.org",
     "address": "431 Washington St SE, Gainesville, GA 30501-3612",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2396,7 +2396,7 @@
   {
     "id": "northeast-georgia-regional-422-brenau-avenue-gainesville-ga",
     "name": "Northeast Georgia Regional",
-    "website": "https://www.gracechurchgainesville.org/",
+    "website": "https://www.gracechurchgainesville.org",
     "address": "422 Brenau Avenue, Gainesville, GA 30501",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2438,7 +2438,7 @@
   {
     "id": "episcopal-church-of-the-redeemer-303-n-main-st-greensboro-ga",
     "name": "Episcopal Church of the Redeemer",
-    "website": "https://www.greensborogaepiscopal.org/",
+    "website": "https://www.greensborogaepiscopal.org",
     "address": "303 N Main St, Greensboro, GA 30642-1137",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2480,7 +2480,7 @@
   {
     "id": "st-georges-episcopal-church-132-n-10th-st-griffin-ga",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.saintgeorges.org/",
+    "website": "https://www.saintgeorges.org",
     "address": "132 N 10th St, Griffin, GA 30223-2841",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2522,7 +2522,7 @@
   {
     "id": "st-nicholas-episcopal-church-69-mobley-rd-hamilton-ga",
     "name": "St. Nicholas Episcopal Church",
-    "website": "http://www.stnicholashamilton.org/",
+    "website": "http://www.stnicholashamilton.org",
     "address": "69 Mobley Rd, Hamilton, GA 31811-6092",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2564,7 +2564,7 @@
   {
     "id": "st-andrews-episcopal-church-579-fairview-ave-hartwell-ga",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewshartwell.org/",
+    "website": "https://www.standrewshartwell.org",
     "address": "579 Fairview Ave, Hartwell, GA 30643-2166",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2606,7 +2606,7 @@
   {
     "id": "episcopal-church-of-the-holy-family-202-griffith-road-jasper-ga",
     "name": "Episcopal Church of the Holy Family",
-    "website": "https://holyfamilyjasper.org/",
+    "website": "https://holyfamilyjasper.org",
     "address": "202 Griffith Road, Jasper, GA 30143",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2648,7 +2648,7 @@
   {
     "id": "christ-episcopal-church-1210-wooten-lake-rd-nw-kennesaw-ga",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchkennesaw.com/",
+    "website": "https://www.christchurchkennesaw.com",
     "address": "1210 Wooten Lake Rd NW, Kennesaw, GA 30144-1347",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2670,7 +2670,7 @@
     "rector_phone": "",
     "rector_email": "frben@christchurchkennesaw.com",
     "sunday_services": "8:30 AM Holy Eucharist, Rite I; 10:30 AM Holy Eucharist, Rite II (livestreamed)",
-    "weekday_services": "Mon–Fri 8:30 AM Morning Prayer, Rite II (St. Francis Chapel)",
+    "weekday_services": "Mon-Fri 8:30 AM Morning Prayer, Rite II (St. Francis Chapel)",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "",
     "rector_name": "The Rev. Ben Day",
@@ -2682,7 +2682,7 @@
     "music_style": "Choir (director of music & choirmaster); violin; handbell choir",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery for ages 4 and under, Sundays 8:15–11:45 AM",
+    "childcare": "Nursery for ages 4 and under, Sundays 8:15-11:45 AM",
     "formation": "Bible study; Choir; College student group; Episcopal Church Women (ECW); Eucharistic Ministers/Visitors; Men's group; Nursery; Youth faith formation/Sunday school",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -2690,7 +2690,7 @@
   {
     "id": "st-marks-episcopal-church-207-n-greenwood-st-lagrange-ga",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarkslg.org/",
+    "website": "https://www.stmarkslg.org",
     "address": "207 N Greenwood St, Lagrange, GA 30240-2603",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2774,7 +2774,7 @@
   {
     "id": "st-edwards-episcopal-church-737-moon-rd-lawrenceville-ga",
     "name": "St. Edward's Episcopal Church",
-    "website": "https://www.steds.love/",
+    "website": "https://www.steds.love",
     "address": "737 Moon Rd, Lawrenceville, GA 30046-6109",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2858,7 +2858,7 @@
   {
     "id": "christ-episcopal-church-582-walnut-st-macon-ga",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchmacon.com/",
+    "website": "https://www.christchurchmacon.com",
     "address": "582 Walnut St, Macon, GA 31201-2762",
     "state": "GA",
     "diocese": "Atlanta",
@@ -2942,7 +2942,7 @@
   {
     "id": "st-francis-episcopal-church-432-forest-hill-rd-macon-ga",
     "name": "St. Francis Episcopal Church",
-    "website": "http://www.stfrancismacon.org/",
+    "website": "http://www.stfrancismacon.org",
     "address": "432 Forest Hill Rd, Macon, GA 31210-4824",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3026,7 +3026,7 @@
   {
     "id": "st-pauls-episcopal-church-753-college-st-macon-ga",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsmacon.org/",
+    "website": "https://www.stpaulsmacon.org",
     "address": "753 College St, Macon, GA 31201-1720",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3068,7 +3068,7 @@
   {
     "id": "church-of-the-advent-338-academy-st-madison-ga",
     "name": "Church of the Advent",
-    "website": "http://www.adventmadisonga.com/",
+    "website": "http://www.adventmadisonga.com",
     "address": "338 Academy St, Madison, GA 30650-1545",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3110,7 +3110,7 @@
   {
     "id": "church-of-st-peter-and-st-paul-1795-johnson-ferry-rd-marietta-ga",
     "name": "Church of St. Peter & St. Paul",
-    "website": "https://www.peterandpaul.org/",
+    "website": "https://www.peterandpaul.org",
     "address": "1795 Johnson Ferry Rd, Marietta, GA 30062-6400",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3152,7 +3152,7 @@
   {
     "id": "church-of-the-annunciation-1673-jamerson-rd-marietta-ga",
     "name": "Church of the Annunciation",
-    "website": "http://annunciationepiscopal.org/",
+    "website": "http://annunciationepiscopal.org",
     "address": "1673 Jamerson Rd, Marietta, GA 30066-1213",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3194,7 +3194,7 @@
   {
     "id": "st-catherines-episcopal-church-571-holt-rd-ne-marietta-ga",
     "name": "St. Catherine's Episcopal Church",
-    "website": "https://www.stcats.church/",
+    "website": "https://www.stcats.church",
     "address": "571 Holt Rd NE, Marietta, GA 30068-3039",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3236,7 +3236,7 @@
   {
     "id": "st-james-episcopal-church-161-church-st-ne-marietta-ga",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesmarietta.com/",
+    "website": "https://www.stjamesmarietta.com",
     "address": "161 Church St NE, Marietta, GA 30060-1629",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3270,7 +3270,7 @@
     "music_style": "Choir and Youth Choristers at 10:30 AM; occasional Choral Evensong",
     "accessibility": "",
     "parking": "Handicap parking in the small lot on Church Street",
-    "childcare": "Nursery 9:30 AM–12:30 PM for ages 0–5",
+    "childcare": "Nursery 9:30 AM-12:30 PM for ages 0–5",
     "formation": "Formation for all ages Sundays 9:30 AM (children 4–grade 5, youth 6th grade+, adult lectionary Bible study); EYC youth group Sundays 12:30 PM",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -3320,7 +3320,7 @@
   {
     "id": "st-josephs-episcopal-church-1865-highway-20-e-mcdonough-ga",
     "name": "St. Joseph's Episcopal Church",
-    "website": "http://stjosephsmcdonough.org/",
+    "website": "http://stjosephsmcdonough.org",
     "address": "1865 Highway 20 E, McDonough, GA 30252-2264",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3354,7 +3354,7 @@
     "music_style": "",
     "accessibility": "",
     "parking": "",
-    "childcare": "Children's Chapel and Super Sunday School, Sundays 10:20–11:15 AM",
+    "childcare": "Children's Chapel and Super Sunday School, Sundays 10:20-11:15 AM",
     "formation": "Alcoholics Anonymous (AA)/Narcotics Anonymous/Twelve Step; Bible study; Brotherhood of St. Andrew; Choir; Education for Ministry (EFM); Eucharistic Ministers/Visitors; Lay pastoral care (e.g. Stephen Ministry, Community of Hope); Youth group; Al Anon",
     "date_last_updated": "2026-10-10",
     "notes": ""
@@ -3362,7 +3362,7 @@
   {
     "id": "st-stephens-episcopal-church-220-south-wayne-st-milledgeville-ga",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.ststephensga.org/",
+    "website": "https://www.ststephensga.org",
     "address": "220 South Wayne St, Milledgeville, GA 31061-3442",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3404,7 +3404,7 @@
   {
     "id": "st-aidans-episcopal-church-13560-cogburn-rd-milton-ga",
     "name": "St. Aidan's Episcopal Church",
-    "website": "http://www.staidans.org/",
+    "website": "http://www.staidans.org",
     "address": "13560 Cogburn Rd, Milton, GA 30004-3648",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3446,7 +3446,7 @@
   {
     "id": "st-albans-episcopal-church-210-n-broad-st-monroe-ga",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://saint-albans.org/",
+    "website": "https://saint-albans.org",
     "address": "210 N Broad St, Monroe, GA 30655-1844",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3530,7 +3530,7 @@
   {
     "id": "st-augustine-of-canterbury-episcopal-church-1221-morrow-road-morrow-ga",
     "name": "St. Augustine of Canterbury Episcopal Church",
-    "website": "http://www.staugustinesmorrow.org/",
+    "website": "http://www.staugustinesmorrow.org",
     "address": "1221 Morrow Road, Morrow, GA 30260",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3572,7 +3572,7 @@
   {
     "id": "st-pauls-episcopal-church-576-roscoe-rd-newnan-ga",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulsnewnan.org/",
+    "website": "http://www.stpaulsnewnan.org",
     "address": "576 Roscoe Rd, Newnan, GA 30263",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3614,7 +3614,7 @@
   {
     "id": "christ-episcopal-church-400-holcomb-bridge-rd-norcross-ga",
     "name": "Christ Episcopal Church",
-    "website": "http://www.ccnorcross.org/",
+    "website": "http://www.ccnorcross.org",
     "address": "400 Holcomb Bridge Rd, Norcross, GA 30071",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3636,7 +3636,7 @@
     "rector_phone": "",
     "rector_email": "rector@ccnorcross.org",
     "sunday_services": "8:00 AM Holy Eucharist in English (no music); 10:30 AM Holy Eucharist in English (with music; Facebook Live); 12:30 PM Servicio de Adoración (Spanish)",
-    "weekday_services": "Mon–Sat 8:00 AM Morning Prayer (Facebook Live); 1st & 3rd Wed 12:00 PM Healing Service",
+    "weekday_services": "Mon-Sat 8:00 AM Morning Prayer (Facebook Live); 1st & 3rd Wed 12:00 PM Healing Service",
     "diocesan_bishop": "The Rt. Rev. Robert C. Wright",
     "clergy_title": "Interim Priest",
     "rector_name": "The Rev. Richard H. Winters",
@@ -3656,7 +3656,7 @@
   {
     "id": "st-andrews-in-the-pines-episcopal-church-316-n-peachtree-pkwy-peachtree-city-ga",
     "name": "St. Andrew's in the Pines Episcopal Church",
-    "website": "https://standrewsptc.org/",
+    "website": "https://standrewsptc.org",
     "address": "316 N Peachtree Pkwy, Peachtree City, GA 30269",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3698,7 +3698,7 @@
   {
     "id": "st-christophers-at-the-crossroads-1207-macon-rd-perry-ga",
     "name": "St. Christopher's at the Crossroads",
-    "website": "https://www.stchristophersepiscopal.com/",
+    "website": "https://www.stchristophersepiscopal.com",
     "address": "1207 Macon Rd, Perry, GA 31069",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3782,7 +3782,7 @@
   {
     "id": "st-peters-episcopal-church-101-e-4th-ave-rome-ga",
     "name": "St. Peter's Episcopal Church",
-    "website": "http://stpetersrome.org/",
+    "website": "http://stpetersrome.org",
     "address": "101 E 4th Ave, Rome, GA 30161-3119",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3824,7 +3824,7 @@
   {
     "id": "st-davids-episcopal-church-1015-old-roswell-rd-roswell-ga",
     "name": "St. David's Episcopal Church",
-    "website": "http://www.stdavidchurch.org/",
+    "website": "http://www.stdavidchurch.org",
     "address": "1015 Old Roswell Rd, Roswell, GA 30076",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3908,7 +3908,7 @@
   {
     "id": "church-of-the-resurrection-1755-duncan-bridge-rd-sautee-nacoochee-ga",
     "name": "Church of the Resurrection",
-    "website": "https://www.resurrectionsautee.com/",
+    "website": "https://www.resurrectionsautee.com",
     "address": "1755 Duncan Bridge Rd, Sautee Nacoochee, GA 30571-3611",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3950,7 +3950,7 @@
   {
     "id": "path-to-shine-2160-cooper-lake-rd-se-smyrna-ga",
     "name": "Path To Shine",
-    "website": "http://www.pathtoshine.org/",
+    "website": "http://www.pathtoshine.org",
     "address": "2160 Cooper Lake Rd SE, Smyrna, GA 30080-6328",
     "state": "GA",
     "diocese": "Atlanta",
@@ -3992,7 +3992,7 @@
   {
     "id": "st-benedicts-episcopal-church-2160-cooper-lake-rd-se-smyrna-ga",
     "name": "St. Benedict's Episcopal Church",
-    "website": "http://mysaintb.org/",
+    "website": "http://mysaintb.org",
     "address": "2160 Cooper Lake Rd SE, Smyrna, GA 30080-6328",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4034,7 +4034,7 @@
   {
     "id": "the-church-of-st-matthew-1520-oak-rd-snellville-ga",
     "name": "The Church of St Matthew",
-    "website": "https://www.stmatthewssnellville.org/",
+    "website": "https://www.stmatthewssnellville.org",
     "address": "1520 Oak Rd, Snellville, GA 30078-2230",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4076,7 +4076,7 @@
   {
     "id": "st-michael-and-all-angels-episcopal-church-6780-james-b-rivers-dr-stone-mountain-ga",
     "name": "St. Michael & All Angels Episcopal Church",
-    "website": "http://stmichaelstonemountain.org/",
+    "website": "http://stmichaelstonemountain.org",
     "address": "6780 James B Rivers Dr, Stone Mountain, GA 30083-2235",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4118,7 +4118,7 @@
   {
     "id": "st-columbas-episcopal-church-939-james-burgess-rd-suwanee-ga",
     "name": "St. Columba's Episcopal Church",
-    "website": "http://www.saintcolumba.net/",
+    "website": "http://www.saintcolumba.net",
     "address": "939 James Burgess Rd, Suwanee, GA 30024-1128",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4202,7 +4202,7 @@
   {
     "id": "st-matthias-episcopal-church-995-e-tugalo-st-toccoa-ga",
     "name": "St. Matthias Episcopal Church",
-    "website": "https://www.toccoachurch.com/",
+    "website": "https://www.toccoachurch.com",
     "address": "995 E Tugalo St, Toccoa, GA 30577-1938",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4286,7 +4286,7 @@
   {
     "id": "all-saints-episcopal-church-1708-watson-blvd-warner-robins-ga",
     "name": "All Saints' Episcopal Church",
-    "website": "https://www.allsaintswr.org/",
+    "website": "https://www.allsaintswr.org",
     "address": "1708 Watson Blvd, Warner Robins, GA 31093-3632",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4328,7 +4328,7 @@
   {
     "id": "church-of-the-mediator-214-e-robert-toombs-ave-washington-ga",
     "name": "Church of the Mediator",
-    "website": "https://www.mediatorwashington.org/",
+    "website": "https://www.mediatorwashington.org",
     "address": "212 E Robert Toombs Ave, Washington, GA 30673",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4370,7 +4370,7 @@
   {
     "id": "st-johns-episcopal-church-501-avenue-c-west-point-al",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnswp.com/",
+    "website": "https://www.stjohnswp.com",
     "address": "501 Avenue C, West Point, GA 31833",
     "state": "GA",
     "diocese": "Atlanta",
@@ -4412,7 +4412,7 @@
   {
     "id": "st-anthonys-episcopal-church-174-st-anthonys-drive-winder-ga",
     "name": "St. Anthony's Episcopal Church",
-    "website": "https://stanthonyswinder.com/",
+    "website": "https://stanthonyswinder.com",
     "address": "174 St Anthonys Drive, Winder, GA 30680",
     "state": "GA",
     "diocese": "Atlanta",

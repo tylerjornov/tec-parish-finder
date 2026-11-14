@@ -212,7 +212,7 @@
   {
     "id": "st-michaels-episcopal-church-640-n-washington-ave-cookeville-tn",
     "name": "St. Michael's Episcopal Church",
-    "website": "https://www.stmichaelscookeville.org/",
+    "website": "https://www.stmichaelscookeville.org",
     "address": "640 N Washington Ave, Cookeville, TN 38501",
     "state": "TN",
     "diocese": "Tennessee",
@@ -380,7 +380,7 @@
   {
     "id": "st-mary-magdalene-episcopal-church-106-e-washington-st-fayetteville-tn",
     "name": "St. Mary Magdalene Episcopal Church",
-    "website": "http://www.smm-episcopal.net/",
+    "website": "http://www.smm-episcopal.net",
     "address": "106 E Washington St, Fayetteville, TN 37334",
     "state": "TN",
     "diocese": "Tennessee",
@@ -842,7 +842,7 @@
   {
     "id": "christ-church-cathedral-900-broadway-nashville-tn",
     "name": "Christ Church Cathedral",
-    "website": "https://www.christcathedral.org/",
+    "website": "https://www.christcathedral.org",
     "address": "900 Broadway, Nashville, TN 37203",
     "state": "TN",
     "diocese": "Tennessee",
@@ -884,7 +884,7 @@
   {
     "id": "church-of-the-advent-5501-franklin-pike-nashville-tn",
     "name": "Church of the Advent",
-    "website": "https://adventnashville.net/",
+    "website": "https://adventnashville.net",
     "address": "5501 Franklin Pike, Nashville, TN 37220",
     "state": "TN",
     "diocese": "Tennessee",
@@ -926,7 +926,7 @@
   {
     "id": "church-of-the-holy-spirit-5325-nolensville-pike-nashville-tn",
     "name": "Church of the Holy Spirit",
-    "website": "https://sungshin.us/",
+    "website": "https://sungshin.us",
     "address": "5325 Nolensville Pike, Nashville, TN 37211",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1010,7 +1010,7 @@
   {
     "id": "saint-davids-episcopal-church-6501-pennywell-dr-nashville-tn",
     "name": "Saint David's Episcopal Church",
-    "website": "https://www.saintdavidsnashville.org/",
+    "website": "https://www.saintdavidsnashville.org",
     "address": "6501 Pennywell Dr, Nashville, TN 37205",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1052,7 +1052,7 @@
   {
     "id": "st-anns-episcopal-church-419-woodland-st-nashville-tn",
     "name": "St. Ann's Episcopal Church",
-    "website": "https://stannsnashville.org/",
+    "website": "https://stannsnashville.org",
     "address": "419 Woodland St, Nashville, TN 37206",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-augustines-episcopal-chapel-vanderbilt-university-200-24th-ave-s-nashville-tn",
     "name": "St. Augustine's Episcopal Chapel (Vanderbilt University)",
-    "website": "https://www.staugustineschapel.org/",
+    "website": "https://www.staugustineschapel.org",
     "address": "200 24th Ave S, Nashville, TN 37212",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1178,7 +1178,7 @@
   {
     "id": "st-bartholomews-episcopal-church-4800-belmont-park-terrace-nashville-tn",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "https://www.stbs.net/",
+    "website": "https://www.stbs.net",
     "address": "4800 Belmont Park Terrace, Nashville, TN 37215",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1220,7 +1220,7 @@
   {
     "id": "st-georges-episcopal-church-4715-harding-rd-nashville-tn",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.stgeorgesnashville.org/",
+    "website": "https://www.stgeorgesnashville.org",
     "address": "4715 Harding Rd, Nashville, TN 37205",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1304,7 +1304,7 @@
   {
     "id": "church-of-the-messiah-114-n-3rd-st-pulaski-tn",
     "name": "Church of the Messiah",
-    "website": "https://churchmessiahpulaski.com/",
+    "website": "https://churchmessiahpulaski.com",
     "address": "114 N 3rd St, Pulaski, TN 38478",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1514,7 +1514,7 @@
   {
     "id": "church-of-the-epiphany-62-mountain-ave-w-sherwood-tn",
     "name": "Church of the Epiphany",
-    "website": "https://epiphanymission.org/",
+    "website": "https://epiphanymission.org",
     "address": "62 Mountain Ave W, Sherwood, TN 37376",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1598,7 +1598,7 @@
   {
     "id": "grace-episcopal-church-5291-main-st-spring-hill-tn",
     "name": "Grace Episcopal Church",
-    "website": "https://graceepiscopalspringhill.org/",
+    "website": "https://graceepiscopalspringhill.org",
     "address": "5291 Main St, Spring Hill, TN 37174",
     "state": "TN",
     "diocese": "Tennessee",
@@ -1640,7 +1640,7 @@
   {
     "id": "st-lukes-church-103-7th-ave-w-springfield-tn",
     "name": "St. Luke's Church",
-    "website": "https://www.stlukesspringfield.org/",
+    "website": "https://www.stlukesspringfield.org",
     "address": "103 7th Ave W, Springfield, TN 37172",
     "state": "TN",
     "diocese": "Tennessee",

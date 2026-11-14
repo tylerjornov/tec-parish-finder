@@ -2,7 +2,7 @@
   {
     "id": "st-marys-episcopal-church-1307-east-three-notch-street-andalusia-al",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmarysandalusia.org/",
+    "website": "https://www.stmarysandalusia.org",
     "address": "1307 East Three Notch Street, Andalusia, AL 36420",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -44,7 +44,7 @@
   {
     "id": "trinity-episcopal-church-79-6th-street-apalachicola-fl",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityapalachicola.org/",
+    "website": "https://www.trinityapalachicola.org",
     "address": "79 6th Street, Apalachicola, FL 32320",
     "state": "FL",
     "diocese": "Central Gulf Coast",
@@ -170,7 +170,7 @@
   {
     "id": "immanuel-episcopal-church-700-mcmillan-avenue-bay-minette-al",
     "name": "Immanuel Episcopal Church",
-    "website": "https://immanuelepiscopalchurch.org/",
+    "website": "https://immanuelepiscopalchurch.org",
     "address": "700 McMillan Avenue, Bay Minette, AL 36507",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -212,7 +212,7 @@
   {
     "id": "st-peters-episcopal-church-6270-bon-secour-highway-bon-secour-al",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://stpetersbonsecour.com/",
+    "website": "https://stpetersbonsecour.com",
     "address": "6270 Bon Secour Highway, Bon Secour, AL 36511",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -254,7 +254,7 @@
   {
     "id": "st-stephens-episcopal-church-1510-escambia-avenue-brewton-al",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.ststephensbrewton.com/",
+    "website": "https://www.ststephensbrewton.com",
     "address": "1510 Escambia Avenue, Brewton, AL 36426",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -296,7 +296,7 @@
   {
     "id": "st-monicas-episcopal-church-699-s-highway-95a-cantonment-fl",
     "name": "St. Monica's Episcopal Church",
-    "website": "https://st-monicas.org/",
+    "website": "https://st-monicas.org",
     "address": "699 S Highway 95A, Cantonment, FL 32533",
     "state": "FL",
     "diocese": "Central Gulf Coast",
@@ -842,7 +842,7 @@
   {
     "id": "st-james-episcopal-church-860-north-section-street-fairhope-al",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesfairhope.org/",
+    "website": "https://www.stjamesfairhope.org",
     "address": "860 North Section Street, Fairhope, AL 36532",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -884,7 +884,7 @@
   {
     "id": "st-pauls-episcopal-church-506-north-pine-street-foley-al",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://stpaulsepiscopalfoley.churchtrac.com/",
+    "website": "https://stpaulsepiscopalfoley.churchtrac.com",
     "address": "506 North Pine Street, Foley, AL 36535",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -926,7 +926,7 @@
   {
     "id": "st-simons-on-the-sound-28-miracle-strip-parkway-southwest-fort-walton-beach-fl",
     "name": "St. Simon's on the Sound",
-    "website": "https://www.stsimons-fwb.org/",
+    "website": "https://www.stsimons-fwb.org",
     "address": "28 Miracle Strip Parkway Southwest, Fort Walton Beach, FL 32548",
     "state": "FL",
     "diocese": "Central Gulf Coast",
@@ -968,7 +968,7 @@
   {
     "id": "st-thomas-episcopal-church-210-church-street-greenville-al",
     "name": "St. Thomas' Episcopal Church",
-    "website": "https://www.stthomasgreenville.org/",
+    "website": "https://www.stthomasgreenville.org",
     "address": "210 Church Street, Greenville, AL 36037",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -1010,7 +1010,7 @@
   {
     "id": "st-francis-of-assisi-episcopal-church-1-st-francis-drive-gulf-breeze-fl",
     "name": "St. Francis of Assisi Episcopal Church",
-    "website": "https://www.stfrancisgb.org/",
+    "website": "https://www.stfrancisgb.org",
     "address": "1 St. Francis Drive, Gulf Breeze, FL 32561",
     "state": "FL",
     "diocese": "Central Gulf Coast",
@@ -1052,7 +1052,7 @@
   {
     "id": "holy-spirit-episcopal-church-616-west-fort-morgan-road-gulf-shores-al",
     "name": "Holy Spirit Episcopal Church",
-    "website": "https://holyspiritgulfshores.com/",
+    "website": "https://holyspiritgulfshores.com",
     "address": "616 West Fort Morgan Road, Gulf Shores, AL 36542",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -1136,7 +1136,7 @@
   {
     "id": "church-of-the-advent-12099-county-road-99-lillian-al",
     "name": "Church of the Advent",
-    "website": "https://www.adventlillian.org/",
+    "website": "https://www.adventlillian.org",
     "address": "12099 County Road 99, Lillian, AL 36549",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -1178,7 +1178,7 @@
   {
     "id": "st-pauls-chapel-14755-oak-street-magnolia-springs-al",
     "name": "St. Paul's Chapel",
-    "website": "https://www.stpaulsms.org/",
+    "website": "https://www.stpaulsms.org",
     "address": "14755 Oak Street, Magnolia Springs, AL 36555",
     "state": "AL",
     "diocese": "Central Gulf Coast",
@@ -2162,7 +2162,7 @@
     "asa": null,
     "city": "Pensacola",
     "church_phone": "(850) 456-5474",
-    "church_email": "HolyTrinity850@gmail.com",
+    "church_email": "holytrinity850@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM Holy Eucharist",

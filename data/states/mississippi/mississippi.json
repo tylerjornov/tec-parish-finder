@@ -86,7 +86,7 @@
   {
     "id": "christ-episcopal-church-912-s-beach-blvd-bay-saint-louis-ms",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchbsl.com/",
+    "website": "https://www.christchurchbsl.com",
     "address": "912 S Beach Blvd, Bay Saint Louis, MS 39520",
     "state": "MS",
     "diocese": "Mississippi",
@@ -170,7 +170,7 @@
   {
     "id": "episcopal-church-of-the-redeemer-1904-popps-ferry-rd-biloxi-ms",
     "name": "Episcopal Church of the Redeemer",
-    "website": "https://redeemerbiloxi.org/",
+    "website": "https://redeemerbiloxi.org",
     "address": "1904 Popps Ferry Rd, Biloxi, MS 39532",
     "state": "MS",
     "diocese": "Mississippi",
@@ -296,7 +296,7 @@
   {
     "id": "st-peters-by-the-lake-1954-spillway-rd-brandon-ms",
     "name": "St. Peter's by the Lake",
-    "website": "https://www.stpetebtl.org/",
+    "website": "https://www.stpetebtl.org",
     "address": "1954 Spillway Rd, Brandon, MS 39047",
     "state": "MS",
     "diocese": "Mississippi",
@@ -338,7 +338,7 @@
   {
     "id": "church-of-the-redeemer-224-w-monticello-st-brookhaven-ms",
     "name": "Church of the Redeemer",
-    "website": "https://www.redeemerbrookhaven.com/",
+    "website": "https://www.redeemerbrookhaven.com",
     "address": "224 W Monticello St, Brookhaven, MS 39601",
     "state": "MS",
     "diocese": "Mississippi",
@@ -380,7 +380,7 @@
   {
     "id": "grace-episcopal-church-161-e-peace-st-canton-ms",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracechurchcantonms.org/",
+    "website": "https://www.gracechurchcantonms.org",
     "address": "161 E Peace St, Canton, MS 39046",
     "state": "MS",
     "diocese": "Mississippi",
@@ -464,7 +464,7 @@
   {
     "id": "christ-episcopal-church-mississippi-highway-553-and-church-hill-road-church-hill-ms",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchchurchhillms.org/",
+    "website": "https://www.christchurchchurchhillms.org",
     "address": "Mississippi Highway 553 and Church Hill Road, Church Hill, MS 39120",
     "state": "MS",
     "diocese": "Mississippi",
@@ -506,7 +506,7 @@
   {
     "id": "st-georges-episcopal-church-106-sharkey-ave-clarksdale-ms",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.stgeorgesclarksdale.com/",
+    "website": "https://www.stgeorgesclarksdale.com",
     "address": "106 Sharkey Ave, Clarksdale, MS 38614",
     "state": "MS",
     "diocese": "Mississippi",
@@ -548,7 +548,7 @@
   {
     "id": "calvary-episcopal-church-409-s-court-st-cleveland-ms",
     "name": "Calvary Episcopal Church",
-    "website": "https://www.calvaryclevelandms.org/",
+    "website": "https://www.calvaryclevelandms.org",
     "address": "409 S Court St, Cleveland, MS 38732",
     "state": "MS",
     "diocese": "Mississippi",
@@ -578,7 +578,7 @@
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English",
-    "livestream_url": "https://www.calvaryclevelandms.org/",
+    "livestream_url": "https://www.calvaryclevelandms.org",
     "music_style": "1982 Hymnal",
     "accessibility": "",
     "parking": "",
@@ -590,7 +590,7 @@
   {
     "id": "the-episcopal-church-of-the-creator-1445-clinton-raymond-rd-clinton-ms",
     "name": "The Episcopal Church of the Creator",
-    "website": "https://creatorclinton.com/",
+    "website": "https://creatorclinton.com",
     "address": "1445 Clinton Raymond Rd, Clinton, MS 39056",
     "state": "MS",
     "diocese": "Mississippi",
@@ -632,7 +632,7 @@
   {
     "id": "st-elizabeths-church-1201-s-4th-st-collins-ms",
     "name": "St. Elizabeth's Church",
-    "website": "https://stelizabeths.dioms.org/",
+    "website": "https://stelizabeths.dioms.org",
     "address": "1201 S 4th St, Collins, MS 39428",
     "state": "MS",
     "diocese": "Mississippi",
@@ -674,7 +674,7 @@
   {
     "id": "st-stephens-episcopal-church-1300-church-st-columbia-ms",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://ststephenscolumbia.dioms.org/",
+    "website": "https://ststephenscolumbia.dioms.org",
     "address": "1300 Church St, Columbia, MS 39429",
     "state": "MS",
     "diocese": "Mississippi",
@@ -716,7 +716,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-321-forrest-blvd-columbus-ms",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "https://goodshepherdcolumbus.dioms.org/",
+    "website": "https://goodshepherdcolumbus.dioms.org",
     "address": "321 Forrest Blvd, Columbus, MS 39702",
     "state": "MS",
     "diocese": "Mississippi",
@@ -758,7 +758,7 @@
   {
     "id": "st-pauls-episcopal-church-318-college-st-columbus-ms",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulscolumbus.com/",
+    "website": "https://www.stpaulscolumbus.com",
     "address": "318 College St, Columbus, MS 39701",
     "state": "MS",
     "diocese": "Mississippi",
@@ -800,7 +800,7 @@
   {
     "id": "holy-innocents-episcopal-church-311-n-main-st-como-ms",
     "name": "Holy Innocents Episcopal Church",
-    "website": "https://www.holyinnocentscomo.org/",
+    "website": "https://www.holyinnocentscomo.org",
     "address": "311 N Main St, Como, MS 38619",
     "state": "MS",
     "diocese": "Mississippi",
@@ -842,7 +842,7 @@
   {
     "id": "st-pauls-episcopal-church-250-hwy-2-ne-corinth-ms",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://stpaulscorinth.org/",
+    "website": "https://stpaulscorinth.org",
     "address": "250 Hwy 2 NE, Corinth, MS 38834",
     "state": "MS",
     "diocese": "Mississippi",
@@ -884,7 +884,7 @@
   {
     "id": "church-of-the-holy-trinity-204-w-railroad-ave-s-crystal-springs-ms",
     "name": "Church of the Holy Trinity",
-    "website": "https://trinitycrystalsprings.dioms.org/",
+    "website": "https://trinitycrystalsprings.dioms.org",
     "address": "204 W Railroad Ave S, Crystal Springs, MS 39059",
     "state": "MS",
     "diocese": "Mississippi",
@@ -926,7 +926,7 @@
   {
     "id": "st-thomas-episcopal-church-5303-diamondhead-cir-diamondhead-ms",
     "name": "St. Thomas' Episcopal Church",
-    "website": "http://www.stthomasdiamondhead.org/",
+    "website": "http://www.stthomasdiamondhead.org",
     "address": "5303 Diamondhead Cir, Diamondhead, MS 39525",
     "state": "MS",
     "diocese": "Mississippi",
@@ -968,7 +968,7 @@
   {
     "id": "st-marys-episcopal-church-106-st-john-st-enterprise-ms",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://saintmarys.info/",
+    "website": "https://saintmarys.info",
     "address": "106 St John St, Enterprise, MS 39330",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1010,7 +1010,7 @@
   {
     "id": "st-pierres-episcopal-church-4412-gautier-vancleave-rd-gautier-ms",
     "name": "St. Pierre's Episcopal Church",
-    "website": "https://stpierres.dioms.org/",
+    "website": "https://stpierres.dioms.org",
     "address": "4412 Gautier Vancleave Rd, Gautier, MS 39553",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1094,7 +1094,7 @@
   {
     "id": "st-james-episcopal-church-1026-s-washington-ave-greenville-ms",
     "name": "St. James' Episcopal Church",
-    "website": "https://stjamesgreenville.com/",
+    "website": "https://stjamesgreenville.com",
     "address": "1026 S Washington Ave, Greenville, MS 38701",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1136,7 +1136,7 @@
   {
     "id": "church-of-the-nativity-400-howard-st-greenwood-ms",
     "name": "Church of the Nativity",
-    "website": "https://www.nativitygreenwood.org/",
+    "website": "https://www.nativitygreenwood.org",
     "address": "400 Howard St, Greenwood, MS 38930",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1178,7 +1178,7 @@
   {
     "id": "all-saints-episcopal-church-469-s-main-st-grenada-ms",
     "name": "All Saints Episcopal Church",
-    "website": "https://www.allsaintsgrenada.org/",
+    "website": "https://www.allsaintsgrenada.org",
     "address": "469 S Main St, Grenada, MS 38901",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1220,7 +1220,7 @@
   {
     "id": "st-marks-episcopal-church-11322-west-taylor-rd-gulfport-ms",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksgulfport.com/",
+    "website": "https://www.stmarksgulfport.com",
     "address": "11322 West Taylor Rd, Gulfport, MS 39503",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1262,7 +1262,7 @@
   {
     "id": "st-peters-by-the-sea-1909-15th-st-gulfport-ms",
     "name": "St. Peter's by the Sea",
-    "website": "https://stpetersbytheseagulfport.com/",
+    "website": "https://stpetersbytheseagulfport.com",
     "address": "1909 15th St, Gulfport, MS 39501",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1304,7 +1304,7 @@
   {
     "id": "episcopal-church-of-the-ascension-3600-arlington-loop-hattiesburg-ms",
     "name": "Episcopal Church of the Ascension",
-    "website": "https://www.ascensionhattiesburg.com/",
+    "website": "https://www.ascensionhattiesburg.com",
     "address": "3600 Arlington Loop, Hattiesburg, MS 39402",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1346,7 +1346,7 @@
   {
     "id": "trinity-episcopal-church-509-w-pine-st-hattiesburg-ms",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinityhattiesburg.dioms.org/",
+    "website": "https://trinityhattiesburg.dioms.org",
     "address": "509 W Pine St, Hattiesburg, MS 39401",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1766,7 +1766,7 @@
   {
     "id": "st-philips-episcopal-church-5400-old-canton-rd-jackson-ms",
     "name": "St. Philip's Episcopal Church",
-    "website": "https://www.stphilipsjackson.com/",
+    "website": "https://www.stphilipsjackson.com",
     "address": "5400 Old Canton Rd, Jackson, MS 39211",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1934,7 +1934,7 @@
   {
     "id": "st-marys-episcopal-church-400-tchula-street-lexington-ms",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmaryslexms.org/",
+    "website": "https://www.stmaryslexms.org",
     "address": "400 Tchula Street, Lexington, MS 39095",
     "state": "MS",
     "diocese": "Mississippi",
@@ -1960,7 +1960,7 @@
     "diocesan_bishop": "The Rt. Rev. Dr. Dorothy Sanders Wells",
     "clergy_title": "",
     "rector_name": "",
-    "other_clergy": "Beth Foose (visiting; rector of Grace Episcopal Church, Canton)",
+    "other_clergy": "Beth Foose (visiting; rector of Grace Episcopal Church (Canton))",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -2060,7 +2060,7 @@
   {
     "id": "mediator-redeemer-episcopal-church-215-n-broadway-mccomb-ms",
     "name": "Mediator - Redeemer Episcopal Church",
-    "website": "http://mediatorredeemer.org/",
+    "website": "http://mediatorredeemer.org",
     "address": "215 N Broadway, McComb, MS 39648",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2144,7 +2144,7 @@
   {
     "id": "st-pauls-episcopal-church-1116-23rd-ave-meridian-ms",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsmeridian.org/",
+    "website": "https://www.stpaulsmeridian.org",
     "address": "1116 23rd Ave, Meridian, MS 39301",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2354,7 +2354,7 @@
   {
     "id": "holy-cross-episcopal-church-8230-highway-178-olive-branch-ms",
     "name": "Holy Cross Episcopal Church",
-    "website": "https://www.holycrossolivebranch.org/",
+    "website": "https://www.holycrossolivebranch.org",
     "address": "8230 Highway 178, Olive Branch, MS 38654",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2396,7 +2396,7 @@
   {
     "id": "st-peters-episcopal-church-113-s-9th-st-oxford-ms",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpetersoxford.org/",
+    "website": "https://www.stpetersoxford.org",
     "address": "113 S 9th St, Oxford, MS 38655",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2438,7 +2438,7 @@
   {
     "id": "st-johns-episcopal-church-3507-pine-st-pascagoula-ms",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnspascagoula.org/",
+    "website": "https://www.stjohnspascagoula.org",
     "address": "3507 Pine St, Pascagoula, MS 39567",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2480,7 +2480,7 @@
   {
     "id": "trinity-episcopal-church-125-church-ave-pass-christian-ms",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinityinthepass.org/",
+    "website": "https://trinityinthepass.org",
     "address": "125 Church Ave, Pass Christian, MS 39571",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2564,7 +2564,7 @@
   {
     "id": "st-francis-of-assisi-episcopal-church-10701-saint-francis-dr-philadelphia-ms",
     "name": "St. Francis of Assisi Episcopal Church",
-    "website": "https://stfrancis.dioms.org/",
+    "website": "https://stfrancis.dioms.org",
     "address": "10701 Saint Francis Dr, Philadelphia, MS 39350",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2606,7 +2606,7 @@
   {
     "id": "st-pauls-episcopal-church-1421-goodyear-blvd-picayune-ms",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.saintpaulspicayune.com/",
+    "website": "https://www.saintpaulspicayune.com",
     "address": "1421 Goodyear Blvd, Picayune, MS 39466",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2690,7 +2690,7 @@
   {
     "id": "st-marks-episcopal-church-205-w-main-st-raymond-ms",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://stmarksepiscopalraymondms.org/",
+    "website": "https://stmarksepiscopalraymondms.org",
     "address": "205 W Main St, Raymond, MS 39154",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2732,7 +2732,7 @@
   {
     "id": "st-columbs-episcopal-church-550-sunnybrook-rd-ridgeland-ms",
     "name": "St. Columb's Episcopal Church",
-    "website": "https://www.stcolumbs.org/",
+    "website": "https://www.stcolumbs.org",
     "address": "550 Sunnybrook Rd, Ridgeland, MS 39157",
     "state": "MS",
     "diocese": "Mississippi",
@@ -2858,7 +2858,7 @@
   {
     "id": "st-timothys-episcopal-church-8245-getwell-rd-southaven-ms",
     "name": "St. Timothy's Episcopal Church",
-    "website": "https://sttimothysms.org/",
+    "website": "https://sttimothysms.org",
     "address": "8245 Getwell Rd, Southaven, MS 38672",
     "state": "MS",
     "diocese": "Mississippi",
@@ -3170,7 +3170,7 @@
     "asa": null,
     "city": "Vicksburg",
     "church_phone": "(601) 636-0542",
-    "church_email": "Secretary@HolyTrinityVicksburg.org",
+    "church_email": "secretary@holytrinityvicksburg.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM Holy Eucharist, Rite I (nave); 10:15 AM Holy Eucharist, Rite II (nave)",
@@ -3278,7 +3278,7 @@
   {
     "id": "church-of-the-nativity-609-n-main-street-water-valley-ms",
     "name": "Church of the Nativity",
-    "website": "https://www.nativitywv.org/",
+    "website": "https://www.nativitywv.org",
     "address": "609 N Main Street, Water Valley, MS 38965",
     "state": "MS",
     "diocese": "Mississippi",
@@ -3320,7 +3320,7 @@
   {
     "id": "church-of-the-incarnation-505-w-broad-st-west-point-ms",
     "name": "Church of the Incarnation",
-    "website": "https://incarnationwestpoint.dioms.org/",
+    "website": "https://incarnationwestpoint.dioms.org",
     "address": "505 W Broad St, West Point, MS 39773",
     "state": "MS",
     "diocese": "Mississippi",
@@ -3404,7 +3404,7 @@
   {
     "id": "trinity-church-323-n-main-st-yazoo-city-ms",
     "name": "Trinity Church",
-    "website": "https://trinityyazoocity.dioms.org/",
+    "website": "https://trinityyazoocity.dioms.org",
     "address": "323 N Main St, Yazoo City, MS 39194",
     "state": "MS",
     "diocese": "Mississippi",

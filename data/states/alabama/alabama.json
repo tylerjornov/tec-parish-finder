@@ -548,7 +548,7 @@
   {
     "id": "st-andrews-parish-1024-s-12th-st-birmingham-al",
     "name": "St. Andrew's Parish",
-    "website": "https://www.standrewsbham.org/",
+    "website": "https://www.standrewsbham.org",
     "address": "1024 S 12th St, Birmingham, AL 35205",
     "state": "AL",
     "diocese": "Alabama",
@@ -658,7 +658,7 @@
     "diocesan_bishop": "The Rt. Rev. Richard T. Lawson III",
     "clergy_title": "",
     "rector_name": "The Rev. Richmond R. Webster",
-    "other_clergy": "The Rev. Corey Jones (Associate Rector); The Rev. Becca Walton (Associate Rector); The Rev. Katy Smith (Deacon); The Rev. Dr. Stephen McWhorter (Assisting Priest); The Rev. Dr. Mark LaGory (Deacon, Retired; Chaplain, Founders Place)",
+    "other_clergy": "The Rev. Corey Jones (Associate Rector); The Rev. Becca Walton (Associate Rector); The Rev. Katy Smith (Deacon); The Rev. Dr. Stephen McWhorter (Assisting Priest); The Rev. Dr. Mark LaGory (Deacon (Retired); Chaplain (Founders Place))",
     "rite": "",
     "celebrant_position": "",
     "service_languages": "English",
@@ -742,7 +742,7 @@
     "diocesan_bishop": "The Rt. Rev. Richard T. Lawson III",
     "clergy_title": "",
     "rector_name": "The Rev. H. Huey Gardner",
-    "other_clergy": "The Rev. Richard Ahlquist (Associate Rector); The Rev. Kaki O'Flinn (Deacon); The Rev. John I. Kennedy, Jr. (Deacon; Chaplain to UAB Medical Center)",
+    "other_clergy": "The Rev. Richard Ahlquist (Associate Rector); The Rev. Kaki O'Flinn (Deacon); The Rev. John I. Kennedy (Jr. (Deacon); Chaplain to UAB Medical Center)",
     "rite": "",
     "celebrant_position": "",
     "service_languages": "English",
@@ -884,7 +884,7 @@
   {
     "id": "st-catherines-episcopal-church-642-kings-home-drive-chelsea-al",
     "name": "St. Catherine's Episcopal Church",
-    "website": "https://www.stcatherinesal.org/",
+    "website": "https://www.stcatherinesal.org",
     "address": "642 Kings Home Drive, Chelsea, AL 35043",
     "state": "AL",
     "diocese": "Alabama",
@@ -926,7 +926,7 @@
   {
     "id": "st-mary-episcopal-church-500-5th-ave-sw-childersburg-al",
     "name": "St. Mary Episcopal Church",
-    "website": "https://stmary.dioala.org/",
+    "website": "https://stmary.dioala.org",
     "address": "500 5th Ave SW, Childersburg, AL 35044",
     "state": "AL",
     "diocese": "Alabama",
@@ -968,7 +968,7 @@
   {
     "id": "trinity-episcopal-church-503-2nd-ave-s-clanton-al",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinityepiscopalchurch.dioala.org/",
+    "website": "https://trinityepiscopalchurch.dioala.org",
     "address": "503 2nd Ave S, Clanton, AL 35045",
     "state": "AL",
     "diocese": "Alabama",
@@ -1010,7 +1010,7 @@
   {
     "id": "grace-episcopal-church-305-arnold-st-ne-cullman-al",
     "name": "Grace Episcopal Church",
-    "website": "https://www.gracecullman.org/",
+    "website": "https://www.gracecullman.org",
     "address": "305 Arnold St NE, Cullman, AL 35055",
     "state": "AL",
     "diocese": "Alabama",
@@ -1028,7 +1028,7 @@
     "asa": null,
     "city": "Cullman",
     "church_phone": "(256) 734-6212",
-    "church_email": "CullmanEpiscopal@gmail.com",
+    "church_email": "cullmanepiscopal@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM Worship without music, Holy Eucharist Rite II; 10:30 AM Worship with music, Holy Eucharist Rite II (summer, Memorial Day-Labor Day: one 9:00 AM service)",
@@ -1052,7 +1052,7 @@
   {
     "id": "church-of-the-good-shepherd-3809-spring-ave-sw-decatur-al",
     "name": "Church of the Good Shepherd",
-    "website": "https://www.gsdecatur.org/",
+    "website": "https://www.gsdecatur.org",
     "address": "3809 Spring Ave SW, Decatur, AL 35603",
     "state": "AL",
     "diocese": "Alabama",
@@ -1094,7 +1094,7 @@
   {
     "id": "st-johns-episcopal-church-202-gordon-dr-se-decatur-al",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnsdecatur.org/",
+    "website": "https://stjohnsdecatur.org",
     "address": "202 Gordon Dr SE, Decatur, AL 35601",
     "state": "AL",
     "diocese": "Alabama",
@@ -1136,7 +1136,7 @@
   {
     "id": "trinity-episcopal-church-401-n-main-ave-demopolis-al",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinitydemopolis.org/",
+    "website": "https://trinitydemopolis.org",
     "address": "401 N Main Ave, Demopolis, AL 36732",
     "state": "AL",
     "diocese": "Alabama",
@@ -1178,7 +1178,7 @@
   {
     "id": "st-stephens-church-403-n-eutaw-ave-eutaw-al",
     "name": "St. Stephen's Church",
-    "website": "https://ststephen.dioala.org/",
+    "website": "https://ststephen.dioala.org",
     "address": "403 N Eutaw Ave, Eutaw, AL 35462",
     "state": "AL",
     "diocese": "Alabama",
@@ -1220,7 +1220,7 @@
   {
     "id": "christ-episcopal-church-4912-lloyd-noland-pkwy-fairfield-al",
     "name": "Christ Episcopal Church",
-    "website": "https://christepiscopal.dioala.org/",
+    "website": "https://christepiscopal.dioala.org",
     "address": "4912 Lloyd Noland Pkwy, Fairfield, AL 35064",
     "state": "AL",
     "diocese": "Alabama",
@@ -1304,7 +1304,7 @@
   {
     "id": "st-michaels-episcopal-church-431-10th-st-nw-fayette-al",
     "name": "St. Michael's Episcopal Church",
-    "website": "https://stmichaelsfayette.dioala.org/",
+    "website": "https://stmichaelsfayette.dioala.org",
     "address": "431 10th St NW, Fayette, AL 35555",
     "state": "AL",
     "diocese": "Alabama",
@@ -1346,7 +1346,7 @@
   {
     "id": "st-bartholomews-episcopal-church-1900-darby-dr-florence-al",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "https://stbartsflorence.dioala.org/",
+    "website": "https://stbartsflorence.dioala.org",
     "address": "1900 Darby Dr, Florence, AL 35630",
     "state": "AL",
     "diocese": "Alabama",
@@ -1514,7 +1514,7 @@
   {
     "id": "episcopal-church-of-the-holy-comforter-156-s-9th-st-gadsden-al",
     "name": "Episcopal Church of the Holy Comforter",
-    "website": "https://www.holycomfortergadsden.org/",
+    "website": "https://www.holycomfortergadsden.org",
     "address": "156 S 9th St, Gadsden, AL 35901",
     "state": "AL",
     "diocese": "Alabama",
@@ -1892,7 +1892,7 @@
   {
     "id": "church-of-the-nativity-208-eustis-ave-se-huntsville-al",
     "name": "Church of the Nativity",
-    "website": "https://www.nativity-hsv.org/",
+    "website": "https://www.nativity-hsv.org",
     "address": "208 Eustis Ave SE, Huntsville, AL 35801",
     "state": "AL",
     "diocese": "Alabama",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-francis-of-assisi-church-3545-cahaba-valley-rd-indian-springs-village-al",
     "name": "St. Francis of Assisi Church",
-    "website": "https://www.saintfrancisindiansprings.org/",
+    "website": "https://www.saintfrancisindiansprings.org",
     "address": "3545 Cahaba Valley Rd, Indian Springs Village, AL 35124",
     "state": "AL",
     "diocese": "Alabama",
@@ -2396,7 +2396,7 @@
   {
     "id": "riverside-episcopal-church-4955-mcadory-school-road-mccalla-al",
     "name": "Riverside Episcopal Church",
-    "website": "https://riversidemccalla.org/",
+    "website": "https://riversidemccalla.org",
     "address": "4955 McAdory School Road, McCalla, AL 35111",
     "state": "AL",
     "diocese": "Alabama",
@@ -2480,7 +2480,7 @@
   {
     "id": "st-michael-and-all-angels-episcopal-church-5941-main-st-millbrook-al",
     "name": "St. Michael and All Angels' Episcopal Church",
-    "website": "https://www.stmichaelallangels.com/",
+    "website": "https://www.stmichaelallangels.com",
     "address": "5941 Main St, Millbrook, AL 36054",
     "state": "AL",
     "diocese": "Alabama",
@@ -2774,7 +2774,7 @@
   {
     "id": "st-johns-episcopal-church-113-madison-ave-montgomery-al",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnsmontgomery.org/",
+    "website": "https://www.stjohnsmontgomery.org",
     "address": "113 Madison Ave, Montgomery, AL 36104",
     "state": "AL",
     "diocese": "Alabama",
@@ -2816,7 +2816,7 @@
   {
     "id": "calvary-church-1002-park-ave-oneonta-al",
     "name": "Calvary Church",
-    "website": "https://calvaryepiscopal.dioala.org/",
+    "website": "https://calvaryepiscopal.dioala.org",
     "address": "1002 Park Ave, Oneonta, AL 35121",
     "state": "AL",
     "diocese": "Alabama",
@@ -2858,7 +2858,7 @@
   {
     "id": "emmanuel-episcopal-church-800-1st-ave-opelika-al",
     "name": "Emmanuel Episcopal Church",
-    "website": "https://www.opiscopal.org/",
+    "website": "https://www.opiscopal.org",
     "address": "800 1st Ave, Opelika, AL 36801",
     "state": "AL",
     "diocese": "Alabama",
@@ -2900,7 +2900,7 @@
   {
     "id": "st-simon-peter-church-3702-mays-bend-rd-pell-city-al",
     "name": "St. Simon Peter Church",
-    "website": "https://stsimonpeter.dioala.org/",
+    "website": "https://stsimonpeter.dioala.org",
     "address": "3702 Mays Bend Rd, Pell City, AL 35128",
     "state": "AL",
     "diocese": "Alabama",
@@ -2984,7 +2984,7 @@
   {
     "id": "st-marks-episcopal-church-178-e-4th-st-prattville-al",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksal.org/",
+    "website": "https://www.stmarksal.org",
     "address": "178 E 4th St, Prattville, AL 36067",
     "state": "AL",
     "diocese": "Alabama",
@@ -3026,7 +3026,7 @@
   {
     "id": "church-of-the-resurrection-113-brown-ave-rainbow-city-al",
     "name": "Church of the Resurrection",
-    "website": "https://www.resurrectionrbc.dioala.org/",
+    "website": "https://www.resurrectionrbc.dioala.org",
     "address": "113 Brown Ave, Rainbow City, AL 35906",
     "state": "AL",
     "diocese": "Alabama",
@@ -3152,7 +3152,7 @@
   {
     "id": "st-matthews-in-the-pines-38-longview-st-seale-al",
     "name": "St. Matthew's in the Pines",
-    "website": "https://stmatthewspines.dioala.org/",
+    "website": "https://stmatthewspines.dioala.org",
     "address": "38 Longview St, Seale, AL 36875",
     "state": "AL",
     "diocese": "Alabama",
@@ -3194,7 +3194,7 @@
   {
     "id": "st-pauls-selma-210-lauderdale-st-selma-al",
     "name": "St. Paul's - Selma",
-    "website": "https://stpaulsselma.dioala.org/",
+    "website": "https://stpaulsselma.dioala.org",
     "address": "210 Lauderdale St, Selma, AL 36701",
     "state": "AL",
     "diocese": "Alabama",

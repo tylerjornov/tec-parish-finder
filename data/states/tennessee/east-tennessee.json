@@ -2,7 +2,7 @@
   {
     "id": "st-pauls-episcopal-church-123-s-jackson-st-athens-tn",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsathens.org/",
+    "website": "https://www.stpaulsathens.org",
     "address": "123 S Jackson St, Athens, TN 37303",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -254,7 +254,7 @@
   {
     "id": "st-peters-episcopal-church-848-ashland-ter-chattanooga-tn",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpeters.org/",
+    "website": "https://www.stpeters.org",
     "address": "848 Ashland Ter, Chattanooga, TN 37415",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -296,7 +296,7 @@
   {
     "id": "thankful-memorial-episcopal-church-1607-w-43rd-st-chattanooga-tn",
     "name": "Thankful Memorial Episcopal Church",
-    "website": "https://thankfulmemorial.org/",
+    "website": "https://thankfulmemorial.org",
     "address": "1607 W 43rd St, Chattanooga, TN 37409",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -380,7 +380,7 @@
   {
     "id": "st-marks-episcopal-church-131-hill-st-copperhill-tn",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://saintmarksepiscopalchurch.org/",
+    "website": "https://saintmarksepiscopalchurch.org",
     "address": "131 Hill St, Copperhill, TN 37317",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -464,7 +464,7 @@
   {
     "id": "st-thomas-episcopal-church-815-e-2nd-st-elizabethton-tn",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.stthomaselizabethton.org/",
+    "website": "https://www.stthomaselizabethton.org",
     "address": "815 E 2nd St, Elizabethton, TN 37643",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -590,7 +590,7 @@
   {
     "id": "st-james-episcopal-church-107-w-church-st-greeneville-tn",
     "name": "St. James Episcopal Church",
-    "website": "https://stjamesgreeneville.org/",
+    "website": "https://stjamesgreeneville.org",
     "address": "107 W Church St, Greeneville, TN 37745",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -608,9 +608,9 @@
     "asa": null,
     "city": "Greeneville",
     "church_phone": "(423) 638-6583",
-    "church_email": "Welcome@StJamesGreenEville.org",
+    "church_email": "welcome@stjamesgreeneville.org",
     "rector_phone": "",
-    "rector_email": "Rector@StJamesGreenEville.org",
+    "rector_email": "rector@stjamesgreeneville.org",
     "sunday_services": "8:00 AM Holy Eucharist (no music); 10:30 AM Holy Eucharist (with music)",
     "weekday_services": "Tue 7:00 AM Morning Prayer (men's fellowship); Wed 12:05 PM Holy Eucharist with Healing Prayers and Unction",
     "diocesan_bishop": "The Rt. Rev. Brian L. Cole",
@@ -632,7 +632,7 @@
   {
     "id": "st-andrews-episcopal-church-190-circle-dr-harriman-tn",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewsharriman.org/",
+    "website": "https://www.standrewsharriman.org",
     "address": "190 Circle Dr, Harriman, TN 37748",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -758,7 +758,7 @@
   {
     "id": "st-michaels-episcopal-church-584-lebanon-rd-kingsport-tn",
     "name": "St. Michael's Episcopal Church",
-    "website": "https://michaelkpt.org/",
+    "website": "https://michaelkpt.org",
     "address": "584 Lebanon Rd, Kingsport, TN 37663",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -968,7 +968,7 @@
   {
     "id": "st-elizabeths-episcopal-church-110-sugarwood-dr-knoxville-tn",
     "name": "St. Elizabeth's Episcopal Church",
-    "website": "https://www.stelizchurch.org/",
+    "website": "https://www.stelizchurch.org",
     "address": "110 Sugarwood Dr, Knoxville, TN 37934",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -1010,7 +1010,7 @@
   {
     "id": "st-james-episcopal-church-1101-n-broadway-st-knoxville-tn",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesknox.org/",
+    "website": "https://www.stjamesknox.org",
     "address": "1101 N Broadway St, Knoxville, TN 37917",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -1052,7 +1052,7 @@
   {
     "id": "st-johns-episcopal-cathedral-413-cumberland-ave-knoxville-tn",
     "name": "St. John's Episcopal Cathedral",
-    "website": "https://www.stjohnscathedral.org/",
+    "website": "https://www.stjohnscathedral.org",
     "address": "413 Cumberland Ave, Knoxville, TN 37902",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -1304,7 +1304,7 @@
   {
     "id": "st-andrews-episcopal-church-314-w-broadway-ave-maryville-tn",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewsmaryville.org/",
+    "website": "https://www.standrewsmaryville.org",
     "address": "314 W Broadway Ave, Maryville, TN 37801",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -1430,7 +1430,7 @@
   {
     "id": "st-francis-episcopal-church-158-w-norris-rd-norris-tn",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.stfrancisnorris.org/",
+    "website": "https://www.stfrancisnorris.org",
     "address": "158 W Norris Rd, Norris, TN 37828",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -1472,7 +1472,7 @@
   {
     "id": "st-stephens-episcopal-church-212-n-tulane-ave-oak-ridge-tn",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.ststephensor.org/",
+    "website": "https://www.ststephensor.org",
     "address": "212 N Tulane Ave, Oak Ridge, TN 37830",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -1498,7 +1498,7 @@
     "diocesan_bishop": "The Rt. Rev. Brian L. Cole",
     "clergy_title": "",
     "rector_name": "Fr. Bailey Norman",
-    "other_clergy": "Rev. Laura Henrik (Associate Pastor)",
+    "other_clergy": "The Rev. Laura Henrik (Associate Pastor)",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -1514,7 +1514,7 @@
   {
     "id": "st-francis-of-assisi-episcopal-church-7555-ooltewah-georgetown-rd-ooltewah-tn",
     "name": "St. Francis of Assisi Episcopal Church",
-    "website": "https://www.sfaec.org/",
+    "website": "https://www.sfaec.org",
     "address": "7555 Ooltewah Georgetown Rd, Ooltewah, TN 37363",
     "state": "TN",
     "diocese": "East Tennessee",
@@ -1598,7 +1598,7 @@
   {
     "id": "st-joseph-the-carpenter-345-e-hardin-ln-sevierville-tn",
     "name": "St. Joseph the Carpenter",
-    "website": "https://stjosephsevierville.org/",
+    "website": "https://stjosephsevierville.org",
     "address": "345 E Hardin Ln, Sevierville, TN 37862",
     "state": "TN",
     "diocese": "East Tennessee",

@@ -2,7 +2,7 @@
   {
     "id": "all-saints-episcopal-church-209-w-27th-st-austin-tx",
     "name": "All Saints' Episcopal Church",
-    "website": "https://allsaints-austin.org/",
+    "website": "https://allsaints-austin.org",
     "address": "209 W. 27th St., Austin, TX 78705",
     "state": "TX",
     "diocese": "Texas",
@@ -86,7 +86,7 @@
   {
     "id": "all-saints-episcopal-church-1301-e-houston-ave-crockett-tx",
     "name": "All Saints Episcopal Church",
-    "website": "https://www.allsaintscrockett.org/",
+    "website": "https://www.allsaintscrockett.org",
     "address": "1301 E. Houston Ave., Crockett, TX 75835",
     "state": "TX",
     "diocese": "Texas",
@@ -128,7 +128,7 @@
   {
     "id": "all-saints-episcopal-church-9700-saints-circle-fort-worth-tx",
     "name": "All Saints' Episcopal Church",
-    "website": "https://www.asecfw.org/",
+    "website": "https://www.asecfw.org",
     "address": "9700 Saints Circle, Fort Worth, TX 76108",
     "state": "TX",
     "diocese": "Texas",
@@ -148,7 +148,7 @@
     "church_phone": "(817) 732-1424",
     "church_email": "info@asecfw.org",
     "rector_phone": "",
-    "rector_email": "MthrAmanda@asecfw.org",
+    "rector_email": "mthramanda@asecfw.org",
     "sunday_services": "9:00 AM Choral Holy Eucharist Rite II; 11:15 AM Choral Holy Eucharist Rite I with the All Saints' Choir (livestreamed); 5:00 PM Solemn Evensong Rite I on selected Sundays (Oct 4, 2026; Feb 7, 2027; May 2, 2027)",
     "weekday_services": "Monday-Friday 9:00 AM Morning Prayer Rite I; Wednesday 12:00 PM Holy Eucharist Rite II with Unction (both at the Vida and Frances Staff Chapel, Gray House, 4936 Dexter Ave)",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
@@ -170,7 +170,7 @@
   {
     "id": "all-souls-episcopal-church-201-w-main-street-arlington-tx",
     "name": "All Souls Episcopal Church",
-    "website": "https://www.allsoulsepiscopal.org/",
+    "website": "https://www.allsoulsepiscopal.org",
     "address": "201 W. Main Street, Arlington, TX 76010",
     "state": "TX",
     "diocese": "Texas",
@@ -212,7 +212,7 @@
   {
     "id": "ascension-episcopal-church-2525-seagler-rd-houston-tx",
     "name": "Ascension Episcopal Church",
-    "website": "https://www.ascensionepiscopalchurch.org/",
+    "website": "https://www.ascensionepiscopalchurch.org",
     "address": "2525 Seagler Rd., Houston, TX 77042",
     "state": "TX",
     "diocese": "Texas",
@@ -254,7 +254,7 @@
   {
     "id": "calvary-episcopal-church-603-spring-st-bastrop-tx",
     "name": "Calvary Episcopal Church",
-    "website": "https://cecbastrop.org/",
+    "website": "https://cecbastrop.org",
     "address": "603 Spring St., Bastrop, TX 78602",
     "state": "TX",
     "diocese": "Texas",
@@ -296,7 +296,7 @@
   {
     "id": "calvary-episcopal-church-806-thompson-rd-richmond-tx",
     "name": "Calvary Episcopal Church",
-    "website": "https://www.calvaryrichmond.org/",
+    "website": "https://www.calvaryrichmond.org",
     "address": "806 Thompson Rd., Richmond, TX 77469",
     "state": "TX",
     "diocese": "Texas",
@@ -321,7 +321,7 @@
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
-    "rector_name": "Father Ralph Morgan",
+    "rector_name": "Fr. Ralph Morgan",
     "other_clergy": "The Rev. Nancy Wilkes (Deacon)",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
@@ -338,7 +338,7 @@
   {
     "id": "christ-church-cathedral-1117-texas-ave-houston-tx",
     "name": "Christ Church Cathedral",
-    "website": "https://christchurchcathedral.org/",
+    "website": "https://christchurchcathedral.org",
     "address": "1117 Texas Ave, Houston, TX 77002",
     "state": "TX",
     "diocese": "Texas",
@@ -380,7 +380,7 @@
   {
     "id": "christ-episcopal-church-3520-w-whitestone-blvd-cedar-park-tx",
     "name": "Christ Episcopal Church",
-    "website": "https://www.cectx.org/",
+    "website": "https://www.cectx.org",
     "address": "3520 W Whitestone Blvd, Cedar Park, TX 78613",
     "state": "TX",
     "diocese": "Texas",
@@ -422,7 +422,7 @@
   {
     "id": "christ-episcopal-church-306-e-stockbridge-st-eagle-lake-tx",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christepiscopaleaglelake.org/",
+    "website": "https://www.christepiscopaleaglelake.org",
     "address": "306 E Stockbridge St, Eagle Lake, TX 77434",
     "state": "TX",
     "diocese": "Texas",
@@ -489,7 +489,7 @@
     "weekday_services": "Wednesday 6:00 PM: Holy Eucharist on the 1st Wednesday of the month, Compline on all other Wednesdays",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "Priest-in-Charge",
-    "rector_name": "Father John Himes",
+    "rector_name": "Fr. John Himes",
     "other_clergy": "",
     "rite": "",
     "celebrant_position": "",
@@ -548,7 +548,7 @@
   {
     "id": "christ-episcopal-church-505-e-commerce-st-mexia-tx",
     "name": "Christ Episcopal Church",
-    "website": "https://christchurchmexia.org/",
+    "website": "https://christchurchmexia.org",
     "address": "505 E Commerce St, Mexia, TX 76667",
     "state": "TX",
     "diocese": "Texas",
@@ -590,7 +590,7 @@
   {
     "id": "christ-episcopal-church-1430-n-mound-st-nacogdoches-tx",
     "name": "Christ Episcopal Church",
-    "website": "https://christchurch-nacogdoches.org/",
+    "website": "https://christchurch-nacogdoches.org",
     "address": "1430 N Mound St, Nacogdoches, TX 75961",
     "state": "TX",
     "diocese": "Texas",
@@ -616,7 +616,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. Dr. David Butorac",
-    "other_clergy": "The Rev. Jim Watson (Supply Plus Priest; listed on the site's leadership page, which looks out of date)",
+    "other_clergy": "The Rev. Jim Watson (Supply Plus Priest; listed on the site's leadership page (which looks out of date))",
     "rite": "Rite I; 1928 Book of Common Prayer",
     "celebrant_position": "",
     "service_languages": "English",
@@ -674,7 +674,7 @@
   {
     "id": "christ-episcopal-church-300-n-main-st-temple-tx",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchtemple.org/",
+    "website": "https://www.christchurchtemple.org",
     "address": "300 N. Main St., Temple, TX 76501",
     "state": "TX",
     "diocese": "Texas",
@@ -685,7 +685,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Sally Louth, Parish Life Director (sally@christchurchtemple.org, 254-773-1658)",
+    "other_contact": "Sally Louth, Parish Life Director (sally@christchurchtemple.org, (254) 773-1658)",
     "verification_status": "Unverified",
     "lat": 31.100174,
     "lon": -97.340168,
@@ -716,7 +716,7 @@
   {
     "id": "christ-church-episcopal-118-s-bois-darc-ave-tyler-tx",
     "name": "Christ Church Episcopal",
-    "website": "https://www.christchurchtyler.org/",
+    "website": "https://www.christchurchtyler.org",
     "address": "118 S. Bois d'Arc Ave., Tyler, TX 75702",
     "state": "TX",
     "diocese": "Texas",
@@ -742,7 +742,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. David Luckenbach",
-    "other_clergy": "The Rev. Dr. Cole Hartin (Associate Rector for Social Work); The Rev. Ted Welty (Associate Rector for Christian Formation); The Rev. Stephen Stine (Deacon); The Rev. Tim Kennedy (Senior Chaplain, All Saints Episcopal School; Assisting Priest); The Rev. Leesa Lewis (Assistant Chaplain, All Saints Episcopal School; Assisting Priest)",
+    "other_clergy": "The Rev. Dr. Cole Hartin (Associate Rector for Social Work); The Rev. Ted Welty (Associate Rector for Christian Formation); The Rev. Stephen Stine (Deacon); The Rev. Tim Kennedy (Senior Chaplain (All Saints Episcopal School); Assisting Priest); The Rev. Leesa Lewis (Assistant Chaplain (All Saints Episcopal School); Assisting Priest)",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -758,7 +758,7 @@
   {
     "id": "christ-the-king-episcopal-church-15325-bellaire-blvd-houston-tx",
     "name": "Christ the King Episcopal Church",
-    "website": "https://ckec.us/",
+    "website": "https://ckec.us",
     "address": "15325 Bellaire Blvd, Houston, TX 77083",
     "state": "TX",
     "diocese": "Texas",
@@ -800,7 +800,7 @@
   {
     "id": "christ-the-king-episcopal-church-19330-pinehurst-trail-dr-humble-tx",
     "name": "Christ the King Episcopal Church",
-    "website": "https://ctkatascocita.org/",
+    "website": "https://ctkatascocita.org",
     "address": "19330 Pinehurst Trail Dr, Humble, TX 77346",
     "state": "TX",
     "diocese": "Texas",
@@ -842,7 +842,7 @@
   {
     "id": "church-of-the-cross-lake-travis-18101-w-highway-71-austin-tx",
     "name": "Church of the Cross Lake Travis",
-    "website": "https://churchofthecrosslaketravis.org/",
+    "website": "https://churchofthecrosslaketravis.org",
     "address": "18101 W. Highway 71, Suite 120, Austin, TX 78738",
     "state": "TX",
     "diocese": "Texas",
@@ -884,7 +884,7 @@
   {
     "id": "el-jardin-3401-bellaire-dr-s-fort-worth-tx",
     "name": "El Jardín",
-    "website": "https://www.eljardinedot.com/",
+    "website": "https://www.eljardinedot.com",
     "address": "3401 Bellaire Dr S, Fort Worth, TX 76109",
     "state": "TX",
     "diocese": "Texas",
@@ -926,7 +926,7 @@
   {
     "id": "emmanuel-episcopal-church-3785-barker-cypress-rd-houston-tx",
     "name": "Emmanuel Episcopal Church",
-    "website": "https://emmanuel-houston.org/",
+    "website": "https://emmanuel-houston.org",
     "address": "3785 Barker Cypress Rd, Houston, TX 77084",
     "state": "TX",
     "diocese": "Texas",
@@ -968,7 +968,7 @@
   {
     "id": "episcopal-church-of-the-epiphany-601-n-wood-st-burnet-tx",
     "name": "Episcopal Church of the Epiphany",
-    "website": "https://epiphanyburnet.weebly.com/",
+    "website": "https://epiphanyburnet.weebly.com",
     "address": "601 N. Wood St, Burnet, TX 78611",
     "state": "TX",
     "diocese": "Texas",
@@ -1052,7 +1052,7 @@
   {
     "id": "episcopal-church-of-the-epiphany-9600-s-gessner-dr-houston-tx",
     "name": "Episcopal Church of the Epiphany",
-    "website": "https://www.epiphany-hou.org/",
+    "website": "https://www.epiphany-hou.org",
     "address": "9600 S. Gessner Dr, Houston, TX 77071",
     "state": "TX",
     "diocese": "Texas",
@@ -1094,7 +1094,7 @@
   {
     "id": "epiphany-episcopal-church-750-pipeline-court-hurst-tx",
     "name": "Epiphany Episcopal Church",
-    "website": "https://epiphanyhurst.org/",
+    "website": "https://epiphanyhurst.org",
     "address": "750 Pipeline Court, Hurst, TX 76053",
     "state": "TX",
     "diocese": "Texas",
@@ -1178,7 +1178,7 @@
   {
     "id": "iglesia-episcopal-espiritu-santo-217-w-26th-st-bryan-tx",
     "name": "Iglesia Episcopal Espíritu Santo",
-    "website": "https://espiritusantobcs.org/",
+    "website": "https://espiritusantobcs.org",
     "address": "217 W 26th St, Bryan, TX 77803",
     "state": "TX",
     "diocese": "Texas",
@@ -1220,7 +1220,7 @@
   {
     "id": "faith-episcopal-church-1437-southwest-parkway-wichita-falls-tx",
     "name": "Faith Episcopal Church",
-    "website": "https://www.faithluthapalian.com/",
+    "website": "https://www.faithluthapalian.com",
     "address": "1437 Southwest Parkway, Wichita Falls, TX 76302",
     "state": "TX",
     "diocese": "Texas",
@@ -1388,7 +1388,7 @@
   {
     "id": "good-shepherd-episcopal-church-1207-w-winding-way-dr-friendswood-tx",
     "name": "Good Shepherd Episcopal Church",
-    "website": "https://www.gshepherd.net/",
+    "website": "https://www.gshepherd.net",
     "address": "1207 W. Winding Way Dr, Friendswood, TX 77546",
     "state": "TX",
     "diocese": "Texas",
@@ -1430,7 +1430,7 @@
   {
     "id": "the-episcopal-church-of-the-good-shepherd-4530-acton-highway-granbury-tx",
     "name": "The Episcopal Church of the Good Shepherd",
-    "website": "https://www.goodshepherdgranbury.org/",
+    "website": "https://www.goodshepherdgranbury.org",
     "address": "4530 Acton Highway, Granbury, TX 76049",
     "state": "TX",
     "diocese": "Texas",
@@ -1472,7 +1472,7 @@
   {
     "id": "good-shepherd-episcopal-church-2929-woodland-hills-dr-kingwood-tx",
     "name": "Good Shepherd Episcopal Church",
-    "website": "https://goodshepherdkingwood.org/",
+    "website": "https://goodshepherdkingwood.org",
     "address": "2929 Woodland Hills Dr, Kingwood, TX 77339",
     "state": "TX",
     "diocese": "Texas",
@@ -1514,7 +1514,7 @@
   {
     "id": "the-episcopal-church-of-the-good-shepherd-801-e-main-st-tomball-tx",
     "name": "The Episcopal Church of the Good Shepherd",
-    "website": "https://www.goodshepherdtomball.org/",
+    "website": "https://www.goodshepherdtomball.org",
     "address": "801 E Main St, Tomball, TX 77375",
     "state": "TX",
     "diocese": "Texas",
@@ -1556,7 +1556,7 @@
   {
     "id": "grace-episcopal-church-200-west-lang-st-alvin-tx",
     "name": "Grace Episcopal Church",
-    "website": "https://gracechurchalvin.org/",
+    "website": "https://gracechurchalvin.org",
     "address": "200 West Lang St, Alvin, TX 77511",
     "state": "TX",
     "diocese": "Texas",
@@ -1598,7 +1598,7 @@
   {
     "id": "grace-episcopal-church-1115-36th-st-galveston-tx",
     "name": "Grace Episcopal Church",
-    "website": "https://gracechurchgalveston.org/",
+    "website": "https://gracechurchgalveston.org",
     "address": "1115 36th St, Galveston, TX 77550",
     "state": "TX",
     "diocese": "Texas",
@@ -1640,7 +1640,7 @@
   {
     "id": "grace-episcopal-church-1314-e-university-ave-georgetown-tx",
     "name": "Grace Episcopal Church",
-    "website": "https://georgetowngrace.org/",
+    "website": "https://georgetowngrace.org",
     "address": "1314 E University Ave, Georgetown, TX 78626",
     "state": "TX",
     "diocese": "Texas",
@@ -1682,7 +1682,7 @@
   {
     "id": "grace-episcopal-church-4040-w-bellfort-ave-houston-tx",
     "name": "Grace Episcopal Church",
-    "website": "https://www.graceinhouston.org/",
+    "website": "https://www.graceinhouston.org",
     "address": "4040 W. Bellfort Ave, Houston, TX 77025",
     "state": "TX",
     "diocese": "Texas",
@@ -1708,7 +1708,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. Ryan Hawthorne",
-    "other_clergy": "The Rev. Dawn Shepler (Deacon); The Rev. Dr. Alejandro Montes (Assisting Priest, retired; leads Spanish-language service)",
+    "other_clergy": "The Rev. Dawn Shepler (Deacon); The Rev. Dr. Alejandro Montes (Assisting Priest (retired); leads Spanish-language service)",
     "rite": "Rite II",
     "celebrant_position": "",
     "service_languages": "English; Spanish",
@@ -1724,7 +1724,7 @@
   {
     "id": "church-of-the-holy-apostles-1225-w-grand-parkway-s-katy-tx",
     "name": "Church of the Holy Apostles",
-    "website": "https://www.cotha.org/",
+    "website": "https://www.cotha.org",
     "address": "1225 W. Grand Parkway S., Katy, TX 77494",
     "state": "TX",
     "diocese": "Texas",
@@ -1766,7 +1766,7 @@
   {
     "id": "holy-comforter-episcopal-church-227-s-chenango-st-angleton-tx",
     "name": "Holy Comforter Episcopal Church",
-    "website": "https://holycomforterangleton.org/",
+    "website": "https://holycomforterangleton.org",
     "address": "227 S. Chenango St., Angleton, TX 77515",
     "state": "TX",
     "diocese": "Texas",
@@ -1808,7 +1808,7 @@
   {
     "id": "holy-comforter-episcopal-church-2322-spring-cypress-rd-spring-tx",
     "name": "Holy Comforter Episcopal Church",
-    "website": "https://www.holycomforterspring.org/",
+    "website": "https://www.holycomforterspring.org",
     "address": "2322 Spring Cypress Rd., Spring, TX 77388",
     "state": "TX",
     "diocese": "Texas",
@@ -1850,7 +1850,7 @@
   {
     "id": "holy-cross-episcopal-church-5653-w-river-park-dr-sugar-land-tx",
     "name": "Holy Cross Episcopal Church",
-    "website": "https://www.holycrosschurch.com/",
+    "website": "https://www.holycrosschurch.com",
     "address": "5653 W. River Park Dr., Sugar Land, TX 77479",
     "state": "TX",
     "diocese": "Texas",
@@ -1892,7 +1892,7 @@
   {
     "id": "holy-family-episcopal-church-3719-navigation-blvd-houston-tx",
     "name": "Holy Family Episcopal Church",
-    "website": "https://www.holyfamilyhtx.org/",
+    "website": "https://www.holyfamilyhtx.org",
     "address": "3719 Navigation Blvd., Houston, TX 77003",
     "state": "TX",
     "diocese": "Texas",
@@ -1934,7 +1934,7 @@
   {
     "id": "holy-innocents-episcopal-church-600-n-mciver-st-madisonville-tx",
     "name": "Holy Innocents Episcopal Church",
-    "website": "https://holyinnocentsepiscopalchurchcom.wordpress.com/",
+    "website": "https://holyinnocentsepiscopalchurchcom.wordpress.com",
     "address": "600 N. McIver St., Madisonville, TX 77864",
     "state": "TX",
     "diocese": "Texas",
@@ -1976,7 +1976,7 @@
   {
     "id": "holy-spirit-episcopal-church-12535-perthshire-rd-houston-tx",
     "name": "Holy Spirit Episcopal Church",
-    "website": "https://holyspirithouston.org/",
+    "website": "https://holyspirithouston.org",
     "address": "12535 Perthshire Rd., Houston, TX 77024",
     "state": "TX",
     "diocese": "Texas",
@@ -2018,7 +2018,7 @@
   {
     "id": "holy-spirit-episcopal-church-1624-wooded-acres-dr-waco-tx",
     "name": "Holy Spirit Episcopal Church",
-    "website": "https://holyspiritwaco.com/",
+    "website": "https://holyspiritwaco.com",
     "address": "1624 Wooded Acres Dr, Waco, TX 76710",
     "state": "TX",
     "diocese": "Texas",
@@ -2060,7 +2060,7 @@
   {
     "id": "holy-trinity-episcopal-church-4613-highway-3-dickinson-tx",
     "name": "Holy Trinity Episcopal Church",
-    "website": "https://www.holytrinitydickinson.org/",
+    "website": "https://www.holytrinitydickinson.org",
     "address": "4613 Highway 3, Dickinson, TX 77539",
     "state": "TX",
     "diocese": "Texas",
@@ -2102,7 +2102,7 @@
   {
     "id": "holy-trinity-episcopal-church-2425-nall-st-port-neches-tx",
     "name": "Holy Trinity Episcopal Church",
-    "website": "https://www.htec-pn.org/",
+    "website": "https://www.htec-pn.org",
     "address": "2425 Nall St, Port Neches, TX 77651",
     "state": "TX",
     "diocese": "Texas",
@@ -2113,7 +2113,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Parish Secretary Ami Price, 409-722-6238; office hours Mon-Thu 8:00 AM - 1:00 PM",
+    "other_contact": "Parish Secretary Ami Price, (409) 722-6238; office hours Mon-Thu 8:00 AM - 1:00 PM",
     "verification_status": "Unverified",
     "lat": 29.976429,
     "lon": -93.965282,
@@ -2144,7 +2144,7 @@
   {
     "id": "hope-episcopal-church-1613-w-43rd-st-houston-tx",
     "name": "Hope Episcopal Church",
-    "website": "https://hope-episcopal-houston.com/",
+    "website": "https://hope-episcopal-houston.com",
     "address": "1613 W 43rd St, Houston, TX 77018",
     "state": "TX",
     "diocese": "Texas",
@@ -2155,7 +2155,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Parish Administrator Dorothy Miller, 713-818-6770, dor1249@aol.com; Website Administrator R. Eric Sawyer, eric.sawyer@yahoo.com",
+    "other_contact": "Parish Administrator Dorothy Miller, (713) 818-6770, dor1249@aol.com; Website Administrator R. Eric Sawyer, eric.sawyer@yahoo.com",
     "verification_status": "Unverified",
     "lat": 29.830489,
     "lon": -95.440027,
@@ -2186,7 +2186,7 @@
   {
     "id": "jubilee-episcopal-church-12129-n-fm-620-austin-tx",
     "name": "Jubilee Episcopal Church",
-    "website": "https://www.jubileeatx.org/",
+    "website": "https://www.jubileeatx.org",
     "address": "12129 N FM 620, Unit 310, Austin, TX 78750",
     "state": "TX",
     "diocese": "Texas",
@@ -2270,7 +2270,7 @@
   {
     "id": "lord-of-the-streets-episcopal-church-3401-fannin-st-houston-tx",
     "name": "Lord of the Streets Episcopal Church",
-    "website": "https://www.lotshouston.org/",
+    "website": "https://www.lotshouston.org",
     "address": "3401 Fannin St, Houston, TX 77004",
     "state": "TX",
     "diocese": "Texas",
@@ -2312,7 +2312,7 @@
   {
     "id": "mosaic-episcopal-church-11901-shadow-creek-pkwy-pearland-tx",
     "name": "Mosaic Episcopal Church",
-    "website": "https://www.mosaicpearland.org/",
+    "website": "https://www.mosaicpearland.org",
     "address": "11901 Shadow Creek Pkwy, Ste 133, Pearland, TX 77584",
     "state": "TX",
     "diocese": "Texas",
@@ -2354,7 +2354,7 @@
   {
     "id": "palmer-memorial-episcopal-church-6221-main-st-houston-tx",
     "name": "Palmer Memorial Episcopal Church",
-    "website": "https://palmerchurch.org/",
+    "website": "https://palmerchurch.org",
     "address": "6221 Main St, Houston, TX 77030",
     "state": "TX",
     "diocese": "Texas",
@@ -2396,7 +2396,7 @@
   {
     "id": "church-of-the-redeemer-5700-lawndale-st-houston-tx",
     "name": "Church of the Redeemer",
-    "website": "https://redeemerhouston.org/",
+    "website": "https://redeemerhouston.org",
     "address": "5700 Lawndale St, Houston, TX 77023",
     "state": "TX",
     "diocese": "Texas",
@@ -2422,7 +2422,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "Priest",
     "rector_name": "The Rev. Lacy Largent",
-    "other_clergy": "Father Israel (teaches at Friday night gatherings; surname and title not published)",
+    "other_clergy": "Fr. Israel (teaches at Friday night gatherings; surname and title not published)",
     "rite": "",
     "celebrant_position": "",
     "service_languages": "English",
@@ -2438,7 +2438,7 @@
   {
     "id": "resurrection-south-austin-episcopal-church-6215-menchaca-rd-austin-tx",
     "name": "Resurrection South Austin Episcopal Church",
-    "website": "https://www.rezaustin.com/",
+    "website": "https://www.rezaustin.com",
     "address": "6215 Menchaca Rd, Austin, TX 78745",
     "state": "TX",
     "diocese": "Texas",
@@ -2480,7 +2480,7 @@
   {
     "id": "the-episcopal-church-of-the-resurrection-2200-justin-ln-austin-tx",
     "name": "The Episcopal Church of the Resurrection",
-    "website": "https://www.ecraustin.org/",
+    "website": "https://www.ecraustin.org",
     "address": "2200 Justin Ln, Austin, TX 78757",
     "state": "TX",
     "diocese": "Texas",
@@ -2491,7 +2491,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Parish Administrator Linda Bryant via office@ecraustin.org, 512-459-0027; Worship & Music Coordinator Greg Willis",
+    "other_contact": "Parish Administrator Linda Bryant via office@ecraustin.org, (512) 459-0027; Worship & Music Coordinator Greg Willis",
     "verification_status": "Unverified",
     "lat": 30.345188,
     "lon": -97.7360262,
@@ -2522,7 +2522,7 @@
   {
     "id": "episcopal-church-of-the-resurrection-905-s-church-st-decatur-tx",
     "name": "Episcopal Church of the Resurrection",
-    "website": "https://resurrectiondecaturtx.org/",
+    "website": "https://resurrectiondecaturtx.org",
     "address": "905 S Church St, Decatur, TX 76234",
     "state": "TX",
     "diocese": "Texas",
@@ -2648,7 +2648,7 @@
   {
     "id": "iglesia-episcopal-san-mateo-6635-alder-dr-houston-tx",
     "name": "Iglesia Episcopal San Mateo",
-    "website": "https://www.iglesiasanmateo.org/",
+    "website": "https://www.iglesiasanmateo.org",
     "address": "6635 Alder Dr, Houston, TX 77081",
     "state": "TX",
     "diocese": "Texas",
@@ -2690,7 +2690,7 @@
   {
     "id": "st-pauls-episcopal-church-iglesia-episcopal-san-pablo-7843-park-place-blvd-houston-tx",
     "name": "St. Paul's Episcopal Church / Iglesia Episcopal San Pablo",
-    "website": "https://stpaulsanpablo.org/",
+    "website": "https://stpaulsanpablo.org",
     "address": "7843 Park Place Blvd, Houston, TX 77087",
     "state": "TX",
     "diocese": "Texas",
@@ -2732,7 +2732,7 @@
   {
     "id": "san-pedro-st-peters-episcopal-church-705-williams-st-pasadena-tx",
     "name": "San Pedro / St. Peter's Episcopal Church",
-    "website": "https://stpetersanpedro.org/",
+    "website": "https://stpetersanpedro.org",
     "address": "705 Williams St, Pasadena, TX 77506",
     "state": "TX",
     "diocese": "Texas",
@@ -2774,7 +2774,7 @@
   {
     "id": "iglesia-episcopal-san-romero-5705-thomas-road-houston-tx",
     "name": "Iglesia Episcopal San Romero",
-    "website": "https://www.iglesiasanromero.org/",
+    "website": "https://www.iglesiasanromero.org",
     "address": "5705 Thomas Road, Houston, TX 77041",
     "state": "TX",
     "diocese": "Texas",
@@ -2858,7 +2858,7 @@
   {
     "id": "saint-aidans-episcopal-church-13131-fry-rd-cypress-tx",
     "name": "Saint Aidan's Episcopal Church",
-    "website": "https://www.aidanschurch.org/",
+    "website": "https://www.aidanschurch.org",
     "address": "13131 Fry Rd, Cypress, TX 77433",
     "state": "TX",
     "diocese": "Texas",
@@ -2900,7 +2900,7 @@
   {
     "id": "st-albans-episcopal-church-11819-ih-35-south-austin-tx",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://www.stalbansaustin.org/",
+    "website": "https://www.stalbansaustin.org",
     "address": "11819 IH-35 South, Austin, TX 78747",
     "state": "TX",
     "diocese": "Texas",
@@ -2942,7 +2942,7 @@
   {
     "id": "st-albans-episcopal-church-420-woodard-st-houston-tx",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://www.stalbansepiscopalhouston.org/",
+    "website": "https://www.stalbansepiscopalhouston.org",
     "address": "420 Woodard St, Houston, TX 77009",
     "state": "TX",
     "diocese": "Texas",
@@ -2984,7 +2984,7 @@
   {
     "id": "st-albans-episcopal-church-305-n-30th-st-waco-tx",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://www.stalbanswaco.org/",
+    "website": "https://www.stalbanswaco.org",
     "address": "305 N 30th St, Waco, TX 76710",
     "state": "TX",
     "diocese": "Texas",
@@ -3026,7 +3026,7 @@
   {
     "id": "saint-andrews-episcopal-church-217-w-26th-street-bryan-tx",
     "name": "Saint Andrew's Episcopal Church",
-    "website": "https://standrewsbcs.org/",
+    "website": "https://standrewsbcs.org",
     "address": "217 W. 26th Street, Bryan, TX 77803",
     "state": "TX",
     "diocese": "Texas",
@@ -3068,7 +3068,7 @@
   {
     "id": "st-andrews-episcopal-church-1819-heights-boulevard-houston-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://saecheights.org/",
+    "website": "https://saecheights.org",
     "address": "1819 Heights Boulevard, Houston, TX 77008",
     "state": "TX",
     "diocese": "Texas",
@@ -3110,7 +3110,7 @@
   {
     "id": "st-andrews-episcopal-church-2535-e-broadway-street-pearland-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.pumpkinchurch.com/",
+    "website": "https://www.pumpkinchurch.com",
     "address": "2535 E. Broadway Street, Pearland, TX 77581",
     "state": "TX",
     "diocese": "Texas",
@@ -3152,7 +3152,7 @@
   {
     "id": "st-augustine-of-hippo-episcopal-church-1410-jack-johnson-boulevard-galveston-tx",
     "name": "St. Augustine of Hippo Episcopal Church",
-    "website": "https://staug1884.org/",
+    "website": "https://staug1884.org",
     "address": "1410 Jack Johnson Boulevard, Galveston, TX 77550",
     "state": "TX",
     "diocese": "Texas",
@@ -3236,7 +3236,7 @@
   {
     "id": "st-brigid-episcopal-church-209-s-main-street-fort-worth-tx",
     "name": "St. Brigid Episcopal Church",
-    "website": "https://stbrigidfw.org/",
+    "website": "https://stbrigidfw.org",
     "address": "209 S. Main Street, Fort Worth, TX 76104",
     "state": "TX",
     "diocese": "Texas",
@@ -3278,7 +3278,7 @@
   {
     "id": "st-catherine-of-sienna-episcopal-church-4747-sienna-parkway-missouri-city-tx",
     "name": "St. Catherine of Sienna Episcopal Church",
-    "website": "https://www.siennachurch.org/",
+    "website": "https://www.siennachurch.org",
     "address": "4747 Sienna Parkway, Missouri City, TX 77459",
     "state": "TX",
     "diocese": "Texas",
@@ -3320,7 +3320,7 @@
   {
     "id": "st-cecilias-episcopal-church-130-henkel-circle-round-top-tx",
     "name": "St. Cecilia's Episcopal Church",
-    "website": "https://www.stcecilias.org/",
+    "website": "https://www.stcecilias.org",
     "address": "130 Henkel Circle, Round Top, TX 78954",
     "state": "TX",
     "diocese": "Texas",
@@ -3345,7 +3345,7 @@
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "Vicar",
-    "rector_name": "Father Bill Miller",
+    "rector_name": "Fr. Bill Miller",
     "other_clergy": "",
     "rite": "",
     "celebrant_position": "",
@@ -3362,7 +3362,7 @@
   {
     "id": "st-christopher-episcopal-church-2508-st-christopher-avenue-league-city-tx",
     "name": "St. Christopher Episcopal Church",
-    "website": "https://www.stchrischurch.org/",
+    "website": "https://www.stchrischurch.org",
     "address": "2508 St. Christopher Avenue, League City, TX 77573",
     "state": "TX",
     "diocese": "Texas",
@@ -3373,7 +3373,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Parish Administrator Alyssa Kelley; fax (281) 332-5554; office hours Mon-Fri 9:00 AM-12:00 PM and 1:00 PM-4:00 PM; pastoral care (281) 332-5553 x305; Mother's Day Out (281) 554-8602; family ministry: Alex Hillis, families@stchrischurch.org",
+    "other_contact": "Parish Administrator Alyssa Kelley; fax (281) 332-5554; office hours Mon-Fri 9:00 AM-12:00 PM and 1:00 PM-4:00 PM; pastoral care (281) 332-5553 ext. 305; Mother's Day Out (281) 554-8602; family ministry: Alex Hillis, families@stchrischurch.org",
     "verification_status": "Unverified",
     "lat": 29.522341,
     "lon": -95.074145,
@@ -3404,7 +3404,7 @@
   {
     "id": "st-christophers-episcopal-church-8724-travis-hills-dr-austin-tx",
     "name": "St. Christopher's Episcopal Church",
-    "website": "https://stchrisatx.org/",
+    "website": "https://stchrisatx.org",
     "address": "8724 Travis Hills Dr, Austin, TX 78735",
     "state": "TX",
     "diocese": "Texas",
@@ -3446,7 +3446,7 @@
   {
     "id": "st-christophers-episcopal-church-5709-wedgwood-dr-fort-worth-tx",
     "name": "St. Christopher's Episcopal Church",
-    "website": "https://www.stchrisfw.org/",
+    "website": "https://www.stchrisfw.org",
     "address": "5709 Wedgwood Dr, Fort Worth, TX 76133",
     "state": "TX",
     "diocese": "Texas",
@@ -3466,7 +3466,7 @@
     "church_phone": "(817) 926-8277",
     "church_email": "office@stchrisfw.org",
     "rector_phone": "",
-    "rector_email": "RevPaula@stchrisfw.org",
+    "rector_email": "revpaula@stchrisfw.org",
     "sunday_services": "9:30 AM Sunday worship (in person and livestreamed)",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
@@ -3488,7 +3488,7 @@
   {
     "id": "st-christophers-episcopal-church-1656-blalock-rd-houston-tx",
     "name": "St. Christopher's Episcopal Church",
-    "website": "https://stchrishouston.org/",
+    "website": "https://stchrishouston.org",
     "address": "1656 Blalock Rd, Houston, TX 77080",
     "state": "TX",
     "diocese": "Texas",
@@ -3530,7 +3530,7 @@
   {
     "id": "st-christophers-episcopal-church-2800-trimmier-rd-killeen-tx",
     "name": "St. Christopher's Episcopal Church",
-    "website": "https://stchriskilleen.com/",
+    "website": "https://stchriskilleen.com",
     "address": "2800 Trimmier Rd, Killeen, TX 76542",
     "state": "TX",
     "diocese": "Texas",
@@ -3572,7 +3572,7 @@
   {
     "id": "st-clares-episcopal-church-3320-troup-highway-tyler-tx",
     "name": "St. Clare's Episcopal Church",
-    "website": "https://www.scectyler.org/",
+    "website": "https://www.scectyler.org",
     "address": "3320 Troup Highway, Suite 125, Tyler, TX 75701",
     "state": "TX",
     "diocese": "Texas",
@@ -3614,7 +3614,7 @@
   {
     "id": "st-cuthbert-episcopal-church-17020-west-road-houston-tx",
     "name": "St. Cuthbert Episcopal Church",
-    "website": "https://www.stcuthbert.org/",
+    "website": "https://www.stcuthbert.org",
     "address": "17020 West Road, Houston, TX 77095",
     "state": "TX",
     "diocese": "Texas",
@@ -3656,7 +3656,7 @@
   {
     "id": "st-cyprians-episcopal-church-919-s-john-redditt-dr-lufkin-tx",
     "name": "St. Cyprian's Episcopal Church",
-    "website": "https://stcyprianschurch.org/",
+    "website": "https://stcyprianschurch.org",
     "address": "919 S. John Redditt Dr., Lufkin, TX 75904",
     "state": "TX",
     "diocese": "Texas",
@@ -3698,7 +3698,7 @@
   {
     "id": "st-davids-episcopal-church-301-e-8th-st-austin-tx",
     "name": "St. David's Episcopal Church",
-    "website": "https://stdave.org/",
+    "website": "https://stdave.org",
     "address": "301 E 8th St, Austin, TX 78701",
     "state": "TX",
     "diocese": "Texas",
@@ -3740,7 +3740,7 @@
   {
     "id": "st-dunstans-episcopal-church-14301-stuebner-airline-rd-houston-tx",
     "name": "St. Dunstan's Episcopal Church",
-    "website": "https://saintdunstans.org/",
+    "website": "https://saintdunstans.org",
     "address": "14301 Stuebner Airline Rd, Houston, TX 77069",
     "state": "TX",
     "diocese": "Texas",
@@ -3759,7 +3759,7 @@
     "city": "Houston",
     "church_phone": "(281) 440-1600",
     "church_email": "office@saintdunstans.org",
-    "rector_phone": "(281) 440-1600 x112",
+    "rector_phone": "(281) 440-1600 ext. 112",
     "rector_email": "frroman@saintdunstans.org",
     "sunday_services": "7:45 AM Holy Eucharist Rite I (spoken); 9:00 AM Holy Eucharist Rite II Modern Traditional with Praise Team (livestreamed); 11:15 AM Holy Eucharist Rite II Traditional with organ and Parish Choir (livestreamed); 11:15 AM Rito II Santa Eucaristia (Spanish, with praise music)",
     "weekday_services": "Thursday 12:00 PM Rite I or Rite II, spoken (listed on Asset Map only, not on parish site)",
@@ -3782,7 +3782,7 @@
   {
     "id": "st-francis-of-assisi-episcopal-church-2000-phillip-st-prairie-view-tx",
     "name": "St. Francis of Assisi Episcopal Church",
-    "website": "https://www.stfrancisofassisipv.org/",
+    "website": "https://www.stfrancisofassisipv.org",
     "address": "2000 Phillip St, Prairie View, TX 77446",
     "state": "TX",
     "diocese": "Texas",
@@ -3824,7 +3824,7 @@
   {
     "id": "saint-francis-episcopal-church-1101-rock-prairie-rd-college-station-tx",
     "name": "Saint Francis Episcopal Church",
-    "website": "https://www.stfrancisbcs.org/",
+    "website": "https://www.stfrancisbcs.org",
     "address": "1101 Rock Prairie Rd, College Station, TX 77845",
     "state": "TX",
     "diocese": "Texas",
@@ -3866,7 +3866,7 @@
   {
     "id": "st-francis-episcopal-church-345-piney-point-rd-houston-tx",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.sfch.org/",
+    "website": "https://www.sfch.org",
     "address": "345 Piney Point Rd, Houston, TX 77024",
     "state": "TX",
     "diocese": "Texas",
@@ -3892,7 +3892,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. Stuart Bates",
-    "other_clergy": "The Rev. David Price (Associate Rector); The Rev. Robert Wismer (Assistant Rector & Senior Chaplain at St. Francis School); The Rev. Katie Mitchell (Assistant Chaplain at St. Francis School); Mother Emily Hylden (Assistant Priest for Family Ministry)",
+    "other_clergy": "The Rev. David Price (Associate Rector); The Rev. Robert Wismer (Assistant Rector & Senior Chaplain at St. Francis School); The Rev. Katie Mitchell (Assistant Chaplain at St. Francis School); Mtr. Emily Hylden (Assistant Priest for Family Ministry)",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -3908,7 +3908,7 @@
   {
     "id": "st-francis-episcopal-church-5001-hickory-rd-temple-tx",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.stfrancistemple.org/",
+    "website": "https://www.stfrancistemple.org",
     "address": "5001 Hickory Rd, Temple, TX 76501",
     "state": "TX",
     "diocese": "Texas",
@@ -3950,7 +3950,7 @@
   {
     "id": "st-francis-episcopal-church-3232-jan-ave-tyler-tx",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.stfrancistyler.org/",
+    "website": "https://www.stfrancistyler.org",
     "address": "3232 Jan Ave, Tyler, TX 75701",
     "state": "TX",
     "diocese": "Texas",
@@ -3992,7 +3992,7 @@
   {
     "id": "st-georges-episcopal-church-4301-n-i-35-austin-tx",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.sgchurch.org/",
+    "website": "https://www.sgchurch.org",
     "address": "4301 N I-35, Austin, TX 78722",
     "state": "TX",
     "diocese": "Texas",
@@ -4018,7 +4018,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. Dr. Matt Boulter",
-    "other_clergy": "Mother Kelly Jennings (Children & Family Minister and School Chaplain); The Rev. Patti Peacock (Deacon)",
+    "other_clergy": "Mtr. Kelly Jennings (Children & Family Minister and School Chaplain); The Rev. Patti Peacock (Deacon)",
     "rite": "Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -4076,7 +4076,7 @@
   {
     "id": "st-james-the-apostle-episcopal-church-1803-highland-hollow-dr-conroe-tx",
     "name": "St. James the Apostle Episcopal Church",
-    "website": "https://stjamesconroe.org/",
+    "website": "https://stjamesconroe.org",
     "address": "1803 Highland Hollow Dr, Conroe, TX 77304",
     "state": "TX",
     "diocese": "Texas",
@@ -4087,7 +4087,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Parish Administrator Jane Bates (info@stjames-conroe.org); office hours Monday-Thursday 9 AM-5 PM; St. James School Director Lacy Young (Lyoung@stjames-conroe.org)",
+    "other_contact": "Parish Administrator Jane Bates (info@stjames-conroe.org); office hours Monday-Thursday 9 AM-5 PM; St. James School Director Lacy Young (lyoung@stjames-conroe.org)",
     "verification_status": "Unverified",
     "lat": 30.343014,
     "lon": -95.52202,
@@ -4118,7 +4118,7 @@
   {
     "id": "st-james-episcopal-church-1941-webberville-rd-austin-tx",
     "name": "St. James' Episcopal Church",
-    "website": "https://stjamesaustin.org/",
+    "website": "https://stjamesaustin.org",
     "address": "1941 Webberville Rd, Austin, TX 78721",
     "state": "TX",
     "diocese": "Texas",
@@ -4160,7 +4160,7 @@
   {
     "id": "st-james-episcopal-church-3129-southmore-blvd-houston-tx",
     "name": "St. James' Episcopal Church",
-    "website": "https://stjameshouston.org/",
+    "website": "https://stjameshouston.org",
     "address": "3129 Southmore Blvd, Houston, TX 77004",
     "state": "TX",
     "diocese": "Texas",
@@ -4202,7 +4202,7 @@
   {
     "id": "st-james-episcopal-church-156-n-monroe-st-la-grange-tx",
     "name": "St. James Episcopal Church",
-    "website": "https://stjameslagrange.org/",
+    "website": "https://stjameslagrange.org",
     "address": "156 N Monroe St, La Grange, TX 78945",
     "state": "TX",
     "diocese": "Texas",
@@ -4222,7 +4222,7 @@
     "church_phone": "(979) 968-3910",
     "church_email": "john@stjameslagrange.org",
     "rector_phone": "(512) 940-7897",
-    "rector_email": "Ken.Kesselus@gmail.com",
+    "rector_email": "ken.kesselus@gmail.com",
     "sunday_services": "8:00 AM Holy Eucharist Rite I (no choir); 10:30 AM Holy Eucharist Rite II (with choir)",
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
@@ -4244,7 +4244,7 @@
   {
     "id": "st-james-episcopal-church-612-davis-street-taylor-tx",
     "name": "St. James' Episcopal Church",
-    "website": "https://www.stjamestaylor.org/",
+    "website": "https://www.stjamestaylor.org",
     "address": "612 Davis Street, Taylor, TX 76574",
     "state": "TX",
     "diocese": "Texas",
@@ -4286,7 +4286,7 @@
   {
     "id": "the-church-of-st-john-the-divine-2450-river-oaks-blvd-houston-tx",
     "name": "The Church of St. John the Divine",
-    "website": "https://sjd.org/",
+    "website": "https://sjd.org",
     "address": "2450 River Oaks Blvd, Houston, TX 77019",
     "state": "TX",
     "diocese": "Texas",
@@ -4328,7 +4328,7 @@
   {
     "id": "st-johns-episcopal-church-11201-parkfield-dr-austin-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.austinstjohns.org/",
+    "website": "https://www.austinstjohns.org",
     "address": "11201 Parkfield Dr, Austin, TX 78758",
     "state": "TX",
     "diocese": "Texas",
@@ -4339,7 +4339,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Mailing address P.O. Box 81493, Austin, TX 78708-1493; Deacon Mary Lenn Dixon deaconML@austinstjohns.org; Fr. Paul Skeith frpaul@austinstjohns.org",
+    "other_contact": "Mailing address P.O. Box 81493, Austin, TX 78708-1493; Deacon Mary Lenn Dixon deaconml@austinstjohns.org; Fr. Paul Skeith frpaul@austinstjohns.org",
     "verification_status": "Unverified",
     "lat": 30.385541,
     "lon": -97.695597,
@@ -4412,7 +4412,7 @@
   {
     "id": "st-johns-episcopal-church-1063-southview-cir-center-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnscentertx.weebly.com/",
+    "website": "https://stjohnscentertx.weebly.com",
     "address": "1063 Southview Cir, Center, TX 75935",
     "state": "TX",
     "diocese": "Texas",
@@ -4454,7 +4454,7 @@
   {
     "id": "st-johns-episcopal-church-915-travis-st-columbus-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnscolumbustx.org/",
+    "website": "https://www.stjohnscolumbustx.org",
     "address": "915 Travis St, Columbus, TX 78934",
     "state": "TX",
     "diocese": "Texas",
@@ -4496,7 +4496,7 @@
   {
     "id": "st-johns-episcopal-church-815-south-broadway-la-porte-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohns-laporte.org/",
+    "website": "https://www.stjohns-laporte.org",
     "address": "815 South Broadway, La Porte, TX 77571",
     "state": "TX",
     "diocese": "Texas",
@@ -4507,7 +4507,7 @@
     "lgbt_ordination_affirmed": "N/A - Data Not Available",
     "ssm": "N/A - Data Not Available",
     "theological_cultural_alignment": "N/A - Data Not Available",
-    "other_contact": "Parish office hours Monday-Thursday 8:30 AM-4:00 PM, Friday closed (Visit Us page says 9:00 AM-4:00 PM); office fax 281-470-1720",
+    "other_contact": "Parish office hours Monday-Thursday 8:30 AM-4:00 PM, Friday closed (Visit Us page says 9:00 AM-4:00 PM); office fax (281) 470-1720",
     "verification_status": "Unverified",
     "lat": 29.656059,
     "lon": -95.018815,
@@ -4538,7 +4538,7 @@
   {
     "id": "st-johns-episcopal-church-514-carter-st-marlin-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnsmarlin.com/",
+    "website": "https://stjohnsmarlin.com",
     "address": "514 Carter St, Marlin, TX 76661",
     "state": "TX",
     "diocese": "Texas",
@@ -4580,7 +4580,7 @@
   {
     "id": "st-johns-episcopal-church-300-3rd-st-palacios-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.saintjohnspalacios.com/",
+    "website": "https://www.saintjohnspalacios.com",
     "address": "300 3rd St, Palacios, TX 77465",
     "state": "TX",
     "diocese": "Texas",
@@ -4605,7 +4605,7 @@
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "Vicar",
-    "rector_name": "The Rev. William Thomas Bullard (Father Bill)",
+    "rector_name": "The Rev. William Thomas Bullard",
     "other_clergy": "",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
@@ -4622,7 +4622,7 @@
   {
     "id": "st-johns-episcopal-church-515-meyer-st-sealy-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnssealy.com/",
+    "website": "https://www.stjohnssealy.com",
     "address": "515 Meyer St, Sealy, TX 77474",
     "state": "TX",
     "diocese": "Texas",
@@ -4664,7 +4664,7 @@
   {
     "id": "st-johns-episcopal-church-1305-roosevelt-dr-silsbee-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnssilsbee.com/",
+    "website": "https://stjohnssilsbee.com",
     "address": "1305 Roosevelt Dr, Silsbee, TX 77656",
     "state": "TX",
     "diocese": "Texas",
@@ -4706,7 +4706,7 @@
   {
     "id": "st-johns-episcopal-church-514-w-vance-st-tyler-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnsepiscopaltyler.weebly.com/",
+    "website": "https://stjohnsepiscopaltyler.weebly.com",
     "address": "514 W. Vance St., Tyler, TX 75702",
     "state": "TX",
     "diocese": "Texas",
@@ -4748,7 +4748,7 @@
   {
     "id": "st-josephs-episcopal-church-881-n-main-street-salado-tx",
     "name": "St. Joseph's Episcopal Church",
-    "website": "https://www.stjosephsalado.org/",
+    "website": "https://www.stjosephsalado.org",
     "address": "881 N Main Street, Salado, TX 76571",
     "state": "TX",
     "diocese": "Texas",
@@ -4774,7 +4774,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "",
-    "other_clergy": "Mother Beth Woodson (rotating Sunday officiant); Father Andrew Terry (rotating Sunday officiant); Father David Peters (rotating Sunday officiant)",
+    "other_clergy": "Mtr. Beth Woodson (rotating Sunday officiant); Fr. Andrew Terry (rotating Sunday officiant); Fr. David Peters (rotating Sunday officiant)",
     "rite": "Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -4790,7 +4790,7 @@
   {
     "id": "st-julian-of-norwich-episcopal-church-3823-brushy-creek-road-cedar-park-tx",
     "name": "St. Julian of Norwich Episcopal Church",
-    "website": "https://stjuliansaustin.org/",
+    "website": "https://stjuliansaustin.org",
     "address": "3823 Brushy Creek Road, Cedar Park, TX 78613",
     "state": "TX",
     "diocese": "Texas",
@@ -4832,7 +4832,7 @@
   {
     "id": "st-luke-the-evangelist-episcopal-church-3530-wheeler-st-houston-tx",
     "name": "St. Luke the Evangelist Episcopal Church",
-    "website": "https://www.stlukehouston.org/",
+    "website": "https://www.stlukehouston.org",
     "address": "3530 Wheeler St., Houston, TX 77004",
     "state": "TX",
     "diocese": "Texas",
@@ -4874,7 +4874,7 @@
   {
     "id": "st-lukes-in-the-meadow-episcopal-church-2529-mount-view-avenue-fort-worth-tx",
     "name": "St. Luke's in the Meadow Episcopal Church",
-    "website": "https://stlukesfw.org/",
+    "website": "https://stlukesfw.org",
     "address": "2529 Mount View Avenue, Fort Worth, TX 76103",
     "state": "TX",
     "diocese": "Texas",
@@ -4899,7 +4899,7 @@
     "weekday_services": "Taize service first Friday of each month 6:00 PM; Quiet Day one Saturday a month 9:30 AM-12:00 PM",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "Vicar",
-    "rector_name": "The Reverend Karen A. Calafat",
+    "rector_name": "The Rev. Karen A. Calafat",
     "other_clergy": "",
     "rite": "",
     "celebrant_position": "",
@@ -4916,7 +4916,7 @@
   {
     "id": "st-lukes-on-the-lake-episcopal-church-5600-ranch-road-620-north-austin-tx",
     "name": "St. Luke's on the Lake Episcopal Church",
-    "website": "https://www.stlukesonthelake.org/",
+    "website": "https://www.stlukesonthelake.org",
     "address": "5600 Ranch Road 620 North, Austin, TX 78732",
     "state": "TX",
     "diocese": "Texas",
@@ -4958,7 +4958,7 @@
   {
     "id": "st-lukes-episcopal-church-16292-fm-849-lindale-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://stlukeslindale.org/",
+    "website": "https://stlukeslindale.org",
     "address": "16292 FM 849, Lindale, TX 75771",
     "state": "TX",
     "diocese": "Texas",
@@ -4976,7 +4976,7 @@
     "asa": null,
     "city": "Lindale",
     "church_phone": "(903) 882-8118",
-    "church_email": "RGaston@fsbbenwheeler.com",
+    "church_email": "rgaston@fsbbenwheeler.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM Sunday Service",
@@ -5000,7 +5000,7 @@
   {
     "id": "st-lukes-episcopal-church-836-west-jones-street-livingston-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukeslivingston.org/",
+    "website": "https://www.stlukeslivingston.org",
     "address": "836 West Jones Street, Livingston, TX 77351",
     "state": "TX",
     "diocese": "Texas",
@@ -5025,7 +5025,7 @@
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
-    "rector_name": "Rev. Chester J. Makowski",
+    "rector_name": "The Rev. Chester J. Makowski",
     "other_clergy": "",
     "rite": "",
     "celebrant_position": "",
@@ -5042,7 +5042,7 @@
   {
     "id": "st-lukes-episcopal-church-595-n-mcilhaney-st-stephenville-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukesstephenville.org/",
+    "website": "https://www.stlukesstephenville.org",
     "address": "595 N McIlhaney St, Stephenville, TX 76401",
     "state": "TX",
     "diocese": "Texas",
@@ -5084,7 +5084,7 @@
   {
     "id": "st-marks-episcopal-church-2128-barton-hills-dr-austin-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksaustin.org/",
+    "website": "https://www.stmarksaustin.org",
     "address": "2128 Barton Hills Dr, Austin, TX 78704",
     "state": "TX",
     "diocese": "Texas",
@@ -5110,7 +5110,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. Zac Koons",
-    "other_clergy": "The Rev. Zoe Cordes Selbin (Assistant Rector); The Rev. Nathan Jennings, Ph.D. (Theologian-in-Residence)",
+    "other_clergy": "The Rev. Zoe Cordes Selbin (Assistant Rector); The Rev. Nathan Jennings, PhD (Theologian-in-Residence)",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -5126,7 +5126,7 @@
   {
     "id": "st-marks-episcopal-church-2200-avenue-e-bay-city-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://saint-mark.org/",
+    "website": "https://saint-mark.org",
     "address": "2200 Avenue E, Bay City, TX 77414",
     "state": "TX",
     "diocese": "Texas",
@@ -5168,7 +5168,7 @@
   {
     "id": "st-marks-episcopal-church-680-calder-st-beaumont-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksbeaumont.org/",
+    "website": "https://www.stmarksbeaumont.org",
     "address": "680 Calder St, Beaumont, TX 77701",
     "state": "TX",
     "diocese": "Texas",
@@ -5210,7 +5210,7 @@
   {
     "id": "st-marks-episcopal-church-3816-bellaire-blvd-houston-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://stmarks-houston.org/",
+    "website": "https://stmarks-houston.org",
     "address": "3816 Bellaire Blvd, Houston, TX 77025",
     "state": "TX",
     "diocese": "Texas",
@@ -5252,7 +5252,7 @@
   {
     "id": "st-marks-episcopal-church-7615-fm-762-richmond-tx",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksfortbend.org/",
+    "website": "https://www.stmarksfortbend.org",
     "address": "7615 FM 762, Richmond, TX 77469",
     "state": "TX",
     "diocese": "Texas",
@@ -5294,7 +5294,7 @@
   {
     "id": "st-martin-in-the-fields-episcopal-church-223-s-pearson-ln-keller-tx",
     "name": "St. Martin-in-the-Fields Episcopal Church",
-    "website": "https://www.stmartininthefields.org/",
+    "website": "https://www.stmartininthefields.org",
     "address": "223 S Pearson Ln, Keller, TX 76248",
     "state": "TX",
     "diocese": "Texas",
@@ -5336,7 +5336,7 @@
   {
     "id": "st-martins-episcopal-church-1602-s-fm-116-copperas-cove-tx",
     "name": "St. Martin's Episcopal Church",
-    "website": "https://stmartinscove.org/",
+    "website": "https://stmartinscove.org",
     "address": "1602 S FM 116, Copperas Cove, TX 76522",
     "state": "TX",
     "diocese": "Texas",
@@ -5378,7 +5378,7 @@
   {
     "id": "st-martins-episcopal-church-717-sage-rd-houston-tx",
     "name": "St. Martin's Episcopal Church",
-    "website": "https://www.stmartinsepiscopal.org/",
+    "website": "https://www.stmartinsepiscopal.org",
     "address": "717 Sage Rd, Houston, TX 77056",
     "state": "TX",
     "diocese": "Texas",
@@ -5420,7 +5420,7 @@
   {
     "id": "st-mary-magdalene-episcopal-church-12800-lexington-st-manor-tx",
     "name": "St. Mary Magdalene Episcopal Church",
-    "website": "https://iamsmm.com/",
+    "website": "https://iamsmm.com",
     "address": "12800 Lexington St, Manor, TX 78653",
     "state": "TX",
     "diocese": "Texas",
@@ -5462,7 +5462,7 @@
   {
     "id": "st-marys-episcopal-church-24-n-masonic-st-bellville-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmarysbellville.com/",
+    "website": "https://www.stmarysbellville.com",
     "address": "24 N Masonic St, Bellville, TX 77418",
     "state": "TX",
     "diocese": "Texas",
@@ -5504,7 +5504,7 @@
   {
     "id": "st-marys-episcopal-church-15415-n-eldridge-pkwy-cypress-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmaryscypress.org/",
+    "website": "https://www.stmaryscypress.org",
     "address": "15415 N Eldridge Pkwy, Cypress, TX 77429",
     "state": "TX",
     "diocese": "Texas",
@@ -5546,7 +5546,7 @@
   {
     "id": "st-marys-episcopal-church-1323-park-drive-hillsboro-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://stmarys-hillsboro.org/",
+    "website": "https://stmarys-hillsboro.org",
     "address": "1323 Park Drive, Hillsboro, TX 76645",
     "state": "TX",
     "diocese": "Texas",
@@ -5588,7 +5588,7 @@
   {
     "id": "st-marys-episcopal-church-501-s-chestnut-st-lampasas-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.ourstmarys.org/",
+    "website": "https://www.ourstmarys.org",
     "address": "501 S Chestnut St, Lampasas, TX 76550",
     "state": "TX",
     "diocese": "Texas",
@@ -5630,7 +5630,7 @@
   {
     "id": "st-marys-episcopal-church-201-e-clay-st-west-columbia-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "https://www.stmaryswestcolumbia.com/",
+    "website": "https://www.stmaryswestcolumbia.com",
     "address": "201 E Clay St, West Columbia, TX 77486",
     "state": "TX",
     "diocese": "Texas",
@@ -5655,7 +5655,7 @@
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "Interim Rector",
-    "rector_name": "The Reverend Paul Wehner",
+    "rector_name": "The Rev. Paul Wehner",
     "other_clergy": "",
     "rite": "Rite II",
     "celebrant_position": "",
@@ -5672,7 +5672,7 @@
   {
     "id": "st-matthews-episcopal-church-8134-mesa-dr-austin-tx",
     "name": "St. Matthew's Episcopal Church",
-    "website": "https://stmattsaustin.org/",
+    "website": "https://stmattsaustin.org",
     "address": "8134 Mesa Dr, Austin, TX 78759",
     "state": "TX",
     "diocese": "Texas",
@@ -5714,7 +5714,7 @@
   {
     "id": "st-matthews-episcopal-church-214-college-ave-henderson-tx",
     "name": "St. Matthew's Episcopal Church",
-    "website": "https://stmatthewshenderson.org/",
+    "website": "https://stmatthewshenderson.org",
     "address": "214 College Ave, Henderson, TX 75654",
     "state": "TX",
     "diocese": "Texas",
@@ -5756,7 +5756,7 @@
   {
     "id": "st-michael-all-angels-episcopal-church-909-reel-rd-longview-tx",
     "name": "St. Michael & All Angels' Episcopal Church",
-    "website": "https://smaalongview.org/",
+    "website": "https://smaalongview.org",
     "address": "909 Reel Rd, Longview, TX 75604",
     "state": "TX",
     "diocese": "Texas",
@@ -5798,7 +5798,7 @@
   {
     "id": "st-michaels-episcopal-church-1500-n-capital-of-texas-hwy-austin-tx",
     "name": "St. Michael's Episcopal Church",
-    "website": "https://www.st-michaels.org/",
+    "website": "https://www.st-michaels.org",
     "address": "1500 N. Capital of Texas Hwy, Austin, TX 78746",
     "state": "TX",
     "diocese": "Texas",
@@ -5966,7 +5966,7 @@
   {
     "id": "st-pauls-episcopal-church-5373-franz-rd-katy-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulskaty.org/",
+    "website": "http://www.stpaulskaty.org",
     "address": "5373 Franz Rd, Katy, TX 77493",
     "state": "TX",
     "diocese": "Texas",
@@ -6008,7 +6008,7 @@
   {
     "id": "st-pauls-episcopal-church-314-n-henderson-blvd-kilgore-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://www.stpaulsepiscopalkilgore.org/",
+    "website": "https://www.stpaulsepiscopalkilgore.org",
     "address": "314 N. Henderson Blvd, Kilgore, TX 75662",
     "state": "TX",
     "diocese": "Texas",
@@ -6050,7 +6050,7 @@
   {
     "id": "st-pauls-episcopal-church-414-e-mcalpine-st-navasota-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://stpaulsnavasota.org/",
+    "website": "https://stpaulsnavasota.org",
     "address": "414 E. McAlpine St, Navasota, TX 77868",
     "state": "TX",
     "diocese": "Texas",
@@ -6092,7 +6092,7 @@
   {
     "id": "st-pauls-episcopal-church-1401-w-park-ave-orange-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://stpaulsorangetexas.com/",
+    "website": "https://stpaulsorangetexas.com",
     "address": "1401 W. Park Ave, Orange, TX 77630",
     "state": "TX",
     "diocese": "Texas",
@@ -6134,7 +6134,7 @@
   {
     "id": "saint-pauls-episcopal-church-515-columbus-ave-waco-tx",
     "name": "Saint Paul's Episcopal Church",
-    "website": "https://saintpaulswaco.org/",
+    "website": "https://saintpaulswaco.org",
     "address": "515 Columbus Ave, Waco, TX 76701",
     "state": "TX",
     "diocese": "Texas",
@@ -6218,7 +6218,7 @@
   {
     "id": "st-peters-episcopal-church-2310-airline-dr-brenham-tx",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://stpetersbrenham.org/",
+    "website": "https://stpetersbrenham.org",
     "address": "2310 Airline Dr, Brenham, TX 77833",
     "state": "TX",
     "diocese": "Texas",
@@ -6260,7 +6260,7 @@
   {
     "id": "st-philip-the-evangelist-episcopal-church-2525-seagler-rd-houston-tx",
     "name": "St. Philip the Evangelist Episcopal Church",
-    "website": "https://www.stphiliptheevangelist.org/",
+    "website": "https://www.stphiliptheevangelist.org",
     "address": "2525 Seagler Rd, Houston, TX 77042",
     "state": "TX",
     "diocese": "Texas",
@@ -6302,7 +6302,7 @@
   {
     "id": "st-philips-episcopal-church-408-cedar-st-hearne-tx",
     "name": "St. Philip's Episcopal Church",
-    "website": "https://stphilips-hearne.org/",
+    "website": "https://stphilips-hearne.org",
     "address": "408 Cedar St, Hearne, TX 77859",
     "state": "TX",
     "diocese": "Texas",
@@ -6344,7 +6344,7 @@
   {
     "id": "st-philips-episcopal-church-106-e-crawford-st-palestine-tx",
     "name": "St. Philip's Episcopal Church",
-    "website": "https://www.stphilipspalestine.com/",
+    "website": "https://www.stphilipspalestine.com",
     "address": "106 E. Crawford St, Palestine, TX 75801",
     "state": "TX",
     "diocese": "Texas",
@@ -6386,7 +6386,7 @@
   {
     "id": "st-richards-episcopal-church-1420-e-palm-valley-blvd-round-rock-tx",
     "name": "St. Richard's Episcopal Church",
-    "website": "https://saintrichards.org/",
+    "website": "https://saintrichards.org",
     "address": "1420 E. Palm Valley Blvd, Round Rock, TX 78664",
     "state": "TX",
     "diocese": "Texas",
@@ -6428,7 +6428,7 @@
   {
     "id": "st-stephens-episcopal-church-4090-delaware-st-beaumont-tx",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.ststephensbmt.org/",
+    "website": "https://www.ststephensbmt.org",
     "address": "4090 Delaware St, Beaumont, TX 77706",
     "state": "TX",
     "diocese": "Texas",
@@ -6470,7 +6470,7 @@
   {
     "id": "st-stephens-episcopal-church-1805-w-alabama-st-houston-tx",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://ststephenshouston.org/",
+    "website": "https://ststephenshouston.org",
     "address": "1805 W Alabama St, Houston, TX 77098",
     "state": "TX",
     "diocese": "Texas",
@@ -6512,7 +6512,7 @@
   {
     "id": "st-stephens-episcopal-church-5019-sam-houston-ave-huntsville-tx",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://ststephenshuntsvilletx.org/",
+    "website": "https://ststephenshuntsvilletx.org",
     "address": "5019 Sam Houston Ave, Huntsville, TX 77340",
     "state": "TX",
     "diocese": "Texas",
@@ -6538,7 +6538,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. Blake Rider",
-    "other_clergy": "The Rev. G.A. Whitehead (Curate; Campus Missioner, Episcopal Student Center)",
+    "other_clergy": "The Rev. G.A. Whitehead (Curate; Campus Missioner (Episcopal Student Center))",
     "rite": "",
     "celebrant_position": "",
     "service_languages": "English",
@@ -6554,7 +6554,7 @@
   {
     "id": "saint-stephens-episcopal-church-2041-trinity-st-liberty-tx",
     "name": "Saint Stephen's Episcopal Church",
-    "website": "https://www.saintstephensliberty.org/",
+    "website": "https://www.saintstephensliberty.org",
     "address": "2041 Trinity St, Liberty, TX 77575",
     "state": "TX",
     "diocese": "Texas",
@@ -6596,7 +6596,7 @@
   {
     "id": "st-thomas-the-apostle-episcopal-church-18300-upper-bay-rd-houston-tx",
     "name": "St. Thomas the Apostle Episcopal Church",
-    "website": "https://sttaec.org/",
+    "website": "https://sttaec.org",
     "address": "18300 Upper Bay Rd, Houston, TX 77058",
     "state": "TX",
     "diocese": "Texas",
@@ -6621,8 +6621,8 @@
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
-    "rector_name": "The Reverend Mike Stone",
-    "other_clergy": "The Reverend Sean Steele (Associate Rector and Program Director of Respite Ministry)",
+    "rector_name": "The Rev. Mike Stone",
+    "other_clergy": "The Rev. Sean Steele (Associate Rector and Program Director of Respite Ministry)",
     "rite": "Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -6638,7 +6638,7 @@
   {
     "id": "st-thomas-episcopal-church-906-george-bush-dr-college-station-tx",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.stthomasbcs.org/",
+    "website": "https://www.stthomasbcs.org",
     "address": "906 George Bush Dr, College Station, TX 77840",
     "state": "TX",
     "diocese": "Texas",
@@ -6664,7 +6664,7 @@
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
     "rector_name": "The Rev. Korey J. Wright",
-    "other_clergy": "The Rev. Brian Gamel, Ph.D. (Curate)",
+    "other_clergy": "The Rev. Brian Gamel, PhD (Curate)",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -6680,7 +6680,7 @@
   {
     "id": "saint-thomas-episcopal-church-4900-jackwood-st-houston-tx",
     "name": "Saint Thomas' Episcopal Church",
-    "website": "https://www.ste.church/",
+    "website": "https://www.ste.church",
     "address": "4900 Jackwood St, Houston, TX 77096",
     "state": "TX",
     "diocese": "Texas",
@@ -6722,7 +6722,7 @@
   {
     "id": "st-thomas-episcopal-church-302-e-davilla-ave-rockdale-tx",
     "name": "St. Thomas' Episcopal Church",
-    "website": "https://www.stthomasrockdale.org/",
+    "website": "https://www.stthomasrockdale.org",
     "address": "302 E. Davilla Ave, Rockdale, TX 76567",
     "state": "TX",
     "diocese": "Texas",
@@ -6764,7 +6764,7 @@
   {
     "id": "st-thomas-episcopal-church-207-bob-o-link-ln-wharton-tx",
     "name": "St. Thomas' Episcopal Church",
-    "website": "https://stthomas-wharton.org/",
+    "website": "https://stthomas-wharton.org",
     "address": "207 Bob O Link Ln, Wharton, TX 77488",
     "state": "TX",
     "diocese": "Texas",
@@ -6806,7 +6806,7 @@
   {
     "id": "st-timothys-episcopal-church-200-oyster-creek-dr-lake-jackson-tx",
     "name": "St. Timothy's Episcopal Church",
-    "website": "https://www.stimothy.org/",
+    "website": "https://www.stimothy.org",
     "address": "200 Oyster Creek Dr, Lake Jackson, TX 77566",
     "state": "TX",
     "diocese": "Texas",
@@ -6848,7 +6848,7 @@
   {
     "id": "trinity-episcopal-church-907-washington-ave-anahuac-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityanahuac.org/",
+    "website": "https://www.trinityanahuac.org",
     "address": "907 Washington Ave, Anahuac, TX 77514",
     "state": "TX",
     "diocese": "Texas",
@@ -6890,7 +6890,7 @@
   {
     "id": "trinity-episcopal-church-5010-n-main-st-baytown-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinitychurchbaytown.net/",
+    "website": "https://trinitychurchbaytown.net",
     "address": "5010 N. Main St, Baytown, TX 77521",
     "state": "TX",
     "diocese": "Texas",
@@ -6932,7 +6932,7 @@
   {
     "id": "trinity-episcopal-church-3401-bellaire-dr-s-fort-worth-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.fortworthtrinity.org/",
+    "website": "https://www.fortworthtrinity.org",
     "address": "3401 Bellaire Dr S, Fort Worth, TX 76109",
     "state": "TX",
     "diocese": "Texas",
@@ -6974,7 +6974,7 @@
   {
     "id": "trinity-episcopal-church-2216-avenue-h-galveston-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitygalv.org/",
+    "website": "https://www.trinitygalv.org",
     "address": "2216 Avenue H, Galveston, TX 77550",
     "state": "TX",
     "diocese": "Texas",
@@ -7016,7 +7016,7 @@
   {
     "id": "trinity-episcopal-church-1015-holman-st-houston-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitymidtown.org/",
+    "website": "https://www.trinitymidtown.org",
     "address": "1015 Holman St, Houston, TX 77004",
     "state": "TX",
     "diocese": "Texas",
@@ -7058,7 +7058,7 @@
   {
     "id": "trinity-episcopal-church-1000-s-jackson-st-jacksonville-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityepiscopaljacksonville.org/",
+    "website": "https://www.trinityepiscopaljacksonville.org",
     "address": "1000 S. Jackson St., Jacksonville, TX 75766",
     "state": "TX",
     "diocese": "Texas",
@@ -7083,7 +7083,7 @@
     "weekday_services": "",
     "diocesan_bishop": "The Rt. Rev. C. Andrew Doyle",
     "clergy_title": "",
-    "rector_name": "Father John Carr",
+    "rector_name": "Fr. John Carr",
     "other_clergy": "",
     "rite": "",
     "celebrant_position": "",
@@ -7142,7 +7142,7 @@
   {
     "id": "trinity-episcopal-church-906-padon-st-longview-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinityparish.org/",
+    "website": "https://trinityparish.org",
     "address": "906 Padon St, Longview, TX 75601",
     "state": "TX",
     "diocese": "Texas",
@@ -7184,7 +7184,7 @@
   {
     "id": "trinity-episcopal-church-909-avenue-d-marble-falls-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitymarblefalls.org/",
+    "website": "https://www.trinitymarblefalls.org",
     "address": "909 Avenue D, Marble Falls, TX 78654",
     "state": "TX",
     "diocese": "Texas",
@@ -7226,7 +7226,7 @@
   {
     "id": "trinity-episcopal-church-106-n-grove-st-marshall-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://trinityepiscopalmarshall.org/",
+    "website": "https://trinityepiscopalmarshall.org",
     "address": "106 N Grove St, Marshall, TX 75670",
     "state": "TX",
     "diocese": "Texas",
@@ -7268,7 +7268,7 @@
   {
     "id": "trinity-episcopal-church-3901-s-panther-creek-dr-the-woodlands-tx",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinitywoodlands.org/",
+    "website": "https://www.trinitywoodlands.org",
     "address": "3901 S. Panther Creek Dr., The Woodlands, TX 77381",
     "state": "TX",
     "diocese": "Texas",

@@ -2,7 +2,7 @@
   {
     "id": "st-pauls-church-3-church-st-berlin-md",
     "name": "St. Paul's Church",
-    "website": "https://stpaulsberlin.org/",
+    "website": "https://stpaulsberlin.org",
     "address": "3 Church St, Berlin, MD 21811",
     "state": "MD",
     "diocese": "Easton",
@@ -44,7 +44,7 @@
   {
     "id": "christ-church-great-choptank-parish-601-church-st-cambridge-md",
     "name": "Christ Church - Great Choptank Parish",
-    "website": "https://christchurchcambridge.org/",
+    "website": "https://christchurchcambridge.org",
     "address": "601 Church St, Cambridge, MD 21613",
     "state": "MD",
     "diocese": "Easton",
@@ -86,7 +86,7 @@
   {
     "id": "st-pauls-parish-301-s-liberty-st-centreville-md",
     "name": "St. Paul's Parish",
-    "website": "https://www.stpaulschurch.org/",
+    "website": "https://www.stpaulschurch.org",
     "address": "301 S Liberty St, Centreville, MD 21617",
     "state": "MD",
     "diocese": "Easton",
@@ -128,7 +128,7 @@
   {
     "id": "augustine-parish-310-george-st-chesapeake-city-md",
     "name": "Augustine Parish",
-    "website": "https://www.augustineparish.org/",
+    "website": "https://www.augustineparish.org",
     "address": "310 George St, Chesapeake City, MD 21915",
     "state": "MD",
     "diocese": "Easton",
@@ -170,7 +170,7 @@
   {
     "id": "emmanuel-episcopal-church-101-n-cross-st-chestertown-md",
     "name": "Emmanuel Episcopal Church",
-    "website": "https://www.emmanuelchesterparish.org/",
+    "website": "https://www.emmanuelchesterparish.org",
     "address": "101 N Cross St, Chestertown, MD 21620",
     "state": "MD",
     "diocese": "Easton",
@@ -191,7 +191,7 @@
     "church_email": "emmanuelchestertown@gmail.com",
     "rector_phone": "",
     "rector_email": "",
-    "sunday_services": "8:00 AM Morning Prayer; 10:30 AM Sunday worship with communion, organ, and choir (summer schedule 9:30 AM); 1st Sunday Sept–May: WE(E) Worship for children birth-7",
+    "sunday_services": "8:00 AM Morning Prayer; 10:30 AM Sunday worship with communion, organ, and choir (summer schedule 9:30 AM); 1st Sunday Sept-May: WE(E) Worship for children birth-7",
     "weekday_services": "Tue 7:30 AM Centering Prayer",
     "diocesan_bishop": "The Rt. Rev. James \"Bud\" Shand",
     "clergy_title": "Interim Rector",
@@ -204,15 +204,15 @@
     "music_style": "Organ and choir",
     "accessibility": "",
     "parking": "",
-    "childcare": "Nursery (infant to age three) at 10:30 AM Sept–May",
-    "formation": "Sunday School ages 3-teen at 10:30 AM (Sept–May); WE(E) Worship for children on 1st Sundays",
+    "childcare": "Nursery (infant to age three) at 10:30 AM Sept-May",
+    "formation": "Sunday School ages 3-teen at 10:30 AM (Sept-May); WE(E) Worship for children on 1st Sundays",
     "date_last_updated": "2026-11-14",
     "notes": "Rector search being prepared (site rector-search page). Asset Map lists 8:00 AM Holy Eucharist Rite I and Wed 12:00 PM Eucharist Rite II with healing; site lists 8:00 AM Morning Prayer, 10:30 AM Sunday worship, Tue 7:30 AM Centering Prayer (site used). Sunday 10:30 service is livestreamed (URL not captured). Diocesan bishop is serving temporarily and part-time (assisting bishop during the diocese's transition)."
   },
   {
     "id": "st-paul-episcopal-church-7579-sandy-bottom-rd-chestertown-md",
     "name": "St. Paul Episcopal Church",
-    "website": "https://www.stpaulkent.org/",
+    "website": "https://www.stpaulkent.org",
     "address": "7579 Sandy Bottom Rd, Chestertown, MD 21620",
     "state": "MD",
     "diocese": "Easton",
@@ -254,7 +254,7 @@
   {
     "id": "old-trinity-church-1716-taylors-island-rd-church-creek-md",
     "name": "Old Trinity Church",
-    "website": "https://oldtrinity.net/",
+    "website": "https://oldtrinity.net",
     "address": "1716 Taylors Island Rd, Church Creek, MD 21622",
     "state": "MD",
     "diocese": "Easton",
@@ -296,7 +296,7 @@
   {
     "id": "st-lukes-queen-annes-county-403-main-st-church-hill-md",
     "name": "St. Luke's, Queen Anne's County",
-    "website": "https://stlukesparishmd.org/",
+    "website": "https://stlukesparishmd.org",
     "address": "403 Main St, Church Hill, MD 21623",
     "state": "MD",
     "diocese": "Easton",
@@ -380,7 +380,7 @@
   {
     "id": "christ-church-denton-107-gay-st-denton-md",
     "name": "Christ Church Denton",
-    "website": "https://christchurchdenton.org/",
+    "website": "https://christchurchdenton.org",
     "address": "107 Gay St, Denton, MD 21629",
     "state": "MD",
     "diocese": "Easton",
@@ -422,7 +422,7 @@
   {
     "id": "st-stephens-episcopal-church-10-glebe-rd-earleville-md",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://ststephensearleville.weebly.com/",
+    "website": "https://ststephensearleville.weebly.com",
     "address": "10 Glebe Rd, Earleville, MD 21919",
     "state": "MD",
     "diocese": "Easton",
@@ -464,7 +464,7 @@
   {
     "id": "all-faith-chapel-26281-tunis-mills-rd-easton-md",
     "name": "All Faith Chapel",
-    "website": "https://www.allfaithchapel.org/",
+    "website": "https://www.allfaithchapel.org",
     "address": "26281 Tunis Mills Rd, Easton, MD 21601",
     "state": "MD",
     "diocese": "Easton",
@@ -506,7 +506,7 @@
   {
     "id": "christ-church-st-peters-parish-111-s-harrison-st-easton-md",
     "name": "Christ Church - St. Peter's Parish",
-    "website": "https://christchurcheaston.org/",
+    "website": "https://christchurcheaston.org",
     "address": "111 S Harrison St, Easton, MD 21601",
     "state": "MD",
     "diocese": "Easton",
@@ -548,7 +548,7 @@
   {
     "id": "trinity-cathedral-315-goldsborough-st-easton-md",
     "name": "Trinity Cathedral",
-    "website": "https://www.trinitycathedraleaston.com/",
+    "website": "https://www.trinitycathedraleaston.com",
     "address": "315 Goldsborough St, Easton, MD 21601",
     "state": "MD",
     "diocese": "Easton",
@@ -590,7 +590,7 @@
   {
     "id": "trinity-episcopal-church-105-n-bridge-st-elkton-md",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityelkton.org/",
+    "website": "https://www.trinityelkton.org",
     "address": "105 N Bridge St, Elkton, MD 21921",
     "state": "MD",
     "diocese": "Easton",
@@ -632,7 +632,7 @@
   {
     "id": "st-pauls-episcopal-church-8700-memory-gardens-ln-hebron-md",
     "name": "St. Paul's Episcopal Church",
-    "website": "https://stpaulshebron.wordpress.com/",
+    "website": "https://stpaulshebron.wordpress.com",
     "address": "8700 Memory Gardens Ln, Hebron, MD 21830",
     "state": "MD",
     "diocese": "Easton",
@@ -716,7 +716,7 @@
   {
     "id": "shrewsbury-parish-church-12824-shrewsbury-church-rd-kennedyville-md",
     "name": "Shrewsbury Parish Church",
-    "website": "https://www.shrewsburyparish.org/",
+    "website": "https://www.shrewsburyparish.org",
     "address": "12824 Shrewsbury Church Rd, Kennedyville, MD 21645",
     "state": "MD",
     "diocese": "Easton",
@@ -758,7 +758,7 @@
   {
     "id": "st-pauls-marion-station-28351-saint-pauls-church-rd-marion-station-md",
     "name": "St. Paul's, Marion Station",
-    "website": "https://stpaulsmarion.net/",
+    "website": "https://stpaulsmarion.net",
     "address": "28351 Saint Paul's Church Rd, Marion Station, MD 21838",
     "state": "MD",
     "diocese": "Easton",
@@ -800,7 +800,7 @@
   {
     "id": "st-clements-san-clemente-32940-maryland-line-rd-massey-md",
     "name": "St. Clement's / San Clemente",
-    "website": "https://www.saintclements.org/",
+    "website": "https://www.saintclements.org",
     "address": "32940 Maryland Line Rd, Massey, MD 21650",
     "state": "MD",
     "diocese": "Easton",
@@ -842,7 +842,7 @@
   {
     "id": "st-mary-annes-episcopal-church-315-s-main-st-north-east-md",
     "name": "St. Mary Anne's Episcopal Church",
-    "website": "https://www.stmaryanne.org/",
+    "website": "https://www.stmaryanne.org",
     "address": "315 S Main St, North East, MD 21901",
     "state": "MD",
     "diocese": "Easton",
@@ -884,7 +884,7 @@
   {
     "id": "st-pauls-by-the-sea-episcopal-church-302-n-baltimore-ave-ocean-city-md",
     "name": "St. Paul's by-the-Sea Episcopal Church",
-    "website": "https://stpaulsbythesea.org/",
+    "website": "https://stpaulsbythesea.org",
     "address": "302 N Baltimore Ave, Ocean City, MD 21842",
     "state": "MD",
     "diocese": "Easton",
@@ -926,7 +926,7 @@
   {
     "id": "the-church-of-the-holy-spirit-10001-coastal-hwy-ocean-city-md",
     "name": "The Church of the Holy Spirit",
-    "website": "https://holyspiritoc.org/",
+    "website": "https://holyspiritoc.org",
     "address": "10001 Coastal Hwy, Ocean City, MD 21842",
     "state": "MD",
     "diocese": "Easton",
@@ -968,7 +968,7 @@
   {
     "id": "holy-trinity-church-502-s-morris-st-oxford-md",
     "name": "Holy Trinity Church",
-    "website": "https://holytrinityoxfordmd.org/",
+    "website": "https://holytrinityoxfordmd.org",
     "address": "502 S Morris St, Oxford, MD 21654",
     "state": "MD",
     "diocese": "Easton",
@@ -1010,7 +1010,7 @@
   {
     "id": "saint-marks-episcopal-church-183-st-marks-church-rd-perryville-md",
     "name": "Saint Mark's Episcopal Church",
-    "website": "https://saintmarksperryville.org/",
+    "website": "https://saintmarksperryville.org",
     "address": "183 St. Marks Church Rd, Perryville, MD 21903",
     "state": "MD",
     "diocese": "Easton",
@@ -1052,7 +1052,7 @@
   {
     "id": "st-mary-the-virgin-episcopal-church-18-3rd-st-pocomoke-city-md",
     "name": "St. Mary the Virgin Episcopal Church",
-    "website": "https://www.stmaryspocomoke.org/",
+    "website": "https://www.stmaryspocomoke.org",
     "address": "18 3rd St, Pocomoke City, MD 21851",
     "state": "MD",
     "diocese": "Easton",
@@ -1094,7 +1094,7 @@
   {
     "id": "st-andrews-episcopal-church-30513-washington-st-princess-anne-md",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.saintandrewsomersetparish.com/",
+    "website": "https://www.saintandrewsomersetparish.com",
     "address": "30513 Washington St, Princess Anne, MD 21853",
     "state": "MD",
     "diocese": "Easton",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-philips-episcopal-church-6457-quantico-rd-quantico-md",
     "name": "St. Philip's Episcopal Church",
-    "website": "https://stphilipschurch.net/",
+    "website": "https://stphilipschurch.net",
     "address": "6457 Quantico Rd, Quantico, MD 21856",
     "state": "MD",
     "diocese": "Easton",
@@ -1178,7 +1178,7 @@
   {
     "id": "st-lukes-wye-parish-7208-main-st-queenstown-md",
     "name": "St. Luke's, Wye Parish",
-    "website": "https://wyeparish.org/",
+    "website": "https://wyeparish.org",
     "address": "7208 Main St, Queenstown, MD 21658",
     "state": "MD",
     "diocese": "Easton",
@@ -1220,7 +1220,7 @@
   {
     "id": "st-albans-episcopal-church-302-saint-albans-dr-salisbury-md",
     "name": "St. Alban's Episcopal Church",
-    "website": "https://stalbanssalisbury.com/",
+    "website": "https://stalbanssalisbury.com",
     "address": "302 Saint Albans Dr, Salisbury, MD 21804",
     "state": "MD",
     "diocese": "Easton",
@@ -1262,7 +1262,7 @@
   {
     "id": "st-peters-church-115-saint-peters-st-salisbury-md",
     "name": "St. Peter's Church",
-    "website": "https://stpeterschurch.net/",
+    "website": "https://stpeterschurch.net",
     "address": "115 Saint Peters St, Salisbury, MD 21801",
     "state": "MD",
     "diocese": "Easton",
@@ -1304,7 +1304,7 @@
   {
     "id": "all-hallows-episcopal-church-109-w-market-st-snow-hill-md",
     "name": "All Hallows Episcopal Church",
-    "website": "http://www.allhallowssnowhill.org/",
+    "website": "http://www.allhallowssnowhill.org",
     "address": "109 W Market St, Snow Hill, MD 21863",
     "state": "MD",
     "diocese": "Easton",
@@ -1346,7 +1346,7 @@
   {
     "id": "christ-church-st-michaels-parish-301-s-talbot-street-st-michaels-md",
     "name": "Christ Church - St. Michael's Parish",
-    "website": "https://christstmichaels.org/",
+    "website": "https://christstmichaels.org",
     "address": "301 S. Talbot Street, St Michaels, MD 21663",
     "state": "MD",
     "diocese": "Easton",
@@ -1381,14 +1381,14 @@
     "accessibility": "Gluten-free wafers available",
     "parking": "Limited; street parking and nearby public lots",
     "childcare": "",
-    "formation": "Coffee & Conversation programs after Sunday service (10:30–10:45 AM); Bible studies; Life After Loss Support Group",
+    "formation": "Coffee & Conversation programs after Sunday service (10:30-10:45 AM); Bible studies; Life After Loss Support Group",
     "date_last_updated": "2026-11-14",
     "notes": "Staff page lists 'Marianne Ell, Priest' with no gender indicator, so female_clergy left N/A; exact title (rector/priest-in-charge/interim) not stated, clergy_title left blank. Clergy name format assumed 'The Rev.'. Diocesan bishop is serving temporarily and part-time (assisting bishop during the diocese's transition)."
   },
   {
     "id": "christ-church-kent-island-parish-830-romancoke-rd-stevensville-md",
     "name": "Christ Church - Kent Island Parish",
-    "website": "http://www.ccpki.org/",
+    "website": "http://www.ccpki.org",
     "address": "830 Romancoke Rd, Stevensville, MD 21666",
     "state": "MD",
     "diocese": "Easton",
@@ -1430,7 +1430,7 @@
   {
     "id": "st-andrews-queen-annes-county-104-maple-avenue-sudlersville-md",
     "name": "St. Andrew's, Queen Anne's County",
-    "website": "http://stlukesparishmd.org/",
+    "website": "http://stlukesparishmd.org",
     "address": "104 Maple Avenue, Sudlersville, MD 21668",
     "state": "MD",
     "diocese": "Easton",
@@ -1472,7 +1472,7 @@
   {
     "id": "st-pauls-white-marsh-parish-3936-main-st-trappe-md",
     "name": "St Pauls White Marsh Parish",
-    "website": "https://www.stpaulstrappe.org/",
+    "website": "https://www.stpaulstrappe.org",
     "address": "3936 Main St, Trappe, MD 21673",
     "state": "MD",
     "diocese": "Easton",
@@ -1640,7 +1640,7 @@
   {
     "id": "wye-parish-old-wye-14114-old-wye-mills-rd-wye-mills-md",
     "name": "Wye Parish, Old Wye",
-    "website": "http://www.wyeparish.org/",
+    "website": "http://www.wyeparish.org",
     "address": "14114 Old Wye Mills Rd, Wye Mills, MD 21679",
     "state": "MD",
     "diocese": "Easton",

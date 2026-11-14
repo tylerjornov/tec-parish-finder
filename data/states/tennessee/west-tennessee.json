@@ -44,7 +44,7 @@
   {
     "id": "st-james-episcopal-church-223-w-lafayette-st-bolivar-tn",
     "name": "St. James Episcopal Church",
-    "website": "http://www.stjamesbolivar.org/",
+    "website": "http://www.stjamesbolivar.org",
     "address": "223 W Lafayette St, Bolivar, TN 38008",
     "state": "TN",
     "diocese": "West Tennessee",
@@ -296,7 +296,7 @@
   {
     "id": "saint-marys-episcopal-church-108-n-king-ave-dyersburg-tn",
     "name": "Saint Mary's Episcopal Church",
-    "website": "https://saint-marys-episcopal-church-test.yolasite.com/",
+    "website": "https://saint-marys-episcopal-church-test.yolasite.com",
     "address": "108 N King Ave, Dyersburg, TN 38024",
     "state": "TN",
     "diocese": "West Tennessee",
@@ -422,7 +422,7 @@
   {
     "id": "st-lukes-episcopal-church-309-e-baltimore-st-jackson-tn",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.estlukes.org/",
+    "website": "https://www.estlukes.org",
     "address": "309 E Baltimore St, Jackson, TN 38301",
     "state": "TN",
     "diocese": "West Tennessee",
@@ -506,7 +506,7 @@
   {
     "id": "saint-paul-episcopal-church-2406-us-highway-70-e-mason-tn",
     "name": "Saint Paul Episcopal Church",
-    "website": "https://saintpaulmason.org/",
+    "website": "https://saintpaulmason.org",
     "address": "2406 US Highway 70 E, Mason, TN 38049",
     "state": "TN",
     "diocese": "West Tennessee",
@@ -651,7 +651,7 @@
     "city": "Memphis",
     "church_phone": "(901) 767-6987",
     "church_email": "scowan@holycommunion.org",
-    "rector_phone": "(901) 767-6987 x4012",
+    "rector_phone": "(901) 767-6987 ext. 4012",
     "rector_email": "swebb@holycommunion.org",
     "sunday_services": "8:00 AM Holy Eucharist, Rite I (Quilling Chapel); 10:30 AM Choral Eucharist, Rite II (Nave); 5:30 PM Contemplative Holy Eucharist (Nave)",
     "weekday_services": "",
@@ -884,7 +884,7 @@
   {
     "id": "grace-episcopal-church-103-s-poplar-st-paris-tn",
     "name": "Grace Episcopal Church",
-    "website": "https://gracechurchparistn.org/",
+    "website": "https://gracechurchparistn.org",
     "address": "103 S Poplar St, Paris, TN 38242",
     "state": "TN",
     "diocese": "West Tennessee",

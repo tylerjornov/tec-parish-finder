@@ -44,7 +44,7 @@
   {
     "id": "church-of-the-holy-communion-218-ashley-ave-charleston-sc",
     "name": "Church of the Holy Communion",
-    "website": "https://holycomm.org/",
+    "website": "https://holycomm.org",
     "address": "218 Ashley Ave, Charleston, SC 29403",
     "state": "SC",
     "diocese": "South Carolina",
@@ -86,7 +86,7 @@
   {
     "id": "grace-church-cathedral-98-wentworth-st-charleston-sc",
     "name": "Grace Church Cathedral",
-    "website": "https://www.gracechurchcharleston.org/",
+    "website": "https://www.gracechurchcharleston.org",
     "address": "98 Wentworth St, Charleston, SC 29401",
     "state": "SC",
     "diocese": "South Carolina",
@@ -108,7 +108,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "8:00 AM Holy Eucharist; 9:00 AM Family Eucharist; 11:00 AM Choral Eucharist; 5:30 PM Holy Eucharist",
-    "weekday_services": "Mon–Fri 12:00 noon Holy Eucharist; Wed 5:30 PM Holy Eucharist",
+    "weekday_services": "Mon-Fri 12:00 noon Holy Eucharist; Wed 5:30 PM Holy Eucharist",
     "diocesan_bishop": "The Rt. Rev. Ruth Woodliff-Stanley",
     "clergy_title": "",
     "rector_name": "The Very Rev. J. Michael A. Wright",
@@ -128,7 +128,7 @@
   {
     "id": "st-james-episcopal-church-1872-camp-road-charleston-sc",
     "name": "St. James' Episcopal Church",
-    "website": "https://www.stjamesepiscopalji.org/",
+    "website": "https://www.stjamesepiscopalji.org",
     "address": "1872 Camp Road, Charleston, SC 29412",
     "state": "SC",
     "diocese": "South Carolina",
@@ -170,7 +170,7 @@
   {
     "id": "st-mark-s-episcopal-church-charleston-16-thomas-street-charleston-sc",
     "name": "St. Mark's Episcopal Church, Charleston",
-    "website": "https://www.saintmarkschurch.com/",
+    "website": "https://www.saintmarkschurch.com",
     "address": "16 Thomas Street, Charleston, SC 29403",
     "state": "SC",
     "diocese": "South Carolina",
@@ -212,7 +212,7 @@
   {
     "id": "st-peter-s-episcopal-church-1393-miles-drive-charleston-sc",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpeterscharleston.org/",
+    "website": "https://www.stpeterscharleston.org",
     "address": "1393 Miles Drive, Charleston, SC 29407",
     "state": "SC",
     "diocese": "South Carolina",
@@ -254,7 +254,7 @@
   {
     "id": "st-stephen-s-episcopal-church-67-anson-st-charleston-sc",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.ststephenschs.com/",
+    "website": "https://www.ststephenschs.com",
     "address": "67 Anson St, Charleston, SC 29401",
     "state": "SC",
     "diocese": "South Carolina",
@@ -296,7 +296,7 @@
   {
     "id": "the-historic-calvary-episcopal-church-106-line-st-charleston-sc",
     "name": "The Historic Calvary Episcopal Church",
-    "website": "https://www.calvarych.org/",
+    "website": "https://www.calvarych.org",
     "address": "106 Line St, Charleston, SC 29403",
     "state": "SC",
     "diocese": "South Carolina",
@@ -338,7 +338,7 @@
   {
     "id": "st-david-s-episcopal-church-420-market-street-cheraw-sc",
     "name": "St. David's Episcopal Church",
-    "website": "https://www.stdavidsepiscopalcheraw.org/",
+    "website": "https://www.stdavidsepiscopalcheraw.org",
     "address": "420 Market Street, Cheraw, SC 29520",
     "state": "SC",
     "diocese": "South Carolina",
@@ -380,7 +380,7 @@
   {
     "id": "st-anne-s-episcopal-church-2104-north-main-street-conway-sc",
     "name": "St. Anne's Episcopal Church",
-    "website": "https://www.stanneconway.org/",
+    "website": "https://www.stanneconway.org",
     "address": "2104 North Main Street, Conway, SC 29526",
     "state": "SC",
     "diocese": "South Carolina",
@@ -422,7 +422,7 @@
   {
     "id": "christ-episcopal-church-5266-carolina-hwy-denmark-sc",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchdenmark.org/",
+    "website": "https://www.christchurchdenmark.org",
     "address": "5266 Carolina Hwy, Denmark, SC 29042",
     "state": "SC",
     "diocese": "South Carolina",
@@ -506,7 +506,7 @@
   {
     "id": "st-francis-episcopal-church-1644-hwy-174-edisto-island-sc",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.saintfrancisedisto.org/",
+    "website": "https://www.saintfrancisedisto.org",
     "address": "1644 Hwy 174, Edisto Island, SC 29438",
     "state": "SC",
     "diocese": "South Carolina",
@@ -548,7 +548,7 @@
   {
     "id": "church-of-the-heavenly-rest-152-corley-rd-estill-sc",
     "name": "Church of the Heavenly Rest",
-    "website": "https://heavenlyrestsc.wordpress.com/",
+    "website": "https://heavenlyrestsc.wordpress.com",
     "address": "152 Corley Rd, Estill, SC 29918-0152",
     "state": "SC",
     "diocese": "South Carolina",
@@ -590,7 +590,7 @@
   {
     "id": "st-catherine-s-episcopal-church-1806-west-palmetto-street-florence-sc",
     "name": "St. Catherine's Episcopal Church",
-    "website": "https://www.stcatherinesepiscopal.com/",
+    "website": "https://www.stcatherinesepiscopal.com",
     "address": "1806 West Palmetto Street, Florence, SC 29501",
     "state": "SC",
     "diocese": "South Carolina",
@@ -674,7 +674,7 @@
   {
     "id": "st-bartholomew-s-episcopal-church-103-campus-drive-hartsville-sc",
     "name": "St. Bartholomew's Episcopal Church",
-    "website": "https://stbartsepiscopal-hartsville.org/",
+    "website": "https://stbartsepiscopal-hartsville.org",
     "address": "103 Campus Drive, Hartsville, SC 29550",
     "state": "SC",
     "diocese": "South Carolina",
@@ -716,7 +716,7 @@
   {
     "id": "all-saints-episcopal-church-3001-meeting-st-hilton-head-island-sc",
     "name": "All Saints Episcopal Church",
-    "website": "http://www.allsaints-hhi.org/",
+    "website": "http://www.allsaints-hhi.org",
     "address": "3001 Meeting St, Hilton Head Island, SC 29926",
     "state": "SC",
     "diocese": "South Carolina",
@@ -758,7 +758,7 @@
   {
     "id": "st-john-s-episcopal-church-3673-maybank-hwy-johns-island-sc",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.StJohns1734.org/",
+    "website": "https://www.StJohns1734.org",
     "address": "3673 Maybank Hwy, Johns Island, SC 29455",
     "state": "SC",
     "diocese": "South Carolina",
@@ -792,7 +792,7 @@
     "music_style": "",
     "accessibility": "Fully accessible: handicapped spaces and ramp",
     "parking": "",
-    "childcare": "Nursery (LaRoche Building) Sundays 9:00 AM–12:00 PM",
+    "childcare": "Nursery (LaRoche Building) Sundays 9:00 AM-12:00 PM",
     "formation": "St. John's Kids; Christian Formation",
     "date_last_updated": "2026-10-09",
     "notes": ""
@@ -800,7 +800,7 @@
   {
     "id": "st-alban-s-church-305-hampton-ave-kingstree-sc",
     "name": "St. Alban's Church",
-    "website": "http://stalbanssc.weebly.com/",
+    "website": "http://stalbanssc.weebly.com",
     "address": "305 Hampton Ave, Kingstree, SC 29556",
     "state": "SC",
     "diocese": "South Carolina",
@@ -842,7 +842,7 @@
   {
     "id": "st-james-santee-episcopal-church-144-oak-st-mcclellanville-sc",
     "name": "St. James - Santee Episcopal Church",
-    "website": "https://www.stjamessantee.org/",
+    "website": "https://www.stjamessantee.org",
     "address": "144 Oak St, McClellanville, SC 29458",
     "state": "SC",
     "diocese": "South Carolina",
@@ -884,7 +884,7 @@
   {
     "id": "christ-episcopal-church-2304-highway-17-north-mount-pleasant-sc",
     "name": "Christ Episcopal Church",
-    "website": "https://christepiscopalmtp.org/",
+    "website": "https://christepiscopalmtp.org",
     "address": "2304 Highway 17 North, Mount Pleasant, SC 29466",
     "state": "SC",
     "diocese": "South Carolina",
@@ -926,7 +926,7 @@
   {
     "id": "the-episcopal-church-of-the-messiah-4221a-north-kings-highway-myrtle-beach-sc",
     "name": "The Episcopal Church of the Messiah",
-    "website": "https://www.messiahmyrtlebeach.org/",
+    "website": "https://www.messiahmyrtlebeach.org",
     "address": "4221A North Kings Highway, Myrtle Beach, SC 29577",
     "state": "SC",
     "diocese": "South Carolina",
@@ -968,7 +968,7 @@
   {
     "id": "st-thomas-episcopal-church-1150-e-montague-ave-north-charleston-sc",
     "name": "St. Thomas Episcopal Church",
-    "website": "http://www.saintthomasparkcircle.org/",
+    "website": "http://www.saintthomasparkcircle.org",
     "address": "1150 E Montague Ave, North Charleston, SC 29405",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1010,7 +1010,7 @@
   {
     "id": "st-stephen-s-episcopal-church-801-11th-avenue-north-north-myrtle-beach-sc",
     "name": "St. Stephen's Episcopal Church",
-    "website": "http://www.ststephensnmb.com/",
+    "website": "http://www.ststephensnmb.com",
     "address": "801 11th Avenue North, North Myrtle Beach, SC 29582",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1052,7 +1052,7 @@
   {
     "id": "holy-cross-faith-memorial-episcopal-church-113-baskervill-drive-pawleys-island-s",
     "name": "Holy Cross Faith Memorial Episcopal Church",
-    "website": "http://holycrossfm.org/",
+    "website": "http://holycrossfm.org",
     "address": "113 Baskervill Drive, Pawleys Island, SC 29585",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-mark-s-episcopal-church-1110a-paris-ave-port-royal-sc",
     "name": "St. Mark's Episcopal Church",
-    "website": "https://www.stmarksportroyal.org/",
+    "website": "https://www.stmarksportroyal.org",
     "address": "1110A Paris Ave, Port Royal, SC 29935",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1178,7 +1178,7 @@
   {
     "id": "the-episcopal-church-in-okatie-231-hazzard-creek-village-ridgeland-sc",
     "name": "The Episcopal Church in Okatie",
-    "website": "http://www.episcopalchurchokatie.org/",
+    "website": "http://www.episcopalchurchokatie.org",
     "address": "231 Hazzard Creek Village, Ridgeland, SC 29936",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1220,7 +1220,7 @@
   {
     "id": "st-stephen-s-episcopal-church-196-brick-church-cir-saint-stephen-sc",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.ststephensepiscopal.com/",
+    "website": "https://www.ststephensepiscopal.com",
     "address": "196 Brick Church Cir, Saint Stephen, SC 29479",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1262,7 +1262,7 @@
   {
     "id": "church-of-the-epiphany-212-central-ave-summerville-sc",
     "name": "Church of the Epiphany",
-    "website": "https://summervilleepiphanychurch.com/",
+    "website": "https://summervilleepiphanychurch.com",
     "address": "212 Central Ave, Summerville, SC 29483",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1304,7 +1304,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-208-central-avenue-summerville-sc",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "https://www.ecgssummerville.org/",
+    "website": "https://www.ecgssummerville.org",
     "address": "208 Central Avenue, Summerville, SC 29483",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1339,14 +1339,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "Professionally staffed nursery (infants–pre-K) and Children's Christian Education (K–5th) during the 10:30 service, September–May",
-    "formation": "Adult Christian Education (Sept–May); Children's Christian Education (K–5th)",
+    "formation": "Adult Christian Education (Sept-May); Children's Christian Education (K–5th)",
     "date_last_updated": "2026-10-09",
     "notes": ""
   },
   {
     "id": "st-george-s-episcopal-church-9110-dorchester-rd-summerville-sc",
     "name": "St. George's Episcopal Church",
-    "website": "https://www.saintgeorgeschurch.com/",
+    "website": "https://www.saintgeorgeschurch.com",
     "address": "9110 Dorchester Rd, Summerville, SC 29485",
     "state": "SC",
     "diocese": "South Carolina",
@@ -1388,7 +1388,7 @@
   {
     "id": "episcopal-church-of-the-good-shepherd-401-dingle-street-sumter-sc",
     "name": "Episcopal Church of the Good Shepherd",
-    "website": "https://www.goodshepherdsumter.org/",
+    "website": "https://www.goodshepherdsumter.org",
     "address": "401 Dingle Street, Sumter, SC 29150",
     "state": "SC",
     "diocese": "South Carolina",

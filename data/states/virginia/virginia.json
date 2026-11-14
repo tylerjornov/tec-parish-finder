@@ -86,7 +86,7 @@
   {
     "id": "christ-church-118-n-washington-st-alexandria-va",
     "name": "Christ Church",
-    "website": "https://www.historicchristchurch.org/",
+    "website": "https://www.historicchristchurch.org",
     "address": "118 N Washington St, Alexandria, VA 22314",
     "state": "VA",
     "diocese": "Virginia",
@@ -105,7 +105,7 @@
     "city": "Alexandria",
     "church_phone": "(703) 549-1450",
     "church_email": "parishlife@historicchristchurch.org",
-    "rector_phone": "(703) 549-1450 x101",
+    "rector_phone": "(703) 549-1450 ext. 101",
     "rector_email": "",
     "sunday_services": "8:00 AM Holy Eucharist, Rite I; 10:00 AM Holy Eucharist, Rite II (with Children's Chapel); 5:00 PM Holy Eucharist, Rite II with laying on of hands for healing",
     "weekday_services": "Wed 12:05 PM Chapel",
@@ -128,7 +128,7 @@
   {
     "id": "church-of-st-clement-1701-n-quaker-ln-alexandria-va",
     "name": "Church of St. Clement",
-    "website": "https://www.saintclement.org/",
+    "website": "https://www.saintclement.org",
     "address": "1701 N Quaker Ln, Alexandria, VA 22302",
     "state": "VA",
     "diocese": "Virginia",
@@ -212,7 +212,7 @@
   {
     "id": "church-of-the-spirit-6107-franconia-rd-alexandria-va",
     "name": "Church of the Spirit",
-    "website": "http://www.thechurchofthespirit.org/",
+    "website": "http://www.thechurchofthespirit.org",
     "address": "6107 Franconia Rd, Alexandria, VA 22310",
     "state": "VA",
     "diocese": "Virginia",
@@ -254,7 +254,7 @@
   {
     "id": "emmanuel-episcopal-church-1608-russell-rd-alexandria-va",
     "name": "Emmanuel Episcopal Church",
-    "website": "https://www.emmanuelonhigh.org/",
+    "website": "https://www.emmanuelonhigh.org",
     "address": "1608 Russell Rd, Alexandria, VA 22301",
     "state": "VA",
     "diocese": "Virginia",
@@ -338,7 +338,7 @@
   {
     "id": "immanuel-church-on-the-hill-3606-seminary-rd-alexandria-va",
     "name": "Immanuel Church-on-the-Hill",
-    "website": "https://www.immanuel-on-the-hill.org/",
+    "website": "https://www.immanuel-on-the-hill.org",
     "address": "3606 Seminary Rd, Alexandria, VA 22304",
     "state": "VA",
     "diocese": "Virginia",
@@ -422,7 +422,7 @@
   {
     "id": "st-aidans-episcopal-church-8531-riverside-rd-alexandria-va",
     "name": "St. Aidan's Episcopal Church",
-    "website": "https://www.staidansepiscopal.com/",
+    "website": "https://www.staidansepiscopal.com",
     "address": "8531 Riverside Rd, Alexandria, VA 22308",
     "state": "VA",
     "diocese": "Virginia",
@@ -464,7 +464,7 @@
   {
     "id": "st-james-episcopal-church-at-mount-vernon-5614-old-mill-rd-alexandria-va",
     "name": "St. James' Episcopal Church at Mount Vernon",
-    "website": "https://stjamesmv.org/",
+    "website": "https://stjamesmv.org",
     "address": "5614 Old Mill Rd, Alexandria, VA 22309",
     "state": "VA",
     "diocese": "Virginia",
@@ -566,7 +566,7 @@
     "asa": null,
     "city": "Alexandria",
     "church_phone": "(703) 765-3949",
-    "church_email": "Admin@StMartinAlex.org",
+    "church_email": "admin@stmartinalex.org",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM Sunday worship (in person; Zoom/dial-in available)",
@@ -1388,7 +1388,7 @@
   {
     "id": "christ-church-14586-alanthus-rd-brandy-station-va",
     "name": "Christ Church",
-    "website": "https://christchurchbs.com/",
+    "website": "https://christchurchbs.com",
     "address": "14586 Alanthus Rd, Brandy Station, VA 22714",
     "state": "VA",
     "diocese": "Virginia",
@@ -1910,7 +1910,7 @@
     "asa": null,
     "city": "Charlottesville",
     "church_phone": "(434) 970-5020",
-    "church_email": "St.Lukes.Simeon@gmail.com",
+    "church_email": "st.lukes.simeon@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM Holy Eucharist",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-marys-church-203-dennison-st-colonial-beach-va",
     "name": "St. Mary's Church",
-    "website": "https://www.stmaryscb.org/",
+    "website": "https://www.stmaryscb.org",
     "address": "203 Dennison St, Colonial Beach, VA 22443",
     "state": "VA",
     "diocese": "Virginia",
@@ -2085,7 +2085,7 @@
     "weekday_services": "Wed 12:00 PM Taize service of prayer and healing (on hiatus during Lent, per Asset Map)",
     "diocesan_bishop": "The Rt. Rev. E. Mark Stevenson",
     "clergy_title": "Priest-in-Charge",
-    "rector_name": "The Rev. David P. Casey, OP",
+    "rector_name": "The Rev. David P. Casey",
     "other_clergy": "",
     "rite": "",
     "celebrant_position": "",
@@ -2102,7 +2102,7 @@
   {
     "id": "st-johns-church-43-washington-st-columbia-va",
     "name": "St. John's Church",
-    "website": "http://www.stjohnscolumbiava.net/",
+    "website": "http://www.stjohnscolumbiava.net",
     "address": "43 Washington St, Columbia, VA 23038",
     "state": "VA",
     "diocese": "Virginia",
@@ -2186,7 +2186,7 @@
   {
     "id": "emmanuel-church-9668-maidstone-rd-delaplane-va",
     "name": "Emmanuel Church",
-    "website": "https://www.emmanuel-delaplane.org/",
+    "website": "https://www.emmanuel-delaplane.org",
     "address": "9668 Maidstone Rd, Delaplane, VA 20144",
     "state": "VA",
     "diocese": "Virginia",
@@ -2228,7 +2228,7 @@
   {
     "id": "the-fork-church-12566-old-ridge-rd-doswell-va",
     "name": "The Fork Church",
-    "website": "https://www.forkchurch.com/",
+    "website": "https://www.forkchurch.com",
     "address": "12566 Old Ridge Rd, Doswell, VA 23047",
     "state": "VA",
     "diocese": "Virginia",
@@ -2246,7 +2246,7 @@
     "asa": null,
     "city": "Doswell",
     "church_phone": "(804) 227-3413",
-    "church_email": "KNicholasForti@gmail.com",
+    "church_email": "knicholasforti@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM Holy Eucharist",
@@ -2270,7 +2270,7 @@
   {
     "id": "church-of-the-holy-cross-2455-gallows-rd-dunn-loring-va",
     "name": "Church of the Holy Cross",
-    "website": "https://www.holycrossepiscopal.org/",
+    "website": "https://www.holycrossepiscopal.org",
     "address": "2455 Gallows Rd, Dunn Loring, VA 22027",
     "state": "VA",
     "diocese": "Virginia",
@@ -2312,7 +2312,7 @@
   {
     "id": "buck-mountain-episcopal-church-4133-earlysville-rd-earlysville-va",
     "name": "Buck Mountain Episcopal Church",
-    "website": "https://buckmountainchurch.org/",
+    "website": "https://buckmountainchurch.org",
     "address": "4133 Earlysville Rd, Earlysville, VA 22936",
     "state": "VA",
     "diocese": "Virginia",
@@ -2330,7 +2330,7 @@
     "asa": null,
     "city": "Earlysville",
     "church_phone": "(434) 973-2054",
-    "church_email": "BMECadassist@gmail.com",
+    "church_email": "bmecadassist@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:30 AM Holy Eucharist (online option); 5:00 PM 1st Sundays Celtic Eucharist (site also lists a 5:00 PM Contemplative Service)",
@@ -2372,7 +2372,7 @@
     "asa": null,
     "city": "Elkton",
     "church_phone": "(540) 249-4121",
-    "church_email": "st.sgsRockyBar@gmail.com",
+    "church_email": "st.sgsrockybar@gmail.com",
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:30 AM Holy Eucharist, Rite II (music by organ and piano)",
@@ -2438,7 +2438,7 @@
   {
     "id": "st-peters-in-the-woods-5911-fairview-woods-dr-fairfax-station-va",
     "name": "St. Peter's in the Woods",
-    "website": "https://www.stpetersinthewoods.org/",
+    "website": "https://www.stpetersinthewoods.org",
     "address": "5911 Fairview Woods Dr, Fairfax Station, VA 22039",
     "state": "VA",
     "diocese": "Virginia",
@@ -2606,7 +2606,7 @@
   {
     "id": "north-farnham-parish-church-231-n-farnham-church-rd-farnham-va",
     "name": "North Farnham Parish Church",
-    "website": "https://nfarnhamandstjohns.org/",
+    "website": "https://nfarnhamandstjohns.org",
     "address": "231 N Farnham Church Rd, Farnham, VA 22460",
     "state": "VA",
     "diocese": "Virginia",
@@ -2648,7 +2648,7 @@
   {
     "id": "st-marys-church-3020-fleeton-rd-fleeton-va",
     "name": "St. Mary's Church",
-    "website": "https://www.stmarysfleeton.org/",
+    "website": "https://www.stmarysfleeton.org",
     "address": "3020 Fleeton Rd, Fleeton, VA 22539",
     "state": "VA",
     "diocese": "Virginia",
@@ -2732,7 +2732,7 @@
   {
     "id": "st-georges-church-905-princess-anne-st-fredericksburg-va",
     "name": "St. George's Church",
-    "website": "https://www.stgeorgesepiscopal.net/",
+    "website": "https://www.stgeorgesepiscopal.net",
     "address": "905 Princess Anne St, Fredericksburg, VA 22401",
     "state": "VA",
     "diocese": "Virginia",
@@ -2774,7 +2774,7 @@
   {
     "id": "trinity-church-825-college-ave-fredericksburg-va",
     "name": "Trinity Church",
-    "website": "https://www.trinity-fredericksburg.org/",
+    "website": "https://www.trinity-fredericksburg.org",
     "address": "825 College Ave, Fredericksburg, VA 22401",
     "state": "VA",
     "diocese": "Virginia",
@@ -2816,7 +2816,7 @@
   {
     "id": "good-shepherd-of-the-hills-7420-mission-home-rd-free-union-va",
     "name": "Good Shepherd-of-the-Hills",
-    "website": "http://goodshepherdhills-boonesville.weebly.com/",
+    "website": "http://goodshepherdhills-boonesville.weebly.com",
     "address": "7420 Mission Home Rd, Free Union, VA 22940",
     "state": "VA",
     "diocese": "Virginia",
@@ -2900,7 +2900,7 @@
   {
     "id": "christ-church-episcopal-5000-pouncey-tract-rd-glen-allen-va",
     "name": "Christ Church Episcopal",
-    "website": "https://www.ccerva.org/",
+    "website": "https://www.ccerva.org",
     "address": "5000 Pouncey Tract Rd, Glen Allen, VA 23059",
     "state": "VA",
     "diocese": "Virginia",
@@ -2942,7 +2942,7 @@
   {
     "id": "ware-episcopal-church-7825-john-clayton-memorial-hwy-gloucester-va",
     "name": "Ware Episcopal Church",
-    "website": "https://warechurch.org/",
+    "website": "https://warechurch.org",
     "address": "7825 John Clayton Memorial Hwy, Gloucester, VA 23061",
     "state": "VA",
     "diocese": "Virginia",
@@ -2984,7 +2984,7 @@
   {
     "id": "grace-church-2955-river-road-w-goochland-va",
     "name": "Grace Church",
-    "website": "https://gracechurchgoochland.org/",
+    "website": "https://gracechurchgoochland.org",
     "address": "2955 River Road W, Goochland, VA 23063",
     "state": "VA",
     "diocese": "Virginia",
@@ -3362,7 +3362,7 @@
   {
     "id": "st-pauls-church-6750-fayette-st-haymarket-va",
     "name": "St. Paul's Church",
-    "website": "https://www.stpaulsepiscopalhaymarket.org/",
+    "website": "https://www.stpaulsepiscopalhaymarket.org",
     "address": "6750 Fayette St, Haymarket, VA 20169",
     "state": "VA",
     "diocese": "Virginia",
@@ -3598,7 +3598,7 @@
     "diocesan_bishop": "The Rt. Rev. E. Mark Stevenson",
     "clergy_title": "",
     "rector_name": "The Rev. Charles R. Cowherd",
-    "other_clergy": "The Rev. Mother Marycelis Otero (Associate Rector)",
+    "other_clergy": "The Rev. Mtr. Marycelis Otero (Associate Rector)",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
     "service_languages": "English; Spanish",
@@ -3950,7 +3950,7 @@
   {
     "id": "st-marys-whitechapel-5940-white-chapel-rd-lancaster-va",
     "name": "St. Mary's Whitechapel",
-    "website": "https://www.stmaryswhitechapel.org/",
+    "website": "https://www.stmaryswhitechapel.org",
     "address": "5940 White Chapel Rd, Lancaster, VA 22503",
     "state": "VA",
     "diocese": "Virginia",
@@ -3992,7 +3992,7 @@
   {
     "id": "trinity-episcopal-church-8484-mary-ball-rd-lancaster-va",
     "name": "Trinity Episcopal Church",
-    "website": "https://www.trinityva.org/",
+    "website": "https://www.trinityva.org",
     "address": "8484 Mary Ball Rd, Lancaster, VA 22503",
     "state": "VA",
     "diocese": "Virginia",
@@ -4034,7 +4034,7 @@
   {
     "id": "christ-church-lucketts-14861-new-valley-church-rd-leesburg-va",
     "name": "Christ Church Lucketts",
-    "website": "https://christchurchlucketts.org/",
+    "website": "https://christchurchlucketts.org",
     "address": "14861 New Valley Church Rd, Leesburg, VA 20176",
     "state": "VA",
     "diocese": "Virginia",
@@ -4076,7 +4076,7 @@
   {
     "id": "saint-gabriels-san-gabriel-episcopal-church-14-cornwall-st-nw-leesburg-va",
     "name": "Saint Gabriel's ~ San Gabriel Episcopal Church",
-    "website": "https://www.saintgabriels.net/",
+    "website": "https://www.saintgabriels.net",
     "address": "14 Cornwall St NW, Leesburg, VA 20176",
     "state": "VA",
     "diocese": "Virginia",
@@ -4160,7 +4160,7 @@
   {
     "id": "vauters-church-3661-tidewater-trail-loretto-va",
     "name": "Vauter's Church",
-    "website": "https://vauterschurch.com/",
+    "website": "https://vauterschurch.com",
     "address": "3661 Tidewater Trail, Loretto, VA 22438",
     "state": "VA",
     "diocese": "Virginia",
@@ -4202,7 +4202,7 @@
   {
     "id": "pohick-church-9301-richmond-hwy-lorton-va",
     "name": "Pohick Church",
-    "website": "https://www.pohick.org/",
+    "website": "https://www.pohick.org",
     "address": "9301 Richmond Hwy, Lorton, VA 22079",
     "state": "VA",
     "diocese": "Virginia",
@@ -4244,7 +4244,7 @@
   {
     "id": "st-james-church-102-ellisville-dr-louisa-va",
     "name": "St. James Church",
-    "website": "https://www.stjameslouisa.org/",
+    "website": "https://www.stjameslouisa.org",
     "address": "102 Ellisville Dr, Louisa, VA 23093",
     "state": "VA",
     "diocese": "Virginia",
@@ -4286,7 +4286,7 @@
   {
     "id": "christ-church-16-amiss-ave-luray-va",
     "name": "Christ Church",
-    "website": "https://www.christchurchluray.org/",
+    "website": "https://www.christchurchluray.org",
     "address": "16 Amiss Ave, Luray, VA 22835",
     "state": "VA",
     "diocese": "Virginia",
@@ -4328,7 +4328,7 @@
   {
     "id": "piedmont-bromfield-parish-214-church-st-madison-va",
     "name": "Piedmont/Bromfield Parish",
-    "website": "https://www.piedmontepiscopalchurch.org/",
+    "website": "https://www.piedmontepiscopalchurch.org",
     "address": "214 Church St, Madison, VA 22727",
     "state": "VA",
     "diocese": "Virginia",
@@ -4370,7 +4370,7 @@
   {
     "id": "st-francis-episcopal-church-1484-hockett-rd-manakin-sabot-va",
     "name": "St. Francis Episcopal Church",
-    "website": "https://www.stfrancisva.org/",
+    "website": "https://www.stfrancisva.org",
     "address": "1484 Hockett Rd, Manakin Sabot, VA 23103",
     "state": "VA",
     "diocese": "Virginia",
@@ -5042,7 +5042,7 @@
   {
     "id": "st-james-church-15870-kings-hwy-montross-va",
     "name": "St. James Church",
-    "website": "https://www.stjamesandstpauls.org/",
+    "website": "https://www.stjamesandstpauls.org",
     "address": "15870 Kings Hwy, Montross, VA 22520",
     "state": "VA",
     "diocese": "Virginia",
@@ -5084,7 +5084,7 @@
   {
     "id": "st-andrews-episcopal-church-5890-main-st-mount-jackson-va",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.shenandoahepiscopalians.org/",
+    "website": "https://www.shenandoahepiscopalians.org",
     "address": "5890 Main St, Mount Jackson, VA 22842",
     "state": "VA",
     "diocese": "Virginia",
@@ -5210,7 +5210,7 @@
   {
     "id": "st-peters-5872-leedstown-rd-oak-grove-va",
     "name": "St. Peter's",
-    "website": "https://www.stpetersoakgrove.org/",
+    "website": "https://www.stpetersoakgrove.org",
     "address": "5872 Leedstown Rd, Oak Grove, VA 22443",
     "state": "VA",
     "diocese": "Virginia",
@@ -5992,7 +5992,7 @@
     "diocesan_bishop": "The Rt. Rev. E. Mark Stevenson",
     "clergy_title": "",
     "rector_name": "The Rev. Benjamin Badgett",
-    "other_clergy": "The Rev. Sarah Kye Price, Ph.D. (Priest Affiliate)",
+    "other_clergy": "The Rev. Sarah Kye Price, PhD (Priest Affiliate)",
     "rite": "Rite II",
     "celebrant_position": "",
     "service_languages": "English",
@@ -6364,7 +6364,7 @@
     "church_phone": "(804) 758-2006",
     "church_email": "office@christchurchparish.com",
     "rector_phone": "",
-    "rector_email": "Rector@christchurchparish.com",
+    "rector_email": "rector@christchurchparish.com",
     "sunday_services": "8:00 AM Holy Eucharist, Rite I; 10:30 AM Holy Eucharist, Rite II (livestreamed on YouTube); 2nd Sundays 7:00 PM Taize service (per Asset Map)",
     "weekday_services": "2nd Wed 9:30 AM Holy Eucharist in the Chapel (site; Asset Map says every Wednesday)",
     "diocesan_bishop": "The Rt. Rev. E. Mark Stevenson",
@@ -6495,7 +6495,7 @@
     "weekday_services": "Wed 12:00 PM Celtic Eucharist; Tue-Fri 8:30 AM Morning Prayer (Zoom); Tue-Fri 5:00 PM Evening Prayer (Zoom)",
     "diocesan_bishop": "The Rt. Rev. E. Mark Stevenson",
     "clergy_title": "",
-    "rector_name": "Fr. Daniel Johnson, OPA",
+    "rector_name": "Fr. Daniel Johnson",
     "other_clergy": "",
     "rite": "Rite I; Rite II",
     "celebrant_position": "",
@@ -6932,7 +6932,7 @@
   {
     "id": "st-james-church-73-culpeper-st-warrenton-va",
     "name": "St. James Church",
-    "website": "https://www.saintjameswarrenton.org/",
+    "website": "https://www.saintjameswarrenton.org",
     "address": "73 Culpeper St, Warrenton, VA 20186",
     "state": "VA",
     "diocese": "Virginia",
@@ -6974,7 +6974,7 @@
   {
     "id": "st-johns-church-5987-richmond-rd-warsaw-va",
     "name": "St. John's Church",
-    "website": "https://nfarnhamandstjohns.org/",
+    "website": "https://nfarnhamandstjohns.org",
     "address": "5987 Richmond Rd, Warsaw, VA 22572",
     "state": "VA",
     "diocese": "Virginia",
@@ -7016,7 +7016,7 @@
   {
     "id": "st-pauls-church-nomini-grove-351-st-pauls-rd-warsaw-va",
     "name": "St. Paul's Church Nomini Grove",
-    "website": "https://www.stjamesandstpauls.org/",
+    "website": "https://www.stjamesandstpauls.org",
     "address": "351 St. Paul's Rd, Warsaw, VA 22572",
     "state": "VA",
     "diocese": "Virginia",
@@ -7058,7 +7058,7 @@
   {
     "id": "trinity-church-370-gay-st-washington-va",
     "name": "Trinity Church",
-    "website": "https://www.trinwash.org/",
+    "website": "https://www.trinwash.org",
     "address": "370 Gay St, Washington, VA 22747",
     "state": "VA",
     "diocese": "Virginia",
@@ -7100,7 +7100,7 @@
   {
     "id": "st-johns-episcopal-church-916-main-st-west-point-va",
     "name": "St. John's Episcopal Church",
-    "website": "https://stjohnswp.org/",
+    "website": "https://stjohnswp.org",
     "address": "916 Main St, West Point, VA 23181",
     "state": "VA",
     "diocese": "Virginia",
@@ -7184,7 +7184,7 @@
   {
     "id": "meade-memorial-church-192-white-post-rd-white-post-va",
     "name": "Meade Memorial Church",
-    "website": "https://www.meadeepiscopal.org/",
+    "website": "https://www.meadeepiscopal.org",
     "address": "192 White Post Rd, White Post, VA 22663",
     "state": "VA",
     "diocese": "Virginia",
@@ -7226,7 +7226,7 @@
   {
     "id": "wicomico-parish-church-5191-jessie-ball-dupont-memorial-hwy-wicomico-church-va",
     "name": "Wicomico Parish Church",
-    "website": "https://www.wicomicoepiscopal.org/",
+    "website": "https://www.wicomicoepiscopal.org",
     "address": "5191 Jessie Ball Dupont Memorial Hwy, Wicomico Church, VA 22579",
     "state": "VA",
     "diocese": "Virginia",
@@ -7268,7 +7268,7 @@
   {
     "id": "christ-episcopal-church-114-w-boscawen-st-winchester-va",
     "name": "Christ Episcopal Church",
-    "website": "https://www.christchurchwinchester.org/",
+    "website": "https://www.christchurchwinchester.org",
     "address": "114 W Boscawen St, Winchester, VA 22601",
     "state": "VA",
     "diocese": "Virginia",
@@ -7310,7 +7310,7 @@
   {
     "id": "st-margarets-church-5290-saratoga-lane-woodbridge-va",
     "name": "St. Margaret's Church",
-    "website": "https://www.stmargaretsepiscopalva.org/",
+    "website": "https://www.stmargaretsepiscopalva.org",
     "address": "5290 Saratoga Lane, Woodbridge, VA 22193",
     "state": "VA",
     "diocese": "Virginia",
@@ -7352,7 +7352,7 @@
   {
     "id": "emmanuel-church-122-e-court-st-woodstock-va",
     "name": "Emmanuel Church",
-    "website": "https://www.shenandoahepiscopalians.org/",
+    "website": "https://www.shenandoahepiscopalians.org",
     "address": "122 E Court St, Woodstock, VA 22664",
     "state": "VA",
     "diocese": "Virginia",

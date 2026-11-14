@@ -22,8 +22,9 @@ const chosen = new Map();
 const filterSyncs = [];
 const filterClosers = [];
 
-// "Yes - Rector" -> "Rector": the dropdowns show only the detail of a yes answer.
-const optionLabel = (v) => v.replace(/^Yes - /, "");
+// "Yes - Rector" -> "Rector", "No - Alternative Blessings Practiced" -> "Alternative Blessings Practiced":
+// the dropdowns show only the detail of a yes or no answer.
+const optionLabel = (v) => v.replace(/^(Yes|No) - /, "");
 
 // Turns the empty .ms placeholder for `id` into a button that opens a checklist.
 function fillFilter(id, values) {

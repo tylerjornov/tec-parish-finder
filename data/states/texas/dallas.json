@@ -2,7 +2,7 @@
   {
     "id": "the-episcopal-church-of-the-annunciation-602-north-old-orchard-lane-lewisville-tx",
     "name": "The Episcopal Church of the Annunciation",
-    "website": "https://annunciationlewisville.org/",
+    "website": "https://annunciationlewisville.org",
     "address": "602 North Old Orchard Lane, Lewisville, TX 75077",
     "state": "TX",
     "diocese": "Dallas",
@@ -44,7 +44,7 @@
   {
     "id": "church-of-the-apostles-322-s-macarthur-blvd-coppell-tx",
     "name": "Church of the Apostles",
-    "website": "https://churchoftheapostles.net/",
+    "website": "https://churchoftheapostles.net",
     "address": "322 S MacArthur Blvd, Coppell, TX 75019",
     "state": "TX",
     "diocese": "Dallas",
@@ -86,7 +86,7 @@
   {
     "id": "episcopal-church-of-the-ascension-8787-greenville-avenue-dallas-tx",
     "name": "Episcopal Church of the Ascension",
-    "website": "https://www.ascensiondallas.org/",
+    "website": "https://www.ascensiondallas.org",
     "address": "8787 Greenville Avenue, Dallas, TX 75243",
     "state": "TX",
     "diocese": "Dallas",
@@ -128,7 +128,7 @@
   {
     "id": "christ-church-dallas-534-w-10th-st-dallas-tx",
     "name": "Christ Church Dallas",
-    "website": "https://christchurchdallas.net/",
+    "website": "https://christchurchdallas.net",
     "address": "534 W. 10th St, Dallas, TX 75208",
     "state": "TX",
     "diocese": "Dallas",
@@ -150,7 +150,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "10:00 AM Holy Eucharist, English (livestreamed on Facebook Live); 11:45 AM Santa Misa, Spanish (livestreamed on Facebook Live)",
-    "weekday_services": "9:00 AM Morning Prayer, English (Mon–Fri); 8:00 PM Evening Prayer, Spanish (Mon–Fri); 6:30 PM Holy Eucharist, Bilingual (Tue); 6:00 PM Evening Prayer, English (Wed); 7:00 PM Holy Rosary Prayer Service, Bilingual (third Sat of month)",
+    "weekday_services": "9:00 AM Morning Prayer, English (Mon-Fri); 8:00 PM Evening Prayer, Spanish (Mon-Fri); 6:30 PM Holy Eucharist, Bilingual (Tue); 6:00 PM Evening Prayer, English (Wed); 7:00 PM Holy Rosary Prayer Service, Bilingual (third Sat of month)",
     "diocesan_bishop": "The Rt. Rev. Robert P. Price",
     "clergy_title": "",
     "rector_name": "Fr. Gavin McAdam",
@@ -170,7 +170,7 @@
   {
     "id": "the-episcopal-church-of-the-epiphany-421-custer-rd-richardson-tx",
     "name": "The Episcopal Church of the Epiphany",
-    "website": "https://www.epiphany-richardson.org/",
+    "website": "https://www.epiphany-richardson.org",
     "address": "421 Custer Rd, Richardson, TX 75080",
     "state": "TX",
     "diocese": "Dallas",
@@ -212,7 +212,7 @@
   {
     "id": "good-samaritan-episcopal-church-1522-highland-rd-dallas-tx",
     "name": "Good Samaritan Episcopal Church",
-    "website": "http://www.goodsamdallas.org/",
+    "website": "http://www.goodsamdallas.org",
     "address": "1522 Highland Rd, Dallas, TX 75218",
     "state": "TX",
     "diocese": "Dallas",
@@ -254,7 +254,7 @@
   {
     "id": "good-shepherd-church-915-old-straus-rd-cedar-hill-tx",
     "name": "Good Shepherd Church",
-    "website": "https://www.goodshepherdcedarhill.com/",
+    "website": "https://www.goodshepherdcedarhill.com",
     "address": "915 Old Straus Rd, Cedar Hill, TX 75104",
     "state": "TX",
     "diocese": "Dallas",
@@ -276,7 +276,7 @@
     "rector_phone": "(972) 291-4528",
     "rector_email": "",
     "sunday_services": "8:15 AM Morning Prayer; 8:30 AM Holy Eucharist (no hymns); 10:30 AM Holy Eucharist, with choir (livestreamed on Facebook); 5:00 PM Contemporary Evensong (second Sunday of each month); 5:00 PM Traditional Evensong (four times a year)",
-    "weekday_services": "9:15 AM Morning Prayer (Tue–Fri; Tue in Chapel and YouTube, Wed–Fri on YouTube); 9:30 AM Holy Eucharist (Tue; Chapel and YouTube); 5:15 PM Evening Prayer (Tue–Fri; Chapel); 5:30 PM Holy Eucharist (Wed; Chapel); 10:30 AM Holy Eucharist (Thu; Chapel); 12:15 PM Holy Eucharist (Fri; Chapel)",
+    "weekday_services": "9:15 AM Morning Prayer (Tue-Fri; Tue in Chapel and YouTube, Wed-Fri on YouTube); 9:30 AM Holy Eucharist (Tue; Chapel and YouTube); 5:15 PM Evening Prayer (Tue-Fri; Chapel); 5:30 PM Holy Eucharist (Wed; Chapel); 10:30 AM Holy Eucharist (Thu; Chapel); 12:15 PM Holy Eucharist (Fri; Chapel)",
     "diocesan_bishop": "The Rt. Rev. Robert P. Price",
     "clergy_title": "",
     "rector_name": "Fr. Chase Skorburg",
@@ -296,7 +296,7 @@
   {
     "id": "good-shepherd-episcopal-church-11122-midway-road-dallas-tx",
     "name": "Good Shepherd Episcopal Church",
-    "website": "https://www.goodshepherddallas.org/",
+    "website": "https://www.goodshepherddallas.org",
     "address": "11122 Midway Road, Dallas, TX 75229",
     "state": "TX",
     "diocese": "Dallas",
@@ -338,7 +338,7 @@
   {
     "id": "the-episcopal-church-of-the-good-shepherd-200-west-college-street-terrell-tx",
     "name": "The Episcopal Church of the Good Shepherd",
-    "website": "https://www.gsterrell.org/",
+    "website": "https://www.gsterrell.org",
     "address": "200 West College Street, Terrell, TX 75160",
     "state": "TX",
     "diocese": "Dallas",
@@ -380,7 +380,7 @@
   {
     "id": "church-of-the-holy-cross-400-s-church-st-paris-tx",
     "name": "Church of the Holy Cross",
-    "website": "https://www.holycrossparis.com/",
+    "website": "https://www.holycrossparis.com",
     "address": "400 S Church St, Paris, TX 75460",
     "state": "TX",
     "diocese": "Dallas",
@@ -506,7 +506,7 @@
   {
     "id": "iglesia-de-la-santa-natividad-404-lincoln-street-mckinney-tx",
     "name": "Iglesia de la Santa Natividad",
-    "website": "https://santanatividad.org/",
+    "website": "https://santanatividad.org",
     "address": "404 Lincoln Street, McKinney, TX 75069",
     "state": "TX",
     "diocese": "Dallas",
@@ -548,7 +548,7 @@
   {
     "id": "church-of-the-holy-nativity-2200-18th-st-plano-tx",
     "name": "Church of the Holy Nativity",
-    "website": "https://www.holynativity.org/",
+    "website": "https://www.holynativity.org",
     "address": "2200 18th St, Plano, TX 75074",
     "state": "TX",
     "diocese": "Dallas",
@@ -590,7 +590,7 @@
   {
     "id": "holy-trinity-episcopal-church-623-star-street-bonham-tx",
     "name": "Holy Trinity Episcopal Church",
-    "website": "http://holytrinitybonhamtx.org/",
+    "website": "http://holytrinitybonhamtx.org",
     "address": "623 Star Street, Bonham, TX 75418",
     "state": "TX",
     "diocese": "Dallas",
@@ -632,7 +632,7 @@
   {
     "id": "holy-trinity-episcopal-church-3217-guthrie-rd-garland-tx",
     "name": "Holy Trinity Episcopal Church",
-    "website": "https://www.holytrinitygarland.org/",
+    "website": "https://www.holytrinitygarland.org",
     "address": "3217 Guthrie Rd, Garland, TX 75043",
     "state": "TX",
     "diocese": "Dallas",
@@ -674,7 +674,7 @@
   {
     "id": "holy-trinity-by-the-lake-episcopal-church-1524-smirl-dr-heath-tx",
     "name": "Holy Trinity by the Lake Episcopal Church",
-    "website": "https://www.htbtl.org/",
+    "website": "https://www.htbtl.org",
     "address": "1524 Smirl Dr, Heath, TX 75032",
     "state": "TX",
     "diocese": "Dallas",
@@ -716,7 +716,7 @@
   {
     "id": "church-of-the-incarnation-3966-mckinney-ave-dallas-tx",
     "name": "Church of the Incarnation",
-    "website": "https://incarnation.org/",
+    "website": "https://incarnation.org",
     "address": "3966 McKinney Ave, Dallas, TX 75204",
     "state": "TX",
     "diocese": "Dallas",
@@ -758,7 +758,7 @@
   {
     "id": "our-merciful-saviour-episcopal-church-500-s-jackson-st-kaufman-tx",
     "name": "Our Merciful Saviour Episcopal Church",
-    "website": "https://www.omschurch.org/",
+    "website": "https://www.omschurch.org",
     "address": "500 S Jackson St, Kaufman, TX 75142",
     "state": "TX",
     "diocese": "Dallas",
@@ -842,7 +842,7 @@
   {
     "id": "episcopal-church-of-the-redeemer-2700-warren-cir-irving-tx",
     "name": "Episcopal Church of the Redeemer",
-    "website": "https://www.redeemer-irving.org/",
+    "website": "https://www.redeemer-irving.org",
     "address": "2700 Warren Cir, Irving, TX 75062",
     "state": "TX",
     "diocese": "Dallas",
@@ -884,7 +884,7 @@
   {
     "id": "saint-michael-and-all-angels-episcopal-church-8011-douglas-ave-dallas-tx",
     "name": "Saint Michael and All Angels Episcopal Church",
-    "website": "https://saintmichael.org/",
+    "website": "https://saintmichael.org",
     "address": "8011 Douglas Ave, Dallas, TX 75225",
     "state": "TX",
     "diocese": "Dallas",
@@ -918,7 +918,7 @@
     "music_style": "Traditional and contemporary worship; Director of Music, Director of Contemporary Music, Principal Organist and choristers on staff",
     "accessibility": "",
     "parking": "Multiple parking options; campus map published",
-    "childcare": "Sunday childcare for ages 0-3, 8:30 AM–12:30 PM; PreK-5th grade Bible story and activities during 10:00 AM formation hour",
+    "childcare": "Sunday childcare for ages 0-3, 8:30 AM-12:30 PM; PreK-5th grade Bible story and activities during 10:00 AM formation hour",
     "formation": "Sunday Classes for All Ages (Sundays 10:00 AM); Joy! A Children's Service; Children & Family Ministries; Youth Ministries; Adult Ministries; Women of Saint Michael; Men of Saint Michael; Support Groups; Mission & Outreach; Fall Weekday Meditations",
     "date_last_updated": "2026-10-11",
     "notes": "Some Sunday services are streamed on the website, Facebook and YouTube. Fall Weekday Meditations run on weekdays from September 14 to October 30, 2026. A priest is on call 24 hours a day at the church phone number. Saint Michael Episcopal School is affiliated with the parish."
@@ -926,7 +926,7 @@
   {
     "id": "san-francisco-de-asis-iglesia-episcopal-11540-ferguson-rd-dallas-tx",
     "name": "San Francisco de Asís Iglesia Episcopal",
-    "website": "https://www.sfadallas.org/",
+    "website": "https://www.sfadallas.org",
     "address": "11540 Ferguson Rd, Dallas, TX 75228",
     "state": "TX",
     "diocese": "Dallas",
@@ -1010,7 +1010,7 @@
   {
     "id": "st-andrews-episcopal-church-2783-valwood-pkwy-farmers-branch-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://standys.org/",
+    "website": "https://standys.org",
     "address": "2783 Valwood Pkwy, Farmers Branch, TX 75234",
     "state": "TX",
     "diocese": "Dallas",
@@ -1052,7 +1052,7 @@
   {
     "id": "st-andrews-episcopal-church-6400-mckinney-ranch-pkwy-mckinney-tx",
     "name": "St. Andrew's Episcopal Church",
-    "website": "https://www.standrewsmckinney.org/",
+    "website": "https://www.standrewsmckinney.org",
     "address": "6400 McKinney Ranch Pkwy, McKinney, TX 75070",
     "state": "TX",
     "diocese": "Dallas",
@@ -1087,14 +1087,14 @@
     "accessibility": "Ramps to office entrance",
     "parking": "Lot on northwest corner of McKinney Ranch Pkwy and Ridge Rd, entered from either road",
     "childcare": "Nursery (SafeChurch certified staff, infants to age 3) during 9:00 AM and 11:00 AM services",
-    "formation": "Discipleship for all ages (Sundays 10:15 AM; K-5th, 6th-12th, adults); St. Andrew's Youth (SAY) Sundays 10:15–10:45 AM and 4:00–6:00 PM; Men's Study Group (Monday nights); Women's Bible Studies (Tuesday and Thursday mornings); Men's Genesis Bible Study (Thursday mornings); Discovery Teams; Connect Groups; Men's Fellowship; Seniors' Fellowship (3rd Thursday lunch, Sept–May); Hands & Feet outreach; Belize Partnership; Columbarium",
+    "formation": "Discipleship for all ages (Sundays 10:15 AM; K-5th, 6th-12th, adults); St. Andrew's Youth (SAY) Sundays 10:15-10:45 AM and 4:00-6:00 PM; Men's Study Group (Monday nights); Women's Bible Studies (Tuesday and Thursday mornings); Men's Genesis Bible Study (Thursday mornings); Discovery Teams; Connect Groups; Men's Fellowship; Seniors' Fellowship (3rd Thursday lunch, Sept-May); Hands & Feet outreach; Belize Partnership; Columbarium",
     "date_last_updated": "2026-10-11",
     "notes": "The parish describes its worship as ancient tradition in a modern context. The church has a Westridge campus. Fr. Andrew was instituted as rector in February 2019."
   },
   {
     "id": "saint-anne-episcopal-church-1700-n-westmoreland-rd-desoto-tx",
     "name": "Saint Anne Episcopal Church",
-    "website": "http://www.stannedesoto.org/",
+    "website": "http://www.stannedesoto.org",
     "address": "1700 N Westmoreland Rd, DeSoto, TX 75115",
     "state": "TX",
     "diocese": "Dallas",
@@ -1136,7 +1136,7 @@
   {
     "id": "st-augustines-oak-cliff-1302-w-kiest-blvd-dallas-tx",
     "name": "St. Augustine's Oak Cliff",
-    "website": "https://www.staugustinesoakcliff.org/",
+    "website": "https://www.staugustinesoakcliff.org",
     "address": "1302 W Kiest Blvd, Dallas, TX 75224",
     "state": "TX",
     "diocese": "Dallas",
@@ -1178,7 +1178,7 @@
   {
     "id": "st-barnabas-episcopal-church-1200-n-elm-st-denton-tx",
     "name": "St. Barnabas Episcopal Church",
-    "website": "https://saintbarnabasdenton.org/",
+    "website": "https://saintbarnabasdenton.org",
     "address": "1200 N Elm St, Denton, TX 76201",
     "state": "TX",
     "diocese": "Dallas",
@@ -1212,7 +1212,7 @@
     "music_style": "",
     "accessibility": "Large print Prayer Books available; gluten-free wafers available",
     "parking": "Parking entrance is off Locust Street",
-    "childcare": "Nursery for ages 0-4, 9:00–11:30 AM, staffed by trained caregivers (SafeChurch)",
+    "childcare": "Nursery for ages 0-4, 9:00-11:30 AM, staffed by trained caregivers (SafeChurch)",
     "formation": "Adult Sunday School (Sundays 9:00 AM); Godly Play for grades K-5 (Sundays 10:00 AM); Tuesday Bible Study; free Tai Chi classes (Tuesdays); Food & Fellowship (Sundays 11:00 AM); Outreach; annual Outreach Bazaar",
     "date_last_updated": "2026-10-11",
     "notes": "The parish is in a rector search. It describes itself as a small, inclusive, multi-generational church. Staff are usually at the church Monday, Wednesday and Friday, 1:00 to 5:00 PM."
@@ -1220,7 +1220,7 @@
   {
     "id": "st-barnabas-episcopal-church-1200-n-shiloh-rd-garland-tx",
     "name": "St. Barnabas Episcopal Church",
-    "website": "https://www.stbarnabasgarland.org/",
+    "website": "https://www.stbarnabasgarland.org",
     "address": "1200 N Shiloh Rd, Garland, TX 75042",
     "state": "TX",
     "diocese": "Dallas",
@@ -1262,7 +1262,7 @@
   {
     "id": "st-christophers-episcopal-church-7900-lovers-ln-dallas-tx",
     "name": "St. Christopher's Episcopal Church",
-    "website": "https://stchristophersdallas.com/",
+    "website": "https://stchristophersdallas.com",
     "address": "7900 Lovers Ln, Dallas, TX 75225",
     "state": "TX",
     "diocese": "Dallas",
@@ -1304,7 +1304,7 @@
   {
     "id": "st-david-of-wales-episcopal-church-623-ector-st-denton-tx",
     "name": "St. David of Wales Episcopal Church",
-    "website": "https://www.stdavidsdenton.com/",
+    "website": "https://www.stdavidsdenton.com",
     "address": "623 Ector St, Denton, TX 76201",
     "state": "TX",
     "diocese": "Dallas",
@@ -1346,7 +1346,7 @@
   {
     "id": "the-church-of-st-dunstan-800-n-johnson-st-mineola-tx",
     "name": "The Church of St. Dunstan",
-    "website": "https://www.churchofstdunstan.org/",
+    "website": "https://www.churchofstdunstan.org",
     "address": "800 N Johnson St, Mineola, TX 75773",
     "state": "TX",
     "diocese": "Dallas",
@@ -1430,7 +1430,7 @@
   {
     "id": "st-james-episcopal-church-9845-mccree-rd-dallas-tx",
     "name": "St. James Episcopal Church",
-    "website": "https://www.stjamesdallas.org/",
+    "website": "https://www.stjamesdallas.org",
     "address": "9845 McCree Rd, Dallas, TX 75238",
     "state": "TX",
     "diocese": "Dallas",
@@ -1465,14 +1465,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "Nursery workers on staff; Children's Chapel for ages 3-10 begins 10:05 AM",
-    "formation": "Sunday School (Sundays 9:00–9:45 AM, Parish Hall; children, youth and adults); Children's Chapel; Adult Formation; Worship Ministries; St. James Ministries (acolytes/torch bearers/crucifers, Altar Guild); St. James Episcopal School",
+    "formation": "Sunday School (Sundays 9:00-9:45 AM, Parish Hall; children, youth and adults); Children's Chapel; Adult Formation; Worship Ministries; St. James Ministries (acolytes/torch bearers/crucifers, Altar Guild); St. James Episcopal School",
     "date_last_updated": "2026-10-11",
     "notes": "Rector installed in January 2023 as the 8th rector. The parish's website describes its beliefs as the Nicene and Apostles' Creeds and the 1979 Book of Common Prayer. St. James Episcopal School shares the campus. Curate Phylicia McFaddin joined in Fall 2026."
   },
   {
     "id": "st-james-on-the-lake-episcopal-church-10707-county-road-4022-kemp-tx",
     "name": "St. James on the Lake Episcopal Church",
-    "website": "https://stjamesonthelake.org/",
+    "website": "https://stjamesonthelake.org",
     "address": "10707 County Road 4022, Kemp, TX 75143",
     "state": "TX",
     "diocese": "Dallas",
@@ -1507,14 +1507,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "The Chosen viewing and discussion (Wednesdays 10:30–11:45 AM, Parish Hall); Mission and Outreach; MAGS (Mabank Area Good Samaritan); Forever Families; Kairos at Beto prison; One Man's Treasure; Angel Food",
+    "formation": "The Chosen viewing and discussion (Wednesdays 10:30-11:45 AM, Parish Hall); Mission and Outreach; MAGS (Mabank Area Good Samaritan); Forever Families; Kairos at Beto prison; One Man's Treasure; Angel Food",
     "date_last_updated": "2026-10-11",
     "notes": "The parish says all people are welcome."
   },
   {
     "id": "saint-james-episcopal-church-413-olive-st-texarkana-tx",
     "name": "Saint James Episcopal Church",
-    "website": "https://www.saintjamestxk.org/",
+    "website": "https://www.saintjamestxk.org",
     "address": "413 Olive St, Texarkana, TX 75503",
     "state": "TX",
     "diocese": "Dallas",
@@ -1556,7 +1556,7 @@
   {
     "id": "st-johns-episcopal-church-101-n-14th-st-corsicana-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnscorsicana.org/",
+    "website": "https://www.stjohnscorsicana.org",
     "address": "101 N 14th St, Corsicana, TX 75110",
     "state": "TX",
     "diocese": "Dallas",
@@ -1598,7 +1598,7 @@
   {
     "id": "st-johns-episcopal-church-848-harter-rd-dallas-tx",
     "name": "St. John's Episcopal Church",
-    "website": "https://www.stjohnsepiscopal.org/",
+    "website": "https://www.stjohnsepiscopal.org",
     "address": "848 Harter Rd, Dallas, TX 75218",
     "state": "TX",
     "diocese": "Dallas",
@@ -1633,14 +1633,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "Nursery and Pre-K classrooms (ages 0-5) during the 9:00 AM service, the 10:00 AM Sunday School hour and the 11:00 AM service; activity packs for older children",
-    "formation": "Sunday School Pre-K through high school (10:00–10:50 AM, Undercroft); Youth Confirmation class; Men's Bible Study (Sundays 9 AM); Women's Bible Study (Sundays 9 AM); Godspeed adult class (Sundays 10 AM); Young Adult Bible Study (Thursdays 7 PM); Pub Theologians (second Thursdays 7 PM); Advent Wednesday dinners; Lenten Friday dinners and Stations of the Cross",
+    "formation": "Sunday School Pre-K through high school (10:00-10:50 AM, Undercroft); Youth Confirmation class; Men's Bible Study (Sundays 9 AM); Women's Bible Study (Sundays 9 AM); Godspeed adult class (Sundays 10 AM); Young Adult Bible Study (Thursdays 7 PM); Pub Theologians (second Thursdays 7 PM); Advent Wednesday dinners; Lenten Friday dinners and Stations of the Cross",
     "date_last_updated": "2026-10-11",
     "notes": "The 11:00 AM service is described as the best of the Anglican High Church tradition. The home page also mentions a more casual contemporary service."
   },
   {
     "id": "st-john-the-apostle-episcopal-church-760-w-fm-120-pottsboro-tx",
     "name": "St. John the Apostle Episcopal Church",
-    "website": "https://stjohnstexoma.org/",
+    "website": "https://stjohnstexoma.org",
     "address": "760 W FM 120, Pottsboro, TX 75076",
     "state": "TX",
     "diocese": "Dallas",
@@ -1682,7 +1682,7 @@
   {
     "id": "st-justins-episcopal-church-977-texas-highway-243-canton-tx",
     "name": "St. Justin's Episcopal Church",
-    "website": "https://www.stjustinscanton.org/",
+    "website": "https://www.stjustinscanton.org",
     "address": "977 Texas Highway 243, Canton, TX 75103",
     "state": "TX",
     "diocese": "Dallas",
@@ -1724,7 +1724,7 @@
   {
     "id": "st-lukes-episcopal-church-5923-royal-ln-dallas-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukesdallas.org/",
+    "website": "https://www.stlukesdallas.org",
     "address": "5923 Royal Ln, Dallas, TX 75230",
     "state": "TX",
     "diocese": "Dallas",
@@ -1766,7 +1766,7 @@
   {
     "id": "st-lukes-episcopal-church-427-w-woodard-st-denison-tx",
     "name": "St. Luke's Episcopal Church",
-    "website": "https://www.stlukesdenison.org/",
+    "website": "https://www.stlukesdenison.org",
     "address": "427 W Woodard St, Denison, TX 75020",
     "state": "TX",
     "diocese": "Dallas",
@@ -1808,7 +1808,7 @@
   {
     "id": "saint-marks-episcopal-church-516-s-oconnor-rd-irving-tx",
     "name": "Saint Mark's Episcopal Church",
-    "website": "https://www.stmarksirving.org/",
+    "website": "https://www.stmarksirving.org",
     "address": "516 S O'Connor Rd, Irving, TX 75060",
     "state": "TX",
     "diocese": "Dallas",
@@ -1843,7 +1843,7 @@
     "accessibility": "Building entrances accessible by ramp near disabled parking",
     "parking": "Three lots: northwest corner along S. O'Connor Road and south side along Sixth Street (both with disabled spaces); third lot west of the church across S. O'Connor Road",
     "childcare": "Visiting page says a nursery is provided during the main Sunday service and Children's Chapel is offered; Worship Times page says childcare services are temporarily suspended",
-    "formation": "Adult Christian Education (Sundays 11:00–11:15 AM); Choir for Children & Youth (Sundays 11:00 AM); Lectionary Bible Study (Wednesdays 11:00 AM); Midweek Monastery (Wednesdays 6:00 PM); Life Groups; Outreach; Slave Cemetery Restoration",
+    "formation": "Adult Christian Education (Sundays 11:00-11:15 AM); Choir for Children & Youth (Sundays 11:00 AM); Lectionary Bible Study (Wednesdays 11:00 AM); Midweek Monastery (Wednesdays 6:00 PM); Life Groups; Outreach; Slave Cemetery Restoration",
     "date_last_updated": "2026-10-11",
     "notes": "The parish describes its worship as formal. The Nicene Creed is recited weekly, and communion is an open table."
   },
@@ -1876,7 +1876,7 @@
     "diocesan_bishop": "The Rt. Rev. Robert P. Price",
     "clergy_title": "",
     "rector_name": "",
-    "other_clergy": "Fr. Taylor Loy (Priest Celebrant), also Curate at Saint James in Texarkana",
+    "other_clergy": "Fr. Taylor Loy (Priest Celebrant) (also Curate at Saint James in Texarkana)",
     "rite": "",
     "celebrant_position": "",
     "service_languages": "English; Spanish",
@@ -1892,7 +1892,7 @@
   {
     "id": "st-marys-episcopal-church-635-n-story-rd-irving-tx",
     "name": "St. Mary's Episcopal Church",
-    "website": "http://www.stmarysirvingtx.org/",
+    "website": "http://www.stmarysirvingtx.org",
     "address": "635 N Story Rd, Irving, TX 75061",
     "state": "TX",
     "diocese": "Dallas",
@@ -1934,7 +1934,7 @@
   {
     "id": "st-matthews-cathedral-5100-ross-ave-dallas-tx",
     "name": "St. Matthew's Cathedral",
-    "website": "https://episcopalcathedral.org/",
+    "website": "https://episcopalcathedral.org",
     "address": "5100 Ross Ave, Dallas, TX 75206",
     "state": "TX",
     "diocese": "Dallas",
@@ -1968,7 +1968,7 @@
     "music_style": "9:00 AM liturgy with organ, hymns and choir (Organist and Choir Director Keith Franks); 11:15 AM Agape service with guitar and folk-style hymns (Music Minister Paul Demer)",
     "accessibility": "",
     "parking": "At the corner of Ross Avenue and Henderson Avenue; worship entrance at the front of the Cathedral facing downtown",
-    "childcare": "Nursery 8:45 AM–12:45 PM in the Great Hall (birth to age 3); Cathedral Kids Godly Play (10:25–11:05 AM) and Wonder & Worship",
+    "childcare": "Nursery 8:45 AM-12:45 PM in the Great Hall (birth to age 3); Cathedral Kids Godly Play (10:25-11:05 AM) and Wonder & Worship",
     "formation": "Adult Formation Sundays 10:25 AM in the Great Hall (Fall 2026 series on Anglican Theology led by the Dean); Cathedral Kids (Godly Play, Building Faith); Cathedral Youth; Small Groups; coffee hour 10:15 AM",
     "date_last_updated": "2026-10-11",
     "notes": "The cathedral of the Diocese of Dallas. The Cathedral Montessori school shares the campus. Office hours are by appointment only."
@@ -1976,7 +1976,7 @@
   {
     "id": "st-matthias-episcopal-church-205-willowbrook-dr-athens-tx",
     "name": "St. Matthias Episcopal Church",
-    "website": "https://stmatthiasathens.net/",
+    "website": "https://stmatthiasathens.net",
     "address": "205 Willowbrook Dr, Athens, TX 75751",
     "state": "TX",
     "diocese": "Dallas",
@@ -2011,14 +2011,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "Sunday Adult Formation - Sunday Gospel Reading (9:00–9:45 AM); Outreach: Athens Food Pantry; Winter Warmth Yard Sale (Nov 2026)",
+    "formation": "Sunday Adult Formation - Sunday Gospel Reading (9:00-9:45 AM); Outreach: Athens Food Pantry; Winter Warmth Yard Sale (Nov 2026)",
     "date_last_updated": "2026-10-11",
     "notes": "Mission congregation governed by a Bishop's Committee. Describes itself as the only Episcopal parish in Henderson County, holding to Scripture, tradition and reason."
   },
   {
     "id": "saint-nicholas-church-4800-wichita-trail-flower-mound-tx",
     "name": "Saint Nicholas Church",
-    "website": "https://www.stnicksonline.org/",
+    "website": "https://www.stnicksonline.org",
     "address": "4800 Wichita Trail, Flower Mound, TX 75022",
     "state": "TX",
     "diocese": "Dallas",
@@ -2060,7 +2060,7 @@
   {
     "id": "st-pauls-episcopal-church-8320-jack-finney-blvd-greenville-tx",
     "name": "St. Paul's Episcopal Church",
-    "website": "http://www.stpaulstx.org/",
+    "website": "http://www.stpaulstx.org",
     "address": "8320 Jack Finney Blvd, Greenville, TX 75402",
     "state": "TX",
     "diocese": "Dallas",
@@ -2102,7 +2102,7 @@
   {
     "id": "saint-pauls-episcopal-church-420-s-coit-rd-prosper-tx",
     "name": "Saint Paul's Episcopal Church",
-    "website": "https://www.stpaulsprosper.org/",
+    "website": "https://www.stpaulsprosper.org",
     "address": "420 S Coit Rd, Prosper, TX 75078",
     "state": "TX",
     "diocese": "Dallas",
@@ -2144,7 +2144,7 @@
   {
     "id": "st-paul-ellis-county-624-ovilla-rd-waxahachie-tx",
     "name": "St. Paul Ellis County",
-    "website": "https://www.stpaulelliscounty.org/",
+    "website": "https://www.stpaulelliscounty.org",
     "address": "624 Ovilla Rd, Waxahachie, TX 75167",
     "state": "TX",
     "diocese": "Dallas",
@@ -2186,7 +2186,7 @@
   {
     "id": "st-peters-episcopal-church-400-n-college-st-mckinney-tx",
     "name": "St. Peter's Episcopal Church",
-    "website": "https://www.stpetersmckinney.com/",
+    "website": "https://www.stpetersmckinney.com",
     "address": "400 N College St, McKinney, TX 75069",
     "state": "TX",
     "diocese": "Dallas",
@@ -2220,7 +2220,7 @@
     "music_style": "Traditional hymns with organ at 9:00 AM; full parish choir at 11:00 AM (Music Director Scott Dettra)",
     "accessibility": "",
     "parking": "",
-    "childcare": "Fully staffed nursery Sundays 8:45 AM–12:15 PM and Wednesday evenings in the school year; Children's Chapel (ages 3 through 2nd grade) at 9:00 and 11:00 AM",
+    "childcare": "Fully staffed nursery Sundays 8:45 AM-12:15 PM and Wednesday evenings in the school year; Children's Chapel (ages 3 through 2nd grade) at 9:00 and 11:00 AM",
     "formation": "Christian Formation for all ages Sundays 10:10 AM (parish hall); Education for Ministry; Children & Youth ministries; Outreach",
     "date_last_updated": "2026-10-11",
     "notes": "The parish holds Scripture, tradition and reason together and uses the historic creeds. The website says all are welcome at God's altar. Mailing and office address: 511 Foote St. Office hours are Monday through Thursday, 9 AM to 3 PM, and Friday, 9 AM to noon."
@@ -2228,7 +2228,7 @@
   {
     "id": "st-philips-episcopal-church-6400-stonebrook-pkwy-frisco-tx",
     "name": "St. Philip's Episcopal Church",
-    "website": "https://stphilipsfrisco.org/",
+    "website": "https://stphilipsfrisco.org",
     "address": "6400 Stonebrook Pkwy, Frisco, TX 75034",
     "state": "TX",
     "diocese": "Dallas",
@@ -2270,7 +2270,7 @@
   {
     "id": "st-philips-episcopal-church-1206-college-st-sulphur-springs-tx",
     "name": "St. Philip's Episcopal Church",
-    "website": "https://www.stphilipssulphursprings.com/",
+    "website": "https://www.stphilipssulphursprings.com",
     "address": "1206 College St, Sulphur Springs, TX 75482",
     "state": "TX",
     "diocese": "Dallas",
@@ -2305,14 +2305,14 @@
     "accessibility": "",
     "parking": "",
     "childcare": "",
-    "formation": "Bible Study Tuesdays 1:45–2:30 PM; Bible Study Wednesdays 5:30–7:00 PM (bring your dinner); Altar Guild, Acolytes, Music Ministry, Readers and Eucharistic Ministers; fellowship and community events",
+    "formation": "Bible Study Tuesdays 1:45-2:30 PM; Bible Study Wednesdays 5:30-7:00 PM (bring your dinner); Altar Guild, Acolytes, Music Ministry, Readers and Eucharistic Ministers; fellowship and community events",
     "date_last_updated": "2026-10-11",
     "notes": "The parish describes its worship as Anglican Book of Common Prayer worship. Reconciliation is available on request. Services are livestreamed and archived on Facebook. Mailing address: PO Box 636, Sulphur Springs, TX 75483."
   },
   {
     "id": "st-stephens-episcopal-church-401-s-crockett-st-sherman-tx",
     "name": "St. Stephen's Episcopal Church",
-    "website": "https://www.saintstephenssherman.org/",
+    "website": "https://www.saintstephenssherman.org",
     "address": "401 S Crockett St, Sherman, TX 75090",
     "state": "TX",
     "diocese": "Dallas",
@@ -2354,7 +2354,7 @@
   {
     "id": "st-thomas-episcopal-church-901-park-st-ennis-tx",
     "name": "St. Thomas Episcopal Church",
-    "website": "https://www.stthomaschurchennis.org/",
+    "website": "https://www.stthomaschurchennis.org",
     "address": "901 Park St, Ennis, TX 75119",
     "state": "TX",
     "diocese": "Dallas",
@@ -2396,7 +2396,7 @@
   {
     "id": "episcopal-church-of-st-thomas-the-apostle-6525-inwood-rd-dallas-tx",
     "name": "Episcopal Church of St. Thomas the Apostle",
-    "website": "https://thedoubter.org/",
+    "website": "https://thedoubter.org",
     "address": "6525 Inwood Rd, Dallas, TX 75209",
     "state": "TX",
     "diocese": "Dallas",
@@ -2480,7 +2480,7 @@
   {
     "id": "episcopal-church-of-the-transfiguration-14115-hillcrest-rd-dallas-tx",
     "name": "Episcopal Church of the Transfiguration",
-    "website": "https://www.transfiguration.net/",
+    "website": "https://www.transfiguration.net",
     "address": "14115 Hillcrest Rd, Dallas, TX 75254",
     "state": "TX",
     "diocese": "Dallas",
@@ -2502,7 +2502,7 @@
     "rector_phone": "",
     "rector_email": "",
     "sunday_services": "9:00 AM Holy Eucharist with adult and youth choirs and Children's Chapel (livestreamed on YouTube); 11:15 AM Holy Eucharist with the Transfiguration Choir, occasionally incense",
-    "weekday_services": "Saturday 5:30 PM Holy Eucharist, The Table (casual, acoustic music); Wednesday 6:00 PM Holy Eucharist in Holy Cross Chapel (healing prayers and anointing on the first Wednesday); Thursday 12:00 PM Holy Eucharist, Rite I, in Holy Cross Chapel; online Morning Prayer Mon–Fri 8:00 AM and Compline Mon–Thu 9:00 PM",
+    "weekday_services": "Saturday 5:30 PM Holy Eucharist, The Table (casual, acoustic music); Wednesday 6:00 PM Holy Eucharist in Holy Cross Chapel (healing prayers and anointing on the first Wednesday); Thursday 12:00 PM Holy Eucharist, Rite I, in Holy Cross Chapel; online Morning Prayer Mon-Fri 8:00 AM and Compline Mon-Thu 9:00 PM",
     "diocesan_bishop": "The Rt. Rev. Robert P. Price",
     "clergy_title": "",
     "rector_name": "The Rev. Casey Shobe",
