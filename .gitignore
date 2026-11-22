@@ -2,5 +2,8 @@
 node_modules/
 __pycache__/
 
-# Archives
+# New Files
 *.zip
+
+# Episcopal batch output folder (project root)
+/episcopal-batches-all/
